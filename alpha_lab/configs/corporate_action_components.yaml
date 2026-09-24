@@ -1,0 +1,83 @@
+# 原接口将普通股息与特别股息分行；只合并已逐项核对的事件，拒绝通用盲目求和。
+components:
+  - ts_code: 600600.SH
+    ex_date: '2023-07-14'
+    component_count: 2
+    cash_div_tax: 1.80
+    stk_div: 0.0
+    evidence: 'https://file.finance.sina.com.cn/hkdata98/hk/hk_realtime_announcement/news/20230706/10809161-0.PDF'
+    check: '发行人公告2023-022，PDF第2页：普通1.30+特别0.50=每股1.80元；104.51-1.80=102.71。必须先执行下列源修正，禁止按0.50核验或把1.80与0.50双计。'
+  - ts_code: 600188.SH
+    ex_date: '2023-07-17'
+    component_count: 2
+    cash_div_tax: 4.30
+    stk_div: 0.5
+    evidence: 'https://static.sse.com.cn/bond/bridge/information/c/202411/5e76b0bc20734a85bed910d868fad6b1.pdf'
+    check: '3.07+1.23=4.30；(33.87-4.30)/1.5=19.7133，与当日pre_close=19.71吻合'
+  - ts_code: 601828.SH
+    ex_date: '2023-07-24'
+    component_count: 2
+    cash_div_tax: 0.08
+    stk_div: 0.0
+    check: '0.034+0.046=0.080；4.96-0.08=4.88，与当日pre_close=4.88吻合'
+source_corrections:
+  - id: '600600_20230714_ordinary_cash_component'
+    match:
+      ts_code: 600600.SH
+      end_date: '2022-12-31'
+      ann_date: '2023-03-23'
+      imp_ann_date: '2023-07-07'
+      ex_date: '2023-07-14'
+      record_date: '2023-07-13'
+      pay_date: '2023-07-14'
+      div_proc: '实施'
+    expected_values: {cash_div: 1.80, cash_div_tax: 0.0, stk_div: 0.0}
+    replacement_values: {cash_div: 1.30, cash_div_tax: 1.30}
+    source_ann_date: '2023-07-06'
+    evidence: 'https://file.finance.sina.com.cn/hkdata98/hk/hk_realtime_announcement/news/20230706/10809161-0.PDF'
+    check: '公告2023-022，PDF页索引1明确普通股息1.30及特别股息0.50、合计1.80元。源普通行cash_div_tax误为0且cash_div存合计1.80，逐键核对旧值后将该行两字段均修正为普通股息1.30；特别股息原行0.50保留。登记2023-07-13，除息和支付2023-07-14；行情104.51-102.71=1.80仅作交叉核验。'
+reference_adjustments:
+  - ts_code: 688069.SH
+    ann_date: '2023-06-13'
+    ex_date: '2023-06-19'
+    total_shares: 83203600
+    participating_shares: 81517600
+    cash_div_tax: 0.19
+    stk_div: 0.4
+    evidence: 'https://paper.cnstock.com/html/2023-06/13/content_1780202.htm'
+    check: '公告2023-020：回购1686000股不参与；参考现金0.18615、参考转增0.39189；实际权益仍为0.19元及0.4股。'
+  - ts_code: 688069.SH
+    ann_date: '2022-06-20'
+    ex_date: '2022-06-20'
+    total_shares: 59470000
+    participating_shares: 59334000
+    cash_div_tax: 0.56128
+    stk_div: 0.4
+    evidence: 'https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2022-06-20/688069_20220620_1_eNfT6WZW.pdf'
+    check: '公告2022-033：登记日股本调整，回购136000股不参与；参考现金0.56000、参考转增0.39909；只修正除权参考，不稀释实际股东权益。'
+  - ts_code: 002972.SZ
+    ann_date: '2023-05-17'
+    ex_date: '2023-05-25'
+    total_shares: 176320000
+    participating_shares: 174222000
+    cash_div_tax: 0.6
+    stk_div: 0.4
+    evidence: 'https://epaper.stcn.com/att/202305/17/974f6b62-72db-43f0-8b9e-4c19ce64ab45.pdf'
+    check: '公告2023-031：回购2098000股不参与；(18.60-0.6*174222000/176320000)/(1+0.4*174222000/176320000)=12.9061，行情参考12.91；实际股东权益仍为每股0.6元及转增0.4股。'
+  - ts_code: 603661.SH
+    ann_date: '2022-07-07'
+    ex_date: '2022-07-14'
+    total_shares: 100000000
+    participating_shares: 97667577
+    cash_div_tax: 1.0
+    stk_div: 0.4
+    evidence: 'https://pdf.dfcfw.com/pdf/H2_AN202207061575849120_1.pdf'
+    check: '回购账户2332423股不参与；参考现金0.97667577，参考转增0.390670308；(40.40-0.97667577)/1.390670308≈28.35。股东仍每股得现金1元及转增0.4股。'
+rights_issues:
+  - ts_code: 600030.SH
+    ex_date: '2022-01-27'
+    ratio: 0.15
+    subscription_price: 14.43
+    policy: decline
+    evidence: 'https://www.cs.ecitic.com/newsite/tzzgx/ggyth/gg/aggg/202201/P020220119576021469431.pdf'
+    check: '不追加配股资金，不增加股数；(25.70+0.15*14.43)/1.15=24.23，与当日pre_close吻合'

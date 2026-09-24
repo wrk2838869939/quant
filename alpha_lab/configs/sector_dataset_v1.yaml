@@ -1,0 +1,14 @@
+# 公开计算示例配置；完整历史输入需单独准备。
+output_root: alpha_lab/data/sector_datasets
+start: '2014-01-02'
+end: '2026-09-08'
+version_change: '2021-12-13'
+older_version: SW2014
+newer_version: SW2021
+base_value: 1000.0
+maximum_member_weight: 0.2
+minimum_members: 5
+minimum_quote_coverage: 0.8
+share_unit_multiplier: 10000.0
+flat_return_tolerance: 1.0e-08
+prefix_check_end: '2015-01-30'

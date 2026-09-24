@@ -1,0 +1,393 @@
+{
+  "export_date": "2026-09-24",
+  "scope": "白名单核心源码与合成数据测试；未导入旧Git历史。",
+  "files": [
+    {
+      "source": "alpha_lab/configs/corporate_action_components.yaml",
+      "published": "alpha_lab/configs/corporate_action_components.yaml",
+      "source_sha256": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+      "published_sha256": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/configs/monthly_portfolio_audit.yaml",
+      "published": "alpha_lab/configs/monthly_portfolio_audit.yaml",
+      "source_sha256": "926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0",
+      "published_sha256": "a91a62d37bdcfff35afa8bc67401d703e925ea3b00e757e566fc8a06247e81a7",
+      "adaptations": [
+        "移除未发布数据路径，账户初始资金使用示例值。"
+      ]
+    },
+    {
+      "source": "alpha_lab/configs/sector_dataset_v1.yaml",
+      "published": "alpha_lab/configs/sector_dataset_v1.yaml",
+      "source_sha256": "68ac3dca81f41ee44c3e6ea87c1fef0e9b657f23b70b4d6de507ee48cf1bd192",
+      "published_sha256": "36c451ce3bb64eb9107e249a66ae26188e95149ebb927e491c176b2b48f07471",
+      "adaptations": [
+        "移除未发布数据路径，账户初始资金使用示例值。"
+      ]
+    },
+    {
+      "source": "alpha_lab/configs/sector_shape_events_v1.yaml",
+      "published": "alpha_lab/configs/sector_shape_events_v1.yaml",
+      "source_sha256": "ece71fdfb194ccc6f5ae8ccd3343f20c6f90687e15d1f68a6757f84ab47a4b65",
+      "published_sha256": "7d2af003bbf47caeb95cdb51e9f9642507843a4ff7c5f5e66a4ad5fd2dacb649",
+      "adaptations": [
+        "移除未发布数据路径，账户初始资金使用示例值。"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/config.yaml",
+      "published": "alpha_lab/experiments/sector_fuzzy_v1/config.yaml",
+      "source_sha256": "03f315356321535bfc3ecabd285488790560bcdab09fa2a45e52a74f84195235",
+      "published_sha256": "ce815e603d371a41701cbaed5dc1a71cb5b9f2625f3fca103e49753e58bd1063",
+      "adaptations": [
+        "移除未发布数据路径，账户初始资金使用示例值。"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/model.py",
+      "published": "alpha_lab/experiments/sector_fuzzy_v1/model.py",
+      "source_sha256": "e9e2b6e37d8aef980006373517e3f68b828d1b3a7c509ace356765bfc8d1ee40",
+      "published_sha256": "e9e2b6e37d8aef980006373517e3f68b828d1b3a7c509ace356765bfc8d1ee40",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/random_split.py",
+      "published": "alpha_lab/experiments/sector_fuzzy_v1/random_split.py",
+      "source_sha256": "2b012fd4d0325b954012405b9e04d1aa0f27f2381acf09e53d12bca9dcb93178",
+      "published_sha256": "2b012fd4d0325b954012405b9e04d1aa0f27f2381acf09e53d12bca9dcb93178",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/test_model.py",
+      "published": "alpha_lab/experiments/sector_fuzzy_v1/test_model.py",
+      "source_sha256": "d97174e98737186a8a38f12e9a5c313001aed086ac5ef135851e7fc5f05cdd33",
+      "published_sha256": "d97174e98737186a8a38f12e9a5c313001aed086ac5ef135851e7fc5f05cdd33",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/test_random_split.py",
+      "published": "alpha_lab/experiments/sector_fuzzy_v1/test_random_split.py",
+      "source_sha256": "987b60088d7be09ead309c9f9046c3e3512eda8933d085ced535cd2540c4fa10",
+      "published_sha256": "987b60088d7be09ead309c9f9046c3e3512eda8933d085ced535cd2540c4fa10",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/scripts/audit_monthly_portfolio.py",
+      "published": "alpha_lab/scripts/audit_monthly_portfolio.py",
+      "source_sha256": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+      "published_sha256": "707addb963a8644a7e3638d9588a07db86f825262796bfdfdd8253b7a41430e2",
+      "adaptations": [
+        "仅提取 reconcile，未发布私有数据加载与旧版比较入口。"
+      ]
+    },
+    {
+      "source": "alpha_lab/src/baseline_combination.py",
+      "published": "alpha_lab/src/baseline_combination.py",
+      "source_sha256": "53b1886db681caffb739bb9cd2e25ef020d220bb6dd14e49dad8b015d4b12ca6",
+      "published_sha256": "53b1886db681caffb739bb9cd2e25ef020d220bb6dd14e49dad8b015d4b12ca6",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/eval_factor.py",
+      "published": "alpha_lab/src/eval_factor.py",
+      "source_sha256": "c3f488c21a46f00a5eb1f88d4ef0b1a90c873850eb7cd85113f2e407dd29276b",
+      "published_sha256": "c3f488c21a46f00a5eb1f88d4ef0b1a90c873850eb7cd85113f2e407dd29276b",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/expr_engine.py",
+      "published": "alpha_lab/src/expr_engine.py",
+      "source_sha256": "1ae6ddec5f77078a3b598203bf6fdbc3735c1d0ee6c9da2bf0930c3fe2ea078a",
+      "published_sha256": "1ae6ddec5f77078a3b598203bf6fdbc3735c1d0ee6c9da2bf0930c3fe2ea078a",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/factors_library.py",
+      "published": "alpha_lab/src/factors_library.py",
+      "source_sha256": "1e4987bf568e1d962c4d36ef993a4d74687199c1a87fc18485dccd87e8571630",
+      "published_sha256": "1e4987bf568e1d962c4d36ef993a4d74687199c1a87fc18485dccd87e8571630",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/gp_miner.py",
+      "published": "alpha_lab/src/gp_miner.py",
+      "source_sha256": "c16799dac7a6fa48df56c9777b3769747528e3ab4426ba9658f0e9b50613df5d",
+      "published_sha256": "c16799dac7a6fa48df56c9777b3769747528e3ab4426ba9658f0e9b50613df5d",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/gp_miner_gpu.py",
+      "published": "alpha_lab/src/gp_miner_gpu.py",
+      "source_sha256": "02d13498e0a8321feb64f1e6ff29636c4f7aa2f9fff9c67b2445f73a2caa5b59",
+      "published_sha256": "02d13498e0a8321feb64f1e6ff29636c4f7aa2f9fff9c67b2445f73a2caa5b59",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/gpu_eval.py",
+      "published": "alpha_lab/src/gpu_eval.py",
+      "source_sha256": "f80900ad44f01d0f88eedafd07f67c1346ae2290e5bd7b8c8edaafddab93c26e",
+      "published_sha256": "f80900ad44f01d0f88eedafd07f67c1346ae2290e5bd7b8c8edaafddab93c26e",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/gpu_ops.py",
+      "published": "alpha_lab/src/gpu_ops.py",
+      "source_sha256": "4accf8d0d31552b5e5563f13193cba5e6277f1310cf13c8ad8b9faa8b6524067",
+      "published_sha256": "4accf8d0d31552b5e5563f13193cba5e6277f1310cf13c8ad8b9faa8b6524067",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/initialized_policy.py",
+      "published": "alpha_lab/src/initialized_policy.py",
+      "source_sha256": "79abe092401a58d307c169fa227d04b5b7bb0c0d58a60960b20ad98d7e7880e8",
+      "published_sha256": "79abe092401a58d307c169fa227d04b5b7bb0c0d58a60960b20ad98d7e7880e8",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/labels.py",
+      "published": "alpha_lab/src/labels.py",
+      "source_sha256": "36ff1f59e7d080b1f4fefe93f73a59f4c7427bba2c8b92a9896b76c5465a87fb",
+      "published_sha256": "5835ca91bfdf4e31277a7a8d08105e1d19dca354338b5bba7e41584366e3d8b3",
+      "adaptations": [
+        "按源码修正观测窗口、停牌、退市和信号成交时点说明。"
+      ]
+    },
+    {
+      "source": "alpha_lab/src/learning_search.py",
+      "published": "alpha_lab/src/learning_search.py",
+      "source_sha256": "a7bc8ec5970e6ea22f331744b10e2b9347db7bd6c613fda0ef38b4c48129c90c",
+      "published_sha256": "a7bc8ec5970e6ea22f331744b10e2b9347db7bd6c613fda0ef38b4c48129c90c",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/ledger.py",
+      "published": "alpha_lab/src/ledger.py",
+      "source_sha256": "f784dce8e0bdce46d9406a7c5485503d7260c9c0dff8d2b55477a925d71dc031",
+      "published_sha256": "749d66b2cf3b1168389179afb90c4850deffe01966165068fc2513f31d6ba97e",
+      "adaptations": [
+        "台账改为仓库相对位置。"
+      ]
+    },
+    {
+      "source": "alpha_lab/src/neutralize.py",
+      "published": "alpha_lab/src/neutralize.py",
+      "source_sha256": "f7ac8afda1ef375818fb55b4ad956876092fd606f673f1f46a93279e8422d872",
+      "published_sha256": "f7ac8afda1ef375818fb55b4ad956876092fd606f673f1f46a93279e8422d872",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/policy_evolution.py",
+      "published": "alpha_lab/src/policy_evolution.py",
+      "source_sha256": "f08fc4e2b28e45d45bd4f158c0f7bf2cb5473f55fcd4bd391aa24f512a8a96d8",
+      "published_sha256": "f08fc4e2b28e45d45bd4f158c0f7bf2cb5473f55fcd4bd391aa24f512a8a96d8",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/policy_portfolio.py",
+      "published": "alpha_lab/src/policy_portfolio.py",
+      "source_sha256": "5664bd36d4f30c032b1bc02ce267ae4fa71002dad40316ab7238de0db71bb04a",
+      "published_sha256": "5664bd36d4f30c032b1bc02ce267ae4fa71002dad40316ab7238de0db71bb04a",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/policy_portfolio_cached.py",
+      "published": "alpha_lab/src/policy_portfolio_cached.py",
+      "source_sha256": "82e01561a86707f321656b4007e3bcb14462b8e998713a2167f571a4906433b8",
+      "published_sha256": "82e01561a86707f321656b4007e3bcb14462b8e998713a2167f571a4906433b8",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/portfolio.py",
+      "published": "alpha_lab/src/portfolio.py",
+      "source_sha256": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+      "published_sha256": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/rank_ic.py",
+      "published": "alpha_lab/src/rank_ic.py",
+      "source_sha256": "9ae94f6304cebeafc17134c6a5afaa68f054a04d5948684e8e94cc6f7575fc6f",
+      "published_sha256": "9ae94f6304cebeafc17134c6a5afaa68f054a04d5948684e8e94cc6f7575fc6f",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/retail_rebalance.py",
+      "published": "alpha_lab/src/retail_rebalance.py",
+      "source_sha256": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+      "published_sha256": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/rule_search.py",
+      "published": "alpha_lab/src/rule_search.py",
+      "source_sha256": "5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda",
+      "published_sha256": "5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/sector_confirmation_returns.py",
+      "published": "alpha_lab/src/sector_confirmation_returns.py",
+      "source_sha256": "8f1c19ccce92556aaee6fc6c01bf65554a5beea976fcd15b63aa012124a197e1",
+      "published_sha256": "8f1c19ccce92556aaee6fc6c01bf65554a5beea976fcd15b63aa012124a197e1",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/sector_dataset.py",
+      "published": "alpha_lab/src/sector_dataset.py",
+      "source_sha256": "deaaa2fa3e039158df36c6df1ff17cbdb3954d3d16ab35176e52552e26b650d6",
+      "published_sha256": "deaaa2fa3e039158df36c6df1ff17cbdb3954d3d16ab35176e52552e26b650d6",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/sector_multiscale_events.py",
+      "published": "alpha_lab/src/sector_multiscale_events.py",
+      "source_sha256": "fcf048156d933afe97af6855cfeda070df8e012e931d19129b7ce041a3805c23",
+      "published_sha256": "fcf048156d933afe97af6855cfeda070df8e012e931d19129b7ce041a3805c23",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/sector_shape_events.py",
+      "published": "alpha_lab/src/sector_shape_events.py",
+      "source_sha256": "eea8cbfbf6c605dae91fa1a2eff6ef750c51854687648c87da99858f3f3bca69",
+      "published_sha256": "eea8cbfbf6c605dae91fa1a2eff6ef750c51854687648c87da99858f3f3bca69",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/selection_first.py",
+      "published": "alpha_lab/src/selection_first.py",
+      "source_sha256": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+      "published_sha256": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/src/sequence_state_learning.py",
+      "published": "alpha_lab/src/sequence_state_learning.py",
+      "source_sha256": "46c29b3bfa2daa3bb11875cbf03a5fa80f712e8c79c94964ad8e0fa424c85c73",
+      "published_sha256": "46c29b3bfa2daa3bb11875cbf03a5fa80f712e8c79c94964ad8e0fa424c85c73",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_initialized_policy.py",
+      "published": "alpha_lab/tests/test_initialized_policy.py",
+      "source_sha256": "91b62a6ff43e0bf36533523440ef5fb01d2712a99baf9576830c7f26ac8fc877",
+      "published_sha256": "91b62a6ff43e0bf36533523440ef5fb01d2712a99baf9576830c7f26ac8fc877",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_operator_parity.py",
+      "published": "alpha_lab/tests/test_operator_parity.py",
+      "source_sha256": "38ccbfb2f8740872d686a681434e47465fdc5f8b15824570a422511b6080589d",
+      "published_sha256": "38ccbfb2f8740872d686a681434e47465fdc5f8b15824570a422511b6080589d",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_policy_evolution.py",
+      "published": "alpha_lab/tests/test_policy_evolution.py",
+      "source_sha256": "bf553ca3329276bd9d4de1c29c3af265a33b03f1e165565f10b7d507aebfa0e9",
+      "published_sha256": "bf553ca3329276bd9d4de1c29c3af265a33b03f1e165565f10b7d507aebfa0e9",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_portfolio.py",
+      "published": "alpha_lab/tests/test_portfolio.py",
+      "source_sha256": "3b0a82054c93e0c50382b627a1482b7681a909ea789e84515c128cf3cf8391d6",
+      "published_sha256": "3b0a82054c93e0c50382b627a1482b7681a909ea789e84515c128cf3cf8391d6",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_research_statistics.py",
+      "published": "alpha_lab/tests/test_research_statistics.py",
+      "source_sha256": "ed18ee9f8763966a57bbc3a098b8b77c516715da8541e71d01f076ef36f2f1f8",
+      "published_sha256": "ed18ee9f8763966a57bbc3a098b8b77c516715da8541e71d01f076ef36f2f1f8",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_sector_dataset.py",
+      "published": "alpha_lab/tests/test_sector_dataset.py",
+      "source_sha256": "27578426adf8c518bcadeb1994a580311d9344f8e5c03f30303e40f59fa4ebcd",
+      "published_sha256": "27578426adf8c518bcadeb1994a580311d9344f8e5c03f30303e40f59fa4ebcd",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_sector_multiscale_events.py",
+      "published": "alpha_lab/tests/test_sector_multiscale_events.py",
+      "source_sha256": "3687d5342e5aacd838007e5ac8a487b6c0dee810956782ac9e9b932875233632",
+      "published_sha256": "3687d5342e5aacd838007e5ac8a487b6c0dee810956782ac9e9b932875233632",
+      "adaptations": []
+    },
+    {
+      "source": "alpha_lab/tests/test_sector_shape_events.py",
+      "published": "alpha_lab/tests/test_sector_shape_events.py",
+      "source_sha256": "794eb348c11540840752dc4acd285b5dc47c86668a712ef68e5d709995c34ded",
+      "published_sha256": "794eb348c11540840752dc4acd285b5dc47c86668a712ef68e5d709995c34ded",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/__init__.py",
+      "published": "datahub/src/datahub/__init__.py",
+      "source_sha256": "39f00b9335d6e5f3772f218785d0577d6ed1fc005b224880b36ac3bf75db470d",
+      "published_sha256": "39f00b9335d6e5f3772f218785d0577d6ed1fc005b224880b36ac3bf75db470d",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/calendar_view.py",
+      "published": "datahub/src/datahub/calendar_view.py",
+      "source_sha256": "4431f82f88956f14537d557a3e4b1da6be364a7ed2e693c66a9b55d1bf714039",
+      "published_sha256": "4431f82f88956f14537d557a3e4b1da6be364a7ed2e693c66a9b55d1bf714039",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/config.py",
+      "published": "datahub/src/datahub/config.py",
+      "source_sha256": "7fec5f2650292b70fe3c041d97966777236461fec9be3afde6159057e0b9af82",
+      "published_sha256": "a1ac3166e8f198c72515996e42ca36cb74bfbb7df7480571e61dbf046d6c2216",
+      "adaptations": [
+        "数据根改为仓库相对位置。"
+      ]
+    },
+    {
+      "source": "datahub/src/datahub/frozen.py",
+      "published": "datahub/src/datahub/frozen.py",
+      "source_sha256": "c785ee142906196b020cecfadf10b44c74a6666a55ed5c57d4f1f78c9fa8d05a",
+      "published_sha256": "c785ee142906196b020cecfadf10b44c74a6666a55ed5c57d4f1f78c9fa8d05a",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/hub.py",
+      "published": "datahub/src/datahub/hub.py",
+      "source_sha256": "2bddac878014e31887eef997fed839449afba6c78473cf14f4a8e288cf0633ab",
+      "published_sha256": "2bddac878014e31887eef997fed839449afba6c78473cf14f4a8e288cf0633ab",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/indicators.py",
+      "published": "datahub/src/datahub/indicators.py",
+      "source_sha256": "b5d35afee4ee1b9df083e44de05631107c773f3eac167a485845a1e65792153b",
+      "published_sha256": "b5d35afee4ee1b9df083e44de05631107c773f3eac167a485845a1e65792153b",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/io_utils.py",
+      "published": "datahub/src/datahub/io_utils.py",
+      "source_sha256": "a7cab1f96cfbb2a83dcf0fed075fb6244d1fe13a0ae23b3cdda41b355aafe022",
+      "published_sha256": "a7cab1f96cfbb2a83dcf0fed075fb6244d1fe13a0ae23b3cdda41b355aafe022",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/src/datahub/parallel.py",
+      "published": "datahub/src/datahub/parallel.py",
+      "source_sha256": "f6d3ba4012d0a691d05d9134cc52d0216be7604a2ada291c0888a2cc4f4bfdcb",
+      "published_sha256": "f6d3ba4012d0a691d05d9134cc52d0216be7604a2ada291c0888a2cc4f4bfdcb",
+      "adaptations": []
+    },
+    {
+      "source": "datahub/tests/test_research_contracts.py",
+      "published": "datahub/tests/test_research_contracts.py",
+      "source_sha256": "d08c11c7b7a1f6cb8df61eb736d5c8a382cff9c50462996da42bbe399348e748",
+      "published_sha256": "d08c11c7b7a1f6cb8df61eb736d5c8a382cff9c50462996da42bbe399348e748",
+      "adaptations": []
+    }
+  ]
+}
