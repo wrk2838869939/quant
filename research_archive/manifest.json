@@ -1,0 +1,3869 @@
+{
+  "archive_date": "2026-09-24",
+  "counts": {
+    "研究文档": 178,
+    "实验脚本": 56
+  },
+  "identical_sources_deduplicated": [
+    {
+      "source": "alpha_lab_growth/docs/ACTIVE_CASH_RESEARCH_20260912.md",
+      "same_as": "alpha_lab/docs/ACTIVE_CASH_RESEARCH_20260912.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/ACTIVE_CASH_VALIDATION_20260912.md",
+      "same_as": "alpha_lab/docs/ACTIVE_CASH_VALIDATION_20260912.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/AUTONOMOUS_VALUE_ITERATIONS_20260913.md",
+      "same_as": "alpha_lab/docs/AUTONOMOUS_VALUE_ITERATIONS_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/CASH_ECONOMICS_RESEARCH_20260914.md",
+      "same_as": "alpha_lab/docs/CASH_ECONOMICS_RESEARCH_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/CAUSAL_EXECUTION_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/CAUSAL_EXECUTION_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/CLOSING_EXECUTION_20260914.md",
+      "same_as": "alpha_lab/docs/CLOSING_EXECUTION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/CONCENTRATION_RISK_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/CONCENTRATION_RISK_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/CONDITIONAL_HOLD_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/CONDITIONAL_HOLD_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/DATA_SCHEMA.md",
+      "same_as": "alpha_lab/docs/DATA_SCHEMA.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/DIVIDE_SELECTION_20260913.md",
+      "same_as": "alpha_lab/docs/DIVIDE_SELECTION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/ENTRY_GUARD_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/ENTRY_GUARD_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/EXECUTION_METADATA_GUIDE_20260914.md",
+      "same_as": "alpha_lab/docs/EXECUTION_METADATA_GUIDE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/EXECUTION_METADATA_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/EXECUTION_METADATA_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/EXIT_EVIDENCE_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/EXIT_EVIDENCE_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/EXIT_HISTORY_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/EXIT_HISTORY_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/FINANCIAL_EVENT_RECOVERY_20260913.md",
+      "same_as": "alpha_lab/docs/FINANCIAL_EVENT_RECOVERY_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/FINANCIAL_PIT_GATE_20260913.md",
+      "same_as": "alpha_lab/docs/FINANCIAL_PIT_GATE_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/FORWARD_RISK_EVIDENCE_20260914.md",
+      "same_as": "alpha_lab/docs/FORWARD_RISK_EVIDENCE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/HOLD_SENSITIVITY_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/HOLD_SENSITIVITY_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/HYBRID_STRATEGY_DETAIL_20260913.md",
+      "same_as": "alpha_lab/docs/HYBRID_STRATEGY_DETAIL_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/IC_REVALIDATION_20260911.md",
+      "same_as": "alpha_lab/docs/IC_REVALIDATION_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/INDEPENDENT_LEAK_AUDIT_20260913.md",
+      "same_as": "alpha_lab/docs/INDEPENDENT_LEAK_AUDIT_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/INDEPENDENT_TARGETED_RESTORE_CAUSAL_20260914.md",
+      "same_as": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_CAUSAL_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/INDEPENDENT_TARGETED_RESTORE_LIVE_20260914.md",
+      "same_as": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_LIVE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/INDEPENDENT_TARGETED_RESTORE_READINESS_20260914.md",
+      "same_as": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_READINESS_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/LIVE_INGESTION_GUIDE_20260914.md",
+      "same_as": "alpha_lab/docs/LIVE_INGESTION_GUIDE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/LIVE_INGESTION_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/LIVE_INGESTION_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/LIVE_READINESS_AUDIT_20260914.md",
+      "same_as": "alpha_lab/docs/LIVE_READINESS_AUDIT_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/LONG_ONLY_FOLLOWUP_20260911.md",
+      "same_as": "alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/MAIL_OUTBOX_20260914.md",
+      "same_as": "alpha_lab/docs/MAIL_OUTBOX_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/MANUAL_EXECUTION_GUIDE_20260914.md",
+      "same_as": "alpha_lab/docs/MANUAL_EXECUTION_GUIDE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/MONTHLY_DAY15_START_20260914.md",
+      "same_as": "alpha_lab/docs/MONTHLY_DAY15_START_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/MONTHLY_PORTFOLIO_AUDIT_20260911.md",
+      "same_as": "alpha_lab/docs/MONTHLY_PORTFOLIO_AUDIT_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/MONTHLY_RISK_MANUAL_INTEGRATION_20260914.md",
+      "same_as": "alpha_lab/docs/MONTHLY_RISK_MANUAL_INTEGRATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/OPENING_CONTINUOUS_EXECUTION_20260915.md",
+      "same_as": "alpha_lab/docs/OPENING_CONTINUOUS_EXECUTION_20260915.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/OPERATOR_PARITY.md",
+      "same_as": "alpha_lab/docs/OPERATOR_PARITY.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PATH_MECHANISM_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/PATH_MECHANISM_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PATIENT_TREND_DIRECTION_20260912.md",
+      "same_as": "alpha_lab/docs/PATIENT_TREND_DIRECTION_20260912.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/POLICY_CASH_PROTOCOL_20260913.md",
+      "same_as": "alpha_lab/docs/POLICY_CASH_PROTOCOL_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/POLICY_CASH_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/POLICY_CASH_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PORTFOLIO_ACCOUNTING.md",
+      "same_as": "alpha_lab/docs/PORTFOLIO_ACCOUNTING.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PORTFOLIO_CASH_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/PORTFOLIO_CASH_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PORTFOLIO_IMPROVEMENT_20260911.md",
+      "same_as": "alpha_lab/docs/PORTFOLIO_IMPROVEMENT_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/PROFIT_DEFENSE_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/PROFIT_DEFENSE_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/QUALITY_REPORT.md",
+      "same_as": "alpha_lab/docs/QUALITY_REPORT.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RANK_LIVE_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/RANK_LIVE_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RECENT_LOW_TURNOVER_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/RECENT_LOW_TURNOVER_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/REENTRY_CASH_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/REENTRY_CASH_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RESEARCH_METHODS_SURVEY_20260911.md",
+      "same_as": "alpha_lab/docs/RESEARCH_METHODS_SURVEY_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RETAIL_COMPLETE_VALIDATION_20260912.md",
+      "same_as": "alpha_lab/docs/RETAIL_COMPLETE_VALIDATION_20260912.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RETAIL_PROCESS_AUDIT_20260912.md",
+      "same_as": "alpha_lab/docs/RETAIL_PROCESS_AUDIT_20260912.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/REVIEW_DATE_MECHANISM_20260913.md",
+      "same_as": "alpha_lab/docs/REVIEW_DATE_MECHANISM_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RISK_BUDGET_RESEARCH_20260914.md",
+      "same_as": "alpha_lab/docs/RISK_BUDGET_RESEARCH_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/RISK_RECOVERY_RESEARCH_20260914.md",
+      "same_as": "alpha_lab/docs/RISK_RECOVERY_RESEARCH_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/ROLLING_REVIEW_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/ROLLING_REVIEW_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/SELECTION_STABILITY_RESEARCH_20260914.md",
+      "same_as": "alpha_lab/docs/SELECTION_STABILITY_RESEARCH_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/SENSITIVITY_ROBUSTNESS_RESEARCH_20260913.md",
+      "same_as": "alpha_lab/docs/SENSITIVITY_ROBUSTNESS_RESEARCH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/SHADOW_EXECUTION_GUIDE_20260914.md",
+      "same_as": "alpha_lab/docs/SHADOW_EXECUTION_GUIDE_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/SHADOW_EXECUTION_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/SHADOW_EXECUTION_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/STARTUP_TIMING_RESEARCH_20260914.md",
+      "same_as": "alpha_lab/docs/STARTUP_TIMING_RESEARCH_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/STATISTICS_STYLE_AUDIT_20260911.md",
+      "same_as": "alpha_lab/docs/STATISTICS_STYLE_AUDIT_20260911.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/SYMMETRIC_PHASE_VALIDATION_20260913.md",
+      "same_as": "alpha_lab/docs/SYMMETRIC_PHASE_VALIDATION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TARGETED_RESEARCH_CASH_20260913.md",
+      "same_as": "alpha_lab/docs/TARGETED_RESEARCH_CASH_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TARGETED_RESEARCH_HOLDING_20260913.md",
+      "same_as": "alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TARGETED_RESEARCH_SELECTION_20260913.md",
+      "same_as": "alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TARGETED_RESEARCH_SYNTHESIS_20260913.md",
+      "same_as": "alpha_lab/docs/TARGETED_RESEARCH_SYNTHESIS_20260913.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TARGETED_RESTORE_VALIDATION_20260914.md",
+      "same_as": "alpha_lab/docs/TARGETED_RESTORE_VALIDATION_20260914.md"
+    },
+    {
+      "source": "alpha_lab_growth/docs/TREND_ENTRY_STATE_AUDIT_20260912.md",
+      "same_as": "alpha_lab/docs/TREND_ENTRY_STATE_AUDIT_20260912.md"
+    }
+  ],
+  "files": [
+    {
+      "source": "FACTOR_MINING_SURVEY_20260908.md",
+      "published": "research_archive/FACTOR_MINING_SURVEY_20260908.md",
+      "title": "因子挖掘调研与低频策略重构路线图（2026-09-08）",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260908",
+      "source_sha256": "c80a438e6ef1733233381ce172f03a102b73a2088c614980422b36c2af06e71a",
+      "published_sha256": "c1bb72f1f4641429782b290bdd5fb041fa5ef80170b104a0e5fac811c1d2dae5",
+      "redactions": {
+        "machine_root": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "VERSIONS.md",
+      "published": "research_archive/VERSIONS.md",
+      "title": "量化选股模型 —— 版本演进总览",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "401edded68e8dfc5030a51d4824376ed826ee912700b4b4b0285949a3bb4ed3c",
+      "published_sha256": "a6fb0525bf335d2e9437eaf73b41f48ce4dd557feae2820802c912a055c4a6ff",
+      "redactions": {
+        "machine_path": 11,
+        "machine_root": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "a_share_v18/README.md",
+      "published": "research_archive/a_share_v18/README.md",
+      "title": "a_share_v18 — 两层轮动 诚实口径版",
+      "group": "其他资产与早期系统",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "2389985f17f1294015e1bd95e72826d916608820ddfbfee94ad7cf324c9dbcb9",
+      "published_sha256": "de6bf5ee163b8e73e8ab8662ed8cba5b38bf0c641c59202a44de8f65bbb36a6f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/README.md",
+      "published": "research_archive/alpha_lab/README.md",
+      "title": "alpha_lab — 低频量化研究与数据驱动因子挖掘 (重构版)",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "92707df60e822d73637ee949b1f2be558e6928a736e5c423cfaadaa71693ddb6",
+      "published_sha256": "69f044846e5130b1a0f88b512dcf21d6ae2f594fcfc5693d7463a097cc403445",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/ACTIVE_CASH_RESEARCH_20260912.md",
+      "published": "research_archive/alpha_lab/docs/ACTIVE_CASH_RESEARCH_20260912.md",
+      "title": "小资金账户的主动空仓：研究与旧代码审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "57c8287d87e99c04dde3282060f60e09b7c8f17191db15a38953d794910903d4",
+      "published_sha256": "f4712c2c1879c8388fa2f0c6b74a81cfe202b03afab740fb21cd2d59bc13c87b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/ACTIVE_CASH_VALIDATION_20260912.md",
+      "published": "research_archive/alpha_lab/docs/ACTIVE_CASH_VALIDATION_20260912.md",
+      "title": "主动空仓首轮验证：风险触发与恢复时点",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "9ecb6118106a33804fabaa2c75fb5145a8fa42e5574b0bf4aaa50c73000fb4cc",
+      "published_sha256": "b6a257b116d1db85e2f54d6ef87d3a8844d9599398a4a9145e3d62e85620537e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/AUTONOMOUS_VALUE_ITERATIONS_20260913.md",
+      "published": "research_archive/alpha_lab/docs/AUTONOMOUS_VALUE_ITERATIONS_20260913.md",
+      "title": "小资金长期趋势：收益幅度、持有纪律与主动空仓迭代",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "a7fead56317bdc744e08afa637fd354d8ed0266cfbd0329377dcb074d5f1e3da",
+      "published_sha256": "bd113dc565594dd555768c2affba930b82f51b13cf7de5bf76ea0f55bd867730",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_ATTRIBUTION_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_ATTRIBUTION_RESULTS_20260921.md",
+      "title": "基线收益来源与外推边界",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "665f47aabce38ad0908b3f09ae305a3c68c27fb525748126a57b69d98f7862ac",
+      "published_sha256": "f054bd219aac22d6162752bc1427786a2ccd57e8ee5816e23ae7b7b2e15ffaa9",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_COMBINATION_ABLATION_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_COMBINATION_ABLATION_20260920.md",
+      "title": "等权结果的固定消融协议",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "e5e21d39e370bfd6180002a0aa9c6691e6f2307d000040f2ecb21ba025c82948",
+      "published_sha256": "f0db5647fe8c0e109cc3ec0977e9197c5672b32958aaa1fa039ee7b614f9667b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_COMBINATION_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_COMBINATION_PREREG_20260920.md",
+      "title": "基线包含性与组合目标诊断：执行前协议",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "cd240c0d0f1c8ba060b87d540f8cc94e99dfe7227892be4f1246bdca1e95ee9f",
+      "published_sha256": "f78e774ff916ac8f4f95b17dac14bc564a897cc000c5a89af066daee7b09fe72",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_COMBINATION_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_COMBINATION_RESULTS_20260920.md",
+      "title": "完整基线组合研究结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "a1c8b8502de08b7bc6677f251fc20bc6fc7cfad64101bd04cd9c61a078c48f6f",
+      "published_sha256": "41a473f344baa9cc5273696d1eef666124ca5cda15e8089ba42a12c1e160a086",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_INCREMENT_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_INCREMENT_PREREG_20260920.md",
+      "title": "基线＋监督学习增量：执行前登记",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "ad508c3879ace83a71f49a39ae7cc3fa3b8b5db6931eb4f8eb96b5ad3cf3f082",
+      "published_sha256": "3077ed4aa264c748f9ca1a9d45f0f4b55dc32cf24917b0111835a985f8e8558c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_INCREMENT_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_INCREMENT_RESULTS_20260920.md",
+      "title": "基线＋监督学习增量：实际训练结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "556f851da030e94e0a794c6f28243dbfdc9d516d2f2d2e4463a5f32466cd10e0",
+      "published_sha256": "13cfbe58609c2e4d830d52b40f2c12b00a4d2873f12f33c9a76ab00138b9ac3e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_INITIALIZED_POLICY_LEARNING_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_INITIALIZED_POLICY_LEARNING_20260920.md",
+      "title": "按用户澄清重定研究目标：从基线初始化的完整策略学习",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "f2ac78c3c1d53a6829bc093dd3a2e5ec525e667e5478afbc7cddccd536888b63",
+      "published_sha256": "d9baeb7edf3ab445efc75aa1a9e95e96eba70d090266c2b73628c1c310376ae8",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_INITIALIZED_POLICY_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_INITIALIZED_POLICY_PREREG_20260920.md",
+      "title": "基线初始化完整策略学习：首轮执行登记",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "b323ac03e0fc6907c49159ff1a36907501f9419bbf8044ae2c8e3731030d2aff",
+      "published_sha256": "983e5c705788ed3fd57f18a4a49ad65be77b55cab7b6e8a36426e8b6eff6446f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_INITIALIZED_POLICY_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_INITIALIZED_POLICY_RESULTS_20260920.md",
+      "title": "基线初始化完整策略学习：首轮结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "039d2acfb6bb578ed3e580b16079108a1a8e6eff11be47b7f75efe5090094450",
+      "published_sha256": "91e8a548bfc58acf394c1d6a8573f1f0547b099a1ffca705fa11dd1c857a1d6b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_LEARNING_GAP_20260920.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_LEARNING_GAP_20260920.md",
+      "title": "为什么先前因子组合没有回到规则基线",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "969d7763c51b5fb5872d09fa744917349a889f879031959a5943723c188aea1b",
+      "published_sha256": "f88efd78d44409b42200b3cd25adc0c0f92f40e702334a8be484eca339c072f2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_STYLE_CONTROLS_PREREG_20260921.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_STYLE_CONTROLS_PREREG_20260921.md",
+      "title": "基线风格匹配与时间稳定性：运行前方案",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "4a9bc6dbb191f611f3505ac546a3b6f20754caf98749f8e2474398ada1a338b2",
+      "published_sha256": "f983c56a7a7642c6305791b26b88bc3a051d8539146f0e36074472b65cfa8185",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/BASELINE_STYLE_CONTROLS_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/BASELINE_STYLE_CONTROLS_RESULTS_20260921.md",
+      "title": "基线风格对照与跨年稳定性",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "a6e32ec58a934c330100a63a876dd0304c7c1f365af496ba1883a74309a7a385",
+      "published_sha256": "344ec87b576848b981a80fd6c4730f6449278bd9d656b3253a6610b5b2e74048",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CASH_ECONOMICS_RESEARCH_20260914.md",
+      "published": "research_archive/alpha_lab/docs/CASH_ECONOMICS_RESEARCH_20260914.md",
+      "title": "主动减仓的经济性：过程归因、机制修正与邻域验证",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "02e0154fcd4f15300833816ddb1a7f36709787e68b3d9bd7ab900514383dcbf7",
+      "published_sha256": "bf5c37b45aea7a23f32edebf0ef6857bbde32642778dbaa61ea5054887ba622a",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CAUSAL_EXECUTION_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/CAUSAL_EXECUTION_VALIDATION_20260913.md",
+      "title": "订单时序修复、身份更正与20组完整复验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "a9a3b7f462cb4eb75d1516ad06739c3d626f9f098eda53810e3bcf226c109646",
+      "published_sha256": "08fc9d2ef521c6930723a95e633ddaa74ec682178746130ec3ed9038ba4bf547",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CLASSIC_STRATEGY_SMOKE_20260920.md",
+      "published": "research_archive/alpha_lab/docs/CLASSIC_STRATEGY_SMOKE_20260920.md",
+      "title": "经典策略工程验收与固定输入入口",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "f68f807a641e1f3edfca4ff76d79277f607f8bbdce11d42d34dfb8f2360d7ba9",
+      "published_sha256": "5286ec15b944cd10695b2f6d879a73673fd172a05b0bd90a1932630403a683b5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CLOSING_EXECUTION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/CLOSING_EXECUTION_20260914.md",
+      "title": "14:30盘中代理与收盘集合竞价",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "9f00a840483c4cb364ca33b803b318f5faa37a1b668e56cb3aa090336b1803d7",
+      "published_sha256": "0cd6a786c90d033875ee089b00de88be73bb95a5a904d18439d1d9b97eaba24f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CONCENTRATION_RISK_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/CONCENTRATION_RISK_RESEARCH_20260913.md",
+      "title": "少量股票组合集中风险：原始证据与两个有界假设",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "40e9f517d637acbece27786e70cca80c743078a8032b510c3670be13e659c888",
+      "published_sha256": "75503118e3115544a591bb9db868cc76e0142ea639eaa32889fa474cd07905f6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/CONDITIONAL_HOLD_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/CONDITIONAL_HOLD_VALIDATION_20260913.md",
+      "title": "长期状态分治退出：30账户与固定持仓过程检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "2ff23c29740234b1b6c369df6ddce3c1ea5df0fc608c1ff1a52b21bd83d94368",
+      "published_sha256": "2941161223b439316d52e393a50cb29b31c14325c0628deed10169b4fd3a1a2f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/DATA_SCHEMA.md",
+      "published": "research_archive/alpha_lab/docs/DATA_SCHEMA.md",
+      "title": "alpha_lab 数据 Schema 文档",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "ac80899b9a8d3bddfa979b43f61b61e78cda16b643cfb943a44a7fd5d14a93a3",
+      "published_sha256": "4c1ec464a43eae1220dc1845122806987bd4781ef51cc35a3679604c17aa2ec6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/DIVIDE_SELECTION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/DIVIDE_SELECTION_20260913.md",
+      "title": "换选择策略与分治选择：阶段判断、组内选择和实际配仓",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "a96616e21e661af9a2e6b385810b69e20745cbf1496035ce79859355a5b6fdc7",
+      "published_sha256": "0eec0587ee83825539094b30ecfffcbb9490ff80df6b13763b1ed749c2897bd2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/ENTRY_GUARD_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/ENTRY_GUARD_VALIDATION_20260913.md",
+      "title": "集中风险与补仓暂停：调研、过程消融和完整结果",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "09f38b82f79ef2851784cdc9e2df452ed5d639472072b0d89ef996ba667d6e95",
+      "published_sha256": "18dd22aef56563ad654da94f8f25d01ddaf56e34bf1de93588d8183a733b98bf",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/EXECUTION_METADATA_GUIDE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/EXECUTION_METADATA_GUIDE_20260914.md",
+      "title": "执行元数据操作指南",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "a7e2efc274fcec5f1fa665d4528b7a34d7a3bb4f47c6cbed27da05c4a4da05c6",
+      "published_sha256": "442f7f45ab19874b954a41c35332b756f35ac2085372a792bdbbcb6fc0a1da17",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/EXECUTION_METADATA_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/EXECUTION_METADATA_VALIDATION_20260914.md",
+      "title": "执行元数据与最新观察包验收",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "8722bece099c9a4f56f317ba5dc0b4563c7e33972f4da3f1dbc891d8df906b1d",
+      "published_sha256": "06f85372d06d929d2908c44e64c500af7024df6d9fb98bcedcd23b549c48c395",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/EXIT_EVIDENCE_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/EXIT_EVIDENCE_RESEARCH_20260913.md",
+      "title": "退出与恢复事件的预测证据：完成报告",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "2a1d9d9aa99546933ec067e3465a0fcd543a7541194ead55b3a3c2522ecfd0af",
+      "published_sha256": "0f6211c12929f021c1d4daa09ef91f03418bc790d0764ad4a8c5ed47c0639bfb",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/EXIT_HISTORY_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/EXIT_HISTORY_RESEARCH_20260913.md",
+      "title": "历史退出事件扩展：收益方向与路径风险",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "6dba44347ba2a09ce035762629bbe0cb36f0513f55ac3f453f32c9e8b389e068",
+      "published_sha256": "71d35ae4871002724030d5f26780b910fbc3318e043b500c80cc7e15ce42a242",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/FINANCIAL_EVENT_RECOVERY_20260913.md",
+      "published": "research_archive/alpha_lab/docs/FINANCIAL_EVENT_RECOVERY_20260913.md",
+      "title": "财务披露事件恢复与五股试点",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "c747bc20412aab13ebcdb95ea6a81589f9b8e18bc2a5b209cd9cef5271905227",
+      "published_sha256": "4caacc7c5de0c8b315275fdf53108ca3cca49fe9843466d3c507444300d3603b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/FINANCIAL_PIT_GATE_20260913.md",
+      "published": "research_archive/alpha_lab/docs/FINANCIAL_PIT_GATE_20260913.md",
+      "title": "经营与现金流增量研究：历史版本准入检验",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "6823bef25ee22ef1c453c2e4f0467bb22506e708ecc794d7f358f71abe827951",
+      "published_sha256": "fe5b24f70aabde14df73a45555edc1a10a80647b195670113a0d84707027b705",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/FORWARD_RISK_EVIDENCE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/FORWARD_RISK_EVIDENCE_20260914.md",
+      "title": "前瞻风险证据与受限仓位预算实验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "a5a18b25566947ff01243447f48d035a1fe7c7e82ed0f77c9ff808513e20f91d",
+      "published_sha256": "ef5cd0fe7332616e3dee3d6d6e3ae297bf076e6f9bae550d1818407809966235",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/HOLD_SENSITIVITY_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/HOLD_SENSITIVITY_VALIDATION_20260913.md",
+      "title": "退出灵敏性与鲁棒性：36账户及过程检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "c42c46ab41509a67e29c3b71ac297c25c05d06bd8403a711207b21c80f265e89",
+      "published_sha256": "3c744297fa74daa230b052048d8de94aa9312952a52eb9d23c1be6b4752686e0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/HYBRID_STRATEGY_DETAIL_20260913.md",
+      "published": "research_archive/alpha_lab/docs/HYBRID_STRATEGY_DETAIL_20260913.md",
+      "title": "Hybrid策略详细说明与历史表现",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "fd5722dd4765b4f226b538bca8180a49b75603cda62d4f0900264374a6bbf04a",
+      "published_sha256": "d4bdb4730a0411f9d40da0bc9b316400640add0e25b048cd14c222e972ab16dd",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/IC_REVALIDATION_20260911.md",
+      "published": "research_archive/alpha_lab/docs/IC_REVALIDATION_20260911.md",
+      "title": "IC 口径修复与固定候选重验（2026-09-11）",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "de87142ab7009d367bbbcf70dca1262d1f65b675df2cabc63647a4774ad45192",
+      "published_sha256": "dc41d3e93345418dd082f907edf48e94ab8bb7abe807b399cdd55311475cb973",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/INDEPENDENT_LEAK_AUDIT_20260913.md",
+      "published": "research_archive/alpha_lab/docs/INDEPENDENT_LEAK_AUDIT_20260913.md",
+      "title": "Hybrid 独立未来信息与数据真实性审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "3e2bb7efbf63c3f6371d334c24b55f00ece57a97c6cd40520a272c666205375f",
+      "published_sha256": "b77be2eefd51410e456256b99225b5b75c1c017b5f059f07918b0c92f6a8900e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_CAUSAL_20260914.md",
+      "published": "research_archive/alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_CAUSAL_20260914.md",
+      "title": "定向恢复：独立因果执行审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "f9a30c78abd8b6119f074cbf6bc433edc8dccac544cd2bd5c453977b56e9c35d",
+      "published_sha256": "fe8ed6f52f95f9e4c8b5cb71aebf67e960273d56fff804133e3fb4f409d361a1",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_LIVE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_LIVE_20260914.md",
+      "title": "定向恢复的独立实盘化审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "84314d097142b66800bee8472f33bc8eb80c3a3d30c60053d7d67a976a9b7302",
+      "published_sha256": "37e1ab17ad8ef228880761c8f71f6e912e628c2fdaa730bb809698dc92ed182f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_READINESS_20260914.md",
+      "published": "research_archive/alpha_lab/docs/INDEPENDENT_TARGETED_RESTORE_READINESS_20260914.md",
+      "title": "定向恢复的独立实盘化审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "a86c5d5cc0751c98c29e77cbfe434bc513fff7b888c0e40e03df8dc743f44ceb",
+      "published_sha256": "73801139333a1e35326d2ce34cff2cd69b23c655a051af0b833466607b1a9881",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_DIAGNOSIS_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_DIAGNOSIS_RESULTS_20260920.md",
+      "title": "学习策略共同归因（2026-09-20）",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "d8b24a2435f993351e2d09a7a80afb60b8940803856faad883974b5936f51e9c",
+      "published_sha256": "ca87f2e90d32c5ab63808f5d28d7a28bdb8513814c4af68adba326261cd2024c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_DIAGNOSIS_SEQUENCE_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_DIAGNOSIS_SEQUENCE_PREREG_20260920.md",
+      "title": "共同归因及CNN/HMM补测约定",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "b54a994c8a7e41c2a16b1818c7b99e5af68b930a13d5dba86819f32324738a4f",
+      "published_sha256": "a1124ee8b7002f6e954097683552ed6649fc58113370d038fd72e584d4eddcf2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_EXTENSIONS_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_EXTENSIONS_PREREG_20260920.md",
+      "title": "第二批学习策略实验约定",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "a1ba9c720c5096f52661ae6e8767830ac9928a05450fd0e90271807e4ec8d72b",
+      "published_sha256": "6a9e1c2ea8491ecd05b87a5994df3991298c2149d8f26a0851f903778d63f7e1",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_EXTENSIONS_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_EXTENSIONS_RESULTS_20260920.md",
+      "title": "第二批学习策略结果（2026-09-20）",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "ea0bd7535e8b164d0c1354a4f46feb8c52fe4bf6550113b817efb0d8a2b201e4",
+      "published_sha256": "7821ad418108101234a1af4d910c496bd15970125bb212bc8121492b23c5d93f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_STRATEGY_SEARCH_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_STRATEGY_SEARCH_20260920.md",
+      "title": "学习策略首批实验设计",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "3199d19d83dd39b2563eaf4c329f21c5a0db95e0583a71f77f1d3f35d06d2d93",
+      "published_sha256": "c681a5fc5b87d9df6f35f93a63d73bf91c63bca63a9573d48504cbb5c54e1bf6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEARNING_STRATEGY_SEARCH_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/LEARNING_STRATEGY_SEARCH_RESULTS_20260920.md",
+      "title": "首批学习策略执行结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "ccac303c511107adf8ffb7d9bfd0f163e7eae177f942a04d76bbadf7ad450cdb",
+      "published_sha256": "db9cc696b9f9d99f1c4d131e2c01c45b78ea1d581a8a69a588669ec80153ee09",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEFT_SIDE_REVIEW_20260921.md",
+      "published": "research_archive/alpha_lab/docs/LEFT_SIDE_REVIEW_20260921.md",
+      "title": "左侧规则第一轮：案例检查与解释边界",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "b167f8104c7159a5573519f8f2323e092efcbd35978bd2fa3da74fbe7d58fd0d",
+      "published_sha256": "3ead8ca63a80cf3ef48e02743fb2e226cfc1b7a88664fca3c35132d3f2349037",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEFT_SIDE_RULES_DESIGN_20260921.md",
+      "published": "research_archive/alpha_lab/docs/LEFT_SIDE_RULES_DESIGN_20260921.md",
+      "title": "左侧板块—个股量价规则：第一版研究契约",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "cdee86de5dc82e09615e28d7c67b265cb701185f1fef3f8eba68dbd6c81eae40",
+      "published_sha256": "2750d88521cb1838cc0e53fe4bf6f63d599de55be6b04886631ec9d68cce8181",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEFT_SIDE_RULES_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/LEFT_SIDE_RULES_RESULTS_20260921.md",
+      "title": "左侧板块—个股量价规则：首轮结果",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "88d4d6fba2e9256e967555df5971f8ec08dcb1bb07e7774cbbf9903dfb9a5e33",
+      "published_sha256": "5b29511aa4b04f1fd90a3813fc6693bf3e9c64b43e7c7f6c7edd0a3efdc5b318",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEFT_SIDE_TREND_PREREG_20260921.md",
+      "published": "research_archive/alpha_lab/docs/LEFT_SIDE_TREND_PREREG_20260921.md",
+      "title": "左侧规则 v2：板块与个股都必须先上行、再回落",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "ff6177cf2fef115c230cacd52d286d041bf1e858ee40f248676ae4900ea30abe",
+      "published_sha256": "8e0b8c185fa20d7c494c68fa20ec0bedb6bd729b0c54ba2a2bac7429cad0cbd8",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LEFT_SIDE_TREND_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/LEFT_SIDE_TREND_RESULTS_20260921.md",
+      "title": "左侧规则 v2：双层上行趋势及上涨回落修正",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "8f9a3d982927df5a14ecb3bbf412b46dca24f54b775115734533c4aa72c23b4d",
+      "published_sha256": "68918218abec57b009e104d4241d758c2334573af46bef62aebacdd95d307ec4",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LIVE_INGESTION_GUIDE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/LIVE_INGESTION_GUIDE_20260914.md",
+      "title": "行情增量与CSV对账操作指南",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "bf6a2dbd046cace96afe5109f0a937105a418e4a4c722b5550b617428b512cc7",
+      "published_sha256": "d9af9e7ed58cfb75f06acde27261d576a099e8f75e16112798693c193f01d89b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LIVE_INGESTION_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/LIVE_INGESTION_VALIDATION_20260914.md",
+      "title": "实盘准备第二阶段：行情增量与券商CSV对账",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "26f7f1761f30d6d44a283a30525d72815d3ca773594a3690221acf763b8c4f02",
+      "published_sha256": "8eb999890416438a8ca576d878bfaf32dfd059bacc40bd62b1e19d24e5d5c46d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LIVE_READINESS_AUDIT_20260914.md",
+      "published": "research_archive/alpha_lab/docs/LIVE_READINESS_AUDIT_20260914.md",
+      "title": "风险仓位版实盘准入审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "df8559e475cccbc833ac893509b87fbdc16bc9ac86e24889cb3507504ec3a7ea",
+      "published_sha256": "16e3bf651e8487a8b1a54903bb0527afccc66a641475f0997a576b8a29f483d7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md",
+      "published": "research_archive/alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md",
+      "title": "纯多头目标与可投资股票池（2026-09-11）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "95b4f17f79fa155467b75712503caeb0c16666d22165833c09ae7b9196f0fbb4",
+      "published_sha256": "83caf41b15c2662349b673fbec033f0dfc191e69902f937e35ba31b676159ccb",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/MAIL_OUTBOX_20260914.md",
+      "published": "research_archive/alpha_lab/docs/MAIL_OUTBOX_20260914.md",
+      "title": "手动执行播报的持久化发件箱",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "a7f90b9adbdef06dbf87d5f49b16cc8ad702399b04dc8f0c49d91d9884aa26f1",
+      "published_sha256": "a5949a2ca83536f608f22d86d0b804ef5155a601bc25b421e872bade466a2f29",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/MANUAL_EXECUTION_GUIDE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/MANUAL_EXECUTION_GUIDE_20260914.md",
+      "title": "邮件播报—人工执行",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "a31c259b88578ed49820dfccc8edbdb6fec30f919666f84b805f7ecab5e33d9b",
+      "published_sha256": "4593d56309e0cdfd624120f6af396ada4a2be9421f6c59e9b88e1a2a9be76aa2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/MONTHLY_DAY15_START_20260914.md",
+      "published": "research_archive/alpha_lab/docs/MONTHLY_DAY15_START_20260914.md",
+      "title": "月度复核平移至15日",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "205c42f76fabb12ffa4636ebec7ed7218313f76d879c79d7b1dc844fa2f78978",
+      "published_sha256": "0a86c715e8bc9740ab9dc10e6e420acb42ad8243563d9a6b1ebc81976a85a43c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/MONTHLY_PORTFOLIO_AUDIT_20260911.md",
+      "published": "research_archive/alpha_lab/docs/MONTHLY_PORTFOLIO_AUDIT_20260911.md",
+      "title": "月频组合日频记账审计（2026-09-11）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "6f9260c9826353e783580d2f42e935aec4a496fbd1485c0299c36c949ac2d561",
+      "published_sha256": "0984bcde4eaff73d05b4bbc022729d6ffbd0e21fa929f83e394880804675f422",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/MONTHLY_RISK_MANUAL_INTEGRATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/MONTHLY_RISK_MANUAL_INTEGRATION_20260914.md",
+      "title": "月度风险预算候选：人工执行接入与验证",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "6ed0d2463042e599429efe860c260ecbbc90684cddad4d3d43163ccac1774c96",
+      "published_sha256": "3e2245f3dda580dea2489f85416568bbe3a97eea26d8013509a88e3270838029",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/OPENING_CONTINUOUS_EXECUTION_20260915.md",
+      "published": "research_archive/alpha_lab/docs/OPENING_CONTINUOUS_EXECUTION_20260915.md",
+      "title": "9:30开盘后连续竞价人工执行",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260915",
+      "source_sha256": "106fcd337dbd661c7ee337755457e493b4779f3907b4f574024c847e3fc21f08",
+      "published_sha256": "f6884a15f4ceeb3e6528894ca239fc130223960f9d716a179999b29f21475cba",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/OPERATOR_PARITY.md",
+      "published": "research_archive/alpha_lab/docs/OPERATOR_PARITY.md",
+      "title": "算子一致性修复记录（2026-09-11）",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "d451b92ce421d9f2e5126a73aa7a15b0edd21a439fee129f5e43b48403fa9ffe",
+      "published_sha256": "b2f6c618ab2a96e3c85cde174a24e3bce0357e8c777fc89a76a35689a1c4ef17",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PATH_MECHANISM_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/PATH_MECHANISM_RESEARCH_20260913.md",
+      "title": "日期敏感性后的路径机制研究：80账户完整检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "0b2ce814be658a89df3c6a3a619b6a9f3b644a848ca4d48da66a1d3b4a5dd14e",
+      "published_sha256": "353e0d898807b3250b4ca6971a5349a7035a250c9141d27f0503d067bcb91bc6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PATIENT_TREND_DIRECTION_20260912.md",
+      "published": "research_archive/alpha_lab/docs/PATIENT_TREND_DIRECTION_20260912.md",
+      "title": "小资金、五只以内与长期趋势：研究定位及首轮检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "4bead6b1ac592703b7f99cf218ae54aa0c42335b7e74cd8266052c815b9d080e",
+      "published_sha256": "80fc8a0fa97aadce537d8b58b3f44cf1bfb5bd9144126a410408dd29bec79253",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_BALANCE_PREREG_20260921.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_BALANCE_PREREG_20260921.md",
+      "title": "衰减、迭代次数与训练窗口联合实验",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "1b7b678f97d71a77da8634c358d78d3cc9157a08ace079cdb52f73aa3e8ad462",
+      "published_sha256": "4c9bf42a8d1041ee5c884ee449fb061284a9a2e22276b6ed786a6fec8e232544",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_BALANCE_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_BALANCE_RESULTS_20260921.md",
+      "title": "模型衰减—迭代—窗口联合实验结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "48d63580d6ce441eb38900f9553a6eb4eb2459cc1f3a3f70fb565050bb472afa",
+      "published_sha256": "bad402d91821c0e4a92cdfb554487a4a22e4fc07288aef532b72f630191d12fe",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_CASH_PROTOCOL_20260913.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_CASH_PROTOCOL_20260913.md",
+      "title": "持有目标与现金动作研究协议",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "a8111e6a62e1c7a60b50b9a0a63503ee3b3d27668f126ead6c6f7d11bc259256",
+      "published_sha256": "a5770c31b965185544298030654b2cbffb5c19ea92c7c8868547278d5afaa730",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_CASH_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_CASH_VALIDATION_20260913.md",
+      "title": "持有目标与现金动作：过程检验结果",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "019b9811dfe356ebbb734bc189933ddafa8eff855dd34471b1643149883f4edc",
+      "published_sha256": "6d51e6847709a7f0fc63d62a48a53f9ca58ffbe666f515933996e71b684c8200",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_CONVERGENCE_PREREG_20260920.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_CONVERGENCE_PREREG_20260920.md",
+      "title": "完整策略学习延长训练：预登记",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "2a4d3998045dd9c517d67070e584b38eea477ad30ef44a522b8adc6fc4f4d55c",
+      "published_sha256": "10ec9c22fb377c1ba5192a4dc9f1ff79897045c080e842e2809d34fc3c4720f7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/POLICY_CONVERGENCE_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/POLICY_CONVERGENCE_RESULTS_20260920.md",
+      "title": "完整策略学习延长训练结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "c58e9fed369a7cd155866449f7f11f2a0e6403c51500f299d7e5244c585361f3",
+      "published_sha256": "5067a6e87f40b452430bad3c1ad5dda7ecbe07ae5098a464068e0b6b80f04a0e",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PORTFOLIO_ACCOUNTING.md",
+      "published": "research_archive/alpha_lab/docs/PORTFOLIO_ACCOUNTING.md",
+      "title": "月频组合记账契约（2026-09-11）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "64aca94f27d2ec7ed796ceee90a03359593cdffb6156da630e2982bc251a8f5a",
+      "published_sha256": "b56a971154bab71c8f94c28ffe76761e2386081b3e217b1d329ea576604071bd",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PORTFOLIO_CASH_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/PORTFOLIO_CASH_VALIDATION_20260914.md",
+      "title": "组合降仓、空仓与恢复机制验证",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "680b8bd4d9cf9a78fe0f0a7dbd6485ee537ee92526f17a3d2ccb18626208122d",
+      "published_sha256": "2cd436944149d2be10042762c34e968e78b26350f9aad82df8dbfbf7dcd107a4",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PORTFOLIO_IMPROVEMENT_20260911.md",
+      "published": "research_archive/alpha_lab/docs/PORTFOLIO_IMPROVEMENT_20260911.md",
+      "title": "月频合成与换手改进（2026-09-11）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "709c54f2fac6b71069d902e7de4eb0891d6ed5d4de57e6b64b0dc2c8bc6b19fd",
+      "published_sha256": "8936b8444f6d2dad2ea667264d27ad939ebf6e0130a70a071fc8c210f4374dac",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/PROFIT_DEFENSE_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/PROFIT_DEFENSE_RESEARCH_20260913.md",
+      "title": "Hybrid盈利来源与防守能力：14组机制复验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "609147d08a890198dc5e625a841144e626c7d876962d053f00f4f0581ecfb52e",
+      "published_sha256": "7f3db392715880c1b8f4ff86d18b80c3f6cf7a13270b5babd32aafca3a2a8f05",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/QUALITY_REPORT.md",
+      "published": "research_archive/alpha_lab/docs/QUALITY_REPORT.md",
+      "title": "Phase 0 数据质量报告",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "d99fd94f50233c9f43c4619d2bc26f73a77f843e9101f825f3ddd870e9d67671",
+      "published_sha256": "bbe068bc447d494de24470d06cf267d64023baf3468b942f00aa7eda034dcfe3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RANK_LIVE_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/RANK_LIVE_VALIDATION_20260914.md",
+      "title": "排名缓冲的实盘应用验证（2026-09-14）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "8e25b972c7f6930c3182ab2603a35b265aa4dd79e0b335624de9ca4435dbd5f9",
+      "published_sha256": "6d4ab571ea87f81dc4b9bbd305c04e22364668a720a5e11987a87e2f91d4d905",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RECENT_LOW_TURNOVER_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/RECENT_LOW_TURNOVER_VALIDATION_20260913.md",
+      "title": "低换手五股版本：2024—2026近期冻结回放",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "85346d00359fd8195e96b7a27745abf5be703166418ba6d05be6f76fc77d3288",
+      "published_sha256": "30fb3bb4f54fdadec0b21a3fad7acbe2f13aa1256c280a4188690344944c6f35",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/REENTRY_CASH_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/REENTRY_CASH_RESEARCH_20260913.md",
+      "title": "月频卖出后现金选择与组合新增风险：独立研究记录",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "3d8678cdc1a7e8883a6682e79f4a40d939cbae72f01115450b099243822aba38",
+      "published_sha256": "612d75e8ab536c8b22ce4d3126edb75a53d38e9c7ba6bbe60fbb46241e6becc6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/REPRODUCE_FEASIBLE_PREREG_20260919.md",
+      "published": "research_archive/alpha_lab/docs/REPRODUCE_FEASIBLE_PREREG_20260919.md",
+      "title": "高可行性策略复现 — 预注册 (2026-09-19)",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260919",
+      "source_sha256": "8f3d4cb9db226bf74b24031e589331b1bbd3db3435359f018643d7ca0e6c6052",
+      "published_sha256": "91fef95dba90201a4532fb069acf22b71ad46a53cfe325c63662707e02e181e8",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RESEARCH_METHODS_SURVEY_20260911.md",
+      "published": "research_archive/alpha_lab/docs/RESEARCH_METHODS_SURVEY_20260911.md",
+      "title": "alpha_lab：中英文研究与工程方法调研",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "ad117b45a8b367dc88a67aa77495537c8a5ccc54581161cc955b34f0d18fe6e7",
+      "published_sha256": "040b1b8f1d6cf41b6e568100a26b35ed0f04baab7ce69078f7677c2d8262a0c3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RETAIL_COMPLETE_VALIDATION_20260912.md",
+      "published": "research_archive/alpha_lab/docs/RETAIL_COMPLETE_VALIDATION_20260912.md",
+      "title": "小资金组合与主动空仓：完整检验报告",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "0276fc25e3c2333872791092c654b016b0605fde87a5d934c29d616d69fcb429",
+      "published_sha256": "061d7fbaf0dba23e996a589756c46a156d9e436dc8e4b0be457a339557f2460d",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RETAIL_PROCESS_AUDIT_20260912.md",
+      "published": "research_archive/alpha_lab/docs/RETAIL_PROCESS_AUDIT_20260912.md",
+      "title": "小账户定位修正与过程审计",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "86cf065fffe65b1d3bf5efc601050d8f3e51a51b377a049926abd377685f99a8",
+      "published_sha256": "2de5cc2264b0d8fac7f3ff1d75e9480d05b10066a40a6d6a32e2f6f0173c4d95",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/REVIEW_DATE_MECHANISM_20260913.md",
+      "published": "research_archive/alpha_lab/docs/REVIEW_DATE_MECHANISM_20260913.md",
+      "title": "日期偏移如何改变持仓与收益",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "6d2bce0daf3c49d8ed15a1fa368aba5bf0fa05904007ac56f26473f15c5c97e3",
+      "published_sha256": "68e42c725e429c090432da52686f1512d77bb80e9c013507c80eff29abfc57cf",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RISK_BUDGET_RESEARCH_20260914.md",
+      "published": "research_archive/alpha_lab/docs/RISK_BUDGET_RESEARCH_20260914.md",
+      "title": "风险仓位折扣：76账户完整执行检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "4845b53832b1512dbab8544b8be7f6c9d3b67bb695f9906e33219078a23533a3",
+      "published_sha256": "7d67cd00eb05ab40da27ec17891b4a1efe24abd6cc7b33875f8dbbab55d87d28",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RISK_RECOVERY_RESEARCH_20260914.md",
+      "published": "research_archive/alpha_lab/docs/RISK_RECOVERY_RESEARCH_20260914.md",
+      "title": "风险恢复与整手缓冲：76账户完整检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "5d5db0e1e9d95fb238f0f4b09b6ee8275320ad9c7109e247b382b47493a03d55",
+      "published_sha256": "f973a13fe1a59d78d2dcd88c26fdc9517b05b76c26cfdbe9bf519a0435cd8533",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/ROLLING_REVIEW_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/ROLLING_REVIEW_RESEARCH_20260913.md",
+      "title": "月内起点与滚动复核：完整检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "3f20f004b480e0a2d3a8e52dcef4b43bb57bb9b2fe6a5bbfbada4aba6cf817d5",
+      "published_sha256": "2d6074f3a3b33286a4918cc02245848f98562a4eab5cce7b779febfccac5d5dc",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RULE_STRATEGY_SEARCH_20260920.md",
+      "published": "research_archive/alpha_lab/docs/RULE_STRATEGY_SEARCH_20260920.md",
+      "title": "无需训练策略：范围与非单调参数搜索",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "98ba1f30c618240c28d354de276fab09b1f9b5111f488ca7658cff47c6d81084",
+      "published_sha256": "5e4f9e2507e05f99f3bdf84f2ceb281da430df4f76d57943c78a1fafc10c8510",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/RULE_STRATEGY_SEARCH_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/RULE_STRATEGY_SEARCH_RESULTS_20260920.md",
+      "title": "首批无需训练策略：执行结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "91e14a67dc7078e476e5f6bc308366d7265a14bccd6451cd2e2bcd27afa9170a",
+      "published_sha256": "61808e7ce5f6a2fa30d362a1e6e92f76495a7148834baaabb9e2aebb85f2e376",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SECTOR_COHESION_RESULTS_20260921.md",
+      "published": "research_archive/alpha_lab/docs/SECTOR_COHESION_RESULTS_20260921.md",
+      "title": "板块整体性研究：结果与下一步",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "9a53b7b26d9b9ff80716f15e915f4c18cdc7094da93f78bccc207158c41b3db1",
+      "published_sha256": "efddc1889eb3a540039088c0a1025495ffa68ec9868dc3ead6b710a2a38ebeb8",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SECTOR_DATASET_BUILD_20260921.md",
+      "published": "research_archive/alpha_lab/docs/SECTOR_DATASET_BUILD_20260921.md",
+      "title": "板块数据集构建报告",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "20260921",
+      "source_sha256": "e249e564c767f8c3da2034616a7c96d2a8825585b83db95d4ba1a90deecbb9ca",
+      "published_sha256": "af36d900f1f89b94bf50f560fd1b18ac1020e2f374cb686acf31e871cce5d51e",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SECTOR_DATASET_V1.md",
+      "published": "research_archive/alpha_lab/docs/SECTOR_DATASET_V1.md",
+      "title": "板块数据集 v1：独立于策略的日线资产",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "c7de9f9234a3b599bc528bde1d3430360b6609bbce31e0dccead69fdf3bfd2bb",
+      "published_sha256": "1e4556bb4f6646fdbbf9f8d14394ecb4e889700557e74f4eb8c8e4c22b6a7482",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SELECTION_BASELINES_V1.md",
+      "published": "research_archive/alpha_lab/docs/SELECTION_BASELINES_V1.md",
+      "title": "三条固定研究基线 v1",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "3d9de539709aa3af3f892867fd93283b1cdc211961f9acd9a3b41d843acad496",
+      "published_sha256": "e6ee51e485841311c3a81083dfb71f032c72974a126928e2b7152c83b6192273",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SELECTION_STABILITY_RESEARCH_20260914.md",
+      "published": "research_archive/alpha_lab/docs/SELECTION_STABILITY_RESEARCH_20260914.md",
+      "title": "选择持续性与排名缓冲：完整研究报告",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "f942cfe3d286b549d59bb3c410340c6e2adeb507c06958fc625dcee378daa1aa",
+      "published_sha256": "d21b340ce7bb8776be6e7bb708a5679e81ef2012ffb64d4bb424276a121ca95c",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SENSITIVITY_ROBUSTNESS_RESEARCH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/SENSITIVITY_ROBUSTNESS_RESEARCH_20260913.md",
+      "title": "月度趋势退出：灵敏性与鲁棒性的有界研究",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "38a9f0824fad78025eee2fdeba8931aafcaf4d289f59d7a2b211f541d43d51df",
+      "published_sha256": "447045780fc95565beb862dd17087964965b19b1d394800280a829af0fc91bfa",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SEQUENCE_STATE_LEARNING_RESULTS_20260920.md",
+      "published": "research_archive/alpha_lab/docs/SEQUENCE_STATE_LEARNING_RESULTS_20260920.md",
+      "title": "CNN / HMM 补测结果",
+      "group": "模型比较与直接策略学习",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "7a335fcee5880c597655afcf31da3bd5b501f968f920c4a38f437ba0af4e583b",
+      "published_sha256": "44e5433549fc0bf86c223908366b06ca1eb647b213fceafc68a021d71fd8d516",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SHADOW_EXECUTION_GUIDE_20260914.md",
+      "published": "research_archive/alpha_lab/docs/SHADOW_EXECUTION_GUIDE_20260914.md",
+      "title": "风险仓位版每日计划与账户对账",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "89a12d9e931b0f8b26258c71472bd9e6b93ce1eee31e85046a82b718a460439c",
+      "published_sha256": "29fe603039464ce277d3075522778333dd775ca1e0183a9edfc3e655f6aa9ea5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SHADOW_EXECUTION_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/SHADOW_EXECUTION_VALIDATION_20260914.md",
+      "title": "实盘准备第一阶段：每日计划与账户闭环验收",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "8b0c7bad6eed5484b4eaf0671cddef3fa1aa2d2e8f283fad250abaa8b7fae16a",
+      "published_sha256": "c57cf2d7c13375743c083abd539d17cdf9e1041aa0b799d4f5e94a5589ead223",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/STARTUP_TIMING_RESEARCH_20260914.md",
+      "published": "research_archive/alpha_lab/docs/STARTUP_TIMING_RESEARCH_20260914.md",
+      "title": "首次建仓与复核日期敏感性研究",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "3c8c0052192d43742cc7e90755166d1ece6e5c9d8abf2bef72e45a751756dd0d",
+      "published_sha256": "ee32b94bd68ee4c379012a67c13b02b16759bef9fc20cc80fc3f2a06c20a4243",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/STATISTICS_STYLE_AUDIT_20260911.md",
+      "published": "research_archive/alpha_lab/docs/STATISTICS_STYLE_AUDIT_20260911.md",
+      "title": "统计口径修复与风格匹配归因",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260911",
+      "source_sha256": "81300b2b32006c23568f081bc2ceb31db4408bb077d37fa6fd7e9a55e8ce0a5e",
+      "published_sha256": "2ff6a734c8702806614dc2d889fd85f68daddd55acc621a197dcba320b0c990e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/STRATEGY_CANDIDATES_20260920.md",
+      "published": "research_archive/alpha_lab/docs/STRATEGY_CANDIDATES_20260920.md",
+      "title": "历史研究策略集合：按机制归并的待测试清单",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "2fe0fcefe34d925059865fda876bb61c18e3039bb34a09bf0b8093cb83e0d655",
+      "published_sha256": "f402c63f30c05cd423b8c83832067ca2f40ec282288c0de581163d12ac1d6a10",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/SYMMETRIC_PHASE_VALIDATION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/SYMMETRIC_PHASE_VALIDATION_20260913.md",
+      "title": "对称阶段分治、持有证据与入场过程检验",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "15b61488d650ea57dc2c4b76077d0d7136115f9d593ecd7198d5c6c14efdf9cc",
+      "published_sha256": "3360a5eb21e7beaf29cc8f070ed34211d9d7dea33eba64295f6bcb3ed1ec1a79",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TARGETED_RESEARCH_CASH_20260913.md",
+      "published": "research_archive/alpha_lab/docs/TARGETED_RESEARCH_CASH_20260913.md",
+      "title": "定向重调研：0—5股月频趋势账户的拒绝买入与主动空仓",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "cf8a37ce0d1d369218a4ee5aa297c84807a79223d8b76c7979e877fa13e307e3",
+      "published_sha256": "b1193efcd7af37413c2ff4bea16670559357c594f5d0400fc2d16ecedb3d2874",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md",
+      "published": "research_archive/alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md",
+      "title": "持久趋势的入场、持有与退出：针对性重查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "0d0daf48771070ae685e2b4215e4900bbf7a2b6b2fa5303534a6597f92ef3a6d",
+      "published_sha256": "27e0337da6034ff5d1b0f9979b65df0951c04b374b38a9958ca0b671f6fbeee7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md",
+      "published": "research_archive/alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md",
+      "title": "阶段分治后的精准选择：面向0—5只股票账户的定向调研",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "30852e1a4395770533433254dbbddfacdbc125c8b4bfcb7588fd58a91de060dd",
+      "published_sha256": "905916684c4b6bb696b785573f2baa8eaccd18f4fdf66320bf57a6537e844e5b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TARGETED_RESEARCH_SYNTHESIS_20260913.md",
+      "published": "research_archive/alpha_lab/docs/TARGETED_RESEARCH_SYNTHESIS_20260913.md",
+      "title": "三路定向重调研：精选、持有和现金决策",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260913",
+      "source_sha256": "fcc0935f3cbef7cdc84f94341eefa16c162dcbccbfa16f1272f244c9ff0e4584",
+      "published_sha256": "0993d2d5e37f28cc721c91e781a5045d4577babc9add52eedbc974059e136512",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TARGETED_RESTORE_VALIDATION_20260914.md",
+      "published": "research_archive/alpha_lab/docs/TARGETED_RESTORE_VALIDATION_20260914.md",
+      "title": "五席位旧仓定向恢复：修复、完整回放与独立实盘化审查",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260914",
+      "source_sha256": "3b4670a3c7813dd48b19f8cd67680bba1802596ae1feb1862fa3e0e7848a2deb",
+      "published_sha256": "639936e301a558b2bb84661ed33048cd667c33612680c6e6542e823efeab25ec",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/TREND_ENTRY_STATE_AUDIT_20260912.md",
+      "published": "research_archive/alpha_lab/docs/TREND_ENTRY_STATE_AUDIT_20260912.md",
+      "title": "趋势入场状态分析：风险识别与长期收益空间",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "20260912",
+      "source_sha256": "31336ea344c1fcc976dcfbb8690e05ec6723fde4a7e41027cfc016f4ae5bfeaf",
+      "published_sha256": "8bdaed029875df48f005441cbcc17eb3ed56b166bc800fdbb1eba7168743e142",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/WALKFORWARD_OOS_PREREG_20260918.md",
+      "published": "research_archive/alpha_lab/docs/WALKFORWARD_OOS_PREREG_20260918.md",
+      "title": "Walk-forward 逐年样本外重验 — 预注册 (2026-09-18)",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "c9c7def53c24c08838dec7ed82f8ff695dbeb3e9f6bb93f2b92535755623200b",
+      "published_sha256": "55ca69296c80e0ab16111c0d44ba10e889042217803a631d4d2d6b9afc090372",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/WALKFORWARD_OOS_REPORT_20260919.md",
+      "published": "research_archive/alpha_lab/docs/WALKFORWARD_OOS_REPORT_20260919.md",
+      "title": "Walk-forward 逐年样本外重验 — 结果报告 (2026-09-19)",
+      "group": "因子挖掘与跨期复核",
+      "kind": "研究文档",
+      "date": "20260919",
+      "source_sha256": "08add005d20b2d82966fd17d061c4155c0e6afe6c490049b55e781bd8e8ba856",
+      "published_sha256": "be09ffd9fa81c6e43e3c55fa2ed88daec8e72b62cc12a19cf793bb0ee0b8515e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/strategy_inventory_20260920/TEST_CONTRACT.md",
+      "published": "research_archive/alpha_lab/docs/strategy_inventory_20260920/TEST_CONTRACT.md",
+      "title": "待测试集合的共同口径",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "595597d55d8fabb8469b8a106137b35048ec250f3581a4c7ac2f77924dc28172",
+      "published_sha256": "568898d91a11230850490fcd1b0e3e2f159d96c33fa1dad6725d4a9e0a0edab5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md",
+      "published": "research_archive/alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md",
+      "title": "独立调查 A：alpha_lab 低频选股与账户政策",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "2a239e881ccecd0514fd917a30a978e7ccff7749da115a8c089e017b9e6a25b2",
+      "published_sha256": "49b8e0be2ed553d4739bf0620ca65a7ff82ccee87c4acd10a6f775c4be75c92e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md",
+      "published": "research_archive/alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md",
+      "title": "独立调查：成长与跨市场研究机制清单",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "b1090f82d2f844b9029c90d8b9fcf3139a522b5060c3ccfc8c7334605813f72e",
+      "published_sha256": "25bcec7a73338aa6eb186c1461904c34fc1bafcceec82878cbbb9f2b03229548",
+      "redactions": {
+        "machine_path": 43
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md",
+      "published": "research_archive/alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md",
+      "title": "独立调查：历史选股、择时、退出与特殊资产路线",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "eea916cccf5394dad19ee597c606813b25649215975e5dec9b866966944a890b",
+      "published_sha256": "ce2a53da5fcdc747a4336f7cf908bec2ee2e3877ed9e7a0850ff1c4ffd37f6d0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/DISTRIBUTION_RESULTS.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/DISTRIBUTION_RESULTS.md",
+      "title": "随机测试：板块之间与板块内部收益报告",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "94d61a5634542ac3c82d14549c5591882983026cfe88e1f3c3d864098517d633",
+      "published_sha256": "a75b3080f870746d9db9520eab8c26b7001b2a1029eab2b02e34cee0d3c264f9",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/HISTOGRAM_REPORT.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/HISTOGRAM_REPORT.md",
+      "title": "具体板块收益：指定格式的直方图报告",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "ffbdc6fdbd40241ec8ee5ca31a36e9c3082dcdda4ed5db3ff18247ea1ddf38e9",
+      "published_sha256": "48829ff1f8099c3946e2ce3bb460ec2bfe1b2bd3e2a9b3bf8a773926bcc562e1",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/PREREG.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/PREREG.md",
+      "title": "模糊事件筛选实验 v1",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "a2e5b8241dcf522b34b830d11fb8cca704197f127fbdfd10836a78f9335bcea6",
+      "published_sha256": "228ccb81248fc8134eff7930e1126825502c836d46d0fd93e5a58e5b9114646d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/RANDOM_PREREG.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/RANDOM_PREREG.md",
+      "title": "随机二等分、角色互换实验",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "09f1904bb0d869eaab00f773db5b97b3ca1d2db589b2d5c527e251d2dad85982",
+      "published_sha256": "62fae5aec0746e494c940165534be65b776544ba26b446fadeba52caa6296ece",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/RANDOM_RESULTS.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/RANDOM_RESULTS.md",
+      "title": "随机二等分互换：已复现实验",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "4afe59b2927376b3961d7b33224f7dedf4ad8d5750e08967d0cf84c67a51d6a1",
+      "published_sha256": "08254d201189ea5381a5ca1fac31ba25eb2e52ac18f107203224a34f6de8ebc0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/RESULTS.md",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/RESULTS.md",
+      "title": "首轮结果与复现入口",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "e16eac7603c1b486497f732e9fdf3ea938cbe7253d06ce0c99cbb8237eb87447",
+      "published_sha256": "fd33ad7c612b854de7d6175994f00e06a76bd3153f2dbed02d984ccb519b4c4c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/audit.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/audit.py",
+      "title": "audit",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "68ca1fddef1b6a42922c19b330c0fefefb32299900f1ced64f94ada4be295293",
+      "published_sha256": "d5af0d724da7c1dedafd1b7d633796b517044be061d53b5c45d0a7e693a6fcbb",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/audit_random.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/audit_random.py",
+      "title": "audit_random",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "b9ab9a8b168b2f9fd692d4c3aa596a337d3e5ff0cf6f3e1dedb4a455f428ed2e",
+      "published_sha256": "4584b54e87623520c690917f74384b8f7a8ed9f35e2b42028a54177038b1033b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/model.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/model.py",
+      "title": "model",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "e9e2b6e37d8aef980006373517e3f68b828d1b3a7c509ace356765bfc8d1ee40",
+      "published_sha256": "4a9b68ee06b9f1d4841a9939497de162fe18342b03663eca238738c3d6dca954",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/random_split.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/random_split.py",
+      "title": "random_split",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "2b012fd4d0325b954012405b9e04d1aa0f27f2381acf09e53d12bca9dcb93178",
+      "published_sha256": "24cd52d4c7b543ef531895da2c260b73f586076130faab8f5b234e093d23d35a",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/report_between.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/report_between.py",
+      "title": "report_between",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "c7c9826fd5a86ed547afa92914216910e4ba1deebd277ef1835998e4ffbe8f55",
+      "published_sha256": "cde4316d640277f6777978e5f4fbdeee1b55dfe585753cf3f4a6578842b0e028",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/report_distribution.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/report_distribution.py",
+      "title": "report_distribution",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "0fce1c7d5863ec7b70b3ddcd331a407f3bde6a3b1464e4c59e80c34f4c3e7ac6",
+      "published_sha256": "976bf9f61720118854a5b92eca765e291e208b437b60201474946862c5681493",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/report_histograms.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/report_histograms.py",
+      "title": "report_histograms",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "4dc91a2c6d7b1345aaebff4434889f66ee8d9f3d5172a63d752b56eba352a088",
+      "published_sha256": "c8e7321338227a5b9ad2f74d6e9d930815cc5a81b3a5dd59559cf206bf33c069",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/run.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/run.py",
+      "title": "run",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "77ec0d17aa8cc5c1702d46fec0b4c2481fce5eb4cdfd3cfa30e5279119ef99c8",
+      "published_sha256": "7611e534add14cc91c1a5bc88cf2cd2990f326ae66bc37e1011957a4295aa1c0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/run_random.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/run_random.py",
+      "title": "run_random",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "5ca6dcf989ea97cef2555411ad06eb0d8ea9e0df5481b1e40e2fd1f577508e90",
+      "published_sha256": "1e2260c41a3b35f7392d17f9c95e49a36f5d5b45e269d5e45b50ae468478c715",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/test_model.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/test_model.py",
+      "title": "test_model",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "d97174e98737186a8a38f12e9a5c313001aed086ac5ef135851e7fc5f05cdd33",
+      "published_sha256": "b45e6a73770ef10a9862d7837350f1801410b0cb0b0bb199d11e5085923cc37c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_fuzzy_v1/test_random_split.py",
+      "published": "research_archive/alpha_lab/experiments/sector_fuzzy_v1/test_random_split.py",
+      "title": "test_random_split",
+      "group": "板块形态与模糊网络",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "987b60088d7be09ead309c9f9046c3e3512eda8933d085ced535cd2540c4fa10",
+      "published_sha256": "aa19435705e9fed52d8076293c425c647faf97ad7ffcb296c172a7994c96f885",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/experiments/sector_live_v1/README.md",
+      "published": "research_archive/alpha_lab/experiments/sector_live_v1/README.md",
+      "title": "2026-09-23 更新及最新候选扫描",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "376669a18f27b04ed4adb9d77cb383385f6566e07642f2d7108641a10ee8ed8a",
+      "published_sha256": "65777cd4e789755d00339829a79c22775b547e319e615c1d673995aa57ff0d1e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/outputs/learning_diagnosis/20260920T122452_692950Z/REPORT.md",
+      "published": "research_archive/alpha_lab/run_records/learning_diagnosis/20260920T122452_692950Z/REPORT.md",
+      "title": "学习策略共同归因（2026-09-20）",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "a9003f7460aca213e262756454d6a7ab75b9344a6b9bf80cc8a776b4ed1f2fed",
+      "published_sha256": "75be463971d46af1c76c33abd24e856a2a48cdfa84b6f99b7da387c384bcadb2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z/REPORT.md",
+      "published": "research_archive/alpha_lab/run_records/rule_strategy_search/20260920T101619_734224Z/REPORT.md",
+      "title": "无训练规则搜索执行报告",
+      "group": "持仓、风险与执行研究",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "3ed78442a8a5246cea44106e4471710fd99a3c58a2fb337e500f53d841ef417d",
+      "published_sha256": "5563392771e7ada785acdbb40dd27e2e938dae99efeff04a5bb6f57fa31fbb38",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/outputs/sector_fuzzy_histogram_report/20260923T114347_981934Z/README.md",
+      "published": "research_archive/alpha_lab/run_records/sector_fuzzy_histogram_report/20260923T114347_981934Z/README.md",
+      "title": "具体板块收益：直方图版",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "8f63916a6b03e53d1ae3af7c8e7fc426cbc3470753859848f47cfc947a8a2712",
+      "published_sha256": "c42b28fc37669fde7c4c3816cb1ec4e817e76d002ccdb843f9bdcbe9d25eacce",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z/README.md",
+      "published": "research_archive/alpha_lab/run_records/sector_fuzzy_random_halves/20260923T111853_561924Z/README.md",
+      "title": "随机两半互换实验",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "7bcc5fc707e13341a65f0914688b5053b8f0cfd9e7dca1ced1516922c5c0a18d",
+      "published_sha256": "14c663e67aaf227d4c9ecad8fa9a12ce95a7fb8f4f5fc25bc1f6a28cd093f803",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/outputs/sector_fuzzy_v1/20260923T105203_887024Z/README.md",
+      "published": "research_archive/alpha_lab/run_records/sector_fuzzy_v1/20260923T105203_887024Z/README.md",
+      "title": "模糊事件筛选实验：历史滚动报告",
+      "group": "板块形态与模糊网络",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "279c87702899894a33796e914bd62a8d62ad65b8d1c870c02d5836888b417bb2",
+      "published_sha256": "7262f1a62dafeca424c71a1bf92ddf41ece3a708a8cd42ccc3792639eed5e2f5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/ablate_baseline_combination.py",
+      "published": "research_archive/alpha_lab/scripts/ablate_baseline_combination.py",
+      "title": "ablate_baseline_combination",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "dbb4247b461bd02357c0ec79504564ab202223e1b62cff49413862733548f3e6",
+      "published_sha256": "0c0e2d5f213fc6c173617556e274b551e728ba84d5c98116e4b966b183ec1b21",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/build_sector_dataset.py",
+      "published": "research_archive/alpha_lab/scripts/build_sector_dataset.py",
+      "title": "build_sector_dataset",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "26885d1f8a1967bd13b6177554a234dae3973e0c0b4202b904db999e2cc5c6e0",
+      "published_sha256": "a68485ccd4736f4d47c949776e3558384469b1e7fca96cb427d667f1e14828ee",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/build_sector_shape_events.py",
+      "published": "research_archive/alpha_lab/scripts/build_sector_shape_events.py",
+      "title": "build_sector_shape_events",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "04938bfa0ccd7d8f1287e3bc0eccc6ee119b78b5c6c959d2173fd5f38724b098",
+      "published_sha256": "331080242ab6c4735c842dfcd169f975b37b66c982c1d1252c8140e309a6e0ad",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/diagnose_learning_strategies.py",
+      "published": "research_archive/alpha_lab/scripts/diagnose_learning_strategies.py",
+      "title": "diagnose_learning_strategies",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "89731d77dc5dc19c3a14feb928b92448421c40b5459f71e531c1a442db5d5f55",
+      "published_sha256": "bf1cb0cc299fdbd3d64c292341d1757ffe962d360f0a64877fc1e0a52e0c7ebd",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/recompute_deciles_oos.py",
+      "published": "research_archive/alpha_lab/scripts/recompute_deciles_oos.py",
+      "title": "recompute_deciles_oos",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "7ea390b1fc5e98e4977994455c227bb7b7bff92227c3ec8d51f9cd2cdc6fb12f",
+      "published_sha256": "b13be28ed25bd49f1438d89b6cff49bc54647a35b620c63005dd9410fec73815",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/replicate_factors.py",
+      "published": "research_archive/alpha_lab/scripts/replicate_factors.py",
+      "title": "replicate_factors",
+      "group": "因子挖掘与跨期复核",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "f2089d7e0b012dd4d645990efeffa6320fcee38385da65ece493ea28b83c66cd",
+      "published_sha256": "8aaafd06a55c64aa12c19ee108b99ac5d4f6efa1db21cb7604c16d7d59957aa9",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/report_learning_strategy_search.py",
+      "published": "research_archive/alpha_lab/scripts/report_learning_strategy_search.py",
+      "title": "report_learning_strategy_search",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "61898e322dbeb60e33075d0528e9744155bc6b7ce7e6f4003086dba21dbe7a8a",
+      "published_sha256": "03331fb8bb29a143501c7dd757167e7bf8f0f90cd15431d5a5f63d857d42cd0c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/report_policy_balance.py",
+      "published": "research_archive/alpha_lab/scripts/report_policy_balance.py",
+      "title": "report_policy_balance",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "ecf34af47bfa6fc6faec5a03f238504952d415dd6c1ded8d0b1e2e6805b8e69a",
+      "published_sha256": "43d7dfff431f7e1a9774eed9031ae796e27ca6d19c06360acc6d6d293998c8e1",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/report_rule_strategy_search.py",
+      "published": "research_archive/alpha_lab/scripts/report_rule_strategy_search.py",
+      "title": "report_rule_strategy_search",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "27b43857092ae00398f0b7c63f00bc849e005e90944408321ac326e00cee8307",
+      "published_sha256": "6110605c3a79c2a832fbe3f2660e15eeb34d43b0c3a95d399dc3763139c55c35",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/report_sequence_state_learning.py",
+      "published": "research_archive/alpha_lab/scripts/report_sequence_state_learning.py",
+      "title": "report_sequence_state_learning",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "c4b78ea032e7e1d5c03da41769904e227d37b68ba53a1d0ab57ac40c53317a72",
+      "published_sha256": "dfb6226c642ae4883ccef00283921e4f99e57f5354e6bf2a4b7fe9abab3a82fd",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_cash_economics.py",
+      "published": "research_archive/alpha_lab/scripts/research_cash_economics.py",
+      "title": "research_cash_economics",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "8f16aa6ecfbdd3c24582baf69be354dc0850133dc39622639633b186c3fc36ad",
+      "published_sha256": "b9b9e46b6dc9fad663e3d0ce486d4e7a37255a8e2fe46b312984cdfe92a47469",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_forward_risk.py",
+      "published": "research_archive/alpha_lab/scripts/research_forward_risk.py",
+      "title": "research_forward_risk",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "44741c19a390981ecf2ee8686bfbc292eafcf4f85fdbeee2012fd3af8c6a4624",
+      "published_sha256": "547ec4a08d5641e3a333976e994600005e693121f0a6519dfea924d0a941e2e2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_sector_cohesion.py",
+      "published": "research_archive/alpha_lab/scripts/research_sector_cohesion.py",
+      "title": "research_sector_cohesion",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "5701fce3ac035f1dbf0cc7de00bd2d9418fd6abfd1afe3866206d010a0e02671",
+      "published_sha256": "310f115813e5473c0b7d762df7bc891eeebd14aacfbc851178da301c2780a921",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_sector_confirmation_returns.py",
+      "published": "research_archive/alpha_lab/scripts/research_sector_confirmation_returns.py",
+      "title": "research_sector_confirmation_returns",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "ec4e566faf9958e051ec43b0caf3e46786552f3da2585e4398ab997af786576f",
+      "published_sha256": "8d56441c2646ebdea61fa85d6242099979caf4712729a68663ce7ccaa6f5ad74",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_sector_multiscale_events.py",
+      "published": "research_archive/alpha_lab/scripts/research_sector_multiscale_events.py",
+      "title": "research_sector_multiscale_events",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "904f16c72ce752a6d4d02f343d2afe1dfabf74cc032622f31542bc135631892a",
+      "published_sha256": "7c4f5b89175a909485747c6ed214c4ec853d3a1a59b5414eee72ec5ea2df8b7d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_sector_shape_expansion.py",
+      "published": "research_archive/alpha_lab/scripts/research_sector_shape_expansion.py",
+      "title": "research_sector_shape_expansion",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "a6ab6e0ba4bcfb29138a29c361b0510e4393419fc5ee293b7b713c5acc90b546",
+      "published_sha256": "2c47c0909215a9649f1e182a1fd91454561fb188718559dc26831e4694705cc3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/research_startup_timing.py",
+      "published": "research_archive/alpha_lab/scripts/research_startup_timing.py",
+      "title": "research_startup_timing",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "3a8a79858462a4d070a4fb921535ccfe068de72856b0b38482b52c37dc116184",
+      "published_sha256": "da0796884fc033eab75b6fdbb0ed1954471b03918b4a1c4f6997414e3552b6b0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_baseline_attribution.py",
+      "published": "research_archive/alpha_lab/scripts/run_baseline_attribution.py",
+      "title": "run_baseline_attribution",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "db0f842d76a9d9fd5ffbc7f005365897e7a20a48e61242f4d66dabbc5dfcd696",
+      "published_sha256": "c43be31ba66e5819a553309db94d4131cc849fb0cc3b4f9b2e8db933c8a5afe3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_baseline_combination.py",
+      "published": "research_archive/alpha_lab/scripts/run_baseline_combination.py",
+      "title": "run_baseline_combination",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "11369f2a15b4aac980d09f29d6c0c9b99c544ff324f3e3c6c0d14a7a681e3fe9",
+      "published_sha256": "dd96df4869efb13ab7a3d2a565adde4d079c8870564a7dc999c1d0b860757779",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_baseline_increment.py",
+      "published": "research_archive/alpha_lab/scripts/run_baseline_increment.py",
+      "title": "run_baseline_increment",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "8c1f1a1e53fea2b86df1211fde1a96506c045d83ef7f314404539cc1daf64e2e",
+      "published_sha256": "aa66dd354a199c1aee61ccf789ae2b82de34e22fa619e79d893bb4aee0f881dd",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_baseline_style_controls.py",
+      "published": "research_archive/alpha_lab/scripts/run_baseline_style_controls.py",
+      "title": "run_baseline_style_controls",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "0f8729fdfa9b8479236e811688a0d4426aaabf0f0c7e67a49ac2fea4a2c33d72",
+      "published_sha256": "e405f43f2e39518c7c6aec60c33caa9670e2ae673dc5b4201d5a5ddc64bd2ef7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_gp_mining.py",
+      "published": "research_archive/alpha_lab/scripts/run_gp_mining.py",
+      "title": "run_gp_mining",
+      "group": "因子挖掘与跨期复核",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df",
+      "published_sha256": "f39774401f96805fdde35f7347a5eaf1195b9e8c56a41b52e9f1572a0f45ba08",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_initialized_policy.py",
+      "published": "research_archive/alpha_lab/scripts/run_initialized_policy.py",
+      "title": "run_initialized_policy",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "6231f24ea0e5302df022954c7b7c9a46bea87c489d2636d74938ee56a32b4224",
+      "published_sha256": "2648790bb14f004408d590d1c6310fbb016b5bc07fd2ca322ea8268dcacb6c6c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_learning_extensions.py",
+      "published": "research_archive/alpha_lab/scripts/run_learning_extensions.py",
+      "title": "run_learning_extensions",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "5139d5784d0ac96fe0219f57388b16daca48bf5ca6c1284bd141626fae6df0ea",
+      "published_sha256": "7d25b07146dc0d1d8e1537fd46aa7aa77e529fa1f85543e1a78e2d1992ced343",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_learning_strategy_search.py",
+      "published": "research_archive/alpha_lab/scripts/run_learning_strategy_search.py",
+      "title": "run_learning_strategy_search",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "615bcca42382c025ee40ea800b75f573162f14a36a9e9517cdd435771086f4f7",
+      "published_sha256": "a4a5a612e441cec493a005dfaf91b4bfebdc2948d6283a57a5ce882602a86889",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_policy_balance.py",
+      "published": "research_archive/alpha_lab/scripts/run_policy_balance.py",
+      "title": "run_policy_balance",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "ddbc613e55b9c635813a5a7d0329e359db7ee2c9e5137e5e5de491fc22e8afe3",
+      "published_sha256": "2ad4657b99d3f2c372f315e03c5bd82d16646f9c60ab5bc28f0fdfa9569aa6e9",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_policy_convergence.py",
+      "published": "research_archive/alpha_lab/scripts/run_policy_convergence.py",
+      "title": "run_policy_convergence",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "f02b7abf0635f1d9a9b7893cc4250d2f99506c148ca5f59935c9e47d1684366f",
+      "published_sha256": "d0e8dea3bc944ac59c299fcce0bffa7ee0f575461bd5bd0c1d9d5f39c157caf5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_rule_strategy_search.py",
+      "published": "research_archive/alpha_lab/scripts/run_rule_strategy_search.py",
+      "title": "run_rule_strategy_search",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "0172c406d30fc55032042ec4f00062df2f91f789556455e568ddf5c806a48cb0",
+      "published_sha256": "38df9225e0b9a9c2a7fd4cc99126640325c15521c8af543cc4d21dd5c10222ba",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_selection_stability.py",
+      "published": "research_archive/alpha_lab/scripts/run_selection_stability.py",
+      "title": "run_selection_stability",
+      "group": "持仓、风险与执行研究",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "33c343b044d9630ba286e2b10e6d1a4bda0bb50ac6c7984165d81d4577c094ac",
+      "published_sha256": "5a88148857f345c50fb70c6040dfd0de38bf5021905ff01d20e233074e8d391d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/run_sequence_state_learning.py",
+      "published": "research_archive/alpha_lab/scripts/run_sequence_state_learning.py",
+      "title": "run_sequence_state_learning",
+      "group": "模型比较与直接策略学习",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "56ec876f78cc985209fcd8f41263b923da2f4a47b21f665d9a93919aeec0aba8",
+      "published_sha256": "f3f9a83843b3fcb4ab591c32ed2f75ad659da2462b41ba52dcf004f96a494df3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/synthesis_and_test.py",
+      "published": "research_archive/alpha_lab/scripts/synthesis_and_test.py",
+      "title": "synthesis_and_test",
+      "group": "因子挖掘与跨期复核",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "ff4840a7f1609b13e35113f2f8a9e98d35ff8930e9008102cea986f0f284258a",
+      "published_sha256": "740420304971bafac2f1335cec3774224612f834feb46cbc84773fbdabd6bb9e",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/walkforward_ablation.py",
+      "published": "research_archive/alpha_lab/scripts/walkforward_ablation.py",
+      "title": "walkforward_ablation",
+      "group": "因子挖掘与跨期复核",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "b3c4b2cf92d318bdd85c4b7c073d99006a9b6b041d94b70eea4f204e0ae06df6",
+      "published_sha256": "8312d7f2aa8218b27b312b030b0e4b55dc2e53b060df17de79495671500376dd",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab/scripts/walkforward_monthly_oos.py",
+      "published": "research_archive/alpha_lab/scripts/walkforward_monthly_oos.py",
+      "title": "walkforward_monthly_oos",
+      "group": "因子挖掘与跨期复核",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "415701a898572bbaa64c4cf8a0e65d96830bf009957000ad9f3a3a2ad8a08c65",
+      "published_sha256": "b8b1af8ea1fbef849c2c35f6496d92b556cfd98c73040a9bd87a88b005de6ef5",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/README.md",
+      "published": "research_archive/alpha_lab_growth/README.md",
+      "title": "alpha_lab_growth — USX 重构 (2026-09-18 起)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "7910c31a3d3f91dd9708f6653aedad532c66fc57bce261a659298bf45f8f645d",
+      "published_sha256": "19dac3c6c5afaf3535609d98b0119f8ba8576a9422a0ce9691427cb6ad73f8c8",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/FORK_INIT_20260916.md",
+      "published": "research_archive/alpha_lab_growth/docs/FORK_INIT_20260916.md",
+      "title": "P0 副本初始化与隔离边界 (FORK_INIT)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260916",
+      "source_sha256": "f2841e68bbde7c9942de89df9e0e18efb45121497109877f4d3c8c5dcb050718",
+      "published_sha256": "36d9279b646a5a6ec967662c85a1a03078533e21c05066355de4480dd8307dac",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P1_PIPELINE_20260916.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P1_PIPELINE_20260916.md",
+      "title": "growth P1: 全市场管线适配 — 约束地图、可行性画像与因子缓存",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260916",
+      "source_sha256": "35a48d5c3f7d8ff26324e6de5aa0126461691c73a09e53959802afd4e244f69b",
+      "published_sha256": "d7556bc76b2c002e17d5d2203e25359e10c2076074c1fa022998fce847fb1415",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P2B_REDESIGN_20260917.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P2B_REDESIGN_20260917.md",
+      "title": "growth P2': 重设计信号研究 — 7 条机械候选扫描、ideal_amp_v2 账本回放与方向事故",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260917",
+      "source_sha256": "566573a4b2f75dc6e3d81cd9d9379aca3bb0715ce9be6dc6e18c6c26e501a675",
+      "published_sha256": "202708fef08bea284f0cd69002dd0bcc6567e392fb8ca5dd075a98e22f5c0948",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P2_SIGNALS_20260916.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P2_SIGNALS_20260916.md",
+      "title": "growth P2: 全市场信号研究 — 预注册扫描、双维验收与 VALID 确认",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260916",
+      "source_sha256": "582c3504dc89bea5e0518c7ce59595ef58f317af65d0218502725d56ee75f19d",
+      "published_sha256": "cb64f0a74db331d5cd3c11bda35012e5c91bd5e7aab792ae29f4ac77e0691520",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P3_ACCOUNT_20260917.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P3_ACCOUNT_20260917.md",
+      "title": "growth P3: 独立账户回放 — 管线建成、完整性验证与 8 情形矩阵",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260917",
+      "source_sha256": "a86132b240a03eaab3fda12ca4a9c93febfae7af665ac81d8631a28aafec0b2c",
+      "published_sha256": "8c20ddfd700a3379b650a3371d43d7e3878948016517539a241444104ae22783",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P4_EVAL_20260917.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P4_EVAL_20260917.md",
+      "title": "growth P4: VALID 窗评估 — 数值化预注册验收",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260917",
+      "source_sha256": "302acf552d196ae8e894e12e9895a4873fe1aa9373f4ef5224622324fad82940",
+      "published_sha256": "3b4253f3ca1750868b589113b55f7d2326782ebc89afacf33e124748bdbd97ab",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_P5_REDESIGN_20260917.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_P5_REDESIGN_20260917.md",
+      "title": "growth P5: FAIL 后研究续 — 探针、双路调研综合与重设计预注册提案",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260917",
+      "source_sha256": "8b62f4696abc2faf78f033fd8914daf570ae782de02c9a3608c838deb7dc927e",
+      "published_sha256": "ef7ed82f525673949107c82c72e5b1309571d8a819b09bbba15f7a49c594e039",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md",
+      "title": "growth 路线 A/D/F-US 执行报告 — 广度前提被证伪、域结构确认高波、美股首期",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "7a47f29b986722ffcc6b47a15539f060d6b5a35dc0d5e687f04c4e071a8dc52f",
+      "published_sha256": "413880e2e7efe4801cba8a85733cd549f37659bc0849eb0009653972a3f4191b",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/SIGNAL_DIRECTION_CONTRACT.md",
+      "published": "research_archive/alpha_lab_growth/docs/SIGNAL_DIRECTION_CONTRACT.md",
+      "title": "信号方向契约 (SIGNAL_DIRECTION_CONTRACT)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "129c7f7ca08a6eb7c8bf73eaacca4ba35789f0b3d6eee6059a4d111b68bdcf6e",
+      "published_sha256": "de6b289a159b67f1c8f77baebd439e4a03fcacaf3cd417f10236b2c12e043838",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/USX_DESIGN_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/USX_DESIGN_20260918.md",
+      "title": "USX 架构设计与预注册 (2026-09-18)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "bae26e9de3e2366f831175eec0fe86fc4fb661de94c76006c1fd5a156bdcc2c8",
+      "published_sha256": "875f0d0535febb14927426e5b3878b29f522f9108731eb7745bb286e9e94737c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/USX_FINAL_REPORT_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/USX_FINAL_REPORT_20260918.md",
+      "title": "USX 终报 — 美股隔夜→A股板块轮动→个股中短期持有: 重构、证伪与遗产 (2026-09-18)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "70053a9549a4f1b1944824e75b05ae5a36bd5c030091a350d0a7680a6f8615f6",
+      "published_sha256": "a781eca88a79cd99998f54ed968429cdf0ca9b9864bb728c9b373f8bc46eb213",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md",
+      "title": "P0.2b 美股\"历史动态\"扩展 — 预注册 (2026-09-18, 用户方向)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "60262bdbf4869d48b77d45d4fc6830421997330cb613fe480fcb011be934af07",
+      "published_sha256": "5f0d7a9ded086142abd2b1402a5c3d8aca011db436e2f3341c3d8b566307a314",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/USX_P0_FINDINGS_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/USX_P0_FINDINGS_20260918.md",
+      "title": "USX P0 实验发现报告 (2026-09-18)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "716f14444e45983e7f1f2d0d79c83146d9cb082a943bc883cdb817dd54c94666",
+      "published_sha256": "5188aa7f949d1fe2933d0843765e0427acfecef04d567fa6664d43ddb22c778f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/USX_RESEARCH_SURVEY_20260918.md",
+      "published": "research_archive/alpha_lab_growth/docs/USX_RESEARCH_SURVEY_20260918.md",
+      "title": "USX 独立调研报告 (2026-09-18)",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "20260918",
+      "source_sha256": "80db08763a0aba6705165b4f08fdd655a064f5616f834ca5323c2afe5f3f11db",
+      "published_sha256": "ae9ae3a75a62e06a3aa989aa3eb65bb4202a56b856691cea3b1af436eef96435",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/docs/legacy_v1_README_untrusted.md",
+      "published": "research_archive/alpha_lab_growth/docs/legacy_v1_README_untrusted.md",
+      "title": "alpha_lab_growth — 高波成长独立策略线研究副本",
+      "group": "跨市场与成长线",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "f66527cc2670fc24b7545629d7333c94f2a6db833d6a341c6d05682595d6964a",
+      "published_sha256": "97631d5289b45f5128bcaba9615e276f704fb3ed68ac27dfeaf744d4703cbd50",
+      "redactions": {
+        "machine_path": 4
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_composite.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_composite.py",
+      "title": "usx_composite",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "bb1792411a3cafe1e83767ea683a77e7f721eeaae70d3d4695ae30262e9a9855",
+      "published_sha256": "902974cbc36a2a89aa7b3b9d7bf82cde3b072b76eac99f0d33245e8658d6a8cf",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_fetch_us.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_fetch_us.py",
+      "title": "usx_fetch_us",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "da8558369a724981f6712ee97146835c68ede1a3c90cdfd420573c99e54ed9cc",
+      "published_sha256": "f153dcda40a26ba197e1d1e7bdfbfe5f6365415a43644b8d05b9990f28393090",
+      "redactions": {},
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_final_vs_null.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_final_vs_null.py",
+      "title": "usx_final_vs_null",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "63dd1eb6656f345d48b4c7fb5b26fcccdf2027b67ee844dfe8ed9734bc772cc8",
+      "published_sha256": "d0269aba4bf72a268d0d018a9d3295ac61e86614b036517c812c1b4b920bd7fa",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_p0_1_index.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_p0_1_index.py",
+      "title": "usx_p0_1_index",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "b0f0eabdb28f0b74ab7f36ab4b8330ffd66b6568f0ed83ceb58075b0fd2e7fae",
+      "published_sha256": "a82e89a421d8966fbcb760a66cc8a58bfd8af8a07b0bb81b3bc219ef4df2c211",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_p0_2_sector.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_p0_2_sector.py",
+      "title": "usx_p0_2_sector",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "23a70ceb1c1e0aa55b840dc75b1702c0ec3ff21fbb73c8c3c3df0cdbc2caefe5",
+      "published_sha256": "415dd2d079d990bbae68d9b760f60909df071d127e88a0c751828672906a10d7",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_p0_2b_dynamics.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_p0_2b_dynamics.py",
+      "title": "usx_p0_2b_dynamics",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "f8f2d57bccdf1aa8eb5b489c19cca5358336ed2cd1669c5b25c9e676eb3c88e1",
+      "published_sha256": "cefa12aedffce541150eb94ea081ffbd8dceab73c7ef318415e686b2c5bf2b2c",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_p0_3_stock.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_p0_3_stock.py",
+      "title": "usx_p0_3_stock",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "5b4cd774389254a7a3ae60dba9dca9f6f7118bc6b1df02754c209bb84542cd80",
+      "published_sha256": "fe4ac54549b8577158ce3b858fd4812615e77b7906f587e01dc59820dd4bef74",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "alpha_lab_growth/scripts/usx_sensitivity.py",
+      "published": "research_archive/alpha_lab_growth/scripts/usx_sensitivity.py",
+      "title": "usx_sensitivity",
+      "group": "跨市场与成长线",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "532ad33adcb398aaa4fd498808c3b1df30795cc25fe5b01f0349355b858df4f7",
+      "published_sha256": "2fb78af6ee0f6538185398548489cf28996552a55f8244cdee475a998820b25e",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "audit/01_future_function.md",
+      "published": "research_archive/audit/01_future_function.md",
+      "title": "步骤 1 — 未来函数排查报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "c08b46840a5707960d4bef0fe82a9dfffc13d7e07d389b19a5b06fd1eb6b4258",
+      "published_sha256": "0213839e2994904b5d2ec38f10b7493894aec1636ea3cdc640fbcfda64339fe5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/02_alpha_beta_sharpe.md",
+      "published": "research_archive/audit/02_alpha_beta_sharpe.md",
+      "title": "步骤 2 — Alpha / Beta / Sharpe 评估报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "9d3d122167285696f6fa7d7bf11d1c8069914bdba13b2ff3f0f707427d322593",
+      "published_sha256": "e78affb50e7ea58974b3fd469344f199f39cf7ad540c5256a0930a04fb784432",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/03_factor_exposure.md",
+      "published": "research_archive/audit/03_factor_exposure.md",
+      "title": "步骤 3 — 因子暴露分析报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "d0b19bde7c179083283284f0ca615e8a7ce0022818af34d4f2b06e1882fabc6b",
+      "published_sha256": "e69fa04cfa47925c8b6d5ede0323ca8ec96da97196b6a46f2f1b1b31c54722c6",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/04_ic_rank_ic.md",
+      "published": "research_archive/audit/04_ic_rank_ic.md",
+      "title": "步骤 4 — IC 与 Rank IC 计算报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "b1ae3843292d9f62c9db738d137302c92f357a162c855fcd1f32a64501c8e0dd",
+      "published_sha256": "4d9a232a4e55717d1529028848789944363b2cc8f9d684feaefb1f86cdd2bfeb",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/05_ir.md",
+      "published": "research_archive/audit/05_ir.md",
+      "title": "步骤 5 — 信息比率 IR 计算报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "19628242d9a50e552bbd375cf04ee5190c6910caf6e8d62aed9537df95718e7c",
+      "published_sha256": "cf2c5d3ac3152fe4b9bbbbece62c45f9e21cc077cc271f70bc615833a895366c",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/06_fix_report.md",
+      "published": "research_archive/audit/06_fix_report.md",
+      "title": "步骤 6 — 修复执行报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "b2a74a1a271e2f760f618a03f4ece3784321c8cd0fbfc31b766e6bbed3df0359",
+      "published_sha256": "7aff479374523f9b506ed3dd6ce806c95cc8f61cebbf6feb8ac965ec465b0ba7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/07_rea_audit_report.md",
+      "published": "research_archive/audit/07_rea_audit_report.md",
+      "title": "步骤 7 — 修复后重新审计报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "673cf888964c5e4aa26295e2f181a81dce19c5cb4be7075f9022e04ee8ca6914",
+      "published_sha256": "1a3191fd412867e8662ce975f98d69c4dfd9662754ebf958cfb9e0a6137910a3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/08_gapaware_report.md",
+      "published": "research_archive/audit/08_gapaware_report.md",
+      "title": "步骤 8 — 跳空感知成交修复 + 重新评估",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "fe21267d8ce32c33b9a7f4fefcef2ea9d82d1590e708aef5fd58b5ca8d988058",
+      "published_sha256": "25f9acaa6b6b6cdffce487036fc95f3d33caebff8e728b26322bcd929c6f55d0",
+      "redactions": {
+        "machine_path": 3
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/09_summary.md",
+      "published": "research_archive/audit/09_summary.md",
+      "title": "量化选股模型审计与修复工作总结",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "2771f8ad26d169f2566d6c0b1659b09576073a82941cc406616c61f6ef9bd038",
+      "published_sha256": "57a0226899d398713fefe17f83334a0b32f8782e217e157da726a8747aea0547",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/10_realtime_features.md",
+      "published": "research_archive/audit/10_realtime_features.md",
+      "title": "步骤 10 — 实盘预测脚本：当日实时特征修复",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "df68524ac839522557f62366201585c5550e8c59354ef8a7713aaea26f38caaa",
+      "published_sha256": "38747af827630b1023796eeca82f0b20b002806d82dd6cf69ae04ca5f245abc7",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/11_differentiated_strategy.md",
+      "published": "research_archive/audit/11_differentiated_strategy.md",
+      "title": "步骤 11 — 因子挖掘结论 + 差异化优化路线",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "d3d07eb5458b12d8afc45d3fb7ffc5858abde8be729bbea675f4b38233815593",
+      "published_sha256": "8fb9a611962bc32478d3e2f4a9c769696e7c8cbf4c1d36689743aeb2851d9a12",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/12_regime_analysis.md",
+      "published": "research_archive/audit/12_regime_analysis.md",
+      "title": "步骤 12 — regime 择时重构 + A股/KCB 组合对冲",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "da1e8a9d8af41f0a9dbd015a928d1682757f43da332092cb046cc69f41194895",
+      "published_sha256": "1287074df0c53718a25bdd43e25b6583ba2135ed3ad5a65b054164fe23d0df1c",
+      "redactions": {
+        "machine_path": 1,
+        "machine_root": 1
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/13_limitup_strategy.md",
+      "published": "research_archive/audit/13_limitup_strategy.md",
+      "title": "步骤 13 — 涨停板战法测试（抓涨停回调 / 打板）",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "a6125b754debf22692c19c13d4c197814627918bbe8892c81d4cd7aee0f86473",
+      "published_sha256": "9c7567c75a6343cddad8715b6e0810498ecf107878f32809ea894af568c079f7",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/14_reverse_t_strategy.md",
+      "published": "research_archive/audit/14_reverse_t_strategy.md",
+      "title": "步骤 14 — 止损日反T做T补充策略: 可行性、阈值优化与风险稳定性",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "60981fe1eb6e13461adf743d2548e4179e495080c5bbd672ff261b94232abd09",
+      "published_sha256": "6a9a4a9ada84190d92c75495432f7308649a1ddc57d5e9f78973632f5d304eae",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/15_model_tuning.md",
+      "published": "research_archive/audit/15_model_tuning.md",
+      "title": "步骤 15 — 模型调优研究: 板块选择 / 持仓期 / 移动止盈 / 分数过滤器",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "1ba4c6540794677a1dd7485d216a891aacae44246eff74247e26205225a473a0",
+      "published_sha256": "bff3d41e0c795fbc4d36a23317105942aec90031e324d2acfebfe416d1bf98a3",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/16_factor_expansion.md",
+      "published": "research_archive/audit/16_factor_expansion.md",
+      "title": "步骤 16 — 扩展因子库 Batch1 (换手/资金流/估值/日内/波动结构)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "43b5ecd8b955558afb4d9092376c74553990287866ef83faaac2ee3df206237f",
+      "published_sha256": "2ca3c48edf1f2e893659c191f4419f2cef42f3d95e596946ecf2aa3597fa1486",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/17_rolling_backtest.md",
+      "published": "research_archive/audit/17_rolling_backtest.md",
+      "title": "步骤 17 — 月度滚动方案回测 (3个月训练窗 + 月度因子选择)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "48d4e9d9b782d45ad2d744eabc8b40de7e2b3207a1d1766973968d3780039592",
+      "published_sha256": "5d16a18677b70c60c9e205130009de1cae361906b0910669a639cf4774b6c2ad",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/18_lookahead_review.md",
+      "published": "research_archive/audit/18_lookahead_review.md",
+      "title": "步骤 18 — 未来信息泄露专项审查 (扩展因子库 + 月度滚动集成后)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "beeb598b876a86d51131812c81f8c11310deb2ca897ce37c196c65f398dcc38e",
+      "published_sha256": "08ff2fd4aa72519515da49fde9362cff79863513c06488d9257d717910f82ed5",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/19_best_strategy.md",
+      "published": "research_archive/audit/19_best_strategy.md",
+      "title": "最优可用策略报告 (截至 2026-08-22, 全口径审查后)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "af6dad25fd5ea550d41745ff3ec28985223d6f8bcbfe54c79093d4b09d241b6c",
+      "published_sha256": "f3e313836369856a79246373df0534ac49e3596eec124954cc303c5929c6d34a",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/20_data_integrity.md",
+      "published": "research_archive/audit/20_data_integrity.md",
+      "title": "步骤 20 — 日频数据完整性检查",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "91e1a98a4d4d506723414e64bcb21d17a5521fec6b54b40399687630e41ae979",
+      "published_sha256": "048f5fc4f06f43937c4bd261f5f8cf92fbd5527fff453d9e3c3c5648e5de270d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/21_minute_replay.md",
+      "published": "research_archive/audit/21_minute_replay.md",
+      "title": "步骤 21 — 移动止盈的分钟级验证: 日线口径的退出层收益基本是水分",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "a4b9cb080cd0aed6a22391af1193135e21862ea9fad78d1c791ef134f170a4eb",
+      "published_sha256": "30154cb9061ccf053e078ae31de6601ba52a44a13a1c7c844ad446a0e256d107",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/22_honest_fixed_tpsl.md",
+      "published": "research_archive/audit/22_honest_fixed_tpsl.md",
+      "title": "步骤 22 — 诚实口径终版: 固定 TP/SL + SL优先 + 分钟验证后的真实数字",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "ac510683b60e0b9d2ceb0230006ce8a68118a0499ac6bc78f264aeebc9e92f4f",
+      "published_sha256": "3e22b9f609adb41922318d91023858e019785410894fbb78411a1c1567b9e8b2",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/23_kcb_final_verdict.md",
+      "published": "research_archive/audit/23_kcb_final_verdict.md",
+      "title": "步骤 23 — KCB 最终裁决: 个股短线全灭, ETF 躺平最优",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "f50c709e8fff060e47c2b7b789098958f00298a6826c29ea46df374a63187e1d",
+      "published_sha256": "b65166d62a26ba220eb24b934979a6f02e5860901dea9116d2302f2aaeb97614",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/24_model_stability_factors.md",
+      "published": "research_archive/audit/24_model_stability_factors.md",
+      "title": "步骤 24 — 因子组合方法与 LGBM 过拟合/稳定性研究",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "867b979afa44244cf0c053ce68d7ef438266d204d872f8acda33b45f5ff3928f",
+      "published_sha256": "7d99a31048e745fb8f5d2ca68ab5ed53658e8d003d98d1121da7e676774059c0",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/25_leakage_fix_daily_rotation.md",
+      "published": "research_archive/audit/25_leakage_fix_daily_rotation.md",
+      "title": "步骤 25 — 泄露审查(EOD因子) + 每日轮动/前3名评估",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "78ef74fb90cade2c94294b27374bcdff077bb5dfd3e26e9efdb5b0ea6155e6ea",
+      "published_sha256": "1f5f4d34d3f74156e0bcffa26c1e6901857c685c6479561f7648cfc7e4023bbc",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/26_exit_research.md",
+      "published": "research_archive/audit/26_exit_research.md",
+      "title": "步骤 26 — 止损/退出机制研究系列 + 生产策略定稿",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "e260fc5032ba1a190f89675b2c88f1bb9eb094189e8b04e869fb8dbf1722c222",
+      "published_sha256": "7acf06a31f3c317683631c95c6faf4ce1d5fd59594596cca17207bbd1392b974",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/27_honest_v18.md",
+      "published": "research_archive/audit/27_honest_v18.md",
+      "title": "步骤 27 — 主板诚实口径总清算 (a_share_v18)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "370d29bfc34135a60935297566abaa93afef25548edf73967194c9d6f5dbe64c",
+      "published_sha256": "fe27a9b9d8280d63762fae497b609af894ed8734bf0ee01818c9fdd3006825e4",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/28_research_summary.md",
+      "published": "research_archive/audit/28_research_summary.md",
+      "title": "步骤 28 — 研究思路总汇总 (2026-08-26 ~ 08-29)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "b6e7a92e270c136f48309687eb752bac4b96e5f5c5fca7aa59e1574d58c2c2da",
+      "published_sha256": "e5643a8ce1c3d5061566cc6a1d64b4b4b1985169255f4b00f5646b7c5f0f2b95",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/29_mechanism_ablation.md",
+      "published": "research_archive/audit/29_mechanism_ablation.md",
+      "title": "audit/29 — 进出场机制剥离实验 (mechanism ablation)",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "0869cf98507ed52c9cf801592624b3cd80c038c7ad048090056371873d6558f9",
+      "published_sha256": "97ab1d111631876f59fc32a02929ea343f124c7bfa58cf42eb7728eed8706d8a",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/README.md",
+      "published": "research_archive/audit/README.md",
+      "title": "量化选股模型 — 版本审计报告",
+      "group": "旧版演进与回测审计",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "65a5f9d65e00c615f07e94e0041d2c2ecb760579cb97dfd837d6a6233a30c2ed",
+      "published_sha256": "9b8a07a175f19ddcf3182b6286d6869550ae4bf0c52e1ef4250932edb6379daa",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "audit/scripts/ashare_ablation.py",
+      "published": "research_archive/audit/scripts/ashare_ablation.py",
+      "title": "ashare_ablation",
+      "group": "旧版演进与回测审计",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "2f908a914f3abf146ee3daf841e79cb487089a73108209773aa3f8a1385bc02e",
+      "published_sha256": "e650ec8b3ef26e3adf02f7f7e5bcd8b85b2c90cd8a43d87a5fadf5048c98e7c5",
+      "redactions": {
+        "machine_path": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "audit/scripts/ic_leak_ablation.py",
+      "published": "research_archive/audit/scripts/ic_leak_ablation.py",
+      "title": "ic_leak_ablation",
+      "group": "旧版演进与回测审计",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "b02d1ad2d24e0c1bc0a95b33dfce8ac0b37de4a95a95e11d94bd9c3a0430adb6",
+      "published_sha256": "7495d010ddf57cc08e43a425228d5cb32aafba1582b9019d165de00e2c841288",
+      "redactions": {
+        "machine_root": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "audit/scripts/multi_label_audit.py",
+      "published": "research_archive/audit/scripts/multi_label_audit.py",
+      "title": "multi_label_audit",
+      "group": "旧版演进与回测审计",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "9dae0393b38bfe583ab28d285d6d062c726b2eca8a7aba259b3d42a0f5257e3a",
+      "published_sha256": "29dac55d84bf941810713ce511abba94ebccc2181da3c2fe48c3915d9e8ca810",
+      "redactions": {
+        "machine_root": 1
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "audit/scripts/trailing_minute_check.py",
+      "published": "research_archive/audit/scripts/trailing_minute_check.py",
+      "title": "trailing_minute_check",
+      "group": "旧版演进与回测审计",
+      "kind": "实验脚本",
+      "date": "",
+      "source_sha256": "67172e36870555b9c5818ba5361929f9f921c5940b0caac25d53a20422a44040",
+      "published_sha256": "9ba2d2be7c652c06ec7f8d2225cbfc40175722aff5934c63b19b22f366606cae",
+      "redactions": {
+        "machine_path": 3
+      },
+      "adaptations": [
+        "添加历史实验说明",
+        "机器绝对路径改为相对路径，敏感值脱敏"
+      ]
+    },
+    {
+      "source": "cb_rotator/README.md",
+      "published": "research_archive/cb_rotator/README.md",
+      "title": "cb_rotator — 可转债多因子轮动策略",
+      "group": "其他资产与早期系统",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "ba8cf2ed457ff7fd551e07e749f1428e6c68273ff573281e28a853f9c114279d",
+      "published_sha256": "5db04410a3e5733a0eda4563ff2ab3a4afd4f4c583129a97fef0660277e3921d",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "datahub/FROZEN_RESEARCH.md",
+      "published": "research_archive/datahub/FROZEN_RESEARCH.md",
+      "title": "固定数据、固定模拟口径、只迭代策略",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "ccfdfbdd3b44999cbcb27be03425426822069b2c61f3fbc5234603a0ba075a09",
+      "published_sha256": "d55265dd61066c068adbd6f9d5b8b5b1ae60c908dccef3d4a1cfbae127073c8f",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "datahub/README.md",
+      "published": "research_archive/datahub/README.md",
+      "title": "datahub — A股 + 美股结构化数据集",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "f82795ed6e8154d10f22ade20955e0efae4ac69378feafc3b168ea9c096c31fb",
+      "published_sha256": "fe560bf4cc13404fa9ef700dd140bf6f937767804dff9347000a4794944712bd",
+      "redactions": {
+        "machine_path": 2
+      },
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "datahub/RESEARCH_READINESS_20260920.md",
+      "published": "research_archive/datahub/RESEARCH_READINESS_20260920.md",
+      "title": "datahub 研究数据验收（2026-09-20）",
+      "group": "数据工程与研究契约",
+      "kind": "研究文档",
+      "date": "20260920",
+      "source_sha256": "b43dc0be772e09d0fd56239da9de4c07e65f0195987dddef4ad7d1a69979f373",
+      "published_sha256": "5dde01ebd8c091ee8e7d09100cebb8098229597deda7abe74c0078c0606f0b4e",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    },
+    {
+      "source": "ipo_trader/README.md",
+      "published": "research_archive/ipo_trader/README.md",
+      "title": "ipo_trader — 新股日内做T交易系统",
+      "group": "其他资产与早期系统",
+      "kind": "研究文档",
+      "date": "",
+      "source_sha256": "831923a17090b998718db9c7456f7f4951a99d4ece116c2c3088f705454340af",
+      "published_sha256": "5e09603bcc8f2bf052123aed565ca2ef0214b30abebdfa1ff7588a6473942414",
+      "redactions": {},
+      "adaptations": [
+        "添加历史边界说明",
+        "归档内链接重映射，未纳入附件显示为原记录路径"
+      ]
+    }
+  ]
+}
