@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "dates": 17,
+  "membership_checked_each_date": true,
+  "latest_candidates_and_scores_equal_previous_review": true,
+  "feature_prefix_checks": [
+    "2026-09-17",
+    "2026-09-30"
+  ],
+  "unchanged_programs_and_annual_models": true
+}

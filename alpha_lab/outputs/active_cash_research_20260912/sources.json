@@ -1,0 +1,42 @@
+[
+  {
+    "name": "huatai_20190927",
+    "url": "https://crm.htsc.com.cn/doc/2019/10750101/465187f1-0ae9-416e-b817-65d786a2e0d2.pdf",
+    "status": "downloaded",
+    "pages": 20,
+    "sha256": "e55c80a4809b23d7ba8a4502b4341428988bfac5c559987fa1d61ef4caea85f7"
+  },
+  {
+    "name": "huatai_20200407",
+    "url": "https://crm.htsc.com.cn/doc/2020/10750101/9ae949c5-07ef-4057-a8c9-84ab3047835f.pdf",
+    "status": "downloaded",
+    "pages": 22,
+    "sha256": "8ef23a241002f399525a84a9a1a51715fdbf4099342125f17a651fabe540fa8b"
+  },
+  {
+    "name": "conditional_vol_2020",
+    "url": "https://repub.eur.nl/pub/130215/Bongaerts-Kang-van-Dijk-Conditional-volatility-targeting-2020-FAJ.pdf",
+    "status": "downloaded",
+    "pages": 19,
+    "sha256": "6c2c838342769da833ed7d22aa1bfe2d22805c5217ef16811e451cb0cad4890b"
+  },
+  {
+    "name": "cederburg_2020",
+    "url": "https://www.lehigh.edu/~xuy219/research/COWY.pdf",
+    "status": "downloaded",
+    "pages": 23,
+    "sha256": "5f82689700a360bed1fd371637d4a62090c6715d0cc9bd85c36fc78bc6129919"
+  },
+  {
+    "name": "moreira_muir_2016",
+    "url": "https://www.nber.org/system/files/working_papers/w22208/w22208.pdf",
+    "status": "downloaded",
+    "pages": 57,
+    "sha256": "be1ea92102e1394e9ddec9545489902f45e5a07b42bd4c42faf8ee372e99fa7a"
+  },
+  {
+    "name": "faber_2013",
+    "url": "https://mebfaber.com/wp-content/uploads/2016/05/SSRN-id962461.pdf",
+    "status": "HTTPError"
+  }
+]

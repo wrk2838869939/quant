@@ -1,0 +1,13 @@
+# 通用交换格式；不是任何券商原生导出兼容认证。费用必须已结算。
+profile_id: explicit_csv_v1
+encoding: utf-8-sig
+date_format: '%Y-%m-%d'
+markets: {沪A: SH, 深A: SZ}
+sides: {买入: buy, 卖出: sell}
+statuses: {已成: filled, 已撤: cancelled, 部撤: cancelled, 废单: rejected, 已失效: expired}
+columns:
+  bindings: {account_id: 账户, date: 日期, broker_order_id: 委托号, order_id: 计划订单号, code: 证券代码, market: 市场, side: 方向, shares: 委托数量, price: 委托价格}
+  fills: {account_id: 账户, date: 日期, broker_order_id: 委托号, execution_id: 成交号, code: 证券代码, market: 市场, side: 方向, shares: 成交数量, price: 成交价格, gross: 成交金额, fee: 总费用}
+  orders: {account_id: 账户, date: 日期, broker_order_id: 委托号, code: 证券代码, market: 市场, side: 方向, status: 状态, filled_shares: 累计成交数量}
+  account: {account_id: 账户, date: 日期, cash: 现金余额, receivables: 应收款, equity: 总资产, frozen_cash: 冻结资金, open_order_count: 未结委托数}
+  positions: {account_id: 账户, date: 日期, code: 证券代码, market: 市场, shares: 持仓数量, sellable_next_day: 次日可卖数量, close: 收盘价}

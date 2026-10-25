@@ -1,0 +1,23 @@
+# 首轮固定规则机制诊断，不按2022—2023结果选参数，不是实盘配置。
+prepared: outputs/style_attribution/20260911T160006_201315Z
+output_root: outputs/active_cash_audit
+market_start: '2014-01-01'
+market_end: '2023-12-31'
+valid: ['2022-01-01', '2023-12-31']
+reserve_cash: 105000.0
+risk_signal_max_age: 21
+fixed_exposure_fraction: 0.5  # 事前固定少持仓对照，非事后匹配最优比例
+min_listing_days: 60
+min_market_names: 500
+trend_days: 20
+median_days: 60
+short_return_days: 5
+volatility_days: 20
+quantile_days: 252
+extreme_quantile: 0.8
+breadth_exit: 0.4
+legacy_median_exit: -0.002
+legacy_breadth_exit: 0.45
+recovery_confirmation_days: 3  # 操作假设，尚未证明最优；所有规则一致
+rules: [legacy_v14, breadth_trend, extreme_downside]
+event_horizons: [5, 10, 20]

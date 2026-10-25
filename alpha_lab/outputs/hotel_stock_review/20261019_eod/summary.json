@@ -1,0 +1,20 @@
+{
+  "asof": "2026-10-19",
+  "sector": "酒店餐饮",
+  "members": 9,
+  "qualified": 8,
+  "price_pass": 6,
+  "observation_candidates": [
+    "000721.SZ",
+    "605108.SH"
+  ],
+  "official_strategy_candidates": 0,
+  "model_year": 2026,
+  "model_last_label": "2025-11-19",
+  "scenario": "19日横截面独立观察；不是原策略新入场",
+  "name_history_refetched_for_all_members": true,
+  "qualification_unchanged": true,
+  "no_retraining": true,
+  "no_engineering_changes": true,
+  "model_condition_applicability": "未验证板块模型拒绝后、重复确认日的排序有效性"
+}

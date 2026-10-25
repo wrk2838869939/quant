@@ -1,0 +1,14 @@
+policy,board,entries,stocks,pnl_yuan,entry_gross
+low_turnover,Main,15,13,31325.674000000006,181894.0
+continuous_trend,ChiNext,5,5,-662.2980000000007,32144.0
+continuous_trend,Main,48,48,-20717.891000000003,333147.0
+continuous_trend,STAR,1,1,-1415.9069100000015,6332.110000000001
+global_return,Main,26,25,5482.384999999996,235720.0
+global_return,STAR,1,1,-2660.911760000001,14425.84
+phase_experts,Beijing,9,9,21170.36199,62296.92999999999
+phase_experts,ChiNext,1,1,-2117.880000000001,11352.0
+phase_experts,Main,17,16,-507.362000000001,168092.0
+phase_experts,STAR,2,2,-1332.0804700000017,19658.59
+shared_experts,ChiNext,1,1,-585.1760000000004,8100.0
+shared_experts,Main,22,22,7850.103000000002,195512.0
+shared_experts,STAR,1,1,-2520.5861200000018,13665.08

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "htsc_cscv",
+    "url": "https://crm.htsc.com.cn/doc/2019/10750101/9ee613ca-aff7-47a0-ab27-b3f448953585.pdf",
+    "sha256": "635f3fee0196b89d7c4ac371c337834e711475aec2a2bc3f41168d2c4ea89645",
+    "pages": 22
+  },
+  {
+    "id": "htsc_blend",
+    "url": "https://crm.htsc.com.cn/doc/2019/10750101/ae933a8c-5a94-4d92-8f33-d92b70c36119.pdf",
+    "sha256": "ab74685192486a81886a33b1d64635cc956a89f6dae739506c47886feda2690b",
+    "pages": 39
+  },
+  {
+    "id": "htsc_cv",
+    "url": "https://crm.htsc.com.cn/doc/2019/10750101/ce6b61af-f34d-4ab4-9d7c-5a8f91edc1cd.pdf",
+    "sha256": "60192dbbcf77e971f296595fdc51398ec7f337f65a59aceebe231819a6c31ee3",
+    "pages": 23
+  },
+  {
+    "id": "cost_taxonomy",
+    "url": "https://mysimon.rochester.edu/novy-marx/research/ToAatTC.pdf",
+    "sha256": "af18adac3aec357d7ce7c323e020e5e1d002c3cb44413b4f27b18f434d39b76f",
+    "pages": 64
+  },
+  {
+    "id": "china_size",
+    "url": "https://www.nber.org/system/files/working_papers/w24458/w24458.pdf",
+    "sha256": "1b13b0c1be94d1d6da41bd71612bed81d4ac46d054927a29597bf2faa6fc1610",
+    "pages": 57
+  }
+]

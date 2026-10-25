@@ -1,0 +1,261 @@
+{
+  "status": "protocol_frozen",
+  "cases": [
+    {
+      "name": "continued_calendar_01_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_calendar_01_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_calendar_08_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_calendar_08_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_calendar_15_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_calendar_15_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_calendar_22_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_calendar_22_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_rolling_00_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_rolling_00_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_rolling_05_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_rolling_05_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_rolling_10_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_rolling_10_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "continued_rolling_15_hybrid",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "hybrid"
+    },
+    {
+      "name": "continued_rolling_15_initial_buyhold",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_calendar_01_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_calendar_01_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_calendar_08_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_calendar_08_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_calendar_15_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_calendar_15_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_calendar_22_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_calendar_22_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_rolling_00_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_rolling_00_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_rolling_05_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_rolling_05_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_rolling_10_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_rolling_10_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "initial_buyhold"
+    },
+    {
+      "name": "cold_rolling_15_hybrid",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "hybrid"
+    },
+    {
+      "name": "cold_rolling_15_initial_buyhold",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "initial_buyhold"
+    }
+  ],
+  "fresh_holdout": false,
+  "source_hashes": {
+    "scripts/research_rolling_review.py": "f1e29d1b7afca744a2943f96cfa0bd5ea0c8eb7b6783b6665438eb63b8b5367b",
+    "src/rolling_review.py": "aa4ea4e73008790351c56d70a9c6f773c9362559c39a4ca735351b7b9edccfee",
+    "src/trend_entry.py": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/conditional_hold.py": "edb89815162d1a835845ff1b6a368a3c024b952421b0acd94faa2d36763609eb",
+    "src/hold_sensitivity.py": "734f1109b2d37939decf14c17ea7370d6a514bd0f694fa437cfe000ad4ce0d33",
+    "src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "configs/conditional_hold_research.yaml": "893d254cf112c14df4996d932a7c1c2a928a1b3b6dd4808ce76001d839ee3bca",
+    "tests/test_rolling_review.py": "baeace44a9a7d10113c42f7f2075cf509a753a7feec705690642eab262a595f3"
+  },
+  "input_hashes": {
+    "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9",
+    "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet": "04d1b49b8e6b8907bb9767be235723dc8c722567901a8cc60b0f1814d9e596ea",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/low_turnover_signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/low_turnover_point_forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/hold_hybrid.parquet": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/completion.json": "c6475105c6f2ad78ac7e7e17bff16f3dd6e0464ff1fa6cab380a0196b8a2d191"
+  },
+  "config_sha256": "1e60af83563fb9e057b99e3c5c56e571d0534119a0e8e90328072651e0cd5f83",
+  "protocol_sha256": "aafcca8c9b3607a280bec195d862abdb63aea7724dca1add17fe0ea454215dc9"
+}

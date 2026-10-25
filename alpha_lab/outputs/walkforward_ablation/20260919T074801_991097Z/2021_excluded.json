@@ -1,0 +1,80 @@
+{
+  "002020.SZ": {
+    "date": "2021-05-28",
+    "kind": "action_ref",
+    "reference": 8.9333,
+    "pre_close": 9.05
+  },
+  "002582.SZ": {
+    "date": "2021-05-31",
+    "kind": "action_ref",
+    "reference": 11.68,
+    "pre_close": 11.77
+  },
+  "603158.SH": {
+    "date": "2021-06-22",
+    "kind": "action_ref",
+    "reference": 11.6571,
+    "pre_close": 11.73
+  },
+  "603319.SH": {
+    "date": "2021-06-08",
+    "kind": "action_ref",
+    "reference": 24.5143,
+    "pre_close": 24.6
+  },
+  "603377.SH": {
+    "date": "2021-06-16",
+    "kind": "action_ref",
+    "reference": 9.6708,
+    "pre_close": 9.74
+  },
+  "603500.SH": {
+    "date": "2021-05-06",
+    "kind": "action_ref",
+    "reference": 8.7,
+    "pre_close": 8.75
+  },
+  "603776.SH": {
+    "date": "2021-06-11",
+    "kind": "action_ref",
+    "reference": 20.4388,
+    "pre_close": 20.51
+  },
+  "600888.SH": {
+    "date": "2021-04-21",
+    "kind": "continuity",
+    "prev_close": 6.29,
+    "pre_close": 5.74
+  },
+  "600909.SH": {
+    "date": "2021-06-10",
+    "kind": "continuity",
+    "prev_close": 6.22,
+    "pre_close": 5.63
+  },
+  "601236.SH": {
+    "date": "2021-08-04",
+    "kind": "continuity",
+    "prev_close": 13.36,
+    "pre_close": 11.97
+  },
+  "601555.SH": {
+    "date": "2021-12-23",
+    "kind": "continuity",
+    "prev_close": 8.87,
+    "pre_close": 8.48
+  },
+  "603773.SH": {
+    "date": "2021-07-23",
+    "kind": "action_ref",
+    "reference": 22.8518,
+    "pre_close": 22.97
+  },
+  "601015.SH": {
+    "date": "2021-07-08",
+    "kind": "continuity",
+    "prev_close": 8.95,
+    "pre_close": 7.7
+  }
+}

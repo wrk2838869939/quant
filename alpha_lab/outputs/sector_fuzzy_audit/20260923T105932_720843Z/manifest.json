@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "experiment": "/root/autodl-tmp/alpha_lab/outputs/sector_fuzzy_v1/20260923T105203_887024Z",
+  "experiment_manifest_sha256": "475c5382b63b3953fa1f2883a22059964bc710655dc0508d9778075cf4b28f49",
+  "prediction_rows_replayed": 1530,
+  "saved_scalers_train_only": true,
+  "selected_flags_exact": true,
+  "mature_labels_and_disjoint_indices": true,
+  "future_target_shock_train_unchanged": true,
+  "pointwise_predictions": true,
+  "runtime": {
+    "torch": "2.1.2+cu118",
+    "sklearn": "1.7.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3"
+  },
+  "artifacts": {
+    "audit.py": "68ca1fddef1b6a42922c19b330c0fefefb32299900f1ced64f94ada4be295293",
+    "sector_dataset.py": "deaaa2fa3e039158df36c6df1ff17cbdb3954d3d16ab35176e52552e26b650d6",
+    "sector_candidate_quality.py": "89d03c98353a2072de333266bd79ef0b62f26b4cc01bc4b9f0379cdf98340652"
+  }
+}

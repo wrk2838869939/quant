@@ -1,0 +1,4 @@
+sector_code,name,watch_20,confirmed_20,watch_21,confirmed_21
+801017.SI,养殖业,True,True,False,False
+801156.SI,医疗服务,True,False,False,False
+801744.SI,航海装备Ⅱ,False,False,True,False

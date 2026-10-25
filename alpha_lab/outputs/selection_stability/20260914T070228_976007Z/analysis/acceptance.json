@@ -1,0 +1,35 @@
+[
+  {
+    "policy": "smooth20",
+    "startup_range_ratio": 0.8657478375256531,
+    "tests": {
+      "date_dispersion": false,
+      "annual_return": false,
+      "drawdown": true,
+      "trading_frequency": true
+    },
+    "passes_all": false
+  },
+  {
+    "policy": "rank_buffer",
+    "startup_range_ratio": 0.7830712362343302,
+    "tests": {
+      "date_dispersion": true,
+      "annual_return": true,
+      "drawdown": true,
+      "trading_frequency": true
+    },
+    "passes_all": true
+  },
+  {
+    "policy": "combined",
+    "startup_range_ratio": 1.077142083191435,
+    "tests": {
+      "date_dispersion": false,
+      "annual_return": true,
+      "drawdown": false,
+      "trading_frequency": true
+    },
+    "passes_all": false
+  }
+]

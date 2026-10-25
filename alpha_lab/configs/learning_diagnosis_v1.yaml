@@ -1,0 +1,8 @@
+schema_version: 1
+sources:
+  - alpha_lab/outputs/learning_strategy_search/20260920T112021_620509Z
+  - alpha_lab/outputs/learning_extensions/20260920T115718_030644Z
+account_config: alpha_lab/configs/selection_account_v1.yaml
+rule_controls: [equal_factor, low_turn20, low_vol20]
+start: '2021-01-01'
+end: '2023-12-31'

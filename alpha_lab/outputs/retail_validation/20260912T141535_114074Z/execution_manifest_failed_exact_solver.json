@@ -1,0 +1,274 @@
+{
+  "status": "failed",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "cases": [
+    {
+      "name": "base_20000_none",
+      "capital": 20000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_20000_extreme_original",
+      "capital": 20000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_20000_extreme_recovery",
+      "capital": 20000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_50000_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_50000_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_50000_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_100000_none",
+      "capital": 100000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_100000_extreme_original",
+      "capital": 100000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "base_100000_extreme_recovery",
+      "capital": 100000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cost2_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 2.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "delay1_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 1,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cap40_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.4,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.0005_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0005,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.001_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.001,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cost2_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 2.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "delay1_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 1,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cap40_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.4,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.0005_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0005,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.001_extreme_original",
+      "capital": 50000.0,
+      "rule": "extreme_original",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.001,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cost2_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 2.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "delay1_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 1,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "cap40_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.4,
+      "slippage_rate": 0.0,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.0005_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0005,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "slip0.001_extreme_recovery",
+      "capital": 50000.0,
+      "rule": "extreme_recovery",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.001,
+      "active_fraction": 1.0
+    },
+    {
+      "name": "fixed_half_none",
+      "capital": 50000.0,
+      "rule": "none",
+      "cost": 1.0,
+      "delay": 0,
+      "max_stock_fraction": 0.25,
+      "slippage_rate": 0.0,
+      "active_fraction": 0.5
+    }
+  ],
+  "source_hashes": {
+    "scripts/run_retail_validation.py": "d0ab15c55e19dfda8fb234becc762686d0341f7eeb32ef7df207a1fd606c3820",
+    "src/portfolio.py": "946ce8e3b0476f628c5a8e34ee775ef6a0a68c0a071a17b59dd00e1a282b65a0",
+    "src/retail_rebalance.py": "3ee865d97b268d1fcbcf8f3185fd18889a301bcf2b6dc4af0a9e3bc977f533ed",
+    "src/risk_states.py": "f2360b755106ec8fe6998072e72d4b271979ff0740afb9893ec96b3855bec763",
+    "configs/corporate_action_components.yaml": "690b8c94de003e94768e098a2607cc0236e8268c5d1a86733c7351ce5e879bfd"
+  },
+  "input_hashes": {
+    "monthly_signals.parquet": "ef86f7af73264d4fd428f4e9fe1e38d8ba7a1bc499426571d972897d11eedcc2",
+    "monthly_forecasts.parquet": "7a55ff4e26174360841ec56325bcd6111e30b9b6c9235bfb02791679228d4901",
+    "daily_signals.parquet": "a10643ab1942c507884ffd515a14ac123790138ebce7eb5eb91d32b6f0bc69c2",
+    "daily_forecasts.parquet": "da814332297330f904b63fb8ed7d65d7c893e81302f651fbae80a78dc5ccbfd6",
+    "risk_plans.csv": "d8e373a3dcbe7beaf5e2086bb7349fd9cb8b7edb3212c2249be49fd12e4d1090"
+  },
+  "error_type": "RuntimeError",
+  "error": "联合整手分配未收敛为最优解，禁止下单",
+  "completed_cases": 0
+}

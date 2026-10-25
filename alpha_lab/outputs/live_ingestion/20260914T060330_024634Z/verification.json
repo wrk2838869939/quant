@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "prior_artifacts_verified": 36,
+  "frozen_sources_verified": 8,
+  "root_agents_unchanged": true,
+  "price_asof": "2026-09-11",
+  "price_rows": 16649,
+  "missing_previous_quote_rows": 4,
+  "absence_explanation": "provider_reported_full_day_suspension",
+  "metadata_block": "尚缺截至决策日的元数据覆盖回执：security_master,st_history,corporate_actions,trading_calendar",
+  "tests_passed": 45,
+  "cli_cases": 3,
+  "real_broker_exports": false,
+  "live_orders": false,
+  "strategy_admitted": false,
+  "sources_sha256": {
+    "src/broker_csv.py": "1eeb513b6e5ee20dba8eedfdb52c5fe9709e3449769daea849498d99d19abba0",
+    "src/execution_market_feed.py": "24dc104b92745c751ee5476b1ab5298a966427abe6d271d70c007304e88d2877",
+    "configs/broker_csv_template.yaml": "c7d538df5e2bd70a1ddd14b718333ef196d2c4141cc5587ab50e3e78864dbdd1",
+    "scripts/import_broker_csv.py": "12cec10fe006f041935b8b98980ebc249924dc32e0ad986dc4f8e62e1b3b74b0",
+    "scripts/stage_execution_market.py": "943c5f3483f14345e2a6ff07f1e04a7b32ce696bed189a548f44a5889f8fd2d6",
+    "scripts/validate_execution_market.py": "cc17a24341cf32e59d3631fa2243230e7bb44ee33a0c009c370b2c587739963c",
+    "scripts/check_execution_absences.py": "106fb87b7af1c008419860b541c81b017285660c92d6adf8e4f478cb335d2f57",
+    "scripts/validate_live_ingestion.py": "3d6cdb067fa0100fff8acd72ccfad8c1f6d8f0b902d7961662cf38d7f74eb256",
+    "tests/test_broker_csv.py": "e22ef6ace8683d1792e56df1831a1485a52c37a1ab40db10bd529a56c76f4e43",
+    "tests/test_execution_market_feed.py": "8078c1ce2b7016ebe7804da5eec99d50111a0c899c36819f61842f4be09120da"
+  }
+}

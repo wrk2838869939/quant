@@ -1,0 +1,12 @@
+[
+  {
+    "ts_code": "601728.SH",
+    "ex_date": "2026-09-10",
+    "cash_div_tax": 0.1606,
+    "previous_close": 6.28,
+    "reported_pre_close": 6.12,
+    "theoretical_ex_price": 6.119400000000001,
+    "rounding_error": 0.0005999999999994898,
+    "independent_provider": false
+  }
+]

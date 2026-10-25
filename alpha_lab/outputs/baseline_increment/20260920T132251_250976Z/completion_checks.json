@@ -1,0 +1,21 @@
+{
+  "tests_passed": 61,
+  "inner_candidates": 684,
+  "inner_errors": 0,
+  "saved_fit_pairs": 836,
+  "saved_models": 1672,
+  "reference_account_replays": 4,
+  "raw_account_prefix_checks": 60,
+  "paired_prediction_prefix_checks": 17,
+  "independently_audited_accounts": 704,
+  "audited_trade_records": 57520,
+  "high_inner_audited_accounts": 117,
+  "model_objective_diagnostic_streams": 17,
+  "raw_model_and_ranked_account_results_preserved": true,
+  "frozen_sources_inputs_and_parent_choices_unchanged": true,
+  "additional_source_hashes": {
+    "alpha_lab/scripts/report_baseline_increment.py": "73fa4c01e58f4a59d4ed8fcc42004d6660245e36886a77586f4bfaf78774a0e8",
+    "alpha_lab/scripts/diagnose_baseline_increment.py": "a5a1d977b7ce5b47a6aa86420e6237d63156c5bae441c0d366e38e2817b521cb",
+    "alpha_lab/docs/BASELINE_INCREMENT_RESULTS_20260920.md": "556f851da030e94e0a794c6f28243dbfdc9d516d2f2d2e4463a5f32466cd10e0"
+  }
+}

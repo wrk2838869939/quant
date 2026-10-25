@@ -1,0 +1,151 @@
+{
+  "status": "complete",
+  "config": {
+    "events": "alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z",
+    "returns": "alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z",
+    "dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "output_root": "alpha_lab/outputs/sector_fuzzy_random_halves",
+    "release": "datahub/releases/selection_v1_20260920",
+    "target_horizon": 20,
+    "report_horizons": [
+      3,
+      10,
+      20
+    ],
+    "retention_fractions": [
+      0.5,
+      0.7
+    ],
+    "primary_retention": 0.5,
+    "target_scale": 0.1,
+    "scaler_floor": 0.001,
+    "feature_clip": 5.0,
+    "minimum_breadth_coverage": 0.8,
+    "volatility_window": 20,
+    "breadth_recent_days": 2,
+    "breadth_previous_days": 3,
+    "features": [
+      "rally",
+      "pullback",
+      "reference_distance",
+      "slowdown",
+      "log_turnover",
+      "up_share",
+      "breadth_change",
+      "peak_age",
+      "platform_range",
+      "trend_return",
+      "trend_slope",
+      "volatility",
+      "quote_coverage"
+    ],
+    "fuzzy": {
+      "reference_center": -0.02,
+      "reference_width": 0.1,
+      "rally_floor": 0.15,
+      "rally_span": 0.35,
+      "slowdown_ceiling": 0.65,
+      "turnover_center": 0.8,
+      "log_turnover_width": 0.6,
+      "breadth_floor": -0.2,
+      "breadth_span": 0.4,
+      "weights": [
+        0.35,
+        0.25,
+        0.2,
+        0.2
+      ]
+    },
+    "ridge_alphas": [
+      1.0,
+      10.0,
+      100.0
+    ],
+    "fnn": {
+      "rules": [
+        4,
+        8
+      ],
+      "learning_rates": [
+        0.003,
+        0.01
+      ],
+      "weight_decay": 0.01,
+      "width_initial": 1.5,
+      "width_floor": 0.1,
+      "maximum_epochs": 1500,
+      "minimum_epochs": 100,
+      "patience_epochs": 150,
+      "check_interval": 10,
+      "improvement_tolerance": 1e-05,
+      "tuning_seeds": [
+        17,
+        43
+      ],
+      "ensemble_seeds": [
+        17,
+        43,
+        101
+      ],
+      "gradient_clip": 5.0
+    },
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20260923,
+    "cluster_gap_sessions": 20,
+    "minimum_selected_events": 40,
+    "minimum_selected_dates": 20,
+    "minimum_selected_fraction": 0.25,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 150,
+    "feature_source": "alpha_lab/outputs/sector_fuzzy_v1/20260923T105203_887024Z",
+    "split_seed": 2026092301,
+    "split_unit": "event_id",
+    "split_fractions": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "rounds": 2
+  },
+  "dataset_content_id": "12e9fc88adc9319c932598aa340136087d0fbeacf2e9bd2f50ae35022e166aa1",
+  "feature_source_manifest_sha256": "475c5382b63b3953fa1f2883a22059964bc710655dc0508d9778075cf4b28f49",
+  "returns_manifest_sha256": "4002e84e41d708804fa0748e20877f88fc6c8b3febedddfc58b0d798e7636977",
+  "artifacts": {
+    "random_config.yaml": "9cca72b90de7671831ceceb2dc5cc1330a9d6fe4a296515e1e919c53985aad70",
+    "RANDOM_PREREG.md": "09f1904bb0d869eaab00f773db5b97b3ca1d2db589b2d5c527e251d2dad85982",
+    "run_random.py": "5ca6dcf989ea97cef2555411ad06eb0d8ea9e0df5481b1e40e2fd1f577508e90",
+    "random_split.py": "2b012fd4d0325b954012405b9e04d1aa0f27f2381acf09e53d12bca9dcb93178",
+    "test_random_split.py": "987b60088d7be09ead309c9f9046c3e3512eda8933d085ced535cd2540c4fa10",
+    "model.py": "e9e2b6e37d8aef980006373517e3f68b828d1b3a7c509ace356765bfc8d1ee40",
+    "run.py": "77ec0d17aa8cc5c1702d46fec0b4c2481fce5eb4cdfd3cfa30e5279119ef99c8",
+    "test_model.py": "d97174e98737186a8a38f12e9a5c313001aed086ac5ef135851e7fc5f05cdd33",
+    "config.yaml": "03f315356321535bfc3ecabd285488790560bcdab09fa2a45e52a74f84195235",
+    "causal_features.parquet": "842cc2b0a8dde5bbfa348b8283d2686ccd0ff44baf31cbe34193d6701d8da4bd",
+    "split_assignments.csv": "2bcf29fc58a65d75998bf4f980fb001875ff845622d73665c25c6404475ae96e",
+    "round_1_fit.json": "be1ca0ba4b91c80d1a4aafee94c7fe933434f798bb89ef600d36828b8f2a130a",
+    "round_2_fit.json": "d1dbf7ba411db43372a670ba42e90190cb25042f07798c49e8c73253bbb88dca",
+    "all_role_scores_before_evaluation.parquet": "b69167bac64512b20014aa415306c92e7dd856f96f88d6010a55d09b14a51331",
+    "test_predictions_before_evaluation.parquet": "eb5891b52b9928a011bf1e6ae80ce1ecc55f8556b587e012ca5b0677e52330a5",
+    "folds.csv": "ea198704827434e77ced0c9938355ff28d0a9cde8b980845d26f31af0cfc4975",
+    "split_counts.csv": "7e7aff1dfe02c5e7ea05e978af893709014232c8bf6be34a4cc42a8994b6d137",
+    "validation_search.csv": "7f7f333064d21153b49e0cf2c5d28c18c40d045038d150b3bef030f50d62bf65",
+    "training_curves.csv": "e1ba275efd6161edcdd295294fcaada6fe39a9f6dc9d4cc8db8ab3310290a299",
+    "cross_split_overlap.csv": "b21c86ba6531ef7759a31d7fb904c75624bf78acd0c4ed6d41eec7df2390f5b0",
+    "test_outcomes_WITH_FUTURE.parquet": "42db7bc964d8f6c3002a7f4b3297cdbdaf65cd8d870e491523c43684d622590a",
+    "selection_summary.csv": "0bb46ef1b5a41624a8d47a8b729b8a184a089a8824a1c6c4c6f79aef6dfd610a",
+    "test_return_ecdf.png": "5abf09fb7f99e92f935ec177911b7ba91e625980dc344f533531b783345a58bf",
+    "random_halves_report.pdf": "2709d08cfb7d48901958ac0403d395c713a909502cac9a81bf573f9affee7f66",
+    "training_curves.png": "eb717a117488f62a7cb6771c4afca97bd29ebe26416ab5251a6604de7a234522",
+    "README.md": "7bcc5fc707e13341a65f0914688b5053b8f0cfd9e7dca1ced1516922c5c0a18d",
+    "overview.html": "2c97ceade97ee7021291d22a64cc4df3af3a3c2826d4c44b058e51005b492268",
+    "validation.json": "38b671e8aad312ee9b81c574507077b05ec85d7c2b6e3c2ca637960b51d36c7f",
+    "models/1_fnn_17.pt": "7450f66c302c6260853c3c72c0de1380bc92a69bbb05e748e0cb7e18428108c0",
+    "models/1_fnn_43.pt": "a332a26596a7502d071c7f747a2ff7940445c5ca73f6b5f0c3b1cc19907c0a5c",
+    "models/1_fnn_101.pt": "d45536bd6720b19cd3352608df728ccf620758e7340c56be4ea1d1e3a3a595f2",
+    "models/1_ridge.npz": "01961334f378d077421be21153a8ef1c26aa4f90fc5cf0647ffe4f507b2c40f1",
+    "models/2_fnn_17.pt": "4c5688237baa726687c0c62fde76f9520d7e89f6ba6e8ee47eb1c38044ad94c5",
+    "models/2_fnn_43.pt": "63017289f1621ba6da6a91375aa1954dd0bc7291c7467f2c5b6fb989c9985847",
+    "models/2_fnn_101.pt": "10645ee4fea5f957f79a3cc9636f6c121bfc243844b3357da916f55f8896d86b",
+    "models/2_ridge.npz": "f0ec183a91a8866611569ca5b7cb9e2daf5c686fd7cb6a6deda37daea2de5631"
+  }
+}

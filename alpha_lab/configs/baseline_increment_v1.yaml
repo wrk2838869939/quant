@@ -1,0 +1,54 @@
+# 正式训练前固定：三规则基线和等权候选的监督增量学习。
+study: baseline_increment_v1
+parent_run: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+registry: alpha_lab/configs/selection_baselines_v1.yaml
+hosts: [B01_low_turnover, B02_low_risk, B03_valuation, equal_weight]
+inner_start: '2020-01-01'
+outer_start: '2021-01-01'
+outer_end: '2023-12-31'
+outer_years: [2021, 2022, 2023]
+seed: 20260920
+workers: 6
+training:
+  train_window: 504
+  retrain_months: 3
+  min_dates: 126
+  min_rows: 2000
+  min_label_stocks: 10
+  horizons: [5, 20]
+  feature_names: [low_turnover_rank, low_risk_rank, valuation_rank, host_rank]
+  missing: centered_rank_zero_plus_missing_flag_no_extra_eligibility_filter
+  target: percentile_of_mature_next_open_to_horizon_close_return_in_host_universe
+  residual_target: target_minus_host_percentile_rank
+  sample_weight: equal_total_weight_per_training_date
+  label_end: strictly_before_fit_date
+  insufficient_history: preserve_host_ranking
+  models:
+    ridge:
+      alpha: [1.0, 100.0]
+    lgbm:
+      num_leaves: [3, 7]
+      n_estimators: 64
+      learning_rate: 0.05
+      min_child_samples: 200
+      reg_lambda: 10.0
+amplitudes: [0.0, 0.05, 0.1, 0.2, 0.4, 0.8, 1.0]
+increment_clip: 1.0
+search:
+  max_drawdown: 0.30
+  objective: median_inner_calendar_year_net_annualized_return
+  assume_monotonicity: false
+  stable_tie_band: 0.005
+  min_neighbors: 2
+  neighbor_definition: adjacent_amplitude_same_model_and_horizon
+  fallback: exact_host_candidate_included
+methods: [baseline, residual_best, residual_stable, direct_best, direct_with_fallback]
+checks:
+  prefix_dates: ['2021-06-30', '2022-06-30', '2023-06-30']
+  audit_all_accounts: true
+  reload_every_saved_model: true
+limitations:
+  - 基线家族与等权候选来自已经观察的历史，不能作为新鲜样本外。
+  - 基线年度参数使用当折内层截止前所选路径；内层模型滚动预测不消除基线选参偏差。
+  - 固定93股仍有全窗口质量隔离偏差。
+  - 内层原样回退只约束该选择目标，不能保证下一年不劣于基线。

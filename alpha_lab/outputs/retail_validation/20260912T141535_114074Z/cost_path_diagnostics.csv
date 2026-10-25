@@ -1,0 +1,3 @@
+name,first_changed_target_date,direct_extra_cost_on_frozen_orders,frozen_orders_shadow_min_cash,interpretation
+slip0.0005_none,2022-01-05,263.2182450000001,-259.85936500000395,shadow cash diagnostic only; negative cash means frozen orders infeasible; actual stress reruns change holdings
+slip0.001_none,2022-01-05,526.4364900000002,-523.077610000004,shadow cash diagnostic only; negative cash means frozen orders infeasible; actual stress reruns change holdings

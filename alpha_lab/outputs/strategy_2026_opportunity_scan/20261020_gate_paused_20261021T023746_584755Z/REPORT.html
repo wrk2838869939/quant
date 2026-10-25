@@ -1,0 +1,81 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><style>body{font:16px/1.7 sans-serif;max-width:1200px;margin:30px auto}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:7px}</style><body><h1>当前策略机会扫描：2026-10-20</h1>
+<p>策略版本：sector_stock_2026_gate_paused_v1；生效日期：2026-10-21。年度板块过滤：<strong>已暂停，评分只作参考，不影响个股入口</strong>。</p>
+<p>记录性质：policy_change_review。这是按新规则对旧收盘数据的复核，不改写原历史信号，不表示当前仍能按旧价格成交。</p>
+<h2>板块到个股</h2>
+<p>当日形态确认2个，去重后的新首次确认1个，进入个股筛选1个，合格个股评分21只，候选5只。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">sector_name</th>
+<th style="text-align: left;">date</th>
+<th style="text-align: right;">score</th>
+<th style="text-align: right;">threshold</th>
+<th style="text-align: left;">annual_model_pass</th>
+<th style="text-align: left;">stock_entry_eligible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">2026-10-20 00:00:00</td>
+<td style="text-align: right;">-0.0423149</td>
+<td style="text-align: right;">0.00328929</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">True</td>
+</tr>
+</tbody>
+</table>
+<p>若当日没有新的首次确认，不能因旧事件再次满足形态就重开入场。年度板块分数的“通过/不通过”只在过滤开关启用时影响资格；当前诊断状态：available_reference_only。</p>
+<h2>候选</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">sector_name</th>
+<th style="text-align: left;">name</th>
+<th style="text-align: left;">ts_code</th>
+<th style="text-align: right;">close</th>
+<th style="text-align: right;">model_score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">京基智农</td>
+<td style="text-align: left;">000048.SZ</td>
+<td style="text-align: right;">14.57</td>
+<td style="text-align: right;">0.015148</td>
+</tr>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">神农集团</td>
+<td style="text-align: left;">605296.SH</td>
+<td style="text-align: right;">28.68</td>
+<td style="text-align: right;">0.0102281</td>
+</tr>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">华英农业</td>
+<td style="text-align: left;">002321.SZ</td>
+<td style="text-align: right;">1.82</td>
+<td style="text-align: right;">0.00691838</td>
+</tr>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">巨星农牧</td>
+<td style="text-align: left;">603477.SH</td>
+<td style="text-align: right;">13.33</td>
+<td style="text-align: right;">0.00522604</td>
+</tr>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">天域生物</td>
+<td style="text-align: left;">603717.SH</td>
+<td style="text-align: right;">5.61</td>
+<td style="text-align: right;">0.00445125</td>
+</tr>
+</tbody>
+</table>
+<p>原信号的下一交易日为2026-10-21。候选仍需核对当日执行条件；本程序不下单，也不把候选当已成交。历史复核不恢复已经结束的执行窗口。</p>
+<p>个股保留资格/名称ST、价格减速形态、原2026年度个股排序正分数前5名规则。趋势、放量、缩量仍按原方案参与诊断或评分，不新增硬门槛。年度个股模型权重未改。</p>
+<p>暂停板块过滤会扩大个股模型的应用事件范围，这部分完整交易效果尚未验证；本次只执行已确认的策略调整，不引用旧收益证明扩展有效。</p>
+<p><a href="stock_diagnostics.csv">全部合格个股及原因</a> · <a href="stock_candidates.csv">候选CSV</a> · <a href="first_confirmations.csv">首次事件与参考评分</a> · <a href="policy.yaml">策略配置</a> · <a href="verification.json">核验</a></p></body></html>

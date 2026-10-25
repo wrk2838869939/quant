@@ -1,0 +1,137 @@
+{
+  "status": "frozen",
+  "fresh_holdout": false,
+  "created": "2026-09-13 13:52:34.269849+00:00",
+  "cases": [
+    {
+      "name": "continued_hybrid",
+      "window": "continued",
+      "variant": "hybrid",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_initial_buyhold",
+      "window": "continued",
+      "variant": "initial_buyhold",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_bank_buyhold",
+      "window": "continued",
+      "variant": "bank_buyhold",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_weekly_exit",
+      "window": "continued",
+      "variant": "weekly_exit",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_pause_only",
+      "window": "continued",
+      "variant": "pause_only",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_weekly_pause",
+      "window": "continued",
+      "variant": "weekly_pause",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "continued_weekly_liquidate",
+      "window": "continued",
+      "variant": "weekly_liquidate",
+      "start": "2022-01-01"
+    },
+    {
+      "name": "cold_hybrid",
+      "window": "cold",
+      "variant": "hybrid",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_initial_buyhold",
+      "window": "cold",
+      "variant": "initial_buyhold",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_bank_buyhold",
+      "window": "cold",
+      "variant": "bank_buyhold",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_weekly_exit",
+      "window": "cold",
+      "variant": "weekly_exit",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_pause_only",
+      "window": "cold",
+      "variant": "pause_only",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_weekly_pause",
+      "window": "cold",
+      "variant": "weekly_pause",
+      "start": "2024-01-01"
+    },
+    {
+      "name": "cold_weekly_liquidate",
+      "window": "cold",
+      "variant": "weekly_liquidate",
+      "start": "2024-01-01"
+    }
+  ],
+  "source_hashes": {
+    "scripts/research_profit_defense.py": "b3730fff52fd8d03a584540d6aa49f9b9d74722754195d169e2b40b031e3a386",
+    "src/defense_diagnostics.py": "cb257a55809199463433452e260d35171d58676091688daa3ba28fdc96fd8e73",
+    "src/defense_research_portfolio.py": "021c78fb36d842f1ceae732821834f2b3575a9fca3e7c712b9a655ebbc864ced",
+    "src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/neutralize.py": "f7ac8afda1ef375818fb55b4ad956876092fd606f673f1f46a93279e8422d872",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "tests/test_defense_diagnostics.py": "eba65ae6be41ed2af151003a0974ef01e1e01d83b061da42da1f04b4959ce630"
+  },
+  "inputs_sha256": {
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/completion.json": "c6475105c6f2ad78ac7e7e17bff16f3dd6e0464ff1fa6cab380a0196b8a2d191",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/manifest.json": "c941117d824098c6e83b129fface244a6ff766073ffc83b78efbd3030c5f2c00",
+    "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_close.parquet": "addb0d6bc6d1ee1557c14c735fa348ce44c64adda641e6df2ad423f439f8da58",
+    "/root/autodl-tmp/alpha_lab/data/raw/sw_l1_member_hist.parquet": "658f2de62f830645c9a158c0389ada9ccd059b6c9cf1feaf2afe8b4a86728342",
+    "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet": "04d1b49b8e6b8907bb9767be235723dc8c722567901a8cc60b0f1814d9e596ea",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/low_turnover_signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/low_turnover_point_forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/monthly_hold_allowed.parquet": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/normalized_actions.parquet": "5715dd381a54cb85e32ba65dc8c169879684159b7f754cadd5b4ee5858761f4e",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/raw_actions.parquet": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/hold_baseline.parquet": "ea047aea6654dfc27c612e4cc02234c1d9c84b314c0ecbb3eefb2b8b2916126c",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/hold_hybrid.parquet": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/market.parquet": "9e5a4ba61cdf4522bba6d431838d35ed4704ec9d74f5451cdec5ef1dec2b14cf",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/cold_hybrid/daily.csv": "b3383fea7bb241ab1d4b45538ac226aba415fa91563e6f94d03c4529bdb9425a",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/cold_hybrid/trades.csv": "6a20e5e6b89a91a5be163feabffbd28669dc988762e64654b3c46a45deca9a64",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/cold_hybrid/holdings.csv": "0a42fd58b18eec19a6f1bc4d194b9b07f31510ce551d8ae0507ce5dbe37432d1",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/cold_hybrid/events.csv": "7f789654d42173e169174478ea070a690af592b11ab81c23a04ba68e8bf9232b",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/continued_hybrid/daily.csv": "1246ec9391750501f096039d7fbe111ca2b836177921ab749243591b6445bf67",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/continued_hybrid/trades.csv": "d0ab0ec2b6513e15565e80572d115d23a3686d883053ff6b58d24a0310f079b3",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/continued_hybrid/holdings.csv": "9a579c5136b6a311d97a524992b6c47e5bdb2e8ee0163cc0a7c154ba247bda94",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/execution/continued_hybrid/events.csv": "ab0fef0e115f141f1d8d287b7ea204aa521d3092546a443e3687646782698a32"
+  },
+  "config_sha256": "d32768005f5df804f8fc18f05f4ad56f1b43e390e052de5d80064d1172e30952",
+  "protocol_sha256": "fbe1393b7260c7322b18e07cc2611dc47b9636fe6a67d6ba82f73c629d9333d2",
+  "bank_universe_sha256": "a8b87c139141a7aa443979e4d67061e09ba56a13b148bf3aad99a49341e872bb"
+}

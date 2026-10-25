@@ -1,0 +1,61 @@
+# 2026-10-13 制定的前瞻研究方案；生产扫描器不读取本文件。
+strategy_id: sector_stock_2026_plan_v1
+status: design_only_not_deployed
+effective_after: '2026-10-13'
+data_asof: '2026-10-12'
+source:
+  sector_run: alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z
+  stock_run: alpha_lab/outputs/stock_selection_asof_v2/20261013T074542_476130Z
+  state_scan: alpha_lab/outputs/sector_live_scan/20261013T053630_999606Z
+  dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261013T053143_382413Z
+  event_source: alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z
+  stock_rules: alpha_lab/configs/left_side_trend_v2.yaml
+output: alpha_lab/docs/current_strategy_20261013/strategy_2026_plan
+signal:
+  model_year: 2026
+  annual_retrain_only: true
+  same_event_required: true
+  decision: first_confirmation_close
+  entry_valid_sessions: 1
+  top_n: 5
+  minimum_stock_score_exclusive: 0.0
+  require_price_shape: true
+  require_stock_trend: false
+  require_turnover_expansion: false
+  require_turnover_contraction: false
+risk_proposal_unvalidated:
+  account_gross_cap: 0.50
+  sector_cap: 0.15
+  stock_cap: 0.05
+  correlated_group_cap: 0.25
+  correlation_window: 60
+  minimum_correlation_observations: 40
+  correlation_threshold: 0.70
+  volatility_window: 20
+  reference_daily_volatility: 0.02
+  missing_volatility_action: no_order
+  close_stop_loss: 0.08
+  account_drawdown_pause: 0.05
+  maximum_order_to_previous20_mean_amount: 0.001
+execution_proposal_unvalidated:
+  order_type: limit
+  entry_price_ceiling_vs_adjusted_previous_close: 0.01
+  cancellation_time_beijing: '09:35'
+  no_replacement_after_fill_failure: true
+  holding_open_intervals: 20
+  broker_permissions_required: true
+  official_daily_price_limits_required: true
+  unknown_execution_fields_action: no_order
+  overnight_new_st_action: cancel_new_entry
+monitoring_proposal:
+  review_every_sessions: 20
+  minimum_mature_events_for_model_review: 20
+  minimum_independent_clusters_for_model_review: 5
+  cluster_gap_sessions: 20
+  consecutive_negative_reviews_to_pause_new_entries: 2
+  same_mature_sample_cannot_count_twice: true
+  no_automatic_model_switch: true
+report:
+  recent_confirmation_count: 10
+  dpi: 170
+  font: fonts/SimHei.ttf

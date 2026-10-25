@@ -1,0 +1,26 @@
+{
+  "accounts": 48,
+  "parent_parities": 16,
+  "prefixes": [
+    {
+      "account": "continued_08_rank_cost0_budget80",
+      "cutoff": "2023-01-04",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_01_rank_cost0_budget50",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_22_rank_cost30_budget80",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    }
+  ],
+  "independently_rebuilt_quota_plans": 285,
+  "independently_rebuilt_restore_fills": 285,
+  "cash_and_share_reconciliation": true,
+  "root_agents_unchanged": true,
+  "live_approved": false
+}

@@ -1,0 +1,7 @@
+{
+  "tests": 7,
+  "real_prefix_exact": true,
+  "pure_decline_rejected": true,
+  "same_day_included": true,
+  "sources_verified": true
+}

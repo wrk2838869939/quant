@@ -1,0 +1,268 @@
+[
+  {
+    "name": "dc_index_old",
+    "api": "dc_index",
+    "params": {
+      "trade_date": "20231229",
+      "idx_type": "行业板块"
+    },
+    "retrieved_at": "2026-09-21T06:21:58.293061+00:00",
+    "status": "ok",
+    "rows": 0,
+    "columns": [],
+    "sha256": "88e7f61c80b7dc36bf1f3a02d58a9d8a75132da9bb567d96dfaa41416e37ab7f",
+    "seconds": 0.897
+  },
+  {
+    "name": "dc_index_recent",
+    "api": "dc_index",
+    "params": {
+      "trade_date": "20260908",
+      "idx_type": "行业板块"
+    },
+    "retrieved_at": "2026-09-21T06:21:58.293922+00:00",
+    "status": "ok",
+    "rows": 496,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "name",
+      "leading",
+      "leading_code",
+      "pct_change",
+      "leading_pct",
+      "total_mv",
+      "turnover_rate",
+      "up_num",
+      "down_num",
+      "idx_type",
+      "level"
+    ],
+    "sha256": "470256fc8d3d98a2657d56e5733dfdafaceeabc46197525524cb52d227850569",
+    "trade_date_range": [
+      "20260908",
+      "20260908"
+    ],
+    "seconds": 0.921
+  },
+  {
+    "name": "dc_member_old",
+    "api": "dc_member",
+    "params": {
+      "trade_date": "20231229",
+      "ts_code": "BK0477.DC"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.190498+00:00",
+    "status": "ok",
+    "rows": 0,
+    "columns": [
+      "trade_date",
+      "ts_code",
+      "con_code",
+      "name"
+    ],
+    "sha256": "78c40067fae83d27fadfeada5e9cb81a6c706b60eedd666dea24ff58d3d7114f",
+    "seconds": 0.254
+  },
+  {
+    "name": "dc_member_recent",
+    "api": "dc_member",
+    "params": {
+      "trade_date": "20260908",
+      "ts_code": "BK0477.DC"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.215340+00:00",
+    "status": "ok",
+    "rows": 38,
+    "columns": [
+      "trade_date",
+      "ts_code",
+      "con_code",
+      "name"
+    ],
+    "sha256": "1f80bb9754d5022b84c15033fbcf7d1b8b1e091aa8460b621c113438c84f56d3",
+    "trade_date_range": [
+      "20260908",
+      "20260908"
+    ],
+    "seconds": 0.518
+  },
+  {
+    "name": "dc_daily_old",
+    "api": "dc_daily",
+    "params": {
+      "trade_date": "20231229",
+      "idx_type": "行业板块"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.444229+00:00",
+    "status": "error",
+    "error_type": "Exception",
+    "error_category": "request_error",
+    "seconds": 0.264
+  },
+  {
+    "name": "sw_2014_l2",
+    "api": "index_classify",
+    "params": {
+      "src": "SW2014",
+      "level": "L2"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.708733+00:00",
+    "status": "ok",
+    "rows": 104,
+    "columns": [
+      "index_code",
+      "industry_name",
+      "parent_code",
+      "level",
+      "industry_code",
+      "is_pub",
+      "src"
+    ],
+    "sha256": "1a159ed446062691181a71ab84debe10ed940c93cd241521b3d25d2fe023ec67",
+    "seconds": 0.215
+  },
+  {
+    "name": "sw_2014_l3",
+    "api": "index_classify",
+    "params": {
+      "src": "SW2014",
+      "level": "L3"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.733342+00:00",
+    "status": "ok",
+    "rows": 227,
+    "columns": [
+      "index_code",
+      "industry_name",
+      "parent_code",
+      "level",
+      "industry_code",
+      "is_pub",
+      "src"
+    ],
+    "sha256": "524a4e750040adea98b8715f29482e3c8d437bb62e31105596e934dd00662eee",
+    "seconds": 0.203
+  },
+  {
+    "name": "sw_2021_l2",
+    "api": "index_classify",
+    "params": {
+      "src": "SW2021",
+      "level": "L2"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.923951+00:00",
+    "status": "ok",
+    "rows": 134,
+    "columns": [
+      "index_code",
+      "industry_name",
+      "parent_code",
+      "level",
+      "industry_code",
+      "is_pub",
+      "src"
+    ],
+    "sha256": "c06566e9692bb844eb58f48e22f6fb1cfeb9f5cf2c023268c75df10209a10f07",
+    "seconds": 0.205
+  },
+  {
+    "name": "sw_2021_l3",
+    "api": "index_classify",
+    "params": {
+      "src": "SW2021",
+      "level": "L3"
+    },
+    "retrieved_at": "2026-09-21T06:21:59.936850+00:00",
+    "status": "ok",
+    "rows": 346,
+    "columns": [
+      "index_code",
+      "industry_name",
+      "parent_code",
+      "level",
+      "industry_code",
+      "is_pub",
+      "src"
+    ],
+    "sha256": "60bed5e3290a4b7d6452dfa3695ceb01d958ed3c5aba52c355974f6a3b1b7f14",
+    "seconds": 0.222
+  },
+  {
+    "name": "sw_members_old",
+    "api": "index_member_all",
+    "params": {
+      "l1_code": "801050.SI",
+      "is_new": "N"
+    },
+    "retrieved_at": "2026-09-21T06:22:00.129699+00:00",
+    "status": "ok",
+    "rows": 0,
+    "columns": [],
+    "sha256": "88e7f61c80b7dc36bf1f3a02d58a9d8a75132da9bb567d96dfaa41416e37ab7f",
+    "seconds": 0.247
+  },
+  {
+    "name": "sw_members_current",
+    "api": "index_member_all",
+    "params": {
+      "l1_code": "801050.SI",
+      "is_new": "Y"
+    },
+    "retrieved_at": "2026-09-21T06:22:00.158874+00:00",
+    "status": "ok",
+    "rows": 162,
+    "columns": [
+      "l1_code",
+      "l1_name",
+      "l2_code",
+      "l2_name",
+      "l3_code",
+      "l3_name",
+      "ts_code",
+      "name",
+      "in_date",
+      "out_date",
+      "is_new"
+    ],
+    "sha256": "fc8090b00bc722999d0356ebad7336b4b39a85da0dad85bc07dba679c09af8c0",
+    "in_date_range": [
+      "19960215",
+      "20260701"
+    ],
+    "seconds": 0.304
+  },
+  {
+    "name": "sw_daily_old",
+    "api": "sw_daily",
+    "params": {
+      "trade_date": "20231229"
+    },
+    "retrieved_at": "2026-09-21T06:22:00.376454+00:00",
+    "status": "ok",
+    "rows": 439,
+    "columns": [
+      "ts_code",
+      "trade_date",
+      "name",
+      "open",
+      "low",
+      "high",
+      "close",
+      "change",
+      "pct_change",
+      "vol",
+      "amount",
+      "pe",
+      "pb",
+      "float_mv",
+      "total_mv"
+    ],
+    "sha256": "da21030c4bb41cd4c53b67c2b1a63438e75070de3bf8012145f1a3cbacc245c3",
+    "trade_date_range": [
+      "20231229",
+      "20231229"
+    ],
+    "seconds": 0.26
+  }
+]

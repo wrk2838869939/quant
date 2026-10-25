@@ -1,0 +1,30 @@
+[
+  {
+    "scale": 1,
+    "status": "conditional_iid_estimate",
+    "reason": "",
+    "dsr_probability": 0.22238705391943947,
+    "p_value": 0.7776129460805605,
+    "method": "DSR_2014_iid",
+    "independent_trials": 20,
+    "benchmark_sharpe": 0.06010566292524714,
+    "sharpe_standard_error": 0.03164405919195296,
+    "skewness": 0.006202187094473132,
+    "kurtosis": 2.760283600992654,
+    "n_obs": 1000
+  },
+  {
+    "scale": 100,
+    "status": "conditional_iid_estimate",
+    "reason": "",
+    "dsr_probability": 0.22238705391943947,
+    "p_value": 0.7776129460805605,
+    "method": "DSR_2014_iid",
+    "independent_trials": 20,
+    "benchmark_sharpe": 0.06010566292524714,
+    "sharpe_standard_error": 0.03164405919195296,
+    "skewness": 0.006202187094473108,
+    "kurtosis": 2.7602836009926532,
+    "n_obs": 1000
+  }
+]

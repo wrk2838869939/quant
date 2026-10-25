@@ -1,0 +1,21 @@
+# 只检验决策日历，不搜索行情阈值；全部已观察历史，不晋升回测冠军。
+parent: outputs/causal_execution/20260913T130810_374654Z
+feature_projection: outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet
+output_root: outputs/rolling_review
+start: '2022-01-01'
+end: '2026-09-08'
+windows:
+  continued: '2022-01-01'
+  cold: '2024-01-01'
+capital: 50000
+calendar_days: [1, 8, 15, 22]
+rolling_interval: 20
+rolling_offsets: [0, 5, 10, 15]
+holding_policies: [hybrid, initial_buyhold]
+feature_history_start: '2014-01-01'
+trend: {medium_window: 60, long_window: 120, min_return: 0.0, require_above_long_ma: true}
+min_listing_days: 60
+entry: {min_expected_return: 0.005, max_expected_adverse: 0.15}
+constant_expected_adverse: 0.1339867270831241
+report_quantiles: [0.0, 0.25, 0.5, 0.75, 1.0]
+method_source: https://www.thinknewfound.com/rebalance-timing-luck

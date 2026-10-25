@@ -1,0 +1,7 @@
+frequency,policy,reviews,new_signals,exit_signals,empty_reviews,closed_episodes,median_closed_review_periods,open_episodes
+monthly,continuous,36,48,43,0,43,2.0,5
+monthly,momentum,36,36,31,0,31,4.0,5
+monthly,path_model,36,45,40,0,40,4.0,5
+weekly,continuous,155,109,104,0,104,4.0,5
+weekly,momentum,155,57,52,0,52,13.0,5
+weekly,path_model,155,87,82,0,82,4.0,5

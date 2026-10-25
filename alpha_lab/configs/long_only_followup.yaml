@@ -1,0 +1,18 @@
+# 首轮合成/保留带未改善风险收益后，固定第二轮的 TRAIN 选择规则与趋势对照。
+baseline_prepared: outputs/monthly_portfolio_audit/20260911T101938_965835Z
+output_root: outputs/long_only_followup
+selection:
+  early: [2014, 2018]
+  late: [2019, 2021]
+  min_mean_excess: 0.0
+  min_cross_section: 100
+  objective: top50_gross_excess
+trend:
+  index: 000905.SH
+  lookback: 200
+  timing: monthly_signal_close
+variants:
+  - {name: baseline, blend: baseline, band_mult: 1.0}
+  - {name: baseline_trend, blend: baseline_trend, band_mult: 1.0}
+  - {name: tail_signal, blend: tail_signal, band_mult: 1.0}
+  - {name: tail_trend, blend: tail_trend, band_mult: 1.0}

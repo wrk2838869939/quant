@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "source": "Tushare stk_limit by trade_date; uncached requests scoped to frozen opportunity codes",
+  "requested_codes": 3291,
+  "retained_earlier_full_market_nontruncated_cache": true,
+  "ignored_offset_probe": "limit_pagination_probe",
+  "dates": 2433,
+  "failures": 0,
+  "data_bounds": [
+    "2014-01-01",
+    "2023-12-31"
+  ],
+  "test_market_data_used": false,
+  "downloader_sha256": "f80330c234e879031bb20d90fe99c50edf305930b0e37f00fdb0b5dbb80aff9e"
+}

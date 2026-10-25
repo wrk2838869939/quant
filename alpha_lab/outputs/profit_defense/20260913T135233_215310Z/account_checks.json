@@ -1,0 +1,100 @@
+[
+  {
+    "name": "continued_hybrid",
+    "cash_max_error": 2.546585164964199e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": true,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_initial_buyhold",
+    "cash_max_error": 1.0913936421275139e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_bank_buyhold",
+    "cash_max_error": 9.094947017729282e-12,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_weekly_exit",
+    "cash_max_error": 2.637534635141492e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_pause_only",
+    "cash_max_error": 2.6830093702301383e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_weekly_pause",
+    "cash_max_error": 2.637534635141492e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "continued_weekly_liquidate",
+    "cash_max_error": 2.637534635141492e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_hybrid",
+    "cash_max_error": 1.4551915228366852e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": true,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_initial_buyhold",
+    "cash_max_error": 1.4551915228366852e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_bank_buyhold",
+    "cash_max_error": 6.366462912410498e-12,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_weekly_exit",
+    "cash_max_error": 1.0913936421275139e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_pause_only",
+    "cash_max_error": 1.4551915228366852e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_weekly_pause",
+    "cash_max_error": 1.0913936421275139e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  },
+  {
+    "name": "cold_weekly_liquidate",
+    "cash_max_error": 1.0913936421275139e-11,
+    "shares_max_error": 0.0,
+    "baseline_exact": false,
+    "decision_precedes_fill": true
+  }
+]

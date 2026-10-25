@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "parent": "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z",
+  "parent_artifacts_verified": 473,
+  "profit_difference_yuan": 31236.968000000008,
+  "three_largest_stock_differences": 27808.883,
+  "interpretation": "accounting attribution and observed state transitions; not isolated causal shares",
+  "artifacts": {
+    "stock_profit_differences.csv": "068002c68e64e231669d2556419b0f1bac7774c4d16c225836c271f2ede19589",
+    "monthly_profit_differences.csv": "d49913be4151308e1dfd955a2490d897db8bb6473b465f9a1a29ea67a2224291",
+    "review_states.csv": "10129501e9101c78031fbed7c522e5da30e8c7132acb74024b91ad1abb83c4e0",
+    "continued_calendar_01_hybrid_events.csv": "0d18063be0c8b70821a4ff300a96c54710e674b17fe896b08dae97dafd047e12",
+    "continued_calendar_01_hybrid_trades.csv": "d0ab0ec2b6513e15565e80572d115d23a3686d883053ff6b58d24a0310f079b3",
+    "continued_rolling_00_hybrid_events.csv": "afef083b58a80547da5f0edf5a3b98beaa788bfe25fc22c06724c8cb5c2dcb06",
+    "continued_rolling_00_hybrid_trades.csv": "befd52584343975b9941f0c58b46b66c1ec2f4ae847d3bb37fe46006b3f9e4ac",
+    "diagnose_review_date_effects.py": "4fe6f40694cd3f99378ae2d8a06913be5bd17bbe22a97cf61b4bba756841e5bd"
+  }
+}

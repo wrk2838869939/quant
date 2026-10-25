@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "asof": "2026-10-21",
+  "artifacts": {
+    "protected_before.json": "fd58e5a45d4ebf49c3ccb850c942a3d752452a59bc546eea4bb73f331f06de14",
+    "before_LATEST_UPDATE": "9a3f94caca2d633b6a0dab5b5b522e981771be27c2def28f784f8fb6ad7145bf",
+    "before_LATEST_SCAN": "c346c3b6041e8ef607064909c71b650ac19057867400348690cdbc96eb98c8f2",
+    "before_LATEST_CANDIDATES": "d546c5ffefc4ca6822a4c0deca751f298654bd68fc6084659754c393895839f1",
+    "before_LATEST_POLICY_REVIEW": "fef60dd4873c945f470d7a3529252d827c97ec2751b371d308b19152dca1a014",
+    "update.log": "d6e4f4fd93b87286e23ce1cac890af424e5f960d15427835b0d33ced62c6ce59",
+    "suspend_d_20261021.parquet": "142ad91d6e59b194eb55cb57aef20b8f6d05b18708cd1fec0f9f19ed206b11b4",
+    "field_coverage.csv": "4c83e294079fb6b0cc172dad621c8b620b64aebd78c06f3f8e1f74f562cf0bc2",
+    "api_coverage.csv": "4b708f9efb6b94b560825b096a9052ac436d5320894a7fe63c4f8046d49cf324",
+    "missing_daily_reconciled.csv": "3355bcd956e662970ed886dbaea35f524e32ade130675299c59d24e002881fa4",
+    "latest_quality.json": "143f0e6595735dd63bd9c7e2a4f8e2739ef8a698bbf05c7a0366aed4616432d6",
+    "build_dataset.log": "f45bed6b00c2aafe511ae266b4886e125f682c44fd9b5a7578f69434fc4aa07a",
+    "update_verification.json": "880202550ddc61edb3f523481ff29f1a5f66e1b1e0c65c382826309f2d605a5f",
+    "previous_candidates_followup.csv": "6c3af2f64aab3b40adabad3ffb0087a5dcb4aa61d2e50991aee778c89d308e50",
+    "build_report.py": "5b293d8f66421f67887f544b6bd981ae43048263014cfd7e4122e7785877ce9f",
+    "new_master_codes.csv": "2ea3608bf0973546b9d72160b7d22560cb3e0a6058f5b25a6d6e872424da19b7",
+    "scan_sectors.log": "bd51efa69477a5c79c091ab430bfa3b159c7e05ea43338657f6e6352bc7a319d",
+    "scan_stocks.log": "9a66b82a6900a0fdb56da3643e08639c13ad5391a0acd6797764ca65c3c46c36",
+    "state_changes.csv": "e347e2a95044a3a3480ca078f054192019e171c848b68c8ed3f41d0b99fd3fe4",
+    "sector_watch_summary.csv": "bda302487cfde16c9f52ca29b3319a79e1ad65f95e8095fea03cd7abdfc83928",
+    "previous_candidates_followup.png": "552e95abfbc9dd4b1a4d7cec88bf0acf1ca47ee5bb4bff1aefaa15e823cba598",
+    "REPORT.md": "c3837ef578d8548b9d2524755b5b831305e721b6e29d1a0d226bb1ef46732fea",
+    "REPORT.html": "5963bdbad4f9530bc378e271fcbbd200d163aaae084265068445df19d20ed24d",
+    "verification.json": "ec0a2d3d1bff4309430b93a4e72437b434d36839eb508232dc82d27f73579913",
+    "pipeline.json": "6d8b68378a693453991b871ba76e73811e98469fa0bca05e1ed94e4847dbec28"
+  }
+}

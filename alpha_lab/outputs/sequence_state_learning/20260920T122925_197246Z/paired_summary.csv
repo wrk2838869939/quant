@@ -1,0 +1,3 @@
+strategy,total,ann,mdd,sharpe,n_days,capital,top_n,n_trades,total_fees,mean_invested,missing_limit_events,stale_warnings,delist_events,adjustment_metadata_events,rights_declined_events,n_rebalances,execution_data_sufficient,family
+point_mlp,-0.2406554077200005,-0.0882574894517467,-0.5359961831138885,-0.1407040198170417,727,100000.0,5,563,26899.58849999998,0.926881147857217,0,0,0,6,0,114,True,cnn
+kmeans,-0.1426211083500002,-0.0503336291660424,-0.3227773606842402,-0.0522700076017743,727,100000.0,5,961,55223.22067499996,0.9205307448111976,0,0,0,7,0,344,True,hmm

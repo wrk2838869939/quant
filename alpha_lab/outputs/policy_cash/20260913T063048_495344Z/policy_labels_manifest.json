@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "rows": 243955,
+  "review_dates": 113,
+  "official_limit_missing_quoted_cells": 1372,
+  "entry_rule": "one next-open attempt; ST on signal/fill excluded; official limits and raw quote required",
+  "exit_rule": "monthly trend 2 failures; unknown resets; monthly-review next-open ST; fixed deadlines retry",
+  "shared_maturity": "T+121 open; no maturity acceleration after early exit",
+  "monetary_scope": "gross adjusted unit proxy; excludes portfolio caps/lots/fees/cash dividend accounting",
+  "source_hashes": {
+    "scripts/build_policy_labels.py": "aa41fb13a73679510088a9d34568abbfa1e59764cc16c41e6d501b55b4673d40",
+    "src/policy_path_labels.py": "2328e9e6e7314d5f54379f5eb7e6aea57479d273217ed8de940cbe2c1d53de8b",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "outputs/policy_cash/20260913T063048_495344Z/config.yaml": "3c25c298d60431f6845b01b3126022484d7d13bd90a93711fd75306fb7fc4b0f"
+  },
+  "input_hashes": {
+    "policy_features.parquet": "09cde9faa777e2114491c9bbed7effe51f57c22f9d661bd2ec361a8c64ac15bb",
+    "policy_market.npz": "59dd7fa1e95fe829dac332b793d2c2093c20bd0858f94457c9d8306b0cb68b6b",
+    "limits_download.csv": "2ef067c4e8b61d1c922b90e56c16e6d47bee8590115bd874d38b9aabe2125359"
+  },
+  "output_hashes": {
+    "policy_labels.parquet": "d29d37c9ebe3b5169e5b1f641369ef5e39b68d05fb19a3ebdea712c50348bf5e",
+    "policy_label_coverage.csv": "e32e715a9a1ff7bfe121569f459fc8837ea42eee19ab66524878a5a7f4caa745"
+  }
+}

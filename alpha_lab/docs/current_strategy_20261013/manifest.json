@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "report_date": "2026-10-13",
+  "market_asof": "2026-10-12",
+  "historical_cutoff": "2026-09-08",
+  "model_replay_audit": "alpha_lab/outputs/sector_fuzzy_random_audit/20261013T054725_005561Z/audit.json",
+  "pages": 12,
+  "artifacts": {
+    "verify_report.py": "567a42313f077c6acf631ad712861ecff5c50979a7c2bfd11ddc068af00c10e0",
+    "verified_test_samples.csv": "f0c5a3de1f32d9f8f9dd37a69eaadec21a2ee91513ab509607c0c1a9727b6e35",
+    "verified_return_metrics.csv": "b2d2c3234403ba5f6c3b73482a0e9dd2962110906e1a83116f272b51a4b8f8c3",
+    "verification.json": "77bdbb4f4b981f59c4971e2139cd55e2d1799ac397e7f257a13e412f7f733309",
+    "verified_intervals.json": "59a3bc576d85124b7d6898ce9a29c2d6d1c1479f886a5f26dd0138de0b9f7ca5",
+    "TECHNICAL_REPORT.md": "e7276fa121d12cf63e178e83ca17353d619dd72f1c365a5d5b515cd5af578280",
+    "build_report.py": "2f3d86f27dba5b326f59abab11b3a01ba7328a07668138991be7f19f4e788abb",
+    "workflow.png": "03ba103618ce1368bc098e1f06b6a994c283ba6155938b5d34cb7971e0b73c60",
+    "return_histograms.png": "0a25a225f2f6ee203b9b14dce71e100001344c81f71a4159f43aac131fda293c",
+    "TECHNICAL_REPORT.html": "f0b699d06a40468f5cd809655dd646f1bd8fc37cc2aa2e343c0c018bbad65ce3",
+    "pdf_text_check.txt": "f7154613da92ed3bfd5dc158bcc70aaf1e52abd59fd6f2b574b395e077de75a4",
+    "report_preview.png": "8c3f26ae46214e61137a2b5e603234c75ebb420716bae24f51aaf966c8b59be7",
+    "TECHNICAL_REPORT.pdf": "73b25788ca4d5c2d8d88a8d9a8fe5dd8b63e9d8caa20d49113682163e219a018"
+  }
+}

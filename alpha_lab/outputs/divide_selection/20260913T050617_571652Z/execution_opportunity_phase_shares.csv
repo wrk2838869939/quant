@@ -1,0 +1,14 @@
+policy,phase,selected,share
+low_turnover,decelerating,44,0.36666666666666664
+low_turnover,accelerating,39,0.325
+low_turnover,recovery,37,0.30833333333333335
+continuous_trend,decelerating,91,0.7583333333333333
+continuous_trend,accelerating,25,0.20833333333333334
+continuous_trend,recovery,4,0.03333333333333333
+global_return,decelerating,64,0.5333333333333333
+global_return,recovery,30,0.25
+global_return,accelerating,26,0.21666666666666667
+phase_experts,decelerating,80,0.6666666666666666
+phase_experts,recovery,30,0.25
+phase_experts,accelerating,10,0.08333333333333333
+shared_experts,decelerating,120,1.0

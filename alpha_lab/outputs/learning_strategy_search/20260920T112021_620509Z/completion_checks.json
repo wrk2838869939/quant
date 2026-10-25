@@ -1,0 +1,21 @@
+{
+  "complete_trial_artifact_sets": 384,
+  "continuous_account_prefix_checks": 8,
+  "all_outer_models_created_after_all_parameter_locks": true,
+  "current_source_hashes_match": true,
+  "input_hashes_match": true,
+  "cumulative_registered_trials_two_batches": 12156,
+  "versions": {
+    "python": "3.10.8",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.7.2",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3",
+    "pyarrow": "25.0.0",
+    "yaml": "6.0.1"
+  },
+  "archive_audit_script_sha256": "c7482db94eec927e81bfdab4fbbc5cafd1cff6263331fed7e3e4e1de1284c543",
+  "verified_report_links": 25
+}

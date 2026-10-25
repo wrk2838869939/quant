@@ -1,0 +1,8 @@
+outer_year,family,trials,feasible,errors
+2021,adaptive_ic,4,2,0
+2021,correlation_experts,4,4,0
+2021,market_gate,4,4,0
+2021,multi_horizon,4,4,0
+2021,neural,4,4,0
+2021,state_experts,4,4,0
+2021,trade_filter,4,4,0

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "tests_passed": 64,
+  "formal_primary_trials": 108,
+  "formal_matched_trial_accounts": 108,
+  "engineering_pilot_trials": 16,
+  "successful_fit_batches": 590,
+  "independent_outer_control_accounts": 19,
+  "additional_high_inner_accounts": 135,
+  "fixed_control_summaries_and_daily_accounts_identical_to_previous_batch": 15,
+  "main_models_risk_pass": 0,
+  "code_inputs_unchanged": true,
+  "shared_engine_unchanged": true,
+  "study_scope": "CNN/HMM plus prior-learning diagnosis; GP and holding/exit learning remain pending"
+}

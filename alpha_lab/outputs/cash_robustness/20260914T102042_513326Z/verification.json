@@ -1,0 +1,31 @@
+{
+  "accounts": 80,
+  "parent_parities": 16,
+  "prefixes": [
+    {
+      "account": "continued_08_staged_cost0_fast_restore_trend_break_trend40",
+      "cutoff": "2023-01-04",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "continued_15_staged_cost0_fast_restore_trend_break_dd6",
+      "cutoff": "2023-01-04",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_01_staged_cost0_fast_restore_trend_break_trend80",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_22_staged_cost30_fast_restore_trend_break_dd4",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    }
+  ],
+  "independently_rebuilt_quota_plans": 825,
+  "independently_rebuilt_restore_fills": 812,
+  "cash_and_share_reconciliation": true,
+  "root_agents_unchanged": true,
+  "live_approved": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2018-12-28 00:00:00",
+    "sector": "801154.SI",
+    "confirmed_events": 2,
+    "exact": true
+  },
+  {
+    "date": "2021-12-10 00:00:00",
+    "sector": "801053.SI",
+    "confirmed_events": 3,
+    "exact": true
+  },
+  {
+    "date": "2024-12-31 00:00:00",
+    "sector": "801765.SI",
+    "confirmed_events": 2,
+    "exact": true
+  },
+  {
+    "date": "2026-07-23 00:00:00",
+    "sector": "801084.SI",
+    "confirmed_events": 4,
+    "exact": true
+  }
+]

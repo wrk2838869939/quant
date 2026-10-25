@@ -1,0 +1,18 @@
+parent: outputs/rolling_review/20260913T141120_325588Z
+mechanism_parent: outputs/path_mechanism/20260913T144118_205543Z
+output_root: outputs/exit_evidence
+cohorts: [exit, recovery]
+horizons: [20, 60]
+nonoverlap_days: 60
+recovery_review_limit: 2
+features: [ret20, ret60, ret120, ma120_gap, ma120_slope20, drawdown120, rebound20, weak_fraction20, volatility20]
+prediction_years: [2024, 2025, 2026]
+model: {kind: standardized_ridge, alpha: 10.0, min_train_events: 30, min_train_dates: 15}
+gate:
+  min_scored_events: 50
+  min_year_events: 10
+  min_positive_ic_years: 2
+  require_positive_oos_r2_both_horizons: true
+  require_positive_aggregate_ic: true
+  require_negative_low_and_positive_high_group: true
+method_source: https://alo.mit.edu/publications/page/13/

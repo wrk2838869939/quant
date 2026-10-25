@@ -1,0 +1,13 @@
+{
+  "pooled_excess_ann": 0.048844891916491294,
+  "boot_lo": 0.0035884488576213196,
+  "boot_hi": 0.09516670306146259,
+  "years_positive": 1,
+  "n_years": 1,
+  "median_year_excess": 0.048844891916491294,
+  "per_year": {
+    "2022": 0.048844891916491294
+  },
+  "pass_main": false,
+  "pass_secondary": true
+}

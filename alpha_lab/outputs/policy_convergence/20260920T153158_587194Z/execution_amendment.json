@@ -1,0 +1,278 @@
+{
+  "reason": "独立候选并行执行，消除串行回放导致的长尾；搜索数学定义与随机流不变",
+  "timestamp": "2026-09-20T17:49:37.145347+00:00",
+  "source_hashes": {
+    "alpha_lab/scripts/run_policy_convergence_parallel.py": "b562d8cb79aaa09680be27f14187f9efbba0ef84dde2126a4192902242eae6fe",
+    "alpha_lab/configs/policy_convergence_execution_v1.yaml": "f0ad6a1a5dc9f3f82fc5fff8169ccdbbdbcedc8e9b3f07fed9ae33eb07841d45"
+  },
+  "candidate_workers": 8,
+  "ordered_results": true,
+  "verification": "/root/autodl-tmp/alpha_lab/outputs/policy_parallel_verification/20260920T174807_658051Z/verification.json",
+  "verification_sha256": "1b72c86141c3a661079edbc25d1d11ff038d269b66e5abf197802dca0b55e8dd",
+  "resume_checkpoints": [
+    {
+      "task": [
+        "2021",
+        "B01_low_turnover",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "e430ca18d8c2614026d0bec77f3137a1ce72481623135c6ebc9806f52e1ed462",
+      "center_sha256": "a75f3a2bdc73597d1ace28147db0882aa37fc1d0a044bfbd825fb008f585a6b1",
+      "champion_sha256": "fa0b736c7fb70d4f4a42f14787e0b7201f50fe801f234df13101f424c8d0d3d6"
+    },
+    {
+      "task": [
+        "2021",
+        "B01_low_turnover",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "b7ac19ef07d182fb2dcb34d474574d7142ad8a1e32e78d12f74a50d4aa627f49",
+      "center_sha256": "2b4502cf60adcf0d4b121897a95abafd2581df34472d948f1a61942e689382b7",
+      "champion_sha256": "96cbc3e163ceaa4c7921cdfc56787bd5236b945a5f56b674448a7197ab607930"
+    },
+    {
+      "task": [
+        "2021",
+        "B02_low_risk",
+        "baseline"
+      ],
+      "generation": 64,
+      "state_sha256": "e334be3f43c20056fb3e07b92f539ef67ff51a3d3b717bb79e3376a43212f284",
+      "center_sha256": "1eed43767d6f7843d327f45b4a213183ad2c1d8eb905812e49be0b9d7684632e",
+      "champion_sha256": "50f38e18dbeb52e85a757a2121586a12b7fcec92bc427f4f30e8913daad1a8f3"
+    },
+    {
+      "task": [
+        "2021",
+        "B02_low_risk",
+        "random"
+      ],
+      "generation": 64,
+      "state_sha256": "1e6ace60db48e251883c5259e6fc1d04c46f078182a99100a6f4474168fab6a4",
+      "center_sha256": "a6583258ed7298fdd694eacfe3035dd6458a07c507243ef89383fe59368589c8",
+      "champion_sha256": "3ede3ab444f9c1dd9e5fa53112782c7a0806816a4496418a703b08f831d38bf8"
+    },
+    {
+      "task": [
+        "2021",
+        "B03_valuation",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "0b76b1706fb8e0e175646b7e0e5cb57a45510a490c7f8157304455c16c003e1e",
+      "center_sha256": "b4c061f8162b00aca59c8edac642139b6c297a7b1ac6a69004f656d3b52a0d32",
+      "champion_sha256": "bfaf6613c0d184b327745643bb6e020f2ac1710648152592e26ff5645309a697"
+    },
+    {
+      "task": [
+        "2021",
+        "B03_valuation",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "03eafaaf0146388d4187ef8cc8800dc0b7a642b75422b349dd6e781237696e25",
+      "center_sha256": "e5cc534ed685f2fb0b6126a7810523e68ac20722b90e38681fae7b6f793a9ce1",
+      "champion_sha256": "595dabe433f31885f78f8478abb39e7315ed7363a85aaa7413be3361f1001ac9"
+    },
+    {
+      "task": [
+        "2021",
+        "equal_weight",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "5be599eeaa28cdfdd2112837f03463bdc614ebf1b73c73e5586f2544c3e7b2e2",
+      "center_sha256": "c28d400afeb492ba99a41b4b6e392f5a81c11b6d6bd10a090ed333a9021843be",
+      "champion_sha256": "00a106afed9ef5b5b23e11b6fa1884a8959ed3e6dfdb719e5efcb5a626678f3f"
+    },
+    {
+      "task": [
+        "2021",
+        "equal_weight",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "a190affd74d550fbbebf00f6c404fcf4d89b7a391c2b911848c1802628cbea61",
+      "center_sha256": "d34514160bc7844efb0be12aa34353b9cb9774927a85d5a0dbe28632bc84e0a1",
+      "champion_sha256": "adaa7d0ed22c6f9237c9b0044f2f71526a4437b44cbeeceff6e53ef7ad01ddcd"
+    },
+    {
+      "task": [
+        "2022",
+        "B01_low_turnover",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "5afe06204a9fa92180ae55357c4421dad76e38922d63aa14b21799db55364a76",
+      "center_sha256": "8be27eab1e0884278687e29a291c7521420fa1c3e3003004f71ad2d95a718289",
+      "champion_sha256": "91de2ec0e57fcaf44543174cdeede4f4946780d071c313edd379ff2799f6b41f"
+    },
+    {
+      "task": [
+        "2022",
+        "B01_low_turnover",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "d9c37efd6e56723066f06f7df40b202a6c7a33cb802825ce867e59886043c676",
+      "center_sha256": "c3626da7f51eab4a04c7a776f72ff1a0e3da779f7f7a365eacee4557f6963a3c",
+      "champion_sha256": "40c1309eff25d7e7fabd7079317ad7e3f81e5dfac2df9c4777b0920dca101ed5"
+    },
+    {
+      "task": [
+        "2022",
+        "B02_low_risk",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "fc2a1e6609ce0bd5089a4ac4a9ad85e68c11332c741a8d003b04f40c47b5e42c",
+      "center_sha256": "1f064d1a3f970f41d7f957a15ded8b369406b7a902b1ddac07012f5be672466a",
+      "champion_sha256": "e6643272c7ff7cf20207ba2bc99615078dd497e158a99583b85df291532af264"
+    },
+    {
+      "task": [
+        "2022",
+        "B02_low_risk",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "4cbfa0bdce96a66fc6c9b0cedded7c0c8f4bfeb76f520e07920fa50f79e82741",
+      "center_sha256": "ecc5f5d592f06f3b9b4cfa9d272f1965ae47863d64a0b25abb96b059cd915f6b",
+      "champion_sha256": "e03b1469ebf9f1cd59a5b5c6769848e44550d5db79548c6d0b13b0bb02304cc8"
+    },
+    {
+      "task": [
+        "2022",
+        "B03_valuation",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "b0e0f01a2cf63e972b637c7d08d3b443c8b1c9a1696d3399a1f98bc5d3f1edbd",
+      "center_sha256": "ad9ebf373fd211f2cc718a4624f00ee61fc3b8977a4e326794849f1572aae284",
+      "champion_sha256": "bc2416b7759214f04aedaf3480003752100904a3612eafe3d14e409beb4c4aa0"
+    },
+    {
+      "task": [
+        "2022",
+        "B03_valuation",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "b6e9628fbd87c7366f65786f5ced39eab49a8d4c83c829cfca1e3bf7e9cc82d1",
+      "center_sha256": "0eea4b7aac803c0cacd8b20813590f4bd495c7466e07b9645af2b1d0f7e53000",
+      "champion_sha256": "bcbb1655a229dea448a70d8ee2b773fb60ee363223a58e49cab142dd67199eec"
+    },
+    {
+      "task": [
+        "2022",
+        "equal_weight",
+        "baseline"
+      ],
+      "generation": 256,
+      "state_sha256": "9f55b3d6253bde81da48bd1adec12ea8a9416abe6d344b7bb39ecc1b789e7538",
+      "center_sha256": "0e2fc1348f703b777b986518640a0a971c8d1fda5a28e9ed5bdad64c8633e68d",
+      "champion_sha256": "2d00e56d2fc4a49acaa930300a75ebef53a65f1b1cfbf11da2eb8835b5381b1b"
+    },
+    {
+      "task": [
+        "2022",
+        "equal_weight",
+        "random"
+      ],
+      "generation": 255,
+      "state_sha256": "9ab47f925eb41fdcedd03e0324bfc96723eebdb079f3668ed1ec5a25abe6f655",
+      "center_sha256": "66a03b9cdacfce52f7369e0f31f41a4048e924e21f3f979c03c40fac565ca6b4",
+      "champion_sha256": "de37ce2e4d4807f631b7e6917d9a3d35c8f845abeebb2a8726c18617e500689d"
+    },
+    {
+      "task": [
+        "2023",
+        "B01_low_turnover",
+        "baseline"
+      ],
+      "generation": 175,
+      "state_sha256": "917ca0702aae159b53421855854a49fce3e8b3df63b941f705a7c5e6b0c6e59a",
+      "center_sha256": "e0e6bef6a22168a4db5ef54b7c6955d3b9c7d658ac42691ace6e5990e3171768",
+      "champion_sha256": "30b46dd2adfb3f95934f383a0c94d38febc0ee31b3d941fea298918b6d64ba56"
+    },
+    {
+      "task": [
+        "2023",
+        "B01_low_turnover",
+        "random"
+      ],
+      "generation": 256,
+      "state_sha256": "f265e8740559dbc4a8336cd3a7c47cd40df56abd4c187fd6b7c8450f946010c9",
+      "center_sha256": "8605d4934024eabd29c8ceb423d3493311f29ed8db6a9101b07311476bebd61a",
+      "champion_sha256": "3785a38b0a957d9f5ff00d25f9bc30756c2ca88286bfd73fd0d0447b91bdd70a"
+    },
+    {
+      "task": [
+        "2023",
+        "B02_low_risk",
+        "baseline"
+      ],
+      "generation": 226,
+      "state_sha256": "690df16198f301e9df93f604ffd03bfc6c00b62af6e73288af1315460cf0459e",
+      "center_sha256": "8119ed466e7d3c48e9fb76cd6df51ff0b7f602d5835c59805a5fac3503ac2ea8",
+      "champion_sha256": "13130b2edb7e780612bdd3ca1cf3726606ed74b177a54ccd577fcf06fac36ce9"
+    },
+    {
+      "task": [
+        "2023",
+        "B02_low_risk",
+        "random"
+      ],
+      "generation": 190,
+      "state_sha256": "cd39c579d47bef7dda13e34e0b4f4b3f748f21fedb88d9e79f205beb5d5e845f",
+      "center_sha256": "392b7e130c63e9ac4b91125ad21b5cc021ff039dcde38c61971a2a997e127593",
+      "champion_sha256": "3b7c8bad5ddb66cf4b875c0209e19ab3895e5b431131feb20d3b8825a094f10c"
+    },
+    {
+      "task": [
+        "2023",
+        "B03_valuation",
+        "baseline"
+      ],
+      "generation": 222,
+      "state_sha256": "97e0b0b0ef7ba2fa47c6ead9476a98719a0d4f66d4fb7251e5bbec20a2c04896",
+      "center_sha256": "3c7b1dffa94365c79ee07948b0ac1e182b87e0b89d187bc782c9049cd1472d95",
+      "champion_sha256": "9bd673b1ea14c856a31d2da9ef93972147d4264acf0b942b1c94af4440872765"
+    },
+    {
+      "task": [
+        "2023",
+        "B03_valuation",
+        "random"
+      ],
+      "generation": 102,
+      "state_sha256": "adea327715e49f776a17e316a76d049096ee0a1310ab2674f7fae04467368d47",
+      "center_sha256": "b6e6ba2312ef85e049da00d64419be4c88cd2423d4cfd2771800b67d7f47b91e",
+      "champion_sha256": "ca7c6b08962021eefc0a818b7edab1e34c26b99d3ab9c1fa2b8ce1f6c1d21226"
+    },
+    {
+      "task": [
+        "2023",
+        "equal_weight",
+        "baseline"
+      ],
+      "generation": 82,
+      "state_sha256": "7d23a02f5e2a0a1f5106293a27f4e25870bce5ba2681610f70b7b1664cf3fd68",
+      "center_sha256": "497ddc982efc7677483d5555e4c50859eff10a54e253c03e3b30db62dc4af9d9",
+      "champion_sha256": "3988cb127cb818bcc642a92c3d853b297d51d8f178743369833bf856d3eea01f"
+    },
+    {
+      "task": [
+        "2023",
+        "equal_weight",
+        "random"
+      ],
+      "generation": 70,
+      "state_sha256": "8e2acaeb7567290117ba6537e972f9b99ee455c1f8d822e81a1d8e7a0339159b",
+      "center_sha256": "56b95120ccbd130fc5ec2359960a12940248541302acc642224fc0c5205b4925",
+      "champion_sha256": "eb9806c0e2447b0d6791c1f9771c70db72cad090cceb635537c7e8c310576126"
+    }
+  ]
+}

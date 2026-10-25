@@ -1,0 +1,17 @@
+account,label,matched_parts,sold_notional,price_benefit_yuan,missed_dividend_yuan,fees_yuan,net_benefit_yuan
+cold_01_staged_cost0_fast_restore,fast_restore,24,168144.0,-10983.000000000002,217.44,529.765,-11730.205000000002
+cold_01_staged_cost0_monthly_restore,monthly_restore,21,153395.0,-16492.0,72.96,486.206,-17051.166
+cold_08_staged_cost0_fast_restore,fast_restore,21,126516.0,-8740.000000000002,181.20000000000002,407.266,-9328.466000000002
+cold_08_staged_cost0_monthly_restore,monthly_restore,21,92951.0,-8389.0,97.28,311.193,-8797.473
+cold_15_staged_cost0_fast_restore,fast_restore,27,159039.0,-10523.000000000002,351.68,511.326,-11386.006000000001
+cold_15_staged_cost0_monthly_restore,monthly_restore,23,115144.0,-8268.000000000002,133.76,376.922,-8778.682000000003
+cold_22_staged_cost0_fast_restore,fast_restore,22,128286.0,-8391.0,470.58000000000004,417.24100000000004,-9278.821
+cold_22_staged_cost0_monthly_restore,monthly_restore,14,95307.0,-8190.000000000002,173.93,301.94,-8665.870000000003
+continued_01_staged_cost0_fast_restore,fast_restore,57,421025.0,-27398.0,851.52,1326.484,-29576.003999999997
+continued_01_staged_cost0_monthly_restore,monthly_restore,45,302096.0,-23317.999999999996,1051.22,946.628,-25315.847999999998
+continued_08_staged_cost0_fast_restore,fast_restore,38,263706.0,-17465.000000000004,319.0,835.242,-18619.242000000006
+continued_08_staged_cost0_monthly_restore,monthly_restore,29,184430.0,-13775.999999999998,378.02,597.682,-14751.701999999997
+continued_15_staged_cost0_fast_restore,fast_restore,44,324261.0,-23947.999999999996,957.12,1017.323,-25922.442999999996
+continued_15_staged_cost0_monthly_restore,monthly_restore,24,169540.0,-12406.000000000002,158.08,529.066,-13093.146000000002
+continued_22_staged_cost0_fast_restore,fast_restore,55,347940.0,-24940.000000000004,1042.45,1113.489,-27095.939000000002
+continued_22_staged_cost0_monthly_restore,monthly_restore,27,185473.0,-15406.000000000004,567.27,587.22,-16560.49

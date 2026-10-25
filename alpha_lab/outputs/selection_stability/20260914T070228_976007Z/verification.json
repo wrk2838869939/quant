@@ -1,0 +1,27 @@
+{
+  "prefixes": [
+    {
+      "account": "startup_2022-04_15_smooth20",
+      "cutoff": "2022-10-14",
+      "prefix_exact": true
+    },
+    {
+      "account": "startup_2023-01_15_rank_buffer",
+      "cutoff": "2023-07-18",
+      "prefix_exact": true
+    },
+    {
+      "account": "cold_22_combined",
+      "cutoff": "2025-01-03",
+      "prefix_exact": true
+    }
+  ],
+  "no_same_review_rebuy_checks": 284,
+  "buffered_buy_signal_lineages": 1517,
+  "rank_buffer_first_fill_parities": 45,
+  "corrected_top20_scope_checks": 452,
+  "all_candidate_execution_and_risk_coverage": true,
+  "source_and_input_hashes_unchanged": true,
+  "root_agents_unchanged": true,
+  "scope": "新增信号与执行层；未把历史窗口当独立样本"
+}

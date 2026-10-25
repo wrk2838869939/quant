@@ -1,0 +1,17 @@
+release: datahub/releases/selection_live_20261020_eod
+content_id: f270dc89ead79a3607680baa700d1103915f33de86fc10ca4fcde61cb28c46e7
+supplement: alpha_lab/data/sector_supplements/sw_l2_20260921T062409_154317Z
+dc_catalog: alpha_lab/outputs/fine_sector_probe/20260921T062158_292354Z/dc_index_recent.parquet
+output_root: alpha_lab/data/sector_live_datasets
+start: '2014-01-02'
+end: '2026-10-20'
+version_change: '2021-12-13'
+older_version: SW2014
+newer_version: SW2021
+base_value: 1000.0
+maximum_member_weight: 0.2
+minimum_members: 5
+minimum_quote_coverage: 0.8
+share_unit_multiplier: 10000.0
+flat_return_tolerance: 1.0e-08
+prefix_check_end: '2015-01-30'

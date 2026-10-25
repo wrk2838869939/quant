@@ -1,0 +1,30 @@
+# 已观察历史的机制诊断，不据本轮结果挑选参数或自动晋升。
+parent: outputs/causal_execution/20260913T130810_374654Z
+signal_parent: outputs/conditional_hold/20260913T123032_500204Z
+output_root: outputs/profit_defense
+end: '2026-09-08'
+capital: 50000
+windows:
+  continued: '2022-01-01'
+  cold: '2024-01-01'
+variants: [hybrid, initial_buyhold, bank_buyhold, weekly_exit, pause_only, weekly_pause, weekly_liquidate]
+defense:
+  medium_window: 60
+  long_window: 120
+  persistence_window: 20
+  persistent_weak_days: 10
+  affected_fraction: 0.5
+  recovery_fraction: 0.5
+  review_frequency: weekly
+bank_industry: 801780.SI
+bank_ranking: circ_mv_yuan
+benchmark_size: 5
+bootstrap:
+  seed: 20260913
+  samples: 2000
+  block_days: 20
+  quantiles: [0.025, 0.975]
+episode_threshold: -0.05
+sources:
+  attribution: https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-lit-review/2019/rflr-performance-attribution.pdf
+  trend_risk: https://www.aqr.com/insights/research/alternative-thinking/should-your-portfolio-protection-work-fast-or-slow

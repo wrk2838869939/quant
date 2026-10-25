@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "source_run": "/root/autodl-tmp/alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z",
+  "dataset": "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261020T113446_268600Z",
+  "artifacts": {
+    "evaluate.py": "269755d272eca92f144a965656169222206a0eea595938821144e808bfb7dd0c",
+    "event_predictions_and_labels.csv": "c710c9b558bcb0592cf2031422110e8bfe498f2ecd7037b14adae0471a027264",
+    "excluded_labels.csv": "7328157e2c2f90b0e54a6a7fb45f4175c187dcb0e347c7e15bddc0713d09abbe",
+    "metrics.csv": "5c416ed5677d097de5c6439be30cfdcbcf6706838fe24a513753740c40cb7411",
+    "complete_events_with_clusters.csv": "83ab95b5d14ffcd7e9bf35a3e6c7401099bb6894ab2b38bc056838b13b9b1e7c",
+    "cluster_intervals.csv": "20c490999cf1a1faea0b2a3c326dd84bec2b712702a9976db6ca63a93a09b0bc",
+    "classification.png": "f96ff17c9420d94554856dab635ade0c25a5e11ded2ec849fdd19cb472455157",
+    "REPORT.md": "1e48cb2b0787002ae598e14e602b19b98be80f851542ded8737b622bcb987390",
+    "REPORT.html": "aedb1ce8e001c7541a73cc39ac83a6c27ca323a552b75e29b56826a0c6ab579c",
+    "verification.json": "73315c0d3fcb4f098acebb19a2d7a08255161486dc08df5c600168296c4c2f55",
+    "missing_label_bounds.csv": "2e7ae291b577ab9bf0620721bde15a33bf3d598757754bf3325cbfd686078fb8"
+  }
+}

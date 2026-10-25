@@ -1,0 +1,9 @@
+{
+  "command": "python -m unittest discover -s alpha_lab/tests -p test_causal_portfolio_adversarial.py -v",
+  "tests": 25,
+  "passed": 25,
+  "engine_sha256": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+  "test_sha256": "dca18412421f0d0b6dd8b79f52b2e4a2d11fdb48dd55b396d93df838e0e4a6d1",
+  "independent_reviewer": "audit_future_signals",
+  "root_rerun_passed": true
+}

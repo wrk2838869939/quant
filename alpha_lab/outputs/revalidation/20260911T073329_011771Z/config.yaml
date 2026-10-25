@@ -1,0 +1,38 @@
+# 固定已有候选，不新增搜索或扫描；TEST 2024 起保持冻结。
+panel: data/panel/daily_panel.parquet
+output_root: outputs/revalidation
+train: ['2014-01-01', '2021-12-31']
+valid: ['2022-01-01', '2023-12-31']
+embargo: 5
+min_cross_section: 100
+min_train_days: 30
+min_valid_days: 11
+min_ic: 0.015
+valid_ic_ratio: 0.6
+valid_decay_max: 3.0
+library_corr_max: 0.7
+library_sample_stride: 4
+value_rtol: 0.00003
+value_atol: 0.000003
+ic_atol: 0.0001
+columns:
+  ret1: pct_chg
+  vol: vol_share
+  amt: amount_yuan
+  to: turnover_rate
+  high: high
+  low: low
+  close: close
+  hclose: hfq_close
+  buy_lg: buy_lg_amount_yuan
+  sell_lg: sell_lg_amount_yuan
+candidates:
+  - {horizon: 20, expr: 'ts_min(vwap_dev,5)', status: existing}
+  - {horizon: 20, expr: 'ts_std(lg_share,10)', status: existing}
+  - {horizon: 5, expr: 'sqrt(zscore(to))', status: existing}
+  - {horizon: 5, expr: 'sqrt(ts_delta(vol,5))', status: existing}
+  - {horizon: 5, expr: 'sqrt(ts_zscore(amt,60),20)', status: existing}
+  - {horizon: 5, expr: 'ts_delta(amt,60)', status: existing}
+  - {horizon: 5, expr: 'ts_min(vwap_dev,5)', status: existing}
+  - {horizon: 5, expr: 'corr(hclose,rng,10)', status: existing}
+  - {horizon: 20, expr: 'decay(sqrt(zscore(gap)),10)', status: excluded_control}

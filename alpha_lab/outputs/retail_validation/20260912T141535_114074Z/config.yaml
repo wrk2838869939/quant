@@ -1,0 +1,27 @@
+# 完整研究检验矩阵；所有情景都不是用户实际账户参数，不据VALID选最优。
+output_root: outputs/retail_validation
+raw_signals: outputs/long_only_followup/20260911T141208_459585Z/tail_signal_signals.parquet
+execution_prepared: outputs/style_attribution/20260911T160006_201315Z
+risk_features: outputs/active_cash_audit/20260912T134904_749861Z/market_features.parquet
+risk_config: configs/active_cash_audit.yaml
+train: ['2014-01-01', '2021-12-31']
+valid: ['2022-01-01', '2023-12-31']
+walk_forward_years: [2019, 2020, 2021]
+horizon: 20
+embargo: 5
+rank_edges: [0, 10, 20, 50, 100, 100000]
+candidate_pool: 50
+risk_recovery:
+  confirmation_days: 3
+  breadth_min: 0.5
+  short_return_min: 0.0
+  trend_return_min: 0.0
+capitals: [20000.0, 50000.0, 100000.0]
+base_max_stock_fraction: 0.25
+stress_max_stock_fraction: 0.4
+cost_multipliers: [1.0, 2.0]
+extra_execution_delay_days: [0, 1]
+rules: [none, extreme_original, extreme_recovery]
+reference_capital: 50000.0
+risk_signal_max_age: 21
+min_training_dates: 12

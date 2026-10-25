@@ -1,0 +1,6 @@
+{
+  "reentry_uses_fresh_daily_signal": true,
+  "forecast_model_unchanged": true,
+  "monthly_selection_unchanged": true,
+  "source_sha256": "a51e4854e60603c0a763991cd0d4a00c2eeda69d86e2adcadfa7c8ff01c52fe8"
+}

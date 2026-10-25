@@ -1,0 +1,36 @@
+{
+  "status": "failed",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "selection_scope": "2022-2023 is reused development data; historical pool already selected",
+  "source_hashes": {
+    "scripts/improve_monthly_portfolio.py": "36957d43740e6c29d6acff36e14857d68543f21e57e4d0f8c548f9b4b9ba5945",
+    "src/factor_blend.py": "4e108f93e48fcb1b28ebc24204d69480f322be11660d53d5c52561b89e200ab3",
+    "src/portfolio.py": "fddb324e09ace833c4ec19696d0d09ac8c72819a8fef1241e83645451579c70f",
+    "scripts/synthesis_and_test.py": "a340c83d6690a69522ac44001bd42b37cc7c849d863a7aa1a12f4e767cfd3594",
+    "scripts/run_gp_mining.py": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df",
+    "scripts/prepare_monthly_audit.py": "2476bffba7d35f6b26b3379160f56f881093adb0de7b9b9243d8a5fea174d418",
+    "scripts/audit_monthly_portfolio.py": "d7407a18a455cfef6dc368a644cb1fd5167acc5a1a08b4f4ec88a70e4a380cc3",
+    "src/expr_engine.py": "1ae6ddec5f77078a3b598203bf6fdbc3735c1d0ee6c9da2bf0930c3fe2ea078a",
+    "src/labels.py": "36ff1f59e7d080b1f4fefe93f73a59f4c7427bba2c8b92a9896b76c5465a87fb",
+    "src/rank_ic.py": "9ae94f6304cebeafc17134c6a5afaa68f054a04d5948684e8e94cc6f7575fc6f",
+    "configs/corporate_action_components.yaml": "f128ad359eb3bd5c32a963101d290269f53689f011785aa6ebfbc6cf1d2680ba"
+  },
+  "experiment_hash": "aede4ebc4839fe6fc31d9eab16c3cde62f6e31e1317549a99e81a3fd0af85166",
+  "baseline_signal_hash": "87a1ce00da44b6cc9c72c207e4f316b70ec13a52900989f13ab2bdae3e54c15d",
+  "n_codes": 1005,
+  "diagnostic_last_signal": "2021-11-22 00:00:00",
+  "signal_hashes": {
+    "z_icir_signals.parquet": "cdb3326ad9a9ff2755b474e9a1b3a5113d0d110e4eab33f73690129d559da17e",
+    "rank_icir_signals.parquet": "70904c910fe1c833ae1c5bacc49d7a4561448878e3939d49a7cac528dcc79187",
+    "family_rank_signals.parquet": "3609d7d39d2bcf236b301194c36204e45e345b352dc5e3d2677d17e29a4ea451"
+  },
+  "config_hashes": {
+    "config.yaml": "926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0",
+    "experiment.yaml": "aede4ebc4839fe6fc31d9eab16c3cde62f6e31e1317549a99e81a3fd0af85166",
+    "weights.csv": "e6e9ebeb959db78cb971ca4506a5d5b2c53990852be63a1aa7af9aacad4ef91c",
+    "execution_codes.csv": "a60c583ceb116296f1a953d7871945a2e83f4a36615481ecec9c90058d4fe5dd"
+  },
+  "error_type": "AccountingError",
+  "error": "2022-07-14 603661.SH: \u5206\u7ea2\u91d1\u989d\u4e0e\u9664\u6743\u53c2\u8003\u4ef7\u4e0d\u7b26 (28.1429 vs 28.3500)"
+}

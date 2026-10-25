@@ -1,0 +1,5 @@
+{
+  "status": "invalid_pre_execution_attempt",
+  "reason": "New path option variable collided with pre-close scalar in corporate-action handling; caught by 2 of 25 adversarial tests; renamed before any accounts were run.",
+  "account_results_produced": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "rows": 5568,
+  "duplicate_keys": 0,
+  "daily_return_rounding_error_pp": 4.999999999999449e-05,
+  "update_artifacts_verified": 13,
+  "update_run": "alpha_lab/outputs/sector_live_update/20261020T113325_840079Z"
+}

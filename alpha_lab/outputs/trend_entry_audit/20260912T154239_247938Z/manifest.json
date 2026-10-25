@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "fresh_holdout": false,
+  "test_market_data_used": false,
+  "valid_2022_plus_used": false,
+  "source_hashes": {
+    "configs/trend_entry_audit.yaml": "869eced32f40c6b382000c516261527cbbc67b01d5830b4e1aaac49314e6f6d5",
+    "scripts/audit_trend_entry.py": "7360d17f7713190761074992c94c5b07c59c2bbd94b647be0ef93618d3904f77",
+    "src/trend_entry.py": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0"
+  },
+  "input_hash": "1b4ba14158c92e631cbf41702b94f66b725a00d281a9038b04a9790a7dec292a",
+  "fit_dates": 50,
+  "fit_rows": 27639,
+  "last_fit_label": "2018-12-05 00:00:00",
+  "prefix_checks": 18,
+  "selection_note": "Fixed three policies, no tuning on 2019-2021; these years were previously inspected",
+  "path_convention": "Adjusted price marking, missing entry cash, missing marks carried, delisting zero; no costs or execution; membership is only a signal simulation"
+}

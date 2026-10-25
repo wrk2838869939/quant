@@ -1,0 +1,82 @@
+{
+  "status": "engineering_validation_complete_forward_live_validation_pending",
+  "tests_passed": 79,
+  "config_changes": [
+    "execution_session"
+  ],
+  "full_scale": {
+    "synthetic_only": true,
+    "performance_backtest": false,
+    "live_orders": false,
+    "real_historical_through": "2026-09-14",
+    "synthetic_decision_date": "2026-09-15",
+    "historical_rows": 12302463,
+    "basis_securities": 5562,
+    "synthetic_traded_securities": 5550,
+    "synthetic_suspended_securities": 12,
+    "full_universe": 5823,
+    "prior_eod_market_cap_max_relative_error": 0.0,
+    "naive_shares_times_price_max_relative_difference": 0.049688582588954464,
+    "naive_market_cap_differences_gt_1e5": {
+      "688235.SH": 0.049688582588954464
+    },
+    "prior_turnover_max_absolute_error": 4.999999999999449e-05,
+    "projection_seconds": 2.5465266816318035,
+    "total_seconds": 45.843368771485984,
+    "synthetic_plan_blocked": true,
+    "limitations": [
+      "没有真实14:30历史行情",
+      "没有真实收盘竞价成交回报",
+      "未检验真实Sina全A实时覆盖率"
+    ]
+  },
+  "live_orders": false,
+  "mail_sent": false,
+  "scheduler_started": false,
+  "root_agents_unchanged_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6",
+  "pending": [
+    "real_full_A_after_1430_snapshot",
+    "current_broker_account_reconciliation",
+    "actual_closing_auction_fills",
+    "forward_signal_and_execution_comparison"
+  ],
+  "artifacts": {
+    "tests.log": "dc4b7201c78fe8e17e177ad02119f7f7567f403bf60aed1540c5bfc290d9f4dd",
+    "full_scale_v2.log": "3abc3943ad9b50fc5e81ee2e7dc7b68c6f5e8ac4b3612000c2e922400746ef1c",
+    "basis/basis.parquet": "c3da955bb3feba1d07b64e68bb403109b21b01b5dd42c7c4fe9836f8b8cea840",
+    "basis/status_template.json": "b6faa737aff7fd81d954e37578acc9771b41459ec82de06ac39f91c191f0f212",
+    "basis/coverage.json": "b00465a0b8bae0cacce533413201fc77fc1ebd535254aa5dc20ebbe86c3ee3ad",
+    "basis/manifest.json": "af4d8ee0fe64cf046ececebbaafc9adbaf5faa8829a72b3d08cc88fd0c4bc819",
+    "full_scale_synthetic/failed_check.json": "e4378e727443964474b56376fd679b98ba413ef1ced8848f1be517e94b333b23",
+    "provider_probe/raw.txt": "f6704bd4c1e2e27a40b00e7d94d40ee30ad03f87de71f279b5863d8326218a82",
+    "provider_probe/quotes.parquet": "ac85f041c0241d6f9d04809591656eba6d084736017011368b8f798047451c8e",
+    "provider_probe/result.json": "b3c2c435779c49b6a8df094f9a033e5601e03d1d71cd81faa872add8e0a2cabe",
+    "basis_v2/basis.parquet": "b32b9f268ae8e7eb168a4d9cda679171b9ae5454b207c133ad6acf66fda3ec5b",
+    "basis_v2/status_template.json": "b6faa737aff7fd81d954e37578acc9771b41459ec82de06ac39f91c191f0f212",
+    "basis_v2/coverage.json": "b00465a0b8bae0cacce533413201fc77fc1ebd535254aa5dc20ebbe86c3ee3ad",
+    "basis_v2/manifest.json": "1d03b72d870c0d3911233fdd67965ffe89136f4c2d6d4a13acc005fa43a86157",
+    "full_scale_synthetic_v2/verification.json": "5d179997e87bd1dfa7691732f74a62c7f4af09f581968ede805b1feb078667c9",
+    "full_scale_synthetic_v2/receipt.json": "f5b081897a04c5268fcbe39787376178cdcb98c3eec0aa44133f3133d7c3a744",
+    "full_scale_synthetic_v2/manifest.json": "e13adcdd7b0c785ebc0245d351fcdbe77ba6714135edd3a02348337fa1b66d78",
+    "status_probe/status.json": "58aa07388e44ad00625ffcd2265eaba8c65b73c6ab6acd88e28219b6a852fd57",
+    "status_probe/manifest.json": "c0511aa65827a8ee8092244ea3206270cd0b8078117c3f4f1e0b66270114a6e0",
+    "sources/src/execution_clock.py": "889084840b91136fb1ff95bddefb7d3a39a42640e8555ffe7548ebc56462821c",
+    "sources/src/closing_projection.py": "5047cba089df5cdcc2449d331f925a6dbdc3953d87e2266e8cbabb09a12f7e6c",
+    "sources/src/shadow_inputs.py": "95ed5c19daf716aad438354694aa7ecfe853750f4937d6f3e3be8ef5001fc28b",
+    "sources/src/shadow_planner.py": "c0d121a647d309f84c8c751a3d76761024fe625e39011a58c2b0f45eb4c530f9",
+    "sources/src/shadow_account.py": "334ad911119e076eb6dcc97dc954bd74b38418167e56b186f6c3a3617c4b760b",
+    "sources/src/manual_execution.py": "08189c74b8c37de6a9620fe399fc77f23073701c88d9dc9cc83763d2005a4fd0",
+    "sources/src/mail_outbox.py": "9004c6a2b8c4ed7e861e317a85e69913026db043818ea7fc33ce1b9915b1c8b5",
+    "sources/scripts/closing_observation.py": "a88da4e228f82e898631b3c770a090fa5a5b635c4bc96c984f8436dde91808d4",
+    "sources/scripts/build_closing_basis.py": "3ccfd8a8e4629d0e77a1525c233066a3457f90e2e4393a1d5ef4ce24d4ee610c",
+    "sources/scripts/validate_closing_pipeline.py": "6dcfcf06e465e8758d501febf58e80f1944115a21e1045d1a13643aedb298966",
+    "sources/scripts/manual_execution.py": "205acdba09730e82427c1451479b24ec0ccc16281a2388f8c543b8e5b160caf7",
+    "sources/scripts/mail_outbox.py": "74a59afcef2700d617c6db43f68da46c3af9ce99c29d3866b1f8777e18b00052",
+    "sources/tests/test_closing_execution.py": "0b89a20d8a7bf3cfbeab46cb9a99b980c58045e767b37e62ab29ec992c3445dc",
+    "sources/tests/test_closing_projection.py": "1082adaad56650a3ca1fccb370f5626945fa7b68732837c249131e9bcf9e6ffc",
+    "sources/configs/monthly_risk_close_day15.yaml": "6aeb7c43c14c202e873a3d17d142de87f2bb113a8b3b9321ff7119cb6e53cf51",
+    "sources/configs/models/monthly_market_risk.json": "5f91639c17c1f6a60b6628ded783b4abe8c7f8752be8654d201654fdba8351d4",
+    "sources/docs/CLOSING_EXECUTION_20260914.md": "9f00a840483c4cb364ca33b803b318f5faa37a1b668e56cb3aa090336b1803d7",
+    "sources/data/manual_accounts/retail_80k_20260914/strategy_selection.json": "f1e5197a612633527da6b763f4510dd00a7081eb58bfa570848b63f8c977a039"
+  }
+}

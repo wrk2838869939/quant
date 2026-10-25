@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+data/
+logs/
+*.parquet
+*.joblib
+*.pickle
+*.pkl
+*.zip
+layout*.pdf

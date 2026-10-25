@@ -1,0 +1,9 @@
+{
+  "purpose": "Check whether learned path score adds anything beyond low volatility or low turnover",
+  "controls": [
+    "low_volatility",
+    "low_turnover"
+  ],
+  "post_hoc_diagnostic": true,
+  "no_parameter_selection": true
+}

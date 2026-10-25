@@ -1,0 +1,11 @@
+factor,source,expect_sign,rank_ic,icir,ic_t,dsr_p,sign_ok,verdict
+ideal_amplitude_21d,开源证券微观结构系列: 理想振幅(简版),-1,-0.073,-0.58,-32.2,,True,PASS
+reversal_5d,A股短期反转 (Jegadeesh 1990 A股版; 量价指纹/研报共识),-1,-0.0441,-0.46,-25.6,,True,PASS
+reversal_20d,A股中期反转 (Liu-Stambaugh-Yuan 2019 中国版动量弱),-1,-0.0582,-0.56,-30.7,,True,PASS
+momentum_60d_skip5,"12-1动量A股版 (弱, 记录用; 文献: A股月频动量弱甚至反转)",1,-0.0337,-0.34,-18.6,,False,SIGN_FLIP
+amihud_20d,Amihud 2002 非流动性 |ret|/amount,1,0.0391,0.52,28.6,,True,PASS
+turnover_ma20,低换手率溢价 (A股研报共识; 华泰/东方多期验证),-1,-0.0755,-0.73,-40.7,,True,PASS
+volatility_20d,低波动异象 (Baker-Bradley-Wurgler 2011; A股显著),-1,-0.0712,-0.61,-33.7,,True,PASS
+ep_ttm,盈利价值 1/PE_TTM (Fama-French 1992; CH-3),1,0.0317,0.37,20.6,,True,PASS
+bp_lf,账面价值 1/PB (CH-3 剔壳价值前的基准版),1,0.0405,0.42,23.1,,True,PASS
+size_log,"规模效应 (LSY 2019; 注意2017后弱化+2024微盘危机, 必须披露)",1,-0.0221,-0.15,-8.4,,False,SIGN_FLIP

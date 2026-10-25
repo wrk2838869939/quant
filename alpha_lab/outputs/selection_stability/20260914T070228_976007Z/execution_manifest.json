@@ -1,0 +1,2018 @@
+{
+  "cases": [
+    {
+      "name": "startup_2022-01_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "startup_2022-01_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "startup_2022-01_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "startup_2022-01_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "startup_2022-01_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "startup_2022-01_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "startup_2022-01_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "startup_2022-01_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "startup_2022-01_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2022-01",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "startup_2022-04_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "startup_2022-04_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "startup_2022-04_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "startup_2022-04_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "startup_2022-04_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "startup_2022-04_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "startup_2022-04_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "startup_2022-04_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "startup_2022-04_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2022-04",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "startup_2022-07_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "startup_2022-07_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "startup_2022-07_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "startup_2022-07_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "startup_2022-07_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "startup_2022-07_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "startup_2022-07_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "startup_2022-07_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "startup_2022-07_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2022-07",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "startup_2022-10_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "startup_2022-10_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "startup_2022-10_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "startup_2022-10_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "startup_2022-10_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "startup_2022-10_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "startup_2022-10_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "startup_2022-10_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "startup_2022-10_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2022-10",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "startup_2023-01_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "startup_2023-01_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "startup_2023-01_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "startup_2023-01_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "startup_2023-01_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "startup_2023-01_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "startup_2023-01_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "startup_2023-01_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "startup_2023-01_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2023-01",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "startup_2023-04_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "startup_2023-04_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "startup_2023-04_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "startup_2023-04_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "startup_2023-04_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "startup_2023-04_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "startup_2023-04_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "startup_2023-04_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "startup_2023-04_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2023-04",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "startup_2023-07_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "startup_2023-07_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "startup_2023-07_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "startup_2023-07_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "startup_2023-07_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "startup_2023-07_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "startup_2023-07_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "startup_2023-07_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "startup_2023-07_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2023-07",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "startup_2023-10_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "startup_2023-10_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "startup_2023-10_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "startup_2023-10_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "startup_2023-10_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "startup_2023-10_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "startup_2023-10_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "startup_2023-10_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "startup_2023-10_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2023-10",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "startup_2024-01_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "startup_2024-01_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "startup_2024-01_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "startup_2024-01_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "startup_2024-01_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "startup_2024-01_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "startup_2024-01_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "startup_2024-01_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "startup_2024-01_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2024-01",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "startup_2024-04_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "startup_2024-04_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "startup_2024-04_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "startup_2024-04_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "startup_2024-04_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "startup_2024-04_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "startup_2024-04_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "startup_2024-04_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "startup_2024-04_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2024-04",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "startup_2024-07_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "startup_2024-07_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "startup_2024-07_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "startup_2024-07_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "startup_2024-07_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "startup_2024-07_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "startup_2024-07_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "startup_2024-07_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "startup_2024-07_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2024-07",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "startup_2024-10_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "startup_2024-10_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "startup_2024-10_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "startup_2024-10_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "startup_2024-10_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "startup_2024-10_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "startup_2024-10_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "startup_2024-10_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "startup_2024-10_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2024-10",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "startup_2025-01_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "startup_2025-01_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "startup_2025-01_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "startup_2025-01_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "startup_2025-01_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "startup_2025-01_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "startup_2025-01_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "startup_2025-01_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "startup_2025-01_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2025-01",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "startup_2025-04_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "startup_2025-04_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "startup_2025-04_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "startup_2025-04_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "startup_2025-04_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "startup_2025-04_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "startup_2025-04_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "startup_2025-04_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "startup_2025-04_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2025-04",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "startup_2025-07_08_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "startup_2025-07_08_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "startup_2025-07_08_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "startup_2025-07_15_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "startup_2025-07_15_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "startup_2025-07_15_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "startup_2025-07_22_smooth20",
+      "kind": "startup",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    },
+    {
+      "name": "startup_2025-07_22_rank_buffer",
+      "kind": "startup",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    },
+    {
+      "name": "startup_2025-07_22_combined",
+      "kind": "startup",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "2025-07",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    },
+    {
+      "name": "continued_01_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_01_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_01_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_01_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_01_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_01_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 1,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_08_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 8,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_15_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 15,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "continued_22_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 22,
+      "cohort": "continued",
+      "start": "2022-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_01_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 1,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_08_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 8,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_15_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 15,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_baseline",
+      "kind": "long",
+      "policy": "baseline",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_smooth20",
+      "kind": "long",
+      "policy": "smooth20",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_rank_buffer",
+      "kind": "long",
+      "policy": "rank_buffer",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_combined",
+      "kind": "long",
+      "policy": "combined",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_smooth10",
+      "kind": "long",
+      "policy": "smooth10",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    },
+    {
+      "name": "cold_22_smooth40",
+      "kind": "long",
+      "policy": "smooth40",
+      "offset": 22,
+      "cohort": "cold",
+      "start": "2024-01-01",
+      "end": "2026-09-08"
+    }
+  ],
+  "reused_startup_baselines": [
+    {
+      "source": "2022-01_08_fresh_once",
+      "cohort": "2022-01",
+      "offset": 8
+    },
+    {
+      "source": "2022-01_15_fresh_once",
+      "cohort": "2022-01",
+      "offset": 15
+    },
+    {
+      "source": "2022-01_22_fresh_once",
+      "cohort": "2022-01",
+      "offset": 22
+    },
+    {
+      "source": "2022-04_08_fresh_once",
+      "cohort": "2022-04",
+      "offset": 8
+    },
+    {
+      "source": "2022-04_15_fresh_once",
+      "cohort": "2022-04",
+      "offset": 15
+    },
+    {
+      "source": "2022-04_22_fresh_once",
+      "cohort": "2022-04",
+      "offset": 22
+    },
+    {
+      "source": "2022-07_08_fresh_once",
+      "cohort": "2022-07",
+      "offset": 8
+    },
+    {
+      "source": "2022-07_15_fresh_once",
+      "cohort": "2022-07",
+      "offset": 15
+    },
+    {
+      "source": "2022-07_22_fresh_once",
+      "cohort": "2022-07",
+      "offset": 22
+    },
+    {
+      "source": "2022-10_08_fresh_once",
+      "cohort": "2022-10",
+      "offset": 8
+    },
+    {
+      "source": "2022-10_15_fresh_once",
+      "cohort": "2022-10",
+      "offset": 15
+    },
+    {
+      "source": "2022-10_22_fresh_once",
+      "cohort": "2022-10",
+      "offset": 22
+    },
+    {
+      "source": "2023-01_08_fresh_once",
+      "cohort": "2023-01",
+      "offset": 8
+    },
+    {
+      "source": "2023-01_15_fresh_once",
+      "cohort": "2023-01",
+      "offset": 15
+    },
+    {
+      "source": "2023-01_22_fresh_once",
+      "cohort": "2023-01",
+      "offset": 22
+    },
+    {
+      "source": "2023-04_08_fresh_once",
+      "cohort": "2023-04",
+      "offset": 8
+    },
+    {
+      "source": "2023-04_15_fresh_once",
+      "cohort": "2023-04",
+      "offset": 15
+    },
+    {
+      "source": "2023-04_22_fresh_once",
+      "cohort": "2023-04",
+      "offset": 22
+    },
+    {
+      "source": "2023-07_08_fresh_once",
+      "cohort": "2023-07",
+      "offset": 8
+    },
+    {
+      "source": "2023-07_15_fresh_once",
+      "cohort": "2023-07",
+      "offset": 15
+    },
+    {
+      "source": "2023-07_22_fresh_once",
+      "cohort": "2023-07",
+      "offset": 22
+    },
+    {
+      "source": "2023-10_08_fresh_once",
+      "cohort": "2023-10",
+      "offset": 8
+    },
+    {
+      "source": "2023-10_15_fresh_once",
+      "cohort": "2023-10",
+      "offset": 15
+    },
+    {
+      "source": "2023-10_22_fresh_once",
+      "cohort": "2023-10",
+      "offset": 22
+    },
+    {
+      "source": "2024-01_08_fresh_once",
+      "cohort": "2024-01",
+      "offset": 8
+    },
+    {
+      "source": "2024-01_15_fresh_once",
+      "cohort": "2024-01",
+      "offset": 15
+    },
+    {
+      "source": "2024-01_22_fresh_once",
+      "cohort": "2024-01",
+      "offset": 22
+    },
+    {
+      "source": "2024-04_08_fresh_once",
+      "cohort": "2024-04",
+      "offset": 8
+    },
+    {
+      "source": "2024-04_15_fresh_once",
+      "cohort": "2024-04",
+      "offset": 15
+    },
+    {
+      "source": "2024-04_22_fresh_once",
+      "cohort": "2024-04",
+      "offset": 22
+    },
+    {
+      "source": "2024-07_08_fresh_once",
+      "cohort": "2024-07",
+      "offset": 8
+    },
+    {
+      "source": "2024-07_15_fresh_once",
+      "cohort": "2024-07",
+      "offset": 15
+    },
+    {
+      "source": "2024-07_22_fresh_once",
+      "cohort": "2024-07",
+      "offset": 22
+    },
+    {
+      "source": "2024-10_08_fresh_once",
+      "cohort": "2024-10",
+      "offset": 8
+    },
+    {
+      "source": "2024-10_15_fresh_once",
+      "cohort": "2024-10",
+      "offset": 15
+    },
+    {
+      "source": "2024-10_22_fresh_once",
+      "cohort": "2024-10",
+      "offset": 22
+    },
+    {
+      "source": "2025-01_08_fresh_once",
+      "cohort": "2025-01",
+      "offset": 8
+    },
+    {
+      "source": "2025-01_15_fresh_once",
+      "cohort": "2025-01",
+      "offset": 15
+    },
+    {
+      "source": "2025-01_22_fresh_once",
+      "cohort": "2025-01",
+      "offset": 22
+    },
+    {
+      "source": "2025-04_08_fresh_once",
+      "cohort": "2025-04",
+      "offset": 8
+    },
+    {
+      "source": "2025-04_15_fresh_once",
+      "cohort": "2025-04",
+      "offset": 15
+    },
+    {
+      "source": "2025-04_22_fresh_once",
+      "cohort": "2025-04",
+      "offset": 22
+    },
+    {
+      "source": "2025-07_08_fresh_once",
+      "cohort": "2025-07",
+      "offset": 8
+    },
+    {
+      "source": "2025-07_15_fresh_once",
+      "cohort": "2025-07",
+      "offset": 15
+    },
+    {
+      "source": "2025-07_22_fresh_once",
+      "cohort": "2025-07",
+      "offset": 22
+    }
+  ],
+  "runner_sha256": "33c343b044d9630ba286e2b10e6d1a4bda0bb50ac6c7984165d81d4577c094ac",
+  "signal_hashes_sha256": "c51aea1149d800f7a38516c9c3ba3e0b11f462380f136177fe97f3b56d5dc009",
+  "inputs_receipt_sha256": "a39553b534c0798b832d360b81fd696ab05b0848eac7c9fa77bc013e93b2e905",
+  "input_revision": "issuer_verified_601898_20240820_dividend",
+  "candidate_scope_revision": "top20_before_entry_denial"
+}

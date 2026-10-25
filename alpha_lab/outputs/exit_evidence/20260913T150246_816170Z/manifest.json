@@ -1,0 +1,9 @@
+{
+  "config_sha256": "2705aaef13e7aec5c1a6c1f301dbd72c9414bca0a01b04f844c7053bc510d376",
+  "parent_completion_sha256": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac",
+  "sources": {
+    "src/exit_evidence.py": "63b845d5e926ce95294dbd3927015086d60b1969df86fd6ccd0bcd45f9e1c350",
+    "scripts/research_exit_evidence.py": "4dec39c70d3eff732eae49da0876d8a99e36fbc7bf5cfcd18068bce19d54035a",
+    "tests/test_exit_evidence.py": "9bd8ae7957c288bdb8c5d3888972c4e82fc4167e11f686c9a09b801aee94143d"
+  }
+}

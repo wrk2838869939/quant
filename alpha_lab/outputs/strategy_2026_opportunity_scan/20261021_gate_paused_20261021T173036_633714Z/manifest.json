@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "summary": {
+    "strategy_id": "sector_stock_2026_gate_paused_v1",
+    "effective_from": "2026-10-21",
+    "asof": "2026-10-21",
+    "record_origin": "current_policy_scan",
+    "annual_sector_gate_enabled": false,
+    "annual_diagnostic_status": "not_needed_no_events",
+    "shape_confirmed_today": 1,
+    "new_first_confirmations": 0,
+    "annual_model_pass_reference": 0,
+    "sectors_entering_stock_filter": 0,
+    "stocks_scored": 0,
+    "stock_candidates": 0,
+    "earliest_entry_date": "2026-10-22",
+    "execution_certified": false,
+    "auto_orders": false,
+    "legacy_random_scores_used": false
+  },
+  "sector_scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261021T172443_233422Z",
+  "artifacts": {
+    "scan_opportunities.py": "1f52afe633e7c3c5160076f721f8a5faa5b8a7df2481816c9d60999eaa46d5f0",
+    "policy.yaml": "c9ce112d031a1439e5ab5b083ffe95b600f7f8bf9595d8a982016f39e4ce1c87",
+    "first_confirmations.csv": "f01a16adc8ab13aeaa0137a58073ffbd689574f454152334813d54ce9ab1ce96",
+    "stock_diagnostics.csv": "e41a77e5125478187f39cc2f3f8ce7b56edca4a0e88236c002161f7e47f7a4d7",
+    "stock_candidates.csv": "e41a77e5125478187f39cc2f3f8ce7b56edca4a0e88236c002161f7e47f7a4d7",
+    "watch_today.csv": "f57f78fbee9f9143ec2291cedc2a828a15f21ad6e536d5175fc984d0116734a5",
+    "summary.json": "aedc7ef859aa3b0422dede9e808ee6672032e3b14f3292eb34bd50d0d71041ca",
+    "REPORT.md": "e38f6de3d5abd9f8637bb9846879ef99c52ad3c31c214c6f66bd653b2238e0fc",
+    "REPORT.html": "93f271e260028770ed586ae1109f3cdf9cf4796838833f150dfe0d8c2365a3e6",
+    "verification.json": "6cc87f2e78d1ce178aa6d32bfd8b981e8fb2a4f3eaf5d363d2ca869cb32f3024"
+  }
+}

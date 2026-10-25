@@ -1,0 +1,14 @@
+{
+  "alpha_lab/configs/strategy_2026_opportunity_scan.yaml": "c9ce112d031a1439e5ab5b083ffe95b600f7f8bf9595d8a982016f39e4ce1c87",
+  "alpha_lab/configs/strategy_2026_sector_stock_plan.yaml": "66e8d37db14960e26411312cb4e16472fbe7780835f2d956d0cec8f53ed9c947",
+  "alpha_lab/experiments/sector_live_v1/scan_opportunities.py": "1f52afe633e7c3c5160076f721f8a5faa5b8a7df2481816c9d60999eaa46d5f0",
+  "alpha_lab/experiments/sector_live_v1/scan_sectors.py": "82a2ab29bf3a0ee90b3782c7f2afb2498c815064893b0b3df9e8d273b6fcf738",
+  "alpha_lab/experiments/sector_live_v1/scan_stocks.py": "7c53c226b90ab6ff2e12c61bf807c79089b2bdb6ac935576fefe5e3f0b4603c5",
+  "alpha_lab/experiments/sector_live_v1/update_market.py": "22c41d6a25627ca939d8a0d170d69ab25e846a78dc8205242e0bdb8897cc309a",
+  "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_101.pt": "314ad1900d8b2edb2a6d536238733de4cbebf6e0f2b35b5503adaddbeebc1bf8",
+  "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_17.pt": "dd83f8d76535cb499983c5379417d02cc612fac1e7eca6cafe6062437866b8a0",
+  "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_43.pt": "412c4d1a1f1767f175a05fa241b961865498ac21403565ae9f78656b50077cf8",
+  "alpha_lab/outputs/stock_selection_asof_v2/20261013T074542_476130Z/models/2026.npz": "c3941bb731633cff57ebbce1197d855c27a101c7d83feb041a09b2db4da42157",
+  "alpha_lab/scripts/build_sector_dataset.py": "26885d1f8a1967bd13b6177554a234dae3973e0c0b4202b904db999e2cc5c6e0",
+  "alpha_lab/src/sector_dataset.py": "deaaa2fa3e039158df36c6df1ff17cbdb3954d3d16ab35176e52552e26b650d6"
+}

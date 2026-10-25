@@ -1,0 +1,74 @@
+{
+  "source": "audit/scripts/bear_test.py",
+  "sha256": "679647b3df42dc906eacc35f071bf768d06c1ec004f3e36a78e57ef395cb5069",
+  "market_data_read": false,
+  "findings": [
+    {
+      "case": "five_daily_gains",
+      "market_returns": [
+        0,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.01
+      ],
+      "signal": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "legacy_daily": [
+        0.0,
+        0.01,
+        0.01,
+        0.01,
+        0.01,
+        0.051010050099999926
+      ],
+      "legacy_compounded_return": 0.09368527268436089,
+      "underlying_buy_hold_return": 0.051010050099999926
+    },
+    {
+      "case": "gap_loss",
+      "market_returns": [
+        0,
+        -0.1
+      ],
+      "signal": [
+        1,
+        1
+      ],
+      "legacy_daily": [
+        0.0,
+        -0.02
+      ],
+      "legacy_compounded_return": -0.020000000000000018,
+      "underlying_buy_hold_return": -0.09999999999999998
+    },
+    {
+      "case": "risk_off_while_holding",
+      "market_returns": [
+        0,
+        0.01,
+        0.01
+      ],
+      "signal": [
+        1,
+        0,
+        0
+      ],
+      "legacy_daily": [
+        0.0,
+        0.01,
+        0.01
+      ],
+      "legacy_compounded_return": 0.020100000000000007,
+      "underlying_buy_hold_return": 0.020100000000000007
+    }
+  ],
+  "boundary_note": "退出累计收益重复计入；跳空虚构止损成交；风险信号只约束新开仓。不能外推为所有旧引擎均有相同错误。"
+}

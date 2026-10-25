@@ -1,0 +1,209 @@
+[
+  {
+    "host": "B01_low_turnover",
+    "year": 2021,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "year": 2022,
+    "spec": {
+      "model": "lgbm",
+      "horizon": 20,
+      "num_leaves": 7,
+      "n_estimators": 64,
+      "learning_rate": 0.05,
+      "min_child_samples": 200,
+      "reg_lambda": 10.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "year": 2023,
+    "spec": {
+      "model": "ridge",
+      "horizon": 20,
+      "alpha": 1.0
+    },
+    "cutoff": "2023-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B02_low_risk",
+    "year": 2021,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B02_low_risk",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 1.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B02_low_risk",
+    "year": 2023,
+    "spec": {
+      "model": "ridge",
+      "horizon": 20,
+      "alpha": 100.0
+    },
+    "cutoff": "2023-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B02_low_risk",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B03_valuation",
+    "year": 2021,
+    "spec": {
+      "model": "ridge",
+      "horizon": 20,
+      "alpha": 1.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B03_valuation",
+    "year": 2022,
+    "spec": {
+      "model": "lgbm",
+      "horizon": 20,
+      "num_leaves": 7,
+      "n_estimators": 64,
+      "learning_rate": 0.05,
+      "min_child_samples": 200,
+      "reg_lambda": 10.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B03_valuation",
+    "year": 2023,
+    "spec": {
+      "model": "ridge",
+      "horizon": 20,
+      "alpha": 100.0
+    },
+    "cutoff": "2023-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B03_valuation",
+    "year": 2021,
+    "spec": {
+      "model": "lgbm",
+      "horizon": 5,
+      "num_leaves": 3,
+      "n_estimators": 64,
+      "learning_rate": 0.05,
+      "min_child_samples": 200,
+      "reg_lambda": 10.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "B03_valuation",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "equal_weight",
+    "year": 2021,
+    "spec": {
+      "model": "lgbm",
+      "horizon": 20,
+      "num_leaves": 7,
+      "n_estimators": 64,
+      "learning_rate": 0.05,
+      "min_child_samples": 200,
+      "reg_lambda": 10.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "equal_weight",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 20,
+      "alpha": 1.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "equal_weight",
+    "year": 2021,
+    "spec": {
+      "model": "lgbm",
+      "horizon": 20,
+      "num_leaves": 3,
+      "n_estimators": 64,
+      "learning_rate": 0.05,
+      "min_child_samples": 200,
+      "reg_lambda": 10.0
+    },
+    "cutoff": "2021-06-30",
+    "paired_predictions": true
+  },
+  {
+    "host": "equal_weight",
+    "year": 2022,
+    "spec": {
+      "model": "ridge",
+      "horizon": 5,
+      "alpha": 100.0
+    },
+    "cutoff": "2022-06-30",
+    "paired_predictions": true
+  }
+]

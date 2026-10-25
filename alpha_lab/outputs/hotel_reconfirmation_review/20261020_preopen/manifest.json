@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "summary": {
+    "asof": "2026-10-19",
+    "report_session": "2026-10-20_preopen",
+    "current_reconfirmation_number": 3,
+    "age_sessions": 16,
+    "observation_candidates": [
+      "000721.SZ",
+      "605108.SH"
+    ],
+    "official_strategy_candidates": 0,
+    "historical_primary_complete": 92,
+    "historical_primary_events": 108,
+    "historical_primary_clusters": 15,
+    "historical_primary_mean": 0.0065537153751479,
+    "historical_primary_cluster_ci": [
+      -0.0092130846735411,
+      0.02089060465569
+    ],
+    "no_current_day_eod_data": true,
+    "no_retraining": true,
+    "no_engineering_changes": true,
+    "scope": "sector_price_diagnostic_and_current_stock_timeline_not_executable_backtest",
+    "created_at": "2026-10-19T16:12:35.105215+00:00"
+  },
+  "artifacts": {
+    "PREREG.md": "b80267fd3371a0f071147e352ec85d254f46cf6fed63ad04f7fb1ea7af1ee9d6",
+    "replay.py": "29d2f0ab0577518d5294224b55889b4ab6f3bc80ab92fbb21c425b3c04575e91",
+    "original_events_with_annual_scores.parquet": "0316688d85c90b4387d06e7a7bee6f352aff420883dd05f2c5a11f48e3c6de0a",
+    "hotel_daily_states.csv": "643d8c719758fcb7d299a77d3e4c870b6d4c5d881f0c21fed8eed27ef8ba2cfe",
+    "stock_timeline.py": "690d246ff922b79b2391541436a418a49f08569ac9e81b3d6cbc1088391720ca",
+    "stock_daily_qualification.csv": "c6bb7b3165bc30761f9964a7cd95dfef70dab0db3100fdec5a114a8b6bdba8b7",
+    "stock_daily_scores.csv": "d19f2b9b5d61572a2c5976359f00eab5f62da789a014b21869ccdc80ed960674",
+    "two_stocks_daily.csv": "e626a53551256fbc468beea8f2738458591553a12540c9aa74f451c0913d9b32",
+    "stock_checks.json": "46c43e16301dc6a585e02a3ea1325f329ec2e537c5d08a8d5fd44e0ee3613fa5",
+    "all_reconfirmation_starts.csv": "4c842c1442d79c3b09f98a323a93aa5a6d36d7047af6c2f0f26b947a5d6d8e98",
+    "sector_price_observations_NOT_TRADABLE.csv": "0b6bc71eea6b54ba098e2fa70df1de90d6811880fe299c5722227f45704bd2e2",
+    "sector_summary_NOT_TRADABLE.csv": "0880e0591d6cf57d57ac8e58a3fa7030554e9c493e0a2a7d3f627c54654e0239",
+    "yearly_NOT_TRADABLE.csv": "1cae0c81ceb4ee057caf51d2c43ac3b0c45b1e3b43c2a9a761f86eb4ef02a80b",
+    "replay_checks.json": "bf864399babce9408d5166062b03a59a3dfd56c2b02e16c0a25bef14a9610ad8",
+    "uncertainty.py": "6dfa27ca562574b8e60d93f9fb38074fdbf7e7afd574b287449d22f348e7aa07",
+    "uncertainty_NOT_TRADABLE.csv": "f8952528bbbade6524a7a3aaab710d5be2557a25b0120e0d6e37591cdf40d438",
+    "fixed_event_clusters.csv": "0b6b5698b32ab16572b0b63cefe48a606f6b377b95873ddb3111735eb2524d1d",
+    "uncertainty_checks.json": "324122519bd7d618856d72616531795cc681b7f89864cb6976c9b20a9df7eec9",
+    "report.py": "cd44a3a7bea9d4886156ac27aab1458a27f559ab4ea6d236f688814c62ca623f",
+    "annual_training_time_check.json": "8769213364dc55ca8b6be42e7868f7eaf12ba524012392ef58b962e2816eb080",
+    "hotel_and_stock_timeline.png": "e77494391f02ef0cd3052714791aced5fa8e77687f19f52a4bcf71c5aa158fbd",
+    "historical_uncertainty.png": "9ceed83acac3badd84a49b909551825b46bbc4857876a90ace3b6c2fd49ab3d0",
+    "key_dates.csv": "17780348655151ff3923a79020ff5129c6e9c96897fb5975eead859d1c9237df",
+    "REPORT.md": "00c77abd7c63a6874854abaa4c6a47adfe3215a7e0e137ff4c59f3f68b6635e9",
+    "REPORT.html": "632be2cf132627c4343ba67df2ba4a91a75146f202a9341c722cbd918ec01f6f",
+    "summary.json": "19b1d5bad2f52cdef147462a9b6c8a7d4a104badbc47f86f60539e068bc7e523"
+  }
+}

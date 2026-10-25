@@ -1,0 +1,42 @@
+[
+  {
+    "year": 2019,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2020,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2021,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2022,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2023,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2024,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2025,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  },
+  {
+    "year": 2026,
+    "training_ids_match_original": true,
+    "future_label_feature_perturbation_pass": true
+  }
+]

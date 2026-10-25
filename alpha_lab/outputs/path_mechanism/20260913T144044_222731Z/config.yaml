@@ -1,0 +1,14 @@
+# 本轮预登记；所有历史已观察，不按单只成功案例选择阈值。
+parent: outputs/rolling_review/20260913T141120_325588Z
+output_root: outputs/path_mechanism
+capital: 50000
+end: '2026-09-08'
+windows: {continued: '2022-01-01', cold: '2024-01-01'}
+schedules: [calendar_01, calendar_08, calendar_15, calendar_22, rolling_00, rolling_05, rolling_10, rolling_15]
+duration: {window: 20, usual_weak_days: 15, broken_weak_days: 10, long_window: 120}
+policies:
+  baseline: {hold: hybrid, wait_mode: none, cap_grace_lots: 0, cap_hard_fraction: 0.35}
+  duration: {hold: duration, wait_mode: none, cap_grace_lots: 0, cap_hard_fraction: 0.35}
+  wait: {hold: hybrid, wait_mode: wait, cap_grace_lots: 0, cap_hard_fraction: 0.35}
+  recover: {hold: hybrid, wait_mode: recover, cap_grace_lots: 0, cap_hard_fraction: 0.35}
+  lot_buffer: {hold: hybrid, wait_mode: none, cap_grace_lots: 1, cap_hard_fraction: 0.35}

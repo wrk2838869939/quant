@@ -1,0 +1,9 @@
+variant,model_pass_events,candidate_events,first_date_stocks
+original,105,17,22
+no_expansion,105,62,198
+price_trend,105,82,348
+trend_only,105,88,884
+price_only,105,104,1296
+qualified_all,105,105,3935
+price_trend_strength5,105,82,204
+price_trend_lowvol5,105,82,204

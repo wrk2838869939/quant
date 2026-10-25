@@ -1,0 +1,243 @@
+schema_version: 1
+study: sequence_state_learning_v1
+source_run: alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z
+account_config: alpha_lab/configs/selection_account_v1.yaml
+seed: 20260920
+budget_per_family_fold: 18
+inner_start: '2020-01-01'
+outer_years:
+- 2021
+- 2022
+- 2023
+training:
+  min_dates: 126
+  min_rows: 2000
+  min_features: 6
+  rank_levels: 5
+  min_ic_stocks: 10
+  elastic_max_iter: 10000
+  elastic_tolerance: 0.0001
+  feature_missing: zero_centered_rank_plus_missing_indicator
+  label_availability: end_of_horizon_strictly_before_fit_date
+  target: next_session_adjusted_open_to_horizon_adjusted_close_gross_return
+  risk_target: max_zero_one_minus_min_adjusted_low_over_entry_in_same_horizon
+  label_path: complete_positive_ohlc_no_forward_fill
+  joint_horizons:
+  - 5
+  - 10
+  - 20
+  host_candidate_count: 15
+  filter_min_rows: 1000
+  neural_batch_size: 1024
+  neural_target_scale: 10.0
+  kmeans_n_init: 5
+  expert_min_rows: 500
+  kalman_initial_variance: 0.1
+  filter_forest_trees: 32
+  filter_return_hurdle: 0.004
+  horizon_blends:
+    equal:
+    - 0.3333333333333333
+    - 0.3333333333333333
+    - 0.3333333333333333
+    near:
+    - 0.6
+    - 0.3
+    - 0.1
+    far:
+    - 0.1
+    - 0.3
+    - 0.6
+  correlation_min_days: 40
+  logistic_max_iter: 1000
+  market_min_leaf: 30
+  batch_size: 1024
+  target_scale: 10.0
+  gradient_clip: 5.0
+  hmm_iterations: 60
+  hmm_tolerance: 0.001
+  hmm_covariance_floor: 0.001
+  probability_floor: 1.0e-12
+  mkldnn: true
+search:
+  global_fraction: 0.5
+  local_fraction: 0.5
+  distinct_centers: 1
+  tie_band: 0.005
+  max_drawdown: 0.3
+common_axes:
+  horizon:
+  - 5
+  - 20
+  train_window:
+  - 252
+  - 504
+  retrain_months:
+  - 3
+  - 6
+  frequency:
+  - daily
+  - weekly
+  - monthly
+  top_n:
+  - 3
+  - 5
+families:
+  cnn:
+    temporal_conv:
+      width:
+      - 8
+      - 16
+      - 32
+      kernel:
+      - 3
+      - 5
+      - 7
+      lookback:
+      - 10
+      - 20
+      epochs:
+      - 3
+      - 6
+      learning_rate:
+      - 0.001
+      - 0.003
+      weight_decay:
+      - 0.001
+      - 0.1
+  hmm:
+    filtered_gaussian:
+      states:
+      - 2
+      - 3
+      - 4
+      persistence:
+      - 1.0
+      - 10.0
+      - 50.0
+      alpha:
+      - 1.0
+      - 100.0
+      - 1000.0
+      expert_weight:
+      - 0.25
+      - 0.5
+      - 1.0
+features:
+  low_turn20:
+    family: S01
+    window: 20
+  low_vol20:
+    family: S02
+    variant: low_vol
+    window: 20
+  low_amp20:
+    family: S02
+    variant: low_amplitude
+    window: 20
+  amihud20:
+    family: S03
+    window: 20
+  ep:
+    family: S04
+    variant: positive_ep
+    exclude_smallest_mv_quantile: 0.0
+  bp:
+    family: S04
+    variant: positive_bp
+    exclude_smallest_mv_quantile: 0.0
+  reversal5:
+    family: S05
+    window: 5
+  reversal20:
+    family: S05
+    window: 20
+  skip_mom60:
+    family: S06
+    lookback: 60
+    skip: 5
+  trend_gate:
+    family: S07
+    variant: trend_gate
+    short_window: 60
+    long_window: 120
+    ma_window: 120
+  trend_quality:
+    family: S07
+    variant: continuous_trend
+    short_window: 60
+    long_window: 120
+    ma_window: 120
+  flow_amount20:
+    family: S10
+    variant: net_flow_amount
+    window: 20
+  flow_ratio20:
+    family: S10
+    variant: net_flow_over_amount
+    window: 20
+  flow_mv20:
+    family: S10
+    variant: net_flow_over_float_mv
+    window: 20
+  flow_bucket20:
+    family: S10
+    variant: net_flow_over_bucket_gross
+    window: 20
+  state_return:
+    family: S19
+    state_window: 20
+    return_window: 20
+    vol_quantile: 0.5
+    turnover_quantile: 0.5
+  conditional_amp20:
+    family: S20
+    window: 20
+    high_quantile: 0.8
+    low_quantile: 0.2
+  volume_corr20:
+    family: S21
+    window: 20
+  turnover_change:
+    family: S22
+    variant: turnover_change_momentum
+    short_window: 5
+    long_window: 20
+  high_proximity250:
+    family: S23
+    window: 250
+  momentum20:
+    family: momentum
+    window: 20
+  macd:
+    family: macd
+    fast: 12
+    slow: 26
+    signal: 9
+  moving_average:
+    family: moving_average
+    fast: 20
+    slow: 60
+controls:
+  frequencies:
+  - daily
+  - weekly
+  - monthly
+  top_n: 5
+  fixed_features:
+  - low_turn20
+  - low_vol20
+  - ep
+limitations:
+- 93股工程样本保留全期质量隔离偏差，已观察历史不能恢复为新鲜样本外
+- 标签是价格目标，实际成交可行性与费用由独立账户引擎决定
+- MAE是持有路径风险目标，不能保证组合最大回撤
+- 不扩展数据、不按既往负结果删除因子、不保证搜索到全局最优
+static_control_capital_fraction: 0.5
+local_surface_axes:
+  cnn:
+  - width
+  - kernel
+  hmm:
+  - states
+  - persistence

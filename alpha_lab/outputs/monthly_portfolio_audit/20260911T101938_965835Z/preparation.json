@@ -1,0 +1,22 @@
+{
+  "train": [
+    "2014-01-01",
+    "2021-12-31"
+  ],
+  "valid": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "weight_last_label_end_before": "2022-01-01",
+  "training_signal_last": "2021-11-22 00:00:00",
+  "signal_periods": 25,
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "source_hashes": {
+    "scripts/prepare_monthly_audit.py": "2476bffba7d35f6b26b3379160f56f881093adb0de7b9b9243d8a5fea174d418",
+    "scripts/synthesis_and_test.py": "a340c83d6690a69522ac44001bd42b37cc7c849d863a7aa1a12f4e767cfd3594",
+    "src/rank_ic.py": "9ae94f6304cebeafc17134c6a5afaa68f054a04d5948684e8e94cc6f7575fc6f",
+    "src/expr_engine.py": "1ae6ddec5f77078a3b598203bf6fdbc3735c1d0ee6c9da2bf0930c3fe2ea078a",
+    "scripts/run_gp_mining.py": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df"
+  }
+}

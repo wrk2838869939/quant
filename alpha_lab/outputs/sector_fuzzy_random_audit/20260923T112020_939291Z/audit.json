@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "source": "/root/autodl-tmp/alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z",
+  "source_manifest_sha256": "5eb73442fadeef2388a69baabd6e8cca5f84981fb1e355d215631d06a934ac42",
+  "verified_artifacts": 36,
+  "replayed_rows": 3960,
+  "test_rows": 996,
+  "test_events": 166,
+  "assignments_exact": true,
+  "roles_disjoint": true,
+  "preprocess_train_only": true,
+  "validation_chosen_parameters_exact": true,
+  "selected_flags_exact": true
+}

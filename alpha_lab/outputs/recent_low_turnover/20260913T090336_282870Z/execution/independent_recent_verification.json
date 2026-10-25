@@ -1,0 +1,364 @@
+{
+  "status": "complete",
+  "copied_state_machine": {
+    "source": "scripts/verify_divide_selection_execution.py",
+    "source_sha256": "8ba7c0e207e8bb562220f73a5acbffc453672582371a0028b0b5ecc1869452cd",
+    "original_function_sha256": "757da47480f5f76415690920ca7ac9d69b47a48cd53e73f3ba468900f632183c",
+    "copied_function_sha256": "7160ae041a20b5d9952a849a766b057425e406fb0d63d07cc42d703da42e3251",
+    "sole_change": {
+      "old": "require(daily.date.max() < pd.Timestamp('2024-01-01'), '禁止TEST产物')",
+      "new": "require(daily.date.between(*cfg['verification_window']).all(), '账户日期超出预登记窗口')"
+    }
+  },
+  "run_window": [
+    "2024-01-01",
+    "2026-09-08"
+  ],
+  "cases": [
+    {
+      "name": "cold_50000",
+      "days": 651,
+      "trades": 43,
+      "episodes": 21,
+      "cash_max_error": 2.2737367544323206e-13,
+      "equity_max_error": 7.275957614183426e-12,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 43,
+      "valid_close_marks": 3250,
+      "stale_marks": 0,
+      "initial_capital": 50000,
+      "final_cash": 1543.8459999999975,
+      "final_equity": 71356.84599999999,
+      "total_return": 0.4271369199999999,
+      "mdd": -0.22340571142739152,
+      "recent_start_equity": 50000.0,
+      "recent_total_return": 0.4271369199999999,
+      "recent_mdd": -0.22340571142739152
+    },
+    {
+      "name": "continued_50000",
+      "days": 1135,
+      "trades": 74,
+      "episodes": 30,
+      "cash_max_error": 3.637978807091713e-12,
+      "equity_max_error": 2.9103830456733704e-11,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 74,
+      "valid_close_marks": 5670,
+      "stale_marks": 0,
+      "initial_capital": 50000,
+      "final_cash": 26.042000000015832,
+      "final_equity": 115639.04200000002,
+      "total_return": 1.3127808400000003,
+      "mdd": -0.205585782580594,
+      "recent_start_equity": 81464.479,
+      "recent_total_return": 0.4195026276421654,
+      "recent_mdd": -0.205585782580594
+    },
+    {
+      "name": "cold_20000",
+      "days": 651,
+      "trades": 42,
+      "episodes": 21,
+      "cash_max_error": 9.094947017729282e-13,
+      "equity_max_error": 3.637978807091713e-12,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 42,
+      "valid_close_marks": 3250,
+      "stale_marks": 0,
+      "initial_capital": 20000,
+      "final_cash": 1468.226999999998,
+      "final_equity": 27526.227,
+      "total_return": 0.37631134999999993,
+      "mdd": -0.20237446546282978,
+      "recent_start_equity": 20000.0,
+      "recent_total_return": 0.37631134999999993,
+      "recent_mdd": -0.20237446546282978
+    },
+    {
+      "name": "cold_100000",
+      "days": 651,
+      "trades": 48,
+      "episodes": 21,
+      "cash_max_error": 9.094947017729282e-13,
+      "equity_max_error": 2.9103830456733704e-11,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 48,
+      "valid_close_marks": 3250,
+      "stale_marks": 0,
+      "initial_capital": 100000,
+      "final_cash": 4707.301000000012,
+      "final_equity": 145129.301,
+      "total_return": 0.4512930100000001,
+      "mdd": -0.21344551155512947,
+      "recent_start_equity": 100000.0,
+      "recent_total_return": 0.4512930100000001,
+      "recent_mdd": -0.21344551155512947
+    },
+    {
+      "name": "cost2_50000",
+      "days": 651,
+      "trades": 48,
+      "episodes": 21,
+      "cash_max_error": 4.547473508864641e-13,
+      "equity_max_error": 7.275957614183426e-12,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 48,
+      "valid_close_marks": 3250,
+      "stale_marks": 0,
+      "initial_capital": 50000,
+      "final_cash": 1533.4739999999983,
+      "final_equity": 68830.474,
+      "total_return": 0.37660947999999994,
+      "mdd": -0.21292385073614828,
+      "recent_start_equity": 50000.0,
+      "recent_total_return": 0.37660947999999994,
+      "recent_mdd": -0.21292385073614828
+    },
+    {
+      "name": "reverse_50000",
+      "days": 651,
+      "trades": 43,
+      "episodes": 21,
+      "cash_max_error": 2.2737367544323206e-13,
+      "equity_max_error": 7.275957614183426e-12,
+      "nonselected_forecast_overrides": 0,
+      "verified": true,
+      "official_limit_and_raw_open_checks": 43,
+      "valid_close_marks": 3250,
+      "stale_marks": 0,
+      "initial_capital": 50000,
+      "final_cash": 1543.8459999999975,
+      "final_equity": 71356.84599999999,
+      "total_return": 0.4271369199999999,
+      "mdd": -0.22340571142739152,
+      "recent_start_equity": 50000.0,
+      "recent_total_return": 0.4271369199999999,
+      "recent_mdd": -0.22340571142739152
+    }
+  ],
+  "reverse_comparisons": [
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "actual_entry_priorities.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "asset_pnl.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "daily.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "entry_phase_attribution.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "entry_phase_episodes.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "events.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "exit_reasons.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "holding_periods.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "holdings.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "process_daily.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "recent_daily.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "recent_daily_asset_pnl.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "selection_trace.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "stale_holding_marks.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "trades.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "unknown_hold_reviews.csv",
+      "identical": true
+    },
+    {
+      "base": "cold_50000",
+      "reverse": "reverse_50000",
+      "file": "yearly.csv",
+      "identical": true
+    }
+  ],
+  "continued_prefix": {
+    "reference_case": "/root/autodl-tmp/alpha_lab/outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none",
+    "continued_case": "continued_50000",
+    "before": "2024-01-01",
+    "comparisons": [
+      {
+        "file": "daily.csv",
+        "rows": 484,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "7594cac6b841310e28c24e43e360f33d802d7bc83749b91758a2247e02011201",
+        "continued_sha256": "48b01294c8da6c37d85138c88c9301b414f639a9fa4fc25e0432828e9f73802f"
+      },
+      {
+        "file": "trades.csv",
+        "rows": 29,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "6b881610995cce0b7774e89d070f1d3896a2bc3b1832307c8a05a55a0a6d946e",
+        "continued_sha256": "ec7367bafaf42c65c3a3426b1ae85767fc8033d101e61b62b72d2dbfe30a643f"
+      },
+      {
+        "file": "holdings.csv",
+        "rows": 2415,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "1067b367bd920ed8a795fe82658a40763ceccdbe9a7aa9fd0870ebb15faa966d",
+        "continued_sha256": "ed4456979842998d11655426263770d4c564b0bcd3816d97753e8ddecac9d6bd"
+      },
+      {
+        "file": "events.csv",
+        "rows": 1097,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "92e9b9d0ab239b4148d914f724de274dd5ac180d56130b7a0ef5aca1509c4b7a",
+        "continued_sha256": "cea35406ffb9ad5a4eb34861d8fe47b5f493e9731351649f4f9d28fdbd2259a3"
+      },
+      {
+        "file": "actual_entry_priorities.csv",
+        "rows": 15,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "049ad19a162d49b9ef46cc2197f1744e6f674b05250622145f13e91f6c4dbfe3",
+        "continued_sha256": "4d53d3c65dcca42c61a8440652da82ba67706a03105100efbf601b517a8a2efc"
+      },
+      {
+        "file": "selection_trace.csv",
+        "rows": 417,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "0eecc15f694683147fe3c6802b4acb04cbdc949e051e4c4fa84c288eca29d4fd",
+        "continued_sha256": "d6ba0c2793a1ef137ae34df68b6ceab56a990fb86e3099a856022e5e93aac9d8"
+      },
+      {
+        "file": "process_daily.csv",
+        "rows": 484,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "83decf0385738101abfc35866557ef48557f75ef71d9024e8278039ae67c80b7",
+        "continued_sha256": "4da6a6b10a6d438c3e58e4585454179f5d6cf8eddec5e0f554b8403aaf13861e"
+      },
+      {
+        "file": "yearly.csv",
+        "rows": 2,
+        "identical_economic_values": true,
+        "added_all_null_columns": [],
+        "dtype_changes": {},
+        "reference_sha256": "a4e96edf9885e589686174a44f40fc50792cb492ce21171dc35e968f752b9067",
+        "continued_sha256": "aee47487a7024d10fe4cf5e89e3fbf7a24f2ab55592fb6762bf68f703f5975e0"
+      }
+    ]
+  },
+  "source_hashes": {
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/trend_entry.py": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "scripts/run_divide_selection_execution.py": "49af304f380210c530bef63051f46d893530ae153269e3a97361c0fb7db5f5e5",
+    "configs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "configs/corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+    "scripts/run_recent_low_turnover.py": "bde675ba56aa9b9e59c05bf25e4602e79046a0b2da5367019f4e0decbd44d838",
+    "scripts/prepare_recent_low_turnover_inputs.py": "1b273024e39df1b4ee7d4b2549b15e1757f3dfec21bccd2da84128f8b4edf9f2",
+    "scripts/summarize_recent_low_turnover.py": "ed37a037da21304e40f4cd16eb31979f73b8ab4ae10d3ee3262d356b13a925bd",
+    "scripts/repair_recent_basic_projection.py": "f4935f92bf98b0ae2d269eb8245edaf0a38f32f1a683bf567a8782daed64599b",
+    "scripts/validate_recent_input_coverage.py": "4a5b40506aa3d5181ab8f272de0e75e45cb77051db5cab287fcca711f32f8854",
+    "scripts/verify_recent_low_turnover.py": "8a8bf6884ee95b8b796f1450d5af94350e107a5cb9eecb99deb364972f50a755"
+  },
+  "input_hashes": {
+    "manifest.json": "ffb0c08c33aed71c7d7990efa107c01621d82e2f6261aa3a02058525ee13f95f",
+    "execution_predictions.parquet": "e11d1d5903ac350eba213e30110846199712ba642a4779a21615f229008a8112",
+    "execution/market.parquet": "e3fb227ca6d9a177e14f40f6d156abd4570eebcebc35819b8c20d0615aa9fa0f",
+    "execution/limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "execution/data_manifest.json": "f4ea09ec2d4488b5edfd22a49227101519d27b7506645a2ad01a889326a26d8f",
+    "execution/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599",
+    "execution/cold_100000/portfolio_config.json": "9aca92c86a1384166b516b007a14e44c4813e692b6d1bac69306f8bbc2a4e0ec",
+    "execution/cold_20000/portfolio_config.json": "fbb0d13393ba2d18296ad366f7ad11495a7b4485f74178ee192e557397b687f1",
+    "execution/cold_50000/portfolio_config.json": "3517fd328577763df4448bff2deb25f8bdc66344de914cf0941113e3fd863f25",
+    "execution/continued_50000/portfolio_config.json": "3517fd328577763df4448bff2deb25f8bdc66344de914cf0941113e3fd863f25",
+    "execution/cost2_50000/portfolio_config.json": "8be31222f908cee8b1ca2f51cc576ceb802edfa6022b97212ffec64c6cf7a741",
+    "execution/reverse_50000/portfolio_config.json": "3517fd328577763df4448bff2deb25f8bdc66344de914cf0941113e3fd863f25",
+    "execution/monthly_hold_allowed.parquet": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+    "execution/normalized_actions.parquet": "f7baa9e8133099671df013e6a297b010f947f8b132033a90eaf5b9f3cde6ff57"
+  },
+  "verifier_sha256": "8a8bf6884ee95b8b796f1450d5af94350e107a5cb9eecb99deb364972f50a755",
+  "market_data_read": true,
+  "scope": "仅已冻结执行证据；未下载、未修改策略、未重新拟合"
+}

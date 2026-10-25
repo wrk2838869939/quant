@@ -1,0 +1,2240 @@
+# 待测试机制登记表，不是回测运行配置；来源及参数说明见总览。
+schema_version: 1
+inventory_id: historical_strategy_candidates_20260920
+purpose: mechanism_inventory_not_performance_ranking
+runnable: false
+account_config: alpha_lab/configs/selection_account_v1.yaml
+contract: alpha_lab/docs/strategy_inventory_20260920/TEST_CONTRACT.md
+snapshot:
+  release: datahub/releases/selection_v1_20260920
+  content_id: c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3
+  prepared_execution: alpha_lab/data/selection_execution_smoke_v1
+  scope: engineering_93_mainboard_stocks_2019_2023
+  limitation: full_window_quality_quarantine_not_unbiased_universe
+investigators:
+  alpha: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+  legacy: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+  growth: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+readiness_definitions:
+  derive_from_snapshot: 冻结字段可构造信号；仍须编写策略适配与参数规格，不代表已通过回测
+  needs_pit_alignment: 已有部分资料；须固定历史映射、覆盖或跨市场时钟后再测
+  needs_causal_training: 须实现逐期训练与标签成熟、定向、选参边界；不是读取旧模型即用
+  needs_data_extension: 当前固定执行/特征包不足；单独固定扩展资料后再测
+  proposal_only: 原始机制尚无充分公式；先预注册定义，不冒充已实现策略
+batch_definitions:
+  P1: 价量与估值单机制，优先实现；顺序依据依赖与复杂度
+  P2: 行业与跨市场机制、模型组合、持有和风险覆盖层
+  P3: 新资料、新资产或分钟频率扩展；保持日频月频主线独立
+origin_definitions:
+  historical: 历史记录中存在此机制，具体可执行边界仍见候选说明
+  historical_with_normalization: 历史机制加本次标准化落地建议；不把建议当作原始实现
+  current_control: 本轮整理引用的既有经典或零假设对照
+undeveloped_proposals:
+- id: P01
+  name: MAX20彩票倾向和量比否决
+  merge_target: O01
+  pending: 公式/方向/门槛与既有低波/换手的分离
+  source: alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md:59
+- id: P02
+  name: 解禁压力事件过滤
+  merge_target: null
+  pending: 当时已公告解禁量、流通盘口径与事件窗；新数据版本
+  source: alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md:59
+- id: P03
+  name: 高波域内PS与股息排序
+  merge_target: S04/O14
+  pending: 历史分子分母、方向和正负值政策
+  source: alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md:59
+- id: P04
+  name: 盈利概率二层过滤meta-labeling
+  merge_target: M02/O01
+  pending: 第一层滚动样本外候选、标签成熟与阈值
+  source: FACTOR_MINING_SURVEY_20260908.md:233
+- id: P05
+  name: 行业关系图先验
+  merge_target: S15/M02
+  pending: 关系定义、历史可得性、模型和训练协议
+  source: FACTOR_MINING_SURVEY_20260908.md:237
+- id: P06
+  name: RL/LLM公式搜索
+  merge_target: M10
+  pending: 搜索环境、预算、表达式边界与独立验证
+  source: FACTOR_MINING_SURVEY_20260908.md:218
+other_unformed_leads:
+- 月末结构性约束：历史仅方向描述，待定义机制和信号
+- QMT L2：信息源方向，尚无本轮可提炼的具体策略公式
+global_open_parameters:
+- signal_direction_and_windows
+- rebalance_frequency
+- top_n_and_position_limits
+- missing_value_policy
+- eligibility_and_tie_breaking
+- entry_and_exit_timing
+- training_and_label_maturity_if_used
+overlay_hosts:
+- control_momentum_20
+- S01
+candidate_selection_policy: Historical outcomes ignored; ordering follows inputs and implementation complexity.
+execution_status: inventory_only_no_new_backtests
+categories:
+- 防御与交易活跃度
+- 估值与经营信息
+- 趋势与反转
+- 资金流与事件
+- 量价结构
+- 行业与联动
+- 模型与组合方法
+- 过滤与排名稳定
+- 市场与组合风险
+- 持有与退出
+- 账户与调仓组织
+- 分钟与特殊资产
+- 跨市场与假期事件
+- 成交时点扩展
+controls:
+- id: B01
+  name: 现金
+  role: null_control
+- id: B02
+  name: 固定种子随机选股
+  role: selection_control
+  note: 正式比较预登记多个种子，工程现有种子20260920
+- id: B03
+  name: 20日动量
+  role: classic_control
+- id: B04
+  name: MACD(12,26,9)正趋势状态
+  role: classic_control
+  note: 不是只在金叉日入场
+- id: B05
+  name: MA20/MA60双均线
+  role: classic_control
+candidates:
+- id: S01
+  name: 低股票换手率
+  category: 防御与交易活跃度
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A01
+  - growth:G06
+  rule: 按负20日平均换手率排序；趋势池内60日换手是变体。
+  variants:
+  - 20日
+  - 60日趋势池
+  - 5日水平
+  - 只剔除最高换手端
+  inputs:
+  - turnover_rate
+  - hfq_close
+  minimal_control: 同资格池随机及规模/波动匹配；与仅降低调仓频率分开
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A01
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 17
+  - investigator: growth
+    item: G06
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 58
+  source_refs:
+  - path: alpha_lab/scripts/synthesis_and_test.py
+    line: 50
+  - path: alpha_lab/src/trend_entry.py
+    line: 18
+  - path: alpha_lab/src/divide_selection.py
+    line: 78
+  - path: alpha_lab_growth/docs/USX_DESIGN_20260918.md
+    line: 66
+  - path: alpha_lab_growth/scripts/usx_p0_3_stock.py
+    line: 59
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 129
+- id: S02
+  name: 低波动与低振幅
+  category: 防御与交易活跃度
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A02
+  - legacy:LEG05
+  rule: 分别按负20日收益标准差、负21日平均日振幅排序；两者独立消融。
+  variants:
+  - low_vol
+  - low_amp
+  - 固定合成
+  inputs:
+  - hfq_close
+  - high/low/pre_close
+  minimal_control: 同仓位随机及规模匹配
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A02
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 25
+  - investigator: legacy
+    item: LEG05
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 41
+  source_refs:
+  - path: alpha_lab/scripts/synthesis_and_test.py
+    line: 51
+  - path: alpha_lab/configs/portfolio_improvement.yaml
+    line: 6
+  - path: audit/11_differentiated_strategy.md
+    line: 69
+  - path: kcb_v18/scripts/kcb_v17_backtest.py
+    line: 677
+- id: S03
+  name: Amihud价格冲击强度
+  category: 防御与交易活跃度
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A03
+  rule: 按20日abs(ret)/成交额均值排序；零量及单位规则先固定。
+  variants:
+  - 原始方向
+  - 成交额/市值匹配
+  inputs:
+  - hfq_close
+  - amount_yuan
+  minimal_control: 低成交额排序与同流动性对照
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A03
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 33
+  source_refs:
+  - path: alpha_lab/scripts/synthesis_and_test.py
+    line: 56
+  - path: alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md
+    line: 9
+- id: S04
+  name: 估值与剔除微盘后价值
+  category: 估值与经营信息
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A04
+  rule: 正PE/PB计算EP/BP分别排序；保留剔除最小市值30%后选EP的版本，不称完整CH-3。
+  variants:
+  - EP
+  - BP
+  - 固定合成
+  - 剔除微盘后EP
+  inputs:
+  - pe_ttm
+  - pb
+  - circ_mv_yuan
+  minimal_control: 同规模同行业；共同非缺失子样本
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A04
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 41
+  source_refs:
+  - path: alpha_lab/scripts/prepare_monthly_audit.py
+    line: 105
+  - path: alpha_lab/configs/portfolio_improvement.yaml
+    line: 9
+- id: S05
+  name: 短期绝对反转
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A05
+  rule: 负5日或负20日复权收益排序，先固定持有规则。
+  variants:
+  - 5日
+  - 20日
+  inputs:
+  - hfq_close
+  minimal_control: 同窗口正向动量及随机
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A05
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 49
+  source_refs:
+  - path: alpha_lab/scripts/synthesis_and_test.py
+    line: 54
+- id: S06
+  name: 跳过近端的中期动量
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A06
+  rule: P[t-5]/P[t-60]-1排序；近端反转和中期持续性分开。
+  variants:
+  - 60减5
+  - 不跳近端对照
+  inputs:
+  - hfq_close
+  minimal_control: 60日直接动量和5日反转
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A06
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 57
+  source_refs:
+  - path: alpha_lab/scripts/synthesis_and_test.py
+    line: 58
+  - path: alpha_lab/configs/portfolio_improvement.yaml
+    line: 7
+- id: S07
+  name: 长期趋势许可与趋势质量
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A09
+  - alpha:A10
+  - legacy:LEG07
+  rule: 先比较60/120日收益为正且高于120日均线的许可与强度；再分别加入连续性、跳升占比、趋势效率、位置、回撤或量比。 连续趋势变体中动量/连续性加分、跳升占比/均线延伸扣分。
+  variants:
+  - 绝对许可
+  - 相对强度
+  - 连续性/低跳升
+  - 效率与位置
+  - 量价确认
+  inputs:
+  - hfq_ohlc
+  - vol_share
+  minimal_control: 简单动量/均线；许可后随机；一次只增加一个质量分量
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A09
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 81
+  - investigator: alpha
+    item: A10
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 89
+  - investigator: legacy
+    item: LEG07
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 57
+  source_refs:
+  - path: alpha_lab/src/patient_trend.py
+    line: 6
+  - path: alpha_lab/configs/patient_trend_research.yaml
+    line: 10
+  - path: alpha_lab/src/trend_entry.py
+    line: 7
+  - path: alpha_lab/configs/divide_selection.yaml
+    line: 14
+  - path: alpha_lab/src/divide_selection.py
+    line: 79
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 1239
+  - path: kcb_sniper_v14/README.md
+    line: 5
+  - path: audit/27_honest_v18.md
+    line: 95
+- id: S08
+  name: 黄金坑、洗盘与二次突破
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - legacy:LEG08
+  rule: 按已确认低点、反弹、启动、洗盘、再突破的顺序构建收盘状态机；日频版是本次移植建议。
+  variants:
+  - 单次突破
+  - 一次回撤确认
+  - 多阶段突破
+  inputs:
+  - hfq_ohlc
+  - vol_share
+  minimal_control: 同条件单次突破，禁止事后找谷底
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG08
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 65
+  source_refs:
+  - path: star_market_sell_model/README.md
+    line: 15
+  - path: star_market_sell_model/src/features/combined_buy_filter.py
+    line: 1
+- id: S09
+  name: 涨停后的延续与回调
+  category: 资金流与事件
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - legacy:LEG09
+  rule: 识别已完成首板/连板，下一可成交时点买延续或等待回调确认后再买。
+  variants:
+  - 首板
+  - 连板
+  - 延续
+  - 回调确认
+  inputs:
+  - daily_ohlc
+  - official_limits
+  - PIT_ST/listing
+  minimal_control: 同事件同可成交资格的延续/回调；不假定涨停买到
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG09
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 73
+  source_refs:
+  - path: audit/13_limitup_strategy.md
+    line: 9
+- id: S10
+  name: 资金流强度与价格反应
+  category: 资金流与事件
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - legacy:LEG06
+  - growth:G08
+  rule: 分开比较大单净额、净额/成交额、净额/流通市值，以及流入而价格未明显上涨。
+  variants:
+  - 绝对额
+  - 成交额归一
+  - 市值归一
+  - 流价背离
+  - 5日净额/当日流通市值
+  - 10日净额/同期大单总买卖额
+  inputs:
+  - buy/sell_lg/elg_amount_yuan
+  - amount_yuan
+  - circ_mv_yuan
+  - hfq_close
+  minimal_control: 规模/行业/活跃度匹配；排序与否决过滤分别测
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG06
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 49
+  - investigator: growth
+    item: G08
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 74
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 40
+  - path: kcb_sniper_v13_manual_factors/configs/v13_manual.yaml
+    line: 41
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 1277
+  - path: alpha_lab_growth/scripts/usx_p0_3_stock.py
+    line: 65
+  - path: alpha_lab_growth/scripts/growth_fus2_sector.py
+    line: 177
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 8
+- id: S11
+  name: 固定价量与资金流表达式
+  category: 量价结构
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:A07
+  - growth:G07
+  rule: 冻结已登记公式如ts_min(vwap_dev,5)、ts_std(lg_share,10)，不在这一候选里重新搜索公式。 表达式方向仅用已成熟训练标签确定并冻结；可计算公式不等于无需训练。
+  variants:
+  - VWAP偏离低点
+  - 大单参与份额波动
+  - 量额变化表达式
+  - min10 VWAP偏离，历史负方向单独预登记
+  inputs:
+  - amount_yuan
+  - vol_share
+  - close
+  - buy/sell_lg_amount_yuan
+  minimal_control: 对应基础量；去表达式的组合；训练窗内定向
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A07
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 65
+  - investigator: growth
+    item: G07
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 66
+  source_refs:
+  - path: alpha_lab/configs/revalidate_candidates.yaml
+    line: 29
+  - path: alpha_lab/scripts/prepare_monthly_audit.py
+    line: 101
+  - path: alpha_lab/configs/portfolio_improvement.yaml
+    line: 8
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 131
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 16
+- id: S12
+  name: 板块强弱轮动
+  category: 行业与联动
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - legacy:LEG01
+  - growth:G14
+  rule: 以当时成员构建行业收益，比较动量、反转、广度和相对市场强度；强板块选择与弱板块规避分开。
+  variants:
+  - 纯动量
+  - 纯反转
+  - 固定混合
+  - 弱板块规避
+  - 状态权重
+  inputs:
+  - hfq_close
+  - PIT_SW_members
+  - market_index
+  minimal_control: 固定个股排序，行业选择开/关
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG01
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 9
+  - investigator: growth
+    item: G14
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 124
+  source_refs:
+  - path: a_share_v18/src/rotation/sector_scorer.py
+    line: 1
+  - path: a_share_v18/configs/sector_rotation.yaml
+    line: 63
+  - path: audit/28_research_summary.md
+    line: 107
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 65
+- id: S13
+  name: 板块观点的个股表达
+  category: 行业与联动
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - legacy:LEG02
+  rule: 固定行业得分，仅比较成交额龙头、动量龙头、成员篮子；真实ETF另列X06。
+  variants:
+  - 成交额龙头
+  - 动量龙头
+  - 成员等预算篮子
+  inputs:
+  - PIT_SW_members
+  - amount_yuan
+  - hfq_close
+  minimal_control: 相同行业暴露与总持股数
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG02
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 17
+  source_refs:
+  - path: audit/27_honest_v18.md
+    line: 48
+  - path: audit/28_research_summary.md
+    line: 107
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 833
+- id: S14
+  name: 行业内相对收益排序
+  category: 行业与联动
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - legacy:LEG03
+  - growth:G01
+  rule: 个股收益减当时行业收益后累计排序；相对动量和相对反转单独保留方向。
+  variants:
+  - 相对动量
+  - 相对反转
+  - 行业状态条件
+  inputs:
+  - hfq_close
+  - PIT_SW_members
+  minimal_control: 同板块随机、绝对动量/反转
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG03
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 25
+  - investigator: growth
+    item: G01
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 18
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 124
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 1309
+  - path: alpha_lab_growth/scripts/growth_signal_research.py
+    line: 5
+  - path: alpha_lab_growth/scripts/growth_signal_research.py
+    line: 117
+- id: S15
+  name: 行业及相关性簇联动
+  category: 行业与联动
+  role: selector
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - legacy:LEG04
+  rule: 滚动行业/相关性簇的相关、相对强弱、残差和簇内位置作为分数；聚类仅用过去。
+  variants:
+  - 行业联动
+  - 滚动簇
+  - 残差收益
+  - 簇内离散度
+  inputs:
+  - hfq_close
+  - PIT_SW_members
+  - trailing_clusters
+  minimal_control: 仅个股价量，再加行业，再加簇
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG04
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 33
+  source_refs:
+  - path: kcb_v15/README.md
+    line: 3
+  - path: a_share_v18/configs/sector_rotation.yaml
+    line: 123
+- id: S16
+  name: 低波冷门与高联动合成
+  category: 防御与交易活跃度
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - legacy:LEG05
+  rule: 低ATR比例、低量、低动量/均线偏离/振幅加高行业或簇相关；保留历史完整复合假设。
+  variants:
+  - 价量子集
+  - 含行业相关
+  - 含簇相关
+  inputs:
+  - hfq_ohlc
+  - amount_yuan
+  - PIT_SW_members
+  - trailing_clusters
+  minimal_control: 低波单因子与反转单因子；逐组加入
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG05
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 41
+  source_refs:
+  - path: audit/11_differentiated_strategy.md
+    line: 69
+  - path: kcb_v18/scripts/kcb_v17_backtest.py
+    line: 677
+- id: S17
+  name: 经营改善与现金创造增量
+  category: 估值与经营信息
+  role: selector
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - alpha:A14
+  rule: 单季营收增长变化及CFO/营收变化作为价格模型增量；原历史没有完整独立交易阈值。
+  variants:
+  - 营收增长变化
+  - 现金创造变化
+  inputs:
+  - versioned_financial_events
+  - actual_publication_time
+  minimal_control: 完全相同财务可用样本的无财务模型
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  proposal_status: historical_feature_proposal_requires_versioned_financial_data
+  provenance:
+  - investigator: alpha
+    item: A14
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 121
+  source_refs:
+  - path: alpha_lab/docs/FINANCIAL_PIT_GATE_20260913.md
+    line: 5
+  - path: alpha_lab/docs/FINANCIAL_EVENT_RECOVERY_20260913.md
+    line: 20
+- id: M01
+  name: 固定多因子合成
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:A08
+  - legacy:LEG10
+  rule: 同固定因子池比较等权、成熟训练ICIR加权、排名合成和因子族等权。
+  variants:
+  - 等权
+  - ICIR
+  - rank_ICIR
+  - 族等权
+  inputs:
+  - fixed_factor_panel
+  - matured_labels
+  minimal_control: 单因子与等权；逐族剔除
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A08
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 73
+  - investigator: legacy
+    item: LEG10
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 83
+  source_refs:
+  - path: alpha_lab/src/factor_blend.py
+    line: 6
+  - path: alpha_lab/scripts/prepare_monthly_audit.py
+    line: 108
+  - path: alpha_lab/docs/WALKFORWARD_OOS_PREREG_20260918.md
+    line: 60
+  - path: audit/11_differentiated_strategy.md
+    line: 8
+  - path: audit/24_model_stability_factors.md
+    line: 12
+  - path: audit/17_rolling_backtest.md
+    line: 1
+  - path: kcb_v15/README.md
+    line: 53
+- id: M02
+  name: 线性、树与序列网络排序
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - legacy:LEG10
+  rule: 固定输入标签与执行，比较线性、LGBM、MLP和CNN；全市场与行业内模型是组织变体。
+  variants:
+  - 线性
+  - LGBM
+  - MLP
+  - CNN
+  - 行业内/统一
+  inputs:
+  - features
+  - matured_labels
+  minimal_control: 同池等权信号；保持标签与交易目标不变
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG10
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 83
+  source_refs:
+  - path: audit/11_differentiated_strategy.md
+    line: 8
+  - path: audit/24_model_stability_factors.md
+    line: 12
+  - path: audit/17_rolling_backtest.md
+    line: 1
+  - path: kcb_v15/README.md
+    line: 53
+- id: M03
+  name: HMM状态条件模型
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - legacy:LEG11
+  rule: 市场收益/波动/广度识别隐状态，再条件训练排序器；仅使用在线过滤状态。
+  variants:
+  - 统一模型
+  - 规则状态
+  - HMM过滤状态
+  inputs:
+  - market_index
+  - PIT_market_breadth
+  - features
+  - matured_labels
+  minimal_control: 固定仓位，避免状态选股和状态减仓混淆
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG11
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 91
+  source_refs:
+  - path: kcb_sniper_v12/README.md
+    line: 3
+  - path: kcb_sniper_v13_manual_factors/configs/v13_manual.yaml
+    line: 65
+- id: M04
+  name: 因子有效性轮动
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - legacy:LEG12
+  rule: 用已成熟IC或真实可交易因子篮子历史收益更新权重，保留EWMA和Kalman有效性估计。
+  variants:
+  - 滚动IC
+  - EWMA篮子收益风险
+  - Kalman有效性
+  inputs:
+  - fixed_factor_panel
+  - matured_labels
+  - realized_factor_basket_returns
+  minimal_control: 同因子池固定等权；禁止同日分组乘同日收益
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG12
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 99
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 138
+  - path: audit/scripts/factor_momo_v3.py
+    line: 1
+  - path: audit/scripts/factor_momo_kf.py
+    line: 1
+- id: M05
+  name: 多期限、多目标标签
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - legacy:LEG13
+  rule: 合成2/5/10日相对收益与绝对收益预测；排雷乘入标签的二值/连续版本也保留作对照。
+  variants:
+  - 单期限
+  - 多期限
+  - 绝对/相对
+  - 标签过滤对事后过滤
+  inputs:
+  - hfq_close
+  - PIT_SW_members
+  - matured_labels
+  minimal_control: 单标签；同输入原标签加交易过滤
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG13
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 108
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 215
+  - path: audit/scripts/multi_label_lgbm.py
+    line: 1
+  - path: audit/scripts/multi_label_audit.py
+    line: 170
+- id: M06
+  name: 收益与不利幅度双预测
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:A11
+  rule: 趋势/波动/规模/换手九变量预测60日收益和MAE；点预测门槛与均值置信拒绝分开。
+  variants:
+  - 收益预测
+  - MAE约束
+  - 置信拒绝
+  inputs:
+  - features
+  - next_executable_entry_labels
+  - matured_MAE
+  minimal_control: 常数模型、低换手；只换拒绝规则
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A11
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 97
+  source_refs:
+  - path: alpha_lab/configs/autonomous_value_research.yaml
+    line: 8
+  - path: alpha_lab/src/value_forecast.py
+    line: 93
+  - path: alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md
+    line: 117
+- id: M07
+  name: 趋势阶段专家
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:A12
+  rule: 依据相邻60日收益划分修复/加速/减速，比较独立专家、共享截距与阶段交互。
+  variants:
+  - 独立专家
+  - 共享主效应
+  - 阶段截距
+  - 阶段斜率
+  inputs:
+  - hfq_close
+  - features
+  - matured_labels
+  minimal_control: 全局模型与同机会池，阶段不机械分配名额
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A12
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 105
+  source_refs:
+  - path: alpha_lab/src/divide_selection.py
+    line: 8
+  - path: alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md
+    line: 109
+- id: M08
+  name: 与持仓政策对齐的目标
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:A13
+  rule: 固定特征模型，只替换固定期收益/MAE为事先冻结的持仓政策路径标签。
+  variants:
+  - 固定60日
+  - 固定120日
+  - 冻结政策路径
+  inputs:
+  - frozen_policy_events
+  - executable_prices
+  - matured_path_labels
+  minimal_control: 同一机会池只换标签；估值标签与净账本标签区分
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: A13
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 113
+  source_refs:
+  - path: alpha_lab/configs/policy_cash_research.yaml
+    line: 27
+  - path: alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md
+    line: 129
+- id: M09
+  name: 趋势退出风险与持续期
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: proposal_only
+  investigation_refs:
+  - alpha:A15
+  rule: 预测未来3/6次复核前退出请求风险；区分请求、成交及删失，概率到动作映射待定义。
+  variants:
+  - 年龄常数风险
+  - 年龄加换手
+  - 连续性增量
+  inputs:
+  - holding_age
+  - policy_exit_events
+  - censoring
+  minimal_control: 年龄常数风险模型，不能把风险概率直接当收益
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  proposal_status: historical_model_proposal_no_trading_probability_mapping
+  provenance:
+  - investigator: alpha
+    item: A15
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 129
+  source_refs:
+  - path: alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md
+    line: 122
+- id: O01
+  name: 行为计数与树排雷
+  category: 过滤与排名稳定
+  role: overlay
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - legacy:LEG14
+  rule: 短上影、未异常放量、隔夜强、低波逐项计分；比较作为排序后过滤与随机候选过滤。
+  variants:
+  - 日线四条件
+  - 单条件消融
+  - 计数
+  - 浅树
+  - 纯过滤
+  inputs:
+  - daily_ohlc
+  - amount_yuan
+  - hfq_close
+  minimal_control: 无过滤与逐条件消融；分钟条件留X01
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG14
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 118
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 29
+  - path: audit/29_mechanism_ablation.md
+    line: 6
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 979
+- id: O02
+  name: 因果平滑与排名缓冲
+  category: 过滤与排名稳定
+  role: overlay
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O02
+  - legacy:LEG16
+  rule: 分别平滑原始特征、股票分数/排名，或给旧仓排名跌落确认缓冲；不与M04有效性平滑混称。
+  variants:
+  - 特征Kalman
+  - 排名EWMA/Kalman
+  - 20日均分
+  - 退出排名缓冲
+  inputs:
+  - historical_features
+  - historical_scores
+  - eligibility
+  - holdings
+  minimal_control: 无平滑、只特征、只排名、只缓冲
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O02
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 146
+  - investigator: legacy
+    item: LEG16
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 134
+  source_refs:
+  - path: alpha_lab/src/selection_stability.py
+    line: 6
+  - path: alpha_lab/configs/selection_stability_research.yaml
+    line: 12
+  - path: audit/28_research_summary.md
+    line: 204
+  - path: audit/scripts/kf_denoise_test.py
+    line: 1
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 326
+- id: O03
+  name: 市场状态与现金开关
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O03
+  - legacy:LEG15
+  rule: 指数趋势、60日收益中位数/广度、负收益加高波动分别触发；冻结市场统计量与确认规则。
+  variants:
+  - 趋势门控
+  - 广度门控
+  - 波动门控
+  - 禁止新仓
+  - 清仓/轻仓
+  - 过去IC选择规则
+  inputs:
+  - market_index
+  - PIT_full_market_breadth
+  - volatility
+  minimal_control: 无门控与平均暴露匹配；动态选择分支需因果训练
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O03
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 153
+  - investigator: legacy
+    item: LEG15
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 126
+  source_refs:
+  - path: alpha_lab/src/risk_states.py
+    line: 6
+  - path: alpha_lab/configs/active_cash_audit.yaml
+    line: 13
+  - path: alpha_lab/configs/policy_cash_research.yaml
+    line: 58
+  - path: audit/12_regime_analysis.md
+    line: 50
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 159
+  - path: kcb_v18/scripts/kcb_v17_backtest.py
+    line: 87
+  - path: audit/22_honest_fixed_tpsl.md
+    line: 27
+- id: O04
+  name: 固定、ATR与趋势退出
+  category: 持有与退出
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - legacy:LEG17
+  rule: 同入场比较固定持有、固定TP/SL、ATR目标、移动保护、均线延期及收盘确认；日线确认次日成交。
+  variants:
+  - 固定期
+  - 固定阈值
+  - ATR
+  - 移动保护
+  - 均线延续
+  inputs:
+  - daily_ohlc
+  - ATR
+  - holdings
+  minimal_control: 同一入场规则；精确日内触发另需分钟包
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG17
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 142
+  source_refs:
+  - path: audit/26_exit_research.md
+    line: 1
+  - path: audit/28_research_summary.md
+    line: 237
+  - path: audit/scripts/dynamic_exit_test.py
+    line: 1
+  - path: audit/21_minute_replay.md
+    line: 1
+- id: O05
+  name: 耐心持有与重复入选延期
+  category: 持有与退出
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O01
+  - legacy:LEG18
+  rule: 趋势失败连续确认退出；强长期趋势延迟，持续弱化加速；到期重复入选允许延期。
+  variants:
+  - 两次失败
+  - 强趋势等待
+  - 持续弱化提前
+  - 重入选延期
+  inputs:
+  - hfq_close
+  - policy_state
+  - eligibility
+  minimal_control: 固定期限、固定确认次数；入场不变
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O01
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 139
+  - investigator: legacy
+    item: LEG18
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 150
+  source_refs:
+  - path: alpha_lab/src/conditional_hold.py
+    line: 6
+  - path: alpha_lab/configs/conditional_hold_research.yaml
+    line: 3
+  - path: alpha_lab/configs/hold_sensitivity_research.yaml
+    line: 9
+  - path: audit/15_model_tuning.md
+    line: 24
+  - path: audit/28_research_summary.md
+    line: 107
+  - path: kcb_sniper_v12/README.md
+    line: 111
+- id: O06
+  name: 逐股风险预算与集中度
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:O04
+  - legacy:LEG19
+  rule: 比较等权、逆ATR与预测MAE折扣；新仓预算、存量调整、Top-K及行业上限分开测试。
+  variants:
+  - 逆ATR
+  - 预测MAE折扣
+  - 入场生效
+  - 全生命周期
+  - Top-K/集中度
+  inputs:
+  - ATR
+  - matured_MAE
+  - holdings
+  - optional_PIT_industry
+  minimal_control: 等权与相同平均折扣；规则支路无需训练
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O04
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 160
+  - investigator: legacy
+    item: LEG19
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 157
+  source_refs:
+  - path: alpha_lab/configs/risk_budget_research.yaml
+    line: 8
+  - path: alpha_lab/src/lifecycle_risk.py
+    line: 26
+  - path: alpha_lab/scripts/research_risk_budget.py
+    line: 143
+  - path: kcb_sniper_v12/README.md
+    line: 85
+  - path: a_share_v18/configs/sector_rotation.yaml
+    line: 177
+  - path: a_share_v18/src/rotation/sector_scorer.py
+    line: 298
+  - path: audit/29_mechanism_ablation.md
+    line: 78
+- id: O07
+  name: 风险解除后的额度恢复
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O05
+  rule: 仅以真实减仓成交授予可恢复额度，解除风险后在许可/现金/整手内补回；小于一手宽限单列。
+  variants:
+  - 风险额度恢复
+  - 组合现金恢复
+  - 整手宽限
+  inputs:
+  - fill_ledger
+  - risk_state
+  - corporate_actions
+  - cash
+  minimal_control: 不恢复、仅恢复、仅宽限
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O05
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 167
+  source_refs:
+  - path: alpha_lab/configs/risk_recovery_research.yaml
+    line: 8
+  - path: alpha_lab/docs/TARGETED_RESTORE_VALIDATION_20260914.md
+    line: 7
+  - path: alpha_lab/src/risk_recovery_portfolio.py
+    line: 570
+- id: O08
+  name: 实际持仓共同转弱防御
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O06
+  rule: 实际持仓篮子均线转弱、同步篮子回撤与长期确认共同触发预算收缩；锁定警报轮次参照。
+  variants:
+  - 暂停新仓
+  - 减半
+  - 退出
+  - 按额度恢复
+  inputs:
+  - holdings
+  - synchronous_basket_prices
+  - trend
+  minimal_control: 同持仓无防御；个股各自高点与同步篮子分开
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O06
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 174
+  source_refs:
+  - path: alpha_lab/configs/profit_defense_research.yaml
+    line: 10
+  - path: alpha_lab/docs/CASH_ECONOMICS_RESEARCH_20260914.md
+    line: 16
+- id: O09
+  name: 前瞻市场风险概率预算
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:O07
+  rule: 以指数/广度/波动/相关/流动性预测未来20日下行事件，训练分位形成高低风险滞回。
+  variants:
+  - 指数基准
+  - 逐组信息增量
+  - 预算比例
+  - 周/月复核
+  inputs:
+  - index/breadth/features
+  - matured_downside_labels
+  minimal_control: 常数概率、价格基准和平均暴露匹配
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O07
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 181
+  source_refs:
+  - path: alpha_lab/docs/FORWARD_RISK_EVIDENCE_20260914.md
+    line: 19
+  - path: alpha_lab/configs/monthly_predicted_risk_candidate.yaml
+    line: 8
+- id: O10
+  name: 小资金整数股成本优化
+  category: 账户与调仓组织
+  role: overlay
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:O08
+  - legacy:LEG19
+  rule: 相同候选和预测收益下，在现金/整手/可卖量/集中度内最大化收益减真实成本；不把rank当收益。
+  variants:
+  - 新仓分配
+  - 含旧仓再平衡
+  - 选择优先
+  inputs:
+  - calibrated_expected_returns
+  - cash
+  - sellable_shares
+  - prices/fees
+  minimal_control: 简单等预算整手；记录买不起/剩余现金
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O08
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 188
+  - investigator: legacy
+    item: LEG19
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 157
+  source_refs:
+  - path: alpha_lab/src/retail_allocation.py
+    line: 12
+  - path: alpha_lab/src/retail_rebalance.py
+    line: 11
+  - path: alpha_lab/configs/divide_selection.yaml
+    line: 16
+  - path: kcb_sniper_v12/README.md
+    line: 85
+  - path: a_share_v18/configs/sector_rotation.yaml
+    line: 177
+  - path: a_share_v18/src/rotation/sector_scorer.py
+    line: 298
+  - path: audit/29_mechanism_ablation.md
+    line: 78
+- id: O11
+  name: 复核日历与滚动持仓队列
+  category: 账户与调仓组织
+  role: overlay
+  batch: P2
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O09
+  - legacy:LEG18
+  rule: 固定月内复核日或每20交易日的相位，另比较每日替换最老一批；不事后选最优启动日。
+  variants:
+  - 月内1/8/15/22
+  - 20日相位
+  - 滚动队列
+  - 多相位组合提案
+  inputs:
+  - trading_calendar
+  - signal_history
+  - cash/holdings
+  minimal_control: 固定相位，所有相位报告；多相位需分割总资金
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  variant_origin:
+    calendar_phases: historical
+    rolling_oldest_cohort: historical
+    multiple_phase_capital_sleeves: investigator_proposal
+  provenance:
+  - investigator: alpha
+    item: O09
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 195
+  - investigator: legacy
+    item: LEG18
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 150
+  source_refs:
+  - path: alpha_lab/configs/rolling_review_research.yaml
+    line: 11
+  - path: alpha_lab/src/patient_trend.py
+    line: 6
+  - path: audit/15_model_tuning.md
+    line: 24
+  - path: audit/28_research_summary.md
+    line: 107
+  - path: kcb_sniper_v12/README.md
+    line: 111
+- id: O12
+  name: 固定现金储备
+  category: 市场与组合风险
+  role: overlay
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - alpha:O10
+  rule: 同10万元总账户，仅半数起始资金参与同一股票策略，余额留现金。
+  variants:
+  - 半仓股票预算
+  - 全仓对照
+  inputs:
+  - cash
+  - holdings
+  minimal_control: 相同信号全资金；记录整手导致的持仓变化
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: alpha
+    item: O10
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 202
+  source_refs:
+  - path: alpha_lab/configs/cash_reserve_check.yaml
+    line: 1
+  - path: alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md
+    line: 37
+  - path: alpha_lab/scripts/reproduce_feasible.py
+    line: 134
+- id: X01
+  name: 盘中形态与微观结构
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG20
+  - legacy:LEG14
+  rule: 早盘急拉保持、分钟下行波动/下影、尾段形态作为日频信号增量；明确决策截止bar。
+  variants:
+  - ms_hold
+  - 分钟下行风险
+  - 分钟形态
+  - 盘中触板前入场
+  inputs:
+  - frozen_minute_bars
+  - cutoff_time
+  - execution_path
+  minimal_control: 同日频底座不加分钟
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG20
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 167
+  - investigator: legacy
+    item: LEG14
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 118
+  source_refs:
+  - path: audit/28_research_summary.md
+    line: 60
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 1295
+  - path: audit/28_research_summary.md
+    line: 29
+  - path: audit/29_mechanism_ablation.md
+    line: 6
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 979
+- id: X02
+  name: 群体止损后的条件接回
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG21
+  rule: 已有持仓止损后，市场跌幅与账户止损占比满足条件才尾盘接回；每轮次数受限。
+  variants:
+  - 不接回
+  - 无条件一次
+  - 条件一次
+  inputs:
+  - minute_execution
+  - actual_stops
+  - cash/sellable_shares
+  minimal_control: 完全相同止损成交后仅替换接回动作
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG21
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 175
+  source_refs:
+  - path: audit/14_reverse_t_strategy.md
+    line: 9
+  - path: audit/scripts/buyback_portfolio_sim.py
+    line: 1
+- id: X03
+  name: 有底仓日内做T与IPO阶段
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG22
+  rule: 围绕VWAP带对可卖底仓和现金做买卖循环，IPO上市阶段改变带宽/风险参数。
+  variants:
+  - 固定VWAP
+  - 趋势限制
+  - IPO阶段适配
+  inputs:
+  - minute_bars
+  - base_position
+  - listing_session_age
+  minimal_control: 相同底仓持有；计入底仓全部损益
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG22
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 183
+  source_refs:
+  - path: kcb_v16/README.md
+    line: 9
+  - path: ipo_trader/README.md
+    line: 17
+- id: X04
+  name: 学习入场与退出的强化学习
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG23
+  rule: PPO/BiLSTM使用当时可得序列与账户状态选择不动/买入/部分卖出；拆开学入场与学退出。
+  variants:
+  - 监督入场
+  - 规则入场加学习退出
+  - 联合动作
+  inputs:
+  - minute_paths
+  - out_of_sample_features
+  - account_environment
+  minimal_control: 同入场固定退出与规则退出；交易合法性统一
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG23
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 191
+  source_refs:
+  - path: star_market_sell_model/README.md
+    line: 7
+  - path: star_market_sell_model/docs/concept_multi_policy_annealing.md
+    line: 1
+- id: X05
+  name: 可转债低价、双低与增强
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG24
+  rule: 低价或price+100*(price/conversion_value-1)升序选债，事件过滤与增强因子分别测试。
+  variants:
+  - 低价
+  - 低溢价
+  - 双低
+  - 动量/规模/波动增强
+  - 强赎过滤
+  inputs:
+  - bond_lifecycle
+  - historical_conversion_prices
+  - announcements
+  - bond_execution
+  minimal_control: 同债池随机与价格/溢价单项
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG24
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 199
+  source_refs:
+  - path: cb_rotator/README.md
+    line: 16
+  - path: cb_rotator/scripts/build_panel.py
+    line: 56
+  - path: cb_rotator/scripts/backtest_dual_low.py
+    line: 20
+- id: X06
+  name: 真实ETF承载板块与市场观点
+  category: 分钟与特殊资产
+  role: extension
+  batch: P3
+  readiness: needs_data_extension
+  investigation_refs:
+  - legacy:LEG02
+  - legacy:LEG15
+  rule: 以真实上市ETF执行同一板块轮动或市场择时观点，与个股篮子比较；指数不可冒充可买资产。
+  variants:
+  - 行业ETF轮动
+  - 宽基ETF择时
+  inputs:
+  - ETF_prices/lifecycle/actions
+  - market_or_sector_signal
+  minimal_control: 同观点成员篮子；ETF买入持有
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: legacy
+    item: LEG02
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 17
+  - investigator: legacy
+    item: LEG15
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_legacy.md
+    line: 126
+  source_refs:
+  - path: audit/27_honest_v18.md
+    line: 48
+  - path: audit/28_research_summary.md
+    line: 107
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 833
+  - path: audit/12_regime_analysis.md
+    line: 50
+  - path: a_share_v18/src/rotation/sector_backtest.py
+    line: 159
+  - path: kcb_v18/scripts/kcb_v17_backtest.py
+    line: 87
+  - path: audit/22_honest_fixed_tpsl.md
+    line: 27
+- id: S18
+  name: 隔夜与日内的行业相对收益
+  category: 趋势与反转
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G02
+  rule: 分别将20日日内收益和隔夜收益求和后行业去均值；默认历史负方向，正向版另登记。
+  variants:
+  - 日内反转
+  - 隔夜反转
+  - 隔夜延续
+  inputs:
+  - open/close
+  - action_consistent_previous_close
+  - PIT_SW_members
+  minimal_control: 完整收益反转与单一分量；简单和与复利口径预定
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G02
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 26
+  source_refs:
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 117
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 10
+- id: S19
+  name: 波动与换手状态切换
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - growth:G03
+  rule: 波动/换手各以截面中位分组，低波且高换手用正20日收益，其余用负20日收益。
+  variants:
+  - 完整交互
+  - 只波动
+  - 只换手
+  inputs:
+  - hfq_close
+  - turnover_rate
+  minimal_control: 无条件动量和反转；称本地简化版
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G03
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 34
+  source_refs:
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 12
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 125
+- id: S20
+  name: 价格状态下的条件振幅
+  category: 量价结构
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - growth:G04
+  rule: 按过去价格高低分位区分状态，比较两状态日振幅均值差并负向排名；条件不足记缺失。
+  variants:
+  - 条件振幅
+  - 仅高状态
+  - 仅低状态
+  inputs:
+  - hfq_ohlc
+  minimal_control: 无条件低振幅与价格位置
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G04
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 42
+  source_refs:
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 133
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 15
+- id: S21
+  name: 日内与隔夜量价相关差
+  category: 量价结构
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - growth:G05
+  rule: corr20(日内收益,当日换手)-corr20(隔夜收益,昨换手)，按历史负方向。
+  variants:
+  - 相关差
+  - 两个相关分量
+  inputs:
+  - open/close
+  - action_consistent_previous_close
+  - turnover_rate
+  minimal_control: 两个分量、换手水平、隔夜/日内收益本身
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G05
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 50
+  source_refs:
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 127
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 13
+- id: S22
+  name: 换手变化的启动与过热
+  category: 量价结构
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - growth:G06
+  rule: mean5或mean20换手除mean60换手减1；启动延续与拥挤回补两方向并列预登记。
+  variants:
+  - 5/60
+  - 20/60
+  - 启动方向
+  - 过热方向
+  inputs:
+  - turnover_rate
+  minimal_control: 控制换手水平；不看结果选符号
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G06
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 58
+  source_refs:
+  - path: alpha_lab_growth/docs/USX_DESIGN_20260918.md
+    line: 66
+  - path: alpha_lab_growth/scripts/usx_p0_3_stock.py
+    line: 59
+  - path: alpha_lab_growth/scripts/growth_p2b_research.py
+    line: 129
+- id: S23
+  name: 52周高点锚定
+  category: 趋势与反转
+  role: selector
+  batch: P1
+  readiness: derive_from_snapshot
+  investigation_refs:
+  - growth:G09
+  rule: 复权收盘除过去250日最高收盘，接近高点优先；不等同区间位置。
+  variants:
+  - 高点接近
+  - 去过热端
+  inputs:
+  - hfq_close
+  minimal_control: 中期动量与回撤反转
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G09
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 82
+  source_refs:
+  - path: alpha_lab_growth/scripts/usx_p0_3_stock.py
+    line: 62
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 54
+- id: S24
+  name: 美股行业固定映射传导
+  category: 跨市场与假期事件
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G10
+  rule: 预先固定海外行业锚到国内行业映射，以开盘前已完成海外1/5时段收益形成行业分数。
+  variants:
+  - 海外单项
+  - 国内单项
+  - 固定组合
+  - 个股随机/因子
+  inputs:
+  - frozen_US_anchors
+  - timezone/session_map
+  - PIT_SW_members
+  minimal_control: 仅国内信号、打乱映射、行业内随机
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G10
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 92
+  source_refs:
+  - path: alpha_lab_growth/src/usx/sector_map.py
+    line: 20
+  - path: alpha_lab_growth/docs/USX_DESIGN_20260918.md
+    line: 56
+  - path: alpha_lab_growth/scripts/usx_p0_2_sector.py
+    line: 86
+- id: S25
+  name: 海外敏感度学习映射
+  category: 跨市场与假期事件
+  role: selector
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - growth:G11
+  rule: 只用过去样本估国内行业对美股隔夜收益beta，乘海外10时段动量形成行业排名。
+  variants:
+  - 滚动beta
+  - 扩展窗beta
+  - 固定映射
+  inputs:
+  - US/CN_session_alignment
+  - PIT_SW_members
+  - past_beta_window
+  minimal_control: 固定经济映射和无海外信号；禁止原型全窗beta
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G11
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 100
+  source_refs:
+  - path: alpha_lab_growth/scripts/growth_fus2_sector.py
+    line: 8
+  - path: alpha_lab_growth/scripts/growth_fus2_sector.py
+    line: 145
+- id: S26
+  name: 海外趋势与国内状态交互
+  category: 跨市场与假期事件
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G12
+  rule: 比较海外20时段趋势、国内MA60状态条件、海外冲击与国内行业动量同向确认/反向减弱。
+  variants:
+  - 慢传导
+  - 牛熊条件
+  - 同向确认
+  - 反向冲突
+  inputs:
+  - US_anchors
+  - CN_index
+  - PIT_SW_members
+  - prior_day_state
+  minimal_control: 各主效应与交互项；回归假设到交易阈值待定义
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G12
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 108
+  source_refs:
+  - path: alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md
+    line: 13
+  - path: alpha_lab_growth/scripts/usx_p0_2b_dynamics.py
+    line: 97
+- id: S27
+  name: 长假海外信息累积
+  category: 跨市场与假期事件
+  role: selector
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G13
+  rule: 国内休市至少4个日历日，累计海外实际交易时段收益，节后开盘以后的收益才计入策略。
+  variants:
+  - 累计信息
+  - 最后海外时段
+  - 主窗5日
+  inputs:
+  - dual_market_calendars
+  - US_anchors
+  - PIT_SW_members
+  minimal_control: 普通日与匹配非长假日；逐事件报告
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G13
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 116
+  source_refs:
+  - path: alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md
+    line: 15
+  - path: alpha_lab_growth/scripts/usx_p0_2b_dynamics.py
+    line: 160
+- id: O13
+  name: 海外风险门
+  category: 市场与组合风险
+  role: overlay
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G15
+  rule: 海外极端跌幅或10/20时段趋势触发不新开仓；候选置空与卖出现有持仓必须分开。
+  variants:
+  - ASHR/SPX极端日
+  - SPX/IXIC趋势
+  - 暂停新仓
+  - 减仓提案
+  inputs:
+  - US_anchors
+  - session_availability
+  - holdings
+  minimal_control: 同选股器无门、国内门、平均暴露匹配
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G15
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 134
+  source_refs:
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 71
+  - path: alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md
+    line: 16
+- id: O14
+  name: 高波动与行业域内选择
+  category: 过滤与排名稳定
+  role: overlay
+  batch: P2
+  readiness: needs_pit_alignment
+  investigation_refs:
+  - growth:G17
+  rule: 以事前固定波动分组或PIT行业限定研究域，再应用同一选股器；画像升级硬规则需预登记。
+  variants:
+  - 高波域
+  - 指定行业域
+  - 全域
+  inputs:
+  - trailing_volatility
+  - PIT_SW_members
+  - eligible_mask
+  minimal_control: 同域随机、全域同分数、波动市值匹配
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G17
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 150
+  source_refs:
+  - path: alpha_lab_growth/docs/GROWTH_P2_SIGNALS_20260916.md
+    line: 11
+  - path: alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md
+    line: 7
+  - path: alpha_lab_growth/configs/growth_p2b.yaml
+    line: 28
+  - path: alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md
+    line: 59
+- id: X07
+  name: 跳空追涨否决
+  category: 成交时点扩展
+  role: extension
+  batch: P3
+  readiness: proposal_only
+  investigation_refs:
+  - growth:G16
+  rule: 开盘相对除权参考价大幅高开时放弃追涨；先定义盘前限价或开盘后交易，不能看正式开盘后仍按同价买。
+  variants:
+  - 盘前限价提案
+  - 开盘后成交提案
+  inputs:
+  - action_consistent_reference
+  - order_timing
+  - post_open_prices_or_fixed_limit_fill_contract
+  minimal_control: 无跳空门，其他成交约束一致
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  provenance:
+  - investigator: growth
+    item: G16
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_growth.md
+    line: 142
+  source_refs:
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 6
+  - path: alpha_lab_growth/scripts/usx_composite.py
+    line: 160
+- id: M10
+  name: 自动公式搜索与固定公式比较
+  category: 模型与组合方法
+  role: model
+  batch: P2
+  readiness: needs_causal_training
+  investigation_refs:
+  - alpha:A07
+  rule: 在训练窗中用GP搜索因子表达式，固定算子、复杂度和搜索预算；与冻结表达式S11分开测试。
+  variants:
+  - GP符号搜索
+  - 固定公式库
+  - 搜索预算/复杂度约束
+  inputs:
+  - frozen_base_features
+  - matured_labels
+  - predeclared_search_budget
+  minimal_control: 相同训练机会的固定简单公式；所有搜索尝试留档
+  status: pending_specification_and_test
+  origin: historical_with_normalization
+  entry_exit_contract: inherit_common_contract_unless_this_is_the_tested_module
+  parameter_policy: source_parameters_are_seeds_not_optimized_values; preregister_before_run
+  additional_source_refs:
+  - &id001
+    path: alpha_lab/scripts/run_gp_mining.py
+    line: 1
+  - &id002
+    path: FACTOR_MINING_SURVEY_20260908.md
+    line: 218
+  discovery_note: 主调查员补核实际GP入口；不将固定表达式重测误称自动搜索
+  provenance:
+  - investigator: alpha
+    item: A07
+    path: alpha_lab/docs/strategy_inventory_20260920/investigator_alpha.md
+    line: 65
+  source_refs:
+  - *id001
+  - *id002
+  - path: alpha_lab/configs/revalidate_candidates.yaml
+    line: 29
+  - path: alpha_lab/scripts/prepare_monthly_audit.py
+    line: 101
+  - path: alpha_lab/configs/portfolio_improvement.yaml
+    line: 8
+counts:
+  investigator_items: 66
+  candidates: 58
+  controls: 5
+  undeveloped_proposals: 6

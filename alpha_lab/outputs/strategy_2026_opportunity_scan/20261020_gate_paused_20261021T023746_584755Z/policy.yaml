@@ -1,0 +1,29 @@
+# 后续机会扫描使用此配置；历史研究方案和模型不改写。
+strategy_id: sector_stock_2026_gate_paused_v1
+status: active_opportunity_scan_no_auto_orders
+effective_from: '2026-10-21'
+change_reason: 用户决定暂停年度板块模型判断
+source:
+  sector_run: alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z
+  stock_run: alpha_lab/outputs/stock_selection_asof_v2/20261013T074542_476130Z
+  state_scan: alpha_lab/outputs/sector_live_scan/20261013T053630_999606Z
+  dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261013T053143_382413Z
+  event_source: alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z
+  stock_rules: alpha_lab/configs/left_side_trend_v2.yaml
+signal:
+  model_year: 2026
+  annual_retrain_only: true
+  same_event_required: true
+  decision: first_confirmation_close
+  entry_valid_sessions: 1
+  top_n: 5
+  minimum_stock_score_exclusive: 0.0
+  require_price_shape: true
+  require_stock_trend: false
+  require_turnover_expansion: false
+  require_turnover_contraction: false
+  annual_sector_gate_enabled: false
+  annual_sector_diagnostics: true
+stock_history_sessions: 400
+output_root: alpha_lab/outputs/strategy_2026_opportunity_scan
+font: fonts/SimHei.ttf

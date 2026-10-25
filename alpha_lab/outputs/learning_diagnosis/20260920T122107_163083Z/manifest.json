@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "source_hashes": {
+    "alpha_lab/scripts/diagnose_learning_strategies.py": "c1d0c759e06decdf9786e611d3cfd75f165ea7b6c7ed28d0c624ef90450c093d",
+    "alpha_lab/configs/learning_diagnosis_v1.yaml": "9ae0a1d19eb843e0697abfa7dc841087d171c317c6db90b50075f63c192de0e4",
+    "alpha_lab/src/portfolio.py": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+    "alpha_lab/src/classic_smoke.py": "6e203fb5c7d815d8f7aa5c547805dac99ba8a18aff342c362916bb3ba76328f4",
+    "alpha_lab/src/learning_search.py": "a7bc8ec5970e6ea22f331744b10e2b9347db7bd6c613fda0ef38b4c48129c90c",
+    "alpha_lab/src/learning_extensions.py": "579cb44f3bc66d5b8861cfaf5d80fdec213d6119959d813e08f14aa571987283"
+  },
+  "started_at": "2026-09-20T12:21:07.164553+00:00",
+  "input_runs": [
+    "alpha_lab/outputs/learning_strategy_search/20260920T112021_620509Z",
+    "alpha_lab/outputs/learning_extensions/20260920T115718_030644Z"
+  ],
+  "parameter_selection": false,
+  "error": "ValueError('Input X contains NaN.\\nKMeans does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values')"
+}

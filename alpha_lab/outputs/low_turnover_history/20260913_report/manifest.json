@@ -1,0 +1,18 @@
+{
+  "purpose": "posthoc_reporting_only_not_strategy_selection",
+  "inputs": {
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/daily.csv": "7594cac6b841310e28c24e43e360f33d802d7bc83749b91758a2247e02011201",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/holdings.csv": "1067b367bd920ed8a795fe82658a40763ceccdbe9a7aa9fd0870ebb15faa966d",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/trades.csv": "6b881610995cce0b7774e89d070f1d3896a2bc3b1832307c8a05a55a0a6d946e",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/events.csv": "92e9b9d0ab239b4148d914f724de274dd5ac180d56130b7a0ef5aca1509c4b7a",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/asset_pnl.csv": "1cdbb8935fe0fdd2bfb20705adc282b20bf2ba06cb7756d362d6fdbb380af6e6",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/entry_phase_episodes.csv": "7623760b297b8daa2647efc97ee1189a3868cad447197d4e36aba2030b52b687",
+    "outputs/policy_cash/20260913T063048_495344Z/cash_execution/base_50000_none/holding_periods.csv": "d3023a56ad2a96a9a155c462e58cc8d5a57200aa6a5e87efb7dc71faafd77148"
+  },
+  "market_data_max_date": "2023-12-29",
+  "source_sha256": "73cc6922551954fdafd0213247ad02db86216d100136a3d9cc17b33b80e5f781",
+  "evidence_sha256": {
+    "held_stock_price_evidence.csv": "166019785cac52b9cdaa1c002158a1706fb9ab46e86cd3643a8b67ffa52b9412",
+    "benchmark_nav.csv": "ba091c4e0ff2e148f68414fd039e1ec5a488ab0c6eb4659b5e72adc6f6f012f7"
+  }
+}

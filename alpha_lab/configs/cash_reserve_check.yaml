@@ -1,0 +1,4 @@
+# 第二轮账本结果产生前固定：半数资金参与股票组合，半数现金保留；不搜索仓位比例。
+cash_fraction: 0.5
+signal_file: tail_signal_signals.parquet
+cost_multipliers: [1.0, 2.0]

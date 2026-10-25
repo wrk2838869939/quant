@@ -1,0 +1,116 @@
+{
+  "300087.SZ": {
+    "date": "2022-04-28",
+    "kind": "action_ref",
+    "reference": 14.8333,
+    "pre_close": 14.93
+  },
+  "600694.SH": {
+    "date": "2022-05-31",
+    "kind": "action_ref",
+    "reference": 18.88,
+    "pre_close": 18.94
+  },
+  "000065.SZ": {
+    "date": "2022-04-14",
+    "kind": "continuity",
+    "prev_close": 9.32,
+    "pre_close": 8.38
+  },
+  "000970.SZ": {
+    "date": "2022-02-24",
+    "kind": "continuity",
+    "prev_close": 13.87,
+    "pre_close": 12.71
+  },
+  "002948.SZ": {
+    "date": "2022-01-13",
+    "kind": "continuity",
+    "prev_close": 4.7,
+    "pre_close": 4.37
+  },
+  "300772.SZ": {
+    "date": "2022-11-18",
+    "kind": "continuity",
+    "prev_close": 17.75,
+    "pre_close": 15.81
+  },
+  "300905.SZ": {
+    "date": "2022-05-30",
+    "kind": "continuity",
+    "prev_close": 17.31,
+    "pre_close": 16.91
+  },
+  "600030.SH": {
+    "date": "2022-01-27",
+    "kind": "continuity",
+    "prev_close": 25.7,
+    "pre_close": 24.23
+  },
+  "600345.SH": {
+    "date": "2022-08-15",
+    "kind": "continuity",
+    "prev_close": 16.8,
+    "pre_close": 16.75
+  },
+  "600459.SH": {
+    "date": "2022-12-22",
+    "kind": "continuity",
+    "prev_close": 15.36,
+    "pre_close": 14.33
+  },
+  "600958.SH": {
+    "date": "2022-04-29",
+    "kind": "continuity",
+    "prev_close": 9.22,
+    "pre_close": 9.05
+  },
+  "601016.SH": {
+    "date": "2022-11-28",
+    "kind": "continuity",
+    "prev_close": 4.43,
+    "pre_close": 3.93
+  },
+  "601108.SH": {
+    "date": "2022-04-12",
+    "kind": "continuity",
+    "prev_close": 8.48,
+    "pre_close": 8.09
+  },
+  "601377.SH": {
+    "date": "2022-08-25",
+    "kind": "continuity",
+    "prev_close": 6.31,
+    "pre_close": 6.05
+  },
+  "300639.SZ": {
+    "date": "2022-04-29",
+    "kind": "action_ref",
+    "reference": 21.3,
+    "pre_close": 21.37
+  },
+  "603990.SH": {
+    "date": "2022-06-30",
+    "kind": "action_ref",
+    "reference": 19.1231,
+    "pre_close": 19.19
+  },
+  "000881.SZ": {
+    "date": "2022-07-01",
+    "kind": "continuity",
+    "prev_close": 9.05,
+    "pre_close": 9.02
+  },
+  "002013.SZ": {
+    "date": "2022-06-13",
+    "kind": "continuity",
+    "prev_close": 11.32,
+    "pre_close": 11.22
+  },
+  "000552.SZ": {
+    "date": "2022-04-25",
+    "kind": "continuity",
+    "prev_close": 3.95,
+    "pre_close": 3.9
+  }
+}

@@ -1,0 +1,27 @@
+study: stock_selection_asof_v2
+parent_run: alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z
+output_root: alpha_lab/outputs/stock_selection_asof_v2
+asof: '2026-10-12'
+decision_day: sector_first_confirmation
+primary_horizon: 20
+horizons: [3, 10, 20]
+top_n: 5
+model:
+  test_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+  training_years: 8
+  embargo_sessions: 20
+  validation_fraction: 0.25
+  minimum_fit_events: 20
+  minimum_validation_events: 8
+  minimum_validation_dates: 4
+  alphas: [1.0, 10.0, 100.0, 1000.0]
+  minimum_predicted_excess: 0.0
+  rank_features: {strength: true, volatility: false, expansion: true, contraction: false, slowdown: false}
+  binary_features: [trend, price]
+  include_interaction: true
+statistics:
+  bootstrap_seed: 2026101302
+  bootstrap_repetitions: 2000
+  cluster_gap_sessions: 20
+  missing_stress_returns: [-0.2, -1.0]
+  maximum_primary_stock_weight: 0.2

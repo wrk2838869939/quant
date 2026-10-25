@@ -1,0 +1,89 @@
+# 用户确认：趋势在回落前成立；不要求买入时重新站上均线。
+study: left_side_trend_v2
+loader_config: alpha_lab/configs/policy_balance_v1.yaml
+probe_run: alpha_lab/outputs/fine_sector_probe/20260921T062158_292354Z
+start: '2021-01-01'
+end: '2023-12-31'
+history_start: '2016-01-01'
+prefix_date: '2022-06-30'
+max_drawdown: 0.3
+workers: 4
+membership:
+  source: sw_l2_index_member
+  workers: 2
+  timeout_seconds: 20
+  retries: 2
+  version_change: '2021-12-13'
+  older_version: SW2014
+  newer_version: SW2021
+  level: L2
+sector:
+  base_value: 1000.0
+  minimum_members: 5
+  minimum_quote_coverage: 0.8
+  maximum_member_weight: 0.2
+  platform_window: 20
+  platform_max_range: 0.15
+  breakout_margin: 0.02
+  initial_rise_days: 5
+  minimum_rise: 0.25
+  minimum_drawdown: 0.2
+  fast_fall_window: 20
+  fast_fall_threshold: 0.1
+  support_window: 20
+  recent_slow_days: 3
+  preceding_fall_days: 5
+  slowdown_ratio: 0.65
+  lower_value_tolerance: 0.15
+  maximum_episode_days: 500
+  maximum_unconfirmed_days: 120
+stock:
+  shape_window: 5
+  recent_days: 2
+  turnover_baseline_window: 20
+  turnover_expansion: 1.4
+  turnover_contraction: 0.7
+  slowdown_ratio: 0.65
+  minimum_early_fall: 0.01
+  maximum_recent_gain: 0.02
+  maximum_current_daily_fall: 0.02
+  leader_weight: 1.0
+  shape_weight: 0.25
+  minimum_leader_peers: 5
+  top_n: 5
+entry:
+  value_tolerance: 0.12
+exit:
+  support_window: 5
+  support_buffer: 0.02
+  trailing_activation: 0.08
+  cooldown_days: 5
+search:
+  historical_window:
+  - 60
+  - 120
+  - 180
+  maximum_pullback_days:
+  - 10
+  - 20
+  - 40
+  advance_lookback:
+  - 20
+  - 40
+  - 60
+parent_run: alpha_lab/outputs/left_side_rules/20260921T062806_399146Z
+trend:
+  historical_window: 120
+  minimum_historical_return: 0.05
+  average_window: 60
+  average_slope_days: 20
+  peak_lookback: 60
+  maximum_pullback_days: 20
+  minimum_pullback_days: 2
+  advance_lookback: 40
+  minimum_advance_days: 5
+  sector_minimum_advance: 0.1
+  stock_minimum_advance: 0.15
+  sector_minimum_pullback: 0.08
+  stock_minimum_pullback: 0.04
+  require_current_above_average: false

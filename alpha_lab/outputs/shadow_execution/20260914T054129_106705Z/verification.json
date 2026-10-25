@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "prior_artifacts_verified": {
+    "outputs/risk_budget/20260913T160301_084080Z": 906,
+    "outputs/rolling_review/20260913T141120_325588Z": 473
+  },
+  "plan_replays": [
+    {
+      "window": "cold",
+      "days": 650,
+      "orders": 63,
+      "exact_economic_orders": true
+    },
+    {
+      "window": "continued",
+      "days": 1134,
+      "orders": 89,
+      "exact_economic_orders": true
+    }
+  ],
+  "full_universe_signal_rebuilt": true,
+  "live_orders": false,
+  "broker_connected": false,
+  "source_hashes": {
+    "src/shadow_planner.py": "3d76c1479306a04fbcbc5fdc705ca80d6664108a6e644a756f83708231d799a1",
+    "src/shadow_account.py": "97203c3712d0efd7fa66b51e7ac1f55a653cd8226862990b5c05c8db7f3dee78",
+    "src/shadow_inputs.py": "5fe1d8578f512ad3eb8e88f4ce8a2a0e665723a42fe80de2c0908b4612e0c8c8",
+    "scripts/shadow_execution.py": "0161d5f35fec919adceb7bc31242cc17edb8fb57411c6396e91cd9b3edc622fc",
+    "scripts/validate_shadow_execution.py": "bff56de296ae8ff2439349140f90e92b176872df197777fb340e770ab6b2fd3e",
+    "tests/test_shadow_execution.py": "7401d5f277ed866d72b5a6ade07d1d968f0a57932d747a4007019100e4c88c2f",
+    "tests/test_shadow_inputs.py": "9f5bb917c33dff0818f17318b4e80328bebbe753619e58e6d5489f4e743b0b30",
+    "configs/shadow_execution.yaml": "81a0805c072d0145b0fb126bd12db16d8daadb03bbabaf7f6517e3ff3844336d"
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

@@ -1,0 +1,21 @@
+# 2026-09-13 用户授权自主多轮；固定方案，不选择回测冠军。
+output_root: outputs/autonomous_value_research
+source_panel: outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet
+history: ['2014-01-01', '2021-12-31']
+fit_end: '2018-12-31'
+development: ['2019-01-01', '2021-12-31']
+execution: ['2022-01-01', '2023-12-31']
+features: [x_mom60, x_mom120, x_continuity, x_jump_share, x_extension, x_volatility, x_drawdown, x_log_size, x_turnover]
+style_features: [x_volatility, x_turnover]
+forecast: {horizon: 60, alpha: 1.0, bootstrap_reps: 100, block_dates: 6, seed: 20260913, min_dates: 36}
+entry: {mean_lower_buffer: 0.005, max_expected_adverse: 0.15}
+retail: {max_positions: 5, max_stock_fraction: 0.25, candidate_pool: 20, solver_relative_gap: 0.001}
+trend: {medium_window: 60, long_window: 120, min_return: 0.0, require_above_long_ma: true}
+min_listing_days: 60
+exit_confirmations: 2
+review_frequencies: [monthly, weekly]
+execution_policies: [low_turnover, full_point, full_confidence]
+capitals: [20000.0, 50000.0, 100000.0]
+reference_capital: 50000.0
+stress: {slippage_rate: 0.001, extra_execution_delay: 1}
+execution_parent: outputs/retail_validation/20260912T141535_114074Z

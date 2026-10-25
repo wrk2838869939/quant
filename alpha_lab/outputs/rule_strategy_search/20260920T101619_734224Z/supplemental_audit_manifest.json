@@ -1,0 +1,7 @@
+{
+  "script": "alpha_lab/scripts/audit_rule_search_inputs.py",
+  "sha256": "90f40bc1cbc8da0c4b575477df6a4d12db6167b22b99078d83d59d7aa120b431",
+  "real_signal_prefix_checks": 16,
+  "matched_controls": 9,
+  "purpose": "固定参数同窗口口径对照，不参与参数选择"
+}

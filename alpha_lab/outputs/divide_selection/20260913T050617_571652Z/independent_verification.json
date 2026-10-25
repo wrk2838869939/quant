@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "coefficient_checks": [
+    {
+      "stage": "development",
+      "model": "global",
+      "rows": 27544,
+      "dates": 50,
+      "coefficient_max_error": 6.314393452555578e-16,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "development",
+      "model": "shared",
+      "rows": 27544,
+      "dates": 50,
+      "coefficient_max_error": 8.673617379884035e-16,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "development",
+      "model": "constant",
+      "rows": 27544,
+      "dates": 50,
+      "coefficient_max_error": 8.326672684688674e-17,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "development",
+      "model": "recovery",
+      "rows": 8578,
+      "dates": 48,
+      "coefficient_max_error": 2.0669230216263657e-15,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "development",
+      "model": "accelerating",
+      "rows": 10894,
+      "dates": 49,
+      "coefficient_max_error": 3.5735303605122226e-16,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "development",
+      "model": "decelerating",
+      "rows": 8072,
+      "dates": 50,
+      "coefficient_max_error": 1.2073675392798577e-15,
+      "last_label": "2018-12-05 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "global",
+      "rows": 65078,
+      "dates": 86,
+      "coefficient_max_error": 7.827939685345342e-16,
+      "last_label": "2021-12-06 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "shared",
+      "rows": 65078,
+      "dates": 86,
+      "coefficient_max_error": 8.014422459012849e-16,
+      "last_label": "2021-12-06 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "constant",
+      "rows": 65078,
+      "dates": 86,
+      "coefficient_max_error": 1.3877787807814457e-16,
+      "last_label": "2021-12-06 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "recovery",
+      "rows": 24526,
+      "dates": 84,
+      "coefficient_max_error": 1.0547118733938987e-15,
+      "last_label": "2021-12-06 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "accelerating",
+      "rows": 23044,
+      "dates": 85,
+      "coefficient_max_error": 3.2868673061070552e-15,
+      "last_label": "2021-12-06 00:00:00"
+    },
+    {
+      "stage": "execution",
+      "model": "decelerating",
+      "rows": 17508,
+      "dates": 86,
+      "coefficient_max_error": 3.86843335142828e-16,
+      "last_label": "2021-12-06 00:00:00"
+    }
+  ],
+  "mse_max_error": 9.93129189996722e-17,
+  "saved_prediction_reproduction": true,
+  "selection_permutation_invariant": true,
+  "test_market_data_used": false,
+  "limitations": [
+    "Local models normalize dates within each phase; sparse phase dates are not the same population as global dates.",
+    "Shared interactions use one reference phase and common Ridge alpha, not exchangeable Bayesian expert priors.",
+    "Labels are marked paths and overlap; phase attribution is descriptive, not causal or fresh holdout evidence.",
+    "Point return forecasts remain less calibrated than the date-constant control on inspected development data."
+  ],
+  "verifier_sha256": "52728041b8b3296464fc2c87fe36b7cf6b8dc9a3174272b84d7ef8fe4c8f234c"
+}

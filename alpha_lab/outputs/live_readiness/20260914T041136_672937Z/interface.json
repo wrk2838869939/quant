@@ -1,0 +1,16 @@
+{
+  "parameters": [
+    "signals",
+    "market",
+    "basics",
+    "st_intervals",
+    "limits",
+    "actions",
+    "start",
+    "end",
+    "cfg",
+    "rights_issues"
+  ],
+  "has_initial_account_parameter": false,
+  "source_sha256": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf"
+}

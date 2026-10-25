@@ -1,0 +1,21 @@
+{
+  "note": "日更入口需要完整配套datahub代码及原数据快照；这些外部文件本次未随alpha_lab同步。",
+  "files": [
+    {
+      "path": "datahub/scripts/update_data.py",
+      "sha256": "edd2849d0c8250e1a4dbffb6ceac57cc33e6d2618f7da0064f4ea1ae5b78bd93"
+    },
+    {
+      "path": "datahub/scripts/build_dataset.py",
+      "sha256": "a2b80226e889d2c02a088c362c8d137e1d4c414048c7a0d27b3ed3450de76cad"
+    },
+    {
+      "path": "datahub/scripts/frozen_research.py",
+      "sha256": "b5bd009526fd0a4fdfa5c7abdb51452ef2cd3142a5a0724b32abeb23a6a3960f"
+    },
+    {
+      "path": "datahub/src/datahub/frozen.py",
+      "sha256": "c785ee142906196b020cecfadf10b44c74a6666a55ed5c57d4f1f78c9fa8d05a"
+    }
+  ]
+}

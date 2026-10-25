@@ -1,0 +1,20 @@
+output_root: outputs/trend_entry_audit
+history: ['2014-01-01', '2021-12-31']
+fit_end: '2018-12-31'
+evaluation: ['2019-01-01', '2021-12-31']
+review_frequencies: [monthly, weekly]
+fit_frequency: monthly
+primary_horizon: 60
+horizons: [20, 60, 120]
+max_positions: 5
+min_listing_days: 60
+min_cross_section: 100
+trend: {medium_window: 60, long_window: 120, min_return: 0.0, require_above_long_ma: true}
+features: [mom60, mom120, continuity, jump_share, extension, volatility, drawdown, log_size, turnover]
+model: {C: 1.0, max_iter: 1000, solver: lbfgs}
+path_labels: {max_adverse: 0.15, peak_for_roundtrip: 0.10, positive_checkpoints: 2}
+policies: [momentum, continuous, path_model]
+path_model_min_score: 0.0
+# 正常退出需连续两次复核不再符合趋势条件；纯信号生命周期，不冒充成交持仓。
+exit_confirmations: 2
+min_fit_dates: 36

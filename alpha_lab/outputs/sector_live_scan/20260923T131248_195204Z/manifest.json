@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "config": {
+    "asof": "2026-09-23",
+    "previous_end": "2026-09-08",
+    "endpoint": "http://jiaoch.site/api",
+    "timeout_seconds": 25,
+    "retries": 3,
+    "workers": 2,
+    "apis": [
+      "daily",
+      "adj_factor",
+      "daily_basic",
+      "moneyflow"
+    ],
+    "minimum_daily_rows": 4500,
+    "minimum_basic_coverage": 0.95,
+    "output_root": "alpha_lab/outputs/sector_live_update",
+    "release": "datahub/releases/selection_live_20260923",
+    "old_release": "datahub/releases/selection_v1_20260920",
+    "old_sector_dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "recent_signal_sessions": 5,
+    "stock_history_sessions": 400,
+    "stock_rule_config": "alpha_lab/configs/left_side_trend_v2.yaml",
+    "maximum_review_cases": 8,
+    "initial_capital": 100000,
+    "maximum_drawdown": 0.3,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 140
+  },
+  "dataset": "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20260923T125853_083011Z",
+  "dataset_content_id": "9a9cd8b3240fae7d1f9530b3145368f3b06f242401d91d10d8af63e036e5d005",
+  "summary": {
+    "asof": "2026-09-23",
+    "valid_sectors": 103,
+    "active_structure_sectors": 99,
+    "watch_sectors": 4,
+    "trigger_sectors": 2,
+    "confirmed_today_sectors": 0,
+    "new_confirmations": 1,
+    "new_confirmations_today": 0,
+    "old_sector_prefix_unchanged": true,
+    "old_330_confirmations_unchanged": true,
+    "model_note": "复用两轮独立模型及各自50%训练阈值；分数不是收益承诺，未新增训练或改变规则"
+  },
+  "artifacts": {
+    "scan_sectors.py": "8e7b6c2f2d6574269ae2d164db0ae13a72aa0ea80fede408bcd206d115e4a246",
+    "config.yaml": "0eb88ee4283d57988e87d81bf3579f50120f99dfbcb91ad144bcdf6a32de040c",
+    "all_confirmations.parquet": "6e49c71f508273f1cfb51dc8fcdc7b2d009deeb2301ed0f435bae5193e6ef0e6",
+    "latest_states_all_windows.parquet": "f1c39abc889955f3e0da99bdd5141614aed794d368adef6ec24ed107db5514bd",
+    "sector_states_today.csv": "b695b653aa1a7a9ca12ea93c9ff97fed42c3f8ac8b25a063e1fd99748d229053",
+    "watch_today.csv": "d738032168840a0600264e1f78e31fdc906afbc61e1c269aa205423b46ac0d46",
+    "new_confirmation_features.parquet": "b603b11291ee979e145d4a4fd8f98c4255e96723e2e5e13779e30f09b665dac8",
+    "new_confirmations_scored.csv": "bf1ffb1925d0fa3c815707a3e729306461e872a695184f436182b6ded893c480",
+    "summary.json": "ab640e343388b4b6798fccb0ac93473b48413e1e9a66585661b527a60642b163"
+  }
+}

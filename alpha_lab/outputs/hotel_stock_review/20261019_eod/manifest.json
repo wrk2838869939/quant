@@ -1,0 +1,51 @@
+{
+  "status": "complete",
+  "summary": {
+    "asof": "2026-10-19",
+    "sector": "酒店餐饮",
+    "members": 9,
+    "qualified": 8,
+    "price_pass": 6,
+    "observation_candidates": [
+      "000721.SZ",
+      "605108.SH"
+    ],
+    "official_strategy_candidates": 0,
+    "model_year": 2026,
+    "model_last_label": "2025-11-19",
+    "scenario": "19日横截面独立观察；不是原策略新入场",
+    "name_history_refetched_for_all_members": true,
+    "qualification_unchanged": true,
+    "no_retraining": true,
+    "no_engineering_changes": true,
+    "model_condition_applicability": "未验证板块模型拒绝后、重复确认日的排序有效性"
+  },
+  "artifacts": {
+    "fetch_names.py": "01d5420b94b9f59ece18d932503149a641be84e926e3f075d1cfbba80fded2a6",
+    "review.py": "9c230b5c29653dbc23414083992ddd62b27ff3b21309e7713206c262f12dd6d9",
+    "all_member_qualification_20261019.csv": "52add6b05117fd230a615687a53fff1adeeb69692bfe5b53d9ac5ccb3841314b",
+    "stock_scores_old_name_history.csv": "ab012790c3de7ece73da4f75a5eea4636f024cba16e4c4b6d5fd7e2cf6ad8a60",
+    "stock_history.parquet": "be591db2388b7effabc8767ce710a6328b71f8c6b2f609a23084bfc7dec42197",
+    "all_members_detailed.csv": "4d76416e5769d086deb2e2ff3fa39aa29f4c9372c5114a6955b90712c7d899f5",
+    "fresh_namechange.parquet": "c296214ef78192217a7ded0d0c4d9875f031ac7a37028ce88f77903b99cd8387",
+    "finalize.py": "43c2ce188be8d6866ca9dcd9ef9d4f3e3c80b35aeccd850f6000fbf690dcd358",
+    "all_members_final.csv": "355af0ecb10ddc3440348b8c13728bf85b2d298ecb07940e314e3d9076bdeea0",
+    "observation_candidates.csv": "9924e34d4a76145a3eb1ae24b14bb1a0746a144db2b0fc79555170204d69f7d1",
+    "cross_section_features.parquet": "ea6b0233a3b930ace0372423b536fc4c5ec9a6db4940e4722703e38c4211b648",
+    "summary.json": "62da555ee42a9769ac7ac3ee0587107cd115dd36633619a4a715ee98ca891460",
+    "verification.json": "97a6d9572aace1fe7f1848bc53385082f71699f7d9e3ed9a5499848731d89c34",
+    "report.py": "b4462f8f16b19de9a694f8b6629f3988e1cc0b1d27674c7654594779c64341f9",
+    "candidate_prices.png": "cea4895a78fe3f56925dcf0d6467f7454af4f45dd1a4360d840919687ba15a2c",
+    "REPORT.md": "a104e4e41c6f8fc0c76bef8bddde614d74cfc99d2052777397480751327bff5d",
+    "REPORT.html": "8793f3eb967af19633aa54e6b8d455b907e7d9b32d46aa70069d1985281c798d",
+    "fresh_names/000721.SZ.parquet": "60d735486eee7131fab038afc64937f918830d43a883f117fc6e3337e412694f",
+    "fresh_names/000428.SZ.parquet": "f63ee8347bdff7ea88423ef1e05aa6f9ffc28e53de204812178a995453a7b636",
+    "fresh_names/002306.SZ.parquet": "054618421453dce6b3b7c9c736cd4afc60964881601962ccdd8a73388e2cd0af",
+    "fresh_names/002186.SZ.parquet": "86c00e0aaad2bb7e0adbd87f9d1608ef47b43637648accad62033bc42805d1f4",
+    "fresh_names/301073.SZ.parquet": "cb012419d9c14708fff25638be7adf2e9419559d30bf54711fe7594ecafab3b7",
+    "fresh_names/600258.SH.parquet": "74d460bde4d1bf83825dab11504b48ab9516790efbfaf8fff82d71fbe180ccbe",
+    "fresh_names/601007.SH.parquet": "cd6ca57c78be991a9e1586905df034744230540c58512b0b0a491fc314beaa49",
+    "fresh_names/600754.SH.parquet": "0640b2bc5b594589206160cb2dc73120bdbd8bb6ad90ba1982521bb62c060aea",
+    "fresh_names/605108.SH.parquet": "5ed3f8c617bf3f47515f9ecbdcb5165d52276f568cbe00fb14c6fb9da23975a3"
+  }
+}

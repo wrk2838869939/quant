@@ -1,0 +1,24 @@
+# 用户定位：0—5只，周/月复核，趋势完好可跨多个调仓周期持有。
+# 本配置登记研究约束及TRAIN诊断，不构成已通过验证的交易策略。
+output_root: outputs/patient_trend_research
+train: ['2014-01-01', '2021-12-31']
+reference_execution: outputs/retail_validation/20260912T141535_114074Z
+retail:
+  max_positions: 5
+  force_fill_positions: false
+  equal_weight_required: false
+review_frequencies: [weekly, monthly]
+calendar_convention: first_trading_day_close_then_next_open
+reentry_on_schedule_only: true
+risk_exit_between_reviews: true
+forced_periodic_liquidation: false
+label_horizons: [20, 60, 120]
+trend:
+  medium_window: 60
+  long_window: 120
+  min_return: 0.0
+  require_above_long_ma: true
+min_listing_calendar_days: 60
+min_cross_section: 100
+# 标签成熟以前不使用收益或路径信息，不按单个指标挑选最优参数。
+comparison_groups: [eligible_market, trend_eligible, trend_top5]

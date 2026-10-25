@@ -1,0 +1,35 @@
+{
+  "status": "research_complete",
+  "new_models_run": false,
+  "new_backtests_run": false,
+  "test_market_data_used": false,
+  "reports": {
+    "docs/TARGETED_RESEARCH_CASH_20260913.md": "cf8a37ce0d1d369218a4ee5aa297c84807a79223d8b76c7979e877fa13e307e3",
+    "docs/TARGETED_RESEARCH_HOLDING_20260913.md": "0d0daf48771070ae685e2b4215e4900bbf7a2b6b2fa5303534a6597f92ef3a6d",
+    "docs/TARGETED_RESEARCH_SELECTION_20260913.md": "30852e1a4395770533433254dbbddfacdbc125c8b4bfcb7588fd58a91de060dd",
+    "docs/TARGETED_RESEARCH_SYNTHESIS_20260913.md": "fcc0935f3cbef7cdc84f94341eefa16c162dcbccbfa16f1272f244c9ff0e4584"
+  },
+  "agents": [
+    "research_selective_division",
+    "research_patient_entries",
+    "research_selective_cash"
+  ],
+  "source_execution": "outputs/divide_selection/20260913T050617_571652Z",
+  "review_changes": [
+    "duplicate_80pct_bootstrap_gate_downgraded_to_diagnostic",
+    "unknown_memory_and_unknown_timeout_separated",
+    "monthly_cash_label_deferred_until_patient_target_frozen",
+    "net_admission_and_gross_allocator_mu_kept_separate"
+  ],
+  "corrected_cash_count": {
+    "all_zero_position_days": 159,
+    "initialization_days": 1,
+    "exit_cash_days": 158,
+    "episode_lengths": [
+      81,
+      24,
+      53
+    ]
+  },
+  "proposal_status": "not_executed_not_strategy_admission"
+}

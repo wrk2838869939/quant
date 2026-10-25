@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "continued_rolling_00_uniform",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "name": "continued_rolling_00_entry_risk",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "name": "continued_rolling_00_full_risk",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    }
+  ],
+  "labels_independently_verified": 2470,
+  "source_sha256": "d25d32d632e8e00d2106f1bea961f38d62793e9c1c466684cc7a4ce82dbf2b83"
+}

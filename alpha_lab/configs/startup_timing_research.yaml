@@ -1,0 +1,11 @@
+parent: outputs/rolling_review/20260913T141120_325588Z
+risk_parent: outputs/risk_budget/20260913T160301_084080Z
+output_root: outputs/startup_timing
+capital: 80000
+horizon_sessions: 244
+years: [2022, 2023, 2024, 2025]
+months: [1, 4, 7, 10]
+offset_days: [8, 15, 22]
+policies: [stale_once, fresh_once, shifted_calendar]
+end: '2026-09-08'
+max_positions: 5

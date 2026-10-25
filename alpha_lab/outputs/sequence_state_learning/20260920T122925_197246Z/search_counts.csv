@@ -1,0 +1,7 @@
+outer_year,family,trials,feasible,errors
+2021,cnn,18,18,0
+2021,hmm,18,17,0
+2022,cnn,18,7,0
+2022,hmm,18,11,0
+2023,cnn,18,2,0
+2023,hmm,18,6,0

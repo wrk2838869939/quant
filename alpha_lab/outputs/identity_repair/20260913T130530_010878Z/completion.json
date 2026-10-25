@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "identity_effect": "same_eligible_entities_same_mainboard_top20_same_canonical_hold",
+  "unresolved_adjustment_source_version": true,
+  "original_strategy_or_data_modified": false,
+  "hashes": {
+    "repair_manifest.json": "8414071587f6f08b8e5b66214c2769399e2f4474089da526c39962fe9d0648d8",
+    "impact.json": "51aa56f1811908cb58ea8fd4f55989e068102b62e158957607d8f7636aeeee32",
+    "monthly_identity_comparison.csv": "fee1e4141bbbed58e834c94b41e26755b4fd12a86e55cd599d5bd166cab86827",
+    "canonical_quote_identity.parquet": "80122b9e191eefc221e620746a0a39ef687d4a7cc93e8a46936c086e51cb9e86",
+    "adjustment_difference_provenance.csv": "3a9df9c5f115a4198ce4ef775554b1acfd0024594a036a0d170a60f7e98a56a5",
+    "REPORT.md": "05256a213768bfdac9e1687120f51f1ac6c569eee34ed199358b7b87cdc475f0",
+    "tests.log": "a01fce07d9330eff455001b4ab241c44db9458c1da4513dba8acfb785acadc32",
+    "test_identity.py": "1886928495390d2332fb9726bae366fed3f80b8b66d1474fb0ba3dea55e40346"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dataset_content_id": "12e9fc88adc9319c932598aa340136087d0fbeacf2e9bd2f50ae35022e166aa1",
+  "config": {
+    "dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "prior_internal": "alpha_lab/outputs/sector_internal_correlation/20260921T075701_984968Z",
+    "output_root": "alpha_lab/outputs/sector_cohesion",
+    "history_start": "2021-01-04",
+    "classification": "SW2021",
+    "market_index": "000300.SH",
+    "small_index": "000905.SH",
+    "beta_window": 126,
+    "beta_minimum_days": 60,
+    "minimum_pair_days": 60,
+    "recent_sessions": 252,
+    "stability_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "leader_count": 3,
+    "minimum_leader_returns": 2,
+    "minimum_remaining_returns": 2,
+    "momentum_window": 60,
+    "covariance_epsilon": 1e-14,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 170
+  },
+  "prior_summary_sha256": "0d79c9b0521a10ece352463dc8701be3c75d136f1e8f57ddfd8e7b5da8e646e3",
+  "artifacts": {
+    "recent_cohesion.csv": "2ac79755aa83b4109dc51da6eab8b08ddb3639b5e171ee59e621768347090420",
+    "annual_cohesion.csv": "3da4da74a5ca313ecfba11c439f707f662351ed48877b361a4ef49aaf2c52522",
+    "leader_representativeness.csv": "abc8d2a3f1e9cb79c42e2d8efc8028278bf25584079703535db6df33a4ea4a61",
+    "leader_daily.parquet": "6de0b7d40a152a672e67e9c7a41fa8d281b725251b5a6199046ab4683aeea45a",
+    "market_factors.parquet": "4676dd1c6271959909649f7b4c148abe620cd9ce3cb77bb74a3cf28f9368cf34",
+    "stability_by_sector.csv": "39d51de42ef824be09d0ab660c64bb8c350fa9a056df1920e731df2715ca5929",
+    "annual_rank_stability.csv": "b544a31ffc7ed27169e2992f6260a70802b6ccffdd0e9a74d5921aedc1f2da71",
+    "cohesion_overview.png": "5944682a10eeda6b8f55813ccc98ce7c708f252f25bd968e599e6182123799f0",
+    "cohesion_overview.pdf": "7716b2342a018538a23cf327467b3d866bb7ff49dfa2af6efddf1c73c58a4073",
+    "cohesion_all_sectors.png": "42bc1559bef3e1eb68f0d3f821c6d3f16d214b579e9c68f312a75530f599c39e",
+    "cohesion_all_sectors.pdf": "925158edc48c9fbeba6b64676bf9a922310ac50db648d4d1b4b863d9c0a6623f",
+    "annual_cohesion_heatmap.png": "7f382552b83abf4dad766c75487947c4d9e353cf2a28221ba0b7a27e02a5684a",
+    "annual_cohesion_heatmap.pdf": "9dd9764f7d34be7d85ab4f675df991b65bdc8a079d56058ed7203920daa7130e",
+    "README.md": "76e6310daddd1f7d6dcf6ec20517f2dd67253f18d76ed68dde84bf93b4de71dd",
+    "summary.json": "ea00e35df1be1b741e0aa843a2e83bc45b2d9ba8f44aec8fa1d81d0efa675ff2",
+    "validation.json": "abed42ca39eeadf5118d54130128485ed57c761d0846bca164a29f1bb2988074",
+    "sector_cohesion_v1.yaml": "474762a12bdcf90c1681a451a76c1f4750c7d1825f26dbb19d9d326a052a46de",
+    "research_sector_cohesion.py": "5701fce3ac035f1dbf0cc7de00bd2d9418fd6abfd1afe3866206d010a0e02671",
+    "sector_cohesion.py": "21af66eed94b93a678bfa20f877c15324607fb2264f2ac2ff20dd7a795828eb1",
+    "test_sector_cohesion.py": "fd689a58c02bb7f5678aef37b683823be05444a4d29a7e183a9cbe735d89e3f4"
+  }
+}

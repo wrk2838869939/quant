@@ -1,0 +1,79 @@
+output_root: outputs/policy_cash
+parent: outputs/symmetric_phase/20260913T061312_007478Z
+source_panel: outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet
+execution_features: outputs/autonomous_value_research/20260912T160734_658714Z/execution/pit_review_features.parquet
+history:
+- '2014-01-01'
+- '2023-12-31'
+fit_end: '2018-12-31'
+final_fit_end: '2021-12-31'
+development:
+- '2019-01-01'
+- '2021-12-31'
+execution:
+- '2022-01-01'
+- '2023-12-31'
+mainboard_pattern: ^(?:(?:000|001|002|003)[0-9]{3}\.SZ|(?:600|601|603|605)[0-9]{3}\.SH)$
+features:
+- x_mom60
+- x_mom120
+- x_continuity
+- x_jump_share
+- x_extension
+- x_volatility
+- x_drawdown
+- x_log_size
+- x_turnover
+targets:
+- fixed60
+- fixed120
+- patient120
+forecast:
+  horizon: 120
+  alpha: 1.0
+  bootstrap_reps: 100
+  block_dates: 6
+  seed: 20260913
+  min_dates: 36
+common_risk_target: patient120_mae
+entry:
+  min_expected_return: 0.005
+  max_expected_adverse: 0.15
+trend:
+  medium_window: 60
+  long_window: 120
+  min_return: 0.0
+  require_above_long_ma: true
+exit_confirmations: 2
+unknown_keeps_failure: false
+capitals:
+- 20000.0
+- 50000.0
+- 100000.0
+reference_capital: 50000.0
+cash_actions:
+- none
+- entry_only
+- liquidate
+cash_risk_source: outputs/retail_validation/20260912T141535_114074Z/risk_plans.csv
+cash_risk_column: extreme_recovery
+cash_cases: 16
+cash_stress_cost_multiplier: 2.0
+cash_fixed_reserve_fraction: 0.5
+retail:
+  max_positions: 5
+  max_stock_fraction: 0.25
+  candidate_pool: 20
+  solver_relative_gap: 0.001
+  selection_first: true
+risk_signal_max_age: 21
+reentry_on_schedule_only: true
+limits_api:
+  workers: 2
+  interval_seconds: 0.4
+  row_limit: 5800
+policy_label_scope: gross adjusted unit path with explicit official-limit availability;
+  not cash-share accounting
+stop_rule: No capacity or horizon scan; policy target must beat both fixed targets
+  on common patient target after same-sample maturity; cash gains require event/exposure
+  explanation, no promotion on reused windows.

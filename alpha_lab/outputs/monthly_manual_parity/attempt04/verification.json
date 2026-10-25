@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "account": "continued_01_rank_cost0_budget50",
+      "days": 1134,
+      "orders": 139,
+      "restores": 13,
+      "exact_economic_orders": true,
+      "guarded_missing_quote_days": []
+    },
+    {
+      "account": "continued_08_rank_cost0_budget50",
+      "days": 1134,
+      "orders": 140,
+      "restores": 9,
+      "exact_economic_orders": true,
+      "guarded_missing_quote_days": [
+        {
+          "date": "2022-10-26",
+          "missing_quotes": [
+            "600900.SH"
+          ],
+          "research_orders": 0
+        }
+      ]
+    },
+    {
+      "account": "continued_15_rank_cost0_budget50",
+      "days": 1134,
+      "orders": 124,
+      "restores": 12,
+      "exact_economic_orders": true,
+      "guarded_missing_quote_days": [
+        {
+          "date": "2022-10-26",
+          "missing_quotes": [
+            "600900.SH"
+          ],
+          "research_orders": 0
+        }
+      ]
+    },
+    {
+      "account": "continued_22_rank_cost0_budget50",
+      "days": 1134,
+      "orders": 137,
+      "restores": 11,
+      "exact_economic_orders": true,
+      "guarded_missing_quote_days": []
+    }
+  ],
+  "historical_fixture": true,
+  "real_fills": false,
+  "corporate_actions": "research_settled_fixture; live_manual_pause_tested_separately"
+}

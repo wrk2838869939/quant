@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "n_codes": 281,
+  "reviews": 404,
+  "old_monthly_signal_exact": true,
+  "old_monthly_forecasts_exact": true,
+  "old_hybrid_hold_exact": true,
+  "constant": 0.031093841602849885,
+  "prefix_checks": [
+    {
+      "stop": "2023-06-30 00:00:00",
+      "features_exact": 9
+    },
+    {
+      "stop": "2025-06-30 00:00:00",
+      "features_exact": 9
+    }
+  ],
+  "artifacts": {
+    "schedules/calendar_01/signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "schedules/calendar_01/forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "schedules/calendar_01/hold.parquet": "dd55b78503a4c5b46b034f095dc081c669c07dd6dc5c23d9fd46158dd88e1048",
+    "schedules/calendar_08/signals.parquet": "d5f37685ea1727b3eb0c9ded94cd58818a52dda2930d15d272af4b1b38dc7c99",
+    "schedules/calendar_08/forecasts.parquet": "ec647cd9e4a689ac1fc3f4fac71284c6ad34198465e094d3a140836aaf8cd04c",
+    "schedules/calendar_08/hold.parquet": "bd35f122888ad609403c544f7421873d8d32e537776d525455535f9ac5839435",
+    "schedules/calendar_15/signals.parquet": "2e476dcccfe1ac54df9297dc7b6620c3e188d43abbe622123784db827d1ba460",
+    "schedules/calendar_15/forecasts.parquet": "52fecc53294caab9d5c3cadced06f7f242976879f0ad61d7fbb494cd059be001",
+    "schedules/calendar_15/hold.parquet": "3953c3de7d769c54eb2c42f1b70269b4da77e7e56af96402dea4152419760018",
+    "schedules/calendar_22/signals.parquet": "d7fe991c7cecae212d8fade5669c066e888f692393cabb2ef1802cb25ba18618",
+    "schedules/calendar_22/forecasts.parquet": "e6811ed27a01ac8ceda13bb6d049dc95cf268f936875cafe056431f9008aee96",
+    "schedules/calendar_22/hold.parquet": "b61a85e5256c390a728972be57369dfeb10336b457e42b3ff1a9bf2f97632e9c",
+    "schedules/rolling_00/signals.parquet": "85b24a70ffe9cbb50337ce23322590b26fab765dc8ff544fae657f9c46637796",
+    "schedules/rolling_00/forecasts.parquet": "2d36a2fe1f64602e4e1fd055f114b805001af0c05fd55fd8536bdf299f0f6462",
+    "schedules/rolling_00/hold.parquet": "ae7facd41072dd20e6fd03c4de5a6abe00bcac2d4ce746da5a4623aa869cae2b",
+    "schedules/rolling_05/signals.parquet": "4b92028e010e5d31ffee33cacf3e2577da9239c562522491fb11e8bfcd67b47b",
+    "schedules/rolling_05/forecasts.parquet": "ae088df0a83e131e6282327dc25e6eb51623d321c333d08e4b5ec9d49eb4a109",
+    "schedules/rolling_05/hold.parquet": "beac3a53ad9fad4d9dca09dbd7a67edeb234c17d74df9cf66c71bb77e8e75317",
+    "schedules/rolling_10/signals.parquet": "556347afc0cd6492d7cffdac4bcf981dd86809003c46ab800dccd8345f721531",
+    "schedules/rolling_10/forecasts.parquet": "28e18f40f3c8c665fbf4dccc8807a1acdcab0d787cfd7ec2568a709a847d88b0",
+    "schedules/rolling_10/hold.parquet": "d11acda6920696a89ab84b459200ddf15af3a8028d2ce157714f8502948ac897",
+    "schedules/rolling_15/signals.parquet": "dadafc76110313e23eb9996e673a26dd22c543061589b643bde1ec545901a34c",
+    "schedules/rolling_15/forecasts.parquet": "eeab25562c061d6c9c7af467988a41184e41b3514a07cfa4797c550934f01eb4",
+    "schedules/rolling_15/hold.parquet": "fb8301bd87240a9d3704debc13d7cf1545cb257a67732a27ed0b7a3757b48f9c"
+  }
+}

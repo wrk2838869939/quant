@@ -1,0 +1,298 @@
+{
+  "status": "passed",
+  "source_sha256": "3069a4a4a86d70a4e1889070454dee668e1492fcc5b4e2450d49e91a0e7bc6a4",
+  "exits_verified": 1062,
+  "labels_and_mae_recomputed": true,
+  "entries_verified": 1106,
+  "nonoverlap_checked": true,
+  "models": [
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2018,
+      "train_events": 211,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.3877787807814457e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2019,
+      "train_events": 321,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2020,
+      "train_events": 419,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2021,
+      "train_events": 537,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2022,
+      "train_events": 663,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.020562075079397e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2023,
+      "train_events": 762,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2024,
+      "train_events": 821,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.0408340855860843e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2025,
+      "train_events": 877,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 20,
+      "year": 2026,
+      "train_events": 950,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2018,
+      "train_events": 190,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.0408340855860843e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2019,
+      "train_events": 281,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2020,
+      "train_events": 386,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2021,
+      "train_events": 474,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2022,
+      "train_events": 610,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2023,
+      "train_events": 714,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.3877787807814457e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2024,
+      "train_events": 776,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2025,
+      "train_events": 841,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.0408340855860843e-16
+    },
+    {
+      "target": "mae",
+      "horizon": 60,
+      "year": 2026,
+      "train_events": 908,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2018,
+      "train_events": 211,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.249000902703301e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2019,
+      "train_events": 321,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.367506770274758e-17
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2020,
+      "train_events": 419,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.0755285551056204e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2021,
+      "train_events": 537,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2022,
+      "train_events": 663,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2023,
+      "train_events": 762,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.80118763926896e-17
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2024,
+      "train_events": 821,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1102230246251565e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2025,
+      "train_events": 877,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.0581813203458523e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 20,
+      "year": 2026,
+      "train_events": 950,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.540979117872439e-17
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2018,
+      "train_events": 190,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.3877787807814457e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2019,
+      "train_events": 281,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1535911115245767e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2020,
+      "train_events": 386,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1188966420050406e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2021,
+      "train_events": 474,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.3530843112619095e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2022,
+      "train_events": 610,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2023,
+      "train_events": 714,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1796119636642288e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2024,
+      "train_events": 776,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.1796119636642288e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2025,
+      "train_events": 841,
+      "model_fitted": true,
+      "manual_prediction_max_error": 1.214306433183765e-16
+    },
+    {
+      "target": "ret",
+      "horizon": 60,
+      "year": 2026,
+      "train_events": 908,
+      "model_fitted": true,
+      "manual_prediction_max_error": 9.71445146547012e-17
+    }
+  ]
+}

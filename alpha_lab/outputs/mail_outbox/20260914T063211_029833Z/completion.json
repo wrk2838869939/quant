@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "tests_passed": 74,
+  "prior_artifacts_verified": 10,
+  "root_agents_unchanged": true,
+  "smtp_connected": false,
+  "mail_sent": false,
+  "scheduled_sender_started": false,
+  "artifact_sha256": {
+    "cli_dry_run.log": "7d02d1ef5bcd9df7e9f14567cc16da9488a355faea7b4b2b0e35ba63cfc9fbcb",
+    "dry_run.sqlite": "d5ab8d68222d3a18f1feed832eba718191be10293f9d279423077fd20c6a9d94",
+    "sources/docs/MAIL_OUTBOX_20260914.md": "a7f90b9adbdef06dbf87d5f49b16cc8ad702399b04dc8f0c49d91d9884aa26f1",
+    "sources/scripts/mail_outbox.py": "74a59afcef2700d617c6db43f68da46c3af9ce99c29d3866b1f8777e18b00052",
+    "sources/src/mail_outbox.py": "cba6f3a230d6c3590bdccd392d99656904b2a56241a291d815e3ea508400fe5a",
+    "sources/tests/test_mail_outbox.py": "7a33dd19ec8e5212b5459ba42637b7c246b763c7b10be0ec008a4ceeeb49ada2",
+    "tests.log": "32087615e788099b237e53c5aca3605886c3296a38ada50f89a581f2cc46dde3"
+  }
+}

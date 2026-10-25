@@ -1,0 +1,19 @@
+{
+  "trials": 336,
+  "errors": 0,
+  "unique_fit_records": 1904,
+  "successful_fits": 1904,
+  "insufficient_training": 0,
+  "label_availability_pass": true,
+  "model_hashes_pass": true,
+  "independent_accounts": 26,
+  "trades_checked": 11144,
+  "cash_max_error": 1.709850039333105e-10,
+  "roundtrip_branches": 12,
+  "real_prediction_prefix_checks": 7,
+  "account_prefix_checks": 14,
+  "nonmonotonic_triplets": 0,
+  "outer_after_all_locks": true,
+  "current_source_hashes_pass": true,
+  "input_hashes_pass": true
+}

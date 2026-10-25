@@ -1,0 +1,15 @@
+{
+  "source_run": "alpha_lab/outputs/baseline_initialized_policy/20260920T144455_372980Z",
+  "tasks": 24,
+  "improved_last2": 16,
+  "improved_last_generation": 10,
+  "last_improvement_distribution": {
+    "4": 4,
+    "5": 3,
+    "6": 1,
+    "7": 6,
+    "8": 10
+  },
+  "baseline_last2": 6,
+  "random_last2": 10
+}

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "scope": "仅原monthly review已知许可单元；非review不生成退出动作",
+  "order": [
+    "fast",
+    "persist5",
+    "persist10",
+    "persist15",
+    "baseline",
+    "slow"
+  ],
+  "checks": [
+    {
+      "left": "fast",
+      "right": "persist5",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "persist5",
+      "right": "persist10",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "persist10",
+      "right": "persist15",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "persist15",
+      "right": "baseline",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "baseline",
+      "right": "slow",
+      "known_cells": 9616,
+      "violations": 0
+    }
+  ],
+  "matrix_report_sha256": "e79581da1c39bb62aa61c37fad8d8e65c4bd94a5fb59a7083802f008b2f57c62",
+  "interpretation": "同一股同一外生历史状态，persist为原两次确认兜底的提前退出，许可不大于baseline；不同账户路径不可据此比较各自最后成交时间或收益"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "source_hashes_verified": true,
+  "coefficient_reproduction": true,
+  "prediction_reproduction": true,
+  "independently_rebuilt_paths": 50,
+  "max_path_error": 0.0,
+  "max_positions": 5,
+  "last_training_label": "2018-12-05 00:00:00",
+  "all_test_labels_before_2022": true,
+  "metadata_hashes": {
+    "data/raw/stock_basic_all.parquet": "6dbbe2bfe573231036b135a14bd5da748e2ee3f15a02f9b374de8bd27e08fd1b",
+    "data/raw/namechange_all.parquet": "677d06173e8bdf29d5376824a68b70498fbf476da6a2abc2b93e75b0ca34bd2b"
+  },
+  "verifier_hash": "e15d37520a0c7c6b85adc6e0578de51cc4776b5d461f68dc2ede15a456010242",
+  "controls": {
+    "purpose": "Check whether learned path score adds anything beyond low volatility or low turnover",
+    "controls": [
+      "low_volatility",
+      "low_turnover"
+    ],
+    "post_hoc_diagnostic": true,
+    "no_parameter_selection": true
+  }
+}

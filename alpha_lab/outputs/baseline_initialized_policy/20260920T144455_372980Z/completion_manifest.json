@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "core_manifest_sha256": "a0abf099cc33a45f431b90393fd860df4fa935d7af2d3fb57279f66589ee85b6",
+  "core_artifact_manifest_sha256": "d89060553e1e97b449f9afb747d94de799072e06732470e829d76f520301a15e",
+  "verified_core_artifacts": 23295,
+  "frozen_source_hashes_unchanged": true,
+  "documentation_hashes": {
+    "alpha_lab/docs/BASELINE_INITIALIZED_POLICY_RESULTS_20260920.md": "039d2acfb6bb578ed3e580b16079108a1a8e6eff11be47b7f75efe5090094450",
+    "alpha_lab/docs/BASELINE_INITIALIZED_POLICY_LEARNING_20260920.md": "f2ac78c3c1d53a6829bc093dd3a2e5ec525e667e5478afbc7cddccd536888b63",
+    "alpha_lab/configs/baseline_initialized_policy_design.yaml": "915e18685838eb6d900941190628dfbafbd334bf58889ad3d39e7e627c3bd113",
+    "alpha_lab/docs/BASELINE_LEARNING_GAP_20260920.md": "a85f6129b197adde809d1775b433686df33544ba4c85c672bbec8ecfa46b1616",
+    "alpha_lab/docs/STRATEGY_CANDIDATES_20260920.md": "bdcb8f535b90510e5b1a21a81fc7dec3e37d859c98e17e049379e18d0b11b7e3"
+  },
+  "supplemental_artifact_hashes": {
+    "diagnostics/all_evaluations.csv": "ce126b2b010603016c62d7786df9843caa5a4044a6d01fb8036bb3a0d460209c",
+    "diagnostics/independent_audits.csv": "25e948921b1646688e5d82a3b406005e171358bd877d1563d3988c059e2246b4",
+    "diagnostics/measured_direction_triplets.csv": "3e49ca02c492eee283740d04294e46becab44b2d5f8f8086c4c941071260796f",
+    "diagnostics/selected_parameter_changes.csv": "eab2ac7d748de6a3c7c6d5bf27d238f3cfd01004f92d7c5645a2d7888a9eeb9a",
+    "diagnostics/behavior_changes.csv": "4e93d2ce4d402036c9ac4b6b46b1a153dfd141cc4e35bd7ecc5cff75857f68e8",
+    "diagnostics/high_performance_flags.json": "d6d9186b31382081c1e6178750292e55b905f455389ea183e64f0663e4bd508a",
+    "diagnostics/summary.json": "8c9f0eff8c4853084f3d7d9dfcd5805b6414434862a088fa55e8aade3ecb63f1",
+    "diagnostics/net_asset_comparison.png": "c8977143837de827d3e70fc12559441c01aefa6e0769ccb13ab0ee58ded7b3a5",
+    "diagnostics/net_asset_comparison.svg": "e4cfb07e81a029ca4d39fe6217e7eda52c02e5282366942b8e52ff6aa282da13",
+    "diagnostics/BASELINE_INITIALIZED_POLICY_RESULTS_20260920.md": "039d2acfb6bb578ed3e580b16079108a1a8e6eff11be47b7f75efe5090094450",
+    "diagnostics/report_sources.json": "25fe76347954f9f9a140a72ee50b41a0c6a013684788307222bded3d07171284",
+    "diagnostics/report.log": "09127724fbfaab5f66d0587ff56f9053633eb04ba31c75d41d1882b57e246bbd",
+    "diagnostics/report_initialized_policy.py": "6e6cb9c4f0949084ab6900f3d14d1ba7aa38521ca809ac9e62a0709414917504"
+  },
+  "execution_log_sha256": "735a0ea3a79217404944194b4c9e357abfdf3fd31b4519adb65798b035602c93"
+}

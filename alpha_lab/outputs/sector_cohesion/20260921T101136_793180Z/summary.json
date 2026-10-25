@@ -1,0 +1,46 @@
+{
+  "recent_start": "2025-08-26",
+  "recent_end": "2026-09-08",
+  "sectors": 103,
+  "raw_median": 0.3450572608640777,
+  "market_median": 0.3010097988904677,
+  "market_size_median": 0.2704168828617449,
+  "rank_stability": [
+    {
+      "first": 2022,
+      "second": 2023,
+      "sectors": 103,
+      "rank_correlation": 0.8869107762597198
+    },
+    {
+      "first": 2023,
+      "second": 2024,
+      "sectors": 103,
+      "rank_correlation": 0.6188441769538285
+    },
+    {
+      "first": 2024,
+      "second": 2025,
+      "sectors": 103,
+      "rank_correlation": 0.5668738742696481
+    },
+    {
+      "first": 2025,
+      "second": 2026,
+      "sectors": 103,
+      "rank_correlation": 0.8971027544699732
+    }
+  ],
+  "proxies": {
+    "cap_top3": {
+      "raw_lag0_corr": 0.6667034884511102,
+      "residual_lag0_corr": 0.587121756402866,
+      "residual_lag1_corr": 0.011243405201018386
+    },
+    "momentum60_top3": {
+      "raw_lag0_corr": 0.5805367900573487,
+      "residual_lag0_corr": 0.43369428950113387,
+      "residual_lag1_corr": 0.022549628805749553
+    }
+  }
+}

@@ -1,0 +1,16 @@
+window,stage,events,dates,sectors
+15,watch,532,247,121
+15,trigger,340,185,115
+15,confirmed,230,115,101
+10,watch,562,260,121
+10,trigger,339,196,111
+10,confirmed,231,129,98
+20,watch,484,228,121
+20,trigger,306,168,113
+20,confirmed,219,112,104
+30,watch,371,182,112
+30,trigger,215,124,92
+30,confirmed,144,86,81
+40,watch,322,161,107
+40,trigger,195,118,92
+40,confirmed,132,74,77

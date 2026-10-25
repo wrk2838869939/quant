@@ -1,0 +1,38 @@
+[
+  {
+    "strategy": "candidate",
+    "status": "not_assessed",
+    "reason": "iid_return_assumption_not_accepted",
+    "dsr_probability": null,
+    "p_value": null,
+    "method": "DSR_2014_iid",
+    "independent_trials": null
+  },
+  {
+    "strategy": "industry_board",
+    "status": "not_assessed",
+    "reason": "iid_return_assumption_not_accepted",
+    "dsr_probability": null,
+    "p_value": null,
+    "method": "DSR_2014_iid",
+    "independent_trials": null
+  },
+  {
+    "strategy": "size_matched",
+    "status": "not_assessed",
+    "reason": "iid_return_assumption_not_accepted",
+    "dsr_probability": null,
+    "p_value": null,
+    "method": "DSR_2014_iid",
+    "independent_trials": null
+  },
+  {
+    "strategy": "size_liquidity_matched",
+    "status": "not_assessed",
+    "reason": "iid_return_assumption_not_accepted",
+    "dsr_probability": null,
+    "p_value": null,
+    "method": "DSR_2014_iid",
+    "independent_trials": null
+  }
+]

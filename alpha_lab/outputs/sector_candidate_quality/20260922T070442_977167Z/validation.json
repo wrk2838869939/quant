@@ -1,0 +1,7 @@
+{
+  "source_hashes": true,
+  "feature_prefix_exact": true,
+  "leader_snapshot_reproduction": true,
+  "leader_rest_disjoint": true,
+  "within_date_zero_mean": true
+}

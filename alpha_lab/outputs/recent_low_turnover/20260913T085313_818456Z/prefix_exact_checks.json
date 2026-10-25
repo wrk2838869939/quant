@@ -1,0 +1,50 @@
+[
+  {
+    "check": "all_A_monthly_features_exact",
+    "passed": true,
+    "rows": 108891,
+    "columns": 24
+  },
+  {
+    "check": "mainboard_low_turnover_predictions_exact",
+    "passed": true,
+    "rows": 69855,
+    "columns": 9
+  },
+  {
+    "check": "monthly_hold_allowed_exact",
+    "passed": true,
+    "rows": 24,
+    "columns": 5502
+  },
+  {
+    "check": "monthly_hold_allowed_new_code_prefix_unavailable",
+    "passed": true,
+    "added_codes": 317,
+    "nonmissing_prefix_values": 0
+  },
+  {
+    "check": "low_turnover_signals_exact",
+    "passed": true,
+    "rows": 24,
+    "columns": 5502
+  },
+  {
+    "check": "low_turnover_signals_new_code_prefix_unavailable",
+    "passed": true,
+    "added_codes": 317,
+    "nonmissing_prefix_values": 0
+  },
+  {
+    "check": "low_turnover_point_forecasts_exact",
+    "passed": true,
+    "rows": 24,
+    "columns": 5502
+  },
+  {
+    "check": "low_turnover_point_forecasts_new_code_prefix_unavailable",
+    "passed": true,
+    "added_codes": 317,
+    "nonmissing_prefix_values": 0
+  }
+]

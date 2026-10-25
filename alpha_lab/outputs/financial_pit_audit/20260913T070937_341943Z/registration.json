@@ -1,0 +1,9 @@
+{
+  "status": "registered",
+  "purpose": "read_only_fina_indicator_snapshot_PIT_audit",
+  "announcement_cutoff": "2023-12-31",
+  "report_period_cutoff": "2023-12-31",
+  "training": false,
+  "raw_table_modified": false,
+  "credentials_accessed": false
+}

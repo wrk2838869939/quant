@@ -1,0 +1,146 @@
+[
+  {
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "random",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "random",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "B03_valuation",
+    "initialization": "random",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "random",
+    "cutoff": "2021-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "random",
+    "cutoff": "2022-06-30",
+    "raw_features_and_account_prefix": true
+  },
+  {
+    "host": "equal_weight",
+    "initialization": "random",
+    "cutoff": "2023-06-30",
+    "raw_features_and_account_prefix": true
+  }
+]

@@ -1,0 +1,1466 @@
+{
+  "independent_pair_checks": [
+    {
+      "scope": "recent",
+      "sector_code": "801012.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801014.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801015.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801017.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801018.SI",
+      "days": 203
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801032.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801033.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801034.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801036.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801037.SI",
+      "days": 170
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801039.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801043.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801044.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801045.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801053.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801054.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801056.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801072.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801074.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801076.SI",
+      "days": 246
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801077.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801078.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801081.SI",
+      "days": 241
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801082.SI",
+      "days": 241
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801083.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801084.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801086.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801092.SI",
+      "days": 202
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801093.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801095.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801101.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801102.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801103.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801104.SI",
+      "days": 160
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801111.SI",
+      "days": 242
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801113.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801114.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801115.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801116.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801125.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801126.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801127.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801128.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801129.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801131.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801132.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801133.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801141.SI",
+      "days": 249
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801142.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801143.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801145.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801151.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801152.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801153.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801154.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801156.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801161.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801178.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801179.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801183.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801191.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801194.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801203.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801204.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801206.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801218.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801219.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801223.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801231.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801711.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801713.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801721.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801723.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801724.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801731.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801733.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801735.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801736.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801737.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801738.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801741.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801742.SI",
+      "days": 243
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801743.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801744.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801745.SI",
+      "days": 150
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801764.SI",
+      "days": 250
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801765.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801766.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801767.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801782.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801783.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801784.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801785.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801951.SI",
+      "days": 241
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801952.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801962.SI",
+      "days": 245
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801971.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801972.SI",
+      "days": 247
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801981.SI",
+      "days": 242
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801991.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801992.SI",
+      "days": 252
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801993.SI",
+      "days": 232
+    },
+    {
+      "scope": "recent",
+      "sector_code": "801995.SI",
+      "days": 252
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801012.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801014.SI",
+      "days": 1097
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801015.SI",
+      "days": 1145
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801017.SI",
+      "days": 260
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801018.SI",
+      "days": 460
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801032.SI",
+      "days": 1129
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801033.SI",
+      "days": 151
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801034.SI",
+      "days": 1139
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801036.SI",
+      "days": 985
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801037.SI",
+      "days": 170
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801039.SI",
+      "days": 1135
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801043.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801044.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801045.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801053.SI",
+      "days": 974
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801054.SI",
+      "days": 1138
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801056.SI",
+      "days": 765
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801072.SI",
+      "days": 1134
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801074.SI",
+      "days": 151
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801076.SI",
+      "days": 1143
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801077.SI",
+      "days": 1134
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801078.SI",
+      "days": 800
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801081.SI",
+      "days": 500
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801082.SI",
+      "days": 956
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801083.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801084.SI",
+      "days": 1134
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801086.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801092.SI",
+      "days": 376
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801093.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801095.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801101.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801102.SI",
+      "days": 151
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801103.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801104.SI",
+      "days": 1051
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801111.SI",
+      "days": 490
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801113.SI",
+      "days": 967
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801114.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801115.SI",
+      "days": 682
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801116.SI",
+      "days": 1013
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801125.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801126.SI",
+      "days": 1145
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801127.SI",
+      "days": 1041
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801128.SI",
+      "days": 1143
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801129.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801131.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801132.SI",
+      "days": 511
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801133.SI",
+      "days": 996
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801141.SI",
+      "days": 636
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801142.SI",
+      "days": 151
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801143.SI",
+      "days": 625
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801145.SI",
+      "days": 957
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801151.SI",
+      "days": 1138
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801152.SI",
+      "days": 1142
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801153.SI",
+      "days": 149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801154.SI",
+      "days": 1147
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801156.SI",
+      "days": 331
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801161.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801178.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801179.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801183.SI",
+      "days": 91
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801191.SI",
+      "days": 570
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801194.SI",
+      "days": 91
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801203.SI",
+      "days": 1143
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801204.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801206.SI",
+      "days": 1147
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801218.SI",
+      "days": 260
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801219.SI",
+      "days": 636
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801223.SI",
+      "days": 992
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801231.SI",
+      "days": 760
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801711.SI",
+      "days": 629
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801713.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801721.SI",
+      "days": 1121
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801723.SI",
+      "days": 1147
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801724.SI",
+      "days": 996
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801731.SI",
+      "days": 656
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801733.SI",
+      "days": 1147
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801735.SI",
+      "days": 509
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801736.SI",
+      "days": 223
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801737.SI",
+      "days": 1142
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801738.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801741.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801742.SI",
+      "days": 89
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801743.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801744.SI",
+      "days": 1138
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801745.SI",
+      "days": 541
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801764.SI",
+      "days": 67
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801765.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801766.SI",
+      "days": 91
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801767.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801782.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801783.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801784.SI",
+      "days": 1120
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801785.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801951.SI",
+      "days": 1123
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801952.SI",
+      "days": 1147
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801962.SI",
+      "days": 1128
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801971.SI",
+      "days": 538
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801972.SI",
+      "days": 504
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801981.SI",
+      "days": 634
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801991.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801992.SI",
+      "days": 365
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801993.SI",
+      "days": 1127
+    },
+    {
+      "scope": "sw2021",
+      "sector_code": "801995.SI",
+      "days": 1149
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801011.SI",
+      "days": 358
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801012.SI",
+      "days": 449
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801013.SI",
+      "days": 1114
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801014.SI",
+      "days": 170
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801015.SI",
+      "days": 1668
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801017.SI",
+      "days": 322
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801018.SI",
+      "days": 229
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801021.SI",
+      "days": 177
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801022.SI",
+      "days": 640
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801023.SI",
+      "days": 928
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801024.SI",
+      "days": 1569
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801032.SI",
+      "days": 579
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801033.SI",
+      "days": 1044
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801034.SI",
+      "days": 356
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801035.SI",
+      "days": 1930
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801036.SI",
+      "days": 1808
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801037.SI",
+      "days": 1902
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801041.SI",
+      "days": 1819
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801053.SI",
+      "days": 235
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801054.SI",
+      "days": 63
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801072.SI",
+      "days": 319
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801073.SI",
+      "days": 112
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801074.SI",
+      "days": 1899
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801076.SI",
+      "days": 133
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801081.SI",
+      "days": 830
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801082.SI",
+      "days": 1067
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801083.SI",
+      "days": 1764
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801084.SI",
+      "days": 1632
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801092.SI",
+      "days": 1519
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801093.SI",
+      "days": 1921
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801094.SI",
+      "days": 1924
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801101.SI",
+      "days": 1102
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801102.SI",
+      "days": 173
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801111.SI",
+      "days": 1856
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801123.SI",
+      "days": 606
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801131.SI",
+      "days": 181
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801132.SI",
+      "days": 88
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801141.SI",
+      "days": 591
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801142.SI",
+      "days": 1794
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801143.SI",
+      "days": 984
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801144.SI",
+      "days": 283
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801151.SI",
+      "days": 467
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801152.SI",
+      "days": 645
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801153.SI",
+      "days": 828
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801154.SI",
+      "days": 1082
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801156.SI",
+      "days": 1150
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801161.SI",
+      "days": 1658
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801162.SI",
+      "days": 858
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801164.SI",
+      "days": 1832
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801171.SI",
+      "days": 1892
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801172.SI",
+      "days": 81
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801173.SI",
+      "days": 914
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801174.SI",
+      "days": 1931
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801175.SI",
+      "days": 1854
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801176.SI",
+      "days": 138
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801178.SI",
+      "days": 120
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801182.SI",
+      "days": 234
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801191.SI",
+      "days": 248
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801192.SI",
+      "days": 1921
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801194.SI",
+      "days": 1069
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801203.SI",
+      "days": 455
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801204.SI",
+      "days": 327
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801205.SI",
+      "days": 589
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801211.SI",
+      "days": 252
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801213.SI",
+      "days": 104
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801214.SI",
+      "days": 814
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801215.SI",
+      "days": 235
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801222.SI",
+      "days": 120
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801223.SI",
+      "days": 1179
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801231.SI",
+      "days": 364
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801711.SI",
+      "days": 1406
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801713.SI",
+      "days": 764
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801721.SI",
+      "days": 306
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801723.SI",
+      "days": 577
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801724.SI",
+      "days": 311
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801725.SI",
+      "days": 1545
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801731.SI",
+      "days": 1751
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801732.SI",
+      "days": 1691
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801733.SI",
+      "days": 369
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801734.SI",
+      "days": 587
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801741.SI",
+      "days": 590
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801742.SI",
+      "days": 583
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801743.SI",
+      "days": 976
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801744.SI",
+      "days": 555
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801751.SI",
+      "days": 1075
+    },
+    {
+      "scope": "sw2014",
+      "sector_code": "801752.SI",
+      "days": 510
+    }
+  ],
+  "minimum_days": true,
+  "symmetry": true
+}

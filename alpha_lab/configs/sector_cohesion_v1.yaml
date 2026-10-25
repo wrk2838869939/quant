@@ -1,0 +1,19 @@
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+prior_internal: alpha_lab/outputs/sector_internal_correlation/20260921T075701_984968Z
+output_root: alpha_lab/outputs/sector_cohesion
+history_start: '2021-01-04'
+classification: SW2021
+market_index: 000300.SH
+small_index: 000905.SH
+beta_window: 126
+beta_minimum_days: 60
+minimum_pair_days: 60
+recent_sessions: 252
+stability_years: [2022, 2023, 2024, 2025, 2026]
+leader_count: 3
+minimum_leader_returns: 2
+minimum_remaining_returns: 2
+momentum_window: 60
+covariance_epsilon: 1.0e-14
+font: fonts/SimHei.ttf
+dpi: 170

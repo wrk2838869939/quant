@@ -1,0 +1,9 @@
+study: baseline_attribution_v1
+source_run: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+balance_run: alpha_lab/outputs/policy_balance/20260921T043247_252598Z
+baselines: [B01_low_turnover, B02_low_risk, B03_valuation, equal_weight]
+start: '2021-01-01'
+end: '2023-12-31'
+comparison_start: '2022-01-01'
+style_window: 20
+stress_top_n: 5

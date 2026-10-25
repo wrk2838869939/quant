@@ -1,0 +1,10 @@
+strategy,close_valuation_max_error,recomputed_mdd,next_session_buys,returns_recomputed,position_count_pass
+momentum_daily,0.0,-0.7357387477152397,True,True,True
+momentum_monthly,0.0,-0.5185805476249685,True,True,True
+macd_daily,0.0,-0.7176364205241285,True,True,True
+macd_monthly,0.0,-0.6070340782928343,True,True,True
+moving_average_daily,0.0,-0.7441182719589223,True,True,True
+moving_average_monthly,0.0,-0.5780406252053908,True,True,True
+random_daily,0.0,-0.954465284338143,True,True,True
+random_monthly,0.0,-0.4588321175723502,True,True,True
+cash_daily,0.0,0.0,True,True,True

@@ -1,0 +1,24 @@
+{
+  "data/raw/stock_basic_all.parquet": {
+    "sha256": "6dbbe2bfe573231036b135a14bd5da748e2ee3f15a02f9b374de8bd27e08fd1b",
+    "size": 173250
+  },
+  "data/raw/namechange_all.parquet": {
+    "sha256": "677d06173e8bdf29d5376824a68b70498fbf476da6a2abc2b93e75b0ca34bd2b",
+    "size": 294778
+  },
+  "data/raw/index_daily.parquet": {
+    "sha256": "cd6dc3b7b8cdbe3dcaeef7de1e623824f2e8fc7a23867b3e2239faf5a0f37e02",
+    "size": 1839163
+  },
+  "data/raw/sw_l1_member_hist.parquet": {
+    "sha256": "658f2de62f830645c9a158c0389ada9ccd059b6c9cf1feaf2afe8b4a86728342",
+    "size": 68054
+  },
+  "data/panel/daily_panel.parquet": {
+    "size": 3482222501,
+    "mtime_ns": 1788917194170939057,
+    "research_date_filter": "2022-01-01 <= date <= 2023-12-31"
+  },
+  "snapshot_timing": "post_run; hashes record current input state, not proof of pre-run immutability"
+}

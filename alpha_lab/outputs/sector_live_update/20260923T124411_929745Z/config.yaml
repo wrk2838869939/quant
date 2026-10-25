@@ -1,0 +1,18 @@
+asof: '2026-09-23'
+previous_end: '2026-09-08'
+endpoint: http://jiaoch.site/api
+timeout_seconds: 25
+retries: 3
+workers: 2
+apis: [daily, adj_factor, daily_basic, moneyflow]
+minimum_daily_rows: 4500
+minimum_basic_coverage: 0.95
+output_root: alpha_lab/outputs/sector_live_update
+release: datahub/releases/selection_live_20260923
+old_release: datahub/releases/selection_v1_20260920
+old_sector_dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+recent_signal_sessions: 5
+initial_capital: 100000
+maximum_drawdown: 0.30
+font: fonts/SimHei.ttf
+dpi: 140

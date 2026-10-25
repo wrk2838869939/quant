@@ -1,0 +1,86 @@
+{
+  "parent": "/root/autodl-tmp/alpha_lab/outputs/cash_robustness/20260914T102042_513326Z",
+  "parent_completion_sha256": "96fce144d1678bb36658d42e4175f9624ad70a09c38f293fbfc38675077d1bcd",
+  "input_sha256": {
+    "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet": "04d1b49b8e6b8907bb9767be235723dc8c722567901a8cc60b0f1814d9e596ea",
+    "/root/autodl-tmp/alpha_lab/data/raw/index_daily.parquet": "cd6dc3b7b8cdbe3dcaeef7de1e623824f2e8fc7a23867b3e2239faf5a0f37e02"
+  },
+  "source_sha256": {
+    "src/forward_risk_evidence.py": "125ac2cf583a8cd5285a5a6682057993f071525ab59b5e3190671fbc23f05cc8",
+    "scripts/research_forward_risk.py": "2cc478442370d99e8ceca773732a262fc70985a317a9f57107c834513c0da427"
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6",
+  "splits": {
+    "train": [
+      "2014-01-01",
+      "2018-12-31"
+    ],
+    "validation": [
+      "2019-01-01",
+      "2021-12-31"
+    ],
+    "observed_late": [
+      "2022-01-01",
+      "2026-09-08"
+    ]
+  },
+  "families": {
+    "price": [
+      "ret20",
+      "drawdown60"
+    ],
+    "breadth": [
+      "ret20",
+      "drawdown60",
+      "below_ma20",
+      "breadth_change5",
+      "decliners5"
+    ],
+    "volatility": [
+      "ret20",
+      "drawdown60",
+      "vol20",
+      "vol_shock"
+    ],
+    "correlation": [
+      "ret20",
+      "drawdown60",
+      "stock_index_corr20"
+    ],
+    "liquidity": [
+      "ret20",
+      "drawdown60",
+      "amount_relative",
+      "illiquidity_relative"
+    ],
+    "joint": [
+      "ret20",
+      "drawdown60",
+      "below_ma20",
+      "breadth_change5",
+      "decliners5",
+      "vol20",
+      "vol_shock",
+      "stock_index_corr20",
+      "amount_relative",
+      "illiquidity_relative"
+    ]
+  },
+  "target": "CSI300未来20个交易日收盘相对次日开盘最低收益<=-5%；固定20日持有收益以第21日开盘计。",
+  "selection": "仅2019—2021选择；2022+已观察历史不能翻盘验证输家。",
+  "models": "LogisticRegression C=1、L2、无类别重加权；标准化只拟合TRAIN。joint_utility附加Ridge alpha=10预测固定期限收益。",
+  "alarms": "TRAIN拟合概率80分位阈值冻结；joint_utility另要求预测收益<-40bp。",
+  "validation_gate": {
+    "min_alarms": 12,
+    "min_auc": 0.55,
+    "min_precision_lift": 1.25,
+    "max_alarm_fraction": 0.35,
+    "brier_better_than_train_prior": true,
+    "mean_cash_benefit_positive": true,
+    "block_bootstrap_p05_positive": true
+  },
+  "uncertainty": "周首样本，标签重叠；4周循环块bootstrap1000次，只作不确定性诊断，不称多重检验校正显著性。",
+  "comparison_cost_roundtrip": 0.004,
+  "independent_oos": false,
+  "live_orders": false
+}

@@ -1,0 +1,11 @@
+experiment: alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z
+returns: alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+release: datahub/releases/selection_v1_20260920
+output_root: alpha_lab/outputs/sector_fuzzy_member_distribution
+model: fnn
+retention: 0.5
+horizons: [3, 10, 20]
+coverage_sensitivity: 0.8
+font: fonts/SimHei.ttf
+dpi: 150

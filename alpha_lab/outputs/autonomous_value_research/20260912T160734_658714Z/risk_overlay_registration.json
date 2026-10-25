@@ -1,0 +1,28 @@
+{
+  "status": "registered_before_patient_execution_results",
+  "reason": "2019-2021 diagnosis: cross-sectional confidence gate always admits >=5; test a separate pre-existing market-risk control without refitting or tuning",
+  "strategy": "reuse previous frozen extreme_recovery risk_plans.csv",
+  "source": "outputs/retail_validation/20260912T141535_114074Z/risk_plans.csv",
+  "frequency": "monthly",
+  "capital": 50000,
+  "policies": [
+    "low_turnover",
+    "full_point",
+    "full_confidence"
+  ],
+  "entry_recovery": "scheduled_review_only",
+  "risk_exit": "daily next-session, pending liquidation cannot cancel",
+  "comparison": "same policy no market gate; all results retained",
+  "fresh_holdout": false,
+  "no_parameter_search": true,
+  "fixed_cash_control": {
+    "fraction": 0.5,
+    "implementation": "25000 integer trading account plus 25000 idle cash, total account 50000",
+    "policies": [
+      "low_turnover",
+      "full_point",
+      "full_confidence"
+    ],
+    "purpose": "separate timing from lower exposure; not exposure-matched or a user allocation recommendation"
+  }
+}

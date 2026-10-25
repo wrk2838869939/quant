@@ -1,0 +1,7 @@
+variant,sector,date,score,threshold,selected,diagnostic_only
+original_return,养殖业,2026-10-20,-0.042314928,0.0032892869785428,False,True
+original_return,酒店餐饮（原首次事件）,2026-09-17,-0.009877156466245651,0.0032892869785428047,False,True
+label_only_scale_0p1,养殖业,2026-10-20,-0.051037296652793884,0.06605327129364014,False,True
+label_only_scale_0p1,酒店餐饮（原首次事件）,2026-09-17,0.10946358740329742,0.06605327129364014,True,True
+bounded_scale_1,养殖业,2026-10-20,-0.27205130457878113,0.08840511366724968,False,True
+bounded_scale_1,酒店餐饮（原首次事件）,2026-09-17,0.5843114852905273,0.08840511366724968,True,True

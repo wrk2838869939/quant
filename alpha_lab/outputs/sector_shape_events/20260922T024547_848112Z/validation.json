@@ -1,0 +1,8 @@
+{
+  "prefix_exact": true,
+  "future_shock_prefix_exact": true,
+  "same_episode_time_order": true,
+  "reference_frozen": true,
+  "no_cross_segment_outcomes": true,
+  "unique_observation_keys": true
+}

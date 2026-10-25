@@ -1,0 +1,33 @@
+# P0/P1固定实验：语义与选择后诊断、对称阶段效应；不搜索阈值。
+output_root: outputs/symmetric_phase
+source_panel: outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet
+execution_parent: outputs/divide_selection/20260913T050617_571652Z/execution
+execution_features: outputs/autonomous_value_research/20260912T160734_658714Z/execution/pit_review_features.parquet
+fit_end: '2018-12-31'
+final_fit_end: '2021-12-31'
+development: ['2019-01-01', '2021-12-31']
+execution: ['2022-01-01', '2023-12-31']
+features: [x_mom60, x_mom120, x_continuity, x_jump_share, x_extension, x_volatility, x_drawdown, x_log_size, x_turnover]
+forecast: {horizon: 60, alpha: 1.0, bootstrap_reps: 100, block_dates: 6, seed: 20260913, min_dates: 36}
+phases: [recovery, accelerating, decelerating]
+entry: {min_expected_return: 0.005, max_expected_adverse: 0.15}
+policies: [low_turnover, global_return, symmetric_intercept, symmetric_slopes]
+execution_transfer_policies: [transfer_low_turnover, transfer_global_return, transfer_symmetric_intercept, transfer_symmetric_slopes]
+training_universes: [mainboard, all_a]
+execution_universe: mainboard
+mainboard_pattern: '^(?:(?:000|001|002|003)[0-9]{3}\.SZ|(?:600|601|603|605)[0-9]{3}\.SH)$'
+feature_rank_universe: unchanged_all_eligible_A_point_in_time
+frequency: monthly
+retail: {max_positions: 5, max_stock_fraction: 0.25, candidate_pool: 20, solver_relative_gap: 0.001, selection_first: true}
+capitals: [20000.0, 50000.0, 100000.0]
+reference_capital: 50000.0
+holding_variant: {name: keep_failure_memory, confirmations: 2, policy: low_turnover, capital: 50000.0, unknown_timeout: false}
+diagnostics:
+  top_k: [1, 5]
+  match_features: [x_log_size, x_turnover, x_mom60]
+  match_neighbors: 10
+  match_min_coverage: 0.8
+  permutation_tolerance: 1.0e-10
+  descriptions_only: true
+scope_note: 主板执行是明确研究情景，不推断用户板块权限；全A迁移训练另列。
+stop_rule: 局部斜率未同时改善阶段内选择与选择后校准则停止扩容量；不据重复开发收益晋升。

@@ -1,0 +1,137 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-09-13T15:14:08.537905+00:00",
+  "exit_primary_events": 78,
+  "recovery_primary_events": 34,
+  "exit_models": 6,
+  "recovery_mean_fallbacks": 6,
+  "tests_passed": 6,
+  "real_feature_prefix_checks": 18,
+  "future_label_perturbation_checks": 12,
+  "independent_prediction_reconstructions": 12,
+  "recovery_events_verified": 86,
+  "portfolio_runs": 0,
+  "new_strategy_admitted": false,
+  "live_actions": false,
+  "fresh_holdout": false,
+  "gates": {
+    "exit": {
+      "passed": false,
+      "horizons": [
+        {
+          "horizon": 20,
+          "checks": {
+            "enough_events": false,
+            "positive_r2": false,
+            "positive_ic": true,
+            "positive_years": false,
+            "low_negative_high_positive": false
+          }
+        },
+        {
+          "horizon": 60,
+          "checks": {
+            "enough_events": false,
+            "positive_r2": true,
+            "positive_ic": true,
+            "positive_years": false,
+            "low_negative_high_positive": true
+          }
+        }
+      ]
+    },
+    "recovery": {
+      "passed": false,
+      "horizons": [
+        {
+          "horizon": 20,
+          "checks": {
+            "enough_events": false,
+            "positive_r2": false,
+            "positive_ic": false,
+            "positive_years": false,
+            "low_negative_high_positive": false
+          }
+        },
+        {
+          "horizon": 60,
+          "checks": {
+            "enough_events": false,
+            "positive_r2": false,
+            "positive_ic": true,
+            "positive_years": false,
+            "low_negative_high_positive": false
+          }
+        }
+      ]
+    }
+  },
+  "prior_artifacts_unchanged": {
+    "outputs/rolling_review/20260913T141120_325588Z": 473,
+    "outputs/path_mechanism/20260913T144118_205543Z": 942,
+    "outputs/causal_execution/20260913T130810_374654Z": 330,
+    "outputs/profit_defense/20260913T135233_215310Z": 274
+  },
+  "document_sha256": "2a1d9d9aa99546933ec067e3465a0fcd543a7541194ead55b3a3c2522ecfd0af",
+  "artifact_sha256": {
+    "PROTOCOL.md": "c32782986d8bb93f7f565ab9d7a3c66f466f8387df4799b3c8a7e729c5a6be92",
+    "REPORT.md": "2a1d9d9aa99546933ec067e3465a0fcd543a7541194ead55b3a3c2522ecfd0af",
+    "build.log": "a453d75212da6309f17d6bad8101e68e71cd3eb409f1dba5564b378183ca8209",
+    "config.yaml": "2705aaef13e7aec5c1a6c1f301dbd72c9414bca0a01b04f844c7053bc510d376",
+    "data/coverage.csv": "c627cb9671ab09c27004362d7c0b9b145a1ebb6e50320bf17ff474b8bd88c831",
+    "data/exit_account_events.csv": "20278c8e831d4a3004a8387146d43dc985a34051100baf1eff051296f8953547",
+    "data/exit_events.csv": "e914f705fcfb53e3f4c87a3286f4eff7b080e829d75b17eacfc94f76d4cdceee",
+    "data/exit_events.parquet": "3043adcbf8fe76e5bed4385257b81a8e75473e63b742c8f8a4282507c191e0f8",
+    "data/recovery_account_events.csv": "a40fd4ca096b9d105d207972707e49736e46d1240a9d92c12fe172242353f0bd",
+    "data/recovery_events.csv": "5c4b63df97c8e4fff06124b3070cc08b8692cfb9f7318eed51e72e69809d6597",
+    "data/recovery_events.parquet": "4e81590ec021963afb485d0ea536dc56d16b853101641c9c5935d6167d4d1e2f",
+    "data/recovery_search_status.csv": "83dc993a3bf4f0bfffc1a9b608d7b8ceb4494c1636172a82ce5d88baa46e6a36",
+    "data_completion.json": "e8f0f781ae41b187358646b9f4adeded90dfcd9e326e4a33fc722db6c3d7e8b7",
+    "diagnostics/completion.json": "8953811e59a6588b64a2313bb26259c41dc37dda3480b4361374e9effd5682b8",
+    "diagnostics/first_day_moves.csv": "c771c4b2bf88b8c2e186ffc4eadbe2f9fe8c02a5acedbf07bdaae0b7fb7d56f8",
+    "diagnostics/fixed_prediction_influence.csv": "d4bf68dd38fec751b78c855b9ab4a9a5c872d6428461bb0e6e96d7c9e4f05b22",
+    "diagnostics/path_shapes.csv": "bb9142989e78e57554f1db2f5f541aacea95053f721b72cf5c73f4c182b3d764",
+    "diagnostics/recovery_waiting_moves.csv": "5cc1d96ab3fcedefc4acc2e6fce74c04ef2da2cf1346bbd0d9afcdee4176afe3",
+    "diagnostics/state_outcomes.csv": "c9983a51ba5f9e5db60fe7f73f47d1a4c5bd637fc6dfb8119047675608ab03f8",
+    "diagnostics/stock_error_contribution.csv": "fc9f4e5066635776444b38acf36465fa282ef4f1fbf7f89389fe86dfa6ed7123",
+    "environment.json": "23127939f11297e4dcb514e33c101a51224b71348d1387eeaca99eacb43dbdc8",
+    "figures/completion.json": "313c54e940666276e2db7c411199c49a15d3e0c19ebce7ea8ed3bb99ca56d6ea",
+    "figures/exit_predictions.pdf": "7f24a9e8f755a19353198472ca6b2ff6dd92ee52717e2509f81b5e8e271bccdc",
+    "figures/exit_predictions.png": "ca8af85fa3829437f21cbadae1b67ef030a45fdbbfac408d5bd67baf69ff4971",
+    "figures_font_attempt/completion.json": "c0ab51f23697ab8f3bfb0d334688ccfe99cc208682c7378869c72bedace7cf23",
+    "figures_font_attempt/exit_predictions.pdf": "f1612dc8ba5b9dd18b54c71c4079bc9efe61977d99bf58cc904a4ded1eb84432",
+    "figures_font_attempt/exit_predictions.png": "d52fc20b913c815d9a63473821173c54efd572045e697178b465d527520fafe9",
+    "figures_font_attempt/plot_exit_evidence.py": "13888bd17977bf36dec54ff755839c3c3ad16daa4d2239320fd9cb54ebb799a3",
+    "fit.log": "c96750fc1196536d5a74717cf6edde5585dfed09ebdb45873b7d346d7762c5c0",
+    "independent_verification.json": "d94fcd040d92a32b8586335229e5e2c76f6be387b8dd0c4e4a8359a312d78aa5",
+    "manifest.json": "a4038ee51a54faeff005a408a29d30568abe7fb6227c81a0b46ce3504e64a354",
+    "models/coefficients.csv": "b294b8adcada03ddbd6fc1e8ff94e2700256c8c518fb4068d2911cb3a7ee92e5",
+    "models/completion.json": "0179a9a9e51dfa258962d555ee09360437f5a1ab057de1327439dfa40cb50597",
+    "models/exit_h20_2024_train.csv": "e81f5253dd1e6b152137faa08dfc5801ed2d6a7e98a46a45adf16c1061a58a85",
+    "models/exit_h20_2025_train.csv": "f4c1d3b4109821852d84297cf4cbe81a31cfd6450de192aa79a4f2106ad20e57",
+    "models/exit_h20_2026_train.csv": "a6719f21984dced751010e482fc4a4aa11d862193ee09b5b1763ee7fe8c7728f",
+    "models/exit_h60_2024_train.csv": "1894179e2fe2d257091778b0b75e84f6e41baee3e5cb73354da2aec306e714fa",
+    "models/exit_h60_2025_train.csv": "d0e03973e32e073e2d4073c6f47891b092bbb39137ecde6c403832607f284af7",
+    "models/exit_h60_2026_train.csv": "a6cb994254fdf8d7f8911c70d6107ed67182671681f7423183d104d262f21a51",
+    "models/gate.json": "cc3787596a3c841ac9a65016ebb53caa604dc7e1276cad467eeb5daf985965ca",
+    "models/metrics.csv": "f1b786e7d1e372ee2b4befae4f7cb83947b0bb7c93b1e7ac3b24f159624ab536",
+    "models/predictions.csv": "bc45a1fffeb8cde4910b2de3dce7f8cd9319bb4f5ee2522967b6db048efe248f",
+    "models/recovery_h20_2024_train.csv": "410ef8830e2575d732bdb659faf43d08a3ee807f26adaa5e24f3d19f11c8203c",
+    "models/recovery_h20_2025_train.csv": "b1e576c9f447c7352d1abbe1729ee6e400a6cce9acff026cc1822dca15496fc3",
+    "models/recovery_h20_2026_train.csv": "51e911e54f44c7d2a65964bf4de45929389d2f4bcf799dfe35da86af094871cf",
+    "models/recovery_h60_2024_train.csv": "840f8e2baab1a2beffe91002bf6373f860ca7e0707efc129efa4c8fb9945f346",
+    "models/recovery_h60_2025_train.csv": "762819f0957a596c921b9aadbe08ef15563fd0c4f103319fef681f878501104a",
+    "models/recovery_h60_2026_train.csv": "5f6f09c3c1a509192eee7bfe708e8a4a31b65e39d1cc2e1027b85a684c6763b9",
+    "models/training_audit.csv": "84ee1d3ee2571a0ef05cc5dff1572a2692f2c1094f946c72eaf2b78e33e4b2ce",
+    "models/yearly_metrics.csv": "e981db4c06b1112d090e6e58bca97d366c8d97f9ce3d42f53c1830a0469614fd",
+    "sources/scripts/diagnose_exit_evidence.py": "e295ba4fc8d5107937d32d61bf0b80d290753aba8592fa96625fbee86231304c",
+    "sources/scripts/plot_exit_evidence.py": "f3a78bc7e93f76b665426d8c5c9e9678b9a10f11fa167c46bd80b16fc4e99408",
+    "sources/scripts/report_exit_evidence.py": "2ffce1e03e97b03ef167e343cc6aaa0bc5b099e9edabfa9ebabb6eae358ca7dc",
+    "sources/scripts/research_exit_evidence.py": "4dec39c70d3eff732eae49da0876d8a99e36fbc7bf5cfcd18068bce19d54035a",
+    "sources/scripts/seal_exit_evidence.py": "889cc815d73ddf03596df42a16fd2ac0c1820df8f4aba85a3dd10d0d68851d87",
+    "sources/scripts/verify_exit_evidence.py": "cb3a9c1fd16521c6eb05a9fea0135d6effa8c0a0a231ecf6827de3099682b292",
+    "sources/src/exit_evidence.py": "63b845d5e926ce95294dbd3927015086d60b1969df86fd6ccd0bcd45f9e1c350",
+    "sources/tests/test_exit_evidence.py": "9bd8ae7957c288bdb8c5d3888972c4e82fc4167e11f686c9a09b801aee94143d",
+    "tests.log": "eee9f84a68ebb7968307ffbefc7345722fd2d63afb844498c79906416f403de8"
+  }
+}

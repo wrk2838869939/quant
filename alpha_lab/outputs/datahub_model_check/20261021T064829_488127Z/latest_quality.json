@@ -1,0 +1,10 @@
+{
+  "rows": 5568,
+  "duplicate_keys": 0,
+  "invalid_ohlc": 0,
+  "negative_volume_amount": 0,
+  "adjustment_mismatch": 0,
+  "raw_daily_all_keys_values_matched": true,
+  "active_snapshot_files_matched": 24,
+  "update_artifacts_verified": 13
+}

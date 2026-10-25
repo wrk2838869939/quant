@@ -1,0 +1,9 @@
+family,variant,fit_date,model_file,stocks,return_max_error,risk_max_error,passed
+dual,regression,2020-01-02,predictions/inner_2021/dual/07026b043b17a4e99640/models/model_20200102.joblib,93,0.0,0.0,True
+dual,ridge,2020-01-02,predictions/inner_2021/dual/189ef55cec44ccf6bca1/models/model_20200102.joblib,93,0.0,0.0,True
+factor_weight,icir,2020-01-02,predictions/inner_2021/factor_weight/09c56f049ff3469d2cd6/models/model_20200102.joblib,93,0.0,,True
+factor_weight,ic,2020-01-02,predictions/inner_2021/factor_weight/09de73e33d72ec2fef71/models/model_20200102.joblib,93,0.0,,True
+lgbm,regression,2020-01-02,predictions/inner_2021/lgbm/1a9dbee2c8261559380f/models/model_20200102.joblib,93,0.0,,True
+lgbm,ranking,2020-01-02,predictions/inner_2021/lgbm/21e2c5fe8d6da4e175d0/models/model_20200102.joblib,93,0.0,,True
+linear,elastic_net,2020-01-02,predictions/inner_2021/linear/0303812c32f157663448/models/model_20200102.joblib,93,0.0,,True
+linear,ridge,2020-01-02,predictions/inner_2021/linear/1831b62ebcf0cc0e48b4/models/model_20200102.joblib,93,0.0,,True

@@ -1,0 +1,11 @@
+{
+  "account_id": "synthetic_guard_test",
+  "asof": "2026-09-11",
+  "positions": {},
+  "cash": 50000,
+  "equity": 50000,
+  "receivables": 0,
+  "frozen_cash": 0,
+  "open_orders": [],
+  "source": "synthetic verification"
+}

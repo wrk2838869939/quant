@@ -1,0 +1,6 @@
+source: alpha_lab/outputs/sector_shape_expansion/20260922T080121_809679Z
+output_root: alpha_lab/outputs/sector_multiscale_events
+platform_windows: [15, 10, 20, 30, 40]
+review_cases: 20
+review_context_days: 25
+plot_seed: 20260923

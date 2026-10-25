@@ -1,0 +1,11 @@
+# 历史诊断配置：等额预算过滤会改变原始选股，不再作为小资金个人账户候选。
+# 保留参数仅用于复现旧账本；详见 docs/RETAIL_PROCESS_AUDIT_20260912.md。
+# 原研究候选：从已使用的2022-2023窗口选型，尚无新的前向收益证据；不是实盘配置。
+# Amihud由TRAIN早晚子窗规则选出，沿用原完整股票池；信号日做预算筛选。
+parent_prepared: outputs/long_only_followup/20260911T141208_459585Z
+output_root: outputs/monthly_research_candidate
+signal_file: tail_signal_signals.parquet
+price_multiplier: 1.05
+variants:
+  - {name: tail_feasible_half, active_fraction: 0.5}
+cost_multipliers: [1.0, 2.0]

@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "parent_artifacts_unchanged": 330,
+  "cases": [
+    {
+      "name": "continued_hybrid",
+      "metric_errors": {
+        "total": 4.440892098500626e-16,
+        "ann": 2.498001805406602e-16,
+        "mdd": 1.1102230246251565e-16,
+        "sharpe": 4.440892098500626e-16
+      },
+      "orders": 67,
+      "fills": 67,
+      "industry_coverage": 0.8375411325794153,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_initial_buyhold",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 3.469446951953614e-17,
+        "mdd": 0.0,
+        "sharpe": 2.7755575615628914e-16
+      },
+      "orders": 5,
+      "fills": 5,
+      "industry_coverage": 1.0,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_bank_buyhold",
+      "metric_errors": {
+        "total": 2.220446049250313e-16,
+        "ann": 2.7755575615628914e-17,
+        "mdd": 1.3877787807814457e-16,
+        "sharpe": 4.440892098500626e-16
+      },
+      "orders": 5,
+      "fills": 5,
+      "industry_coverage": 1.0,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_weekly_exit",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 5.551115123125783e-17,
+        "sharpe": 1.1102230246251565e-16
+      },
+      "orders": 87,
+      "fills": 87,
+      "industry_coverage": 0.8250614931364936,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_pause_only",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 2.7755575615628914e-17,
+        "mdd": 2.7755575615628914e-16,
+        "sharpe": 4.440892098500626e-16
+      },
+      "orders": 64,
+      "fills": 64,
+      "industry_coverage": 0.7966038072024306,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_weekly_pause",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 5.551115123125783e-17,
+        "sharpe": 1.1102230246251565e-16
+      },
+      "orders": 87,
+      "fills": 87,
+      "industry_coverage": 0.8250614931364936,
+      "account_days": 1135
+    },
+    {
+      "name": "continued_weekly_liquidate",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 5.551115123125783e-17,
+        "sharpe": 1.1102230246251565e-16
+      },
+      "orders": 87,
+      "fills": 87,
+      "industry_coverage": 0.8250614931364936,
+      "account_days": 1135
+    },
+    {
+      "name": "cold_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 5.551115123125783e-17,
+        "sharpe": 0.0
+      },
+      "orders": 41,
+      "fills": 41,
+      "industry_coverage": 0.8509369861781212,
+      "account_days": 651
+    },
+    {
+      "name": "cold_initial_buyhold",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 6.938893903907228e-17,
+        "sharpe": 0.0
+      },
+      "orders": 5,
+      "fills": 5,
+      "industry_coverage": 1.0,
+      "account_days": 651
+    },
+    {
+      "name": "cold_bank_buyhold",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 8.326672684688674e-17,
+        "mdd": 0.0,
+        "sharpe": 4.440892098500626e-16
+      },
+      "orders": 5,
+      "fills": 5,
+      "industry_coverage": 1.0,
+      "account_days": 651
+    },
+    {
+      "name": "cold_weekly_exit",
+      "metric_errors": {
+        "total": 5.551115123125783e-17,
+        "ann": 2.7755575615628914e-17,
+        "mdd": 2.7755575615628914e-17,
+        "sharpe": 7.771561172376096e-16
+      },
+      "orders": 47,
+      "fills": 46,
+      "industry_coverage": 0.8648985743231745,
+      "account_days": 651
+    },
+    {
+      "name": "cold_pause_only",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 5.551115123125783e-17,
+        "sharpe": 0.0
+      },
+      "orders": 41,
+      "fills": 41,
+      "industry_coverage": 0.8509369861781212,
+      "account_days": 651
+    },
+    {
+      "name": "cold_weekly_pause",
+      "metric_errors": {
+        "total": 5.551115123125783e-17,
+        "ann": 2.7755575615628914e-17,
+        "mdd": 2.7755575615628914e-17,
+        "sharpe": 7.771561172376096e-16
+      },
+      "orders": 47,
+      "fills": 46,
+      "industry_coverage": 0.8648985743231745,
+      "account_days": 651
+    },
+    {
+      "name": "cold_weekly_liquidate",
+      "metric_errors": {
+        "total": 5.551115123125783e-17,
+        "ann": 2.7755575615628914e-17,
+        "mdd": 2.7755575615628914e-17,
+        "sharpe": 7.771561172376096e-16
+      },
+      "orders": 47,
+      "fills": 46,
+      "industry_coverage": 0.8648985743231745,
+      "account_days": 651
+    }
+  ],
+  "orders": 635,
+  "fills": 632,
+  "original_hybrid_exact": true,
+  "initial_orders_exact": true,
+  "weekly_inactive_gates_exact": true,
+  "original_trend_evidence_exact": true,
+  "incomplete_industry_accounting_explicit": true,
+  "source_sha256": "c0844778a524f64e76e5a9d05c257436a5cffb612c53def51593049f2cf7a9f2"
+}

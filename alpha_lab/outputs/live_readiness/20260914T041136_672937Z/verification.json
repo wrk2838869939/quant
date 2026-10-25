@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "prior_artifacts_verified": {
+    "outputs/risk_budget/20260913T160301_084080Z": 906,
+    "outputs/risk_recovery/20260914T035750_545354Z": 895,
+    "outputs/rolling_review/20260913T141120_325588Z": 473
+  },
+  "metrics_recomputed": 16,
+  "real_account_replays": [
+    {
+      "name": "cold_calendar_01_full_risk",
+      "exact": true,
+      "ledgers": 4
+    },
+    {
+      "name": "continued_calendar_01_full_risk",
+      "exact": true,
+      "ledgers": 4
+    }
+  ],
+  "risk_training_checks": [
+    {
+      "year": 2022,
+      "n": 1335,
+      "max_label_end": "2021-12-06 00:00:00"
+    },
+    {
+      "year": 2023,
+      "n": 1531,
+      "max_label_end": "2022-12-05 00:00:00"
+    },
+    {
+      "year": 2024,
+      "n": 1732,
+      "max_label_end": "2023-12-05 00:00:00"
+    },
+    {
+      "year": 2025,
+      "n": 1891,
+      "max_label_end": "2024-12-05 00:00:00"
+    },
+    {
+      "year": 2026,
+      "n": 2055,
+      "max_label_end": "2025-12-03 00:00:00"
+    }
+  ],
+  "original_engine_tests": 31,
+  "recovery_engine_tests": 37,
+  "tests_are_overlapping_suites": true,
+  "no_live_orders": true,
+  "source_sha256": "d8e373b416058721112d6326edcdf0efbc2c052f1a972699d676ee0839fa247a",
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

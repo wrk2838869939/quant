@@ -1,0 +1,35 @@
+# 方向设计登记；实际执行使用 baseline_initialized_policy_v1.yaml。
+study: baseline_initialized_policy_learning
+status: implemented_and_first_run_complete
+runnable: false
+protocol: alpha_lab/docs/BASELINE_INITIALIZED_POLICY_LEARNING_20260920.md
+account_config: alpha_lab/configs/selection_account_v1.yaml
+baseline_registry: alpha_lab/configs/selection_baselines_v1.yaml
+equal_weight_reference: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+baseline_role: initial_policy_parameters_and_archived_control
+learning_target: realized_net_account_trajectory_return
+predictive_rank_label_as_primary_objective: false
+train_all_policy_parameters: true
+permanent_penalty_for_distance_from_baseline: false
+small_residual_only: false
+strategy_outputs:
+  - stock_preference_and_entry_permission
+  - rebalance_or_no_action
+  - hold_reduce_exit
+  - allocation_and_cash_intent
+policy_observations:
+  - point_in_time_market_and_factors
+  - actual_cash_positions_and_sellable_shares
+  - holding_history_and_execution_feedback
+optimizer_direction: baseline_initialized_neural_policy_evolution
+nonmonotonic_objective: true
+multiple_baseline_starts: true
+matched_budget_random_initialization_control: true
+search_scales: multiple_and_adaptive_not_a_fixed_baseline_neighborhood
+engine_status: implemented_separate_policy_portfolio_with_baseline_parity
+training_budget: {train_per_start_per_fold: 97, validation_per_start_per_fold: 9, total_train: 2328, total_validation: 216}
+parameter_dimension: 1686
+completed_new_policy_training: true
+execution_config: alpha_lab/configs/baseline_initialized_policy_v1.yaml
+execution_run: alpha_lab/outputs/baseline_initialized_policy/20260920T144455_372980Z
+results: alpha_lab/docs/BASELINE_INITIALIZED_POLICY_RESULTS_20260920.md

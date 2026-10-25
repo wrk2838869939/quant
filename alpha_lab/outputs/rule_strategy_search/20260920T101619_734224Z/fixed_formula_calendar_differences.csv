@@ -1,0 +1,4 @@
+family,different_cells,total_cells,reason
+momentum,345,112902,market_session_windows_vs_observed_quote_windows
+macd,2166,112902,market_session_windows_vs_observed_quote_windows
+moving_average,678,112902,market_session_windows_vs_observed_quote_windows

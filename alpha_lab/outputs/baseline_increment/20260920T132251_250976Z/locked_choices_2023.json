@@ -1,0 +1,1040 @@
+{
+  "inner_end": "2022-12-31",
+  "locked_at": "2026-09-20T13:26:25.208971+00:00",
+  "choices": {
+    "B01_low_turnover": {
+      "baseline": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B01_low_turnover",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.043571945000000056,
+          "ann": 0.014397232120236136,
+          "mdd": -0.1378355113345895,
+          "sharpe": 0.17213096742269873,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 25,
+          "total_fees": 1266.4215,
+          "mean_invested": 0.9835765225744317,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 4,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.05943708223045219,
+          "worst_block_mdd": -0.1378355113345895,
+          "buys": 15,
+          "turnover": 2.286665068950415,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.10238976000000011,
+              "ann": -0.10278868063792257,
+              "mdd": -0.13646597070051625,
+              "sharpe": -0.6421747367003953,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.09790550072156057,
+              "ann": 0.09832759445878247,
+              "mdd": -0.1378355113345895,
+              "sharpe": 0.7071645333500854,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.058935811726460674,
+              "ann": 0.05943708223045219,
+              "mdd": -0.0838664764007574,
+              "sharpe": 0.569043945036922,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.05943708223045219
+      },
+      "residual_best": {
+        "id": "2a7d4ef9f803634e03ce",
+        "host": "B01_low_turnover",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.4,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 1.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.080136655,
+          "ann": 0.026173710807940065,
+          "mdd": -0.13646597070051625,
+          "sharpe": 0.2540461492395333,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 49,
+          "total_fees": 2139.1505000000006,
+          "mean_invested": 0.9353341089862857,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 4,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.10701632193000798,
+          "worst_block_mdd": -0.13646597070051625,
+          "buys": 27,
+          "turnover": 3.808254621962456,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.12400051000000012,
+              "ann": -0.12447763668722378,
+              "mdd": -0.13646597070051625,
+              "sharpe": -0.840590389382506,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.10655515335973531,
+              "ann": 0.10701632193000798,
+              "mdd": -0.1053642249240353,
+              "sharpe": 0.7314221395285257,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.1142991158690938,
+              "ann": 0.11529622042641274,
+              "mdd": -0.057585785445292026,
+              "sharpe": 0.9928789953636301,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.014131370136562876
+      },
+      "residual_stable": {
+        "id": "2a7d4ef9f803634e03ce",
+        "host": "B01_low_turnover",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.4,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 1.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.080136655,
+          "ann": 0.026173710807940065,
+          "mdd": -0.13646597070051625,
+          "sharpe": 0.2540461492395333,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 49,
+          "total_fees": 2139.1505000000006,
+          "mean_invested": 0.9353341089862857,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 4,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.10701632193000798,
+          "worst_block_mdd": -0.13646597070051625,
+          "buys": 27,
+          "turnover": 3.808254621962456,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.12400051000000012,
+              "ann": -0.12447763668722378,
+              "mdd": -0.13646597070051625,
+              "sharpe": -0.840590389382506,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.10655515335973531,
+              "ann": 0.10701632193000798,
+              "mdd": -0.1053642249240353,
+              "sharpe": 0.7314221395285257,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.1142991158690938,
+              "ann": 0.11529622042641274,
+              "mdd": -0.057585785445292026,
+              "sharpe": 0.9928789953636301,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.014131370136562876
+      },
+      "direct_best": null,
+      "direct_with_fallback": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B01_low_turnover",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.043571945000000056,
+          "ann": 0.014397232120236136,
+          "mdd": -0.1378355113345895,
+          "sharpe": 0.17213096742269873,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 25,
+          "total_fees": 1266.4215,
+          "mean_invested": 0.9835765225744317,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 4,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.05943708223045219,
+          "worst_block_mdd": -0.1378355113345895,
+          "buys": 15,
+          "turnover": 2.286665068950415,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.10238976000000011,
+              "ann": -0.10278868063792257,
+              "mdd": -0.13646597070051625,
+              "sharpe": -0.6421747367003953,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.09790550072156057,
+              "ann": 0.09832759445878247,
+              "mdd": -0.1378355113345895,
+              "sharpe": 0.7071645333500854,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.058935811726460674,
+              "ann": 0.05943708223045219,
+              "mdd": -0.0838664764007574,
+              "sharpe": 0.569043945036922,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.05943708223045219
+      }
+    },
+    "B02_low_risk": {
+      "baseline": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B02_low_risk",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07569370500000006,
+          "ann": -0.026036469264194895,
+          "mdd": -0.14620782999999993,
+          "sharpe": -0.14571654443317342,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 69,
+          "total_fees": 4020.250499999999,
+          "mean_invested": 0.9926926067457733,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.03377133281200706,
+          "worst_block_mdd": -0.14620782999999993,
+          "buys": 36,
+          "turnover": 7.501507466703146,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13869721999999995,
+              "ann": -0.13922627723191228,
+              "mdd": -0.14620782999999993,
+              "sharpe": -0.9409775217606339,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.03363062406462913,
+              "ann": 0.03377133281200706,
+              "mdd": -0.126024472962164,
+              "sharpe": 0.336096945059653,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.03823267762472615,
+              "ann": 0.03855466478434377,
+              "mdd": -0.07140862843411178,
+              "sharpe": 0.4037190039584132,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.03377133281200706
+      },
+      "residual_best": {
+        "id": "8ef03b0f00153d6b7389",
+        "host": "B02_low_risk",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.8,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 100.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.05428759500000013,
+          "ann": -0.01853391269922644,
+          "mdd": -0.2625565336101704,
+          "sharpe": -0.017053411851782857,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 115,
+          "total_fees": 7481.5915,
+          "mean_invested": 0.9455279531315873,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.05235077482395445,
+          "worst_block_mdd": -0.23493083468087983,
+          "buys": 59,
+          "turnover": 12.550768026941883,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": 0.052130725000000044,
+              "ann": 0.05235077482395445,
+              "mdd": -0.16358977375842298,
+              "sharpe": 0.355034883153437,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.07541598977636554,
+              "ann": 0.07573781103127031,
+              "mdd": -0.18992981456927704,
+              "sharpe": 0.4830322120897337,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": -0.1641797421983927,
+              "ann": -0.16541764622832356,
+              "mdd": -0.23493083468087983,
+              "sharpe": -1.2414941927541265,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.00958808509375017
+      },
+      "residual_stable": {
+        "id": "8ef03b0f00153d6b7389",
+        "host": "B02_low_risk",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.8,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 100.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.05428759500000013,
+          "ann": -0.01853391269922644,
+          "mdd": -0.2625565336101704,
+          "sharpe": -0.017053411851782857,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 115,
+          "total_fees": 7481.5915,
+          "mean_invested": 0.9455279531315873,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.05235077482395445,
+          "worst_block_mdd": -0.23493083468087983,
+          "buys": 59,
+          "turnover": 12.550768026941883,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": 0.052130725000000044,
+              "ann": 0.05235077482395445,
+              "mdd": -0.16358977375842298,
+              "sharpe": 0.355034883153437,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.07541598977636554,
+              "ann": 0.07573781103127031,
+              "mdd": -0.18992981456927704,
+              "sharpe": 0.4830322120897337,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": -0.1641797421983927,
+              "ann": -0.16541764622832356,
+              "mdd": -0.23493083468087983,
+              "sharpe": -1.2414941927541265,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.00958808509375017
+      },
+      "direct_best": null,
+      "direct_with_fallback": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B02_low_risk",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07569370500000006,
+          "ann": -0.026036469264194895,
+          "mdd": -0.14620782999999993,
+          "sharpe": -0.14571654443317342,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 69,
+          "total_fees": 4020.250499999999,
+          "mean_invested": 0.9926926067457733,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.03377133281200706,
+          "worst_block_mdd": -0.14620782999999993,
+          "buys": 36,
+          "turnover": 7.501507466703146,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13869721999999995,
+              "ann": -0.13922627723191228,
+              "mdd": -0.14620782999999993,
+              "sharpe": -0.9409775217606339,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.03363062406462913,
+              "ann": 0.03377133281200706,
+              "mdd": -0.126024472962164,
+              "sharpe": 0.336096945059653,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.03823267762472615,
+              "ann": 0.03855466478434377,
+              "mdd": -0.07140862843411178,
+              "sharpe": 0.4037190039584132,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.03377133281200706
+      }
+    },
+    "B03_valuation": {
+      "baseline": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B03_valuation",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.0922569150000001,
+          "ann": 0.03001873994344506,
+          "mdd": -0.23878056784214097,
+          "sharpe": 0.2509745135787797,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 109,
+          "total_fees": 4578.964499999999,
+          "mean_invested": 0.9923618218521342,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.07253702598910117,
+          "worst_block_mdd": -0.17211482602418615,
+          "buys": 57,
+          "turnover": 8.397032261476324,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.1568581400000001,
+              "ann": -0.15744993596149925,
+              "mdd": -0.17211482602418615,
+              "sharpe": -0.8037547777111589,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.07222925688922643,
+              "ann": 0.07253702598910117,
+              "mdd": -0.10736738422505054,
+              "sharpe": 0.54281749905096,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.20819350888776245,
+              "ann": 0.2100834246648462,
+              "mdd": -0.16599821934550585,
+              "sharpe": 0.9873899127868304,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.07253702598910117
+      },
+      "residual_best": {
+        "id": "8ef03b0f00153d6b7389",
+        "host": "B03_valuation",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.8,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 100.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.03891779499999992,
+          "ann": -0.013216366208502528,
+          "mdd": -0.27381470147967024,
+          "sharpe": 0.059792750349379566,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 249,
+          "total_fees": 9014.195500000002,
+          "mean_invested": 0.9895148225224126,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.07980334717379334,
+          "worst_block_mdd": -0.19969152698912007,
+          "buys": 127,
+          "turnover": 16.86546972361758,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.17536763999999982,
+              "ann": -0.17602171645610598,
+              "mdd": -0.19969152698912007,
+              "sharpe": -0.7627314638346797,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.08001257069271439,
+              "ann": 0.08035472966554535,
+              "mdd": -0.18715171506773398,
+              "sharpe": 0.4261991499498689,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.07912400231743666,
+              "ann": 0.07980334717379334,
+              "mdd": -0.17101114963477282,
+              "sharpe": 0.45577375626936417,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.04390611826946478
+      },
+      "residual_stable": {
+        "id": "8ef03b0f00153d6b7389",
+        "host": "B03_valuation",
+        "outer_year": 2023,
+        "params": {
+          "kind": "residual",
+          "amplitude": 0.8,
+          "model_spec": {
+            "model": "ridge",
+            "horizon": 20,
+            "alpha": 100.0
+          }
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.03891779499999992,
+          "ann": -0.013216366208502528,
+          "mdd": -0.27381470147967024,
+          "sharpe": 0.059792750349379566,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 249,
+          "total_fees": 9014.195500000002,
+          "mean_invested": 0.9895148225224126,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.07980334717379334,
+          "worst_block_mdd": -0.19969152698912007,
+          "buys": 127,
+          "turnover": 16.86546972361758,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.17536763999999982,
+              "ann": -0.17602171645610598,
+              "mdd": -0.19969152698912007,
+              "sharpe": -0.7627314638346797,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.08001257069271439,
+              "ann": 0.08035472966554535,
+              "mdd": -0.18715171506773398,
+              "sharpe": 0.4261991499498689,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.07912400231743666,
+              "ann": 0.07980334717379334,
+              "mdd": -0.17101114963477282,
+              "sharpe": 0.45577375626936417,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 2,
+        "neighbor_q25": -0.04390611826946478
+      },
+      "direct_best": null,
+      "direct_with_fallback": {
+        "id": "31633ae98911ce0c7599",
+        "host": "B03_valuation",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": 0.0922569150000001,
+          "ann": 0.03001873994344506,
+          "mdd": -0.23878056784214097,
+          "sharpe": 0.2509745135787797,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 5,
+          "n_trades": 109,
+          "total_fees": 4578.964499999999,
+          "mean_invested": 0.9923618218521342,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 3,
+          "rights_declined_events": 0,
+          "n_rebalances": 154,
+          "execution_data_sufficient": true,
+          "median_ann": 0.07253702598910117,
+          "worst_block_mdd": -0.17211482602418615,
+          "buys": 57,
+          "turnover": 8.397032261476324,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.1568581400000001,
+              "ann": -0.15744993596149925,
+              "mdd": -0.17211482602418615,
+              "sharpe": -0.8037547777111589,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.07222925688922643,
+              "ann": 0.07253702598910117,
+              "mdd": -0.10736738422505054,
+              "sharpe": 0.54281749905096,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.20819350888776245,
+              "ann": 0.2100834246648462,
+              "mdd": -0.16599821934550585,
+              "sharpe": 0.9873899127868304,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.07253702598910117
+      }
+    },
+    "equal_weight": {
+      "baseline": {
+        "id": "31633ae98911ce0c7599",
+        "host": "equal_weight",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07362092500000028,
+          "ann": -0.025304968176685594,
+          "mdd": -0.15126416260634978,
+          "sharpe": -0.1718615495973338,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 31,
+          "total_fees": 1820.4685000000002,
+          "mean_invested": 0.9839805060513042,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 2,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.01991002386192675,
+          "worst_block_mdd": -0.14587530003905835,
+          "buys": 17,
+          "turnover": 3.4777308299978764,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13938443,
+              "ann": -0.13991589026669649,
+              "mdd": -0.14587530003905835,
+              "sharpe": -0.9644746060067916,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.019827621756831393,
+              "ann": 0.01991002386192675,
+              "mdd": -0.08326070523934115,
+              "sharpe": 0.2818983469519945,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.05548670481126505,
+              "ann": 0.05595787097430227,
+              "mdd": -0.0670675976455205,
+              "sharpe": 0.5909836325240525,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.01991002386192675
+      },
+      "residual_best": {
+        "id": "31633ae98911ce0c7599",
+        "host": "equal_weight",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07362092500000028,
+          "ann": -0.025304968176685594,
+          "mdd": -0.15126416260634978,
+          "sharpe": -0.1718615495973338,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 31,
+          "total_fees": 1820.4685000000002,
+          "mean_invested": 0.9839805060513042,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 2,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.01991002386192675,
+          "worst_block_mdd": -0.14587530003905835,
+          "buys": 17,
+          "turnover": 3.4777308299978764,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13938443,
+              "ann": -0.13991589026669649,
+              "mdd": -0.14587530003905835,
+              "sharpe": -0.9644746060067916,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.019827621756831393,
+              "ann": 0.01991002386192675,
+              "mdd": -0.08326070523934115,
+              "sharpe": 0.2818983469519945,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.05548670481126505,
+              "ann": 0.05595787097430227,
+              "mdd": -0.0670675976455205,
+              "sharpe": 0.5909836325240525,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.01991002386192675
+      },
+      "residual_stable": {
+        "id": "31633ae98911ce0c7599",
+        "host": "equal_weight",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07362092500000028,
+          "ann": -0.025304968176685594,
+          "mdd": -0.15126416260634978,
+          "sharpe": -0.1718615495973338,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 31,
+          "total_fees": 1820.4685000000002,
+          "mean_invested": 0.9839805060513042,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 2,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.01991002386192675,
+          "worst_block_mdd": -0.14587530003905835,
+          "buys": 17,
+          "turnover": 3.4777308299978764,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13938443,
+              "ann": -0.13991589026669649,
+              "mdd": -0.14587530003905835,
+              "sharpe": -0.9644746060067916,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.019827621756831393,
+              "ann": 0.01991002386192675,
+              "mdd": -0.08326070523934115,
+              "sharpe": 0.2818983469519945,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.05548670481126505,
+              "ann": 0.05595787097430227,
+              "mdd": -0.0670675976455205,
+              "sharpe": 0.5909836325240525,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.01991002386192675
+      },
+      "direct_best": null,
+      "direct_with_fallback": {
+        "id": "31633ae98911ce0c7599",
+        "host": "equal_weight",
+        "outer_year": 2023,
+        "params": {
+          "kind": "baseline",
+          "amplitude": 0.0
+        },
+        "status": "ok",
+        "metrics": {
+          "total": -0.07362092500000028,
+          "ann": -0.025304968176685594,
+          "mdd": -0.15126416260634978,
+          "sharpe": -0.1718615495973338,
+          "n_days": 728,
+          "capital": 100000.0,
+          "top_n": 3,
+          "n_trades": 31,
+          "total_fees": 1820.4685000000002,
+          "mean_invested": 0.9839805060513042,
+          "missing_limit_events": 0,
+          "stale_warnings": 0,
+          "delist_events": 0,
+          "adjustment_metadata_events": 2,
+          "rights_declined_events": 0,
+          "n_rebalances": 36,
+          "execution_data_sufficient": true,
+          "median_ann": 0.01991002386192675,
+          "worst_block_mdd": -0.14587530003905835,
+          "buys": 17,
+          "turnover": 3.4777308299978764,
+          "yearly": [
+            {
+              "year": 2020,
+              "total": -0.13938443,
+              "ann": -0.13991589026669649,
+              "mdd": -0.14587530003905835,
+              "sharpe": -0.9644746060067916,
+              "n_days": 243
+            },
+            {
+              "year": 2021,
+              "total": 0.019827621756831393,
+              "ann": 0.01991002386192675,
+              "mdd": -0.08326070523934115,
+              "sharpe": 0.2818983469519945,
+              "n_days": 243
+            },
+            {
+              "year": 2022,
+              "total": 0.05548670481126505,
+              "ann": 0.05595787097430227,
+              "mdd": -0.0670675976455205,
+              "sharpe": 0.5909836325240525,
+              "n_days": 242
+            }
+          ],
+          "feasible": true
+        },
+        "neighbor_count": 8,
+        "neighbor_q25": 0.01991002386192675
+      }
+    }
+  }
+}

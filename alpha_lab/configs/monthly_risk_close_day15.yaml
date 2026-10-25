@@ -1,0 +1,52 @@
+# 月中启动：仅把月度复核平移至自然日15日，休市顺延；其余规则与原候选相同。
+strategy: monthly_predicted_risk
+schedule:
+  kind: calendar
+  parameter: 15
+  anchor: '2022-01-01'
+  interval: 20
+top_n: 5
+candidate_pool: 20
+max_stock_fraction: 0.25
+buy_cost: 0.001
+sell_cost: 0.002
+min_fee: 5.0
+buy_limit_buffer: 0.02
+sell_limit_buffer: 0.1
+st_sell_limit_buffer: 0.05
+max_volume_participation: 0.01
+price_tick: 0.01
+solver_relative_gap: 0.001
+cash_tolerance: 0.02
+execution_session: closing_auction
+restore: true
+lot_grace: false
+trend:
+  medium_window: 60
+  long_window: 120
+  min_return: 0.0
+  require_above_long_ma: true
+hold:
+  medium_window: 60
+  long_window: 120
+  baseline_confirmations: 2
+  patient_confirmations: 3
+  persistence_window: 20
+  persistent_weak_days: 10
+  variants:
+    hybrid:
+      accelerate: broken
+      patient: true
+min_listing_days: 60
+risk_windows:
+  volatility: 20
+  drawdown: 120
+rank_buffer: 10
+rank_confirmations: 2
+market_risk:
+  model_path: configs/models/monthly_market_risk.json
+  model_sha256: 5f91639c17c1f6a60b6628ded783b4abe8c7f8752be8654d201654fdba8351d4
+  enter: 0.30245275630569923
+  release: 0.16239408013966727
+  risk_cap: 0.5
+production_enabled: false

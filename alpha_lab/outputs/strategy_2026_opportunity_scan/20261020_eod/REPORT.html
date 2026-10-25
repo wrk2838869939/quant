@@ -1,0 +1,308 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>2026-10-20收盘机会扫描</title><style>body{font:16px/1.7 sans-serif;max-width:1320px;margin:32px auto;padding:0 24px;color:#263440}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd5dc;padding:7px}th{background:#eef3f6}img{max-width:100%}pre{white-space:pre-wrap;background:#f3f5f7;padding:12px}a{color:#246b97}</style><body><h1>2026-10-20收盘数据与模型扫描</h1>
+<p><strong>正式策略结果：103个有效板块中，8个观察、8个价格触发、2个当日形态确认；新增独立首次确认1个，年度板块模型通过0个，正式模型新入场候选0只。</strong></p>
+<p>20日新增5,568条有效日线，收盘数据冻结完成。数据工程代码、正式策略参数和年度模型权重均未修改；没有重新训练模型。</p>
+<h2>正式策略扫描</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">板块</th>
+<th style="text-align: right;">窗口</th>
+<th style="text-align: left;">20日涨跌</th>
+<th style="text-align: left;">峰值回撤</th>
+<th style="text-align: left;">形态确认</th>
+<th style="text-align: left;">新增首次确认</th>
+<th style="text-align: left;">当前条件缺口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">农产品加工</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">+0.09%</td>
+<td style="text-align: left;">-17.87%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">渔业</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: left;">-0.02%</td>
+<td style="text-align: left;">-18.43%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑、减速确认</td>
+</tr>
+<tr>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">-0.12%</td>
+<td style="text-align: left;">-10.03%</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">形态齐备，须核对事件去重及年度模型</td>
+</tr>
+<tr>
+<td style="text-align: left;">贵金属</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">-0.88%</td>
+<td style="text-align: left;">-22.26%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">医疗服务</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">+2.30%</td>
+<td style="text-align: left;">-12.77%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">房地产服务</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">-0.63%</td>
+<td style="text-align: left;">-12.14%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑、减速确认</td>
+</tr>
+<tr>
+<td style="text-align: left;">酒店餐饮</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">+0.35%</td>
+<td style="text-align: left;">-15.32%</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">形态齐备，须核对事件去重及年度模型</td>
+</tr>
+<tr>
+<td style="text-align: left;">焦炭Ⅱ</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: left;">-1.96%</td>
+<td style="text-align: left;">-13.25%</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近5日破支撑</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="板块条件" src="gate_status.png" /></p>
+<p>价格触发、当日形态确认和去重后的首次确认分别记录。只有新首次确认通过年度板块模型，才进入正式个股排序。</p>
+<h3>今日新增首次确认及年度评分</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">日期</th>
+<th style="text-align: left;">板块</th>
+<th style="text-align: right;">年度分数</th>
+<th style="text-align: right;">阈值</th>
+<th style="text-align: left;">年度模型通过</th>
+<th style="text-align: left;">最早入场日</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2026-10-20</td>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: right;">-0.0423149</td>
+<td style="text-align: right;">0.00328929</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">2026-10-21</td>
+</tr>
+</tbody>
+</table>
+<h3>正式模型个股候选</h3>
+<p>无。</p>
+<p>今日没有通过年度板块模型的新首次事件，因此正式流程未进入个股评分；不能理解为全市场股票逐只评分后被淘汰。</p>
+<h2>西安饮食与同庆楼的更新</h2>
+<p>以下是用户指定的酒店餐饮独立观察复核，与正式模型候选分开。即使这里个股条件通过，也不会自动绕过首次事件和板块模型门槛。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">股票</th>
+<th style="text-align: left;">代码</th>
+<th style="text-align: right;">19日收盘</th>
+<th style="text-align: right;">20日收盘</th>
+<th style="text-align: left;">20日涨跌</th>
+<th style="text-align: left;">20日价格形态</th>
+<th style="text-align: right;">19日排序分数</th>
+<th style="text-align: right;">20日排序分数</th>
+<th style="text-align: left;">仍在观察名单</th>
+<th style="text-align: left;">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">西安饮食</td>
+<td style="text-align: left;">000721.SZ</td>
+<td style="text-align: right;">5.87</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">+2.21%</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.003943</td>
+<td style="text-align: right;">0.000268</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">个股条件通过；板块/首次事件入口不通过</td>
+</tr>
+<tr>
+<td style="text-align: left;">同庆楼</td>
+<td style="text-align: left;">605108.SH</td>
+<td style="text-align: right;">11.77</td>
+<td style="text-align: right;">11.78</td>
+<td style="text-align: left;">+0.08%</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: right;">0.001857</td>
+<td style="text-align: right;">-0.002074</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">个股排序分数非正</td>
+</tr>
+</tbody>
+</table>
+<p>酒店餐饮20日形态确认：是；当日板块涨跌+0.35%。当前代表窗口对应首次确认日为2026-09-17。该首次事件的年度模型分数-0.009877，阈值0.003289；后续重复形态不能自动重开入场。</p>
+<p><img alt="两只股票走势" src="hotel_tracking.png" /></p>
+<p>酒店餐饮全部9只成员重新检查，8只通过资格筛选，6只通过个股价格形态，4只进入价格形态池内正分数的独立观察名单。年度分数仅用于板块内相对排序，不是预期收益或胜率。名称/ST历史通过原查询封装重新拉取，保存在独立研究目录，未更改冻结行情。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">名称</th>
+<th style="text-align: left;">代码</th>
+<th style="text-align: right;">20日收盘</th>
+<th style="text-align: left;">20日涨跌</th>
+<th style="text-align: left;">价格形态</th>
+<th style="text-align: left;">排序分数</th>
+<th style="text-align: right;">独立观察入选</th>
+<th style="text-align: left;">原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">华天酒店</td>
+<td style="text-align: left;">000428.SZ</td>
+<td style="text-align: right;">3.56</td>
+<td style="text-align: left;">+1.42%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">0.001169</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">个股条件通过；板块/首次事件入口不通过</td>
+</tr>
+<tr>
+<td style="text-align: left;">西安饮食</td>
+<td style="text-align: left;">000721.SZ</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">+2.21%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">0.000268</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">个股条件通过；板块/首次事件入口不通过</td>
+</tr>
+<tr>
+<td style="text-align: left;">全聚德</td>
+<td style="text-align: left;">002186.SZ</td>
+<td style="text-align: right;">9.14</td>
+<td style="text-align: left;">+0.55%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">-0.005274</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">个股排序分数非正</td>
+</tr>
+<tr>
+<td style="text-align: left;">ST云网</td>
+<td style="text-align: left;">002306.SZ</td>
+<td style="text-align: right;">1.83</td>
+<td style="text-align: left;">-1.61%</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">未评分</td>
+<td style="text-align: right;">nan</td>
+<td style="text-align: left;">ST资格排除</td>
+</tr>
+<tr>
+<td style="text-align: left;">君亭酒店</td>
+<td style="text-align: left;">301073.SZ</td>
+<td style="text-align: right;">16.49</td>
+<td style="text-align: left;">+1.29%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">0.002782</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">个股条件通过；板块/首次事件入口不通过</td>
+</tr>
+<tr>
+<td style="text-align: left;">首旅酒店</td>
+<td style="text-align: left;">600258.SH</td>
+<td style="text-align: right;">11.25</td>
+<td style="text-align: left;">-0.09%</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">0.000497</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">前3日跌幅不足1%</td>
+</tr>
+<tr>
+<td style="text-align: left;">锦江酒店</td>
+<td style="text-align: left;">600754.SH</td>
+<td style="text-align: right;">17.87</td>
+<td style="text-align: left;">-0.45%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">0.003758</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">个股条件通过；板块/首次事件入口不通过</td>
+</tr>
+<tr>
+<td style="text-align: left;">金陵饭店</td>
+<td style="text-align: left;">601007.SH</td>
+<td style="text-align: right;">6.57</td>
+<td style="text-align: left;">-0.15%</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">-0.001126</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">下跌减速未过；个股排序分数非正</td>
+</tr>
+<tr>
+<td style="text-align: left;">同庆楼</td>
+<td style="text-align: left;">605108.SH</td>
+<td style="text-align: right;">11.78</td>
+<td style="text-align: left;">+0.08%</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">-0.002074</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">个股排序分数非正</td>
+</tr>
+</tbody>
+</table>
+<h2>数据和模型核验</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">date</th>
+<th style="text-align: right;">rows</th>
+<th style="text-align: right;">nontrading_placeholders_removed</th>
+<th style="text-align: right;">basic_coverage</th>
+<th style="text-align: right;">turnover_coverage</th>
+<th style="text-align: right;">adjustment_coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">2.0261e+07</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>新增日线无重复键；复权因子、市值/流通股本、换手率覆盖均通过既有质量门槛。涨跌幅与收盘/前收推导值最大舍入差0.00005000个百分点。</li>
+<li>更新产物13项哈希核验通过；旧行情前缀、板块历史和原确认事件保持一致。</li>
+<li>年度板块模型的17个历史预测复核最大误差7.45e-09。板块训练标签最晚2025-11-18、个股最晚2025-11-19，未调用旧随机划分模型分数作策略判断。</li>
+<li>原扫描入口保留旧随机模型接口；本报告使用独立的2026年度评价结果。既有年度权重是历史信息边界复核产物，不意味着文件在2026年初已经存在。</li>
+<li>行业映射最新覆盖79.33%，有效板块103个，历史成员请求失败记录27个；历史成员PIT尚未完整认证。此次更新四个A股日线接口和在市主档，未全量刷新财务、历史名称、历史行业、指数、美股；酒店餐饮名称历史另行核对。</li>
+<li>原“旧拒绝事件重复确认”的历史诊断未证明补买有效，本次没有放宽这一规则。</li>
+</ul>
+<h2>产物</h2>
+<p><a href="summary.json">摘要</a> · <a href="today_first_confirmations_asof_model.csv">新首次确认</a> · <a href="stock_candidates_asof.csv">正式候选</a> · <a href="comparison_20261019_20261020.csv">与19日板块对比</a> · <a href="hotel_tracking_20261019_20261020.csv">两只股票前后对比</a> · <a href="verification.json">代码与模型核验</a></p>
+<p>行情快照：<code>datahub/releases/selection_live_20261020_eod</code>。板块数据：<code>alpha_lab/data/sector_live_datasets/sw_l2_v1_20261020T113446_268600Z</code>。原扫描：<code>alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z</code>。</p>
+<pre><code class="language-bash">OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python datahub/scripts/frozen_research.py run --release datahub/releases/selection_live_20261020_eod alpha_lab/outputs/strategy_2026_opportunity_scan/20261020_eod/evaluate_existing_models.py --scan alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z
+</code></pre></body></html>

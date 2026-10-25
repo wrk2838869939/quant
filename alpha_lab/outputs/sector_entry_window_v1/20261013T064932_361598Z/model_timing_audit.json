@@ -1,0 +1,8 @@
+{
+  "annual_fits": 8,
+  "chronology_and_role_disjoint_passed": true,
+  "threshold_replay_passed": true,
+  "chronological_scored": 256,
+  "chronological_selected": 118,
+  "random_test_selected": 82
+}

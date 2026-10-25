@@ -1,0 +1,9 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m pytest -q alpha_lab/tests/test_initialized_policy.py",
+  "exit_code": 0,
+  "passed": 54,
+  "duration_seconds": 4.74,
+  "scope": "原账本用例、策略回调适配账本及新增动作/因果性用例",
+  "test_sha256": "91b62a6ff43e0bf36533523440ef5fb01d2712a99baf9576830c7f26ac8fc877",
+  "record_kind": "本轮已执行工具输出的登记，不是额外重跑"
+}

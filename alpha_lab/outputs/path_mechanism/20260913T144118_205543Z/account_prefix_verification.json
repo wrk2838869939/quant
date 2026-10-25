@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "continued_rolling_00_duration",
+      "stop": "2025-06-30 00:00:00",
+      "daily_trades_holdings_orders_exact": true,
+      "checks": {
+        "cash_max_error": 2.000888343900442e-11,
+        "shares_max_error": 0.0
+      }
+    },
+    {
+      "name": "continued_rolling_00_wait",
+      "stop": "2025-06-30 00:00:00",
+      "daily_trades_holdings_orders_exact": true,
+      "checks": {
+        "cash_max_error": 4.274625098332763e-11,
+        "shares_max_error": 0.0
+      }
+    },
+    {
+      "name": "continued_rolling_00_recover",
+      "stop": "2025-06-30 00:00:00",
+      "daily_trades_holdings_orders_exact": true,
+      "checks": {
+        "cash_max_error": 4.001776687800884e-11,
+        "shares_max_error": 0.0
+      }
+    },
+    {
+      "name": "continued_rolling_00_lot_buffer",
+      "stop": "2025-06-30 00:00:00",
+      "daily_trades_holdings_orders_exact": true,
+      "checks": {
+        "cash_max_error": 1.7280399333685637e-11,
+        "shares_max_error": 0.0
+      }
+    }
+  ],
+  "source_sha256": "1891b71689ed52adda6995f715afbbc0d50ecf42a8b077b51b9a550663bcf947"
+}

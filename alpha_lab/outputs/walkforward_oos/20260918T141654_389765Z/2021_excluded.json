@@ -1,0 +1,8542 @@
+{
+  "002582.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.48,
+    "pre_close": 8.7
+  },
+  "603319.SH": {
+    "date": "2021-12-13",
+    "prev_close": 27.18,
+    "pre_close": 25.72
+  },
+  "000001.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.38,
+    "pre_close": 16.48
+  },
+  "000006.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.29,
+    "pre_close": 4.46
+  },
+  "000020.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.05,
+    "pre_close": 9.16
+  },
+  "000023.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.56,
+    "pre_close": 13.59
+  },
+  "000029.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.17,
+    "pre_close": 7.83
+  },
+  "000031.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.47,
+    "pre_close": 3.73
+  },
+  "000036.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.51,
+    "pre_close": 4.34
+  },
+  "000042.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.16,
+    "pre_close": 8.06
+  },
+  "000055.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.9,
+    "pre_close": 4.97
+  },
+  "000069.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.42,
+    "pre_close": 7.04
+  },
+  "000090.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.52,
+    "pre_close": 5.87
+  },
+  "000096.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.5,
+    "pre_close": 8.83
+  },
+  "000099.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.22,
+    "pre_close": 8.65
+  },
+  "000402.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.64,
+    "pre_close": 5.66
+  },
+  "000404.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.54,
+    "pre_close": 4.69
+  },
+  "000419.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.28,
+    "pre_close": 4.58
+  },
+  "000429.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.15,
+    "pre_close": 7.4
+  },
+  "000498.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.42,
+    "pre_close": 6.18
+  },
+  "000514.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.15,
+    "pre_close": 3.96
+  },
+  "000517.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.35,
+    "pre_close": 2.46
+  },
+  "000520.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.41,
+    "pre_close": 3.43
+  },
+  "000526.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.54,
+    "pre_close": 18.99
+  },
+  "000529.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.72,
+    "pre_close": 6.3
+  },
+  "000531.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.57,
+    "pre_close": 9.34
+  },
+  "000536.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.43,
+    "pre_close": 2.46
+  },
+  "000537.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.81,
+    "pre_close": 24.1
+  },
+  "000539.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.05,
+    "pre_close": 6.15
+  },
+  "000540.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.52,
+    "pre_close": 2.64
+  },
+  "000541.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.61,
+    "pre_close": 5.65
+  },
+  "000543.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.02,
+    "pre_close": 5.56
+  },
+  "000557.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.64,
+    "pre_close": 4.21
+  },
+  "000560.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.03,
+    "pre_close": 3.14
+  },
+  "000563.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.18,
+    "pre_close": 3.23
+  },
+  "000573.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.0,
+    "pre_close": 3.18
+  },
+  "000582.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.86,
+    "pre_close": 8.04
+  },
+  "000589.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.86,
+    "pre_close": 6.15
+  },
+  "000590.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.29,
+    "pre_close": 9.88
+  },
+  "000593.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.7,
+    "pre_close": 6.41
+  },
+  "000600.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.62,
+    "pre_close": 5.09
+  },
+  "000605.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.31,
+    "pre_close": 5.59
+  },
+  "000608.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.91,
+    "pre_close": 3.05
+  },
+  "000627.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.2,
+    "pre_close": 3.31
+  },
+  "000628.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.97,
+    "pre_close": 11.12
+  },
+  "000631.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.64,
+    "pre_close": 3.57
+  },
+  "000632.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.43,
+    "pre_close": 3.66
+  },
+  "000656.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.66,
+    "pre_close": 4.48
+  },
+  "000671.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.15,
+    "pre_close": 3.02
+  },
+  "000685.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.92,
+    "pre_close": 8.85
+  },
+  "000686.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.1,
+    "pre_close": 8.78
+  },
+  "000705.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.7,
+    "pre_close": 8.88
+  },
+  "000715.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.62,
+    "pre_close": 4.89
+  },
+  "000719.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.22,
+    "pre_close": 7.52
+  },
+  "000720.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.99,
+    "pre_close": 4.89
+  },
+  "000726.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.03,
+    "pre_close": 6.45
+  },
+  "000736.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.31,
+    "pre_close": 6.35
+  },
+  "000755.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.77,
+    "pre_close": 4.62
+  },
+  "000759.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.94,
+    "pre_close": 5.01
+  },
+  "000761.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.25,
+    "pre_close": 4.2
+  },
+  "000778.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.84,
+    "pre_close": 4.33
+  },
+  "000779.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.38,
+    "pre_close": 8.92
+  },
+  "000785.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.96,
+    "pre_close": 5.16
+  },
+  "000797.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.51,
+    "pre_close": 2.61
+  },
+  "000828.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.24,
+    "pre_close": 10.18
+  },
+  "000838.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.15,
+    "pre_close": 7.18
+  },
+  "000850.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.37,
+    "pre_close": 4.56
+  },
+  "000863.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.84,
+    "pre_close": 3.53
+  },
+  "000882.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 1.8,
+    "pre_close": 1.91
+  },
+  "000897.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.43,
+    "pre_close": 2.72
+  },
+  "000898.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.81,
+    "pre_close": 3.75
+  },
+  "000899.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.5,
+    "pre_close": 5.93
+  },
+  "000900.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.1,
+    "pre_close": 4.22
+  },
+  "000905.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.29,
+    "pre_close": 7.52
+  },
+  "000909.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.04,
+    "pre_close": 7.88
+  },
+  "000926.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.17,
+    "pre_close": 4.25
+  },
+  "000950.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.76,
+    "pre_close": 5.1
+  },
+  "000952.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.19,
+    "pre_close": 7.83
+  },
+  "000961.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.42,
+    "pre_close": 4.14
+  },
+  "000965.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.41,
+    "pre_close": 2.6
+  },
+  "000987.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.9,
+    "pre_close": 8.7
+  },
+  "001872.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.8,
+    "pre_close": 16.95
+  },
+  "001914.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.56,
+    "pre_close": 20.26
+  },
+  "001965.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.31,
+    "pre_close": 7.67
+  },
+  "001979.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.62,
+    "pre_close": 13.34
+  },
+  "002014.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.52,
+    "pre_close": 8.58
+  },
+  "002016.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.38,
+    "pre_close": 5.66
+  },
+  "002029.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.87,
+    "pre_close": 6.18
+  },
+  "002040.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.05,
+    "pre_close": 6.18
+  },
+  "002053.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.97,
+    "pre_close": 9.47
+  },
+  "002061.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.35,
+    "pre_close": 5.58
+  },
+  "002062.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.95,
+    "pre_close": 4.06
+  },
+  "002081.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.97,
+    "pre_close": 6.08
+  },
+  "002083.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.2,
+    "pre_close": 4.61
+  },
+  "002088.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.17,
+    "pre_close": 26.0
+  },
+  "002096.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.05,
+    "pre_close": 12.81
+  },
+  "002098.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.42,
+    "pre_close": 6.8
+  },
+  "002107.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 7.4
+  },
+  "002110.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.86,
+    "pre_close": 6.8
+  },
+  "002131.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.4,
+    "pre_close": 2.46
+  },
+  "002133.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.89,
+    "pre_close": 3.13
+  },
+  "002134.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.38,
+    "pre_close": 9.78
+  },
+  "002146.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.38,
+    "pre_close": 4.35
+  },
+  "002159.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.5,
+    "pre_close": 10.93
+  },
+  "002164.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.94,
+    "pre_close": 6.05
+  },
+  "002181.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.09,
+    "pre_close": 4.55
+  },
+  "002187.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.13,
+    "pre_close": 8.72
+  },
+  "002204.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.03,
+    "pre_close": 4.35
+  },
+  "002238.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.59,
+    "pre_close": 6.3
+  },
+  "002244.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.26,
+    "pre_close": 4.66
+  },
+  "002263.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.35,
+    "pre_close": 3.91
+  },
+  "002264.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.8,
+    "pre_close": 5.92
+  },
+  "002267.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.12,
+    "pre_close": 7.37
+  },
+  "002298.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.39,
+    "pre_close": 7.59
+  },
+  "002302.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.52,
+    "pre_close": 8.03
+  },
+  "002327.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.33,
+    "pre_close": 8.54
+  },
+  "002333.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.09,
+    "pre_close": 5.27
+  },
+  "002344.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.67,
+    "pre_close": 4.9
+  },
+  "002357.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.18,
+    "pre_close": 6.33
+  },
+  "002377.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.26,
+    "pre_close": 3.32
+  },
+  "002392.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.85,
+    "pre_close": 5.04
+  },
+  "002394.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.75,
+    "pre_close": 8.21
+  },
+  "002395.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.69,
+    "pre_close": 10.37
+  },
+  "002404.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.67,
+    "pre_close": 5.76
+  },
+  "002416.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.76,
+    "pre_close": 11.38
+  },
+  "002423.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.24,
+    "pre_close": 8.1
+  },
+  "002462.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.52,
+    "pre_close": 14.07
+  },
+  "002478.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.14,
+    "pre_close": 4.33
+  },
+  "002485.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.78,
+    "pre_close": 4.67
+  },
+  "002519.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.26,
+    "pre_close": 4.39
+  },
+  "002543.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.36,
+    "pre_close": 7.57
+  },
+  "002561.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.07,
+    "pre_close": 7.23
+  },
+  "002570.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.17,
+    "pre_close": 5.12
+  },
+  "002608.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.4,
+    "pre_close": 7.0
+  },
+  "002611.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.97,
+    "pre_close": 5.58
+  },
+  "002674.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.29,
+    "pre_close": 11.23
+  },
+  "002687.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.12,
+    "pre_close": 7.07
+  },
+  "002703.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.32
+  },
+  "002718.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.98,
+    "pre_close": 12.66
+  },
+  "002737.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.66,
+    "pre_close": 16.46
+  },
+  "002743.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.47,
+    "pre_close": 7.16
+  },
+  "002758.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.44,
+    "pre_close": 12.39
+  },
+  "002767.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.9,
+    "pre_close": 12.53
+  },
+  "002775.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.71,
+    "pre_close": 4.33
+  },
+  "002788.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.27,
+    "pre_close": 7.81
+  },
+  "002796.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.01,
+    "pre_close": 8.24
+  },
+  "002800.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.29,
+    "pre_close": 14.88
+  },
+  "002807.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.8,
+    "pre_close": 3.85
+  },
+  "002826.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.89,
+    "pre_close": 10.95
+  },
+  "002846.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.56,
+    "pre_close": 7.86
+  },
+  "002860.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.8,
+    "pre_close": 24.4
+  },
+  "002861.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.88,
+    "pre_close": 12.7
+  },
+  "002878.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.83,
+    "pre_close": 19.7
+  },
+  "002887.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.47,
+    "pre_close": 9.79
+  },
+  "002888.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.2,
+    "pre_close": 13.1
+  },
+  "002907.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.81,
+    "pre_close": 18.05
+  },
+  "002911.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.96,
+    "pre_close": 11.2
+  },
+  "002936.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.39,
+    "pre_close": 3.16
+  },
+  "002939.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.8,
+    "pre_close": 12.95
+  },
+  "002948.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.81,
+    "pre_close": 4.63
+  },
+  "002950.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.63,
+    "pre_close": 16.35
+  },
+  "002951.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.85,
+    "pre_close": 11.74
+  },
+  "002952.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.71,
+    "pre_close": 13.27
+  },
+  "002966.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.75,
+    "pre_close": 6.77
+  },
+  "002972.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.16,
+    "pre_close": 19.29
+  },
+  "002973.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.6,
+    "pre_close": 15.11
+  },
+  "003010.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.82,
+    "pre_close": 22.35
+  },
+  "300116.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.49,
+    "pre_close": 2.45
+  },
+  "300196.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.51,
+    "pre_close": 17.53
+  },
+  "300246.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.08,
+    "pre_close": 21.85
+  },
+  "300267.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.23,
+    "pre_close": 4.74
+  },
+  "300401.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.62,
+    "pre_close": 14.38
+  },
+  "300438.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 56.2,
+    "pre_close": 47.24
+  },
+  "300519.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.42,
+    "pre_close": 20.19
+  },
+  "300599.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.53,
+    "pre_close": 10.36
+  },
+  "300654.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.12,
+    "pre_close": 9.51
+  },
+  "300805.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.53,
+    "pre_close": 13.96
+  },
+  "600000.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.77,
+    "pre_close": 8.53
+  },
+  "600007.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.7,
+    "pre_close": 14.4
+  },
+  "600012.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.84,
+    "pre_close": 7.08
+  },
+  "600015.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.67,
+    "pre_close": 5.6
+  },
+  "600016.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.94,
+    "pre_close": 3.9
+  },
+  "600017.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.83,
+    "pre_close": 2.81
+  },
+  "600020.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.15,
+    "pre_close": 3.27
+  },
+  "600023.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 4.04
+  },
+  "600026.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.87,
+    "pre_close": 5.92
+  },
+  "600033.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.77,
+    "pre_close": 2.82
+  },
+  "600035.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.06,
+    "pre_close": 3.15
+  },
+  "600051.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.2,
+    "pre_close": 7.47
+  },
+  "600062.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.0,
+    "pre_close": 13.37
+  },
+  "600064.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.29,
+    "pre_close": 9.34
+  },
+  "600067.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.14,
+    "pre_close": 3.95
+  },
+  "600077.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.34,
+    "pre_close": 2.71
+  },
+  "600094.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.57,
+    "pre_close": 3.54
+  },
+  "600106.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.25,
+    "pre_close": 4.5
+  },
+  "600107.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.3,
+    "pre_close": 5.94
+  },
+  "600113.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.7
+  },
+  "600125.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.95,
+    "pre_close": 5.16
+  },
+  "600126.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.08,
+    "pre_close": 5.13
+  },
+  "600133.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.23,
+    "pre_close": 5.42
+  },
+  "600153.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.05,
+    "pre_close": 9.07
+  },
+  "600156.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.9,
+    "pre_close": 4.2
+  },
+  "600159.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.44,
+    "pre_close": 3.07
+  },
+  "600162.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.94,
+    "pre_close": 2.1
+  },
+  "600163.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.93,
+    "pre_close": 8.77
+  },
+  "600168.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.5,
+    "pre_close": 6.83
+  },
+  "600170.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.31,
+    "pre_close": 3.6
+  },
+  "600173.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.93,
+    "pre_close": 6.5
+  },
+  "600180.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.01,
+    "pre_close": 7.14
+  },
+  "600186.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.05,
+    "pre_close": 3.01
+  },
+  "600190.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.81,
+    "pre_close": 2.85
+  },
+  "600192.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.81,
+    "pre_close": 5.84
+  },
+  "600208.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.89,
+    "pre_close": 2.98
+  },
+  "600215.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.45,
+    "pre_close": 8.23
+  },
+  "600217.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.85,
+    "pre_close": 7.57
+  },
+  "600220.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.33,
+    "pre_close": 2.66
+  },
+  "600229.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.73,
+    "pre_close": 7.51
+  },
+  "600231.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.63,
+    "pre_close": 2.66
+  },
+  "600233.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.87,
+    "pre_close": 16.68
+  },
+  "600246.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.27,
+    "pre_close": 10.66
+  },
+  "600250.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.65,
+    "pre_close": 4.99
+  },
+  "600266.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.35,
+    "pre_close": 4.5
+  },
+  "600269.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.34,
+    "pre_close": 3.43
+  },
+  "600272.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.93,
+    "pre_close": 8.21
+  },
+  "600278.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.67,
+    "pre_close": 8.09
+  },
+  "600279.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 4.07
+  },
+  "600284.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.04,
+    "pre_close": 6.32
+  },
+  "600287.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.29,
+    "pre_close": 4.69
+  },
+  "600325.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.81,
+    "pre_close": 6.02
+  },
+  "600340.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.85,
+    "pre_close": 3.6
+  },
+  "600361.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.78,
+    "pre_close": 5.75
+  },
+  "600368.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.88,
+    "pre_close": 4.07
+  },
+  "600370.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.11,
+    "pre_close": 3.26
+  },
+  "600376.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.46,
+    "pre_close": 5.66
+  },
+  "600377.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.51,
+    "pre_close": 8.62
+  },
+  "600383.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.22,
+    "pre_close": 12.97
+  },
+  "600386.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.01,
+    "pre_close": 4.46
+  },
+  "600390.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.22,
+    "pre_close": 5.32
+  },
+  "600400.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.7,
+    "pre_close": 3.78
+  },
+  "600449.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.4,
+    "pre_close": 12.03
+  },
+  "600455.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.34,
+    "pre_close": 22.77
+  },
+  "600463.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 8.11
+  },
+  "600466.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.85,
+    "pre_close": 2.04
+  },
+  "600477.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.93,
+    "pre_close": 4.13
+  },
+  "600491.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.32,
+    "pre_close": 6.89
+  },
+  "600502.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.02,
+    "pre_close": 4.15
+  },
+  "600503.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.16,
+    "pre_close": 3.22
+  },
+  "600510.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.69,
+    "pre_close": 7.48
+  },
+  "600512.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.11,
+    "pre_close": 3.26
+  },
+  "600513.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.66,
+    "pre_close": 9.66
+  },
+  "600533.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.96,
+    "pre_close": 3.1
+  },
+  "600539.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.75,
+    "pre_close": 8.12
+  },
+  "600551.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.27,
+    "pre_close": 7.97
+  },
+  "600565.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.32,
+    "pre_close": 2.44
+  },
+  "600603.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.6,
+    "pre_close": 3.97
+  },
+  "600604.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.24,
+    "pre_close": 5.37
+  },
+  "600605.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.67,
+    "pre_close": 9.44
+  },
+  "600606.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.24,
+    "pre_close": 4.34
+  },
+  "600611.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.38,
+    "pre_close": 3.46
+  },
+  "600620.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.81,
+    "pre_close": 9.22
+  },
+  "600622.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.69,
+    "pre_close": 2.92
+  },
+  "600628.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.49,
+    "pre_close": 7.75
+  },
+  "600629.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 6.6
+  },
+  "600635.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.73,
+    "pre_close": 3.79
+  },
+  "600636.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.08,
+    "pre_close": 10.74
+  },
+  "600638.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.59,
+    "pre_close": 5.73
+  },
+  "600639.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.27,
+    "pre_close": 12.77
+  },
+  "600641.SH": {
+    "date": "2021-12-13",
+    "prev_close": 33.36,
+    "pre_close": 33.27
+  },
+  "600643.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.69,
+    "pre_close": 6.76
+  },
+  "600648.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.98,
+    "pre_close": 13.23
+  },
+  "600649.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.0,
+    "pre_close": 4.11
+  },
+  "600650.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.34,
+    "pre_close": 9.59
+  },
+  "600657.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.32,
+    "pre_close": 3.73
+  },
+  "600658.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.9,
+    "pre_close": 4.12
+  },
+  "600663.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.68,
+    "pre_close": 10.86
+  },
+  "600665.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.87,
+    "pre_close": 3.1
+  },
+  "600668.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.56,
+    "pre_close": 18.28
+  },
+  "600675.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.82,
+    "pre_close": 3.01
+  },
+  "600681.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.22,
+    "pre_close": 5.53
+  },
+  "600683.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.75,
+    "pre_close": 5.34
+  },
+  "600684.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.43,
+    "pre_close": 3.56
+  },
+  "600693.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.01,
+    "pre_close": 4.04
+  },
+  "600694.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.24,
+    "pre_close": 19.51
+  },
+  "600697.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.9,
+    "pre_close": 12.46
+  },
+  "600704.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.03,
+    "pre_close": 5.92
+  },
+  "600708.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.22,
+    "pre_close": 2.39
+  },
+  "600713.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.49,
+    "pre_close": 4.91
+  },
+  "600716.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.05,
+    "pre_close": 4.07
+  },
+  "600717.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.17,
+    "pre_close": 4.19
+  },
+  "600719.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.82,
+    "pre_close": 4.12
+  },
+  "600724.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.48,
+    "pre_close": 3.67
+  },
+  "600735.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.23,
+    "pre_close": 6.65
+  },
+  "600736.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.44,
+    "pre_close": 4.59
+  },
+  "600743.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.88,
+    "pre_close": 1.98
+  },
+  "600748.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.85,
+    "pre_close": 4.05
+  },
+  "600750.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.33,
+    "pre_close": 14.45
+  },
+  "600755.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.07,
+    "pre_close": 7.21
+  },
+  "600770.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.57,
+    "pre_close": 7.99
+  },
+  "600782.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.6,
+    "pre_close": 5.28
+  },
+  "600785.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.22,
+    "pre_close": 13.1
+  },
+  "600790.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.11,
+    "pre_close": 3.29
+  },
+  "600795.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.91,
+    "pre_close": 3.17
+  },
+  "600808.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.85,
+    "pre_close": 3.69
+  },
+  "600814.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.1,
+    "pre_close": 6.53
+  },
+  "600817.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.73,
+    "pre_close": 13.61
+  },
+  "600819.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.32,
+    "pre_close": 5.58
+  },
+  "600820.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.18,
+    "pre_close": 5.38
+  },
+  "600823.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.39,
+    "pre_close": 3.28
+  },
+  "600824.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.52,
+    "pre_close": 3.86
+  },
+  "600826.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.12,
+    "pre_close": 9.45
+  },
+  "600828.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.44,
+    "pre_close": 3.61
+  },
+  "600833.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.71,
+    "pre_close": 9.35
+  },
+  "600834.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.07,
+    "pre_close": 9.97
+  },
+  "600838.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.89,
+    "pre_close": 6.55
+  },
+  "600841.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.54,
+    "pre_close": 11.83
+  },
+  "600848.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.49,
+    "pre_close": 14.87
+  },
+  "600857.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.48,
+    "pre_close": 10.06
+  },
+  "600880.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.74,
+    "pre_close": 7.51
+  },
+  "600894.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.1,
+    "pre_close": 7.54
+  },
+  "600895.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.2,
+    "pre_close": 15.06
+  },
+  "600897.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.33,
+    "pre_close": 16.57
+  },
+  "600901.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.13,
+    "pre_close": 5.09
+  },
+  "600903.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.72,
+    "pre_close": 9.68
+  },
+  "600908.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.65,
+    "pre_close": 5.67
+  },
+  "600919.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.03,
+    "pre_close": 5.83
+  },
+  "600926.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.15,
+    "pre_close": 12.82
+  },
+  "600939.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.58,
+    "pre_close": 4.09
+  },
+  "600987.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.31,
+    "pre_close": 5.56
+  },
+  "600992.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.09,
+    "pre_close": 9.9
+  },
+  "600995.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.72,
+    "pre_close": 19.87
+  },
+  "600996.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.52,
+    "pre_close": 5.57
+  },
+  "601005.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.06,
+    "pre_close": 2.09
+  },
+  "601006.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.21,
+    "pre_close": 6.4
+  },
+  "601007.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.45,
+    "pre_close": 5.72
+  },
+  "601009.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.3,
+    "pre_close": 8.96
+  },
+  "601010.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.09,
+    "pre_close": 3.47
+  },
+  "601019.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.81,
+    "pre_close": 6.15
+  },
+  "601107.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.59,
+    "pre_close": 5.38
+  },
+  "601116.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.19,
+    "pre_close": 9.42
+  },
+  "601117.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.89,
+    "pre_close": 12.0
+  },
+  "601128.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.03,
+    "pre_close": 6.61
+  },
+  "601158.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.32,
+    "pre_close": 6.41
+  },
+  "601166.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.42,
+    "pre_close": 19.04
+  },
+  "601186.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.65,
+    "pre_close": 7.8
+  },
+  "601187.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.21,
+    "pre_close": 6.9
+  },
+  "601188.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.38,
+    "pre_close": 3.5
+  },
+  "601199.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.38
+  },
+  "601226.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.99,
+    "pre_close": 6.78
+  },
+  "601229.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.21,
+    "pre_close": 7.13
+  },
+  "601298.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.72,
+    "pre_close": 5.69
+  },
+  "601366.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.02,
+    "pre_close": 6.19
+  },
+  "601368.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.3,
+    "pre_close": 5.38
+  },
+  "601390.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.62,
+    "pre_close": 5.79
+  },
+  "601398.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.66,
+    "pre_close": 4.63
+  },
+  "601500.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.3,
+    "pre_close": 5.34
+  },
+  "601512.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.17,
+    "pre_close": 9.05
+  },
+  "601518.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.49,
+    "pre_close": 2.7
+  },
+  "601528.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.72,
+    "pre_close": 11.28
+  },
+  "601566.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.04,
+    "pre_close": 12.36
+  },
+  "601577.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.9,
+    "pre_close": 7.81
+  },
+  "601588.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.33,
+    "pre_close": 2.48
+  },
+  "601611.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.58,
+    "pre_close": 9.97
+  },
+  "601618.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.06,
+    "pre_close": 3.83
+  },
+  "601658.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.29,
+    "pre_close": 5.1
+  },
+  "601665.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.7,
+    "pre_close": 5.58
+  },
+  "601668.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.86,
+    "pre_close": 5.0
+  },
+  "601669.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.44,
+    "pre_close": 8.08
+  },
+  "601800.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.83,
+    "pre_close": 8.58
+  },
+  "601801.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.81,
+    "pre_close": 5.19
+  },
+  "601811.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.58,
+    "pre_close": 9.07
+  },
+  "601816.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.75,
+    "pre_close": 4.83
+  },
+  "601818.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.39,
+    "pre_close": 3.32
+  },
+  "601825.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.82,
+    "pre_close": 6.75
+  },
+  "601828.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.89,
+    "pre_close": 8.81
+  },
+  "601838.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.65,
+    "pre_close": 12.0
+  },
+  "601858.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.2,
+    "pre_close": 8.82
+  },
+  "601860.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.2,
+    "pre_close": 3.35
+  },
+  "601886.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.62,
+    "pre_close": 6.59
+  },
+  "601900.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.75,
+    "pre_close": 8.56
+  },
+  "601939.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.88,
+    "pre_close": 5.86
+  },
+  "601949.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.45,
+    "pre_close": 5.84
+  },
+  "601963.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.95,
+    "pre_close": 8.9
+  },
+  "601988.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.07,
+    "pre_close": 3.05
+  },
+  "601992.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.76,
+    "pre_close": 2.84
+  },
+  "601997.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.55,
+    "pre_close": 6.51
+  },
+  "601998.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.56,
+    "pre_close": 4.62
+  },
+  "601999.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 7.0
+  },
+  "603017.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.93,
+    "pre_close": 10.6
+  },
+  "603018.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.52,
+    "pre_close": 8.36
+  },
+  "603038.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.29,
+    "pre_close": 13.85
+  },
+  "603055.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.45,
+    "pre_close": 16.07
+  },
+  "603058.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.64,
+    "pre_close": 9.67
+  },
+  "603081.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.07,
+    "pre_close": 13.63
+  },
+  "603098.SH": {
+    "date": "2021-12-13",
+    "prev_close": 45.41,
+    "pre_close": 46.97
+  },
+  "603103.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.31,
+    "pre_close": 13.21
+  },
+  "603108.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.66,
+    "pre_close": 13.41
+  },
+  "603111.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.27,
+    "pre_close": 5.35
+  },
+  "603116.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.81,
+    "pre_close": 5.99
+  },
+  "603117.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.51,
+    "pre_close": 3.98
+  },
+  "603123.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.14,
+    "pre_close": 8.15
+  },
+  "603165.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.98,
+    "pre_close": 19.27
+  },
+  "603199.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.86,
+    "pre_close": 21.72
+  },
+  "603221.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.02,
+    "pre_close": 9.31
+  },
+  "603277.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.46,
+    "pre_close": 18.5
+  },
+  "603320.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.12,
+    "pre_close": 13.21
+  },
+  "603323.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.9,
+    "pre_close": 4.87
+  },
+  "603357.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.8,
+    "pre_close": 9.22
+  },
+  "603359.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.74,
+    "pre_close": 14.3
+  },
+  "603365.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.9,
+    "pre_close": 16.83
+  },
+  "603366.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.94,
+    "pre_close": 5.07
+  },
+  "603367.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.66,
+    "pre_close": 13.35
+  },
+  "603368.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.89,
+    "pre_close": 19.04
+  },
+  "603488.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.45,
+    "pre_close": 9.13
+  },
+  "603506.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.79,
+    "pre_close": 16.84
+  },
+  "603556.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.78,
+    "pre_close": 13.8
+  },
+  "603558.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.95,
+    "pre_close": 11.78
+  },
+  "603569.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.71,
+    "pre_close": 7.23
+  },
+  "603616.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.85,
+    "pre_close": 6.05
+  },
+  "603637.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.12,
+    "pre_close": 10.1
+  },
+  "603648.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.48,
+    "pre_close": 8.87
+  },
+  "603665.SH": {
+    "date": "2021-12-13",
+    "prev_close": 30.15,
+    "pre_close": 33.37
+  },
+  "603669.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.07,
+    "pre_close": 9.99
+  },
+  "603682.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.62,
+    "pre_close": 6.08
+  },
+  "603685.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.94,
+    "pre_close": 12.52
+  },
+  "603689.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.35,
+    "pre_close": 10.52
+  },
+  "603698.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.42,
+    "pre_close": 18.36
+  },
+  "603797.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.81,
+    "pre_close": 6.98
+  },
+  "603808.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.1,
+    "pre_close": 14.59
+  },
+  "603817.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.83,
+    "pre_close": 6.23
+  },
+  "603828.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.92,
+    "pre_close": 4.08
+  },
+  "603839.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.48,
+    "pre_close": 8.71
+  },
+  "603848.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.46,
+    "pre_close": 13.85
+  },
+  "603855.SH": {
+    "date": "2021-12-13",
+    "prev_close": 23.7,
+    "pre_close": 25.28
+  },
+  "603878.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.49,
+    "pre_close": 7.0
+  },
+  "603887.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.73,
+    "pre_close": 8.12
+  },
+  "603955.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.59,
+    "pre_close": 13.24
+  },
+  "603980.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.23,
+    "pre_close": 6.32
+  },
+  "605001.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.16,
+    "pre_close": 8.37
+  },
+  "605060.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.89,
+    "pre_close": 17.0
+  },
+  "605158.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.48,
+    "pre_close": 7.68
+  },
+  "688009.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.0,
+    "pre_close": 4.98
+  },
+  "002020.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.61,
+    "pre_close": 9.51
+  },
+  "603773.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.6,
+    "pre_close": 20.52
+  },
+  "603776.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.27,
+    "pre_close": 20.73
+  },
+  "000008.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.19,
+    "pre_close": 2.94
+  },
+  "000011.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.04,
+    "pre_close": 11.66
+  },
+  "000012.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.11,
+    "pre_close": 9.93
+  },
+  "000030.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.1,
+    "pre_close": 7.42
+  },
+  "000035.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.29,
+    "pre_close": 6.01
+  },
+  "000048.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.33,
+    "pre_close": 17.31
+  },
+  "000058.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.98,
+    "pre_close": 6.73
+  },
+  "000059.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.04,
+    "pre_close": 7.28
+  },
+  "000061.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.3,
+    "pre_close": 6.39
+  },
+  "000065.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.16,
+    "pre_close": 8.58
+  },
+  "000068.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.27,
+    "pre_close": 3.46
+  },
+  "000070.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.32,
+    "pre_close": 6.5
+  },
+  "000078.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.18,
+    "pre_close": 3.53
+  },
+  "000156.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.61,
+    "pre_close": 8.46
+  },
+  "000166.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.32,
+    "pre_close": 5.12
+  },
+  "000401.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.84,
+    "pre_close": 11.96
+  },
+  "000407.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.19,
+    "pre_close": 4.44
+  },
+  "000411.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.68,
+    "pre_close": 14.66
+  },
+  "000416.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.05,
+    "pre_close": 3.94
+  },
+  "000417.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.22,
+    "pre_close": 4.41
+  },
+  "000421.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.68,
+    "pre_close": 4.94
+  },
+  "000501.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.04,
+    "pre_close": 10.51
+  },
+  "000504.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.7,
+    "pre_close": 18.6
+  },
+  "000507.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.61,
+    "pre_close": 6.46
+  },
+  "000528.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.67,
+    "pre_close": 7.71
+  },
+  "000534.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.35,
+    "pre_close": 17.94
+  },
+  "000544.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.29,
+    "pre_close": 6.4
+  },
+  "000546.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.86,
+    "pre_close": 13.43
+  },
+  "000548.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.83,
+    "pre_close": 4.01
+  },
+  "000553.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.13,
+    "pre_close": 8.44
+  },
+  "000554.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.85,
+    "pre_close": 5.33
+  },
+  "000559.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.73,
+    "pre_close": 6.37
+  },
+  "000565.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.53,
+    "pre_close": 6.67
+  },
+  "000597.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.14,
+    "pre_close": 6.22
+  },
+  "000598.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.04,
+    "pre_close": 6.32
+  },
+  "000599.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.42,
+    "pre_close": 4.26
+  },
+  "000601.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.06,
+    "pre_close": 5.12
+  },
+  "000609.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.98,
+    "pre_close": 4.84
+  },
+  "000617.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.05,
+    "pre_close": 5.18
+  },
+  "000619.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.03,
+    "pre_close": 5.28
+  },
+  "000623.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.28,
+    "pre_close": 18.47
+  },
+  "000637.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.25,
+    "pre_close": 4.83
+  },
+  "000639.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.9,
+    "pre_close": 5.08
+  },
+  "000652.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.02,
+    "pre_close": 4.31
+  },
+  "000666.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.4,
+    "pre_close": 8.69
+  },
+  "000677.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.06,
+    "pre_close": 3.28
+  },
+  "000682.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.01,
+    "pre_close": 8.47
+  },
+  "000690.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.08,
+    "pre_close": 5.92
+  },
+  "000691.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.57,
+    "pre_close": 4.74
+  },
+  "000703.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.47,
+    "pre_close": 10.62
+  },
+  "000708.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.32,
+    "pre_close": 20.48
+  },
+  "000709.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.38,
+    "pre_close": 2.46
+  },
+  "000717.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.21,
+    "pre_close": 4.75
+  },
+  "000728.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.64,
+    "pre_close": 7.7
+  },
+  "000729.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.46,
+    "pre_close": 8.47
+  },
+  "000735.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.95,
+    "pre_close": 7.13
+  },
+  "000753.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.98,
+    "pre_close": 3.46
+  },
+  "000756.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.0,
+    "pre_close": 11.19
+  },
+  "000757.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.47,
+    "pre_close": 4.63
+  },
+  "000776.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 24.67,
+    "pre_close": 24.59
+  },
+  "000788.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.39,
+    "pre_close": 6.85
+  },
+  "000789.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.03,
+    "pre_close": 12.22
+  },
+  "000790.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.54,
+    "pre_close": 6.36
+  },
+  "000801.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.74,
+    "pre_close": 9.59
+  },
+  "000803.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.2,
+    "pre_close": 22.98
+  },
+  "000810.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.0,
+    "pre_close": 9.85
+  },
+  "000825.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.41,
+    "pre_close": 7.04
+  },
+  "000826.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.36,
+    "pre_close": 4.45
+  },
+  "000848.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.96,
+    "pre_close": 10.85
+  },
+  "000881.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.67,
+    "pre_close": 9.63
+  },
+  "000883.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.09,
+    "pre_close": 5.24
+  },
+  "000885.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.56,
+    "pre_close": 10.6
+  },
+  "000886.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.91,
+    "pre_close": 3.97
+  },
+  "000890.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.65,
+    "pre_close": 4.53
+  },
+  "000906.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.55,
+    "pre_close": 11.11
+  },
+  "000910.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.51,
+    "pre_close": 13.41
+  },
+  "000912.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.22,
+    "pre_close": 6.26
+  },
+  "000921.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.76,
+    "pre_close": 15.15
+  },
+  "000922.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.46,
+    "pre_close": 12.21
+  },
+  "000923.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.84,
+    "pre_close": 14.3
+  },
+  "000930.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.04,
+    "pre_close": 10.87
+  },
+  "000931.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.11,
+    "pre_close": 7.67
+  },
+  "000932.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.32,
+    "pre_close": 5.11
+  },
+  "000935.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.75,
+    "pre_close": 24.3
+  },
+  "000958.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.94,
+    "pre_close": 5.1
+  },
+  "000967.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.29,
+    "pre_close": 7.33
+  },
+  "000968.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.22,
+    "pre_close": 9.35
+  },
+  "000989.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.29,
+    "pre_close": 10.86
+  },
+  "001202.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.82,
+    "pre_close": 18.63
+  },
+  "002033.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.86,
+    "pre_close": 6.21
+  },
+  "002034.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.74,
+    "pre_close": 17.27
+  },
+  "002037.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.09,
+    "pre_close": 8.06
+  },
+  "002039.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.14,
+    "pre_close": 21.08
+  },
+  "002043.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.41,
+    "pre_close": 12.08
+  },
+  "002047.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.32,
+    "pre_close": 3.95
+  },
+  "002048.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.23,
+    "pre_close": 21.63
+  },
+  "002051.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.04,
+    "pre_close": 7.15
+  },
+  "002059.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.84,
+    "pre_close": 6.01
+  },
+  "002060.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.66,
+    "pre_close": 5.55
+  },
+  "002082.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.75,
+    "pre_close": 14.79
+  },
+  "002085.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.88,
+    "pre_close": 5.49
+  },
+  "002087.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.42,
+    "pre_close": 3.6
+  },
+  "002090.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.34,
+    "pre_close": 9.47
+  },
+  "002093.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.14,
+    "pre_close": 6.59
+  },
+  "002095.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.6,
+    "pre_close": 16.48
+  },
+  "002099.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.88,
+    "pre_close": 8.24
+  },
+  "002100.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.21,
+    "pre_close": 10.7
+  },
+  "002101.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.94,
+    "pre_close": 11.78
+  },
+  "002116.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.46,
+    "pre_close": 7.14
+  },
+  "002124.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.3,
+    "pre_close": 6.44
+  },
+  "002128.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.54,
+    "pre_close": 14.85
+  },
+  "002140.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.17,
+    "pre_close": 14.69
+  },
+  "002144.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.78,
+    "pre_close": 10.13
+  },
+  "002150.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.07,
+    "pre_close": 6.3
+  },
+  "002157.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.68,
+    "pre_close": 9.66
+  },
+  "002163.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.17,
+    "pre_close": 11.75
+  },
+  "002170.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.8,
+    "pre_close": 6.71
+  },
+  "002208.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.44,
+    "pre_close": 7.76
+  },
+  "002224.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.0,
+    "pre_close": 5.29
+  },
+  "002228.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.53,
+    "pre_close": 3.65
+  },
+  "002232.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 24.76,
+    "pre_close": 22.26
+  },
+  "002246.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.79,
+    "pre_close": 10.21
+  },
+  "002251.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.53,
+    "pre_close": 6.82
+  },
+  "002255.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.29,
+    "pre_close": 7.0
+  },
+  "002261.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.04,
+    "pre_close": 8.25
+  },
+  "002270.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.98,
+    "pre_close": 9.91
+  },
+  "002275.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.0,
+    "pre_close": 16.91
+  },
+  "002277.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.11,
+    "pre_close": 3.26
+  },
+  "002285.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.84,
+    "pre_close": 3.92
+  },
+  "002301.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.46,
+    "pre_close": 8.37
+  },
+  "002303.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.43,
+    "pre_close": 3.59
+  },
+  "002305.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 1.91,
+    "pre_close": 2.07
+  },
+  "002307.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.11,
+    "pre_close": 4.27
+  },
+  "002314.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.96,
+    "pre_close": 3.12
+  },
+  "002330.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.25,
+    "pre_close": 6.57
+  },
+  "002332.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.86,
+    "pre_close": 13.2
+  },
+  "002339.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.57,
+    "pre_close": 8.23
+  },
+  "002363.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.95,
+    "pre_close": 5.9
+  },
+  "002376.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.44,
+    "pre_close": 9.43
+  },
+  "002391.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.59,
+    "pre_close": 8.08
+  },
+  "002393.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.52,
+    "pre_close": 21.61
+  },
+  "002398.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.77,
+    "pre_close": 7.3
+  },
+  "002399.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.47,
+    "pre_close": 17.1
+  },
+  "002403.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.81,
+    "pre_close": 7.18
+  },
+  "002406.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.13
+  },
+  "002412.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.29,
+    "pre_close": 6.35
+  },
+  "002419.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.96,
+    "pre_close": 6.28
+  },
+  "002422.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.85,
+    "pre_close": 18.93
+  },
+  "002431.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.01,
+    "pre_close": 3.27
+  },
+  "002432.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.88,
+    "pre_close": 49.55
+  },
+  "002433.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.55,
+    "pre_close": 7.46
+  },
+  "002434.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.46,
+    "pre_close": 14.74
+  },
+  "002440.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.15,
+    "pre_close": 9.59
+  },
+  "002441.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.89,
+    "pre_close": 10.2
+  },
+  "002443.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.48,
+    "pre_close": 7.91
+  },
+  "002452.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.35,
+    "pre_close": 9.53
+  },
+  "002454.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.94,
+    "pre_close": 8.41
+  },
+  "002461.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.38,
+    "pre_close": 9.1
+  },
+  "002467.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.21,
+    "pre_close": 4.82
+  },
+  "002479.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.86,
+    "pre_close": 5.94
+  },
+  "002482.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.34,
+    "pre_close": 2.43
+  },
+  "002483.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.41,
+    "pre_close": 8.08
+  },
+  "002486.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.67,
+    "pre_close": 2.99
+  },
+  "002489.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.48,
+    "pre_close": 3.57
+  },
+  "002493.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.17,
+    "pre_close": 18.16
+  },
+  "002500.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.5,
+    "pre_close": 6.6
+  },
+  "002516.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.69,
+    "pre_close": 6.49
+  },
+  "002521.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.02,
+    "pre_close": 6.26
+  },
+  "002523.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.72,
+    "pre_close": 2.92
+  },
+  "002540.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.04,
+    "pre_close": 7.7
+  },
+  "002542.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.81,
+    "pre_close": 2.95
+  },
+  "002545.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.32,
+    "pre_close": 9.12
+  },
+  "002546.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.96,
+    "pre_close": 4.2
+  },
+  "002550.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.31,
+    "pre_close": 4.83
+  },
+  "002551.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.01,
+    "pre_close": 5.69
+  },
+  "002552.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.2,
+    "pre_close": 14.61
+  },
+  "002558.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.32,
+    "pre_close": 11.97
+  },
+  "002559.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.56,
+    "pre_close": 8.59
+  },
+  "002562.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.32,
+    "pre_close": 4.99
+  },
+  "002563.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.62,
+    "pre_close": 7.73
+  },
+  "002565.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.72,
+    "pre_close": 6.81
+  },
+  "002566.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.76,
+    "pre_close": 9.04
+  },
+  "002567.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 7.47
+  },
+  "002573.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.19,
+    "pre_close": 7.28
+  },
+  "002589.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.57,
+    "pre_close": 3.93
+  },
+  "002599.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.99,
+    "pre_close": 7.65
+  },
+  "002603.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.5,
+    "pre_close": 19.6
+  },
+  "002609.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.47,
+    "pre_close": 9.75
+  },
+  "002614.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.41,
+    "pre_close": 12.88
+  },
+  "002616.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.88,
+    "pre_close": 6.08
+  },
+  "002620.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.8,
+    "pre_close": 6.46
+  },
+  "002621.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 3.96
+  },
+  "002628.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.25,
+    "pre_close": 3.6
+  },
+  "002634.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.01,
+    "pre_close": 6.2
+  },
+  "002641.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.85,
+    "pre_close": 5.48
+  },
+  "002644.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.3,
+    "pre_close": 10.04
+  },
+  "002654.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.96,
+    "pre_close": 4.24
+  },
+  "002658.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.46,
+    "pre_close": 8.35
+  },
+  "002662.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.24,
+    "pre_close": 4.26
+  },
+  "002664.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.32,
+    "pre_close": 19.85
+  },
+  "002669.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.0,
+    "pre_close": 16.34
+  },
+  "002672.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.1,
+    "pre_close": 7.36
+  },
+  "002675.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.24,
+    "pre_close": 15.78
+  },
+  "002676.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.51,
+    "pre_close": 4.38
+  },
+  "002677.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.18,
+    "pre_close": 17.35
+  },
+  "002678.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.77,
+    "pre_close": 7.2
+  },
+  "002698.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.6,
+    "pre_close": 13.04
+  },
+  "002705.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.04,
+    "pre_close": 24.7
+  },
+  "002706.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.54,
+    "pre_close": 17.82
+  },
+  "002708.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.2,
+    "pre_close": 6.98
+  },
+  "002713.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.84,
+    "pre_close": 6.16
+  },
+  "002716.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.26,
+    "pre_close": 3.21
+  },
+  "002717.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.19,
+    "pre_close": 3.45
+  },
+  "002725.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.3,
+    "pre_close": 10.5
+  },
+  "002728.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.31,
+    "pre_close": 17.12
+  },
+  "002731.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.08,
+    "pre_close": 10.74
+  },
+  "002733.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.2,
+    "pre_close": 23.13
+  },
+  "002734.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.67,
+    "pre_close": 13.1
+  },
+  "002736.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.28,
+    "pre_close": 11.48
+  },
+  "002749.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.93,
+    "pre_close": 10.0
+  },
+  "002752.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.79,
+    "pre_close": 6.75
+  },
+  "002761.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.4,
+    "pre_close": 7.52
+  },
+  "002763.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.99,
+    "pre_close": 10.13
+  },
+  "002769.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.71
+  },
+  "002771.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.61,
+    "pre_close": 10.99
+  },
+  "002774.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.42,
+    "pre_close": 8.4
+  },
+  "002783.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.82,
+    "pre_close": 10.78
+  },
+  "002790.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.52,
+    "pre_close": 9.46
+  },
+  "002793.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.73,
+    "pre_close": 10.37
+  },
+  "002798.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.97,
+    "pre_close": 14.87
+  },
+  "002811.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.13,
+    "pre_close": 8.99
+  },
+  "002815.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.53,
+    "pre_close": 16.85
+  },
+  "002818.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.65,
+    "pre_close": 12.51
+  },
+  "002820.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.05,
+    "pre_close": 10.2
+  },
+  "002822.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.62,
+    "pre_close": 5.82
+  },
+  "002827.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.98,
+    "pre_close": 10.37
+  },
+  "002830.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.04,
+    "pre_close": 10.62
+  },
+  "002837.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 45.4,
+    "pre_close": 40.89
+  },
+  "002840.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.54,
+    "pre_close": 17.28
+  },
+  "002843.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.51,
+    "pre_close": 10.2
+  },
+  "002853.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.1,
+    "pre_close": 17.33
+  },
+  "002855.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.88,
+    "pre_close": 9.09
+  },
+  "002857.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.15,
+    "pre_close": 17.03
+  },
+  "002863.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.18,
+    "pre_close": 5.89
+  },
+  "002865.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 63.27,
+    "pre_close": 70.0
+  },
+  "002869.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.48,
+    "pre_close": 15.54
+  },
+  "002873.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.46,
+    "pre_close": 20.2
+  },
+  "002877.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.5,
+    "pre_close": 6.92
+  },
+  "002879.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.59,
+    "pre_close": 23.6
+  },
+  "002882.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.53,
+    "pre_close": 11.18
+  },
+  "002893.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.78,
+    "pre_close": 8.84
+  },
+  "002899.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.65,
+    "pre_close": 15.39
+  },
+  "002900.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.64,
+    "pre_close": 20.83
+  },
+  "002908.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.33,
+    "pre_close": 15.6
+  },
+  "002909.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.12,
+    "pre_close": 7.34
+  },
+  "002926.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.59,
+    "pre_close": 9.85
+  },
+  "002927.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.63,
+    "pre_close": 11.91
+  },
+  "002928.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.14,
+    "pre_close": 12.6
+  },
+  "002930.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.62,
+    "pre_close": 25.85
+  },
+  "002945.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.34,
+    "pre_close": 13.66
+  },
+  "002957.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.5,
+    "pre_close": 25.43
+  },
+  "002963.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.72,
+    "pre_close": 17.24
+  },
+  "002969.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.4,
+    "pre_close": 5.69
+  },
+  "002998.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.91,
+    "pre_close": 8.6
+  },
+  "002999.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.67,
+    "pre_close": 6.87
+  },
+  "003002.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.49,
+    "pre_close": 11.76
+  },
+  "003003.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.41,
+    "pre_close": 11.1
+  },
+  "003016.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.58,
+    "pre_close": 10.42
+  },
+  "300058.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.25,
+    "pre_close": 10.73
+  },
+  "300066.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.83,
+    "pre_close": 5.02
+  },
+  "300069.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.17,
+    "pre_close": 23.06
+  },
+  "300103.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.01,
+    "pre_close": 9.55
+  },
+  "300110.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.21,
+    "pre_close": 4.8
+  },
+  "300138.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.16,
+    "pre_close": 16.7
+  },
+  "300147.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.42,
+    "pre_close": 8.07
+  },
+  "300149.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.01,
+    "pre_close": 13.81
+  },
+  "300154.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.37,
+    "pre_close": 6.76
+  },
+  "300158.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.5,
+    "pre_close": 8.19
+  },
+  "300174.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.3,
+    "pre_close": 16.95
+  },
+  "300187.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.78,
+    "pre_close": 7.57
+  },
+  "300190.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.82,
+    "pre_close": 6.1
+  },
+  "300213.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.64,
+    "pre_close": 8.87
+  },
+  "300214.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.47,
+    "pre_close": 7.71
+  },
+  "300218.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.98,
+    "pre_close": 17.31
+  },
+  "300230.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.56,
+    "pre_close": 4.65
+  },
+  "300238.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.54,
+    "pre_close": 18.53
+  },
+  "300245.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.72,
+    "pre_close": 9.22
+  },
+  "300263.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.88,
+    "pre_close": 10.2
+  },
+  "300291.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.25,
+    "pre_close": 6.85
+  },
+  "300310.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.74,
+    "pre_close": 5.28
+  },
+  "300345.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.19,
+    "pre_close": 5.15
+  },
+  "300349.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.65,
+    "pre_close": 12.05
+  },
+  "300351.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.68,
+    "pre_close": 14.84
+  },
+  "300354.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 37.55,
+    "pre_close": 38.25
+  },
+  "300364.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.9,
+    "pre_close": 14.83
+  },
+  "300387.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.5,
+    "pre_close": 6.7
+  },
+  "300396.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.33,
+    "pre_close": 17.92
+  },
+  "300418.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.28,
+    "pre_close": 23.15
+  },
+  "300437.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 31.7,
+    "pre_close": 26.57
+  },
+  "300439.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.11,
+    "pre_close": 21.31
+  },
+  "300445.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.67,
+    "pre_close": 14.81
+  },
+  "300488.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 33.45,
+    "pre_close": 28.36
+  },
+  "300522.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.96,
+    "pre_close": 17.8
+  },
+  "300536.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.63,
+    "pre_close": 21.6
+  },
+  "300540.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 32.84,
+    "pre_close": 31.46
+  },
+  "300546.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.35,
+    "pre_close": 17.84
+  },
+  "300550.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.55,
+    "pre_close": 12.85
+  },
+  "300584.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.07,
+    "pre_close": 20.0
+  },
+  "300594.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.39,
+    "pre_close": 18.95
+  },
+  "300608.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.91,
+    "pre_close": 14.53
+  },
+  "300640.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.21,
+    "pre_close": 7.1
+  },
+  "300669.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.37,
+    "pre_close": 18.49
+  },
+  "300673.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.99,
+    "pre_close": 20.48
+  },
+  "300675.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.51,
+    "pre_close": 16.81
+  },
+  "300732.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.0,
+    "pre_close": 12.04
+  },
+  "300753.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.43,
+    "pre_close": 20.29
+  },
+  "300779.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.9,
+    "pre_close": 17.24
+  },
+  "300798.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.6,
+    "pre_close": 9.9
+  },
+  "300808.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.89,
+    "pre_close": 14.41
+  },
+  "300838.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.08,
+    "pre_close": 18.26
+  },
+  "300840.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.34,
+    "pre_close": 11.58
+  },
+  "300879.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.82,
+    "pre_close": 19.77
+  },
+  "300882.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.05,
+    "pre_close": 18.81
+  },
+  "300918.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.68,
+    "pre_close": 10.23
+  },
+  "300956.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.21,
+    "pre_close": 21.47
+  },
+  "600008.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.33,
+    "pre_close": 3.41
+  },
+  "600011.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.13,
+    "pre_close": 9.69
+  },
+  "600021.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.26,
+    "pre_close": 12.82
+  },
+  "600025.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.62,
+    "pre_close": 6.59
+  },
+  "600027.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.63,
+    "pre_close": 5.35
+  },
+  "600048.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.97,
+    "pre_close": 15.63
+  },
+  "600050.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.95,
+    "pre_close": 3.93
+  },
+  "600056.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.28,
+    "pre_close": 11.81
+  },
+  "600057.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.91,
+    "pre_close": 8.49
+  },
+  "600060.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.27,
+    "pre_close": 13.45
+  },
+  "600061.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.37,
+    "pre_close": 8.22
+  },
+  "600066.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.85,
+    "pre_close": 11.02
+  },
+  "600073.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.89,
+    "pre_close": 8.09
+  },
+  "600098.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.03,
+    "pre_close": 8.08
+  },
+  "600099.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.35,
+    "pre_close": 8.47
+  },
+  "600120.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.32,
+    "pre_close": 4.42
+  },
+  "600128.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.86,
+    "pre_close": 7.41
+  },
+  "600129.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.74,
+    "pre_close": 22.46
+  },
+  "600137.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.93,
+    "pre_close": 14.65
+  },
+  "600148.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.08,
+    "pre_close": 17.52
+  },
+  "600152.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.89,
+    "pre_close": 8.22
+  },
+  "600155.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.82,
+    "pre_close": 9.96
+  },
+  "600157.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.88,
+    "pre_close": 1.82
+  },
+  "600177.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.63,
+    "pre_close": 6.89
+  },
+  "600179.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.89,
+    "pre_close": 3.81
+  },
+  "600187.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.41,
+    "pre_close": 2.58
+  },
+  "600223.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.69,
+    "pre_close": 13.25
+  },
+  "600232.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.22,
+    "pre_close": 5.41
+  },
+  "600234.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.2,
+    "pre_close": 10.22
+  },
+  "600235.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.76,
+    "pre_close": 6.24
+  },
+  "600236.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.4,
+    "pre_close": 6.42
+  },
+  "600248.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.47,
+    "pre_close": 4.8
+  },
+  "600249.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.19,
+    "pre_close": 5.45
+  },
+  "600252.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.13,
+    "pre_close": 3.86
+  },
+  "600261.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.75,
+    "pre_close": 4.38
+  },
+  "600262.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.92,
+    "pre_close": 23.96
+  },
+  "600277.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.39,
+    "pre_close": 5.27
+  },
+  "600280.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.8,
+    "pre_close": 2.91
+  },
+  "600282.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.66,
+    "pre_close": 3.7
+  },
+  "600283.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.29,
+    "pre_close": 12.65
+  },
+  "600297.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.61,
+    "pre_close": 2.67
+  },
+  "600302.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.65,
+    "pre_close": 5.01
+  },
+  "600307.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.16,
+    "pre_close": 2.2
+  },
+  "600310.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.46,
+    "pre_close": 5.74
+  },
+  "600312.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.86,
+    "pre_close": 9.09
+  },
+  "600320.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.81,
+    "pre_close": 3.77
+  },
+  "600337.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.53,
+    "pre_close": 3.51
+  },
+  "600339.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.89,
+    "pre_close": 3.08
+  },
+  "600350.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.43,
+    "pre_close": 5.16
+  },
+  "600352.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.81,
+    "pre_close": 12.63
+  },
+  "600356.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.52,
+    "pre_close": 7.8
+  },
+  "600369.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.11,
+    "pre_close": 5.29
+  },
+  "600373.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.87,
+    "pre_close": 12.36
+  },
+  "600380.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.13,
+    "pre_close": 12.84
+  },
+  "600388.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.14,
+    "pre_close": 8.62
+  },
+  "600395.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.38,
+    "pre_close": 7.27
+  },
+  "600396.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.59,
+    "pre_close": 3.41
+  },
+  "600398.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.53,
+    "pre_close": 6.41
+  },
+  "600416.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.64,
+    "pre_close": 21.89
+  },
+  "600420.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.43,
+    "pre_close": 10.37
+  },
+  "600422.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.8,
+    "pre_close": 11.05
+  },
+  "600429.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.73,
+    "pre_close": 6.01
+  },
+  "600444.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.27,
+    "pre_close": 20.9
+  },
+  "600452.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.0,
+    "pre_close": 20.14
+  },
+  "600461.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.0,
+    "pre_close": 8.15
+  },
+  "600469.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.63,
+    "pre_close": 4.99
+  },
+  "600475.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.31,
+    "pre_close": 11.84
+  },
+  "600479.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.16,
+    "pre_close": 12.55
+  },
+  "600483.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.52,
+    "pre_close": 16.28
+  },
+  "600488.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.15,
+    "pre_close": 4.59
+  },
+  "600493.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.94,
+    "pre_close": 6.1
+  },
+  "600495.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.69,
+    "pre_close": 4.04
+  },
+  "600500.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.98,
+    "pre_close": 8.56
+  },
+  "600501.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.66,
+    "pre_close": 14.04
+  },
+  "600505.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.86,
+    "pre_close": 10.51
+  },
+  "600508.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.41,
+    "pre_close": 11.29
+  },
+  "600528.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.82,
+    "pre_close": 8.21
+  },
+  "600532.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.4,
+    "pre_close": 18.46
+  },
+  "600535.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.94,
+    "pre_close": 15.85
+  },
+  "600538.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.06,
+    "pre_close": 6.04
+  },
+  "600548.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.6,
+    "pre_close": 9.98
+  },
+  "600550.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.03,
+    "pre_close": 5.59
+  },
+  "600557.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.28,
+    "pre_close": 12.24
+  },
+  "600558.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.28,
+    "pre_close": 3.69
+  },
+  "600560.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.19,
+    "pre_close": 9.86
+  },
+  "600567.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.25,
+    "pre_close": 3.29
+  },
+  "600569.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.87,
+    "pre_close": 2.99
+  },
+  "600575.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.35,
+    "pre_close": 2.4
+  },
+  "600576.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.19,
+    "pre_close": 5.03
+  },
+  "600577.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.07,
+    "pre_close": 7.44
+  },
+  "600578.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.91,
+    "pre_close": 3.36
+  },
+  "600583.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.38,
+    "pre_close": 4.61
+  },
+  "600587.SH": {
+    "date": "2021-12-13",
+    "prev_close": 25.79,
+    "pre_close": 32.2
+  },
+  "600594.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.97,
+    "pre_close": 8.13
+  },
+  "600618.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.87,
+    "pre_close": 12.41
+  },
+  "600624.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 6.93
+  },
+  "600633.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.08,
+    "pre_close": 8.81
+  },
+  "600637.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.93,
+    "pre_close": 9.45
+  },
+  "600642.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.37,
+    "pre_close": 7.37
+  },
+  "600662.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.28,
+    "pre_close": 7.16
+  },
+  "600674.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.95,
+    "pre_close": 12.5
+  },
+  "600679.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.67,
+    "pre_close": 11.65
+  },
+  "600682.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.37,
+    "pre_close": 11.76
+  },
+  "600705.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.91,
+    "pre_close": 3.97
+  },
+  "600718.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.26,
+    "pre_close": 13.56
+  },
+  "600720.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.05,
+    "pre_close": 10.4
+  },
+  "600728.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.62,
+    "pre_close": 8.33
+  },
+  "600738.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.85,
+    "pre_close": 6.08
+  },
+  "600739.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.59,
+    "pre_close": 19.52
+  },
+  "600742.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.19,
+    "pre_close": 11.96
+  },
+  "600761.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.27,
+    "pre_close": 12.51
+  },
+  "600769.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.72,
+    "pre_close": 6.28
+  },
+  "600774.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.83,
+    "pre_close": 16.66
+  },
+  "600780.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.8,
+    "pre_close": 4.08
+  },
+  "600783.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.06,
+    "pre_close": 12.92
+  },
+  "600794.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.11,
+    "pre_close": 3.23
+  },
+  "600800.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.37,
+    "pre_close": 4.73
+  },
+  "600802.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.14,
+    "pre_close": 7.42
+  },
+  "600811.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.95,
+    "pre_close": 3.01
+  },
+  "600818.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.76,
+    "pre_close": 8.68
+  },
+  "600825.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.1,
+    "pre_close": 4.72
+  },
+  "600829.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.97,
+    "pre_close": 6.72
+  },
+  "600835.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.62,
+    "pre_close": 15.92
+  },
+  "600836.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.07
+  },
+  "600837.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.2,
+    "pre_close": 12.26
+  },
+  "600843.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.39,
+    "pre_close": 6.91
+  },
+  "600846.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.0,
+    "pre_close": 8.16
+  },
+  "600847.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.85,
+    "pre_close": 17.07
+  },
+  "600851.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.62,
+    "pre_close": 8.88
+  },
+  "600853.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.5,
+    "pre_close": 2.77
+  },
+  "600854.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.01,
+    "pre_close": 6.16
+  },
+  "600863.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.71,
+    "pre_close": 3.94
+  },
+  "600864.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.95,
+    "pre_close": 6.11
+  },
+  "600865.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.49,
+    "pre_close": 9.31
+  },
+  "600871.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.06,
+    "pre_close": 2.14
+  },
+  "600873.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.06,
+    "pre_close": 7.67
+  },
+  "600874.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.59,
+    "pre_close": 7.07
+  },
+  "600881.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.35,
+    "pre_close": 3.25
+  },
+  "600883.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.46,
+    "pre_close": 8.52
+  },
+  "600886.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.62,
+    "pre_close": 11.47
+  },
+  "600900.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.53,
+    "pre_close": 22.7
+  },
+  "600909.SH": {
+    "date": "2021-06-10",
+    "prev_close": 6.22,
+    "pre_close": 5.63
+  },
+  "600933.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.62,
+    "pre_close": 19.28
+  },
+  "600958.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.66,
+    "pre_close": 14.74
+  },
+  "600959.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.05,
+    "pre_close": 3.29
+  },
+  "600966.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.45,
+    "pre_close": 10.34
+  },
+  "600969.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.53,
+    "pre_close": 7.97
+  },
+  "600970.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.47,
+    "pre_close": 11.43
+  },
+  "600973.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.88,
+    "pre_close": 5.93
+  },
+  "600979.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.4,
+    "pre_close": 3.62
+  },
+  "600981.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.72,
+    "pre_close": 3.53
+  },
+  "600997.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.09,
+    "pre_close": 7.12
+  },
+  "600998.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.79,
+    "pre_close": 14.72
+  },
+  "601000.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.7,
+    "pre_close": 2.75
+  },
+  "601002.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.8,
+    "pre_close": 5.17
+  },
+  "601011.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.99,
+    "pre_close": 5.29
+  },
+  "601018.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.03,
+    "pre_close": 3.97
+  },
+  "601028.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.8,
+    "pre_close": 19.04
+  },
+  "601069.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.44,
+    "pre_close": 12.29
+  },
+  "601086.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.64,
+    "pre_close": 3.96
+  },
+  "601098.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.61,
+    "pre_close": 9.57
+  },
+  "601106.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.52,
+    "pre_close": 3.48
+  },
+  "601139.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.87,
+    "pre_close": 8.83
+  },
+  "601163.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.5,
+    "pre_close": 13.71
+  },
+  "601177.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.83,
+    "pre_close": 9.01
+  },
+  "601179.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.53,
+    "pre_close": 5.55
+  },
+  "601200.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.26,
+    "pre_close": 12.59
+  },
+  "601211.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.46,
+    "pre_close": 17.89
+  },
+  "601319.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.82,
+    "pre_close": 4.7
+  },
+  "601326.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.73,
+    "pre_close": 2.78
+  },
+  "601333.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.1,
+    "pre_close": 2.24
+  },
+  "601339.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.23,
+    "pre_close": 5.89
+  },
+  "601399.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.55,
+    "pre_close": 3.95
+  },
+  "601515.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.6,
+    "pre_close": 8.13
+  },
+  "601555.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.9,
+    "pre_close": 8.86
+  },
+  "601567.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.5,
+    "pre_close": 16.31
+  },
+  "601568.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.17,
+    "pre_close": 8.13
+  },
+  "601598.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.58,
+    "pre_close": 4.48
+  },
+  "601599.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.79,
+    "pre_close": 3.35
+  },
+  "601607.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.58,
+    "pre_close": 19.87
+  },
+  "601608.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.75,
+    "pre_close": 4.46
+  },
+  "601616.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.43,
+    "pre_close": 3.78
+  },
+  "601686.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.81,
+    "pre_close": 9.8
+  },
+  "601699.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.22,
+    "pre_close": 11.31
+  },
+  "601700.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.53,
+    "pre_close": 6.15
+  },
+  "601718.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.77,
+    "pre_close": 2.98
+  },
+  "601728.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.44,
+    "pre_close": 4.33
+  },
+  "601789.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.63,
+    "pre_close": 3.73
+  },
+  "601808.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.75,
+    "pre_close": 15.0
+  },
+  "601857.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.97,
+    "pre_close": 4.91
+  },
+  "601878.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.8,
+    "pre_close": 13.18
+  },
+  "601881.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.91,
+    "pre_close": 11.19
+  },
+  "601882.SH": {
+    "date": "2021-12-13",
+    "prev_close": 24.85,
+    "pre_close": 24.77
+  },
+  "601890.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.42,
+    "pre_close": 9.29
+  },
+  "601898.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.29
+  },
+  "601901.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.94,
+    "pre_close": 7.84
+  },
+  "601928.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.13,
+    "pre_close": 8.09
+  },
+  "601929.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.97,
+    "pre_close": 2.25
+  },
+  "601968.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.12,
+    "pre_close": 10.41
+  },
+  "601975.SH": {
+    "date": "2021-12-13",
+    "prev_close": 1.97,
+    "pre_close": 2.01
+  },
+  "601991.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.75,
+    "pre_close": 3.24
+  },
+  "603000.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.23,
+    "pre_close": 14.42
+  },
+  "603007.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.49,
+    "pre_close": 3.42
+  },
+  "603012.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.02,
+    "pre_close": 6.18
+  },
+  "603022.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.53,
+    "pre_close": 12.4
+  },
+  "603030.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.49,
+    "pre_close": 3.7
+  },
+  "603036.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.5,
+    "pre_close": 10.05
+  },
+  "603037.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.04,
+    "pre_close": 20.73
+  },
+  "603041.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.11,
+    "pre_close": 12.39
+  },
+  "603053.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.16,
+    "pre_close": 10.39
+  },
+  "603056.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.15,
+    "pre_close": 10.23
+  },
+  "603060.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.98,
+    "pre_close": 19.3
+  },
+  "603067.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.59,
+    "pre_close": 11.04
+  },
+  "603080.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.11,
+    "pre_close": 17.2
+  },
+  "603085.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.82,
+    "pre_close": 7.96
+  },
+  "603086.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.39,
+    "pre_close": 12.39
+  },
+  "603088.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.25,
+    "pre_close": 11.14
+  },
+  "603089.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.74,
+    "pre_close": 9.31
+  },
+  "603101.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.62,
+    "pre_close": 5.92
+  },
+  "603106.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.57,
+    "pre_close": 6.09
+  },
+  "603118.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.75,
+    "pre_close": 9.56
+  },
+  "603139.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.27,
+    "pre_close": 21.77
+  },
+  "603159.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.33,
+    "pre_close": 15.67
+  },
+  "603181.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.12,
+    "pre_close": 19.18
+  },
+  "603183.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.62,
+    "pre_close": 5.79
+  },
+  "603189.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.72,
+    "pre_close": 20.56
+  },
+  "603196.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.31,
+    "pre_close": 7.98
+  },
+  "603222.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.21,
+    "pre_close": 18.4
+  },
+  "603226.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.59,
+    "pre_close": 7.39
+  },
+  "603238.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.63,
+    "pre_close": 13.34
+  },
+  "603239.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.23,
+    "pre_close": 17.5
+  },
+  "603268.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.3,
+    "pre_close": 24.22
+  },
+  "603278.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.13,
+    "pre_close": 12.05
+  },
+  "603289.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.38,
+    "pre_close": 9.67
+  },
+  "603298.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.61,
+    "pre_close": 17.15
+  },
+  "603309.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.67,
+    "pre_close": 15.83
+  },
+  "603315.SH": {
+    "date": "2021-12-13",
+    "prev_close": 27.38,
+    "pre_close": 27.54
+  },
+  "603316.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.23,
+    "pre_close": 5.52
+  },
+  "603321.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.8,
+    "pre_close": 7.12
+  },
+  "603322.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.02,
+    "pre_close": 12.61
+  },
+  "603326.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.35,
+    "pre_close": 9.67
+  },
+  "603329.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.56,
+    "pre_close": 14.94
+  },
+  "603331.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.59,
+    "pre_close": 12.82
+  },
+  "603332.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.13,
+    "pre_close": 16.86
+  },
+  "603339.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.67,
+    "pre_close": 13.75
+  },
+  "603356.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.74,
+    "pre_close": 13.05
+  },
+  "603360.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.2,
+    "pre_close": 13.04
+  },
+  "603385.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.6,
+    "pre_close": 11.1
+  },
+  "603386.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.86,
+    "pre_close": 20.96
+  },
+  "603388.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.54,
+    "pre_close": 8.13
+  },
+  "603458.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.16,
+    "pre_close": 13.25
+  },
+  "603477.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.92,
+    "pre_close": 15.5
+  },
+  "603499.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.54,
+    "pre_close": 9.2
+  },
+  "603508.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.58,
+    "pre_close": 22.98
+  },
+  "603528.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.67,
+    "pre_close": 6.99
+  },
+  "603566.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.81,
+    "pre_close": 22.1
+  },
+  "603567.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.42,
+    "pre_close": 15.3
+  },
+  "603577.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.76,
+    "pre_close": 9.27
+  },
+  "603578.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.64,
+    "pre_close": 16.87
+  },
+  "603580.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.5,
+    "pre_close": 11.73
+  },
+  "603585.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.1,
+    "pre_close": 19.18
+  },
+  "603586.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.15,
+    "pre_close": 13.38
+  },
+  "603595.SH": {
+    "date": "2021-12-13",
+    "prev_close": 40.05,
+    "pre_close": 36.93
+  },
+  "603598.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.83,
+    "pre_close": 10.8
+  },
+  "603601.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.96,
+    "pre_close": 12.41
+  },
+  "603608.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.13,
+    "pre_close": 6.52
+  },
+  "603609.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.28,
+    "pre_close": 10.24
+  },
+  "603610.SH": {
+    "date": "2021-12-13",
+    "prev_close": 26.72,
+    "pre_close": 25.86
+  },
+  "603617.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.75,
+    "pre_close": 12.27
+  },
+  "603628.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.51,
+    "pre_close": 13.37
+  },
+  "603660.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 6.89
+  },
+  "603663.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.99,
+    "pre_close": 27.75
+  },
+  "603676.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.37,
+    "pre_close": 9.29
+  },
+  "603677.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.29,
+    "pre_close": 12.66
+  },
+  "603679.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.74,
+    "pre_close": 13.6
+  },
+  "603680.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.32,
+    "pre_close": 9.18
+  },
+  "603686.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.13,
+    "pre_close": 14.36
+  },
+  "603700.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.96,
+    "pre_close": 19.38
+  },
+  "603709.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.46,
+    "pre_close": 16.86
+  },
+  "603711.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.38,
+    "pre_close": 16.4
+  },
+  "603716.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.27,
+    "pre_close": 14.39
+  },
+  "603727.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.2,
+    "pre_close": 20.52
+  },
+  "603728.SH": {
+    "date": "2021-12-13",
+    "prev_close": 24.02,
+    "pre_close": 23.71
+  },
+  "603758.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.98,
+    "pre_close": 8.53
+  },
+  "603766.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.6,
+    "pre_close": 5.51
+  },
+  "603767.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.56,
+    "pre_close": 7.83
+  },
+  "603768.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.91,
+    "pre_close": 16.74
+  },
+  "603788.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.71,
+    "pre_close": 14.28
+  },
+  "603809.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.52,
+    "pre_close": 20.57
+  },
+  "603811.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.34,
+    "pre_close": 16.23
+  },
+  "603813.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.92,
+    "pre_close": 16.87
+  },
+  "603818.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.07,
+    "pre_close": 14.19
+  },
+  "603819.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.65,
+    "pre_close": 14.74
+  },
+  "603856.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.22,
+    "pre_close": 12.7
+  },
+  "603869.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.67,
+    "pre_close": 10.02
+  },
+  "603871.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.85,
+    "pre_close": 20.8
+  },
+  "603880.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.46,
+    "pre_close": 7.16
+  },
+  "603888.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.12,
+    "pre_close": 23.76
+  },
+  "603889.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.17,
+    "pre_close": 6.19
+  },
+  "603890.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.18,
+    "pre_close": 13.22
+  },
+  "603898.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.38,
+    "pre_close": 12.26
+  },
+  "603900.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.48,
+    "pre_close": 7.8
+  },
+  "603903.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.73,
+    "pre_close": 11.3
+  },
+  "603909.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.3,
+    "pre_close": 15.35
+  },
+  "603917.SH": {
+    "date": "2021-12-13",
+    "prev_close": 23.16,
+    "pre_close": 23.8
+  },
+  "603922.SH": {
+    "date": "2021-12-13",
+    "prev_close": 23.31,
+    "pre_close": 21.26
+  },
+  "603926.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.87,
+    "pre_close": 16.29
+  },
+  "603928.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.77,
+    "pre_close": 12.34
+  },
+  "603937.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.78,
+    "pre_close": 11.07
+  },
+  "603948.SH": {
+    "date": "2021-12-13",
+    "prev_close": 29.5,
+    "pre_close": 27.9
+  },
+  "603956.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.51,
+    "pre_close": 17.8
+  },
+  "603967.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.66,
+    "pre_close": 14.31
+  },
+  "603968.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.88,
+    "pre_close": 18.69
+  },
+  "603977.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.64,
+    "pre_close": 10.48
+  },
+  "603987.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.42,
+    "pre_close": 21.73
+  },
+  "603999.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.07,
+    "pre_close": 5.48
+  },
+  "605050.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.84,
+    "pre_close": 14.23
+  },
+  "605088.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.75,
+    "pre_close": 14.53
+  },
+  "605133.SH": {
+    "date": "2021-12-13",
+    "prev_close": 29.41,
+    "pre_close": 28.71
+  },
+  "605151.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.14,
+    "pre_close": 20.3
+  },
+  "605155.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.79,
+    "pre_close": 21.92
+  },
+  "605333.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.37,
+    "pre_close": 20.68
+  },
+  "605500.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.5,
+    "pre_close": 18.05
+  },
+  "688425.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.19,
+    "pre_close": 5.07
+  },
+  "688509.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.29
+  },
+  "688571.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.35,
+    "pre_close": 8.49
+  },
+  "300563.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.3,
+    "pre_close": 14.48
+  },
+  "603158.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.6,
+    "pre_close": 16.5
+  },
+  "603377.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.27,
+    "pre_close": 8.97
+  },
+  "603500.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.5,
+    "pre_close": 9.03
+  },
+  "000002.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.16,
+    "pre_close": 19.76
+  },
+  "000005.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.25,
+    "pre_close": 2.3
+  },
+  "000010.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.82,
+    "pre_close": 3.77
+  },
+  "000014.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.33,
+    "pre_close": 7.92
+  },
+  "000016.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.53,
+    "pre_close": 6.55
+  },
+  "000019.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.73,
+    "pre_close": 6.96
+  },
+  "000021.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.2,
+    "pre_close": 15.84
+  },
+  "000034.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.49,
+    "pre_close": 15.83
+  },
+  "000037.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.59,
+    "pre_close": 7.84
+  },
+  "000045.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.46,
+    "pre_close": 9.5
+  },
+  "000050.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.8,
+    "pre_close": 13.02
+  },
+  "000089.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.3,
+    "pre_close": 7.32
+  },
+  "000153.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.95,
+    "pre_close": 11.98
+  },
+  "000157.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.39,
+    "pre_close": 7.17
+  },
+  "000338.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.5,
+    "pre_close": 17.89
+  },
+  "000425.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.09,
+    "pre_close": 5.99
+  },
+  "000488.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.3,
+    "pre_close": 7.24
+  },
+  "000505.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.08,
+    "pre_close": 7.33
+  },
+  "000521.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.59,
+    "pre_close": 3.67
+  },
+  "000530.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.77,
+    "pre_close": 5.67
+  },
+  "000551.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.23,
+    "pre_close": 10.56
+  },
+  "000552.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.01,
+    "pre_close": 3.45
+  },
+  "000570.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.07,
+    "pre_close": 5.85
+  },
+  "000586.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.88,
+    "pre_close": 8.92
+  },
+  "000592.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.96,
+    "pre_close": 3.16
+  },
+  "000603.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.09,
+    "pre_close": 12.58
+  },
+  "000615.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.61,
+    "pre_close": 10.78
+  },
+  "000622.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.04,
+    "pre_close": 3.95
+  },
+  "000626.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.24,
+    "pre_close": 24.86
+  },
+  "000635.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.29,
+    "pre_close": 11.81
+  },
+  "000655.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.73,
+    "pre_close": 8.29
+  },
+  "000672.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.63,
+    "pre_close": 20.07
+  },
+  "000680.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.08,
+    "pre_close": 4.28
+  },
+  "000681.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.03,
+    "pre_close": 23.9
+  },
+  "000683.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.36,
+    "pre_close": 7.3
+  },
+  "000698.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.82,
+    "pre_close": 5.87
+  },
+  "000701.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.05,
+    "pre_close": 5.41
+  },
+  "000702.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.73,
+    "pre_close": 5.0
+  },
+  "000716.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.26,
+    "pre_close": 3.42
+  },
+  "000722.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.25,
+    "pre_close": 8.88
+  },
+  "000725.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.16,
+    "pre_close": 5.05
+  },
+  "000731.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.75,
+    "pre_close": 10.38
+  },
+  "000750.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.04,
+    "pre_close": 4.11
+  },
+  "000783.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.47,
+    "pre_close": 7.54
+  },
+  "000800.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.58,
+    "pre_close": 10.29
+  },
+  "000813.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.86,
+    "pre_close": 4.07
+  },
+  "000815.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.33,
+    "pre_close": 6.72
+  },
+  "000819.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.03,
+    "pre_close": 18.43
+  },
+  "000823.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.75,
+    "pre_close": 13.62
+  },
+  "000829.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.41,
+    "pre_close": 18.44
+  },
+  "000833.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.58,
+    "pre_close": 6.66
+  },
+  "000836.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.59,
+    "pre_close": 2.83
+  },
+  "000856.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.27,
+    "pre_close": 7.74
+  },
+  "000861.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.35,
+    "pre_close": 3.27
+  },
+  "000876.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.7,
+    "pre_close": 15.21
+  },
+  "000877.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.72,
+    "pre_close": 15.31
+  },
+  "000880.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.84,
+    "pre_close": 9.15
+  },
+  "000888.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.15,
+    "pre_close": 6.6
+  },
+  "000902.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.89,
+    "pre_close": 16.89
+  },
+  "000903.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.6,
+    "pre_close": 3.64
+  },
+  "000919.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.87,
+    "pre_close": 7.65
+  },
+  "000927.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.56,
+    "pre_close": 3.54
+  },
+  "000936.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.06,
+    "pre_close": 6.27
+  },
+  "000937.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.98,
+    "pre_close": 5.51
+  },
+  "000938.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.55,
+    "pre_close": 22.85
+  },
+  "000948.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.19,
+    "pre_close": 14.26
+  },
+  "000949.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.94,
+    "pre_close": 5.61
+  },
+  "000951.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.93,
+    "pre_close": 16.89
+  },
+  "000955.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.72,
+    "pre_close": 4.92
+  },
+  "000966.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.67,
+    "pre_close": 7.33
+  },
+  "000983.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.39,
+    "pre_close": 8.27
+  },
+  "000985.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.55,
+    "pre_close": 13.9
+  },
+  "000990.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.58,
+    "pre_close": 15.82
+  },
+  "002004.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.0,
+    "pre_close": 7.24
+  },
+  "002017.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.65,
+    "pre_close": 15.17
+  },
+  "002022.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.4,
+    "pre_close": 14.84
+  },
+  "002035.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.38,
+    "pre_close": 6.36
+  },
+  "002038.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.43,
+    "pre_close": 10.81
+  },
+  "002044.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.7,
+    "pre_close": 7.85
+  },
+  "002066.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.52,
+    "pre_close": 11.08
+  },
+  "002067.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.96,
+    "pre_close": 4.04
+  },
+  "002073.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.26,
+    "pre_close": 7.88
+  },
+  "002084.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.18,
+    "pre_close": 5.5
+  },
+  "002091.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.06,
+    "pre_close": 13.73
+  },
+  "002092.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.96,
+    "pre_close": 9.54
+  },
+  "002105.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.08,
+    "pre_close": 9.99
+  },
+  "002109.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.45,
+    "pre_close": 6.05
+  },
+  "002115.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.63,
+    "pre_close": 6.02
+  },
+  "002117.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.97,
+    "pre_close": 8.33
+  },
+  "002137.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.64,
+    "pre_close": 6.05
+  },
+  "002148.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.93,
+    "pre_close": 5.39
+  },
+  "002154.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.25,
+    "pre_close": 5.03
+  },
+  "002165.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.29
+  },
+  "002169.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.1,
+    "pre_close": 12.06
+  },
+  "002178.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.66,
+    "pre_close": 5.28
+  },
+  "002185.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.4,
+    "pre_close": 12.71
+  },
+  "002194.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.48,
+    "pre_close": 10.84
+  },
+  "002199.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.23,
+    "pre_close": 8.2
+  },
+  "002201.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.68,
+    "pre_close": 21.02
+  },
+  "002203.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.38,
+    "pre_close": 12.43
+  },
+  "002205.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.83,
+    "pre_close": 8.13
+  },
+  "002206.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.6,
+    "pre_close": 8.88
+  },
+  "002209.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.53,
+    "pre_close": 6.83
+  },
+  "002213.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.96,
+    "pre_close": 18.05
+  },
+  "002217.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.3,
+    "pre_close": 3.49
+  },
+  "002221.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.63,
+    "pre_close": 12.59
+  },
+  "002229.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.96,
+    "pre_close": 6.43
+  },
+  "002231.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.6,
+    "pre_close": 6.03
+  },
+  "002233.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.36,
+    "pre_close": 10.58
+  },
+  "002234.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.87,
+    "pre_close": 17.16
+  },
+  "002252.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.47,
+    "pre_close": 6.82
+  },
+  "002253.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.38,
+    "pre_close": 17.84
+  },
+  "002262.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.8,
+    "pre_close": 15.65
+  },
+  "002266.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.61,
+    "pre_close": 7.12
+  },
+  "002276.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.48,
+    "pre_close": 9.01
+  },
+  "002278.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.72,
+    "pre_close": 5.83
+  },
+  "002279.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.43,
+    "pre_close": 4.72
+  },
+  "002283.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.3,
+    "pre_close": 9.44
+  },
+  "002290.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.46,
+    "pre_close": 7.59
+  },
+  "002295.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.78,
+    "pre_close": 7.04
+  },
+  "002296.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.04,
+    "pre_close": 7.52
+  },
+  "002300.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.52,
+    "pre_close": 8.15
+  },
+  "002315.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.62,
+    "pre_close": 16.98
+  },
+  "002318.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.21,
+    "pre_close": 17.88
+  },
+  "002320.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.02,
+    "pre_close": 6.0
+  },
+  "002322.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.88,
+    "pre_close": 11.99
+  },
+  "002338.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 27.36,
+    "pre_close": 23.62
+  },
+  "002343.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.16,
+    "pre_close": 5.79
+  },
+  "002346.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.73,
+    "pre_close": 19.17
+  },
+  "002349.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.69,
+    "pre_close": 11.28
+  },
+  "002350.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.2,
+    "pre_close": 8.63
+  },
+  "002351.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.82,
+    "pre_close": 11.72
+  },
+  "002354.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.04,
+    "pre_close": 5.83
+  },
+  "002362.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.86,
+    "pre_close": 17.23
+  },
+  "002365.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.18,
+    "pre_close": 10.61
+  },
+  "002367.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.76,
+    "pre_close": 8.03
+  },
+  "002380.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.86,
+    "pre_close": 14.59
+  },
+  "002381.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.89,
+    "pre_close": 8.08
+  },
+  "002385.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.8,
+    "pre_close": 10.49
+  },
+  "002388.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.23,
+    "pre_close": 5.63
+  },
+  "002397.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.91,
+    "pre_close": 3.95
+  },
+  "002401.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.89,
+    "pre_close": 10.12
+  },
+  "002408.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.29,
+    "pre_close": 10.5
+  },
+  "002420.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.37,
+    "pre_close": 8.61
+  },
+  "002421.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.53,
+    "pre_close": 3.86
+  },
+  "002424.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.89,
+    "pre_close": 7.6
+  },
+  "002429.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.95,
+    "pre_close": 4.86
+  },
+  "002435.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.89,
+    "pre_close": 5.27
+  },
+  "002438.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.14,
+    "pre_close": 20.51
+  },
+  "002445.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.97,
+    "pre_close": 3.3
+  },
+  "002448.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.79,
+    "pre_close": 6.77
+  },
+  "002449.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.7,
+    "pre_close": 10.78
+  },
+  "002453.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.43,
+    "pre_close": 18.14
+  },
+  "002457.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.04,
+    "pre_close": 8.37
+  },
+  "002458.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.85,
+    "pre_close": 11.31
+  },
+  "002468.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.14,
+    "pre_close": 9.09
+  },
+  "002469.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.45,
+    "pre_close": 6.77
+  },
+  "002471.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.85,
+    "pre_close": 2.74
+  },
+  "002474.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.8,
+    "pre_close": 6.97
+  },
+  "002476.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.61,
+    "pre_close": 4.49
+  },
+  "002484.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 26.93,
+    "pre_close": 27.32
+  },
+  "002491.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.38,
+    "pre_close": 4.92
+  },
+  "002492.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.46,
+    "pre_close": 5.95
+  },
+  "002495.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.43,
+    "pre_close": 2.7
+  },
+  "002515.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.58,
+    "pre_close": 5.48
+  },
+  "002517.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.98,
+    "pre_close": 5.82
+  },
+  "002526.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.17,
+    "pre_close": 2.42
+  },
+  "002528.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.39,
+    "pre_close": 3.72
+  },
+  "002544.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.88,
+    "pre_close": 23.74
+  },
+  "002548.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.68,
+    "pre_close": 5.87
+  },
+  "002560.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.7,
+    "pre_close": 6.49
+  },
+  "002576.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.21,
+    "pre_close": 16.6
+  },
+  "002577.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.88,
+    "pre_close": 11.91
+  },
+  "002587.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.96,
+    "pre_close": 5.45
+  },
+  "002591.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.26,
+    "pre_close": 5.7
+  },
+  "002593.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.07,
+    "pre_close": 4.09
+  },
+  "002598.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.6,
+    "pre_close": 10.68
+  },
+  "002627.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.5,
+    "pre_close": 5.32
+  },
+  "002632.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.7,
+    "pre_close": 7.98
+  },
+  "002635.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.59,
+    "pre_close": 17.03
+  },
+  "002651.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.38,
+    "pre_close": 13.23
+  },
+  "002660.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.36,
+    "pre_close": 8.05
+  },
+  "002667.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.56,
+    "pre_close": 19.96
+  },
+  "002673.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.17,
+    "pre_close": 8.07
+  },
+  "002685.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 3.81
+  },
+  "002686.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.86,
+    "pre_close": 6.52
+  },
+  "002688.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.74,
+    "pre_close": 6.13
+  },
+  "002689.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.96,
+    "pre_close": 3.28
+  },
+  "002693.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.04,
+    "pre_close": 4.72
+  },
+  "002696.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.31,
+    "pre_close": 5.91
+  },
+  "002697.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.93,
+    "pre_close": 5.32
+  },
+  "002701.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.61,
+    "pre_close": 7.0
+  },
+  "002702.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.04
+  },
+  "002724.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.01,
+    "pre_close": 16.35
+  },
+  "002730.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.56,
+    "pre_close": 11.95
+  },
+  "002742.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.71,
+    "pre_close": 7.38
+  },
+  "002745.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.2,
+    "pre_close": 15.13
+  },
+  "002746.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.78,
+    "pre_close": 10.49
+  },
+  "002750.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.28,
+    "pre_close": 16.13
+  },
+  "002753.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.5,
+    "pre_close": 9.85
+  },
+  "002757.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.72,
+    "pre_close": 15.25
+  },
+  "002760.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.27,
+    "pre_close": 26.12
+  },
+  "002782.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.29,
+    "pre_close": 17.87
+  },
+  "002787.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.75,
+    "pre_close": 6.11
+  },
+  "002792.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.02,
+    "pre_close": 16.0
+  },
+  "002795.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.4,
+    "pre_close": 12.14
+  },
+  "002799.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.99,
+    "pre_close": 12.12
+  },
+  "002802.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.81,
+    "pre_close": 24.59
+  },
+  "002803.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.1,
+    "pre_close": 21.23
+  },
+  "002809.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.12,
+    "pre_close": 10.44
+  },
+  "002817.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.63,
+    "pre_close": 12.06
+  },
+  "002836.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.81,
+    "pre_close": 9.68
+  },
+  "002842.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.63,
+    "pre_close": 9.37
+  },
+  "002849.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.48,
+    "pre_close": 12.87
+  },
+  "002852.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.95,
+    "pre_close": 16.75
+  },
+  "002866.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.39,
+    "pre_close": 12.56
+  },
+  "002867.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.18,
+    "pre_close": 17.78
+  },
+  "002868.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.34,
+    "pre_close": 11.03
+  },
+  "002875.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.41,
+    "pre_close": 9.22
+  },
+  "002883.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.47,
+    "pre_close": 12.28
+  },
+  "002892.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 26.7,
+    "pre_close": 32.5
+  },
+  "002895.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 30.53,
+    "pre_close": 24.69
+  },
+  "002902.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.06,
+    "pre_close": 13.81
+  },
+  "002917.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.17,
+    "pre_close": 11.03
+  },
+  "002921.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.89,
+    "pre_close": 17.08
+  },
+  "002922.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 24.15,
+    "pre_close": 20.31
+  },
+  "002923.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 26.25,
+    "pre_close": 24.51
+  },
+  "002931.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.02,
+    "pre_close": 14.09
+  },
+  "002937.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.2,
+    "pre_close": 20.16
+  },
+  "002942.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.64,
+    "pre_close": 18.02
+  },
+  "002949.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.08,
+    "pre_close": 18.3
+  },
+  "002955.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.05,
+    "pre_close": 21.82
+  },
+  "002962.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.63,
+    "pre_close": 12.76
+  },
+  "002971.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.15,
+    "pre_close": 23.54
+  },
+  "002976.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.65,
+    "pre_close": 22.15
+  },
+  "002983.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.31,
+    "pre_close": 22.66
+  },
+  "002988.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.91,
+    "pre_close": 20.61
+  },
+  "002997.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 18.19,
+    "pre_close": 17.56
+  },
+  "003018.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.75,
+    "pre_close": 11.05
+  },
+  "003816.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.97,
+    "pre_close": 3.13
+  },
+  "300004.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.36,
+    "pre_close": 6.87
+  },
+  "300017.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.51,
+    "pre_close": 6.69
+  },
+  "300039.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.69,
+    "pre_close": 6.16
+  },
+  "300042.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.79,
+    "pre_close": 15.38
+  },
+  "300055.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.69,
+    "pre_close": 13.02
+  },
+  "300057.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.71,
+    "pre_close": 9.41
+  },
+  "300067.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.22,
+    "pre_close": 4.36
+  },
+  "300070.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.25,
+    "pre_close": 7.19
+  },
+  "300074.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 4.22
+  },
+  "300105.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.07,
+    "pre_close": 6.82
+  },
+  "300109.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.98,
+    "pre_close": 21.8
+  },
+  "300132.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.45,
+    "pre_close": 11.29
+  },
+  "300133.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.19,
+    "pre_close": 6.77
+  },
+  "300137.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.17,
+    "pre_close": 7.73
+  },
+  "300143.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.31,
+    "pre_close": 14.12
+  },
+  "300150.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.23,
+    "pre_close": 4.57
+  },
+  "300163.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.68,
+    "pre_close": 3.93
+  },
+  "300170.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.3,
+    "pre_close": 8.59
+  },
+  "300176.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.64,
+    "pre_close": 6.68
+  },
+  "300193.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.45,
+    "pre_close": 12.75
+  },
+  "300194.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.13,
+    "pre_close": 5.12
+  },
+  "300197.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.79,
+    "pre_close": 2.9
+  },
+  "300198.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.78,
+    "pre_close": 4.02
+  },
+  "300203.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 26.64,
+    "pre_close": 28.26
+  },
+  "300206.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.5,
+    "pre_close": 14.08
+  },
+  "300210.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.55,
+    "pre_close": 3.77
+  },
+  "300229.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.64,
+    "pre_close": 10.35
+  },
+  "300237.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 2.6,
+    "pre_close": 2.94
+  },
+  "300259.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.04,
+    "pre_close": 5.23
+  },
+  "300261.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.75,
+    "pre_close": 19.16
+  },
+  "300272.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.33,
+    "pre_close": 7.19
+  },
+  "300275.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.1,
+    "pre_close": 11.48
+  },
+  "300284.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.63,
+    "pre_close": 6.37
+  },
+  "300305.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.45,
+    "pre_close": 18.76
+  },
+  "300315.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.16,
+    "pre_close": 4.86
+  },
+  "300329.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.64,
+    "pre_close": 9.71
+  },
+  "300332.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.57,
+    "pre_close": 11.2
+  },
+  "300341.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.02,
+    "pre_close": 11.65
+  },
+  "300348.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.78,
+    "pre_close": 15.67
+  },
+  "300360.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.15,
+    "pre_close": 12.34
+  },
+  "300365.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.37,
+    "pre_close": 10.75
+  },
+  "300371.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.67,
+    "pre_close": 14.93
+  },
+  "300374.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.19,
+    "pre_close": 13.42
+  },
+  "300375.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 4.74,
+    "pre_close": 4.42
+  },
+  "300381.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.66,
+    "pre_close": 11.87
+  },
+  "300383.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.35,
+    "pre_close": 14.84
+  },
+  "300384.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.29,
+    "pre_close": 24.05
+  },
+  "300388.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 7.44,
+    "pre_close": 7.85
+  },
+  "300399.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.6,
+    "pre_close": 12.12
+  },
+  "300420.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 3.77,
+    "pre_close": 3.71
+  },
+  "300422.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.59,
+    "pre_close": 8.99
+  },
+  "300423.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.55,
+    "pre_close": 14.51
+  },
+  "300425.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 5.04,
+    "pre_close": 5.54
+  },
+  "300428.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.41,
+    "pre_close": 26.3
+  },
+  "300430.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.39,
+    "pre_close": 14.48
+  },
+  "300435.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.11,
+    "pre_close": 23.4
+  },
+  "300453.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.36,
+    "pre_close": 12.63
+  },
+  "300462.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.81,
+    "pre_close": 13.2
+  },
+  "300464.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.74,
+    "pre_close": 8.33
+  },
+  "300472.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.6,
+    "pre_close": 16.06
+  },
+  "300475.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 22.9,
+    "pre_close": 27.75
+  },
+  "300479.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.06,
+    "pre_close": 16.17
+  },
+  "300486.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 11.09,
+    "pre_close": 11.44
+  },
+  "300500.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 25.76,
+    "pre_close": 23.47
+  },
+  "300509.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.01,
+    "pre_close": 6.38
+  },
+  "300515.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.22,
+    "pre_close": 13.27
+  },
+  "300517.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 13.73,
+    "pre_close": 13.06
+  },
+  "300535.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.35,
+    "pre_close": 15.69
+  },
+  "300555.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.55,
+    "pre_close": 9.27
+  },
+  "300559.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.81,
+    "pre_close": 9.06
+  },
+  "300562.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.47,
+    "pre_close": 16.47
+  },
+  "300602.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 23.7,
+    "pre_close": 25.11
+  },
+  "300605.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.83,
+    "pre_close": 13.78
+  },
+  "300606.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.66,
+    "pre_close": 18.92
+  },
+  "300615.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.55,
+    "pre_close": 12.18
+  },
+  "300621.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 9.48,
+    "pre_close": 9.13
+  },
+  "300625.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.59,
+    "pre_close": 15.19
+  },
+  "300635.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.12,
+    "pre_close": 16.3
+  },
+  "300637.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 8.24,
+    "pre_close": 8.31
+  },
+  "300649.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.88,
+    "pre_close": 16.26
+  },
+  "300657.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.64,
+    "pre_close": 16.51
+  },
+  "300658.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 10.47,
+    "pre_close": 10.84
+  },
+  "300664.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 6.54,
+    "pre_close": 6.8
+  },
+  "300686.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 14.17,
+    "pre_close": 14.56
+  },
+  "300701.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.13,
+    "pre_close": 18.07
+  },
+  "300717.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.43,
+    "pre_close": 15.45
+  },
+  "300718.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 17.97,
+    "pre_close": 16.88
+  },
+  "300746.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 15.42,
+    "pre_close": 13.84
+  },
+  "300765.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.55,
+    "pre_close": 15.34
+  },
+  "300780.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 16.13,
+    "pre_close": 15.73
+  },
+  "300801.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 20.73,
+    "pre_close": 22.06
+  },
+  "300849.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 12.54,
+    "pre_close": 12.26
+  },
+  "300889.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 19.21,
+    "pre_close": 19.34
+  },
+  "300921.SZ": {
+    "date": "2021-12-13",
+    "prev_close": 21.71,
+    "pre_close": 21.55
+  },
+  "600004.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.5,
+    "pre_close": 12.06
+  },
+  "600010.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.96,
+    "pre_close": 2.79
+  },
+  "600018.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.7,
+    "pre_close": 5.48
+  },
+  "600019.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.01,
+    "pre_close": 7.16
+  },
+  "600037.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.86,
+    "pre_close": 8.68
+  },
+  "600039.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.1,
+    "pre_close": 12.04
+  },
+  "600052.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.37,
+    "pre_close": 5.2
+  },
+  "600058.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.37,
+    "pre_close": 9.27
+  },
+  "600078.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.19,
+    "pre_close": 9.36
+  },
+  "600081.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.31,
+    "pre_close": 13.67
+  },
+  "600082.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.85,
+    "pre_close": 3.03
+  },
+  "600093.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.15,
+    "pre_close": 2.51
+  },
+  "600097.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.43,
+    "pre_close": 11.52
+  },
+  "600100.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.6,
+    "pre_close": 6.03
+  },
+  "600101.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.11,
+    "pre_close": 7.72
+  },
+  "600103.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.78,
+    "pre_close": 2.82
+  },
+  "600108.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.42,
+    "pre_close": 3.53
+  },
+  "600116.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.66,
+    "pre_close": 11.66
+  },
+  "600123.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.35,
+    "pre_close": 9.37
+  },
+  "600130.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.96,
+    "pre_close": 4.1
+  },
+  "600131.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.8,
+    "pre_close": 21.85
+  },
+  "600135.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.71,
+    "pre_close": 8.34
+  },
+  "600160.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.6,
+    "pre_close": 12.91
+  },
+  "600167.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.52,
+    "pre_close": 9.01
+  },
+  "600176.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.4,
+    "pre_close": 18.2
+  },
+  "600203.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.7,
+    "pre_close": 10.27
+  },
+  "600210.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.89,
+    "pre_close": 9.18
+  },
+  "600222.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.77,
+    "pre_close": 8.98
+  },
+  "600227.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.3,
+    "pre_close": 3.79
+  },
+  "600228.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.85,
+    "pre_close": 6.92
+  },
+  "600251.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.03,
+    "pre_close": 9.45
+  },
+  "600256.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.73,
+    "pre_close": 6.54
+  },
+  "600260.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.85,
+    "pre_close": 3.1
+  },
+  "600267.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.24,
+    "pre_close": 13.99
+  },
+  "600273.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.72,
+    "pre_close": 11.57
+  },
+  "600285.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.92,
+    "pre_close": 15.8
+  },
+  "600288.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.46,
+    "pre_close": 13.39
+  },
+  "600292.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.16,
+    "pre_close": 8.54
+  },
+  "600299.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.21,
+    "pre_close": 12.32
+  },
+  "600326.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.41,
+    "pre_close": 6.45
+  },
+  "600330.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.47,
+    "pre_close": 16.23
+  },
+  "600333.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.15,
+    "pre_close": 5.94
+  },
+  "600335.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.38,
+    "pre_close": 8.68
+  },
+  "600336.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.08,
+    "pre_close": 7.14
+  },
+  "600345.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.42,
+    "pre_close": 16.69
+  },
+  "600348.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.02,
+    "pre_close": 11.85
+  },
+  "600351.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.34,
+    "pre_close": 9.08
+  },
+  "600353.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.52,
+    "pre_close": 7.37
+  },
+  "600387.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.61,
+    "pre_close": 7.24
+  },
+  "600419.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.69,
+    "pre_close": 13.23
+  },
+  "600425.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.62,
+    "pre_close": 3.79
+  },
+  "600428.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.27,
+    "pre_close": 5.04
+  },
+  "600439.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.9,
+    "pre_close": 3.01
+  },
+  "600446.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.79,
+    "pre_close": 14.32
+  },
+  "600448.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.16,
+    "pre_close": 3.39
+  },
+  "600467.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.66,
+    "pre_close": 2.85
+  },
+  "600478.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.69,
+    "pre_close": 7.13
+  },
+  "600480.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.0,
+    "pre_close": 9.91
+  },
+  "600481.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.39,
+    "pre_close": 10.06
+  },
+  "600496.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.15,
+    "pre_close": 4.26
+  },
+  "600498.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.71,
+    "pre_close": 17.98
+  },
+  "600507.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.67,
+    "pre_close": 7.8
+  },
+  "600522.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.06,
+    "pre_close": 16.96
+  },
+  "600526.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.8,
+    "pre_close": 6.19
+  },
+  "600552.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.01,
+    "pre_close": 11.72
+  },
+  "600556.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.66,
+    "pre_close": 12.35
+  },
+  "600572.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.38,
+    "pre_close": 5.0
+  },
+  "600580.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.13,
+    "pre_close": 18.29
+  },
+  "600582.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.15,
+    "pre_close": 4.38
+  },
+  "600586.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.47,
+    "pre_close": 9.26
+  },
+  "600590.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.9,
+    "pre_close": 8.27
+  },
+  "600592.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.22,
+    "pre_close": 10.35
+  },
+  "600598.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.62,
+    "pre_close": 14.56
+  },
+  "600602.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.97,
+    "pre_close": 6.5
+  },
+  "600619.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.65,
+    "pre_close": 8.13
+  },
+  "600623.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.17,
+    "pre_close": 9.1
+  },
+  "600640.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.32,
+    "pre_close": 15.25
+  },
+  "600644.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.0,
+    "pre_close": 7.87
+  },
+  "600647.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.38,
+    "pre_close": 12.85
+  },
+  "600651.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.03,
+    "pre_close": 3.1
+  },
+  "600655.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.12,
+    "pre_close": 10.3
+  },
+  "600673.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.89,
+    "pre_close": 8.88
+  },
+  "600686.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.23,
+    "pre_close": 6.28
+  },
+  "600688.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.25,
+    "pre_close": 4.17
+  },
+  "600692.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.74,
+    "pre_close": 5.86
+  },
+  "600699.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.48,
+    "pre_close": 21.97
+  },
+  "600707.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.61,
+    "pre_close": 6.82
+  },
+  "600725.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.14,
+    "pre_close": 3.72
+  },
+  "600731.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.06,
+    "pre_close": 8.58
+  },
+  "600751.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.85,
+    "pre_close": 2.98
+  },
+  "600767.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.02,
+    "pre_close": 7.54
+  },
+  "600775.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.6,
+    "pre_close": 9.95
+  },
+  "600776.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.06,
+    "pre_close": 11.51
+  },
+  "600777.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.06,
+    "pre_close": 2.28
+  },
+  "600789.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.96,
+    "pre_close": 7.49
+  },
+  "600796.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.88,
+    "pre_close": 5.66
+  },
+  "600801.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.9,
+    "pre_close": 19.3
+  },
+  "600812.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.34,
+    "pre_close": 11.92
+  },
+  "600815.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.15,
+    "pre_close": 3.23
+  },
+  "600821.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.18,
+    "pre_close": 9.49
+  },
+  "600822.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.47,
+    "pre_close": 9.05
+  },
+  "600830.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.26,
+    "pre_close": 5.57
+  },
+  "600831.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.38,
+    "pre_close": 6.19
+  },
+  "600839.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.25,
+    "pre_close": 3.31
+  },
+  "600855.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.77,
+    "pre_close": 17.38
+  },
+  "600866.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.4,
+    "pre_close": 6.24
+  },
+  "600867.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.69,
+    "pre_close": 10.96
+  },
+  "600875.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.33,
+    "pre_close": 21.42
+  },
+  "600876.SH": {
+    "date": "2021-12-13",
+    "prev_close": 34.77,
+    "pre_close": 36.89
+  },
+  "600877.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.48,
+    "pre_close": 15.66
+  },
+  "600879.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.43,
+    "pre_close": 8.24
+  },
+  "600916.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.03,
+    "pre_close": 13.73
+  },
+  "600918.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.83,
+    "pre_close": 9.97
+  },
+  "600960.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.12,
+    "pre_close": 3.99
+  },
+  "600967.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.92,
+    "pre_close": 11.95
+  },
+  "600968.SH": {
+    "date": "2021-12-13",
+    "prev_close": 2.85,
+    "pre_close": 2.93
+  },
+  "600975.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.48,
+    "pre_close": 6.79
+  },
+  "600982.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.5,
+    "pre_close": 4.69
+  },
+  "600984.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.7,
+    "pre_close": 11.2
+  },
+  "600985.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.05,
+    "pre_close": 11.18
+  },
+  "600986.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.87,
+    "pre_close": 8.43
+  },
+  "600989.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.48,
+    "pre_close": 17.36
+  },
+  "600999.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.95,
+    "pre_close": 17.65
+  },
+  "601008.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.79,
+    "pre_close": 3.85
+  },
+  "601038.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.86,
+    "pre_close": 14.09
+  },
+  "601088.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.7,
+    "pre_close": 22.52
+  },
+  "601198.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.13,
+    "pre_close": 11.63
+  },
+  "601208.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.29,
+    "pre_close": 17.35
+  },
+  "601216.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.53,
+    "pre_close": 5.23
+  },
+  "601218.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.34,
+    "pre_close": 5.51
+  },
+  "601225.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.65,
+    "pre_close": 12.2
+  },
+  "601231.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.94,
+    "pre_close": 16.06
+  },
+  "601236.SH": {
+    "date": "2021-08-04",
+    "prev_close": 13.36,
+    "pre_close": 11.97
+  },
+  "601238.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.12,
+    "pre_close": 15.19
+  },
+  "601360.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.21,
+    "pre_close": 12.72
+  },
+  "601369.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.2,
+    "pre_close": 13.02
+  },
+  "601377.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.01,
+    "pre_close": 9.88
+  },
+  "601619.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.48,
+    "pre_close": 5.16
+  },
+  "601636.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.6,
+    "pre_close": 17.1
+  },
+  "601666.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.46,
+    "pre_close": 8.37
+  },
+  "601688.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.96,
+    "pre_close": 17.76
+  },
+  "601696.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.33,
+    "pre_close": 13.45
+  },
+  "601717.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.71,
+    "pre_close": 11.59
+  },
+  "601727.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.68,
+    "pre_close": 4.86
+  },
+  "601766.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.16,
+    "pre_close": 6.09
+  },
+  "601778.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.65,
+    "pre_close": 8.53
+  },
+  "601788.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.25,
+    "pre_close": 14.93
+  },
+  "601827.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.7,
+    "pre_close": 8.92
+  },
+  "601866.SH": {
+    "date": "2021-12-13",
+    "prev_close": 3.32,
+    "pre_close": 3.25
+  },
+  "601872.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.36,
+    "pre_close": 4.1
+  },
+  "601918.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.39,
+    "pre_close": 4.54
+  },
+  "601921.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.28,
+    "pre_close": 9.63
+  },
+  "601958.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.13,
+    "pre_close": 6.85
+  },
+  "601985.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.9,
+    "pre_close": 8.3
+  },
+  "601990.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.09,
+    "pre_close": 9.91
+  },
+  "603001.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.83,
+    "pre_close": 9.43
+  },
+  "603002.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.68,
+    "pre_close": 7.39
+  },
+  "603003.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.88,
+    "pre_close": 7.14
+  },
+  "603006.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.15,
+    "pre_close": 10.87
+  },
+  "603011.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.27,
+    "pre_close": 8.13
+  },
+  "603015.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.58,
+    "pre_close": 7.73
+  },
+  "603020.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.14,
+    "pre_close": 14.22
+  },
+  "603021.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.43,
+    "pre_close": 5.16
+  },
+  "603028.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.81,
+    "pre_close": 13.38
+  },
+  "603029.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.49,
+    "pre_close": 14.3
+  },
+  "603042.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.06,
+    "pre_close": 13.1
+  },
+  "603066.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.31,
+    "pre_close": 8.82
+  },
+  "603079.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.32,
+    "pre_close": 17.3
+  },
+  "603090.SH": {
+    "date": "2021-12-13",
+    "prev_close": 26.26,
+    "pre_close": 22.24
+  },
+  "603100.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.01,
+    "pre_close": 21.16
+  },
+  "603115.SH": {
+    "date": "2021-12-13",
+    "prev_close": 25.98,
+    "pre_close": 26.2
+  },
+  "603121.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.78,
+    "pre_close": 10.74
+  },
+  "603128.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.99,
+    "pre_close": 13.68
+  },
+  "603131.SH": {
+    "date": "2021-12-13",
+    "prev_close": 26.17,
+    "pre_close": 27.25
+  },
+  "603136.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.27,
+    "pre_close": 17.62
+  },
+  "603138.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.06,
+    "pre_close": 15.89
+  },
+  "603166.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.34,
+    "pre_close": 8.69
+  },
+  "603167.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.9,
+    "pre_close": 7.94
+  },
+  "603178.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.7,
+    "pre_close": 14.68
+  },
+  "603214.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.3,
+    "pre_close": 21.26
+  },
+  "603225.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.83,
+    "pre_close": 14.85
+  },
+  "603227.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.97,
+    "pre_close": 7.03
+  },
+  "603232.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.65,
+    "pre_close": 16.1
+  },
+  "603266.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.41,
+    "pre_close": 13.44
+  },
+  "603269.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.88,
+    "pre_close": 12.78
+  },
+  "603279.SH": {
+    "date": "2021-12-13",
+    "prev_close": 38.99,
+    "pre_close": 46.38
+  },
+  "603286.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.66,
+    "pre_close": 19.16
+  },
+  "603300.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.15,
+    "pre_close": 13.45
+  },
+  "603303.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.74,
+    "pre_close": 17.16
+  },
+  "603311.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.55,
+    "pre_close": 14.3
+  },
+  "603328.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.07,
+    "pre_close": 8.0
+  },
+  "603333.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.9,
+    "pre_close": 10.44
+  },
+  "603335.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.22,
+    "pre_close": 6.32
+  },
+  "603336.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.06,
+    "pre_close": 7.81
+  },
+  "603351.SH": {
+    "date": "2021-12-13",
+    "prev_close": 28.72,
+    "pre_close": 39.17
+  },
+  "603363.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.97,
+    "pre_close": 12.7
+  },
+  "603389.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.59,
+    "pre_close": 5.21
+  },
+  "603390.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.8,
+    "pre_close": 9.17
+  },
+  "603398.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.81,
+    "pre_close": 19.78
+  },
+  "603408.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.06,
+    "pre_close": 14.2
+  },
+  "603421.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.49,
+    "pre_close": 8.51
+  },
+  "603466.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.05,
+    "pre_close": 27.2
+  },
+  "603496.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.83,
+    "pre_close": 15.5
+  },
+  "603516.SH": {
+    "date": "2021-12-13",
+    "prev_close": 22.36,
+    "pre_close": 20.28
+  },
+  "603518.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.29,
+    "pre_close": 12.07
+  },
+  "603519.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.5,
+    "pre_close": 14.77
+  },
+  "603527.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.45,
+    "pre_close": 12.05
+  },
+  "603533.SH": {
+    "date": "2021-12-13",
+    "prev_close": 23.72,
+    "pre_close": 25.51
+  },
+  "603551.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.61,
+    "pre_close": 10.21
+  },
+  "603557.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.2,
+    "pre_close": 5.4
+  },
+  "603587.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.75,
+    "pre_close": 19.16
+  },
+  "603602.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.2,
+    "pre_close": 10.28
+  },
+  "603607.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.23,
+    "pre_close": 16.2
+  },
+  "603611.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.31,
+    "pre_close": 19.4
+  },
+  "603615.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.41,
+    "pre_close": 8.67
+  },
+  "603633.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.16,
+    "pre_close": 15.9
+  },
+  "603636.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.67,
+    "pre_close": 8.94
+  },
+  "603639.SH": {
+    "date": "2021-12-13",
+    "prev_close": 24.08,
+    "pre_close": 25.11
+  },
+  "603656.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.03,
+    "pre_close": 12.44
+  },
+  "603667.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.58,
+    "pre_close": 17.41
+  },
+  "603668.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.22,
+    "pre_close": 12.55
+  },
+  "603683.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.51,
+    "pre_close": 13.77
+  },
+  "603687.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.45,
+    "pre_close": 10.8
+  },
+  "603696.SH": {
+    "date": "2021-12-13",
+    "prev_close": 9.55,
+    "pre_close": 9.57
+  },
+  "603699.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.06,
+    "pre_close": 10.95
+  },
+  "603706.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.94,
+    "pre_close": 14.79
+  },
+  "603708.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.85,
+    "pre_close": 16.64
+  },
+  "603721.SH": {
+    "date": "2021-12-13",
+    "prev_close": 13.93,
+    "pre_close": 15.58
+  },
+  "603726.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.4,
+    "pre_close": 14.19
+  },
+  "603739.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.62,
+    "pre_close": 18.6
+  },
+  "603757.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.65,
+    "pre_close": 18.3
+  },
+  "603787.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.25,
+    "pre_close": 16.9
+  },
+  "603790.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.15,
+    "pre_close": 10.53
+  },
+  "603798.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.49,
+    "pre_close": 13.11
+  },
+  "603803.SH": {
+    "date": "2021-12-13",
+    "prev_close": 6.5,
+    "pre_close": 7.92
+  },
+  "603810.SH": {
+    "date": "2021-12-13",
+    "prev_close": 12.91,
+    "pre_close": 13.61
+  },
+  "603815.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.07,
+    "pre_close": 7.97
+  },
+  "603822.SH": {
+    "date": "2021-12-13",
+    "prev_close": 42.29,
+    "pre_close": 41.59
+  },
+  "603823.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.82,
+    "pre_close": 14.9
+  },
+  "603825.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.14,
+    "pre_close": 29.16
+  },
+  "603829.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.73,
+    "pre_close": 12.13
+  },
+  "603838.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.35,
+    "pre_close": 7.81
+  },
+  "603843.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.46,
+    "pre_close": 4.66
+  },
+  "603858.SH": {
+    "date": "2021-12-13",
+    "prev_close": 18.72,
+    "pre_close": 21.09
+  },
+  "603860.SH": {
+    "date": "2021-12-13",
+    "prev_close": 20.98,
+    "pre_close": 22.19
+  },
+  "603861.SH": {
+    "date": "2021-12-13",
+    "prev_close": 10.31,
+    "pre_close": 11.35
+  },
+  "603876.SH": {
+    "date": "2021-12-13",
+    "prev_close": 40.44,
+    "pre_close": 37.65
+  },
+  "603879.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.59,
+    "pre_close": 7.95
+  },
+  "603886.SH": {
+    "date": "2021-12-13",
+    "prev_close": 24.32,
+    "pre_close": 23.55
+  },
+  "603895.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.19,
+    "pre_close": 22.01
+  },
+  "603897.SH": {
+    "date": "2021-12-13",
+    "prev_close": 59.48,
+    "pre_close": 49.84
+  },
+  "603901.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.28,
+    "pre_close": 16.1
+  },
+  "603912.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.22,
+    "pre_close": 14.69
+  },
+  "603918.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.38,
+    "pre_close": 9.11
+  },
+  "603933.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.54,
+    "pre_close": 15.18
+  },
+  "603950.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.84,
+    "pre_close": 17.4
+  },
+  "603963.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.16,
+    "pre_close": 8.84
+  },
+  "603966.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.86,
+    "pre_close": 10.28
+  },
+  "603969.SH": {
+    "date": "2021-12-13",
+    "prev_close": 4.11,
+    "pre_close": 4.43
+  },
+  "603978.SH": {
+    "date": "2021-12-13",
+    "prev_close": 34.38,
+    "pre_close": 27.42
+  },
+  "603988.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.79,
+    "pre_close": 16.27
+  },
+  "603990.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.94,
+    "pre_close": 22.28
+  },
+  "603992.SH": {
+    "date": "2021-12-13",
+    "prev_close": 19.17,
+    "pre_close": 19.61
+  },
+  "603998.SH": {
+    "date": "2021-12-13",
+    "prev_close": 5.45,
+    "pre_close": 6.8
+  },
+  "605006.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.02,
+    "pre_close": 13.9
+  },
+  "605055.SH": {
+    "date": "2021-12-13",
+    "prev_close": 8.03,
+    "pre_close": 7.9
+  },
+  "605066.SH": {
+    "date": "2021-12-13",
+    "prev_close": 11.71,
+    "pre_close": 11.62
+  },
+  "605116.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.19,
+    "pre_close": 22.02
+  },
+  "605118.SH": {
+    "date": "2021-12-13",
+    "prev_close": 15.65,
+    "pre_close": 16.6
+  },
+  "605166.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.51,
+    "pre_close": 15.92
+  },
+  "605169.SH": {
+    "date": "2021-12-13",
+    "prev_close": 17.36,
+    "pre_close": 16.82
+  },
+  "605188.SH": {
+    "date": "2021-12-13",
+    "prev_close": 7.65,
+    "pre_close": 7.99
+  },
+  "605198.SH": {
+    "date": "2021-12-13",
+    "prev_close": 21.04,
+    "pre_close": 19.8
+  },
+  "605218.SH": {
+    "date": "2021-12-13",
+    "prev_close": 16.63,
+    "pre_close": 16.39
+  },
+  "605303.SH": {
+    "date": "2021-12-13",
+    "prev_close": 14.83,
+    "pre_close": 15.64
+  }
+}

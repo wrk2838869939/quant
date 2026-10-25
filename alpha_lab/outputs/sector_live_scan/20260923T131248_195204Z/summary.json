@@ -1,0 +1,13 @@
+{
+  "asof": "2026-09-23",
+  "valid_sectors": 103,
+  "active_structure_sectors": 99,
+  "watch_sectors": 4,
+  "trigger_sectors": 2,
+  "confirmed_today_sectors": 0,
+  "new_confirmations": 1,
+  "new_confirmations_today": 0,
+  "old_sector_prefix_unchanged": true,
+  "old_330_confirmations_unchanged": true,
+  "model_note": "复用两轮独立模型及各自50%训练阈值；分数不是收益承诺，未新增训练或改变规则"
+}

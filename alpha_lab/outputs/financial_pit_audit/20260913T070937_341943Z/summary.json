@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "filters": [
+    [
+      "ann_date",
+      "<=",
+      "20231231"
+    ],
+    [
+      "end_date",
+      "<=",
+      "20231231"
+    ]
+  ],
+  "raw_metadata_rows": 253397,
+  "row_groups": 1,
+  "filtered_rows": 190204,
+  "codes": 5773,
+  "columns": 108,
+  "ann_min": "20130407",
+  "ann_max": "20231231",
+  "end_min": "20130331",
+  "end_max": "20230930",
+  "invalid_dates": 0,
+  "negative_ann_lag": 0,
+  "nonstandard_periods": 28,
+  "ann_lag_over365": 16994,
+  "max_ann_lag": 1555,
+  "ann_lag_median": 51.0,
+  "full_duplicates": 0,
+  "key_duplicates": 0,
+  "multiple_announcement_groups": 7,
+  "multiple_announcement_rows": 14,
+  "missing_version_fields": [
+    "update_flag",
+    "f_ann_date",
+    "report_type",
+    "comp_type",
+    "ingested_at",
+    "snapshot_date"
+  ],
+  "issuer_checks": 13,
+  "issuer_matches": 13,
+  "filtered_sorted_row_hash": "6e783e7fab94abea77232e5d674a69fa5f19a6f633eb9fadef7a98c6a8b4c0c0",
+  "pandas_version": "2.3.3",
+  "training": false,
+  "market_rows_read": 0,
+  "verdict": "snapshot_not_certified_strict_PIT; spot_checks_match_original; no_universal_backfill_claim"
+}

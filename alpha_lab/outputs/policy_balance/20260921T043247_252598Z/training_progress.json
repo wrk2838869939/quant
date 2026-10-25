@@ -1,0 +1,218 @@
+[
+  {
+    "origin": "2021-07-01",
+    "window_months": 6,
+    "train_start": "2021-01-01",
+    "train_end": "2021-06-30",
+    "evaluations": 769,
+    "seconds": 205.6741772433743,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-04-01",
+    "window_months": 6,
+    "train_start": "2020-10-01",
+    "train_end": "2021-03-31",
+    "evaluations": 769,
+    "seconds": 215.04092438612133,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-01-01",
+    "window_months": 6,
+    "train_start": "2020-07-01",
+    "train_end": "2020-12-31",
+    "evaluations": 769,
+    "seconds": 221.82519966643304,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-10-01",
+    "window_months": 6,
+    "train_start": "2021-04-01",
+    "train_end": "2021-09-30",
+    "evaluations": 769,
+    "seconds": 241.11626250110567,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-04-01",
+    "window_months": 6,
+    "train_start": "2021-10-01",
+    "train_end": "2022-03-31",
+    "evaluations": 769,
+    "seconds": 227.26192556042224,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-01-01",
+    "window_months": 6,
+    "train_start": "2021-07-01",
+    "train_end": "2021-12-31",
+    "evaluations": 769,
+    "seconds": 258.4477054690942,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-07-01",
+    "window_months": 18,
+    "train_start": "2020-01-01",
+    "train_end": "2021-06-30",
+    "evaluations": 769,
+    "seconds": 510.1407291041687,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-10-01",
+    "window_months": 18,
+    "train_start": "2020-04-01",
+    "train_end": "2021-09-30",
+    "evaluations": 769,
+    "seconds": 599.2803072212264,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-01-01",
+    "window_months": 18,
+    "train_start": "2020-07-01",
+    "train_end": "2021-12-31",
+    "evaluations": 769,
+    "seconds": 398.83361161034554,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-01-01",
+    "window_months": 18,
+    "train_start": "2019-07-01",
+    "train_end": "2020-12-31",
+    "evaluations": 769,
+    "seconds": 675.257793138735,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-07-01",
+    "window_months": 6,
+    "train_start": "2022-01-01",
+    "train_end": "2022-06-30",
+    "evaluations": 769,
+    "seconds": 233.61476762034,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-04-01",
+    "window_months": 18,
+    "train_start": "2020-10-01",
+    "train_end": "2022-03-31",
+    "evaluations": 769,
+    "seconds": 513.9347151517868,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-01-01",
+    "window_months": 6,
+    "train_start": "2022-07-01",
+    "train_end": "2022-12-31",
+    "evaluations": 769,
+    "seconds": 215.4740771651268,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-10-01",
+    "window_months": 6,
+    "train_start": "2022-04-01",
+    "train_end": "2022-09-30",
+    "evaluations": 769,
+    "seconds": 320.6625738814473,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-04-01",
+    "window_months": 6,
+    "train_start": "2022-10-01",
+    "train_end": "2023-03-31",
+    "evaluations": 769,
+    "seconds": 304.52036098204553,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-07-01",
+    "window_months": 18,
+    "train_start": "2021-01-01",
+    "train_end": "2022-06-30",
+    "evaluations": 769,
+    "seconds": 551.3309901040047,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-07-01",
+    "window_months": 6,
+    "train_start": "2023-01-01",
+    "train_end": "2023-06-30",
+    "evaluations": 769,
+    "seconds": 221.64802506566048,
+    "status": "complete"
+  },
+  {
+    "origin": "2021-04-01",
+    "window_months": 18,
+    "train_start": "2019-10-01",
+    "train_end": "2021-03-31",
+    "evaluations": 769,
+    "seconds": 1122.3333872724324,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-01-01",
+    "window_months": 18,
+    "train_start": "2021-07-01",
+    "train_end": "2022-12-31",
+    "evaluations": 769,
+    "seconds": 523.9373331647366,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-10-01",
+    "window_months": 6,
+    "train_start": "2023-04-01",
+    "train_end": "2023-09-30",
+    "evaluations": 769,
+    "seconds": 227.05002660490572,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-04-01",
+    "window_months": 18,
+    "train_start": "2021-10-01",
+    "train_end": "2023-03-31",
+    "evaluations": 769,
+    "seconds": 555.1777103813365,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-07-01",
+    "window_months": 18,
+    "train_start": "2022-01-01",
+    "train_end": "2023-06-30",
+    "evaluations": 769,
+    "seconds": 588.443515619263,
+    "status": "complete"
+  },
+  {
+    "origin": "2022-10-01",
+    "window_months": 18,
+    "train_start": "2021-04-01",
+    "train_end": "2022-09-30",
+    "evaluations": 769,
+    "seconds": 851.8599578402936,
+    "status": "complete"
+  },
+  {
+    "origin": "2023-10-01",
+    "window_months": 18,
+    "train_start": "2022-04-01",
+    "train_end": "2023-09-30",
+    "evaluations": 769,
+    "seconds": 545.259510290809,
+    "status": "complete"
+  }
+]

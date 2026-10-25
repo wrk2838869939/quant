@@ -1,0 +1,5 @@
+{
+  "outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet": "4c5cfa14fb1263800c1fe36430ccba092abb77f2b17def98e753d85face08e65",
+  "outputs/autonomous_value_research/20260912T160734_658714Z/execution/pit_review_features.parquet": "48844159194b42946aba68ea412e4c6e9d0416807ca6918529126234d543f74b",
+  "outputs/autonomous_value_research/20260912T160734_658714Z/execution/monthly_hold_allowed.parquet": "37bac7629b8c7c4f2da2a00984060b8bf39f6de3baa6b22eabb0a689bbbfb994"
+}

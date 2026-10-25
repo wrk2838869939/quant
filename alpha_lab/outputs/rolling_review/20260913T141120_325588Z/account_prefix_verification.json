@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "continued_calendar_15_hybrid",
+      "stop": "2025-06-30 00:00:00",
+      "daily_exact": true,
+      "trades_exact": true,
+      "holdings_exact": true,
+      "checks": {
+        "cash_max_error": 2.8194335754960775e-11,
+        "shares_max_error": 0.0
+      }
+    },
+    {
+      "name": "cold_rolling_00_hybrid",
+      "stop": "2025-06-30 00:00:00",
+      "daily_exact": true,
+      "trades_exact": true,
+      "holdings_exact": true,
+      "checks": {
+        "cash_max_error": 1.8189894035458565e-11,
+        "shares_max_error": 0.0
+      }
+    }
+  ],
+  "source_sha256": "06b70a8a39656c8aa2befdaf702127b873fc4179de611efd4ba67b6b653316f5"
+}

@@ -1,0 +1,16 @@
+{
+  "independently_audited_accounts": 402,
+  "trades_checked": 20977,
+  "max_cash_error": 1.0186340659856796e-10,
+  "account_best_endpoint_years": 3,
+  "fallback_changed_years": 2,
+  "inner_objective_correlations": {
+    "2021": 0.02350724845981594,
+    "2022": -0.19695095198667276,
+    "2023": -0.045289303845752034
+  },
+  "nonmonotonic_all": 408,
+  "triplets_all": 792,
+  "nonmonotonic_feasible": 393,
+  "triplets_feasible": 770
+}

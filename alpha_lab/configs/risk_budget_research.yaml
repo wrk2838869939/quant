@@ -1,0 +1,17 @@
+parent: outputs/rolling_review/20260913T141120_325588Z
+history_parent: outputs/exit_history/20260913T151753_889536Z
+output_root: outputs/risk_budget
+end: '2026-09-08'
+windows: {continued: '2022-01-01', cold: '2024-01-01'}
+capital: 50000
+schedules: [calendar_01, calendar_08, calendar_15, calendar_22, rolling_00, rolling_05, rolling_10, rolling_15]
+policies: [baseline, uniform, entry_risk, full_risk]
+features: [volatility20, drawdown120]
+horizon: 60
+nonoverlap_days: 60
+model: {alpha: 10.0, min_train_events: 30, min_train_dates: 15}
+prediction_years: [2022, 2023, 2024, 2025, 2026]
+reference: median_mature_training_absolute_mae
+uniform: mean_training_predicted_discount
+stress_capitals: [20000, 100000]
+stress_cost_multiplier: 2

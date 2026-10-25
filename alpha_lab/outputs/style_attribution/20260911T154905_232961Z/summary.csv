@@ -1,0 +1,3 @@
+strategy,cost_multiplier,total,ann,mdd,sharpe,n_days,capital,top_n,n_trades,total_fees,mean_invested,missing_limit_events,stale_warnings,delist_events,adjustment_metadata_events,rights_declined_events,n_rebalances,execution_data_sufficient,active_capital,reserve_cash,cash_max_error,shares_max_error
+candidate,1.0,0.18640009253333334,0.08998953005859556,-0.08673045494595133,0.9437547694284215,484,210000.0,50,1351,6895.025719999998,0.4590945786158723,0,0,0,37,0,25,True,105000.0,105000.0,5.820766091346741e-11,0.0
+industry_board,1.0,-0.060607749866666616,-0.031027874372481223,-0.11693134848019882,-0.34916715228731193,484,210000.0,50,2169,10846.054,0.3772590158214752,0,0,0,34,0,25,True,105000.0,105000.0,1.0186340659856796e-10,0.0

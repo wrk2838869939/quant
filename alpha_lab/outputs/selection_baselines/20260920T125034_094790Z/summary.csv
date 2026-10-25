@@ -1,0 +1,5 @@
+strategy,name,kind,parent,historical_acceptance,total,ann,mdd,sharpe,n_days,capital,top_n,n_trades,total_fees,mean_invested,missing_limit_events,stale_warnings,delist_events,adjustment_metadata_events,rights_declined_events,n_rebalances,execution_data_sufficient,delta_total_pp,delta_mdd_pp,delta_fees_yuan
+B01_low_turnover,低换手,baseline,B01_low_turnover,True,0.29255598000000016,0.08994676743032337,-0.1162337348227358,0.7444583602149843,727,100000.0,5,17,415.2419999999999,0.9782519195115014,0,0,0,4,0,154,True,0.0,0.0,0.0
+B02_low_risk,低波动/振幅,baseline,B02_low_risk,True,0.10444761999999952,0.03390496102047891,-0.15433260718193687,0.37010182443073014,727,100000.0,3,71,4723.198,0.9849849726097951,0,0,0,4,0,76,True,0.0,0.0,0.0
+B03_valuation,正盈利收益率估值,baseline,B03_valuation,True,0.1998015449999999,0.06304381751358434,-0.2043316024347669,0.4423789941036225,727,100000.0,5,123,6467.837500000001,0.9898594051489361,0,0,0,5,0,114,True,0.0,0.0,0.0
+identity_smoke,identity_smoke,candidate,B01_low_turnover,True,0.29255598000000016,0.08994676743032337,-0.1162337348227358,0.7444583602149843,727,100000.0,5,17,415.2419999999999,0.9782519195115014,0,0,0,4,0,154,True,0.0,0.0,0.0

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "raw_monthly_reproduced": true,
+  "price_budget_filter": false,
+  "hashes": {
+    "daily_signals.parquet": "a10643ab1942c507884ffd515a14ac123790138ebce7eb5eb91d32b6f0bc69c2",
+    "daily_forecasts.parquet": "da814332297330f904b63fb8ed7d65d7c893e81302f651fbae80a78dc5ccbfd6",
+    "monthly_signals.parquet": "ef86f7af73264d4fd428f4e9fe1e38d8ba7a1bc499426571d972897d11eedcc2",
+    "monthly_forecasts.parquet": "7a55ff4e26174360841ec56325bcd6111e30b9b6c9235bfb02791679228d4901",
+    "execution_codes.csv": "c696da19227074c3b445576288d967f991aacd55e7faee374e92f8c7220704e3"
+  }
+}

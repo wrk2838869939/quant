@@ -1,0 +1,19 @@
+{
+  "name": "cold_hybrid_buffer00",
+  "status": "passed",
+  "planned_orders": 47,
+  "filled_orders": 45,
+  "intraday_limit_fills": 6,
+  "supplementary_attempts": 19,
+  "bonus_events": 0,
+  "actual_days": 651,
+  "max_order_cash_difference": 0.0,
+  "missing_announcement_paths": 0,
+  "same_day_announcement_ambiguity_paths": 0,
+  "hashes": {
+    "daily.csv": "58d9175e70dba176d1bb532af04b9c5b72e623e8eaca6669ac043311e1058374",
+    "trades.csv": "785e3a7e01c73d00676d0b7ee4970bf7c66189e1680fdfe49aa192ec39d5a683",
+    "events.csv": "6f36679c160634077bf27822148d95fe6db1802fbb7ca882eb7fa105277d8099",
+    "holdings.csv": "093620652a2f2077ce53cb1a53095ed15912b01090e1dc0ab93cb6be25d87a15"
+  }
+}

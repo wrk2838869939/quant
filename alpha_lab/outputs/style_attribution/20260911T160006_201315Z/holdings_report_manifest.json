@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "purpose": "ex_post_descriptive_holdings_not_risk_model",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "source_sha256": "698ca8bb560cc5f3eca6407310cf1cdae99d23c0cff17bffbf1fb18b2fff2a44",
+  "industry_input_sha256": "658f2de62f830645c9a158c0389ada9ccd059b6c9cf1feaf2afe8b4a86728342"
+}

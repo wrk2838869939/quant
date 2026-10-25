@@ -1,0 +1,26 @@
+{
+  "synthetic_only": true,
+  "performance_backtest": false,
+  "live_orders": false,
+  "real_historical_through": "2026-09-14",
+  "synthetic_decision_date": "2026-09-15",
+  "historical_rows": 12302463,
+  "basis_securities": 5562,
+  "synthetic_traded_securities": 5550,
+  "synthetic_suspended_securities": 12,
+  "full_universe": 5823,
+  "prior_eod_market_cap_max_relative_error": 0.0,
+  "naive_shares_times_price_max_relative_difference": 0.049688582588954464,
+  "naive_market_cap_differences_gt_1e5": {
+    "688235.SH": 0.049688582588954464
+  },
+  "prior_turnover_max_absolute_error": 4.999999999999449e-05,
+  "projection_seconds": 2.5465266816318035,
+  "total_seconds": 45.843368771485984,
+  "synthetic_plan_blocked": true,
+  "limitations": [
+    "没有真实14:30历史行情",
+    "没有真实收盘竞价成交回报",
+    "未检验真实Sina全A实时覆盖率"
+  ]
+}

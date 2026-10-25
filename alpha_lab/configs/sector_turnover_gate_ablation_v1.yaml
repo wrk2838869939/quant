@@ -1,0 +1,8 @@
+study: sector_turnover_gate_ablation_v1
+parent_run: alpha_lab/outputs/sector_entry_window_v1/20261013T064932_361598Z
+output_root: alpha_lab/outputs/sector_turnover_gate_ablation_v1
+variants: [original, no_expansion_gate, no_turnover_gates]
+stock_history_sessions: 400
+progress_every_dates: 100
+# 仅移除换手硬门槛，其他价格、趋势和资格条件原样保留。
+# 所有合格候选均披露，不在观察收益后选择Top-N或调阈值。

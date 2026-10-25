@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-21 14:49:09.016364",
+  "parameters": {
+    "numeric_rtol": 1e-09,
+    "hfq_atol": 1e-07,
+    "raw_atol": 1e-05,
+    "vwap_price_tolerance": 0.02,
+    "pct_chg_tolerance_pp": 0.011,
+    "market_cap_relative_tolerance": 0.001,
+    "samples_per_check_per_year": 5
+  },
+  "rows": 12413629,
+  "codes": 5838,
+  "start": "2014-01-02",
+  "end": "2026-10-20",
+  "days": 3109,
+  "missing_market_days": [],
+  "delisted_with_bars": 258,
+  "checks": {
+    "duplicate_keys": 0,
+    "null_keys": 0,
+    "wrong_partition": 0,
+    "non_trading_day": 0,
+    "invalid_ohlc": 2,
+    "invalid_adj_factor": 0,
+    "negative_volume_amount": 0,
+    "zero_volume_amount": 0,
+    "infinite_numeric": 0,
+    "unknown_stock": 4994,
+    "before_listing": 76267,
+    "after_delisting": 0,
+    "hfq_open_mismatch": 0,
+    "hfq_high_mismatch": 0,
+    "hfq_low_mismatch": 0,
+    "hfq_close_mismatch": 0,
+    "vwap_outside_range": 78,
+    "pct_chg_mismatch": 1,
+    "market_cap_identity_mismatch": 551
+  },
+  "us_rows": 135142,
+  "us_tickers": 33,
+  "us_duplicate_keys": 0,
+  "us_weekend_rows": 0,
+  "us_calendar_without_equity_bars": [
+    "2015-04-03",
+    "2017-07-04",
+    "2017-09-04",
+    "2021-04-02",
+    "2023-04-07",
+    "2025-01-09"
+  ],
+  "index_duplicate_keys": 0
+}

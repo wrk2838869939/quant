@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_hashes": 47,
+  "checked_model_years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "sector_events": 105,
+  "stocks": 3935,
+  "selected_event_stocks": 193,
+  "selected_events": 54,
+  "data_vintage_certified": false,
+  "account_backtest": false
+}

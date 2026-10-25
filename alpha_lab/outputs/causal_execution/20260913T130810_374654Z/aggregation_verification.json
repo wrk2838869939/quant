@@ -1,0 +1,250 @@
+{
+  "case_count": 20,
+  "reverse_comparisons": [
+    {
+      "variant": "baseline",
+      "file": "daily",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "trades",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "holdings",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "events",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "process_daily",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "asset_pnl",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "holding_periods",
+      "byte_identical": true
+    },
+    {
+      "variant": "baseline",
+      "file": "exit_reasons",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "daily",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "trades",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "holdings",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "events",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "process_daily",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "asset_pnl",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "holding_periods",
+      "byte_identical": true
+    },
+    {
+      "variant": "hybrid",
+      "file": "exit_reasons",
+      "byte_identical": true
+    }
+  ],
+  "all_cases_complete": true,
+  "source_artifacts_unchanged": true,
+  "fill_range_checks": [
+    {
+      "name": "cold_baseline",
+      "trades": 43,
+      "open_fills": 43,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_baseline",
+      "trades": 62,
+      "open_fills": 62,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "small_baseline",
+      "trades": 45,
+      "open_fills": 45,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "large_baseline",
+      "trades": 47,
+      "open_fills": 47,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cost2_baseline",
+      "trades": 44,
+      "open_fills": 44,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "reverse_baseline",
+      "trades": 43,
+      "open_fills": 43,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "trades": 44,
+      "open_fills": 39,
+      "non_open_fills": 5,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "trades": 63,
+      "open_fills": 54,
+      "non_open_fills": 9,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "trades": 43,
+      "open_fills": 43,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "trades": 63,
+      "open_fills": 63,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cold_hybrid",
+      "trades": 41,
+      "open_fills": 41,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_hybrid",
+      "trades": 67,
+      "open_fills": 67,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "small_hybrid",
+      "trades": 42,
+      "open_fills": 42,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "large_hybrid",
+      "trades": 48,
+      "open_fills": 48,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cost2_hybrid",
+      "trades": 42,
+      "open_fills": 42,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "reverse_hybrid",
+      "trades": 41,
+      "open_fills": 41,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "trades": 45,
+      "open_fills": 39,
+      "non_open_fills": 6,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "trades": 68,
+      "open_fills": 59,
+      "non_open_fills": 9,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "trades": 38,
+      "open_fills": 38,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "trades": 65,
+      "open_fills": 65,
+      "non_open_fills": 0,
+      "strict_signal_before_fill": true,
+      "within_daily_range": true
+    }
+  ],
+  "limitation": "Range and ledger checks do not certify order chronology or actual market fills."
+}

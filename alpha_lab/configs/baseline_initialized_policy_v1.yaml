@@ -1,0 +1,31 @@
+study: baseline_initialized_policy_v1
+parent_run: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+registry: alpha_lab/configs/selection_baselines_v1.yaml
+features: alpha_lab/configs/learning_strategy_search_v1.yaml
+seed: 20260920
+workers: 8
+hosts: [B01_low_turnover, B02_low_risk, B03_valuation, equal_weight]
+initializations: [baseline, random]
+outer_years: [2021, 2022, 2023]
+outer_start: '2021-01-01'
+outer_end: '2023-12-31'
+train_start: '2019-01-01'
+training_end: two_calendar_years_before_outer_year
+validation: calendar_year_before_outer_year
+hidden: 16
+search:
+  generations: 8
+  population: 12
+  elites: 4
+  scales: [0.15, 0.6, 1.8]
+  adaptation_up: 1.25
+  adaptation_down: 0.8
+  success_target: 0.2
+  min_scale_multiplier: 0.05
+  max_scale_multiplier: 4.0
+  max_drawdown: 0.30
+  objective: feasible_first_then_net_total_return
+  validation_selection: best_feasible_net_return_among_initial_and_each_generation_champion
+  no_feasible_validation: cash
+  permanent_baseline_distance_penalty: false
+prefix_dates: ['2021-06-30', '2022-06-30', '2023-06-30']

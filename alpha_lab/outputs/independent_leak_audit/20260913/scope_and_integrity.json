@@ -1,0 +1,343 @@
+{
+  "audit_started_utc": "2026-09-13T12:53:26.163598+00:00",
+  "target": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z",
+  "checks": [
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/portfolio.py",
+      "expected": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+      "actual": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/retail_rebalance.py",
+      "expected": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+      "actual": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/selection_first.py",
+      "expected": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+      "actual": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/patient_trend.py",
+      "expected": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+      "actual": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/trend_entry.py",
+      "expected": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+      "actual": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/run_patient_value_execution.py",
+      "expected": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+      "actual": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/run_divide_selection_execution.py",
+      "expected": "49af304f380210c530bef63051f46d893530ae153269e3a97361c0fb7db5f5e5",
+      "actual": "49af304f380210c530bef63051f46d893530ae153269e3a97361c0fb7db5f5e5"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/configs/symmetric_phase_research.yaml",
+      "expected": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+      "actual": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/configs/corporate_action_components.yaml",
+      "expected": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+      "actual": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/run_recent_low_turnover.py",
+      "expected": "bde675ba56aa9b9e59c05bf25e4602e79046a0b2da5367019f4e0decbd44d838",
+      "actual": "bde675ba56aa9b9e59c05bf25e4602e79046a0b2da5367019f4e0decbd44d838"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/prepare_recent_low_turnover_inputs.py",
+      "expected": "1b273024e39df1b4ee7d4b2549b15e1757f3dfec21bccd2da84128f8b4edf9f2",
+      "actual": "1b273024e39df1b4ee7d4b2549b15e1757f3dfec21bccd2da84128f8b4edf9f2"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/summarize_recent_low_turnover.py",
+      "expected": "ed37a037da21304e40f4cd16eb31979f73b8ab4ae10d3ee3262d356b13a925bd",
+      "actual": "ed37a037da21304e40f4cd16eb31979f73b8ab4ae10d3ee3262d356b13a925bd"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/repair_recent_basic_projection.py",
+      "expected": "f4935f92bf98b0ae2d269eb8245edaf0a38f32f1a683bf567a8782daed64599b",
+      "actual": "f4935f92bf98b0ae2d269eb8245edaf0a38f32f1a683bf567a8782daed64599b"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/validate_recent_input_coverage.py",
+      "expected": "4a5b40506aa3d5181ab8f272de0e75e45cb77051db5cab287fcca711f32f8854",
+      "actual": "4a5b40506aa3d5181ab8f272de0e75e45cb77051db5cab287fcca711f32f8854"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/verify_recent_low_turnover.py",
+      "expected": "8a8bf6884ee95b8b796f1450d5af94350e107a5cb9eecb99deb364972f50a755",
+      "actual": "8a8bf6884ee95b8b796f1450d5af94350e107a5cb9eecb99deb364972f50a755"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/hold_sensitivity.py",
+      "expected": "734f1109b2d37939decf14c17ea7370d6a514bd0f694fa437cfe000ad4ce0d33",
+      "actual": "734f1109b2d37939decf14c17ea7370d6a514bd0f694fa437cfe000ad4ce0d33"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/configs/hold_sensitivity_research.yaml",
+      "expected": "3f6fd7008d39864c702794cc3b64958caa3dabc7593f967e974a966d8d3525dd",
+      "actual": "3f6fd7008d39864c702794cc3b64958caa3dabc7593f967e974a966d8d3525dd"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/run_hold_sensitivity.py",
+      "expected": "e6a5f0e85072172658ae7747060dc2bf4455a3ae698bb0283373f2755bb46be5",
+      "actual": "e6a5f0e85072172658ae7747060dc2bf4455a3ae698bb0283373f2755bb46be5"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/prepare_hold_sensitivity.py",
+      "expected": "87591b7ddd1e616f3e5afb129497792882d0fceeaebacee732875f32cac82111",
+      "actual": "87591b7ddd1e616f3e5afb129497792882d0fceeaebacee732875f32cac82111"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/src/conditional_hold.py",
+      "expected": "edb89815162d1a835845ff1b6a368a3c024b952421b0acd94faa2d36763609eb",
+      "actual": "edb89815162d1a835845ff1b6a368a3c024b952421b0acd94faa2d36763609eb"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/configs/conditional_hold_research.yaml",
+      "expected": "893d254cf112c14df4996d932a7c1c2a928a1b3b6dd4808ce76001d839ee3bca",
+      "actual": "893d254cf112c14df4996d932a7c1c2a928a1b3b6dd4808ce76001d839ee3bca"
+    },
+    {
+      "kind": "source",
+      "path": "/root/autodl-tmp/alpha_lab/scripts/prepare_conditional_hold.py",
+      "expected": "4cb1a363811b061a45597e86beed815f84c1a7c632a943a9fd24d526f4dab342",
+      "actual": "4cb1a363811b061a45597e86beed815f84c1a7c632a943a9fd24d526f4dab342"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution_predictions.parquet",
+      "expected": "e11d1d5903ac350eba213e30110846199712ba642a4779a21615f229008a8112",
+      "actual": "e11d1d5903ac350eba213e30110846199712ba642a4779a21615f229008a8112"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_close.parquet",
+      "expected": "addb0d6bc6d1ee1557c14c735fa348ce44c64adda641e6df2ad423f439f8da58",
+      "actual": "addb0d6bc6d1ee1557c14c735fa348ce44c64adda641e6df2ad423f439f8da58"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_trend.parquet",
+      "expected": "7d1dcef4e51049fc0f7a899109163eb498240795d34daeb73327dd8b917788ba",
+      "actual": "7d1dcef4e51049fc0f7a899109163eb498240795d34daeb73327dd8b917788ba"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_observable.parquet",
+      "expected": "bd5f23c71b75880a760ae0061930f3eb4f7139d8c10548db6f09b788e7c597ab",
+      "actual": "bd5f23c71b75880a760ae0061930f3eb4f7139d8c10548db6f09b788e7c597ab"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/monthly_observable.parquet",
+      "expected": "ba01057f9aefae1536dfabdfe0aa68d07f6ceda7303a1c9b81f0aed266e7ed82",
+      "actual": "ba01057f9aefae1536dfabdfe0aa68d07f6ceda7303a1c9b81f0aed266e7ed82"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/monthly_weak.parquet",
+      "expected": "57b6d084451fcd4225e980dd3fecb2880254d83af9f7e3ba3301f9f2958e4960",
+      "actual": "57b6d084451fcd4225e980dd3fecb2880254d83af9f7e3ba3301f9f2958e4960"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/monthly_failure_streak.parquet",
+      "expected": "a9b41ab3eac73b26cee562fa1f60916f56d682eca2354be7e9c605f38fb7db95",
+      "actual": "a9b41ab3eac73b26cee562fa1f60916f56d682eca2354be7e9c605f38fb7db95"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_weak_count.parquet",
+      "expected": "1962f835ebc01c1f1c13dbd56cb8af30191adf9879138ed580443e1e60ec8239",
+      "actual": "1962f835ebc01c1f1c13dbd56cb8af30191adf9879138ed580443e1e60ec8239"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/daily_known_count.parquet",
+      "expected": "29498ffc49c3a8db482466f4ef3167c65654ae80d8fe4acf46fa3f861af5e8af",
+      "actual": "29498ffc49c3a8db482466f4ef3167c65654ae80d8fe4acf46fa3f861af5e8af"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/long_intact.parquet",
+      "expected": "f3d68a61c5d5ad9634b842d8570afe8aafe3baf335e65f29f806eea011bc8a50",
+      "actual": "f3d68a61c5d5ad9634b842d8570afe8aafe3baf335e65f29f806eea011bc8a50"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/long_broken.parquet",
+      "expected": "1cfc6253bc9a8aa6de99ae380489beb919ac2f86f0985f618aceb20c0b7b4051",
+      "actual": "1cfc6253bc9a8aa6de99ae380489beb919ac2f86f0985f618aceb20c0b7b4051"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/weak_regime.parquet",
+      "expected": "223926cc42451a79f67ec188e9643cd6256994a10bf379c793788e2ac8856d8f",
+      "actual": "223926cc42451a79f67ec188e9643cd6256994a10bf379c793788e2ac8856d8f"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/long_return.parquet",
+      "expected": "546abcd7500feffa1329e87ef072fbb2dd6ea894476a94bd9c07f5a22bd95ba2",
+      "actual": "546abcd7500feffa1329e87ef072fbb2dd6ea894476a94bd9c07f5a22bd95ba2"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/long_ma.parquet",
+      "expected": "8cdfdb5cab13cac3e03eea057ec77de3cb9dd746ddd88329a0d5248417b1c252",
+      "actual": "8cdfdb5cab13cac3e03eea057ec77de3cb9dd746ddd88329a0d5248417b1c252"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/long_ma_gap.parquet",
+      "expected": "21e314fe611f519c13d11d466eee08fbcc49aacc0717feb4e00ecba1832fc2f8",
+      "actual": "21e314fe611f519c13d11d466eee08fbcc49aacc0717feb4e00ecba1832fc2f8"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/monthly_hold_allowed.parquet",
+      "expected": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+      "actual": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/low_turnover_signals.parquet",
+      "expected": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+      "actual": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/low_turnover_point_forecasts.parquet",
+      "expected": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+      "actual": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/market.parquet",
+      "expected": "e3fb227ca6d9a177e14f40f6d156abd4570eebcebc35819b8c20d0615aa9fa0f",
+      "actual": "e3fb227ca6d9a177e14f40f6d156abd4570eebcebc35819b8c20d0615aa9fa0f"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/basics.parquet",
+      "expected": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+      "actual": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/st.parquet",
+      "expected": "0eecd4c1464ef9f910688b6baf3ec6afa8daa2b027d862a59601fca01150fc69",
+      "actual": "0eecd4c1464ef9f910688b6baf3ec6afa8daa2b027d862a59601fca01150fc69"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/limits.parquet",
+      "expected": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+      "actual": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/raw_actions.parquet",
+      "expected": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+      "actual": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/normalized_actions.parquet",
+      "expected": "f7baa9e8133099671df013e6a297b010f947f8b132033a90eaf5b9f3cde6ff57",
+      "actual": "f7baa9e8133099671df013e6a297b010f947f8b132033a90eaf5b9f3cde6ff57"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/hold_variants/baseline.parquet",
+      "expected": "ea047aea6654dfc27c612e4cc02234c1d9c84b314c0ecbb3eefb2b8b2916126c",
+      "actual": "ea047aea6654dfc27c612e4cc02234c1d9c84b314c0ecbb3eefb2b8b2916126c"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/hold_variants/persist10.parquet",
+      "expected": "5eef0a1e54ea176897261ee6a9d8e1f7b761f4476783f945fa091272a195dcb8",
+      "actual": "5eef0a1e54ea176897261ee6a9d8e1f7b761f4476783f945fa091272a195dcb8"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/hold_variants/accelerated.parquet",
+      "expected": "4e4c8847fc753068032871219e6f53f092a709e34566c7b0d134a9ef81a480c6",
+      "actual": "4e4c8847fc753068032871219e6f53f092a709e34566c7b0d134a9ef81a480c6"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/hold_variants/patient.parquet",
+      "expected": "e36153f114b1dc99bf83e5ab690d71206d4d58106fe3903c8645762db63144e9",
+      "actual": "e36153f114b1dc99bf83e5ab690d71206d4d58106fe3903c8645762db63144e9"
+    },
+    {
+      "kind": "input",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/hold_variants/hybrid.parquet",
+      "expected": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef",
+      "actual": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef"
+    },
+    {
+      "kind": "sealed_output",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/REPORT.md",
+      "expected": "dbc2019042686709ba08d55f08d23a6a5c811bfeeb36c62d27c3515ae09109c6",
+      "actual": "dbc2019042686709ba08d55f08d23a6a5c811bfeeb36c62d27c3515ae09109c6"
+    },
+    {
+      "kind": "sealed_output",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/full_period_summary.csv",
+      "expected": "b09dafabb43f247ace64a5d918a11a5cdfaa9a00fa8c7f5eef221e701a6b1ce7",
+      "actual": "b09dafabb43f247ace64a5d918a11a5cdfaa9a00fa8c7f5eef221e701a6b1ce7"
+    },
+    {
+      "kind": "sealed_output",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/recent_summary.csv",
+      "expected": "aa9dc7252d026afda9886c79d40bc8c05949d53fdac9e6135cd72a3bc50cb803",
+      "actual": "aa9dc7252d026afda9886c79d40bc8c05949d53fdac9e6135cd72a3bc50cb803"
+    },
+    {
+      "kind": "sealed_output",
+      "path": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z/execution/independent_conditional_verification.json",
+      "expected": "7123fd93f39c0f921d654acb7d6fe20f6c78d6b33a4e032495d95855b3b3fcca",
+      "actual": "7123fd93f39c0f921d654acb7d6fe20f6c78d6b33a4e032495d95855b3b3fcca"
+    }
+  ],
+  "all_hashes_match": true,
+  "scope": "仅验证冻结一致性，不证明来源真实性或没有未来泄露",
+  "reviewers": [
+    "audit_future_signals",
+    "audit_future_execution",
+    "audit_data_authenticity"
+  ]
+}

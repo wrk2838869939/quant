@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "prefix_checks": [
+    {
+      "stop": "2023-06-30 00:00:00",
+      "features": 9
+    },
+    {
+      "stop": "2025-06-30 00:00:00",
+      "features": 9
+    }
+  ],
+  "hashes": {
+    "recovery_search_status.csv": "83dc993a3bf4f0bfffc1a9b608d7b8ceb4494c1636172a82ce5d88baa46e6a36",
+    "exit_account_events.csv": "20278c8e831d4a3004a8387146d43dc985a34051100baf1eff051296f8953547",
+    "exit_events.parquet": "3043adcbf8fe76e5bed4385257b81a8e75473e63b742c8f8a4282507c191e0f8",
+    "exit_events.csv": "e914f705fcfb53e3f4c87a3286f4eff7b080e829d75b17eacfc94f76d4cdceee",
+    "recovery_account_events.csv": "a40fd4ca096b9d105d207972707e49736e46d1240a9d92c12fe172242353f0bd",
+    "recovery_events.parquet": "4e81590ec021963afb485d0ea536dc56d16b853101641c9c5935d6167d4d1e2f",
+    "recovery_events.csv": "5c4b63df97c8e4fff06124b3070cc08b8692cfb9f7318eed51e72e69809d6597",
+    "coverage.csv": "c627cb9671ab09c27004362d7c0b9b145a1ebb6e50320bf17ff474b8bd88c831"
+  }
+}

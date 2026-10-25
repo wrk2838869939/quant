@@ -1,0 +1,19 @@
+﻿字段,说明,单位
+event_id,独立板块事件编号；不是股票交易笔数,字符串
+scope,all_sector_pass=105事件；stock_model_available=2022—2026的59事件,分组
+horizon,次日开盘进入，经过指定交易日数量后开盘观察,交易日
+price_return / mean / median / q10,固定约40bp费用压力测试后的复权价格观察，不是账户收益,小数；0.01=1%
+mean_excess / difference / excess,相对同日同事件基准的差值，基准见各表,小数；0.01=1个百分点
+positive,完整价格路径事件中观察值大于0的比例,小数；0.5=50%
+complete,整个观察窗口开盘价和成交量都有效；缺失不能解释为零损失,布尔
+capped_return,每股最高20%事件额度、剩余现金为零收益；不处理事件之间资金冲突,小数
+mean_slot / known_slots,无候选事件为0；有候选但价格未知为缺失；均值分母为known_slots,小数/事件数
+stress_20 / stress_100,缺失股票按−20%或−100%替代的假设情景；不是实际损失或置信下界,小数
+model_score,历史岭回归预测的相对板块表现；不是保证收益,小数
+volatility,近20个交易日的日收益标准差,小数
+strength,截至确认日的60交易日累计价格变化,小数
+expansion / contraction / slowdown,前期放量倍数、后期换手比值、跌速比值,倍数
+gross_value,从买入开盘起，事件内初始等权持有的复权开盘价值指数；未扣费,买入=1
+opening_path_mdd,单个事件21个开盘观测点从先前最高点的最大下降,小数；不是账户MDD
+min_relative_to_entry,事件内最低开盘价值相对买入价的变化，不含盘中低点,小数
+date / model_start,信号收盘日 / 当年模型训练起点；不能据当前下载版本认证原始PIT,日期

@@ -1,0 +1,22 @@
+[
+  {
+    "strategy": "B01_low_turnover",
+    "exact_four_tables": true,
+    "attribution_error": 1.4665602066088468e-11
+  },
+  {
+    "strategy": "B02_low_risk",
+    "exact_four_tables": true,
+    "attribution_error": 2.2964741219766438e-11
+  },
+  {
+    "strategy": "B03_valuation",
+    "exact_four_tables": true,
+    "attribution_error": 2.1600499167107046e-11
+  },
+  {
+    "strategy": "equal_weight",
+    "exact_four_tables": true,
+    "attribution_error": 1.4551915228366852e-11
+  }
+]

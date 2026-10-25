@@ -1,0 +1,392 @@
+{
+  "status": "complete",
+  "run": "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z",
+  "cases": [
+    {
+      "name": "cold_baseline",
+      "status": "passed",
+      "planned_orders": 43,
+      "filled_orders": 43,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 16,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "f55f1b37bf29a41dfd87ec703b5428a24970d5d56b28b2e67825b291535b13f3",
+        "trades.csv": "3ae741fb8ae01197ddb4090922a357ea22a890f62072e72a0fe3c8b0c1b0f445",
+        "events.csv": "940af8f0b27f6a1992e334a1dac3f2c8af43702dfeed0ae31f83d249a37af34d",
+        "holdings.csv": "e2b2695847c21eae426a14255c90361c435a4c13e7e3860b102c2d246823d898"
+      }
+    },
+    {
+      "name": "continued_baseline",
+      "status": "passed",
+      "planned_orders": 62,
+      "filled_orders": 62,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 22,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "17cf11842d8bdab88ed9de477f2b4c62a84ba3ac97a0121e9ed787d6819b570c",
+        "trades.csv": "4d9ab5cc6b98c3ea76dfef02c16d0458f2536b21a09ece8abcff60a6a39a245f",
+        "events.csv": "1799375ae96f3ec25502857217399ecd231f8283a91809b9f4652994b52b604c",
+        "holdings.csv": "1c2316a04900759164a2832f51e795299933c9001afc61e44712063725be15c5"
+      }
+    },
+    {
+      "name": "small_baseline",
+      "status": "passed",
+      "planned_orders": 45,
+      "filled_orders": 45,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 16,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "15061addd4bf80bd3f7a425ef01bcf090f55f04ad836efa72821514b38119105",
+        "trades.csv": "ff7159c8327629f0ef28b8fcfe06a8e796b3ba27ac5fd7fc1d39af6ac9e9dce7",
+        "events.csv": "a460c76b2baf65b52515a9fa5674aa4b938a25e1ee2845a94d205a1665468604",
+        "holdings.csv": "ebe07cad510232fd60b489922040427e5ac69004fef31d280dcc8da6539625cb"
+      }
+    },
+    {
+      "name": "large_baseline",
+      "status": "passed",
+      "planned_orders": 47,
+      "filled_orders": 47,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 16,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "6a5f3922f8b3268c48b27a4920e03c90578d0db3d96c04d3e9331241d9230647",
+        "trades.csv": "1859362ccfee6f781443ec62b65620303f3301ef291ae5f9f0b2a53210bdef9d",
+        "events.csv": "ee54fa22b57800537864ee4e4718d18edbee57a8d65864386203b9f4b14b7475",
+        "holdings.csv": "bf483d3c74372795f828870215fd03a6c595db78497659e95070eb77d067ee57"
+      }
+    },
+    {
+      "name": "cost2_baseline",
+      "status": "passed",
+      "planned_orders": 44,
+      "filled_orders": 44,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 15,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "856a4d86978fa9caa29088dd9893682da29449a22244a0fe082707b3b0a86ff2",
+        "trades.csv": "fe2f968ec92e50dc91425a85cc0c0c2324015f22999f101d4e5262c3b1a6652b",
+        "events.csv": "dc2f208f4f7838f7753640b7b9cbde14c8d003c04b6118e8d578976f020c371a",
+        "holdings.csv": "7b25a25e6dfcdc08f697b96a18d51d65e56d285e3e088cfe8b4282f06c0e8cf8"
+      }
+    },
+    {
+      "name": "reverse_baseline",
+      "status": "passed",
+      "planned_orders": 43,
+      "filled_orders": 43,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 16,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "f55f1b37bf29a41dfd87ec703b5428a24970d5d56b28b2e67825b291535b13f3",
+        "trades.csv": "3ae741fb8ae01197ddb4090922a357ea22a890f62072e72a0fe3c8b0c1b0f445",
+        "events.csv": "940af8f0b27f6a1992e334a1dac3f2c8af43702dfeed0ae31f83d249a37af34d",
+        "holdings.csv": "e2b2695847c21eae426a14255c90361c435a4c13e7e3860b102c2d246823d898"
+      }
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "status": "passed",
+      "planned_orders": 47,
+      "filled_orders": 44,
+      "intraday_limit_fills": 5,
+      "supplementary_attempts": 17,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "08d21d6204aa6c4ae58cb6859455e2cb7f61d6481a30c410a84d120d7e3b33dc",
+        "trades.csv": "92715e453d48025bf8e0ef3e5cd5590840e9a4d4817720d3f95de511eca763d4",
+        "events.csv": "2001b2b3e2e8cba8b8009b3786f6bf2079b9f43b3786d554dcf297fc8fcc15e4",
+        "holdings.csv": "06d93b1329a8d9658f3239723a20d6879d69296ac2ec1ff597b1ee486c8c7a50"
+      }
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "status": "passed",
+      "planned_orders": 63,
+      "filled_orders": 63,
+      "intraday_limit_fills": 9,
+      "supplementary_attempts": 23,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "afe80996b674a59cfb07ed3a6c6e62e4532707034066a84226f82d699d5637f6",
+        "trades.csv": "e71e47dea888b7caac39c1b8795068217dc4103a49bc4c73d3a3ec84f973826a",
+        "events.csv": "42ffe6af3be5d5c14226d8e99927ba077780deac4c49b830331a95427cfa192e",
+        "holdings.csv": "2d085f2d7794188a1e2b98a7c99d0933556488e75998e350baec3970c5200969"
+      }
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "status": "passed",
+      "planned_orders": 43,
+      "filled_orders": 43,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 14,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "60c6e72a5087fccab9422dd440b8954c5028652211c0f40d9bcd19b208a78d43",
+        "trades.csv": "e2ecf09cc3a619055e3d4100277c4ab297d818ba05e7cf2dcfb00455a4227952",
+        "events.csv": "526868208dba34d7da96e4c3384abcc52c6a4d2e0e1573aca27246bef31c392a",
+        "holdings.csv": "76d32aa5e54eefa379fc53e909b41523185982eb7836434d7784b46226a5d77c"
+      }
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "status": "passed",
+      "planned_orders": 63,
+      "filled_orders": 63,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 23,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "824193e7ceefc76a45ca01a7e62fd617bd8594bcd4bb848e9b90bf0a5cea9b8c",
+        "trades.csv": "3057f543c1bb509a8381c9b4b9eee827f21f91848d01403215ceb00735ea6c30",
+        "events.csv": "0c99dfdbcc625c6c1e00f13201259ede04bfefbb05f3a9ad3b080a0704284644",
+        "holdings.csv": "af8a7ddc8fd9f7113d0d35f9099be17d025c469a5134a7ed185ec783de6d500c"
+      }
+    },
+    {
+      "name": "cold_hybrid",
+      "status": "passed",
+      "planned_orders": 41,
+      "filled_orders": 41,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 17,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "b3383fea7bb241ab1d4b45538ac226aba415fa91563e6f94d03c4529bdb9425a",
+        "trades.csv": "6a20e5e6b89a91a5be163feabffbd28669dc988762e64654b3c46a45deca9a64",
+        "events.csv": "7f789654d42173e169174478ea070a690af592b11ab81c23a04ba68e8bf9232b",
+        "holdings.csv": "0a42fd58b18eec19a6f1bc4d194b9b07f31510ce551d8ae0507ce5dbe37432d1"
+      }
+    },
+    {
+      "name": "continued_hybrid",
+      "status": "passed",
+      "planned_orders": 67,
+      "filled_orders": 67,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 29,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "1246ec9391750501f096039d7fbe111ca2b836177921ab749243591b6445bf67",
+        "trades.csv": "d0ab0ec2b6513e15565e80572d115d23a3686d883053ff6b58d24a0310f079b3",
+        "events.csv": "ab0fef0e115f141f1d8d287b7ea204aa521d3092546a443e3687646782698a32",
+        "holdings.csv": "9a579c5136b6a311d97a524992b6c47e5bdb2e8ee0163cc0a7c154ba247bda94"
+      }
+    },
+    {
+      "name": "small_hybrid",
+      "status": "passed",
+      "planned_orders": 42,
+      "filled_orders": 42,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 17,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "e1c75ef30e080bb69204fd58aada134ff6435cdcc09cca9e33fc1382281b2e04",
+        "trades.csv": "c6403aa5557ec1f5a22200f2d21da658df219da75f1a868bf26b5fdc9d7a5e1c",
+        "events.csv": "9d03c6aa6347f97212bb4dd8b1e0848a4a910f3bc24810664056fb80be84cd78",
+        "holdings.csv": "aa0a1e14781861ae9e9b48a5b5680e0b355c4331a8fdf46ac6a6b58e56127c43"
+      }
+    },
+    {
+      "name": "large_hybrid",
+      "status": "passed",
+      "planned_orders": 48,
+      "filled_orders": 48,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 18,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "b835fe9fccf8baaea7e4a02a88d2834f2de620d24b2d762991547207bdd2e20d",
+        "trades.csv": "7944e1151256126aa9a8d9c9c6febe43cb5f92c038eb4a8d7fcd9843f8075866",
+        "events.csv": "c7e9b9bf9a1c47857317a8a295bfa519db37925b1bf21a9fd06c4ad81dd7ef30",
+        "holdings.csv": "6e288cbf9b86fed01443917583da3967ed37fd2abba645114a0ff9bdc528c5ff"
+      }
+    },
+    {
+      "name": "cost2_hybrid",
+      "status": "passed",
+      "planned_orders": 42,
+      "filled_orders": 42,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 17,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "1916dc961578505ceae4d7d6a329840f9dfda83381bd3454d12af898627dade9",
+        "trades.csv": "1e5fa855dcba2f4891d37d2479b7288d55991f82594e98b34c394b0628394d7d",
+        "events.csv": "6d5420b685e6928a7fbbd20ee988186b9aeba0a0c60a6d6567fe411d12d83657",
+        "holdings.csv": "e2943f81d7780367a532dd09331dc0b0cf15ae2ed54e24215aea00d7dbeb47a5"
+      }
+    },
+    {
+      "name": "reverse_hybrid",
+      "status": "passed",
+      "planned_orders": 41,
+      "filled_orders": 41,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 17,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "b3383fea7bb241ab1d4b45538ac226aba415fa91563e6f94d03c4529bdb9425a",
+        "trades.csv": "6a20e5e6b89a91a5be163feabffbd28669dc988762e64654b3c46a45deca9a64",
+        "events.csv": "7f789654d42173e169174478ea070a690af592b11ab81c23a04ba68e8bf9232b",
+        "holdings.csv": "0a42fd58b18eec19a6f1bc4d194b9b07f31510ce551d8ae0507ce5dbe37432d1"
+      }
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "status": "passed",
+      "planned_orders": 47,
+      "filled_orders": 45,
+      "intraday_limit_fills": 6,
+      "supplementary_attempts": 19,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "58d9175e70dba176d1bb532af04b9c5b72e623e8eaca6669ac043311e1058374",
+        "trades.csv": "785e3a7e01c73d00676d0b7ee4970bf7c66189e1680fdfe49aa192ec39d5a683",
+        "events.csv": "6f36679c160634077bf27822148d95fe6db1802fbb7ca882eb7fa105277d8099",
+        "holdings.csv": "093620652a2f2077ce53cb1a53095ed15912b01090e1dc0ab93cb6be25d87a15"
+      }
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "status": "passed",
+      "planned_orders": 70,
+      "filled_orders": 68,
+      "intraday_limit_fills": 9,
+      "supplementary_attempts": 30,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "3027954ab9ca651b0adb56ac2d73a06e4df61cf6e1630e8ba842898ff20b14a8",
+        "trades.csv": "71f1da2c834e90776cbe3ade8feb91241d47ade458602eff0a7179169b244477",
+        "events.csv": "51603cdd64e82d54371e3a87c5c6245c73c545b3d0d9a59a642ccfc2d2f7b52d",
+        "holdings.csv": "a776d45962476557a2bc670b727dad47a167b77e1df5675e9779549132a30539"
+      }
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "status": "passed",
+      "planned_orders": 38,
+      "filled_orders": 38,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 14,
+      "bonus_events": 0,
+      "actual_days": 651,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "d241ab936c58b325f62aad9c3a63877eb6fad6fdf810e38ca6d123ea1d601953",
+        "trades.csv": "f133c5c2af1eb80a540061d4465920b96454f7eec9aaee9af698724abd435c0b",
+        "events.csv": "af7a35b2f247e45fa076775cf3c43d4817cfeeaf472c42ebfaa19c86b058091f",
+        "holdings.csv": "2644171c26c7139e944401c84b31cb289a3329244f776f0fdafa9e11f1b2b231"
+      }
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "status": "passed",
+      "planned_orders": 65,
+      "filled_orders": 65,
+      "intraday_limit_fills": 0,
+      "supplementary_attempts": 29,
+      "bonus_events": 0,
+      "actual_days": 1135,
+      "max_order_cash_difference": 0.0,
+      "missing_announcement_paths": 0,
+      "same_day_announcement_ambiguity_paths": 0,
+      "hashes": {
+        "daily.csv": "525f37816485da626541570272a43f0d94e5f9f2a88cb36dae92fc8ce76c85a5",
+        "trades.csv": "3118c97b5cad0f5ba3fc433f03688ef7a40abdac1dfed0e2a9688e666e812c55",
+        "events.csv": "d615d0d8fd5ba1c0d9449fd66e43e7d3ffa4fe55667dd6a5de99374847a85911",
+        "holdings.csv": "67a76cabc98ff43f2f982501e186a1ee659198cd68492daec36077ca23deb77e"
+      }
+    }
+  ],
+  "case_count": 20,
+  "planned_orders": 1001,
+  "filled_orders": 994,
+  "verifier_sha256": "a7f6e6475397db28d148f80db8ab02b8be59ae3d957573db5089dfd3c62be83b",
+  "manifest_sha256": "c941117d824098c6e83b129fface244a6ff766073ffc83b78efbd3030c5f2c00",
+  "scope": "independent known-cash/order lifecycle/DAY price/ownership/T+1/corporate actions; not queue/liquidity proof"
+}

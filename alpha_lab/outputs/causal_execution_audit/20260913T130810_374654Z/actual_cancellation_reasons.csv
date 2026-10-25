@@ -1,0 +1,4 @@
+name,kind,reason,count
+cold_baseline_buffer00,order_cancelled,day_limit_not_crossed,3
+cold_hybrid_buffer00,order_cancelled,day_limit_not_crossed,2
+continued_hybrid_buffer00,order_cancelled,day_limit_not_crossed,2

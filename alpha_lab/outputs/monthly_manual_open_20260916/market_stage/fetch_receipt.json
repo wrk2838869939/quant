@@ -1,0 +1,143 @@
+{
+  "source": "configured Tushare provider",
+  "latest_completed_session": "2026-09-15",
+  "requests": [
+    {
+      "api": "daily",
+      "trade_date": "20260909",
+      "requested_at": "2026-09-16T01:00:57.971150+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_20260909.parquet",
+      "sha256": "8a967fd06b27234b47de7ffabe6a983680d13f301f97c3ce6e718dc4dc3dc965"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260909",
+      "requested_at": "2026-09-16T01:00:58.655843+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_basic_20260909.parquet",
+      "sha256": "0f6722d64ecb9202e55e8194fc2993a6636f74ee14b431f883fbfeb521e50df5"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260909",
+      "requested_at": "2026-09-16T01:01:02.760605+00:00",
+      "status": "downloaded",
+      "rows": 5560,
+      "file": "adj_factor_20260909.parquet",
+      "sha256": "bb74fedf715392d8591eadf867d709afc4263db00950d535221488c43ea74c97"
+    },
+    {
+      "api": "daily",
+      "trade_date": "20260910",
+      "requested_at": "2026-09-16T01:01:06.184335+00:00",
+      "status": "downloaded",
+      "rows": 5549,
+      "file": "daily_20260910.parquet",
+      "sha256": "4f75769d8f8f29bac95d6515c9b1ad4ee634f2d3c855bfaa05d3873c9e81d8a4"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260910",
+      "requested_at": "2026-09-16T01:01:06.980060+00:00",
+      "status": "downloaded",
+      "rows": 5549,
+      "file": "daily_basic_20260910.parquet",
+      "sha256": "a586e54eb99985bd4e00161c8b730d70cd56e24198382fa5b2c29a9128dda1f9"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260910",
+      "requested_at": "2026-09-16T01:01:10.971093+00:00",
+      "status": "downloaded",
+      "rows": 5561,
+      "file": "adj_factor_20260910.parquet",
+      "sha256": "2988a13ce5cf5fdd06fa087f582d9c80388e87d99779d25f3d2186fbd1364437"
+    },
+    {
+      "api": "daily",
+      "trade_date": "20260911",
+      "requested_at": "2026-09-16T01:01:14.216876+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_20260911.parquet",
+      "sha256": "3a0823fcaa4cd79de9b5a5454bb9dc43565549dc79e2eca6991d6f0bf4dd642e"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260911",
+      "requested_at": "2026-09-16T01:01:14.750886+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_basic_20260911.parquet",
+      "sha256": "3049287c328d0844d3c04e79667373bf413ce4df0fcd2dabfcd88102c1e5fd90"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260911",
+      "requested_at": "2026-09-16T01:01:18.883977+00:00",
+      "status": "downloaded",
+      "rows": 5562,
+      "file": "adj_factor_20260911.parquet",
+      "sha256": "5e2f61aacc09fd97eb08748d68397dc33bb08c7ee0879248c42a775422c86c7e"
+    },
+    {
+      "api": "daily",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-16T01:01:22.442977+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_20260914.parquet",
+      "sha256": "78576d836db7bbc293312ae12afbe2946fa083eb78b8091a17ed4d0ad1b40d2c"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-16T01:01:22.965111+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_basic_20260914.parquet",
+      "sha256": "a84395855f2d2b64ebe370be595a8b8b8750c3b5d6bb8ee640840478a8ef4910"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-16T01:01:26.394678+00:00",
+      "status": "downloaded",
+      "rows": 5562,
+      "file": "adj_factor_20260914.parquet",
+      "sha256": "4558f70f8d8e032249080cb15bfb07e1026690df11a215da8126937edad4d718"
+    },
+    {
+      "api": "daily",
+      "trade_date": "20260915",
+      "requested_at": "2026-09-16T01:01:29.418739+00:00",
+      "status": "downloaded",
+      "rows": 5548,
+      "file": "daily_20260915.parquet",
+      "sha256": "47c2202cdfc9ee9796dd9784b1c5f49bccd27c551a28f41dbf02b166a29eb794"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260915",
+      "requested_at": "2026-09-16T01:01:29.974481+00:00",
+      "status": "downloaded",
+      "rows": 5548,
+      "file": "daily_basic_20260915.parquet",
+      "sha256": "f170c541accb3c4c8ec10e539476e58160a43cfe78978faf9e5208639603bdfa"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260915",
+      "requested_at": "2026-09-16T01:01:33.262720+00:00",
+      "status": "downloaded",
+      "rows": 5562,
+      "file": "adj_factor_20260915.parquet",
+      "sha256": "8109eea732d7ad2bb5a2ea3e8d3d0c369cfdabfc827b0fa6c503470c79644e08"
+    }
+  ],
+  "validation_pending": true,
+  "live_orders": false
+}

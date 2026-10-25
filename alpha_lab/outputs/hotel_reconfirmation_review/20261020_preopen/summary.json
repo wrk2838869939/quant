@@ -1,0 +1,24 @@
+{
+  "asof": "2026-10-19",
+  "report_session": "2026-10-20_preopen",
+  "current_reconfirmation_number": 3,
+  "age_sessions": 16,
+  "observation_candidates": [
+    "000721.SZ",
+    "605108.SH"
+  ],
+  "official_strategy_candidates": 0,
+  "historical_primary_complete": 92,
+  "historical_primary_events": 108,
+  "historical_primary_clusters": 15,
+  "historical_primary_mean": 0.0065537153751479,
+  "historical_primary_cluster_ci": [
+    -0.0092130846735411,
+    0.02089060465569
+  ],
+  "no_current_day_eod_data": true,
+  "no_retraining": true,
+  "no_engineering_changes": true,
+  "scope": "sector_price_diagnostic_and_current_stock_timeline_not_executable_backtest",
+  "created_at": "2026-10-19T16:12:35.105215+00:00"
+}

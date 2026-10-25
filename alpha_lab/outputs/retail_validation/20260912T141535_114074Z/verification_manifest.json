@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "cases": 25,
+  "source_and_signal_hashes_verified": true,
+  "pnl_cases_reconciled": 25,
+  "recovery_prefix_checks": 4,
+  "training_last_label": "2021-12-22 00:00:00",
+  "rolling_training": [
+    {
+      "year": 2019,
+      "last_training_label": "2018-12-04 00:00:00",
+      "n_training_dates": 57
+    },
+    {
+      "year": 2020,
+      "last_training_label": "2019-12-27 00:00:00",
+      "n_training_dates": 70
+    },
+    {
+      "year": 2021,
+      "last_training_label": "2020-12-24 00:00:00",
+      "n_training_dates": 82
+    }
+  ],
+  "no_test_market_data": true,
+  "fresh_holdout": false,
+  "statistical_admission": "not_assessed_missing_independent_trials_and_fresh_evidence",
+  "max_cash_error": 7.774048071951256e-11,
+  "max_shares_error": 0.0,
+  "execution_data_sufficient": true,
+  "verifier_sha256": "326c5e7a52a49efde23f9456d5a84057005762870f7e9e7a124ec847f0641636"
+}

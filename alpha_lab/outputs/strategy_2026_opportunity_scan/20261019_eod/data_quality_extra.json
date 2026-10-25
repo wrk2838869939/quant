@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "duplicate_keys": 0,
+  "sessions": [
+    {
+      "date": "2026-10-14",
+      "rows": 5563,
+      "daily_return_rounding_error_pp": 5.000000000654481e-05
+    },
+    {
+      "date": "2026-10-15",
+      "rows": 5565,
+      "daily_return_rounding_error_pp": 4.999999999988347e-05
+    },
+    {
+      "date": "2026-10-16",
+      "rows": 5567,
+      "daily_return_rounding_error_pp": 5.00000000089873e-05
+    },
+    {
+      "date": "2026-10-19",
+      "rows": 5564,
+      "daily_return_rounding_error_pp": 5.0000000017869084e-05
+    }
+  ],
+  "update_artifact_hashes_checked": 25,
+  "name_history_latest_ann_date": "2026-09-08",
+  "name_history_refreshed": false
+}

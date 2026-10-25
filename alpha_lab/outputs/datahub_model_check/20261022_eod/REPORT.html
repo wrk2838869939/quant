@@ -1,0 +1,169 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>22日收盘更新与模型</title><style>body{font:16px/1.7 sans-serif;max-width:1200px;margin:30px auto;padding:0 20px;color:#243647}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd5df;padding:7px}th{background:#edf3f7}img{max-width:100%}</style><body><h1>2026年10月22日收盘更新与模型结果</h1>
+<p><strong>A股行情已更新至22日，新增5,570条有效日线；当前策略新首次确认0个，新个股候选0只。对应下一交易日为2026-10-23。</strong></p>
+<p>年度板块判断继续暂停。原个股资格、价格形态、正分前5名、首次确认去重及下一交易日有效规则保持原样。</p>
+<h2>数据核验</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">api</th>
+<th style="text-align: right;">raw_rows</th>
+<th style="text-align: right;">covered</th>
+<th style="text-align: right;">missing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">daily</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">adj_factor</td>
+<td style="text-align: right;">5579</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">daily_basic</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">moneyflow</td>
+<td style="text-align: right;">5577</td>
+<td style="text-align: right;">5570</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>四接口覆盖全部当日有交易股票，15项核验字段无缺失；重复键、OHLC异常、复权不一致均为0。原始成交量、成交额和收盘价与入库一致。21日及以前的2026行情与旧冻结快照逐行一致。</p>
+<p>上市主档5,579条，5,570只有行情、7只全日停牌、2条已知终止上市但状态滞后记录。详见<a href="missing_daily_reconciled.csv">逐股原因</a>、<a href="field_coverage.csv">字段覆盖</a>、<a href="latest_quality.json">核验汇总</a>。过期主档问题沿用<a href="../20261021T064829_488127Z/REPORT.html">此前核验</a>，本次未改写历史主档。</p>
+<p>板块数据：103个当日有效板块，成员归属覆盖79.30%。美股、基准指数和历史行业资料未在本次同步；行业历史PIT/完整性限制仍在。本次只对现有模型使用的A股数据与既定板块范围进行更新和扫描。</p>
+<h2>当前策略结果</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th style="text-align: right;">数量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>有效板块</td>
+<td style="text-align: right;">103</td>
+</tr>
+<tr>
+<td>观察板块</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>触发层板块</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>当日形态确认</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>去重后新首次确认</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>进入个股筛选的板块</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>本次评分股票</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>新个股候选</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">板块</th>
+<th style="text-align: left;">代码</th>
+<th style="text-align: left;">当日形态确认</th>
+<th style="text-align: left;">距峰值回撤</th>
+<th style="text-align: left;">距参照位</th>
+<th style="text-align: left;">状态说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">农产品加工</td>
+<td style="text-align: left;">801012.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-19.60%</td>
+<td style="text-align: left;">2.35%</td>
+<td style="text-align: left;">近期未破支撑；下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">渔业</td>
+<td style="text-align: left;">801015.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-20.52%</td>
+<td style="text-align: left;">3.55%</td>
+<td style="text-align: left;">下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">贵金属</td>
+<td style="text-align: left;">801053.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-25.64%</td>
+<td style="text-align: left;">-12.26%</td>
+<td style="text-align: left;">近期未破支撑；下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">房地产服务</td>
+<td style="text-align: left;">801183.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-15.21%</td>
+<td style="text-align: left;">-0.43%</td>
+<td style="text-align: left;">下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">酒店餐饮</td>
+<td style="text-align: left;">801219.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-17.34%</td>
+<td style="text-align: left;">-9.67%</td>
+<td style="text-align: left;">下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">航海装备Ⅱ</td>
+<td style="text-align: left;">801744.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-12.54%</td>
+<td style="text-align: left;">-2.81%</td>
+<td style="text-align: left;">近期未破支撑；下跌未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">焦炭Ⅱ</td>
+<td style="text-align: left;">801952.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">-16.54%</td>
+<td style="text-align: left;">-4.62%</td>
+<td style="text-align: left;">下跌未减速</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="观察板块回撤" src="watch_drawdown.png" /></p>
+<h2>候选与旧事件</h2>
+<p>无新个股候选。当日没有新首次事件，个股评分流程按规则跳过，不代表所有个股模型评分失败。</p>
+<ul>
+<li>养殖业：距峰值回撤-8.01%，回落门槛未过；近期未破支撑；下跌未减速。</li>
+<li>酒店餐饮：距峰值回撤-17.34%，下跌未减速。</li>
+</ul>
+<p>养殖业20日旧事件和酒店餐饮9月17日旧事件不会因为形态再次通过而重开入场；只有新的独立首次确认才能进入个股流程。20日养殖业候选的原有效日为21日，不顺延至23日。分数是排序输出，模型候选不等于实际成交。</p>
+<h2>运行记录</h2>
+<p>本次依次执行原 <code>update_market.py</code>、<code>build_sector_dataset.py</code>、<code>scan_sectors.py</code> 和当前策略 <code>scan_stocks.py</code>；仅新增日期配置和本目录的调用/审计/报告脚本。原数据工程代码、模型权重及策略配置哈希未变，数据和模型产物哈希均通过检查。</p>
+<p>快照：<code>datahub/releases/selection_live_20261022_eod</code>；内容ID：<code>6b0908addd9048da828d6c65901d39e567c8b278ef9bee494040d5b4f49004cd</code>。</p>
+<p><a href="../../strategy_2026_opportunity_scan/20261022_gate_paused_20261022T160739_495956Z/REPORT.html">模型报告</a> · <a href="../../strategy_2026_opportunity_scan/20261022_gate_paused_20261022T160739_495956Z/stock_candidates.csv">候选CSV</a> · <a href="../../strategy_2026_opportunity_scan/20261022_gate_paused_20261022T160739_495956Z/first_confirmations.csv">首次事件</a> · <a href="../../sector_live_scan/20261022T160204_763709Z/sector_states_today.csv">完整状态</a> · <a href="state_changes.csv">相较21日的变化</a> · <a href="pipeline.json">调用参数及返回码</a> · <a href="verification.json">保护文件验证</a></p>
+<p>日志：<a href="update.log">更新</a>、<a href="build_dataset.log">构建</a>、<a href="scan_sectors.log">板块扫描</a>、<a href="scan_stocks.log">当前策略</a>、<a href="audit.log">审计</a>。</p></body></html>

@@ -1,0 +1,65 @@
+{
+  "output": "outputs/process_diagnostics/20260911T161419_067404Z",
+  "sample": "2022-2023 repeatedly used development sample",
+  "test_market_data_used": false,
+  "frozen_signals_exactly_reproduced": true,
+  "initial_total_capital": 210000.0,
+  "initial_active_capital": 105000.0,
+  "fixed_reserve_cash": 105000.0,
+  "mean_raw_candidates": 3779.52,
+  "mean_legal_candidates": 3751.88,
+  "mean_equal_budget_excluded": 1423.24,
+  "top_ranked_lost": 901,
+  "top_ranked_lost_but_account_affordable": 901,
+  "mean_active_cash": 16655.710429305764,
+  "mean_holdings": 49.667355371900825,
+  "daily_pnl_max_reconciliation_error": 7.253220246639103e-11,
+  "first_rebalance": {
+    "signal_date": "2022-01-04 00:00:00",
+    "execution_date": "2022-01-05 00:00:00",
+    "buy_count": 49,
+    "sell_count": 0,
+    "buy_gross": 77913.52,
+    "sell_gross": 0.0,
+    "fees": 245.0,
+    "cash_before_first_buy": 105000.0,
+    "execution_close_active_cash": 26841.47999999998,
+    "execution_close_holdings": 49.0,
+    "min_buy_notional": 1060.0,
+    "max_buy_notional": 2093.52
+  },
+  "costs": [
+    {
+      "side": "buy",
+      "orders": 700,
+      "fees": 3500.0,
+      "median_gross": 2012.5,
+      "minimum_fee_fraction": 1.0,
+      "median_effective_fee": 0.002484472203046006
+    },
+    {
+      "side": "sell",
+      "orders": 651,
+      "fees": 3395.02572,
+      "median_gross": 2071.0,
+      "minimum_fee_fraction": 0.7204301075268817,
+      "median_effective_fee": 0.0024142926122646064
+    }
+  ],
+  "drawdown_peak": "2022-03-03",
+  "drawdown_trough": "2022-04-28",
+  "drawdown_pnl": -18511.698,
+  "drawdown_losing_names": 81,
+  "drawdown_total_names": 97,
+  "drawdown_worst5_pnl": -3172.9100000000008,
+  "closed_episodes": 651,
+  "median_closed_holding_days": 21.0,
+  "closed_winners": 375,
+  "profitable_at_some_close_but_closed_loss": 215,
+  "limitations": [
+    "未计算卖出旧股与买入新股的可执行反事实收益；尚不能判定换仓创造净收益",
+    "持仓年龄分组存在留存选择，不可据此选择最佳退出日",
+    "使用旧研究费率，未代表用户实际券商费用或滑点",
+    "股价预算过滤改变了候选池；该账本不能作为个人账户方案"
+  ]
+}

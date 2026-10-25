@@ -1,0 +1,9 @@
+# 主实验完成后登记的解释性消融，不搜索参数、不用于重选当轮权重。
+parent_run: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+study: baseline_combination_equal_weight_attribution
+source_policy: equal_weight
+score_controls: [low_turnover, low_turnover_with_intersection, equal_weight_replay]
+frequency_and_top_n: exact_parent_equal_weight_schedule
+baseline_parameters: exact_parent_annual_registry
+prefix_dates: ['2021-06-30', '2022-06-30', '2023-06-30']
+interpretation: sequential_counterfactuals_on_observed_history_not_independent_oos_or_new_search

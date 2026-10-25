@@ -1,0 +1,200 @@
+{
+  "000718.SZ": {
+    "date": "2020-05-18",
+    "kind": "action_ref",
+    "reference": 3.17,
+    "pre_close": 3.2
+  },
+  "002868.SZ": {
+    "date": "2020-05-28",
+    "kind": "action_ref",
+    "reference": 12.9692,
+    "pre_close": 13.02
+  },
+  "300234.SZ": {
+    "date": "2020-04-21",
+    "kind": "action_ref",
+    "reference": 7.4079,
+    "pre_close": 7.6
+  },
+  "300417.SZ": {
+    "date": "2020-06-04",
+    "kind": "action_ref",
+    "reference": 19.2235,
+    "pre_close": 19.48
+  },
+  "300438.SZ": {
+    "date": "2020-06-03",
+    "kind": "action_ref",
+    "reference": 14.56,
+    "pre_close": 14.62
+  },
+  "300497.SZ": {
+    "date": "2020-05-18",
+    "kind": "action_ref",
+    "reference": 18.0938,
+    "pre_close": 18.23
+  },
+  "300522.SZ": {
+    "date": "2020-05-07",
+    "kind": "action_ref",
+    "reference": 11.9533,
+    "pre_close": 12.0
+  },
+  "300664.SZ": {
+    "date": "2020-05-27",
+    "kind": "action_ref",
+    "reference": 8.75,
+    "pre_close": 8.84
+  },
+  "600157.SH": {
+    "date": "2020-12-29",
+    "kind": "action_ref",
+    "reference": 0.7886,
+    "pre_close": 1.41
+  },
+  "600186.SH": {
+    "date": "2020-01-21",
+    "kind": "action_ref",
+    "reference": 1.9856,
+    "pre_close": 2.38
+  },
+  "600641.SH": {
+    "date": "2020-07-27",
+    "kind": "action_ref",
+    "reference": 20.775,
+    "pre_close": 20.98
+  },
+  "600963.SH": {
+    "date": "2020-05-13",
+    "kind": "action_ref",
+    "reference": 3.7792,
+    "pre_close": 3.81
+  },
+  "603819.SH": {
+    "date": "2020-06-24",
+    "kind": "action_ref",
+    "reference": 10.6,
+    "pre_close": 10.66
+  },
+  "603879.SH": {
+    "date": "2020-07-10",
+    "kind": "action_ref",
+    "reference": 10.5143,
+    "pre_close": 10.59
+  },
+  "000088.SZ": {
+    "date": "2020-08-19",
+    "kind": "continuity",
+    "prev_close": 9.36,
+    "pre_close": 8.61
+  },
+  "000612.SZ": {
+    "date": "2020-06-03",
+    "kind": "continuity",
+    "prev_close": 5.27,
+    "pre_close": 5.26
+  },
+  "000728.SZ": {
+    "date": "2020-10-22",
+    "kind": "continuity",
+    "prev_close": 10.52,
+    "pre_close": 9.36
+  },
+  "000750.SZ": {
+    "date": "2020-01-14",
+    "kind": "continuity",
+    "prev_close": 5.26,
+    "pre_close": 4.81
+  },
+  "000885.SZ": {
+    "date": "2020-08-13",
+    "kind": "continuity",
+    "prev_close": 12.84,
+    "pre_close": 11.74
+  },
+  "000901.SZ": {
+    "date": "2020-03-06",
+    "kind": "continuity",
+    "prev_close": 12.82,
+    "pre_close": 11.83
+  },
+  "002500.SZ": {
+    "date": "2020-06-29",
+    "kind": "continuity",
+    "prev_close": 6.39,
+    "pre_close": 6.1
+  },
+  "002788.SZ": {
+    "date": "2020-09-17",
+    "kind": "continuity",
+    "prev_close": 9.5,
+    "pre_close": 8.86
+  },
+  "002884.SZ": {
+    "date": "2020-03-31",
+    "kind": "continuity",
+    "prev_close": 15.89,
+    "pre_close": 14.01
+  },
+  "300211.SZ": {
+    "date": "2020-06-01",
+    "kind": "continuity",
+    "prev_close": 7.74,
+    "pre_close": 7.64
+  },
+  "600008.SH": {
+    "date": "2020-09-29",
+    "kind": "continuity",
+    "prev_close": 3.15,
+    "pre_close": 2.95
+  },
+  "600267.SH": {
+    "date": "2020-07-21",
+    "kind": "continuity",
+    "prev_close": 15.67,
+    "pre_close": 15.62
+  },
+  "600419.SH": {
+    "date": "2020-01-14",
+    "kind": "continuity",
+    "prev_close": 15.1,
+    "pre_close": 13.29
+  },
+  "600919.SH": {
+    "date": "2020-12-17",
+    "kind": "continuity",
+    "prev_close": 5.93,
+    "pre_close": 5.62
+  },
+  "600999.SH": {
+    "date": "2020-07-20",
+    "kind": "continuity",
+    "prev_close": 28.59,
+    "pre_close": 23.71
+  },
+  "601162.SH": {
+    "date": "2020-03-19",
+    "kind": "continuity",
+    "prev_close": 7.15,
+    "pre_close": 6.33
+  },
+  "601555.SH": {
+    "date": "2020-03-23",
+    "kind": "continuity",
+    "prev_close": 9.21,
+    "pre_close": 8.65
+  },
+  "603269.SH": {
+    "date": "2020-07-28",
+    "kind": "continuity",
+    "prev_close": 13.92,
+    "pre_close": 12.65
+  },
+  "603633.SH": {
+    "date": "2020-07-21",
+    "kind": "continuity",
+    "prev_close": 20.96,
+    "pre_close": 17.02
+  }
+}

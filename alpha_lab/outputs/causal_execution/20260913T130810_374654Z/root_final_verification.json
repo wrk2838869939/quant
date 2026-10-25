@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "source_files_unchanged": 8,
+  "inputs_unchanged": 14,
+  "old_artifacts_unchanged": 730,
+  "metrics_recomputed": [
+    {
+      "name": "cold_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 1.6653345369377348e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 1.1102230246251565e-15
+      },
+      "daily_rows": 1135
+    },
+    {
+      "name": "small_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 1.1102230246251565e-16,
+        "sharpe": 1.4432899320127035e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "large_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 4.107825191113079e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "cost2_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 3.3306690738754696e-16
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "reverse_baseline",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 1.6653345369377348e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 2.3314683517128287e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 8.881784197001252e-16
+      },
+      "daily_rows": 1135
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 4.440892098500626e-16
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 0.0
+      },
+      "daily_rows": 1135
+    },
+    {
+      "name": "cold_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 3.774758283725532e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_hybrid",
+      "metric_errors": {
+        "total": 4.440892098500626e-16,
+        "ann": 2.220446049250313e-16,
+        "mdd": 1.1102230246251565e-16,
+        "sharpe": 3.3306690738754696e-15
+      },
+      "daily_rows": 1135
+    },
+    {
+      "name": "small_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 7.771561172376096e-16
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "large_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 2.4424906541753444e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "cost2_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 2.1094237467877974e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "reverse_hybrid",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 3.774758283725532e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 2.886579864025407e-15
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 1.1102230246251565e-16,
+        "sharpe": 1.9984014443252818e-15
+      },
+      "daily_rows": 1135
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "metric_errors": {
+        "total": 0.0,
+        "ann": 0.0,
+        "mdd": 0.0,
+        "sharpe": 4.440892098500626e-16
+      },
+      "daily_rows": 651
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "metric_errors": {
+        "total": 4.440892098500626e-16,
+        "ann": 2.220446049250313e-16,
+        "mdd": 0.0,
+        "sharpe": 2.886579864025407e-15
+      },
+      "daily_rows": 1135
+    }
+  ],
+  "independent_audit_hashes_verified": {
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/data/completion.json": "b79580997ac826c64cf9bd29fb6021e57bd89aa435bd03a23ebe40fa587bec7a",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/audit_completion.json": "7ab96603b5cf1d3addfdd567c87d925fb766329f39cdfd2b8d0f8dcd7dc0acab"
+  },
+  "new_report_links_valid": true
+}

@@ -1,0 +1,57 @@
+study: sector_profit_days_v1
+status: research_only_not_deployed
+source_run: alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z
+dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261020T113446_268600Z
+output: alpha_lab/outputs/sector_profit_days_training/20261021
+label:
+  horizon: 20
+  benchmark: confirmation_close
+  flat_value: 0
+  range:
+  - -1
+  - 1
+variants:
+- name: label_only_scale_0p1
+  target_scale: 0.1
+  role: primary_label_only_change
+- name: bounded_scale_1
+  target_scale: 1.0
+  role: prespecified_unit_sensitivity_not_primary
+model:
+  update: annual_before_first_session
+  training_years: 8
+  embargo_sessions: 20
+  validation_fraction: 0.25
+  minimum_train_events: 25
+  minimum_validation_events: 8
+  minimum_validation_dates: 4
+  retention: 0.5
+  rules:
+  - 4
+  - 8
+  learning_rates:
+  - 0.003
+  - 0.01
+  tuning_seeds:
+  - 17
+  - 43
+  ensemble_seeds:
+  - 17
+  - 43
+  - 101
+  maximum_epochs: 1500
+  half_life_days: 1095
+test_years:
+- 2019
+- 2020
+- 2021
+- 2022
+- 2023
+- 2024
+- 2025
+- 2026
+bootstrap:
+  repetitions: 2000
+  seed: 2026102103
+  cluster_gap: 20
+prefix_refit_year: 2026

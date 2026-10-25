@@ -1,0 +1,266 @@
+[
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "equal_weight",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.001050481243920709,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": false,
+      "reason": "training_still_active_or_infeasible",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.001285424423911552,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.022792201263800438,
+          "flat": false
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0007489840665462211,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B02_low_risk",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B02_low_risk",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.00011055830507022968,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B03_valuation",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B03_valuation",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.001229997942211014,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "equal_weight",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": false,
+      "reason": "training_still_active_or_infeasible",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0014121457184317343,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.042381688335872525,
+          "flat": false
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "equal_weight",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "equal_weight",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "B03_valuation",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.000858068113306576,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0014277438177656698,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.002856732372633619,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "B03_valuation",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0033282715177038735,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.004390958216355045,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "B01_low_turnover",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2021,
+      "equal_weight",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B01_low_turnover",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": false,
+      "reason": "training_still_active_or_infeasible",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.013837057729753965,
+          "flat": false
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0036693280310329257,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B02_low_risk",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 1.4609033145429606e-05,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0005794895722170956,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 4.380043024454494e-05,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B02_low_risk",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 4.8311870324946327e-05,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 6.18756711372459e-05,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "equal_weight",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B03_valuation",
+      "baseline"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": false,
+      "reason": "training_still_active_or_infeasible",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.007869281928661653,
+          "flat": false
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2022,
+      "B03_valuation",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": false,
+      "reason": "training_still_active_or_infeasible",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.00022976540564201287,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.005831113535692989,
+          "flat": false
+        }
+      ]
+    }
+  },
+  {
+    "status": "ok",
+    "task": [
+      2023,
+      "B01_low_turnover",
+      "random"
+    ],
+    "generation": 256,
+    "assessment": {
+      "plateau": true,
+      "reason": "three_flat_training_blocks",
+      "windows": [
+        {
+          "start": 232,
+          "end": 240,
+          "log_wealth_gain": 0.0003373307166829598,
+          "flat": true
+        },
+        {
+          "start": 240,
+          "end": 248,
+          "log_wealth_gain": 0.0005016327542417542,
+          "flat": true
+        },
+        {
+          "start": 248,
+          "end": 256,
+          "log_wealth_gain": 0.001593466337242333,
+          "flat": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "events": 230,
+  "dates": 115,
+  "sectors": 101,
+  "single_event_sectors": 38,
+  "board": [
+    {
+      "horizon": 3,
+      "complete": 225,
+      "mean": 0.004318237949181274,
+      "median": 0.0029934302682093072,
+      "positive": 0.5422222222222223,
+      "q10": -0.04360433790378056,
+      "q90": 0.05278631713556543,
+      "mean_max": 0.019397823398521384,
+      "mean_min": -0.01302469125282735,
+      "date_equal_mean": 0.00579188822329325,
+      "mean_excess": 0.007263979581700856
+    },
+    {
+      "horizon": 10,
+      "complete": 200,
+      "mean": 0.0018635345904320605,
+      "median": -0.005605867946099963,
+      "positive": 0.455,
+      "q10": -0.07318695446851069,
+      "q90": 0.0760964667971051,
+      "mean_max": 0.043463277880598755,
+      "mean_min": -0.034993770571895545,
+      "date_equal_mean": 0.009437058028391274,
+      "mean_excess": 0.009460093326362185
+    },
+    {
+      "horizon": 20,
+      "complete": 191,
+      "mean": 0.01373533684754331,
+      "median": 0.0069540222730539725,
+      "positive": 0.5340314136125655,
+      "q10": -0.07919734711488902,
+      "q90": 0.11278811663114507,
+      "mean_max": 0.062450588188787494,
+      "mean_min": -0.05266793673200386,
+      "date_equal_mean": 0.015593490771887207,
+      "mean_excess": 0.025370659713654615
+    }
+  ],
+  "members": [
+    {
+      "horizon": 3,
+      "total": 8797,
+      "complete": 8561,
+      "coverage_median": 1.0,
+      "event_mean": 0.006544970543553255,
+      "positive_member_fraction": 0.5261051639576886,
+      "spread_median": 0.07202689228663471,
+      "sufficient_events": 225
+    },
+    {
+      "horizon": 10,
+      "total": 8797,
+      "complete": 8462,
+      "coverage_median": 1.0,
+      "event_mean": 0.01334253282820274,
+      "positive_member_fraction": 0.514399198812619,
+      "spread_median": 0.13007350674961435,
+      "sufficient_events": 223
+    },
+    {
+      "horizon": 20,
+      "total": 8797,
+      "complete": 8397,
+      "coverage_median": 1.0,
+      "event_mean": 0.03202585935109716,
+      "positive_member_fraction": 0.57159000106143,
+      "spread_median": 0.1830639781378005,
+      "sufficient_events": 218
+    }
+  ]
+}

@@ -1,0 +1,4927 @@
+{
+  "generated_at": "2026-10-25T12:44:08+00:00",
+  "nodes": {
+    "docs": {
+      "files": 241,
+      "directories": 10,
+      "logical_bytes": 35491815,
+      "allocated_bytes": 36012032,
+      "symlinks": 0
+    },
+    "outputs": {
+      "files": 4008,
+      "directories": 391,
+      "logical_bytes": 271761741,
+      "allocated_bytes": 282333184,
+      "symlinks": 0
+    },
+    "outputs/active_cash_audit": {
+      "files": 44,
+      "directories": 2,
+      "logical_bytes": 6169067,
+      "allocated_bytes": 6275072,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 6644368,
+      "allocated_bytes": 6680576,
+      "symlinks": 0
+    },
+    "outputs/autonomous_value_research": {
+      "files": 46,
+      "directories": 2,
+      "logical_bytes": 1727248,
+      "allocated_bytes": 1855488,
+      "symlinks": 0
+    },
+    "outputs/baseline_attribution": {
+      "files": 10,
+      "directories": 2,
+      "logical_bytes": 18136,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/baseline_combination": {
+      "files": 43,
+      "directories": 3,
+      "logical_bytes": 2919258,
+      "allocated_bytes": 3014656,
+      "symlinks": 0
+    },
+    "outputs/baseline_increment": {
+      "files": 32,
+      "directories": 2,
+      "logical_bytes": 2934760,
+      "allocated_bytes": 3010560,
+      "symlinks": 0
+    },
+    "outputs/baseline_initialized_policy": {
+      "files": 26,
+      "directories": 3,
+      "logical_bytes": 3517354,
+      "allocated_bytes": 3584000,
+      "symlinks": 0
+    },
+    "outputs/baseline_style_controls": {
+      "files": 11,
+      "directories": 2,
+      "logical_bytes": 393181,
+      "allocated_bytes": 425984,
+      "symlinks": 0
+    },
+    "outputs/breeding_stock_review": {
+      "files": 21,
+      "directories": 2,
+      "logical_bytes": 453918,
+      "allocated_bytes": 512000,
+      "symlinks": 0
+    },
+    "outputs/cash_economics": {
+      "files": 38,
+      "directories": 8,
+      "logical_bytes": 782422,
+      "allocated_bytes": 901120,
+      "symlinks": 0
+    },
+    "outputs/cash_reentry_ablation": {
+      "files": 12,
+      "directories": 2,
+      "logical_bytes": 44890,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/cash_robustness": {
+      "files": 10,
+      "directories": 2,
+      "logical_bytes": 191150,
+      "allocated_bytes": 221184,
+      "symlinks": 0
+    },
+    "outputs/causal_execution": {
+      "files": 28,
+      "directories": 2,
+      "logical_bytes": 2577710,
+      "allocated_bytes": 2650112,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit": {
+      "files": 53,
+      "directories": 4,
+      "logical_bytes": 261961,
+      "allocated_bytes": 421888,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke": {
+      "files": 39,
+      "directories": 4,
+      "logical_bytes": 2883920,
+      "allocated_bytes": 3006464,
+      "symlinks": 0
+    },
+    "outputs/closing_backtest_20260914": {
+      "files": 24,
+      "directories": 3,
+      "logical_bytes": 193700,
+      "allocated_bytes": 270336,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914": {
+      "files": 31,
+      "directories": 8,
+      "logical_bytes": 1262285,
+      "allocated_bytes": 1372160,
+      "symlinks": 0
+    },
+    "outputs/conditional_hold": {
+      "files": 30,
+      "directories": 2,
+      "logical_bytes": 932317,
+      "allocated_bytes": 1011712,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check": {
+      "files": 62,
+      "directories": 5,
+      "logical_bytes": 356257,
+      "allocated_bytes": 540672,
+      "symlinks": 0
+    },
+    "outputs/divide_selection": {
+      "files": 32,
+      "directories": 2,
+      "logical_bytes": 693325,
+      "allocated_bytes": 778240,
+      "symlinks": 0
+    },
+    "outputs/entry_guard_research": {
+      "files": 17,
+      "directories": 2,
+      "logical_bytes": 469719,
+      "allocated_bytes": 520192,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata": {
+      "files": 29,
+      "directories": 7,
+      "logical_bytes": 73089,
+      "allocated_bytes": 163840,
+      "symlinks": 0
+    },
+    "outputs/exit_evidence": {
+      "files": 18,
+      "directories": 3,
+      "logical_bytes": 29807,
+      "allocated_bytes": 90112,
+      "symlinks": 0
+    },
+    "outputs/exit_history": {
+      "files": 13,
+      "directories": 3,
+      "logical_bytes": 177165,
+      "allocated_bytes": 217088,
+      "symlinks": 0
+    },
+    "outputs/financial_events": {
+      "files": 5,
+      "directories": 2,
+      "logical_bytes": 21578,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/financial_pit_audit": {
+      "files": 19,
+      "directories": 2,
+      "logical_bytes": 626862,
+      "allocated_bytes": 679936,
+      "symlinks": 0
+    },
+    "outputs/fine_sector_probe": {
+      "files": 7,
+      "directories": 2,
+      "logical_bytes": 8132,
+      "allocated_bytes": 32768,
+      "symlinks": 0
+    },
+    "outputs/forward_risk": {
+      "files": 30,
+      "directories": 4,
+      "logical_bytes": 166062,
+      "allocated_bytes": 253952,
+      "symlinks": 0
+    },
+    "outputs/gp_mining": {
+      "files": 48,
+      "directories": 1,
+      "logical_bytes": 40812,
+      "allocated_bytes": 200704,
+      "symlinks": 0
+    },
+    "outputs/hold_sensitivity": {
+      "files": 30,
+      "directories": 2,
+      "logical_bytes": 714935,
+      "allocated_bytes": 790528,
+      "symlinks": 0
+    },
+    "outputs/hotel_reconfirmation_review": {
+      "files": 30,
+      "directories": 2,
+      "logical_bytes": 868894,
+      "allocated_bytes": 942080,
+      "symlinks": 0
+    },
+    "outputs/hotel_stock_review": {
+      "files": 32,
+      "directories": 3,
+      "logical_bytes": 224723,
+      "allocated_bytes": 303104,
+      "symlinks": 0
+    },
+    "outputs/identity_repair": {
+      "files": 14,
+      "directories": 2,
+      "logical_bytes": 56494,
+      "allocated_bytes": 102400,
+      "symlinks": 0
+    },
+    "outputs/independent_leak_audit": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 29753,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/investability_followup": {
+      "files": 45,
+      "directories": 3,
+      "logical_bytes": 5748959,
+      "allocated_bytes": 5869568,
+      "symlinks": 0
+    },
+    "outputs/learning_diagnosis": {
+      "files": 22,
+      "directories": 3,
+      "logical_bytes": 281332,
+      "allocated_bytes": 348160,
+      "symlinks": 0
+    },
+    "outputs/learning_extensions": {
+      "files": 41,
+      "directories": 3,
+      "logical_bytes": 2044818,
+      "allocated_bytes": 2158592,
+      "symlinks": 0
+    },
+    "outputs/learning_strategy_search": {
+      "files": 41,
+      "directories": 3,
+      "logical_bytes": 2353555,
+      "allocated_bytes": 2469888,
+      "symlinks": 0
+    },
+    "outputs/left_side_rules": {
+      "files": 14,
+      "directories": 2,
+      "logical_bytes": 255292,
+      "allocated_bytes": 294912,
+      "symlinks": 0
+    },
+    "outputs/left_side_trend": {
+      "files": 11,
+      "directories": 2,
+      "logical_bytes": 57006,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/live_ingestion": {
+      "files": 11,
+      "directories": 3,
+      "logical_bytes": 24206,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/live_readiness": {
+      "files": 13,
+      "directories": 2,
+      "logical_bytes": 153849,
+      "allocated_bytes": 188416,
+      "symlinks": 0
+    },
+    "outputs/long_only_followup": {
+      "files": 34,
+      "directories": 2,
+      "logical_bytes": 3091548,
+      "allocated_bytes": 3174400,
+      "symlinks": 0
+    },
+    "outputs/low_turnover_history": {
+      "files": 18,
+      "directories": 2,
+      "logical_bytes": 627240,
+      "allocated_bytes": 671744,
+      "symlinks": 0
+    },
+    "outputs/mail_outbox": {
+      "files": 5,
+      "directories": 2,
+      "logical_bytes": 1841,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/manual_execution": {
+      "files": 5,
+      "directories": 2,
+      "logical_bytes": 2178,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 7127837,
+      "allocated_bytes": 7163904,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current": {
+      "files": 61,
+      "directories": 14,
+      "logical_bytes": 249617,
+      "allocated_bytes": 442368,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15": {
+      "files": 23,
+      "directories": 7,
+      "logical_bytes": 77942,
+      "allocated_bytes": 159744,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916": {
+      "files": 26,
+      "directories": 7,
+      "logical_bytes": 86862,
+      "allocated_bytes": 172032,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity": {
+      "files": 13,
+      "directories": 5,
+      "logical_bytes": 3850,
+      "allocated_bytes": 53248,
+      "symlinks": 0
+    },
+    "outputs/monthly_portfolio_audit": {
+      "files": 10,
+      "directories": 3,
+      "logical_bytes": 254973,
+      "allocated_bytes": 290816,
+      "symlinks": 0
+    },
+    "outputs/monthly_predicted_budget": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 101575,
+      "allocated_bytes": 131072,
+      "symlinks": 0
+    },
+    "outputs/path_mechanism": {
+      "files": 16,
+      "directories": 3,
+      "logical_bytes": 166412,
+      "allocated_bytes": 212992,
+      "symlinks": 0
+    },
+    "outputs/patient_trend_research": {
+      "files": 12,
+      "directories": 2,
+      "logical_bytes": 941566,
+      "allocated_bytes": 974848,
+      "symlinks": 0
+    },
+    "outputs/phase2_replication": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1588,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/policy_balance": {
+      "files": 14,
+      "directories": 3,
+      "logical_bytes": 1232687,
+      "allocated_bytes": 1273856,
+      "symlinks": 0
+    },
+    "outputs/policy_cash": {
+      "files": 22,
+      "directories": 3,
+      "logical_bytes": 992609,
+      "allocated_bytes": 1056768,
+      "symlinks": 0
+    },
+    "outputs/policy_cash_alias": {
+      "files": 27,
+      "directories": 4,
+      "logical_bytes": 783889,
+      "allocated_bytes": 856064,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence": {
+      "files": 26,
+      "directories": 4,
+      "logical_bytes": 2703732,
+      "allocated_bytes": 2777088,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence_audit": {
+      "files": 6,
+      "directories": 2,
+      "logical_bytes": 8937,
+      "allocated_bytes": 28672,
+      "symlinks": 0
+    },
+    "outputs/policy_parallel_verification": {
+      "files": 5,
+      "directories": 2,
+      "logical_bytes": 1857,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/portfolio_cash": {
+      "files": 14,
+      "directories": 3,
+      "logical_bytes": 538510,
+      "allocated_bytes": 581632,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement": {
+      "files": 96,
+      "directories": 4,
+      "logical_bytes": 19726583,
+      "allocated_bytes": 19968000,
+      "symlinks": 0
+    },
+    "outputs/predicted_budget": {
+      "files": 13,
+      "directories": 3,
+      "logical_bytes": 124784,
+      "allocated_bytes": 167936,
+      "symlinks": 0
+    },
+    "outputs/process_diagnostics": {
+      "files": 16,
+      "directories": 2,
+      "logical_bytes": 397431,
+      "allocated_bytes": 442368,
+      "symlinks": 0
+    },
+    "outputs/profit_defense": {
+      "files": 18,
+      "directories": 3,
+      "logical_bytes": 782578,
+      "allocated_bytes": 831488,
+      "symlinks": 0
+    },
+    "outputs/rank_live_validation": {
+      "files": 11,
+      "directories": 3,
+      "logical_bytes": 265482,
+      "allocated_bytes": 303104,
+      "symlinks": 0
+    },
+    "outputs/recent_low_turnover": {
+      "files": 45,
+      "directories": 4,
+      "logical_bytes": 851014,
+      "allocated_bytes": 962560,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible": {
+      "files": 10,
+      "directories": 5,
+      "logical_bytes": 2288,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/retail_validation": {
+      "files": 139,
+      "directories": 2,
+      "logical_bytes": 10360160,
+      "allocated_bytes": 10665984,
+      "symlinks": 0
+    },
+    "outputs/revalidation": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 313371,
+      "allocated_bytes": 339968,
+      "symlinks": 0
+    },
+    "outputs/review_date_diagnosis": {
+      "files": 13,
+      "directories": 2,
+      "logical_bytes": 150167,
+      "allocated_bytes": 184320,
+      "symlinks": 0
+    },
+    "outputs/risk_budget": {
+      "files": 18,
+      "directories": 4,
+      "logical_bytes": 537304,
+      "allocated_bytes": 593920,
+      "symlinks": 0
+    },
+    "outputs/risk_recovery": {
+      "files": 11,
+      "directories": 3,
+      "logical_bytes": 262397,
+      "allocated_bytes": 294912,
+      "symlinks": 0
+    },
+    "outputs/rolling_review": {
+      "files": 17,
+      "directories": 2,
+      "logical_bytes": 209117,
+      "allocated_bytes": 253952,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search": {
+      "files": 49,
+      "directories": 5,
+      "logical_bytes": 9951909,
+      "allocated_bytes": 10080256,
+      "symlinks": 0
+    },
+    "outputs/sector_asof_replay_v1": {
+      "files": 60,
+      "directories": 4,
+      "logical_bytes": 2538685,
+      "allocated_bytes": 2666496,
+      "symlinks": 0
+    },
+    "outputs/sector_candidate_quality": {
+      "files": 23,
+      "directories": 2,
+      "logical_bytes": 760859,
+      "allocated_bytes": 819200,
+      "symlinks": 0
+    },
+    "outputs/sector_classification_audit": {
+      "files": 16,
+      "directories": 2,
+      "logical_bytes": 243635,
+      "allocated_bytes": 290816,
+      "symlinks": 0
+    },
+    "outputs/sector_cohesion": {
+      "files": 22,
+      "directories": 2,
+      "logical_bytes": 2437780,
+      "allocated_bytes": 2494464,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns": {
+      "files": 65,
+      "directories": 3,
+      "logical_bytes": 6789181,
+      "allocated_bytes": 6942720,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns_multiscale": {
+      "files": 39,
+      "directories": 2,
+      "logical_bytes": 4021213,
+      "allocated_bytes": 4120576,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_plots": {
+      "files": 30,
+      "directories": 3,
+      "logical_bytes": 9292765,
+      "allocated_bytes": 9359360,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_review": {
+      "files": 7,
+      "directories": 2,
+      "logical_bytes": 56033,
+      "allocated_bytes": 81920,
+      "symlinks": 0
+    },
+    "outputs/sector_entry_window_v1": {
+      "files": 21,
+      "directories": 2,
+      "logical_bytes": 156898,
+      "allocated_bytes": 221184,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_audit": {
+      "files": 8,
+      "directories": 2,
+      "logical_bytes": 23850,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_between_sectors": {
+      "files": 17,
+      "directories": 2,
+      "logical_bytes": 2242090,
+      "allocated_bytes": 2289664,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_histogram_report": {
+      "files": 84,
+      "directories": 2,
+      "logical_bytes": 15597177,
+      "allocated_bytes": 15777792,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_member_distribution": {
+      "files": 44,
+      "directories": 3,
+      "logical_bytes": 2860222,
+      "allocated_bytes": 2965504,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_audit": {
+      "files": 10,
+      "directories": 3,
+      "logical_bytes": 14751,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_halves": {
+      "files": 36,
+      "directories": 3,
+      "logical_bytes": 550894,
+      "allocated_bytes": 630784,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_v1": {
+      "files": 32,
+      "directories": 2,
+      "logical_bytes": 748956,
+      "allocated_bytes": 831488,
+      "symlinks": 0
+    },
+    "outputs/sector_internal_correlation": {
+      "files": 19,
+      "directories": 2,
+      "logical_bytes": 3192070,
+      "allocated_bytes": 3235840,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates": {
+      "files": 74,
+      "directories": 7,
+      "logical_bytes": 450960,
+      "allocated_bytes": 647168,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan": {
+      "files": 91,
+      "directories": 10,
+      "logical_bytes": 1162331,
+      "allocated_bytes": 1413120,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update": {
+      "files": 65,
+      "directories": 10,
+      "logical_bytes": 138754,
+      "allocated_bytes": 352256,
+      "symlinks": 0
+    },
+    "outputs/sector_multiscale_events": {
+      "files": 47,
+      "directories": 3,
+      "logical_bytes": 6001197,
+      "allocated_bytes": 6115328,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_audit": {
+      "files": 16,
+      "directories": 2,
+      "logical_bytes": 591404,
+      "allocated_bytes": 634880,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_training": {
+      "files": 26,
+      "directories": 2,
+      "logical_bytes": 658753,
+      "allocated_bytes": 724992,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_events": {
+      "files": 36,
+      "directories": 3,
+      "logical_bytes": 3071202,
+      "allocated_bytes": 3153920,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_expansion": {
+      "files": 48,
+      "directories": 3,
+      "logical_bytes": 9660114,
+      "allocated_bytes": 9773056,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review": {
+      "files": 248,
+      "directories": 7,
+      "logical_bytes": 56564875,
+      "allocated_bytes": 57110528,
+      "symlinks": 0
+    },
+    "outputs/sector_state_evolution": {
+      "files": 35,
+      "directories": 2,
+      "logical_bytes": 549781,
+      "allocated_bytes": 659456,
+      "symlinks": 0
+    },
+    "outputs/sector_turnover_gate_ablation_v1": {
+      "files": 14,
+      "directories": 2,
+      "logical_bytes": 48358,
+      "allocated_bytes": 90112,
+      "symlinks": 0
+    },
+    "outputs/selection_baselines": {
+      "files": 13,
+      "directories": 2,
+      "logical_bytes": 15734,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/selection_stability": {
+      "files": 34,
+      "directories": 3,
+      "logical_bytes": 1181505,
+      "allocated_bytes": 1282048,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning": {
+      "files": 46,
+      "directories": 4,
+      "logical_bytes": 1050174,
+      "allocated_bytes": 1179648,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution": {
+      "files": 50,
+      "directories": 6,
+      "logical_bytes": 309655,
+      "allocated_bytes": 483328,
+      "symlinks": 0
+    },
+    "outputs/startup_timing": {
+      "files": 25,
+      "directories": 3,
+      "logical_bytes": 2570443,
+      "allocated_bytes": 2637824,
+      "symlinks": 0
+    },
+    "outputs/stock_selection_asof_v2": {
+      "files": 66,
+      "directories": 7,
+      "logical_bytes": 2466684,
+      "allocated_bytes": 2629632,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan": {
+      "files": 124,
+      "directories": 8,
+      "logical_bytes": 1347481,
+      "allocated_bytes": 1699840,
+      "symlinks": 0
+    },
+    "outputs/style_attribution": {
+      "files": 70,
+      "directories": 3,
+      "logical_bytes": 9276224,
+      "allocated_bytes": 9445376,
+      "symlinks": 0
+    },
+    "outputs/strategy_gate_pause_change": {
+      "files": 7,
+      "directories": 2,
+      "logical_bytes": 21902,
+      "allocated_bytes": 45056,
+      "symlinks": 0
+    },
+    "outputs/symmetric_phase": {
+      "files": 21,
+      "directories": 3,
+      "logical_bytes": 1082329,
+      "allocated_bytes": 1138688,
+      "symlinks": 0
+    },
+    "outputs/targeted_research": {
+      "files": 5,
+      "directories": 2,
+      "logical_bytes": 2224,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/targeted_restore": {
+      "files": 11,
+      "directories": 3,
+      "logical_bytes": 319425,
+      "allocated_bytes": 352256,
+      "symlinks": 0
+    },
+    "outputs/trend_entry_audit": {
+      "files": 26,
+      "directories": 2,
+      "logical_bytes": 1319535,
+      "allocated_bytes": 1396736,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation": {
+      "files": 223,
+      "directories": 6,
+      "logical_bytes": 4777495,
+      "allocated_bytes": 5103616,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos": {
+      "files": 123,
+      "directories": 8,
+      "logical_bytes": 3280039,
+      "allocated_bytes": 3600384,
+      "symlinks": 0
+    },
+    "outputs/INDEX.md": {
+      "files": 0,
+      "directories": 0,
+      "logical_bytes": 0,
+      "allocated_bytes": 0,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T130002_399361Z": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 145004,
+      "allocated_bytes": 176128,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T131123_093672Z": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 402021,
+      "allocated_bytes": 438272,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T134155_401326Z": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 402021,
+      "allocated_bytes": 438272,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T135443_293064Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 401585,
+      "allocated_bytes": 446464,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T140512_010876Z": {
+      "files": 16,
+      "directories": 1,
+      "logical_bytes": 485117,
+      "allocated_bytes": 524288,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260918T141654_389765Z": {
+      "files": 16,
+      "directories": 1,
+      "logical_bytes": 560254,
+      "allocated_bytes": 598016,
+      "symlinks": 0
+    },
+    "outputs/walkforward_oos/20260919T052924_461677Z": {
+      "files": 37,
+      "directories": 1,
+      "logical_bytes": 883580,
+      "allocated_bytes": 970752,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/20260919T060211_795334Z": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 465,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/20260919T061128_566815Z": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 465,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/20260919T063652_375561Z": {
+      "files": 29,
+      "directories": 1,
+      "logical_bytes": 620192,
+      "allocated_bytes": 659456,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/20260919T072910_073151Z": {
+      "files": 29,
+      "directories": 1,
+      "logical_bytes": 620970,
+      "allocated_bytes": 659456,
+      "symlinks": 0
+    },
+    "outputs/walkforward_ablation/20260919T074801_991097Z": {
+      "files": 159,
+      "directories": 1,
+      "logical_bytes": 3534941,
+      "allocated_bytes": 3760128,
+      "symlinks": 0
+    },
+    "outputs/trend_entry_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/trend_entry_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/trend_entry_audit/20260912T154239_247938Z": {
+      "files": 24,
+      "directories": 1,
+      "logical_bytes": 1319076,
+      "allocated_bytes": 1388544,
+      "symlinks": 0
+    },
+    "outputs/targeted_restore/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/targeted_restore/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/targeted_restore/20260914T081149_007200Z": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 318967,
+      "allocated_bytes": 344064,
+      "symlinks": 0
+    },
+    "outputs/targeted_research/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/targeted_research/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/targeted_research/20260913": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1765,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/symmetric_phase/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/symmetric_phase/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/symmetric_phase/20260913T061312_007478Z": {
+      "files": 19,
+      "directories": 2,
+      "logical_bytes": 1081872,
+      "allocated_bytes": 1130496,
+      "symlinks": 0
+    },
+    "outputs/strategy_gate_pause_change/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/strategy_gate_pause_change/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 139,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/strategy_gate_pause_change/20261021": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 21434,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/style_attribution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/style_attribution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/style_attribution/20260911T154905_232961Z": {
+      "files": 24,
+      "directories": 1,
+      "logical_bytes": 2961342,
+      "allocated_bytes": 3022848,
+      "symlinks": 0
+    },
+    "outputs/style_attribution/20260911T160006_201315Z": {
+      "files": 44,
+      "directories": 1,
+      "logical_bytes": 6314423,
+      "allocated_bytes": 6414336,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 143,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261013_eod": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 214956,
+      "allocated_bytes": 258048,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261019_eod": {
+      "files": 26,
+      "directories": 1,
+      "logical_bytes": 647306,
+      "allocated_bytes": 724992,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261020_eod": {
+      "files": 25,
+      "directories": 1,
+      "logical_bytes": 293745,
+      "allocated_bytes": 364544,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261020_gate_paused_20261021T023746_584755Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 58202,
+      "allocated_bytes": 94208,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261020_gate_paused_20261021T070103_535863Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 58073,
+      "allocated_bytes": 94208,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261021_gate_paused_20261021T173036_633714Z": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 37420,
+      "allocated_bytes": 77824,
+      "symlinks": 0
+    },
+    "outputs/strategy_2026_opportunity_scan/20261022_gate_paused_20261022T160739_495956Z": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 37307,
+      "allocated_bytes": 77824,
+      "symlinks": 0
+    },
+    "outputs/stock_selection_asof_v2/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/stock_selection_asof_v2/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/stock_selection_asof_v2/20261013T074344_828439Z": {
+      "files": 28,
+      "directories": 3,
+      "logical_bytes": 1138284,
+      "allocated_bytes": 1204224,
+      "symlinks": 0
+    },
+    "outputs/stock_selection_asof_v2/20261013T074542_476130Z": {
+      "files": 36,
+      "directories": 3,
+      "logical_bytes": 1327935,
+      "allocated_bytes": 1417216,
+      "symlinks": 0
+    },
+    "outputs/startup_timing/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/startup_timing/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/startup_timing/20260914T064444_558372Z": {
+      "files": 23,
+      "directories": 2,
+      "logical_bytes": 2569987,
+      "allocated_bytes": 2629632,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/20260914T053510_422248Z": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 465,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/20260914T053555_460839Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 19444,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/20260914T053819_540407Z": {
+      "files": 8,
+      "directories": 1,
+      "logical_bytes": 40523,
+      "allocated_bytes": 69632,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/20260914T054129_106705Z": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 115104,
+      "allocated_bytes": 163840,
+      "symlinks": 0
+    },
+    "outputs/shadow_execution/20260914T054517_770961Z": {
+      "files": 18,
+      "directories": 1,
+      "logical_bytes": 133661,
+      "allocated_bytes": 192512,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning/20260920T122453_859832Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 11985,
+      "allocated_bytes": 32768,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning/20260920T122823_762365Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 11984,
+      "allocated_bytes": 32768,
+      "symlinks": 0
+    },
+    "outputs/sequence_state_learning/20260920T122925_197246Z": {
+      "files": 30,
+      "directories": 1,
+      "logical_bytes": 1025740,
+      "allocated_bytes": 1105920,
+      "symlinks": 0
+    },
+    "outputs/selection_stability/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/selection_stability/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/selection_stability/20260914T070228_976007Z": {
+      "files": 32,
+      "directories": 2,
+      "logical_bytes": 1181044,
+      "allocated_bytes": 1273856,
+      "symlinks": 0
+    },
+    "outputs/selection_baselines/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/selection_baselines/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/selection_baselines/20260920T125034_094790Z": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 15273,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/sector_turnover_gate_ablation_v1/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_turnover_gate_ablation_v1/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 145,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_turnover_gate_ablation_v1/20261013T065930_263923Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 47884,
+      "allocated_bytes": 81920,
+      "symlinks": 0
+    },
+    "outputs/sector_state_evolution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_state_evolution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_state_evolution/20260922T072913_503236SZ": {
+      "files": 33,
+      "directories": 1,
+      "logical_bytes": 549317,
+      "allocated_bytes": 651264,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review/20260922T024547_848112Z": {
+      "files": 82,
+      "directories": 2,
+      "logical_bytes": 7759573,
+      "allocated_bytes": 7929856,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review/20260922T024547_848112Z_axis_fix": {
+      "files": 82,
+      "directories": 2,
+      "logical_bytes": 24269768,
+      "allocated_bytes": 24453120,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_review/20260922T024547_848112Z_final": {
+      "files": 82,
+      "directories": 2,
+      "logical_bytes": 24535073,
+      "allocated_bytes": 24719360,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_expansion/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_expansion/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_expansion/20260922T080121_809679Z": {
+      "files": 46,
+      "directories": 2,
+      "logical_bytes": 9659650,
+      "allocated_bytes": 9764864,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_events/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_events/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_shape_events/20260922T024547_848112Z": {
+      "files": 34,
+      "directories": 2,
+      "logical_bytes": 3070741,
+      "allocated_bytes": 3145728,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_training/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_training/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_training/20261021": {
+      "files": 24,
+      "directories": 1,
+      "logical_bytes": 658284,
+      "allocated_bytes": 716800,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_profit_days_audit/20261021": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 590938,
+      "allocated_bytes": 626688,
+      "symlinks": 0
+    },
+    "outputs/sector_multiscale_events/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_multiscale_events/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_multiscale_events/20260923T080028_978085Z": {
+      "files": 45,
+      "directories": 2,
+      "logical_bytes": 6000731,
+      "allocated_bytes": 6107136,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20260923T124411_929745Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 19147,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20260928T052137_477177Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 14039,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261011T041901_752827Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 16224,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261013T053032_747254Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 14100,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261013T123214_941319Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 16801,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261019T143409_401486Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 15725,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261020T113325_840079Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 14086,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261021T171754_746422Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 14086,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_update/20261022T155629_062229Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 14086,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20260923T131248_195204Z": {
+      "files": 9,
+      "directories": 1,
+      "logical_bytes": 127077,
+      "allocated_bytes": 151552,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20260928T052835_077807Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 128729,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261011T043413_947246Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 127004,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261013T053630_999606Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 128413,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261013T155427_428380Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 127079,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261019T144154_853953Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 129339,
+      "allocated_bytes": 159744,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261020T113957_683276Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 133210,
+      "allocated_bytes": 159744,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261021T172443_233422Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 130902,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_scan/20261022T160204_763709Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 130120,
+      "allocated_bytes": 155648,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20260923T132820_511361Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 71021,
+      "allocated_bytes": 102400,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20260923T134918_377622Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 74556,
+      "allocated_bytes": 106496,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20260923T140102_328247Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 76627,
+      "allocated_bytes": 110592,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20260928T053435_278037Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 75752,
+      "allocated_bytes": 106496,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20261011T043955_098890Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 75789,
+      "allocated_bytes": 106496,
+      "symlinks": 0
+    },
+    "outputs/sector_live_candidates/20261013T054152_793466Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 76751,
+      "allocated_bytes": 106496,
+      "symlinks": 0
+    },
+    "outputs/sector_internal_correlation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_internal_correlation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_internal_correlation/20260921T075701_984968Z": {
+      "files": 17,
+      "directories": 1,
+      "logical_bytes": 3191601,
+      "allocated_bytes": 3227648,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_v1/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_v1/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_v1/20260923T105203_887024Z": {
+      "files": 30,
+      "directories": 1,
+      "logical_bytes": 748499,
+      "allocated_bytes": 823296,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_halves/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_halves/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 139,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_halves/20260923T111853_561924Z": {
+      "files": 34,
+      "directories": 2,
+      "logical_bytes": 550426,
+      "allocated_bytes": 622592,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 138,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_audit/20260923T112020_939291Z": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 7142,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_random_audit/20261013T054725_005561Z": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 7142,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_member_distribution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_member_distribution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 145,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_member_distribution/20260923T113017_430409Z": {
+      "files": 21,
+      "directories": 1,
+      "logical_bytes": 1429860,
+      "allocated_bytes": 1478656,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_member_distribution/20260923T113206_351461Z": {
+      "files": 21,
+      "directories": 1,
+      "logical_bytes": 1429888,
+      "allocated_bytes": 1478656,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_histogram_report/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_histogram_report/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 142,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_histogram_report/20260923T114347_981934Z": {
+      "files": 82,
+      "directories": 1,
+      "logical_bytes": 15596706,
+      "allocated_bytes": 15769600,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_between_sectors/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_between_sectors/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 141,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_between_sectors/20260923T115005_661608Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 2241620,
+      "allocated_bytes": 2281472,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_fuzzy_audit/20260923T105932_720843Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 23390,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/sector_entry_window_v1/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_entry_window_v1/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_entry_window_v1/20261013T064932_361598Z": {
+      "files": 19,
+      "directories": 1,
+      "logical_bytes": 156434,
+      "allocated_bytes": 212992,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_review/sw_l2_v1_20260921T073401_889301Z": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 55570,
+      "allocated_bytes": 73728,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_plots/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_plots/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_plots/20260921T074421_020328Z": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 465,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/sector_dataset_plots/20260921T074445_921520Z": {
+      "files": 26,
+      "directories": 1,
+      "logical_bytes": 9291838,
+      "allocated_bytes": 9342976,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns_multiscale/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns_multiscale/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 151,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z": {
+      "files": 37,
+      "directories": 1,
+      "logical_bytes": 4020733,
+      "allocated_bytes": 4112384,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns/20260923T070119_123838Z": {
+      "files": 31,
+      "directories": 1,
+      "logical_bytes": 3384388,
+      "allocated_bytes": 3452928,
+      "symlinks": 0
+    },
+    "outputs/sector_confirmation_returns/20260923T070330_765394Z": {
+      "files": 32,
+      "directories": 1,
+      "logical_bytes": 3404324,
+      "allocated_bytes": 3481600,
+      "symlinks": 0
+    },
+    "outputs/sector_cohesion/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_cohesion/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_cohesion/20260921T101136_793180Z": {
+      "files": 20,
+      "directories": 1,
+      "logical_bytes": 2437323,
+      "allocated_bytes": 2486272,
+      "symlinks": 0
+    },
+    "outputs/sector_classification_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_classification_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_classification_audit/20261021": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 243166,
+      "allocated_bytes": 282624,
+      "symlinks": 0
+    },
+    "outputs/sector_candidate_quality/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_candidate_quality/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_candidate_quality/20260922T070442_977167Z": {
+      "files": 21,
+      "directories": 1,
+      "logical_bytes": 760393,
+      "allocated_bytes": 811008,
+      "symlinks": 0
+    },
+    "outputs/sector_asof_replay_v1/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_asof_replay_v1/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/sector_asof_replay_v1/20261013T072855_087132Z": {
+      "files": 58,
+      "directories": 3,
+      "logical_bytes": 2538222,
+      "allocated_bytes": 2658304,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search/20260920T101201_044368Z": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 219183,
+      "allocated_bytes": 233472,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search/20260920T101314_693919Z": {
+      "files": 17,
+      "directories": 1,
+      "logical_bytes": 551931,
+      "allocated_bytes": 593920,
+      "symlinks": 0
+    },
+    "outputs/rule_strategy_search/20260920T101619_734224Z": {
+      "files": 25,
+      "directories": 2,
+      "logical_bytes": 9180333,
+      "allocated_bytes": 9244672,
+      "symlinks": 0
+    },
+    "outputs/rolling_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rolling_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rolling_review/20260913T141120_325588Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 208661,
+      "allocated_bytes": 245760,
+      "symlinks": 0
+    },
+    "outputs/risk_recovery/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/risk_recovery/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 126,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/risk_recovery/20260914T035750_545354Z": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 261942,
+      "allocated_bytes": 286720,
+      "symlinks": 0
+    },
+    "outputs/risk_budget/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/risk_budget/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/risk_budget/20260913T160033_640474Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 25045,
+      "allocated_bytes": 45056,
+      "symlinks": 0
+    },
+    "outputs/risk_budget/20260913T160301_084080Z": {
+      "files": 10,
+      "directories": 2,
+      "logical_bytes": 511806,
+      "allocated_bytes": 540672,
+      "symlinks": 0
+    },
+    "outputs/review_date_diagnosis/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/review_date_diagnosis/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/review_date_diagnosis/20260913T143355_876958Z": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 149704,
+      "allocated_bytes": 176128,
+      "symlinks": 0
+    },
+    "outputs/revalidation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/revalidation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 125,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/revalidation/20260911T073329_011771Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 312917,
+      "allocated_bytes": 331776,
+      "symlinks": 0
+    },
+    "outputs/retail_validation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/retail_validation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/retail_validation/20260912T141535_114074Z": {
+      "files": 137,
+      "directories": 1,
+      "logical_bytes": 10359701,
+      "allocated_bytes": 10657792,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/20260920T110945": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 457,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/20260920T111704": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 457,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/20260920T140522": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 457,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/reproduce_feasible/20260920T141410": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 457,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/recent_low_turnover/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/recent_low_turnover/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/recent_low_turnover/20260913T085313_818456Z": {
+      "files": 16,
+      "directories": 1,
+      "logical_bytes": 412387,
+      "allocated_bytes": 450560,
+      "symlinks": 0
+    },
+    "outputs/recent_low_turnover/20260913T090336_282870Z": {
+      "files": 27,
+      "directories": 2,
+      "logical_bytes": 438166,
+      "allocated_bytes": 503808,
+      "symlinks": 0
+    },
+    "outputs/rank_live_validation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rank_live_validation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/rank_live_validation/20260914T073733_065007Z": {
+      "files": 9,
+      "directories": 2,
+      "logical_bytes": 265020,
+      "allocated_bytes": 294912,
+      "symlinks": 0
+    },
+    "outputs/profit_defense/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/profit_defense/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/profit_defense/20260913T135233_215310Z": {
+      "files": 16,
+      "directories": 2,
+      "logical_bytes": 782122,
+      "allocated_bytes": 823296,
+      "symlinks": 0
+    },
+    "outputs/process_diagnostics/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/process_diagnostics/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/process_diagnostics/20260911T161419_067404Z": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 396970,
+      "allocated_bytes": 434176,
+      "symlinks": 0
+    },
+    "outputs/predicted_budget/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/predicted_budget/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/predicted_budget/20260914T103939_688190Z": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 23428,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/predicted_budget/20260914T104435_041138Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 100898,
+      "allocated_bytes": 122880,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement/20260911T135802_047737Z": {
+      "files": 22,
+      "directories": 1,
+      "logical_bytes": 3597992,
+      "allocated_bytes": 3657728,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement/20260911T140904_701655Z": {
+      "files": 36,
+      "directories": 1,
+      "logical_bytes": 8064060,
+      "allocated_bytes": 8151040,
+      "symlinks": 0
+    },
+    "outputs/portfolio_improvement/20260911T141042_778140Z": {
+      "files": 36,
+      "directories": 1,
+      "logical_bytes": 8064068,
+      "allocated_bytes": 8151040,
+      "symlinks": 0
+    },
+    "outputs/portfolio_cash/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/portfolio_cash/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/portfolio_cash/20260914T075010_199292Z": {
+      "files": 12,
+      "directories": 2,
+      "logical_bytes": 538054,
+      "allocated_bytes": 573440,
+      "symlinks": 0
+    },
+    "outputs/policy_parallel_verification/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_parallel_verification/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 141,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_parallel_verification/20260920T174807_658051Z": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1387,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence_audit/20260920": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 8471,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence/20260920T153039_256391Z": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 13892,
+      "allocated_bytes": 28672,
+      "symlinks": 0
+    },
+    "outputs/policy_convergence/20260920T153158_587194Z": {
+      "files": 19,
+      "directories": 2,
+      "logical_bytes": 2689380,
+      "allocated_bytes": 2740224,
+      "symlinks": 0
+    },
+    "outputs/policy_cash_alias/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_cash_alias/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_cash_alias/20260913T070201_664126Z": {
+      "files": 25,
+      "directories": 3,
+      "logical_bytes": 783430,
+      "allocated_bytes": 847872,
+      "symlinks": 0
+    },
+    "outputs/policy_cash/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_cash/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_cash/20260913T063048_495344Z": {
+      "files": 20,
+      "directories": 2,
+      "logical_bytes": 992156,
+      "allocated_bytes": 1048576,
+      "symlinks": 0
+    },
+    "outputs/policy_balance/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_balance/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/policy_balance/20260921T043247_252598Z": {
+      "files": 12,
+      "directories": 2,
+      "logical_bytes": 1232231,
+      "allocated_bytes": 1265664,
+      "symlinks": 0
+    },
+    "outputs/phase2_replication/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/phase2_replication/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/phase2_replication/replication_summary.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/patient_trend_research/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/patient_trend_research/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/patient_trend_research/20260912T152027_252190Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 941102,
+      "allocated_bytes": 966656,
+      "symlinks": 0
+    },
+    "outputs/path_mechanism/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/path_mechanism/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/path_mechanism/20260913T144044_222731Z": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 1636,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/path_mechanism/20260913T144118_205543Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 164320,
+      "allocated_bytes": 188416,
+      "symlinks": 0
+    },
+    "outputs/monthly_predicted_budget/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_predicted_budget/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_predicted_budget/20260914T104757_015442Z": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 101109,
+      "allocated_bytes": 122880,
+      "symlinks": 0
+    },
+    "outputs/monthly_portfolio_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_portfolio_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_portfolio_audit/20260911T101938_965835Z": {
+      "files": 8,
+      "directories": 2,
+      "logical_bytes": 254508,
+      "allocated_bytes": 282624,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/attempt01": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 451,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/attempt02": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 740,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/attempt03": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 451,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_parity/attempt04": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1745,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 141,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/draft": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 5442,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/index": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1247,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/market_stage": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 5197,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/observation": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1012,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/observation2": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 64644,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/stage": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 447,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/plan.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 7945,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_open_20260916/snapshot.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 458,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/current_stage": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 455,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/observation": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 453,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/observation_checked": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 991,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/observation_complete": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 462,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/observation_final": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 65561,
+      "allocated_bytes": 90112,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/sources": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 449,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/completion.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 6479,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/nonreview_preview.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1291,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_day15/verification.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1339,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/append_check": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 64544,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/append_prefix_fixture": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 728,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/index": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1076,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/index_probe": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1784,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/index_verified": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1789,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/input_verification": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 4490,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/lifecycle": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 32416,
+      "allocated_bytes": 61440,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/market_stage": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1533,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/metadata": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 15109,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/observation": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 453,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/observation_verified": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 65172,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/sources": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 38180,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/validation": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 1869,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/monthly_manual_current/completion.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 20010,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/china_size.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 654889,
+      "allocated_bytes": 655360,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/cost_taxonomy.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 975887,
+      "allocated_bytes": 978944,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/dsr_scale_probe.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 237,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/engineering_sources.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 977,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/htsc_blend.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 2021814,
+      "allocated_bytes": 2023424,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/htsc_cscv.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1818946,
+      "allocated_bytes": 1822720,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/htsc_cv.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1566347,
+      "allocated_bytes": 1568768,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/pdf_sources.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1103,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/quantopian_alphalens_performance.py": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 45091,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/methods_survey_20260911/quantopian_alphalens_utils.py": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 42081,
+      "allocated_bytes": 45056,
+      "symlinks": 0
+    },
+    "outputs/manual_execution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/manual_execution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/manual_execution/20260914T062731_812052Z": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1720,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/mail_outbox/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/mail_outbox/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/mail_outbox/20260914T063211_029833Z": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1388,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/low_turnover_history/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/low_turnover_history/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/low_turnover_history/20260913_report": {
+      "files": 16,
+      "directories": 1,
+      "logical_bytes": 626778,
+      "allocated_bytes": 663552,
+      "symlinks": 0
+    },
+    "outputs/long_only_followup/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/long_only_followup/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/long_only_followup/20260911T141208_459585Z": {
+      "files": 32,
+      "directories": 1,
+      "logical_bytes": 3091088,
+      "allocated_bytes": 3166208,
+      "symlinks": 0
+    },
+    "outputs/live_readiness/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/live_readiness/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/live_readiness/20260914T041136_672937Z": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 153393,
+      "allocated_bytes": 180224,
+      "symlinks": 0
+    },
+    "outputs/live_ingestion/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/live_ingestion/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/live_ingestion/20260914T060330_024634Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 20376,
+      "allocated_bytes": 36864,
+      "symlinks": 0
+    },
+    "outputs/live_ingestion/20260914_market_stage": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 3374,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/left_side_trend/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/left_side_trend/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/left_side_trend/20260921T064832_089142Z": {
+      "files": 9,
+      "directories": 1,
+      "logical_bytes": 56549,
+      "allocated_bytes": 77824,
+      "symlinks": 0
+    },
+    "outputs/left_side_rules/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/left_side_rules/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/left_side_rules/20260921T062806_399146Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 254835,
+      "allocated_bytes": 286720,
+      "symlinks": 0
+    },
+    "outputs/learning_strategy_search/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_strategy_search/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 137,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_strategy_search/20260920T111657_202278Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 59470,
+      "allocated_bytes": 98304,
+      "symlinks": 0
+    },
+    "outputs/learning_strategy_search/20260920T112021_620509Z": {
+      "files": 27,
+      "directories": 1,
+      "logical_bytes": 2293619,
+      "allocated_bytes": 2363392,
+      "symlinks": 0
+    },
+    "outputs/learning_extensions/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_extensions/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_extensions/20260920T115529_882492Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 94238,
+      "allocated_bytes": 126976,
+      "symlinks": 0
+    },
+    "outputs/learning_extensions/20260920T115718_030644Z": {
+      "files": 27,
+      "directories": 1,
+      "logical_bytes": 1950119,
+      "allocated_bytes": 2023424,
+      "symlinks": 0
+    },
+    "outputs/learning_diagnosis/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_diagnosis/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/learning_diagnosis/20260920T122107_163083Z": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 2095,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/learning_diagnosis/20260920T122452_692950Z": {
+      "files": 17,
+      "directories": 1,
+      "logical_bytes": 278777,
+      "allocated_bytes": 327680,
+      "symlinks": 0
+    },
+    "outputs/investability_followup/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/investability_followup/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/investability_followup/20260911T141947_839959Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 5335,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/investability_followup/20260911T142805_295786Z": {
+      "files": 37,
+      "directories": 1,
+      "logical_bytes": 5743160,
+      "allocated_bytes": 5836800,
+      "symlinks": 0
+    },
+    "outputs/independent_leak_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/independent_leak_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/independent_leak_audit/20260913": {
+      "files": 7,
+      "directories": 1,
+      "logical_bytes": 29289,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/identity_repair/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/identity_repair/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/identity_repair/20260913T130530_010878Z": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 56037,
+      "allocated_bytes": 94208,
+      "symlinks": 0
+    },
+    "outputs/hotel_stock_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hotel_stock_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hotel_stock_review/20261019_eod": {
+      "files": 17,
+      "directories": 1,
+      "logical_bytes": 198647,
+      "allocated_bytes": 237568,
+      "symlinks": 0
+    },
+    "outputs/hotel_stock_review/20261020_eod": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 25616,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/hotel_reconfirmation_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hotel_reconfirmation_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hotel_reconfirmation_review/20261020_preopen": {
+      "files": 28,
+      "directories": 1,
+      "logical_bytes": 868425,
+      "allocated_bytes": 933888,
+      "symlinks": 0
+    },
+    "outputs/hold_sensitivity/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hold_sensitivity/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/hold_sensitivity/20260913T120108_236041Z": {
+      "files": 28,
+      "directories": 1,
+      "logical_bytes": 714477,
+      "allocated_bytes": 782336,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 122,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/TEST_REPORT.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1957,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/TEST_REPORT_h20.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1542,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/TEST_factor_report.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 930,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/TEST_factor_report_h20.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 644,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_fix_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 112,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_gpu_seed7.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 7004,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_gpu_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 365,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_m1_s11.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 125,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_m1_s22.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_m1_s33.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_m1_s44.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_m1_s7.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 124,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 309,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_smoke2.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 677,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v2_s101.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 122,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v2_s202.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v2_s303.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 202,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v3_s11.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 123,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v3_s22.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 121,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v3_s33.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 121,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v3_s44.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 189,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/harvest_v3_s55.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 123,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_fix_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 149,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_gpu_seed7.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 891,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_gpu_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 68,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_m1_s11.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1326,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_m1_s22.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1310,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_m1_s33.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1276,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_m1_s44.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1336,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_m1_s7.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1235,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_smoke.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 48,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_smoke2.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 67,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v2_s101.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1290,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v2_s202.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1343,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v2_s303.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1344,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v3_s11.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1344,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v3_s22.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1195,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v3_s33.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1216,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v3_s44.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1370,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/history_v3_s55.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1345,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/phase4_backtest.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1715,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/phase4_backtest_eq.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1797,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/pool_check_corr.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 885,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/pool_check_yearly_ic.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1608,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/synth_weights.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 541,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/gp_mining/synth_weights_h20.csv": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 360,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/forward_risk/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/forward_risk/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 125,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/forward_risk/20260914T103508_365515Z": {
+      "files": 11,
+      "directories": 1,
+      "logical_bytes": 16372,
+      "allocated_bytes": 49152,
+      "symlinks": 0
+    },
+    "outputs/forward_risk/20260914T104245_763609Z": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 148000,
+      "allocated_bytes": 184320,
+      "symlinks": 0
+    },
+    "outputs/forward_risk/repair_20211213": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 1236,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/fine_sector_probe/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/fine_sector_probe/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/fine_sector_probe/20260921T062158_292354Z": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 7673,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/financial_pit_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/financial_pit_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/financial_pit_audit/20260913T070937_341943Z": {
+      "files": 17,
+      "directories": 1,
+      "logical_bytes": 626401,
+      "allocated_bytes": 671744,
+      "symlinks": 0
+    },
+    "outputs/financial_events/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/financial_events/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/financial_events/20260913T075514_058723Z": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 21120,
+      "allocated_bytes": 32768,
+      "symlinks": 0
+    },
+    "outputs/exit_history/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/exit_history/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 125,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/exit_history/20260913T151753_889536Z": {
+      "files": 11,
+      "directories": 2,
+      "logical_bytes": 176711,
+      "allocated_bytes": 208896,
+      "symlinks": 0
+    },
+    "outputs/exit_evidence/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/exit_evidence/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 126,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/exit_evidence/20260913T150206_743155Z": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 4090,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/exit_evidence/20260913T150246_816170Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 25262,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914T061653_386680Z": {
+      "files": 9,
+      "directories": 1,
+      "logical_bytes": 19622,
+      "allocated_bytes": 45056,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914_observation": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 462,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914_observation_v2": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 465,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914_observation_v3": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 2330,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914_observation_v4": {
+      "files": 8,
+      "directories": 1,
+      "logical_bytes": 34235,
+      "allocated_bytes": 57344,
+      "symlinks": 0
+    },
+    "outputs/execution_metadata/20260914_stage": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 15515,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/entry_guard_research/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/entry_guard_research/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/entry_guard_research/20260913T112934_627069Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 469257,
+      "allocated_bytes": 512000,
+      "symlinks": 0
+    },
+    "outputs/divide_selection/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/divide_selection/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/divide_selection/20260913T050617_571652Z": {
+      "files": 30,
+      "directories": 1,
+      "logical_bytes": 692867,
+      "allocated_bytes": 770048,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 132,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/20261021T064829_488127Z": {
+      "files": 20,
+      "directories": 2,
+      "logical_bytes": 157411,
+      "allocated_bytes": 217088,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/20261022_eod": {
+      "files": 20,
+      "directories": 1,
+      "logical_bytes": 109407,
+      "allocated_bytes": 167936,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/20261022_preopen": {
+      "files": 19,
+      "directories": 1,
+      "logical_bytes": 88927,
+      "allocated_bytes": 143360,
+      "symlinks": 0
+    },
+    "outputs/datahub_model_check/LATEST": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 51,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/conditional_hold/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/conditional_hold/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/conditional_hold/20260913T123032_500204Z": {
+      "files": 28,
+      "directories": 1,
+      "logical_bytes": 931859,
+      "allocated_bytes": 1003520,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/basis": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 68744,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/basis_v2": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 68747,
+      "allocated_bytes": 86016,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/full_scale_synthetic": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 812,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/full_scale_synthetic_v2": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 2611,
+      "allocated_bytes": 20480,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/provider_probe": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 2509,
+      "allocated_bytes": 16384,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/sources": {
+      "files": 2,
+      "directories": 1,
+      "logical_bytes": 449,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/status_probe": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 1112494,
+      "allocated_bytes": 1126400,
+      "symlinks": 0
+    },
+    "outputs/closing_manual_20260914/completion.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 5454,
+      "allocated_bytes": 8192,
+      "symlinks": 0
+    },
+    "outputs/closing_backtest_20260914/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/closing_backtest_20260914/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 138,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/closing_backtest_20260914/minutes": {
+      "files": 4,
+      "directories": 1,
+      "logical_bytes": 97325,
+      "allocated_bytes": 110592,
+      "symlinks": 0
+    },
+    "outputs/closing_backtest_20260914/probe": {
+      "files": 18,
+      "directories": 1,
+      "logical_bytes": 95908,
+      "allocated_bytes": 151552,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke/20260920T092501_929015Z": {
+      "files": 13,
+      "directories": 1,
+      "logical_bytes": 963730,
+      "allocated_bytes": 1003520,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke/20260920T092937_046916Z": {
+      "files": 14,
+      "directories": 1,
+      "logical_bytes": 965873,
+      "allocated_bytes": 1007616,
+      "symlinks": 0
+    },
+    "outputs/classic_strategy_smoke/20260920T101316_167206Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 953853,
+      "allocated_bytes": 987136,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 135,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/20260913T130810_374654Z": {
+      "files": 30,
+      "directories": 1,
+      "logical_bytes": 46986,
+      "allocated_bytes": 143360,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/data": {
+      "files": 12,
+      "directories": 1,
+      "logical_bytes": 185996,
+      "allocated_bytes": 221184,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/signals": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 11831,
+      "allocated_bytes": 28672,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/summarize_real_orders.py": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 2669,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/verify_cash_entitlements.py": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 2884,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution_audit/verify_real_orders.py": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 11131,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/causal_execution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 129,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/causal_execution/20260913T130810_374654Z": {
+      "files": 26,
+      "directories": 1,
+      "logical_bytes": 2577252,
+      "allocated_bytes": 2641920,
+      "symlinks": 0
+    },
+    "outputs/cash_robustness/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_robustness/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 128,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_robustness/20260914T102042_513326Z": {
+      "files": 8,
+      "directories": 1,
+      "logical_bytes": 190693,
+      "allocated_bytes": 212992,
+      "symlinks": 0
+    },
+    "outputs/cash_reentry_ablation/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_reentry_ablation/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_reentry_ablation/20260914T075408_339162Z": {
+      "files": 10,
+      "directories": 1,
+      "logical_bytes": 44427,
+      "allocated_bytes": 77824,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 127,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/20260914T101455_810747Z": {
+      "files": 10,
+      "directories": 2,
+      "logical_bytes": 415141,
+      "allocated_bytes": 446464,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/diagnosis_20260914": {
+      "files": 3,
+      "directories": 1,
+      "logical_bytes": 548,
+      "allocated_bytes": 12288,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/diagnosis_20260914_v2": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 77776,
+      "allocated_bytes": 90112,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/roundtrips_20260914": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 96165,
+      "allocated_bytes": 114688,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/roundtrips_20260914_v2": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 96168,
+      "allocated_bytes": 114688,
+      "symlinks": 0
+    },
+    "outputs/cash_economics/roundtrips_20260914_v3": {
+      "files": 6,
+      "directories": 1,
+      "logical_bytes": 96168,
+      "allocated_bytes": 114688,
+      "symlinks": 0
+    },
+    "outputs/breeding_stock_review/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/breeding_stock_review/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 134,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/breeding_stock_review/20261020_eod": {
+      "files": 19,
+      "directories": 1,
+      "logical_bytes": 453455,
+      "allocated_bytes": 503808,
+      "symlinks": 0
+    },
+    "outputs/baseline_style_controls/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_style_controls/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 136,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_style_controls/20260921T052617_810744Z": {
+      "files": 9,
+      "directories": 1,
+      "logical_bytes": 392716,
+      "allocated_bytes": 417792,
+      "symlinks": 0
+    },
+    "outputs/baseline_initialized_policy/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_initialized_policy/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 140,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_initialized_policy/20260920T144350_251464Z": {
+      "files": 5,
+      "directories": 1,
+      "logical_bytes": 9553,
+      "allocated_bytes": 24576,
+      "symlinks": 0
+    },
+    "outputs/baseline_initialized_policy/20260920T144455_372980Z": {
+      "files": 19,
+      "directories": 1,
+      "logical_bytes": 3507332,
+      "allocated_bytes": 3551232,
+      "symlinks": 0
+    },
+    "outputs/baseline_increment/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_increment/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 131,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_increment/20260920T132251_250976Z": {
+      "files": 30,
+      "directories": 1,
+      "logical_bytes": 2934300,
+      "allocated_bytes": 3002368,
+      "symlinks": 0
+    },
+    "outputs/baseline_combination/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_combination/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_combination/20260920T130146_537576Z": {
+      "files": 15,
+      "directories": 1,
+      "logical_bytes": 1081965,
+      "allocated_bytes": 1114112,
+      "symlinks": 0
+    },
+    "outputs/baseline_combination/20260920T130430_653480Z": {
+      "files": 26,
+      "directories": 1,
+      "logical_bytes": 1836831,
+      "allocated_bytes": 1892352,
+      "symlinks": 0
+    },
+    "outputs/baseline_attribution/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_attribution/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 133,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/baseline_attribution/20260921T050354_524088Z": {
+      "files": 8,
+      "directories": 1,
+      "logical_bytes": 17674,
+      "allocated_bytes": 40960,
+      "symlinks": 0
+    },
+    "outputs/autonomous_value_research/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/autonomous_value_research/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 138,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/autonomous_value_research/20260912T160734_658714Z": {
+      "files": 44,
+      "directories": 1,
+      "logical_bytes": 1726781,
+      "allocated_bytes": 1847296,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 142,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/cederburg_2020.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 974329,
+      "allocated_bytes": 974848,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/cederburg_2020.txt": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 141549,
+      "allocated_bytes": 143360,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/conditional_vol_2020.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1049848,
+      "allocated_bytes": 1052672,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/conditional_vol_2020.txt": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 64866,
+      "allocated_bytes": 65536,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/huatai_20190927.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1426180,
+      "allocated_bytes": 1429504,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/huatai_20190927.txt": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 58506,
+      "allocated_bytes": 61440,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/huatai_20200407.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1730613,
+      "allocated_bytes": 1732608,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/huatai_20200407.txt": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 70486,
+      "allocated_bytes": 73728,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/legacy_semantics.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1528,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/moreira_muir_2016.pdf": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1013730,
+      "allocated_bytes": 1015808,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/moreira_muir_2016.txt": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 110829,
+      "allocated_bytes": 114688,
+      "symlinks": 0
+    },
+    "outputs/active_cash_research_20260912/sources.json": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 1433,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_audit/PUBLICATION.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 329,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_audit/README.md": {
+      "files": 1,
+      "directories": 0,
+      "logical_bytes": 130,
+      "allocated_bytes": 4096,
+      "symlinks": 0
+    },
+    "outputs/active_cash_audit/20260912T134904_749861Z": {
+      "files": 42,
+      "directories": 1,
+      "logical_bytes": 6168608,
+      "allocated_bytes": 6266880,
+      "symlinks": 0
+    }
+  },
+  "totals": {
+    "docs": {
+      "files": 241,
+      "directories": 10,
+      "logical_bytes": 35491815,
+      "allocated_bytes": 36012032,
+      "symlinks": 0
+    },
+    "outputs": {
+      "files": 4008,
+      "directories": 391,
+      "logical_bytes": 271761741,
+      "allocated_bytes": 282333184,
+      "symlinks": 0
+    }
+  },
+  "extensions": {
+    ".md": 941,
+    ".py": 149,
+    ".csv": 1546,
+    ".json": 836,
+    ".png": 496,
+    ".html": 35,
+    ".txt": 22,
+    ".pdf": 52,
+    ".xlsx": 2,
+    ".yaml": 110,
+    ".svg": 17,
+    ".npz": 12,
+    ".pt": 30,
+    "(none)": 1
+  },
+  "largest_files": [
+    {
+      "bytes": 6955914,
+      "path": "docs/current_strategy_20261013/stock_selection_v2_detail/REPORT.pdf"
+    },
+    {
+      "bytes": 5728328,
+      "path": "docs/current_strategy_20261013/TECHNICAL_REPORT.pdf"
+    },
+    {
+      "bytes": 5617458,
+      "path": "docs/current_strategy_20261013/strategy_2026_plan/TECHNICAL_DESIGN.pdf"
+    },
+    {
+      "bytes": 5158685,
+      "path": "outputs/rule_strategy_search/20260920T101619_734224Z/all_trials.csv"
+    },
+    {
+      "bytes": 3177614,
+      "path": "outputs/baseline_initialized_policy/20260920T144455_372980Z/artifact_hashes.json"
+    },
+    {
+      "bytes": 2726543,
+      "path": "docs/current_strategy_20261013/stock_selection_v2_detail/REPORT.html"
+    },
+    {
+      "bytes": 2156152,
+      "path": "outputs/sector_dataset_plots/20260921T074445_921520Z/correlation_explorer.html"
+    },
+    {
+      "bytes": 2021814,
+      "path": "outputs/methods_survey_20260911/htsc_blend.pdf"
+    },
+    {
+      "bytes": 1859255,
+      "path": "docs/current_strategy_20261013/stock_selection_v2_detail/data/07_3935个股诊断.csv"
+    },
+    {
+      "bytes": 1818946,
+      "path": "outputs/methods_survey_20260911/htsc_cscv.pdf"
+    },
+    {
+      "bytes": 1812582,
+      "path": "outputs/sector_asof_replay_v1/20261013T072855_087132Z/execution_limit_sources.json"
+    },
+    {
+      "bytes": 1764449,
+      "path": "outputs/causal_execution/20260913T130810_374654Z/daily_execution_differences.csv"
+    },
+    {
+      "bytes": 1730613,
+      "path": "outputs/active_cash_research_20260912/huatai_20200407.pdf"
+    },
+    {
+      "bytes": 1566347,
+      "path": "outputs/methods_survey_20260911/htsc_cv.pdf"
+    },
+    {
+      "bytes": 1540378,
+      "path": "docs/current_strategy_20261013/stock_selection_v2_detail/DATA.xlsx"
+    },
+    {
+      "bytes": 1538496,
+      "path": "outputs/learning_strategy_search/20260920T112021_620509Z/fit_audit_summary.csv"
+    },
+    {
+      "bytes": 1426180,
+      "path": "outputs/active_cash_research_20260912/huatai_20190927.pdf"
+    },
+    {
+      "bytes": 1168484,
+      "path": "outputs/rule_strategy_search/20260920T101619_734224Z/outer_nav_drawdown.png"
+    },
+    {
+      "bytes": 1150589,
+      "path": "outputs/portfolio_improvement/20260911T141042_778140Z/train_buckets_by_date.csv"
+    },
+    {
+      "bytes": 1150589,
+      "path": "outputs/portfolio_improvement/20260911T140904_701655Z/train_buckets_by_date.csv"
+    },
+    {
+      "bytes": 1150589,
+      "path": "outputs/portfolio_improvement/20260911T135802_047737Z/train_buckets_by_date.csv"
+    },
+    {
+      "bytes": 1111920,
+      "path": "outputs/closing_manual_20260914/status_probe/status.json"
+    },
+    {
+      "bytes": 1093797,
+      "path": "outputs/investability_followup/20260911T142805_295786Z/tail_feasible_full_cost1_holdings.csv"
+    },
+    {
+      "bytes": 1093581,
+      "path": "outputs/investability_followup/20260911T142805_295786Z/tail_feasible_full_cost2_holdings.csv"
+    },
+    {
+      "bytes": 1088081,
+      "path": "outputs/sector_dataset_plots/20260921T074445_921520Z/correlation_all.png"
+    },
+    {
+      "bytes": 1085271,
+      "path": "outputs/investability_followup/20260911T142805_295786Z/tail_feasible_half_cost2_holdings.csv"
+    },
+    {
+      "bytes": 1084603,
+      "path": "outputs/style_attribution/20260911T160006_201315Z/candidate_cost1_holdings.csv"
+    },
+    {
+      "bytes": 1084603,
+      "path": "outputs/style_attribution/20260911T154905_232961Z/candidate_cost1_holdings.csv"
+    },
+    {
+      "bytes": 1084603,
+      "path": "outputs/investability_followup/20260911T142805_295786Z/tail_feasible_half_cost1_holdings.csv"
+    },
+    {
+      "bytes": 1084603,
+      "path": "outputs/active_cash_audit/20260912T134904_749861Z/legacy_v14_holdings.csv"
+    }
+  ],
+  "accounting": "文件逻辑大小按路径累计；分配空间按inode去重，跨目录硬链接仅首次出现计入；不跟随软链接；不含生成索引。"
+}

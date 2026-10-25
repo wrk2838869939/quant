@@ -1,0 +1,4 @@
+{
+  "status": "superseded_before_data_build",
+  "reason": "Normalize numpy booleans to JSON booleans in gate receipt; no model or outcome tables produced."
+}

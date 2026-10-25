@@ -1,0 +1,15 @@
+{
+  "provider": "Tushare daily via existing ts_client",
+  "historical_date": "2021-12-13",
+  "rows": 4706,
+  "adj_complete": 4706,
+  "basic_close_exact_matches": 4646,
+  "original_empty_rows": 0,
+  "original_inputs_preserved": true,
+  "input_sha256": {
+    "alpha_lab/outputs/forward_risk/repair_20211213/daily.parquet": "63c2a1ec65bf08a26ec482731f5e59507a3a767e4bd6ce81315adc2cfe7c2bbe",
+    "alpha_lab/data/raw/by_date/adj_factor/20211213.parquet": "48d68ccbcaa54804f89173e4dbf010aeca38d255c8fc013677edf38e73b874dd",
+    "alpha_lab/data/raw/by_date/daily_basic/20211213.parquet": "a77024c9d71d1bbfec6f7ab04b1ecd8ecf37c91707a56cfae13d52e927f9072c",
+    "alpha_lab/data/raw/by_date/daily/20211213.parquet": "88e7f61c80b7dc36bf1f3a02d58a9d8a75132da9bb567d96dfaa41416e37ab7f"
+  }
+}

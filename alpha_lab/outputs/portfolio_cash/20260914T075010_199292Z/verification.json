@@ -1,0 +1,28 @@
+{
+  "accounts": 96,
+  "trades": 10789,
+  "feature_prefixes": 3,
+  "account_prefixes": [
+    {
+      "account": "continued_08_staged_cost0",
+      "cutoff": "2023-01-04",
+      "all_ledgers_and_risk_states": true
+    },
+    {
+      "account": "cold_22_full_cost0",
+      "cutoff": "2025-01-03",
+      "all_ledgers_and_risk_states": true
+    },
+    {
+      "account": "cold_01_staged_cost30",
+      "cutoff": "2025-01-03",
+      "all_ledgers_and_risk_states": true
+    }
+  ],
+  "parent_parities": 16,
+  "weekly_or_monthly_cash_requests": 4303,
+  "paused_decisions_without_buys": 25339,
+  "all_reconciled": true,
+  "root_agents_unchanged": true,
+  "production_changed": false
+}

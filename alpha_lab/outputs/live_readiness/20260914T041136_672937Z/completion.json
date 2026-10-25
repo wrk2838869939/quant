@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "live_admitted": false,
+  "live_orders": false,
+  "report_sha256": "df8559e475cccbc833ac893509b87fbdc16bc9ac86e24889cb3507504ec3a7ea",
+  "artifact_sha256": {
+    "REPORT.md": "df8559e475cccbc833ac893509b87fbdc16bc9ac86e24889cb3507504ec3a7ea",
+    "audit_source.py": "d8e373b416058721112d6326edcdf0efbc2c052f1a972699d676ee0839fa247a",
+    "executions.csv": "738fe1acba850940ea3cd4f2af086be9b09732ecf8e30196150fd352ae41f185",
+    "interface.json": "b70ab5d1fe8f2c9bc9c518b2a03888c54d0468b7a7413ef1866e29821ce5e741",
+    "metrics.csv": "93828bb1518f9f097f1d325db0953196bc21bf8e83d5a898b9715643e96bd01d",
+    "recovery_causal.log": "b007906a9466db7c0b3023dc76e0debbe587785c62c12c94ea3b02b46f2169fb",
+    "recovery_risk.log": "b00fb09bbc9518e5e4f1e1815c8abaf8be76b875e24fc4b58135712e15e6ded0",
+    "recovery_unit.log": "8380703f49dced672092764a61391df7c93850e67ff36c5f032e6b857c9d8451",
+    "reviewed_sources/scripts/research_risk_budget.py": "0d099517e9a20c16903513a1db4877e01a38d5a56cae9ae48ce45e4ae6c794e6",
+    "reviewed_sources/scripts/research_rolling_review.py": "f1e29d1b7afca744a2943f96cfa0bd5ea0c8eb7b6783b6665438eb63b8b5367b",
+    "reviewed_sources/src/exit_history.py": "85777fb322357bbea2e6edbcb814c26c6c1a90a8aeb3ebe9fdae224e4890d517",
+    "reviewed_sources/src/risk_budget_portfolio.py": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf",
+    "risk_budget_adversarial.log": "a627ab7b7cfb672f56f0bab35490f325dbe3e0f4bb42763b9473a3093e4ce1d6",
+    "risk_budget_unit.log": "4aee365622e247407fbd1885c02749f21f171c98c418e953e7c1f1988ec7342a",
+    "sse_rules_2026.docx": "fc922c433438b2636cb631eab25cca405209712acbb6aaded768c45456ff8888",
+    "sse_rules_source.json": "95d9fb9fee96c39b71e2638d9d99c4077d0b1c863f3d27c421998fac7bcc6c43",
+    "stock_pnl.csv": "f04e62138775fd2836839fa8734d1fd9ccda547aaff2943c577b76bc71bbaca1",
+    "verification.json": "d342b6241117662603702f072c2ca2e5f9259736df255b0d15c8fd66741d6d3d"
+  }
+}

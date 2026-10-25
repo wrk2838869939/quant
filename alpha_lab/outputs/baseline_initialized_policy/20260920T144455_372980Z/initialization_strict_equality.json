@@ -1,0 +1,82 @@
+[
+  {
+    "host": "B01_low_turnover",
+    "table": "daily",
+    "check_exact": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "table": "trades",
+    "check_exact": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "table": "events",
+    "check_exact": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "table": "holdings",
+    "check_exact": true
+  },
+  {
+    "host": "B02_low_risk",
+    "table": "daily",
+    "check_exact": true
+  },
+  {
+    "host": "B02_low_risk",
+    "table": "trades",
+    "check_exact": true
+  },
+  {
+    "host": "B02_low_risk",
+    "table": "events",
+    "check_exact": true
+  },
+  {
+    "host": "B02_low_risk",
+    "table": "holdings",
+    "check_exact": true
+  },
+  {
+    "host": "B03_valuation",
+    "table": "daily",
+    "check_exact": true
+  },
+  {
+    "host": "B03_valuation",
+    "table": "trades",
+    "check_exact": true
+  },
+  {
+    "host": "B03_valuation",
+    "table": "events",
+    "check_exact": true
+  },
+  {
+    "host": "B03_valuation",
+    "table": "holdings",
+    "check_exact": true
+  },
+  {
+    "host": "equal_weight",
+    "table": "daily",
+    "check_exact": true
+  },
+  {
+    "host": "equal_weight",
+    "table": "trades",
+    "check_exact": true
+  },
+  {
+    "host": "equal_weight",
+    "table": "events",
+    "check_exact": true
+  },
+  {
+    "host": "equal_weight",
+    "table": "holdings",
+    "check_exact": true
+  }
+]

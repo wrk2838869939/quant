@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "test_market_data_used": false,
+  "new_valid_market_data_used": false,
+  "returns": "unhedged adjusted-price path proxy; no execution, fees or portfolio CAGR",
+  "no_independence_claim": "overlapping horizons; dates/stocks not independent trials",
+  "sources": {
+    "configs/patient_trend_research.yaml": "c20068664474a44c6b9f38c92fceff7fd984522abad411c24b02987a6ec7178d",
+    "scripts/audit_patient_trend.py": "2cc5c34add16aacacde12c6c46f9910289e37f554157a248bab38bca82b7f36b",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/portfolio.py": "7ca8e408c31ed701ad570351182dd165ae723c9e35747dc5c4e2f6a2b1869bea"
+  },
+  "prefix_checks": 2,
+  "last_label": "2021-12-31 00:00:00",
+  "data_rows": 6317037,
+  "paths_rows": 4116,
+  "input_slice_hash": "938340177bfe7bc97f346d26a92b0ca00c47bf51717aa6380635f702662007dd"
+}

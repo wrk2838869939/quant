@@ -1,0 +1,6 @@
+{
+  "posthoc": true,
+  "strategy_changed": false,
+  "purpose": "explain return calibration, tails and selected past states; descriptive only",
+  "future_outcomes_only_used_for_attribution": true
+}

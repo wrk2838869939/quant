@@ -1,0 +1,8 @@
+{
+  "tests": 4,
+  "source_hashes": true,
+  "origin_price_exact": true,
+  "membership_counts_exact": true,
+  "unique_keys": true,
+  "extrema_order": true
+}

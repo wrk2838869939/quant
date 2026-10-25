@@ -1,0 +1,26 @@
+{
+  "rule_prefixes": 144,
+  "account_prefixes": [
+    {
+      "account": "continued_08_rank8_confirm1_cost0",
+      "cutoff": "2023-01-04",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_22_rank12_confirm3_cost0",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_01_rank10_confirm2_cost30",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    }
+  ],
+  "parent_account_parities": 16,
+  "buy_source_checks": 3322,
+  "no_same_review_rebuy_checks": 515,
+  "all_candidate_coverage_guarded": true,
+  "sources_unchanged": true,
+  "root_agents_unchanged": true
+}

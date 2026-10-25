@@ -1,0 +1,12 @@
+strategy,kind,reason,event_count
+candidate,buy_skipped,limit_up,4
+candidate,sell_deferred,limit_down,1
+candidate,sell_deferred,suspended,11
+industry_board,buy_skipped,limit_up,2
+industry_board,buy_skipped,lot_or_capacity,31
+industry_board,sell_deferred,suspended,10
+size_matched,buy_skipped,lot_or_capacity,8
+size_matched,buy_skipped,suspended,1
+size_matched,sell_deferred,limit_down,7
+size_liquidity_matched,sell_deferred,limit_down,3
+size_liquidity_matched,sell_deferred,suspended,10

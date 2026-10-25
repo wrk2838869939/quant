@@ -1,0 +1,407 @@
+[
+  {
+    "path": "search/2021/cnn/3945812cfcf7c0e20d70",
+    "sharpe": 1.304186839396714,
+    "max_month": 0.2885531308436724
+  },
+  {
+    "path": "search/2021/cnn/cc37832ab126a2329ea4",
+    "sharpe": 1.7089248013217297,
+    "max_month": 0.3272889082758408
+  },
+  {
+    "path": "search/2021/cnn/ba81b177f91388ed3be2",
+    "sharpe": 1.3999632458310103,
+    "max_month": 0.2938060667154556
+  },
+  {
+    "path": "search/2021/cnn/9170691db80316eb9019",
+    "sharpe": 1.9069534543774926,
+    "max_month": 0.27195612441561257
+  },
+  {
+    "path": "search/2021/cnn/5de4df4e5abbdbd7e73e",
+    "sharpe": 1.2663333091298614,
+    "max_month": 0.4076324562249547
+  },
+  {
+    "path": "search/2021/cnn/b9a90bc84334027ed0e3",
+    "sharpe": 1.6082133531278011,
+    "max_month": 0.2532639507812682
+  },
+  {
+    "path": "search/2021/cnn/e8104561f8e06d2b2f1e",
+    "sharpe": 1.5845451323219157,
+    "max_month": 0.23903507411408964
+  },
+  {
+    "path": "search/2021/cnn/40a09f37ae8bc68dd722",
+    "sharpe": 1.5867106163785571,
+    "max_month": 0.28499512237489677
+  },
+  {
+    "path": "search/2021/cnn/a4e969bef90ef9a7391f",
+    "sharpe": 1.5793911828685439,
+    "max_month": 0.30622441272281087
+  },
+  {
+    "path": "search/2021/cnn/f6448a7af1af5bfe7121",
+    "sharpe": 1.753956094191544,
+    "max_month": 0.2553722313742912
+  },
+  {
+    "path": "search/2021/cnn/ac4416954df4b6f737f1",
+    "sharpe": 1.755492140812125,
+    "max_month": 0.2873280408286203
+  },
+  {
+    "path": "search/2021/cnn/26dd7bc05103b3d75aa5",
+    "sharpe": 1.6357306404186924,
+    "max_month": 0.27909066911635305
+  },
+  {
+    "path": "search/2021/cnn/33eafa150849411ab749",
+    "sharpe": 1.6483468094923712,
+    "max_month": 0.29848368964479355
+  },
+  {
+    "path": "search/2021/cnn/26679ce395ac376c483d",
+    "sharpe": 1.2938269650183203,
+    "max_month": 0.33781044841883356
+  },
+  {
+    "path": "search/2021/hmm/7537dbb88df041a04d36",
+    "sharpe": 1.0724519401324113,
+    "max_month": 0.2817163547754744
+  },
+  {
+    "path": "search/2021/hmm/6edb3770f32995df1582",
+    "sharpe": 1.5248495478487023,
+    "max_month": 0.22436335892257664
+  },
+  {
+    "path": "search/2021/hmm/8b717dda99ee4b18636f",
+    "sharpe": 1.608947475200479,
+    "max_month": 0.25481200215149347
+  },
+  {
+    "path": "search/2021/hmm/3c5fc545981f7b920d33",
+    "sharpe": 1.906195651075981,
+    "max_month": 0.2935635533410714
+  },
+  {
+    "path": "search/2021/hmm/f362749779d6dee9245f",
+    "sharpe": 1.9466855526732934,
+    "max_month": 0.22042748727231354
+  },
+  {
+    "path": "search/2021/hmm/b19a8ee05617b8d06980",
+    "sharpe": 0.7758087700335784,
+    "max_month": 0.29071745933489423
+  },
+  {
+    "path": "search/2021/hmm/b752e04b43fd9a88c279",
+    "sharpe": 1.4568885630203552,
+    "max_month": 0.28724742197266195
+  },
+  {
+    "path": "search/2021/hmm/c860fabeff4485b37ff1",
+    "sharpe": 1.629250886532788,
+    "max_month": 0.25351741268110883
+  },
+  {
+    "path": "search/2021/hmm/441950f00f0efd748cb5",
+    "sharpe": 1.6283284952417985,
+    "max_month": 0.30233900059446683
+  },
+  {
+    "path": "search/2021/hmm/d7a1112b284101622496",
+    "sharpe": 1.3438241095510488,
+    "max_month": 0.2496033354805962
+  },
+  {
+    "path": "search/2021/hmm/09046f79a397bccc6e6f",
+    "sharpe": 1.5126890979140386,
+    "max_month": 0.2094442609088878
+  },
+  {
+    "path": "search/2021/hmm/f40cde05f22e669ce58a",
+    "sharpe": 1.4590096350146158,
+    "max_month": 0.2454407686610256
+  },
+  {
+    "path": "search/2021/hmm/85307a90c97d5d493223",
+    "sharpe": 1.8028700336103638,
+    "max_month": 0.26475764055968276
+  },
+  {
+    "path": "search/2021/hmm/a3943028ba73907e0481",
+    "sharpe": 1.6233606896662514,
+    "max_month": 0.24778053348055895
+  },
+  {
+    "path": "search/2021/hmm/4f530b0c5b97736d2b0c",
+    "sharpe": 1.1820440309024296,
+    "max_month": 0.2386018044297542
+  },
+  {
+    "path": "search/2022/hmm/438382a5a37fbad99609",
+    "sharpe": 0.7324414288301933,
+    "max_month": 0.312856804076328
+  },
+  {
+    "path": "search/2022/hmm/f36d4bf6e7476c20de18",
+    "sharpe": 1.1841916256970595,
+    "max_month": 0.20623833720171358
+  },
+  {
+    "path": "search/2022/hmm/b71b27e6f98dbae17e5a",
+    "sharpe": 0.7566347714088508,
+    "max_month": 0.23488922204411256
+  },
+  {
+    "path": "search/2022/hmm/3951e1fb4c3ea8172b46",
+    "sharpe": 0.8917370761330299,
+    "max_month": 0.27109570823646933
+  },
+  {
+    "path": "search/2022/hmm/82a58834a8dbe924ea74",
+    "sharpe": 1.366688191787047,
+    "max_month": 0.27978997333705036
+  },
+  {
+    "path": "search/2022/hmm/934567aae63643cdbb99",
+    "sharpe": 1.579269148525339,
+    "max_month": 0.2845802998077225
+  },
+  {
+    "path": "search/2022/hmm/32f9493a8e36765e1cb3",
+    "sharpe": 1.2910050364439534,
+    "max_month": 0.20608260738243622
+  },
+  {
+    "path": "search/2022/hmm/b57286388dad8efc69c5",
+    "sharpe": 0.8489101632478626,
+    "max_month": 0.2375198705772259
+  },
+  {
+    "path": "search/2022/hmm/d45a79263e6e6ba6dc7d",
+    "sharpe": 0.7909653583142904,
+    "max_month": 0.2618568909343808
+  },
+  {
+    "path": "search/2022/hmm/effdabf81de16f42ecae",
+    "sharpe": 0.817190750797364,
+    "max_month": 0.2523301282409849
+  },
+  {
+    "path": "search/2022/hmm/404168e725f3daa4c769",
+    "sharpe": 1.0760120972750982,
+    "max_month": 0.30321055386110185
+  },
+  {
+    "path": "search/2022/hmm/a512a600173ca2281f11",
+    "sharpe": 1.2381220110985613,
+    "max_month": 0.27714911301252054
+  },
+  {
+    "path": "search/2022/hmm/67c51494193b8d19ff5c",
+    "sharpe": 1.585495537484277,
+    "max_month": 0.2598516014534926
+  },
+  {
+    "path": "search/2022/hmm/5e942f401965afd05656",
+    "sharpe": 1.2801195581917744,
+    "max_month": 0.3665728482167028
+  },
+  {
+    "path": "search/2022/hmm/23877632e326a5723ee0",
+    "sharpe": 2.3723007276935095,
+    "max_month": 0.27895313071207295
+  },
+  {
+    "path": "search/2022/hmm/4831c8db53a06048efb6",
+    "sharpe": 0.7470747462120638,
+    "max_month": 0.2284864165740823
+  },
+  {
+    "path": "search/2022/cnn/999d8b069b3f9c4bc846",
+    "sharpe": 0.8190476928044361,
+    "max_month": 0.20909609295979714
+  },
+  {
+    "path": "search/2022/cnn/64dba2a3b40f649e55e3",
+    "sharpe": 0.0697677037080234,
+    "max_month": 0.28552860094510923
+  },
+  {
+    "path": "search/2022/cnn/b70fefb806a507011461",
+    "sharpe": 1.2829879691585122,
+    "max_month": 0.2085677977841458
+  },
+  {
+    "path": "search/2022/cnn/e593dfa4dc9c816e7004",
+    "sharpe": 0.6888144171120806,
+    "max_month": 0.2617123189645829
+  },
+  {
+    "path": "search/2022/cnn/cd6b809cb4d8a4669a15",
+    "sharpe": 1.7365425029221688,
+    "max_month": 0.29369160148328954
+  },
+  {
+    "path": "search/2022/cnn/ee1fcc6fc966e15d483e",
+    "sharpe": 0.2729221568726272,
+    "max_month": 0.2720535804129609
+  },
+  {
+    "path": "search/2022/cnn/55722ed8f4ce8aa6df0c",
+    "sharpe": 0.9416085880229726,
+    "max_month": 0.2644862867323525
+  },
+  {
+    "path": "search/2022/cnn/24221984a081e485e453",
+    "sharpe": 0.7797517118822923,
+    "max_month": 0.32053104550336986
+  },
+  {
+    "path": "search/2022/cnn/d87ed3f0a6d1bd74c053",
+    "sharpe": 1.3262221467060749,
+    "max_month": 0.25957809832511614
+  },
+  {
+    "path": "search/2022/cnn/380a30bbc3d78ac96079",
+    "sharpe": 1.0853936870786172,
+    "max_month": 0.30568112098118094
+  },
+  {
+    "path": "search/2022/cnn/1d47ddf28c074de094e3",
+    "sharpe": 0.66884599879592,
+    "max_month": 0.23548890469959094
+  },
+  {
+    "path": "search/2022/cnn/c6afddf473e8b7516f07",
+    "sharpe": 1.5325027030501317,
+    "max_month": 0.3672992506705026
+  },
+  {
+    "path": "search/2022/cnn/53c48b8a9c2e605f2ff8",
+    "sharpe": 1.297196542908355,
+    "max_month": 0.37324452738690006
+  },
+  {
+    "path": "search/2022/cnn/0e52a31e030cfdb26fba",
+    "sharpe": 1.1322552723173316,
+    "max_month": 0.3503294343926773
+  },
+  {
+    "path": "search/2022/cnn/d0e342f27fa898eb780c",
+    "sharpe": 1.0892569080894579,
+    "max_month": 0.3425664346207098
+  },
+  {
+    "path": "search/2023/cnn/dcff2d2bfc637c3b8a23",
+    "sharpe": 0.11291264422467005,
+    "max_month": 0.2524346853502524
+  },
+  {
+    "path": "search/2023/cnn/8f10db89579c18d7c766",
+    "sharpe": 0.48313076943443545,
+    "max_month": 0.32332365747090597
+  },
+  {
+    "path": "search/2023/cnn/525c43b86810e575073c",
+    "sharpe": 0.17883157056001014,
+    "max_month": 0.36309455601699514
+  },
+  {
+    "path": "search/2023/cnn/d51ad0143e34405e1ce4",
+    "sharpe": 0.3928056124207671,
+    "max_month": 0.3518652024023101
+  },
+  {
+    "path": "search/2023/cnn/de5cdfae14ff365fe2d5",
+    "sharpe": 0.37585182593843963,
+    "max_month": 0.23089324536143452
+  },
+  {
+    "path": "search/2023/cnn/ea05678d2913583a10ad",
+    "sharpe": 0.7673844498419302,
+    "max_month": 0.26982348375207543
+  },
+  {
+    "path": "search/2023/cnn/d5d5420c5adb464ab731",
+    "sharpe": 0.23703490265979163,
+    "max_month": 0.22562289661932633
+  },
+  {
+    "path": "search/2023/cnn/238157281b92e5878cf3",
+    "sharpe": 0.2847123352556919,
+    "max_month": 0.21054206923949992
+  },
+  {
+    "path": "search/2023/cnn/d942f6425e2de1983b44",
+    "sharpe": 0.6024853158642403,
+    "max_month": 0.20789271804603393
+  },
+  {
+    "path": "search/2023/cnn/fd6f77381b44c7189124",
+    "sharpe": 0.17432620016236827,
+    "max_month": 0.23322851767346675
+  },
+  {
+    "path": "search/2023/cnn/f4476522e71f0e217f83",
+    "sharpe": 0.17571608856637977,
+    "max_month": 0.2268939640079768
+  },
+  {
+    "path": "search/2023/cnn/9cefbcc8f7b0178f34e7",
+    "sharpe": 0.6090266972861887,
+    "max_month": 0.3640724007401335
+  },
+  {
+    "path": "search/2023/cnn/6b8342cc5290567467d3",
+    "sharpe": 0.604961143512246,
+    "max_month": 0.2141810309022676
+  },
+  {
+    "path": "search/2023/cnn/9d1067080f735dc67071",
+    "sharpe": 0.44636496790452956,
+    "max_month": 0.2565675442662514
+  },
+  {
+    "path": "search/2023/cnn/2d3118e2d5209e505e83",
+    "sharpe": 0.18366317452095787,
+    "max_month": 0.28769909022698403
+  },
+  {
+    "path": "search/2023/hmm/61198e38778f52338ea4",
+    "sharpe": 0.5667287540402501,
+    "max_month": 0.3516722611881209
+  },
+  {
+    "path": "search/2023/hmm/7bd2fb9ce6867e7aaa3a",
+    "sharpe": 1.0065039248521779,
+    "max_month": 0.3091741651730002
+  },
+  {
+    "path": "search/2023/hmm/e07be0f84ec1fabb312c",
+    "sharpe": 0.1521538927163887,
+    "max_month": 0.2680233364618365
+  },
+  {
+    "path": "search/2023/hmm/117af451f1e960972d9a",
+    "sharpe": 0.46365681178897894,
+    "max_month": 0.23685191282239226
+  },
+  {
+    "path": "search/2023/hmm/e061ef1f507838832a70",
+    "sharpe": 0.3500292291545236,
+    "max_month": 0.25226069217690306
+  },
+  {
+    "path": "search/2023/hmm/317151044693a9cbda0e",
+    "sharpe": 1.039384703179502,
+    "max_month": 0.28428105004672855
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "status": "aborted",
+  "reason": "summary construction used duplicate capital keyword; first account CSVs written in each worker but no completed account receipt; no strategy conclusion",
+  "fix": "merge dictionaries explicitly; rerun under new frozen source and protocol",
+  "complete_accounts": 0
+}

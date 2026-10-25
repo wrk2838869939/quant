@@ -1,0 +1,79 @@
+{
+  "status": "complete",
+  "reviews": 57,
+  "codes": 172,
+  "variant_cells": 49020,
+  "prefix_checks": 285,
+  "reference_variants_exact": [
+    "baseline",
+    "persist10"
+  ],
+  "order_checks": [
+    {
+      "left": "persist10",
+      "right": "accelerated",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "accelerated",
+      "right": "baseline",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "baseline",
+      "right": "patient",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "accelerated",
+      "right": "hybrid",
+      "known_cells": 9616,
+      "violations": 0
+    },
+    {
+      "left": "hybrid",
+      "right": "patient",
+      "known_cells": 9616,
+      "violations": 0
+    }
+  ],
+  "full_schema_preserved": true,
+  "numerical_boundary_cells": 0,
+  "numerical_report_sha256": "badb72a1063e6e8d57812932c30736fab0d5295cf9cf34e042f259971d2012b4",
+  "parent_matrix_proof_sha256": "e79581da1c39bb62aa61c37fad8d8e65c4bd94a5fb59a7083802f008b2f57c62",
+  "input_hashes": {
+    "execution_predictions.parquet": "e11d1d5903ac350eba213e30110846199712ba642a4779a21615f229008a8112",
+    "daily_close.parquet": "addb0d6bc6d1ee1557c14c735fa348ce44c64adda641e6df2ad423f439f8da58",
+    "daily_trend.parquet": "7d1dcef4e51049fc0f7a899109163eb498240795d34daeb73327dd8b917788ba",
+    "daily_observable.parquet": "bd5f23c71b75880a760ae0061930f3eb4f7139d8c10548db6f09b788e7c597ab",
+    "monthly_observable.parquet": "ba01057f9aefae1536dfabdfe0aa68d07f6ceda7303a1c9b81f0aed266e7ed82",
+    "monthly_weak.parquet": "57b6d084451fcd4225e980dd3fecb2880254d83af9f7e3ba3301f9f2958e4960",
+    "monthly_failure_streak.parquet": "a9b41ab3eac73b26cee562fa1f60916f56d682eca2354be7e9c605f38fb7db95",
+    "daily_weak_count.parquet": "1962f835ebc01c1f1c13dbd56cb8af30191adf9879138ed580443e1e60ec8239",
+    "daily_known_count.parquet": "29498ffc49c3a8db482466f4ef3167c65654ae80d8fe4acf46fa3f861af5e8af",
+    "long_intact.parquet": "f3d68a61c5d5ad9634b842d8570afe8aafe3baf335e65f29f806eea011bc8a50",
+    "long_broken.parquet": "1cfc6253bc9a8aa6de99ae380489beb919ac2f86f0985f618aceb20c0b7b4051",
+    "weak_regime.parquet": "223926cc42451a79f67ec188e9643cd6256994a10bf379c793788e2ac8856d8f",
+    "long_return.parquet": "546abcd7500feffa1329e87ef072fbb2dd6ea894476a94bd9c07f5a22bd95ba2",
+    "long_ma.parquet": "8cdfdb5cab13cac3e03eea057ec77de3cb9dd746ddd88329a0d5248417b1c252",
+    "long_ma_gap.parquet": "21e314fe611f519c13d11d466eee08fbcc49aacc0717feb4e00ecba1832fc2f8",
+    "execution/monthly_hold_allowed.parquet": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+    "execution/low_turnover_signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "execution/low_turnover_point_forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "execution/market.parquet": "e3fb227ca6d9a177e14f40f6d156abd4570eebcebc35819b8c20d0615aa9fa0f",
+    "execution/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "execution/st.parquet": "0eecd4c1464ef9f910688b6baf3ec6afa8daa2b027d862a59601fca01150fc69",
+    "execution/limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "execution/raw_actions.parquet": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+    "execution/normalized_actions.parquet": "f7baa9e8133099671df013e6a297b010f947f8b132033a90eaf5b9f3cde6ff57",
+    "hold_variants/baseline.parquet": "ea047aea6654dfc27c612e4cc02234c1d9c84b314c0ecbb3eefb2b8b2916126c",
+    "hold_variants/persist10.parquet": "5eef0a1e54ea176897261ee6a9d8e1f7b761f4476783f945fa091272a195dcb8",
+    "hold_variants/accelerated.parquet": "4e4c8847fc753068032871219e6f53f092a709e34566c7b0d134a9ef81a480c6",
+    "hold_variants/patient.parquet": "e36153f114b1dc99bf83e5ab690d71206d4d58106fe3903c8645762db63144e9",
+    "hold_variants/hybrid.parquet": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef"
+  },
+  "verifier_sha256": "d0571a19f87ee50c831bf1c55285cf0b9649c4ce7f57844a1218fae575824c54"
+}

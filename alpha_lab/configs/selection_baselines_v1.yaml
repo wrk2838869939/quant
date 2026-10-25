@@ -1,0 +1,150 @@
+# 已验证非学习基线登记；不可用新试验自动改写。
+schema_version: 1
+registry_id: selection_baselines_v1
+status: research_baselines
+account_config: alpha_lab/configs/selection_account_v1.yaml
+source_run: alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z
+source_manifest_sha256: 2dbd0ae700e5c4454e9e3e67448cb17b94905302ce5f186b58414c9c49919c52
+source_choices_sha256: f77f5886ef9116f778ab8ccec53e7ed4f975ee6460013f81e48fdddad27d02cd
+evaluation:
+  start: '2021-01-01'
+  end: '2023-12-31'
+  capital_continuous: true
+  scope: observed_93_stock_engineering_sample
+parameter_policy: historical_inner_selected_annual_schedule_pinned_no_reoptimization
+acceptance:
+  require_positive_total: true
+  max_drawdown: 0.3
+prefix_checks:
+- '2021-06-30'
+- '2022-06-30'
+- '2023-06-30'
+protected_source_hashes:
+  alpha_lab/src/rule_search.py: 5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda
+  alpha_lab/src/portfolio.py: 06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2
+  alpha_lab/src/classic_smoke.py: 6e203fb5c7d815d8f7aa5c547805dac99ba8a18aff342c362916bb3ba76328f4
+  alpha_lab/scripts/audit_monthly_portfolio.py: 82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1
+  alpha_lab/configs/classic_strategy_smoke.yaml: 91f55fbf1334a081038353f67ecedd88c7e42bf945c85d24b46510de8a01b825
+  alpha_lab/configs/monthly_portfolio_audit.yaml: 926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0
+  alpha_lab/configs/corporate_action_components.yaml: 2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5
+  alpha_lab/configs/selection_account_v1.yaml: 50d3f83b6868c4bfcdfba56edd58d6f904a206fb454fd9bbcee5f0f522e30422
+baselines:
+  B01_low_turnover:
+    name: 低换手
+    source_family: S01
+    annual_parameters:
+      2021:
+        selection_id: b043383bc25903b57e44
+        inner_end: '2020-12-31'
+        params:
+          family: S01
+          variant: low_mean_turnover
+          window: 26
+          frequency: weekly
+          top_n: 3
+      2022:
+        selection_id: c7e8d0c337a78f804c87
+        inner_end: '2021-12-31'
+        params:
+          family: S01
+          variant: low_mean_turnover
+          window: 108
+          frequency: weekly
+          top_n: 5
+      2023:
+        selection_id: 605c48c2639f1a38853b
+        inner_end: '2022-12-31'
+        params:
+          family: S01
+          variant: low_mean_turnover
+          window: 119
+          frequency: weekly
+          top_n: 5
+    reference_artifacts:
+      signals.parquet: 4ee7fce131ed0cba7a1067ff4eff015d3f0a072f2ff12089574a10747be7892f
+      top_n_schedule.parquet: 281188a543d92c4a771edb6913b9f0bffffcf4ad7c2939906980b4554a0225ab
+      daily.parquet: 21f79e7c40a79a8a2cdb7e1a7fc059f10891a74f6bafc0203d37eb50220bf8d1
+      trades.parquet: e976eec06506945051a905f2290249bceb3b258ac75b9809ca3ff1118a439a1b
+      events.parquet: 7b92191090c522d73ebb2a80bddcc9fc704b02909181314f6396ce6e1069cbe6
+      holdings.parquet: b82b1d08e663a1a96a7dda884892544ac9272ec88fe8dcf2988b794f3c9a9e41
+  B02_low_risk:
+    name: 低波动/振幅
+    source_family: S02
+    annual_parameters:
+      2021:
+        selection_id: d624dbdb5feca317e537
+        inner_end: '2020-12-31'
+        params:
+          family: S02
+          variant: low_vol
+          window: 19
+          frequency: monthly
+          top_n: 3
+      2022:
+        selection_id: eb71faf2c710d03cdbd5
+        inner_end: '2021-12-31'
+        params:
+          family: S02
+          variant: low_amplitude
+          window: 115
+          frequency: weekly
+          top_n: 5
+      2023:
+        selection_id: ba2c878a864e02c9f0ca
+        inner_end: '2022-12-31'
+        params:
+          family: S02
+          variant: low_vol
+          window: 32
+          frequency: monthly
+          top_n: 3
+    reference_artifacts:
+      signals.parquet: 6cde9e11fa3ab333139c5c7933f31bde2d78504ccb6825390d5b9472319e7469
+      top_n_schedule.parquet: fe798ac4ea889336e6b5f35a2d3af907d5aeb0ef646a80c7230b6bd91f9a7c0d
+      daily.parquet: 6c7e6c75c10e9340033fd15a8c60c9199106c95d4ce57b9943404371b29494ae
+      trades.parquet: d69b748ac2ab5d48da118dcc551ed6aab18dfd8c9f7bad68ac26f4f438e055bd
+      events.parquet: 90286bd8f031f6a29c82e1d868fb90314cab61647c322961c65f736de7a925c9
+      holdings.parquet: 2951b9acee42a9fe440406b33affacbdf46655c16a96465a0913a73e3a18d003
+  B03_valuation:
+    name: 正盈利收益率估值
+    source_family: S04
+    annual_parameters:
+      2021:
+        selection_id: 1e83d4223d2d8479dfe5
+        inner_end: '2020-12-31'
+        params:
+          family: S04
+          variant: positive_ep
+          exclude_smallest_mv_quantile: 0.07
+          frequency: monthly
+          top_n: 4
+      2022:
+        selection_id: 2d01080807e6bb07aa69
+        inner_end: '2021-12-31'
+        params:
+          family: S04
+          variant: positive_ep
+          exclude_smallest_mv_quantile: 0.29
+          frequency: weekly
+          top_n: 5
+      2023:
+        selection_id: d0934240d1ba253a32c0
+        inner_end: '2022-12-31'
+        params:
+          family: S04
+          variant: positive_ep
+          exclude_smallest_mv_quantile: 0.23
+          frequency: weekly
+          top_n: 5
+    reference_artifacts:
+      signals.parquet: 0632b0eef4a5993eab342192b395d915ef7a8d7f0b6df9d432892235b5e3aba4
+      top_n_schedule.parquet: 6dcaaa6d00bcb97a24b8685a9797e18550ee9dd5a923eae985a2072542e7af7c
+      daily.parquet: 78c6c42e176117e581888e6f3287b3ee7234d15066f60de43c426d8f9cad8334
+      trades.parquet: 5196c509f13a3a597d651b62284835de25574ae3b6caf4dc3a544d9a97fa1efe
+      events.parquet: 47771fe11df5d2d20d585a6b19cb9b5ad398424005a8208d8c1b9958c0c4613e
+      holdings.parquet: bc92d2ab13248244a0e3f6cc0982244d566d4b28679c3b4262fa095b9ffc1b98
+limitations:
+- 按已观察结果挑选的工程基线，不是独立样本外认证
+- 93股存在全窗口质量隔离偏差
+- 固定的是年度参数路径，不是单一常数参数；2023之后没有参数授权
+- 30%为历史验收线，不是交易中保证执行的强平线

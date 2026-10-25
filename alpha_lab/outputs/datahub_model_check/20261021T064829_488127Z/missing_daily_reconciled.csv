@@ -1,0 +1,10 @@
+ts_code,act_ent_type,act_name,area,board,cnspell,delist_date,exchange,industry,list_date,list_status,market,name,symbol,核验结论,外部来源
+000016.SZ,中央国企,中国华润有限公司,深圳,sz_main,*STKJA,,SZSE,家用电器,19920327,L,主板,*ST康佳A,16,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+002388.SZ,自然人,王伟华,浙江,sz_main,XYZC,,SZSE,元器件,20100413,L,主板,新亚制程,2388,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+002717.SZ,地方国企,中山火炬高技术产业开发区管理委员会,广东,sz_main,*STLN,,SZSE,环境保护,20140219,L,主板,*ST岭南,2717,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+002731.SZ,自然人,陈思伟,辽宁,sz_main,*STCH,,SZSE,服饰,20141104,L,主板,*ST萃华,2731,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+301314.SZ,自然人,"于志江,王兆春,文彩霞",广东,chinext,KRS,,SZSE,元器件,20230328,L,创业板,科瑞思,301314,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+301468.SZ,自然人,李海生,广东,chinext,BYTH,,SZSE,专用机械,20230724,L,创业板,博盈特焊,301468,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet
+601059.SH,中央国企,中央汇金投资有限责任公司,北京,sh_main,XDZQ,,SSE,证券,20230201,L,主板,信达证券,601059,10月19日已终止上市，主档状态未更新,https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20261012_10834561.shtml
+601198.SH,中央国企,中央汇金投资有限责任公司,北京,sh_main,DXZQ,,SSE,证券,20150226,L,主板,东兴证券,601198,10月19日已终止上市，主档状态未更新,https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20261012_10834560.shtml
+688496.SH,自然人,高裕弟,江苏,star,*STQY,,SSE,元器件,20221228,L,科创板,*ST清越,688496,全日停牌，无日线属预期,本次查询 suspend_d，详见同目录 parquet

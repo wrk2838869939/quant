@@ -1,0 +1,770 @@
+[
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": 64,
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B01_low_turnover",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B02_low_risk",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "B03_valuation",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "baseline",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "validation_selected",
+    "cutoff": "2023-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2021-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2022-06-30",
+    "passed": true
+  },
+  {
+    "checkpoint": "final",
+    "host": "equal_weight",
+    "initialization": "random",
+    "selector": "training_champion",
+    "cutoff": "2023-06-30",
+    "passed": true
+  }
+]

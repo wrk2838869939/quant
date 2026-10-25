@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "old_monthly_signals_exact": true,
+  "stocks": 457,
+  "entries": 1106,
+  "exits": 1062,
+  "primary_events": 1036,
+  "prefix_checks": [
+    {
+      "cutoff": "2019-06-28 00:00:00",
+      "events_exact": true,
+      "hold_exact": true,
+      "features_exact": 9
+    },
+    {
+      "cutoff": "2023-06-30 00:00:00",
+      "events_exact": true,
+      "hold_exact": true,
+      "features_exact": 9
+    }
+  ],
+  "hashes": {
+    "events.parquet": "9deb3843d8278a53db2c3c54c1a984de1fda08997e8c1a3fedec893181a590c9",
+    "events.csv": "1fdf508c1e3c5d7c55bd956e0d26465fda8aa412e785f707db1d80b868228177",
+    "entries.csv": "40b84406ab9def7320dc3000be4fba085010037c0ddfc9f76c9849cc03c56ba9",
+    "open_spells.csv": "7c1601adf3e1e8f6d75e8581b2873dc5524391072d8437334654730311bfc9f6",
+    "universe_coverage.csv": "017e1c8827b3049e09e1c6c1668ef73f8ccb76907d5723450c5504d892132901",
+    "close.parquet": "c45c5033f22a510eb251ac7e92dd6d4d125efcebb931ca1536f2c7ba585b0d75",
+    "trend.parquet": "6e2ad4a0cc301a5c4c8d7d82216b7605d89098cb19e91d514786792dc0faf851",
+    "observable.parquet": "79c11baa7319c08041ec7d118c7f5301194776a11ff642ac205bf5ca931d52c7",
+    "signals.parquet": "0b9bd11b862eb468ac3f9f589776c008595fc246a657dd4e4818dfb87667aa83",
+    "hold.parquet": "38ef89dac2b70cd393d9731a688781d0a274274c123e4d098246ecb0d863a240"
+  }
+}

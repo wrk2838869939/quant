@@ -1,0 +1,8 @@
+# 对已完成50只研究账本做过程审计，不代表未来真实资金或持仓数量已确认。
+prepared: outputs/style_attribution/20260911T160006_201315Z
+strategy: candidate
+raw_signals: outputs/long_only_followup/20260911T141208_459585Z/tail_signal_signals.parquet
+output_root: outputs/process_diagnostics
+reserve_cash: 105000.0
+forward_horizons: [5, 10, 20]
+worst_days: 10

@@ -1,0 +1,99 @@
+# 首批学习策略；参数域在正式训练搜索之前锁定。
+schema_version: 1
+study: learning_strategy_search_v1
+source_run: alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z
+account_config: alpha_lab/configs/selection_account_v1.yaml
+seed: 20260920
+budget_per_family_fold: 32
+inner_start: '2020-01-01'
+outer_years: [2021, 2022, 2023]
+training:
+  min_dates: 126
+  min_rows: 2000
+  min_features: 6
+  rank_levels: 5
+  min_ic_stocks: 10
+  elastic_max_iter: 10000
+  elastic_tolerance: 0.0001
+  feature_missing: zero_centered_rank_plus_missing_indicator
+  label_availability: end_of_horizon_strictly_before_fit_date
+  target: next_session_adjusted_open_to_horizon_adjusted_close_gross_return
+  risk_target: max_zero_one_minus_min_adjusted_low_over_entry_in_same_horizon
+  label_path: complete_positive_ohlc_no_forward_fill
+search:
+  global_fraction: 0.5
+  local_fraction: 0.25
+  distinct_centers: 4
+  tie_band: 0.005
+  max_drawdown: 0.30
+common_axes:
+  horizon: [5, 10, 20]
+  train_window: [252, 504, 756]
+  retrain_months: [1, 3]
+  frequency: [daily, weekly, monthly]
+  top_n: [3, 4, 5]
+families:
+  factor_weight:
+    ic:
+      shrinkage: [0.0, 0.25, 0.5, 0.75]
+      keep_features: [0, 5, 10]
+    icir:
+      shrinkage: [0.0, 0.25, 0.5, 0.75]
+      keep_features: [0, 5, 10]
+  linear:
+    ridge:
+      alpha: [0.1, 1.0, 10.0, 100.0, 1000.0]
+    elastic_net:
+      alpha: [0.0001, 0.0003, 0.001, 0.003, 0.01]
+      l1_ratio: [0.1, 0.5, 0.9]
+  lgbm:
+    regression: &tree_axes
+      n_estimators: [32, 64, 128]
+      num_leaves: [3, 7, 15]
+      min_child_samples: [100, 300, 600]
+      learning_rate: [0.03, 0.1]
+      reg_lambda: [0.0, 1.0, 10.0]
+    ranking: *tree_axes
+  dual:
+    ridge:
+      alpha: [0.1, 1.0, 10.0, 100.0, 1000.0]
+      risk_aversion: [0.25, 0.5, 1.0, 2.0]
+      risk_cap: [0.05, 0.1, 0.2, 1.0]
+    regression:
+      <<: *tree_axes
+      risk_aversion: [0.25, 0.5, 1.0, 2.0]
+      risk_cap: [0.05, 0.1, 0.2, 1.0]
+# 固定特征规格沿用机制登记，不使用上一轮择优窗口或外层成绩筛选因子。
+features:
+  low_turn20: {family: S01, window: 20}
+  low_vol20: {family: S02, variant: low_vol, window: 20}
+  low_amp20: {family: S02, variant: low_amplitude, window: 20}
+  amihud20: {family: S03, window: 20}
+  ep: {family: S04, variant: positive_ep, exclude_smallest_mv_quantile: 0.0}
+  bp: {family: S04, variant: positive_bp, exclude_smallest_mv_quantile: 0.0}
+  reversal5: {family: S05, window: 5}
+  reversal20: {family: S05, window: 20}
+  skip_mom60: {family: S06, lookback: 60, skip: 5}
+  trend_gate: {family: S07, variant: trend_gate, short_window: 60, long_window: 120, ma_window: 120}
+  trend_quality: {family: S07, variant: continuous_trend, short_window: 60, long_window: 120, ma_window: 120}
+  flow_amount20: {family: S10, variant: net_flow_amount, window: 20}
+  flow_ratio20: {family: S10, variant: net_flow_over_amount, window: 20}
+  flow_mv20: {family: S10, variant: net_flow_over_float_mv, window: 20}
+  flow_bucket20: {family: S10, variant: net_flow_over_bucket_gross, window: 20}
+  state_return: {family: S19, state_window: 20, return_window: 20, vol_quantile: 0.5, turnover_quantile: 0.5}
+  conditional_amp20: {family: S20, window: 20, high_quantile: 0.8, low_quantile: 0.2}
+  volume_corr20: {family: S21, window: 20}
+  turnover_change: {family: S22, variant: turnover_change_momentum, short_window: 5, long_window: 20}
+  high_proximity250: {family: S23, window: 250}
+  momentum20: {family: momentum, window: 20}
+  macd: {family: macd, fast: 12, slow: 26, signal: 9}
+  moving_average: {family: moving_average, fast: 20, slow: 60}
+controls:
+  frequencies: [daily, weekly, monthly]
+  top_n: 5
+  fixed_features: [low_turn20, low_vol20, ep]
+limitations:
+  - 93股工程样本保留全期质量隔离偏差，已观察历史不能恢复为新鲜样本外
+  - 标签是价格目标，实际成交可行性与费用由独立账户引擎决定
+  - MAE是持有路径风险目标，不能保证组合最大回撤
+  - 不扩展数据、不按既往负结果删除因子、不保证搜索到全局最优

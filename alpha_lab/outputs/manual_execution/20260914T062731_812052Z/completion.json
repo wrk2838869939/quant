@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "tests_passed": 63,
+  "prior_artifacts_verified": 58,
+  "root_agents_unchanged": true,
+  "mail_sent": false,
+  "live_submission": false,
+  "artifact_sha256": {
+    "draft_cli.log": "d0cf1419e4995f52c949bbda1839e691e19fb41cbcf0f76e81707283d7ec4e13",
+    "historical_example/briefing.eml": "ef8abe36351f6efd7d35a4793fa8b7955d6fc76083c14167391d7229293b2da6",
+    "historical_example/briefing.txt": "67d4998641c902d12aa7d3878588a39501a603ec37340e8b422b0cc6cb01430d",
+    "historical_example/receipt.json": "688d93e6179d32c26fed26103313262c8d55b11eef1d7a20be0346c1ceaa7a83",
+    "sources/configs/manual_execution.yaml": "6f5a0a422642afc6ba69b9c4e097e38aea8ccf40a1bff9ca45b4e7ef81df40b0",
+    "sources/docs/MANUAL_EXECUTION_GUIDE_20260914.md": "4508d393f2921ae5ea6b20293355be24590da8f9f8a9c869b44b322ff80b96df",
+    "sources/scripts/manual_execution.py": "b696573cf09edb6688455aec051bd00c4f9ea05204a4a890fda0450bbdf0c2f6",
+    "sources/src/manual_execution.py": "4e310be30f84e3e1c4359c1b225e0e641e85d422d3dfed15b129921c95307d75",
+    "sources/tests/test_manual_execution.py": "3bd87e396e7b346060ce6220c303f43d4f7238615451e28d4c5f206eb5655647",
+    "tests.log": "7e1458e25581c2d24ebd6bcc3c87efd86af411ed3b91e6a6d2da7b0d012aedcc"
+  }
+}

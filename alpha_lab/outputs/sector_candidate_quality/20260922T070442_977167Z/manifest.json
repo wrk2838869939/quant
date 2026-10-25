@@ -1,0 +1,138 @@
+{
+  "status": "complete",
+  "dataset_content_id": "12e9fc88adc9319c932598aa340136087d0fbeacf2e9bd2f50ae35022e166aa1",
+  "source_manifest_sha256": "2221696678af892ef379950418fd68c9dd1d896b91b69acab949cc3787049685",
+  "config": {
+    "dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "events": "alpha_lab/outputs/sector_shape_events/20260922T024547_848112Z",
+    "output_root": "alpha_lab/outputs/sector_candidate_quality",
+    "benchmark": "000300.SH",
+    "primary_horizon": 20,
+    "horizons": [
+      5,
+      10,
+      20
+    ],
+    "recent_days": 2,
+    "preceding_days": 3,
+    "minimum_observation_coverage": 0.8,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20260922,
+    "minimum_ci_clusters": 5,
+    "minimum_display_dates": 5,
+    "cluster_gap_sessions": 20,
+    "prefix_check_date": "2023-06-30",
+    "font": "fonts/SimHei.ttf",
+    "dpi": 170,
+    "bins": {
+      "drawdown_depth": [
+        0,
+        0.2,
+        0.3,
+        1.01
+      ],
+      "decline_speed": [
+        0,
+        0.01,
+        0.02,
+        1.01
+      ],
+      "slowdown_ratio": [
+        0,
+        0.2,
+        0.45,
+        1.01
+      ],
+      "breadth_change": [
+        -1.01,
+        0,
+        0.2,
+        1.01
+      ],
+      "turnover_contraction": [
+        0,
+        0.7,
+        1.0,
+        1000
+      ]
+    },
+    "labels": {
+      "drawdown_depth": [
+        "回撤15%–20%",
+        "回撤20%–30%",
+        "回撤≥30%"
+      ],
+      "decline_speed": [
+        "平均跌速<1%/日",
+        "平均跌速1%–2%/日",
+        "平均跌速≥2%/日"
+      ],
+      "slowdown_ratio": [
+        "减速比<0.20",
+        "减速比0.20–0.45",
+        "减速比≥0.45"
+      ],
+      "breadth_change": [
+        "上涨占比下降",
+        "上涨占比改善<20pp",
+        "上涨占比改善≥20pp"
+      ],
+      "turnover_contraction": [
+        "换手比<0.70",
+        "换手比0.70–1.00",
+        "换手比≥1.00"
+      ]
+    },
+    "feature_names": {
+      "price_zone": "价格位置",
+      "drawdown_depth": "回撤幅度",
+      "decline_speed": "平均下跌速度",
+      "slowdown_ratio": "最近跌速变化",
+      "breadth_change": "上涨占比变化",
+      "turnover_contraction": "近期换手变化"
+    },
+    "price_zones": [
+      "跌穿平台下沿",
+      "平台区间内",
+      "平台上沿至上涨初期",
+      "高于上涨初期参照"
+    ],
+    "leader_gap_edges": [
+      -1000,
+      -0.01,
+      0.01,
+      1000
+    ],
+    "leader_gap_labels": [
+      "龙头落后其余成员≥1pp",
+      "龙头与其余成员接近",
+      "龙头领先其余成员≥1pp"
+    ],
+    "minimum_leader_observations": 2,
+    "minimum_remaining_observations": 2
+  },
+  "artifacts": {
+    "leader_gaps.parquet": "ece8d8fd6d812c7163e79e419744f6458c0b3729c496f47bbe636a75be766aed",
+    "candidate_features.parquet": "45a1d991c04dea4ebfd47dfd0586c6a0feb724203984e3101257c0c92f5e24b5",
+    "candidate_features.csv": "44dfb4fd3672ffe56a97d3ca98509be0b3981829b03b9a36ddd314007baef753",
+    "analysis_with_outcomes.parquet": "ddf5619b9ec0f9976bac088f27b9000595e2e6a35b5111231730219bfb8ae537",
+    "group_summary.csv": "b56fabf546c39671074317aa393c6e7f43184b77b561f6d7b3a9c7cade1892b6",
+    "baseline_by_horizon.csv": "d3958112634a17f68f3cb6321137fc932cc446786808a4c207e15a1c772312cc",
+    "date_clusters.csv": "5cdfa1ea619ee9e0027b35b439eeee1728fe93de7b2ce6455208d2cb120dc725",
+    "cluster_sizes.csv": "3d4e4e90653a24d78baea1991840fbd859bcc86a0f3cf2f8734bae2afec9b650",
+    "within_date_rank_diagnostics.csv": "e3f556a19afdee209b8932149589e6695a81c2bcd10499fcc9d029cdc51a6220",
+    "largest_cluster_excluded.csv": "cb9322b45a9751387536bf5bace7847d0b99283bf6aa2a33efb61e817dc85712",
+    "position_turnover_grid.csv": "ebbd72b774a28c7ab81e37e872a9d9b4fe925a1e5dc3ce2d3204481591be3a3e",
+    "quality_groups.png": "74274db3d42fbee7b1b0abb86fddf2259678090fd49339e032b4fed02cca6858",
+    "quality_groups.pdf": "888b27b6c83e87b50c9ed8367ca7e6d7b870fa03519e6986a79bc199dec72010",
+    "sample_diagnostics.png": "cd3c884b795e605eaf01c381e46289dc68d2d9d832c0a02f7fcfe5c8e8af1a65",
+    "same_day_ranking_support.csv": "9a333ce6219250a8995463092294ce0264cbd708dea7de8df0a1a5c0ec017f0a",
+    "summary.json": "fe79f8fcf5914e8bbf44ed0045c7c7bd1b26d73c47a1f032929e0c9fd4a48a41",
+    "README.md": "672fd69655e60a32ed6d4e9d5586b6014957d6b1b2ce9074f124504b3bc9e255",
+    "validation.json": "7d61a1d2567c716d7070bbaf69fd389a1756042692337cb64a27e53cdc2b2894",
+    "sector_candidate_quality_v1.yaml": "02e34a731bcdc5e8b67359c02153878665cead9a4355360cdc5fc7e2651b8e45",
+    "research_sector_candidate_quality.py": "b94418bcc84a8b5eb772aead77e23aa0a60bcfb1d8f9c57e48d5fd0479efeb1d",
+    "sector_candidate_quality.py": "89d03c98353a2072de333266bd79ef0b62f26b4cc01bc4b9f0379cdf98340652",
+    "test_sector_candidate_quality.py": "1c195ee5931fb2eb6b7ca6c847cd9a73bddc71c1121902e4530f7a611b32b04e"
+  }
+}

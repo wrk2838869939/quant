@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "inherited_daily_boundaries": [
+    {
+      "date": "2025-10-15",
+      "ts_code": "605296.SH",
+      "close": 41.65625,
+      "numpy_mean": 41.65625,
+      "pandas_mean": 41.65624999999999,
+      "numpy_trend": false,
+      "frozen_trend": true
+    }
+  ],
+  "weak_count_changes": [
+    {
+      "date": "2025-11-03",
+      "ts_code": "605296.SH",
+      "frozen_count": 18.0,
+      "flipped_count": 19.0,
+      "persistence_threshold": 10,
+      "threshold_truth_unchanged": true
+    }
+  ],
+  "review_trend_and_monthly_streak_unchanged": true,
+  "prices_and_review_long_state_unchanged": true,
+  "changed_hold_cells": {
+    "baseline": 0,
+    "persist10": 0,
+    "accelerated": 0,
+    "patient": 0,
+    "hybrid": 0
+  },
+  "account_rerun_performed": false,
+  "reason": "原单格每日趋势翻转不是review；唯一弱计数18到19不改变>=10，加速谓词不变，耐心谓词只用原review长期状态与月度计数。",
+  "parent_sensitivity_sha256": "8f7051923206f67f444ac8469296c83076fe46c024e41baa18d602f97c62c2e5"
+}

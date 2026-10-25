@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_artifacts": 56,
+  "pages": 17,
+  "figure_groups": 12,
+  "excel_sheets": 20,
+  "event_rows": 105,
+  "candidate_rows": 193,
+  "stock_diagnostics": 3935,
+  "path_endpoint_checks": 106
+}

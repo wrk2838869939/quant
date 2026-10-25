@@ -1,0 +1,6 @@
+{
+  "contract": "同轮次同股实际风控卖出和实际恢复FIFO配对；价差减漏领税前股息减两端按股费用，与始终持有这些配对股数比较。",
+  "unpaired_sales": "未补回部分不在此表，不能把配对总额当作全策略总损益。",
+  "subsequent_returns": "补回后20日复权价格仅诊断代理，不保证实持20日。",
+  "independent_samples": false
+}

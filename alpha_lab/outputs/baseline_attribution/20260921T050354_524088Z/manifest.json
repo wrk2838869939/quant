@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "study": "baseline_attribution_v1",
+  "dataset": {
+    "release": "datahub/releases/selection_v1_20260920",
+    "snapshot_id": "selection_v1_20260920",
+    "content_id": "c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3"
+  },
+  "source_hashes": {
+    "alpha_lab/scripts/run_baseline_combination.py": "11369f2a15b4aac980d09f29d6c0c9b99c544ff324f3e3c6c0d14a7a681e3fe9",
+    "alpha_lab/src/baseline_combination.py": "53b1886db681caffb739bb9cd2e25ef020d220bb6dd14e49dad8b015d4b12ca6",
+    "alpha_lab/src/selection_baselines.py": "c8300384aae8596ce2c40d9fe95ba4eccce906d998215169c7c97eb707e46edb",
+    "alpha_lab/src/learning_search.py": "a7bc8ec5970e6ea22f331744b10e2b9347db7bd6c613fda0ef38b4c48129c90c",
+    "alpha_lab/src/rule_search.py": "5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda",
+    "alpha_lab/src/portfolio.py": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+    "alpha_lab/src/classic_smoke.py": "6e203fb5c7d815d8f7aa5c547805dac99ba8a18aff342c362916bb3ba76328f4",
+    "alpha_lab/scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "alpha_lab/scripts/run_rule_strategy_search.py": "0172c406d30fc55032042ec4f00062df2f91f789556455e568ddf5c806a48cb0",
+    "alpha_lab/scripts/run_classic_strategy_smoke.py": "563f392304acbdd645c78f218d9c97847728ccb4a7bb246059b865d3dad292a2",
+    "alpha_lab/tests/test_baseline_combination.py": "bfa2ec7e1ff3982b1338c88f48875ab9ee53cb548e5b8f4531eff168568c4638",
+    "alpha_lab/docs/BASELINE_COMBINATION_PREREG_20260920.md": "cd240c0d0f1c8ba060b87d540f8cc94e99dfe7227892be4f1246bdca1e95ee9f",
+    "alpha_lab/configs/baseline_combination_v1.yaml": "0bfdd42dcde81d8cc3f822a8ca674387ad66eeb4469b93a037fd60469055ffef",
+    "alpha_lab/configs/selection_baselines_v1.yaml": "c2a4259841c05f766b320ec7f732777e05e605f3cb928fdf5f5b34b6722ba04e",
+    "alpha_lab/configs/selection_account_v1.yaml": "50d3f83b6868c4bfcdfba56edd58d6f904a206fb454fd9bbcee5f0f522e30422",
+    "alpha_lab/scripts/run_baseline_attribution.py": "db0f842d76a9d9fd5ffbc7f005365897e7a20a48e61242f4d66dabbc5dfcd696",
+    "alpha_lab/configs/baseline_attribution_v1.yaml": "3b1d6f610593861ca82e20290c35b5c99331ec14d78fb751e0b403ec730ecf95",
+    "alpha_lab/src/baseline_attribution.py": "5e8b70c729239810816618ab42d4b11f4671044bc3da677c037b1d87f115ae07",
+    "alpha_lab/tests/test_baseline_attribution.py": "0585a7ae8f9018c65c7e693d8bd1b58249b663201cfead85b380aa96b933f996"
+  },
+  "source_manifest_sha256": "6c60afbf2e05fd307e890fd8cfa9716959369ee5b3285105d2479e6b79cb0487",
+  "unbiased_oos": false,
+  "report": "alpha_lab/docs/BASELINE_ATTRIBUTION_RESULTS_20260921.md",
+  "report_sha256": "665f47aabce38ad0908b3f09ae305a3c68c27fb525748126a57b69d98f7862ac",
+  "baseline_replays": 4,
+  "counterfactual_replays": 12,
+  "max_reconciliation_error": 2.2964741219766438e-11
+}

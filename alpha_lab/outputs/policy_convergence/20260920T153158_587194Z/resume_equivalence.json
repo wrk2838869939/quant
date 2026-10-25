@@ -1,0 +1,218 @@
+[
+  {
+    "task": [
+      2021,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "B01_low_turnover",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "B02_low_risk",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "B02_low_risk",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "B03_valuation",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "B03_valuation",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "equal_weight",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2021,
+      "equal_weight",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B01_low_turnover",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B02_low_risk",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B02_low_risk",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B03_valuation",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "B03_valuation",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "equal_weight",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2022,
+      "equal_weight",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B01_low_turnover",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B01_low_turnover",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B02_low_risk",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B02_low_risk",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B03_valuation",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "B03_valuation",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "equal_weight",
+      "baseline"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  },
+  {
+    "task": [
+      2023,
+      "equal_weight",
+      "random"
+    ],
+    "exact_candidate_vectors": 96,
+    "exact_centers": 8
+  }
+]

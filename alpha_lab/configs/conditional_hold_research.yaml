@@ -1,0 +1,14 @@
+# 分治是本轮事前假设，不代表已经识别回调/恶化；不根据本轮收益改规则。
+primary_variant: hybrid
+medium_window: 60
+long_window: 120
+baseline_confirmations: 2
+patient_confirmations: 3
+persistence_window: 20
+persistent_weak_days: 10
+variants:
+  baseline: {accelerate: none, patient: false}
+  persist10: {accelerate: all, patient: false}
+  accelerated: {accelerate: broken, patient: false}
+  patient: {accelerate: none, patient: true}
+  hybrid: {accelerate: broken, patient: true}

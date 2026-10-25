@@ -1,0 +1,2 @@
+family,outer_year,axis,fixed_params,x1,x2,x3,y1,y2,y3
+linear,2021,alpha,"{""family"": ""linear"", ""frequency"": ""daily"", ""horizon"": 10, ""l1_ratio"": 0.5, ""retrain_months"": 1, ""top_n"": 4, ""train_window"": 756, ""variant"": ""elastic_net""}",0.001,0.003,0.01,0.31664497063943187,0.44908076758219195,0.15495754234500203

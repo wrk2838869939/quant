@@ -1,0 +1,27 @@
+# 研究参数用于复现；人工适配配置见monthly_risk_manual.yaml，未启用自动生产。
+status: research_candidate
+production_enabled: false
+capital_reference: 80000
+max_positions: 5
+review_schedule: inherited_monthly_calendar
+selection: frozen_rank_buffer
+signal:
+  evidence: outputs/forward_risk/20260914T104245_763609Z
+  model: volatility
+  target_sessions: 20
+  enter_probability: 0.30245275630569923
+  release_probability: 0.16239408013966727
+portfolio:
+  normal_stock_budget: 1.0
+  high_risk_stock_budget: 0.5
+  allow_new_entries_within_budget: true
+  restore_only_actual_cash_cut_shares: true
+  restore_only_after_risk_episode: true
+  restore_schedule: monthly
+  force_fully_cash: false
+evidence:
+  account_run: outputs/monthly_predicted_budget/20260914T104757_015442Z
+  report: docs/FORWARD_RISK_EVIDENCE_20260914.md
+  independent_oos: false
+manual_execution_config: configs/monthly_risk_manual.yaml
+manual_adapter_report: docs/MONTHLY_RISK_MANUAL_INTEGRATION_20260914.md

@@ -1,0 +1,144 @@
+"""汇总重复确认诊断、两只股票逐日状态与研究限制。"""
+from pathlib import Path
+from datetime import datetime,timezone
+import json,hashlib
+import pandas as pd,numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+import markdown
+ROOT=Path('/root/autodl-tmp');OUT=Path(__file__).resolve().parent
+font=FontProperties(fname=str(ROOT/'fonts/SimHei.ttf'));plt.rcParams['axes.unicode_minus']=False
+states=pd.read_csv(OUT/'hotel_daily_states.csv',parse_dates=['date'])
+stocks=pd.read_csv(OUT/'two_stocks_daily.csv',parse_dates=['date'])
+u=pd.read_csv(OUT/'uncertainty_NOT_TRADABLE.csv');s=pd.read_csv(OUT/'sector_summary_NOT_TRADABLE.csv')
+y=pd.read_csv(OUT/'yearly_NOT_TRADABLE.csv');o=pd.read_csv(OUT/'sector_price_observations_NOT_TRADABLE.csv')
+checks=json.loads((OUT/'replay_checks.json').read_text())
+fits=json.loads((ROOT/'alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/fits.json').read_text())
+for f in fits:
+ if f['status']=='complete':
+  assert pd.Timestamp(f['train_last_label'])<pd.Timestamp(f['cutoff'])<pd.Timestamp(f['start'])
+(OUT/'annual_training_time_check.json').write_text(json.dumps(dict(status='passed',fits_checked=len(fits),all_last_labels_before_embargo_and_year_start=True,no_retraining=True),indent=2))
+# 三幅逐日面板，横轴按交易日排列，避免长假空白掩盖实际先后顺序。
+fig,axs=plt.subplots(3,1,figsize=(12,10),sharex=True)
+x=np.arange(len(states));dates=states.date.dt.strftime('%m-%d').tolist()
+axs[0].plot(x,states.index_close/states.index_close.iloc[0]*100,color='#376b88',label='板块指数（9/17=100）')
+active=states.confirmed.to_numpy();again=states.reconfirmation_start.to_numpy()
+axs[0].scatter(x[active],(states.index_close/states.index_close.iloc[0]*100)[active],color='#4c9f70',label='形态确认',s=42,zorder=3)
+axs[0].scatter(x[again],(states.index_close/states.index_close.iloc[0]*100)[again],facecolors='none',edgecolors='#c75d33',s=140,label='从False恢复True',zorder=4)
+axs[0].set_title('酒店餐饮：19日是第三次恢复确认，不是新的独立市场事件',fontproperties=font)
+axs[0].legend(prop=font)
+for ax,(name,g) in zip(axs[1:],stocks.groupby('name',sort=False)):
+ g=g.sort_values('date');assert g.date.tolist()==states.date.tolist()
+ ax.plot(x,g.model_score,lw=1.6,color='#386d8a',label='年度个股排序分数')
+ ax.axhline(0,color='#888',ls='--');ok=g.observation_candidate.to_numpy()
+ ax.scatter(x[ok],g.model_score.to_numpy()[ok],s=60,color='#389263',label='价格形态通过且分数为正',zorder=3)
+ ax.set_title(f'{name}：17个交易日中有{int(ok.sum())}日进入独立观察名单',fontproperties=font)
+ ax.legend(prop=font)
+for ax in axs:ax.grid(alpha=.18)
+axs[-1].set_xticks(x,dates,rotation=45);fig.suptitle('逐日只用当时成员与行情；观察标记不代表正式买入',fontproperties=font)
+fig.tight_layout();fig.savefig(OUT/'hotel_and_stock_timeline.png',dpi=150);plt.close(fig)
+# 全部采用拒绝组；带区间的均值显示其不确定性。
+selected=u[(u.period=='2019-2025')&~u.original_selected&u.horizon.eq(20)].copy()
+fig,axs=plt.subplots(1,2,figsize=(13,4.6))
+for i,r in enumerate(selected.itertuples()):
+ axs[0].errorbar(r.mean*100,i,xerr=np.array([[r.mean-r.cluster_ci_low],[r.cluster_ci_high-r.mean]])*100,fmt='o',capsize=5,color=['#2b6a91','#bf7d3e'][i])
+axs[0].set_yticks(range(len(selected)),['首次重新确认','至少间隔10日后首次恢复'],fontproperties=font)
+axs[0].axvline(0,color='#777',ls='--');axs[0].set_xlabel('20日板块价格变化（%），描述性95%聚类区间',fontproperties=font)
+axs[0].set_title('区间均包含0；均值不足以证明补买有效',fontproperties=font);axs[0].grid(axis='x',alpha=.2)
+yy=y[(y.year.le(2025))&~y.original_selected&y.horizon.eq(20)]
+for i,(sample,label) in enumerate([('first_repeat','首次重新确认'),('first_repeat_at_least_10_sessions','至少间隔10日')]):
+ g=yy[yy['sample'].eq(sample)].set_index('year').reindex(range(2019,2026))
+ axs[1].bar(np.arange(7)+(i-.5)*.36,g['mean']*100,width=.36,label=label,color=['#3f7d9b','#c58a4e'][i])
+axs[1].set_xticks(range(7),range(2019,2026));axs[1].axhline(0,color='#777',lw=.8);axs[1].legend(prop=font)
+axs[1].set_title('年度均值变化明显：非稳定的跨年依据',fontproperties=font);axs[1].set_ylabel('完整路径的20日价格变化均值（%）',fontproperties=font)
+fig.tight_layout();fig.savefig(OUT/'historical_uncertainty.png',dpi=150);plt.close(fig)
+# 表格保留各口径样本量，避免把重叠事件计成独立机会。
+chosen_dates=[pd.Timestamp(d) for d in ['2026-09-17','2026-09-29','2026-10-14','2026-10-19']]
+rows=[]
+for date in chosen_dates:
+ g=stocks[stocks.date.eq(date)].set_index('name');r=states[states.date.eq(date)].iloc[0]
+ rows.append({'日期':str(date.date()),'距首次确认交易日':int(r.age_sessions),'状态':'首次确认、板块模型拒绝' if date==chosen_dates[0] else f'第{chosen_dates.index(date)}次恢复确认',
+  '西安饮食':('进入观察' if g.at['西安饮食','observation_candidate'] else '未入选')+f"（{g.at['西安饮食','model_score']:.6f}）",
+  '同庆楼':('进入观察' if g.at['同庆楼','observation_candidate'] else '未入选')+f"（{g.at['同庆楼','model_score']:.6f}）"})
+current=pd.DataFrame(rows);current.to_csv(OUT/'key_dates.csv',index=False)
+table=u[(u.period=='2019-2025')&~u.original_selected].merge(s[['sample','period','original_selected','horizon','positive','minimum']],on=['sample','period','original_selected','horizon'],validate='one_to_one')
+table=table[['sample','horizon','events','complete','missing','clusters','mean','positive','cluster_ci_low','cluster_ci_high','minimum']].copy()
+table['sample']=table['sample'].map({'first_repeat':'首次恢复','first_repeat_at_least_10_sessions':'间隔至少10日'})
+table['区间']=[f'{a:.2%}～{b:.2%}' for a,b in zip(table.cluster_ci_low,table.cluster_ci_high)]
+for k in ['mean','positive','minimum']:table[k]=table[k].map(lambda v:f'{v:.2%}')
+table=table.drop(columns=['cluster_ci_low','cluster_ci_high']);table.columns=['口径','观察日数','事件数','完整路径','缺失路径','时间簇','平均价格变化','上涨比例','最差价格变化','描述性95%区间']
+main=u[(u.period=='2019-2025')&~u.original_selected&u['sample'].eq('first_repeat')&u.horizon.eq(20)].iloc[0]
+late=u[(u.period=='2019-2025')&~u.original_selected&u['sample'].eq('first_repeat_at_least_10_sessions')&u.horizon.eq(20)].iloc[0]
+now=datetime.now(timezone.utc).isoformat()
+text=f'''# 酒店餐饮重复确认与补买依据复核
+
+**结论：新增证据不足以将西安饮食、同庆楼从独立观察名单升级为正式买入候选。19日是旧事件第三次恢复确认；重复确认的历史价格表现不够稳定，个股在该场景下的排序收益仍未验证。**
+
+研究整理于北京时间2026-10-20凌晨，使用的最新完整行情为10月19日。没有20日收盘数据，也没有将19日数据换日期冒充新行情。原始市场日历与[上交所休市安排](https://www.sse.com.cn/disclosure/dealinstruc/closed/)一致。本次没有修改数据工程程序、正式策略参数、年度模型权重或原机会扫描候选。
+
+## 本轮真正发生了什么
+
+{current.to_markdown(index=False)}
+
+9月17日至10月19日共17个交易日，19日距首次确认16个交易日。9月18日、9月30日虽然也保持确认，但分别是前一日的连续状态，不另计恢复次数。酒店餐饮本轮峰值仍为9月8日，首次确认年度板块分数-0.009877低于0.003289阈值。
+
+同庆楼在9月29日已进入过独立观察名单；西安饮食在9月17日也曾满足个股条件。这些都是以对应日期全部合格板块成员重算的结果，不使用未来收益挑选股票。两只当前股票的展示属于19日观察名单的回顾，不是预先固定股票组合的业绩检验。
+
+![板块及个股逐日状态](hotel_and_stock_timeline.png)
+
+## 拒绝后再次确认的历史诊断
+
+复用五个窗口原状态机，核对256个既有年度已评分首次事件，记录{checks['reconfirmation_starts']}次确认恢复、涉及{checks['distinct_reconfirmed_events']}个原事件。主分析每个原事件仅保留第一次恢复，避免同一行情重复计数。各年度的训练标签均早于年初和隔离截止日；没有重训模型。
+
+下面只展示原年度板块模型拒绝组，历史2019—2025与2026监测分开。
+
+**价格观察口径：恢复确认后的下一交易日收盘作为观察起点，再过3/10/20个交易日的自算板块指数收盘变化。该指数不可直接成交，表中数字不是个股收益、可成交回测收益或账户收益；没有扣成本，也没有证明相对市场的超额。**
+
+{table.to_markdown(index=False)}
+
+主口径20日观察有108个事件，其中92个路径完整、16个因报价/连续段问题不可比较。完整路径来自15个时间簇；均值+0.66%，95%描述性聚类区间约-0.92%至+2.09%，不能排除平均变化为零。缺失事件若统一按0变化计，均值约{main.mean_if_missing_zero:.2%}；若假设其均为-20%的压力情景，整体均值为{main.mean_if_missing_minus20pct:.2%}。后者是假设压力测试，不是估计的实际损失。
+
+更接近当前较晚时点的“间隔至少10个交易日后首次恢复”是由本轮问题提出的补充口径：78个事件，77个完整，14个时间簇，20日均值+1.93%，区间约-0.18%至+3.49%，同样包含0。它不能因均值更高就替换主口径，也不能直接代表第三次恢复确认。
+
+年份差异明显：主口径20日平均变化在2020年约+3.53%，2024年约-7.10%；2023、2024连续为负。2026年拒绝组主口径只有5个事件，20日仅4个完整；至少间隔10日口径只有4个事件、3个完整，无法单凭这年的小样本定新规则。
+
+![历史区间与年度差异](historical_uncertainty.png)
+
+## 这对两只观察股票意味着什么
+
+- 西安饮食19日收盘5.87元、排序分数0.003943；同庆楼11.77元、排序分数0.001857。9月17日至10月19日的逐日重算，与上次19日结果一致。
+- 当前两只都满足个股价格形态，但它们在不同日期的入选状态明显变化。正排序分数不保证绝对上涨，也不能替代板块层的准入依据。
+- 原“五日延后资格”研究保留的是已通过板块事件的短期资格，使用的模型/个股规则亦不同，不能外推到本轮拒绝事件在第16个交易日补买。
+- 继续按原策略执行时，仍不开放本轮新入场。若考虑独立于原策略的补买规则，尚缺重复确认场景下的个股逐笔验证、同日基准与成本检验；本次仅完成板块价格诊断和本轮个股状态复原，没有把这些未完成环节冒充已验证。
+
+## 下一次更新时的观察标准
+
+1. 用完整新交易日重新计算价格形态与全体合格成员排序。价格形态不通过、排序分数非正或名称/ST资格变化，都应移出独立观察名单。
+2. 区分旧事件保持/恢复确认与新的独立首次确认。只有满足既定板块准入的新事件才进入正式买入流程；当前账户空仓不会自动重置市场事件。
+3. 20日盘中上涨或低开本身不代表收盘形态已经成立；本报告不预设20日收盘分数，不给出未经验证的限价买单。
+
+## 复核边界与产物
+
+- 逐日行业成员完全核对，本轮9只成员未变化；每个日期按已公告名称历史排除ST，再在8只合格股票中建立截面特征。未用收益标签选择两只股票。
+- 9月17日、9月30日特征使用截断行情重算一致；19日候选与之前独立复核一致；现有程序、年度模型文件哈希未变。
+- 未发现旧事件的恢复状态跨越下一独立事件。原始确认、板块指数连续段、日期以及窗口均匹配。
+- 自算板块非直接可成交资产；行业成员历史PIT尚未完整认证。模型设计和本轮补买假设均来自已观察历史，描述性聚类区间不能替代新的独立样本检验。对缺失路径不作正向填补。
+
+[逐日板块状态](hotel_daily_states.csv) · [全部成员逐日评分](stock_daily_scores.csv) · [关键日期](key_dates.csv) · [全部恢复事件](all_reconfirmation_starts.csv) · [逐事件价格观察](sector_price_observations_NOT_TRADABLE.csv) · [年度结果](yearly_NOT_TRADABLE.csv) · [区间与压力情景](uncertainty_NOT_TRADABLE.csv) · [运行前口径](PREREG.md)
+
+复现：在项目根目录顺序运行本目录`replay.py`、通过`frozen_research.py run --release datahub/releases/selection_live_20261019_eod`运行`stock_timeline.py`，随后运行`uncertainty.py`、`report.py`。
+'''
+(OUT/'REPORT.md').write_text(text)
+style='body{font:16px/1.7 sans-serif;max-width:1280px;margin:32px auto;padding:0 24px;color:#263440}table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ccd5dc;padding:7px}th{background:#eef3f6}img{max-width:100%}a{color:#246b97}'
+(OUT/'REPORT.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>酒店餐饮重复确认复核</title><style>'+style+'</style><body>'+markdown.markdown(text,extensions=['tables','fenced_code'])+'</body></html>')
+summary=dict(asof='2026-10-19',report_session='2026-10-20_preopen',current_reconfirmation_number=3,age_sessions=16,
+ observation_candidates=['000721.SZ','605108.SH'],official_strategy_candidates=0,
+ historical_primary_complete=int(main.complete),historical_primary_events=int(main.events),historical_primary_clusters=int(main.clusters),
+ historical_primary_mean=float(main['mean']),historical_primary_cluster_ci=[float(main.cluster_ci_low),float(main.cluster_ci_high)],
+ no_current_day_eod_data=True,no_retraining=True,no_engineering_changes=True,scope='sector_price_diagnostic_and_current_stock_timeline_not_executable_backtest',created_at=now)
+(OUT/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
+artifacts={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.is_file() and p.name!='manifest.json'}
+(OUT/'manifest.json').write_text(json.dumps(dict(status='complete',summary=summary,artifacts=artifacts),ensure_ascii=False,indent=2))
+print(json.dumps(summary,ensure_ascii=False,indent=2));print('COMPLETE',OUT/'REPORT.html')

@@ -1,0 +1,6 @@
+policy,actual_entries,median_closed_holding_days,unknown_episodes,unknown_hold_reviews,min_admitted,selection_reasons
+low_turnover,15,127.5,0,0,391,"{""minimum_lot_exceeds_stock_cap"": 13, ""position_limit"": 391, ""selected"": 15}"
+continuous_trend,54,41.0,0,0,391,"{""buy_not_allowed"": 3, ""minimum_lot_exceeds_stock_cap"": 29, ""position_limit"": 393, ""selected"": 54}"
+global_return,27,58.5,0,0,166,"{""minimum_lot_exceeds_stock_cap"": 21, ""position_limit"": 409, ""selected"": 27}"
+phase_experts,29,51.5,0,0,156,"{""minimum_lot_exceeds_stock_cap"": 17, ""position_limit"": 425, ""selected"": 29}"
+shared_experts,24,42.0,0,0,166,"{""insufficient_cash_for_minimum_lot"": 1, ""minimum_lot_exceeds_stock_cap"": 18, ""position_limit"": 425, ""selected"": 24}"

@@ -1,0 +1,123 @@
+[
+  {
+    "family": "neural",
+    "params": {
+      "family": "neural",
+      "variant": "tanh",
+      "horizon": 20,
+      "train_window": 504,
+      "retrain_months": 3,
+      "frequency": "monthly",
+      "top_n": 3,
+      "width": 32,
+      "alpha": 0.001,
+      "learning_rate": 0.003,
+      "epochs": 8
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "state_experts",
+    "params": {
+      "family": "state_experts",
+      "variant": "kmeans",
+      "horizon": 20,
+      "train_window": 504,
+      "retrain_months": 6,
+      "frequency": "daily",
+      "top_n": 3,
+      "states": 3,
+      "alpha": 100.0,
+      "expert_weight": 0.25
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "adaptive_ic",
+    "params": {
+      "family": "adaptive_ic",
+      "variant": "kalman",
+      "horizon": 5,
+      "train_window": 252,
+      "retrain_months": 6,
+      "frequency": "weekly",
+      "top_n": 3,
+      "process_noise": 0.001,
+      "observation_noise": 0.1,
+      "shrinkage": 0.5
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "trade_filter",
+    "params": {
+      "family": "trade_filter",
+      "variant": "forest",
+      "horizon": 10,
+      "train_window": 504,
+      "retrain_months": 3,
+      "frequency": "weekly",
+      "top_n": 3,
+      "depth": 2,
+      "min_leaf": 100,
+      "probability_cut": 0.4
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "multi_horizon",
+    "params": {
+      "family": "multi_horizon",
+      "variant": "relative",
+      "horizon": 20,
+      "train_window": 252,
+      "retrain_months": 6,
+      "frequency": "weekly",
+      "top_n": 3,
+      "alpha": 1.0,
+      "blend": "equal"
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "correlation_experts",
+    "params": {
+      "family": "correlation_experts",
+      "variant": "hierarchical",
+      "horizon": 10,
+      "train_window": 504,
+      "retrain_months": 3,
+      "frequency": "daily",
+      "top_n": 5,
+      "clusters": 5,
+      "correlation_window": 60,
+      "alpha": 1.0,
+      "expert_weight": 1.0
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "market_gate",
+    "params": {
+      "family": "market_gate",
+      "variant": "tree",
+      "horizon": 10,
+      "train_window": 252,
+      "retrain_months": 6,
+      "frequency": "weekly",
+      "top_n": 3,
+      "loss_threshold": 0.06,
+      "probability_cut": 0.7,
+      "c": 0.1,
+      "depth": 3
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  }
+]

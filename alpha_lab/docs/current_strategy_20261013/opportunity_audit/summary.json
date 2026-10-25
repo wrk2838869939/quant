@@ -1,0 +1,15 @@
+{
+  "asof": "2026-10-12",
+  "stocks": 52,
+  "qualified": 49,
+  "trend_pass": 10,
+  "shape_pass": 0,
+  "maximum_shape_pass_after_one_gate_removed": 0,
+  "sector_watch": 4,
+  "sector_trigger": 3,
+  "sector_confirmed": 0,
+  "events": 331,
+  "unique_signal_dates": 163,
+  "latest_diagnostics_reproduced": true,
+  "scope": "仅2026-10-12观察池条件诊断；当前成员不用于历史选股回测；未检验修改后收益。"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "repair": "passed",
+  "coverage": "passed",
+  "accounts": "passed",
+  "cases": 6,
+  "reviews": 57,
+  "component_hashes": {
+    "independent_repair_verification.json": "3fb5ed7d455bf84c4fc9364fb64d53acbd7ae3a1d4dc4949229ec67308f5887b",
+    "independent_coverage_admission.json": "ea6cfff2475e70e18bc6f3ee40440bba791fa2992e10c02bdb7000d8f14fbb9f",
+    "execution/independent_recent_verification.json": "c3c2432e5a6c868de4f3673bfd3f10d43442aed0bfb32fbba105c8d059469838"
+  },
+  "wrapper_sha256": "c5767142485256ef27afa7e16a4d7d92623ca0c149e602423bcb71e7224afd85"
+}

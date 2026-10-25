@@ -1,0 +1,13 @@
+family,variant,fit_date,return_max_error,risk_max_error,passed
+adaptive_ic,ewma,2020-01-02,0.0,0.0,True
+adaptive_ic,kalman,2020-01-02,0.0,0.0,True
+correlation_experts,hierarchical,2020-01-02,0.0,0.0,True
+market_gate,logistic,2020-01-02,0.0,0.0,True
+market_gate,tree,2020-01-02,0.0,0.0,True
+multi_horizon,relative,2020-01-02,0.0,0.0,True
+multi_horizon,scaled_return,2020-01-02,0.0,0.0,True
+neural,tanh,2020-01-02,0.0,0.0,True
+neural,relu,2020-01-02,0.0,0.0,True
+state_experts,kmeans,2020-01-02,0.0,0.0,True
+trade_filter,forest,2020-01-02,0.0,0.0,True
+trade_filter,tree,2020-01-02,0.0,0.0,True

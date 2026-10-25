@@ -1,0 +1,9 @@
+{
+  "tests": 4,
+  "causal_feature_prefix_exact": true,
+  "purged_train_labels": true,
+  "prediction_keys_unique": true,
+  "source_hashes": true,
+  "source_events": 330,
+  "test_events": 255
+}

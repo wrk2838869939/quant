@@ -1,0 +1,267 @@
+{
+  "status": "prepared",
+  "parent": "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z",
+  "start": "2024-01-01",
+  "end": "2026-09-08",
+  "continuation_start": "2022-01-01",
+  "refit": false,
+  "fresh_holdout": false,
+  "no_result_driven_changes": true,
+  "cases": [
+    {
+      "name": "cold_baseline",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "continued_baseline",
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "small_baseline",
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "large_baseline",
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "cost2_baseline",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "reverse_baseline",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true,
+      "policy": "low_turnover",
+      "variant": "baseline"
+    },
+    {
+      "name": "cold_correlation",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "continued_correlation",
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "small_correlation",
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "large_correlation",
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "cost2_correlation",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "reverse_correlation",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true,
+      "policy": "low_turnover",
+      "variant": "correlation"
+    },
+    {
+      "name": "cold_pause",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "continued_pause",
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "small_pause",
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "large_pause",
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "cost2_pause",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "reverse_pause",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true,
+      "policy": "low_turnover",
+      "variant": "pause"
+    },
+    {
+      "name": "cold_combined",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "combined"
+    },
+    {
+      "name": "continued_combined",
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "combined"
+    },
+    {
+      "name": "small_combined",
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "combined"
+    },
+    {
+      "name": "large_combined",
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "combined"
+    },
+    {
+      "name": "cost2_combined",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false,
+      "policy": "low_turnover",
+      "variant": "combined"
+    },
+    {
+      "name": "reverse_combined",
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true,
+      "policy": "low_turnover",
+      "variant": "combined"
+    }
+  ],
+  "source_hashes": {
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/portfolio_entry_guard.py": "43415d0750b8007db3b2486f1da8aade519e229631c617ece2621de05f7d53e8",
+    "src/guarded_selection.py": "c1b0ead5698defe5b81ecf0e586ccda1383eda92620a49bddc34b6a991c9a39c",
+    "src/entry_guard.py": "9b4a7f141a6a0d7542d6e5915fef23c16572adf7b68012618be0000b7c91d75c",
+    "scripts/run_entry_guard_research.py": "4bd01fd1ed859498e56ffafa51718c1d05ef348c8e3e99bf7fde18345ebae0c2",
+    "scripts/run_recent_low_turnover.py": "bde675ba56aa9b9e59c05bf25e4602e79046a0b2da5367019f4e0decbd44d838",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "scripts/run_divide_selection_execution.py": "49af304f380210c530bef63051f46d893530ae153269e3a97361c0fb7db5f5e5",
+    "configs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "configs/corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5"
+  },
+  "parameters": {
+    "correlation_window": 120,
+    "minimum_observations": 100,
+    "maximum_correlation": 0.7,
+    "minimum_collective_exits": 2,
+    "collective_exit_fraction": 0.5
+  },
+  "stop_rule": "近期收益不低于基线且MDD与Sharpe均改善，同时2022-23不降收益不增回撤才可称跨窗口改进；否则只记录权衡，不晋升；所有近期年度已用于开发。",
+  "input_hashes": {
+    "execution/monthly_hold_allowed.parquet": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+    "execution/low_turnover_signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "execution/low_turnover_point_forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "execution/market.parquet": "e3fb227ca6d9a177e14f40f6d156abd4570eebcebc35819b8c20d0615aa9fa0f",
+    "execution/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "execution/st.parquet": "0eecd4c1464ef9f910688b6baf3ec6afa8daa2b027d862a59601fca01150fc69",
+    "execution/limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "execution/raw_actions.parquet": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+    "execution/normalized_actions.parquet": "f7baa9e8133099671df013e6a297b010f947f8b132033a90eaf5b9f3cde6ff57",
+    "execution_predictions.parquet": "e11d1d5903ac350eba213e30110846199712ba642a4779a21615f229008a8112",
+    "correlation_returns.parquet": "fa2e580ac8635509e2bb6aaec42e3210d1ddde62cc7d7fc56804b05c8c30f412",
+    "execution/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599"
+  },
+  "exploratory_only": true,
+  "activation_evidence_note": "原近期基线集体退出暂停仅2026-03一次，改进不能证明统计有效；不改阈值扩充触发。",
+  "verification_wiring_correction": "Actual guarded_selection input reversal repaired; four initial no-op reverse cases retained under attempts/reverse_noop_v1, all four rerun; nonreverse logic unchanged"
+}

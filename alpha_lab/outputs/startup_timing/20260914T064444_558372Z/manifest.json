@@ -1,0 +1,1426 @@
+{
+  "config": {
+    "parent": "outputs/rolling_review/20260913T141120_325588Z",
+    "risk_parent": "outputs/risk_budget/20260913T160301_084080Z",
+    "output_root": "outputs/startup_timing",
+    "capital": 80000,
+    "horizon_sessions": 244,
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "months": [
+      1,
+      4,
+      7,
+      10
+    ],
+    "offset_days": [
+      8,
+      15,
+      22
+    ],
+    "policies": [
+      "stale_once",
+      "fresh_once",
+      "shifted_calendar"
+    ],
+    "end": "2026-09-08",
+    "max_positions": 5
+  },
+  "cases": [
+    {
+      "name": "2022-01_wait",
+      "cohort": "2022-01",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "2022-01_08_stale_once",
+      "cohort": "2022-01",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "2022-01_08_fresh_once",
+      "cohort": "2022-01",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "2022-01_08_shifted_calendar",
+      "cohort": "2022-01",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-10"
+    },
+    {
+      "name": "2022-01_15_stale_once",
+      "cohort": "2022-01",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "2022-01_15_fresh_once",
+      "cohort": "2022-01",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "2022-01_15_shifted_calendar",
+      "cohort": "2022-01",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-17"
+    },
+    {
+      "name": "2022-01_22_stale_once",
+      "cohort": "2022-01",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "2022-01_22_fresh_once",
+      "cohort": "2022-01",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "2022-01_22_shifted_calendar",
+      "cohort": "2022-01",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2022-01-10",
+      "end": "2023-01-10",
+      "boot_date": "2022-01-24"
+    },
+    {
+      "name": "2022-04_wait",
+      "cohort": "2022-04",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "2022-04_08_stale_once",
+      "cohort": "2022-04",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "2022-04_08_fresh_once",
+      "cohort": "2022-04",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "2022-04_08_shifted_calendar",
+      "cohort": "2022-04",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-08"
+    },
+    {
+      "name": "2022-04_15_stale_once",
+      "cohort": "2022-04",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "2022-04_15_fresh_once",
+      "cohort": "2022-04",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "2022-04_15_shifted_calendar",
+      "cohort": "2022-04",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-15"
+    },
+    {
+      "name": "2022-04_22_stale_once",
+      "cohort": "2022-04",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "2022-04_22_fresh_once",
+      "cohort": "2022-04",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "2022-04_22_shifted_calendar",
+      "cohort": "2022-04",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2022-04-08",
+      "end": "2023-04-07",
+      "boot_date": "2022-04-22"
+    },
+    {
+      "name": "2022-07_wait",
+      "cohort": "2022-07",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "2022-07_08_stale_once",
+      "cohort": "2022-07",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "2022-07_08_fresh_once",
+      "cohort": "2022-07",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "2022-07_08_shifted_calendar",
+      "cohort": "2022-07",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-08"
+    },
+    {
+      "name": "2022-07_15_stale_once",
+      "cohort": "2022-07",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "2022-07_15_fresh_once",
+      "cohort": "2022-07",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "2022-07_15_shifted_calendar",
+      "cohort": "2022-07",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-15"
+    },
+    {
+      "name": "2022-07_22_stale_once",
+      "cohort": "2022-07",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "2022-07_22_fresh_once",
+      "cohort": "2022-07",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "2022-07_22_shifted_calendar",
+      "cohort": "2022-07",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2022-07-08",
+      "end": "2023-07-10",
+      "boot_date": "2022-07-22"
+    },
+    {
+      "name": "2022-10_wait",
+      "cohort": "2022-10",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "2022-10_08_stale_once",
+      "cohort": "2022-10",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "2022-10_08_fresh_once",
+      "cohort": "2022-10",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "2022-10_08_shifted_calendar",
+      "cohort": "2022-10",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-10"
+    },
+    {
+      "name": "2022-10_15_stale_once",
+      "cohort": "2022-10",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "2022-10_15_fresh_once",
+      "cohort": "2022-10",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "2022-10_15_shifted_calendar",
+      "cohort": "2022-10",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-17"
+    },
+    {
+      "name": "2022-10_22_stale_once",
+      "cohort": "2022-10",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "2022-10_22_fresh_once",
+      "cohort": "2022-10",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "2022-10_22_shifted_calendar",
+      "cohort": "2022-10",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2022-10-10",
+      "end": "2023-10-10",
+      "boot_date": "2022-10-24"
+    },
+    {
+      "name": "2023-01_wait",
+      "cohort": "2023-01",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "2023-01_08_stale_once",
+      "cohort": "2023-01",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "2023-01_08_fresh_once",
+      "cohort": "2023-01",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "2023-01_08_shifted_calendar",
+      "cohort": "2023-01",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-09"
+    },
+    {
+      "name": "2023-01_15_stale_once",
+      "cohort": "2023-01",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "2023-01_15_fresh_once",
+      "cohort": "2023-01",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "2023-01_15_shifted_calendar",
+      "cohort": "2023-01",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-16"
+    },
+    {
+      "name": "2023-01_22_stale_once",
+      "cohort": "2023-01",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "2023-01_22_fresh_once",
+      "cohort": "2023-01",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "2023-01_22_shifted_calendar",
+      "cohort": "2023-01",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2023-01-09",
+      "end": "2024-01-09",
+      "boot_date": "2023-01-30"
+    },
+    {
+      "name": "2023-04_wait",
+      "cohort": "2023-04",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "2023-04_08_stale_once",
+      "cohort": "2023-04",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "2023-04_08_fresh_once",
+      "cohort": "2023-04",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "2023-04_08_shifted_calendar",
+      "cohort": "2023-04",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-10"
+    },
+    {
+      "name": "2023-04_15_stale_once",
+      "cohort": "2023-04",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "2023-04_15_fresh_once",
+      "cohort": "2023-04",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "2023-04_15_shifted_calendar",
+      "cohort": "2023-04",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-17"
+    },
+    {
+      "name": "2023-04_22_stale_once",
+      "cohort": "2023-04",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "2023-04_22_fresh_once",
+      "cohort": "2023-04",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "2023-04_22_shifted_calendar",
+      "cohort": "2023-04",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2023-04-10",
+      "end": "2024-04-11",
+      "boot_date": "2023-04-24"
+    },
+    {
+      "name": "2023-07_wait",
+      "cohort": "2023-07",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "2023-07_08_stale_once",
+      "cohort": "2023-07",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "2023-07_08_fresh_once",
+      "cohort": "2023-07",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "2023-07_08_shifted_calendar",
+      "cohort": "2023-07",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-10"
+    },
+    {
+      "name": "2023-07_15_stale_once",
+      "cohort": "2023-07",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "2023-07_15_fresh_once",
+      "cohort": "2023-07",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "2023-07_15_shifted_calendar",
+      "cohort": "2023-07",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-17"
+    },
+    {
+      "name": "2023-07_22_stale_once",
+      "cohort": "2023-07",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "2023-07_22_fresh_once",
+      "cohort": "2023-07",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "2023-07_22_shifted_calendar",
+      "cohort": "2023-07",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2023-07-10",
+      "end": "2024-07-10",
+      "boot_date": "2023-07-24"
+    },
+    {
+      "name": "2023-10_wait",
+      "cohort": "2023-10",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "2023-10_08_stale_once",
+      "cohort": "2023-10",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "2023-10_08_fresh_once",
+      "cohort": "2023-10",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "2023-10_08_shifted_calendar",
+      "cohort": "2023-10",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-09"
+    },
+    {
+      "name": "2023-10_15_stale_once",
+      "cohort": "2023-10",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "2023-10_15_fresh_once",
+      "cohort": "2023-10",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "2023-10_15_shifted_calendar",
+      "cohort": "2023-10",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-16"
+    },
+    {
+      "name": "2023-10_22_stale_once",
+      "cohort": "2023-10",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "2023-10_22_fresh_once",
+      "cohort": "2023-10",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "2023-10_22_shifted_calendar",
+      "cohort": "2023-10",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2023-10-09",
+      "end": "2024-10-10",
+      "boot_date": "2023-10-23"
+    },
+    {
+      "name": "2024-01_wait",
+      "cohort": "2024-01",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "2024-01_08_stale_once",
+      "cohort": "2024-01",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "2024-01_08_fresh_once",
+      "cohort": "2024-01",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "2024-01_08_shifted_calendar",
+      "cohort": "2024-01",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-08"
+    },
+    {
+      "name": "2024-01_15_stale_once",
+      "cohort": "2024-01",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "2024-01_15_fresh_once",
+      "cohort": "2024-01",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "2024-01_15_shifted_calendar",
+      "cohort": "2024-01",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-15"
+    },
+    {
+      "name": "2024-01_22_stale_once",
+      "cohort": "2024-01",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "2024-01_22_fresh_once",
+      "cohort": "2024-01",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "2024-01_22_shifted_calendar",
+      "cohort": "2024-01",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2024-01-08",
+      "end": "2025-01-09",
+      "boot_date": "2024-01-22"
+    },
+    {
+      "name": "2024-04_wait",
+      "cohort": "2024-04",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "2024-04_08_stale_once",
+      "cohort": "2024-04",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "2024-04_08_fresh_once",
+      "cohort": "2024-04",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "2024-04_08_shifted_calendar",
+      "cohort": "2024-04",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-08"
+    },
+    {
+      "name": "2024-04_15_stale_once",
+      "cohort": "2024-04",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "2024-04_15_fresh_once",
+      "cohort": "2024-04",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "2024-04_15_shifted_calendar",
+      "cohort": "2024-04",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-15"
+    },
+    {
+      "name": "2024-04_22_stale_once",
+      "cohort": "2024-04",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "2024-04_22_fresh_once",
+      "cohort": "2024-04",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "2024-04_22_shifted_calendar",
+      "cohort": "2024-04",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2024-04-08",
+      "end": "2025-04-09",
+      "boot_date": "2024-04-22"
+    },
+    {
+      "name": "2024-07_wait",
+      "cohort": "2024-07",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "2024-07_08_stale_once",
+      "cohort": "2024-07",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "2024-07_08_fresh_once",
+      "cohort": "2024-07",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "2024-07_08_shifted_calendar",
+      "cohort": "2024-07",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-08"
+    },
+    {
+      "name": "2024-07_15_stale_once",
+      "cohort": "2024-07",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "2024-07_15_fresh_once",
+      "cohort": "2024-07",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "2024-07_15_shifted_calendar",
+      "cohort": "2024-07",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-15"
+    },
+    {
+      "name": "2024-07_22_stale_once",
+      "cohort": "2024-07",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "2024-07_22_fresh_once",
+      "cohort": "2024-07",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "2024-07_22_shifted_calendar",
+      "cohort": "2024-07",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2024-07-08",
+      "end": "2025-07-09",
+      "boot_date": "2024-07-22"
+    },
+    {
+      "name": "2024-10_wait",
+      "cohort": "2024-10",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "2024-10_08_stale_once",
+      "cohort": "2024-10",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "2024-10_08_fresh_once",
+      "cohort": "2024-10",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "2024-10_08_shifted_calendar",
+      "cohort": "2024-10",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-08"
+    },
+    {
+      "name": "2024-10_15_stale_once",
+      "cohort": "2024-10",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "2024-10_15_fresh_once",
+      "cohort": "2024-10",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "2024-10_15_shifted_calendar",
+      "cohort": "2024-10",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-15"
+    },
+    {
+      "name": "2024-10_22_stale_once",
+      "cohort": "2024-10",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "2024-10_22_fresh_once",
+      "cohort": "2024-10",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "2024-10_22_shifted_calendar",
+      "cohort": "2024-10",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2024-10-08",
+      "end": "2025-09-30",
+      "boot_date": "2024-10-22"
+    },
+    {
+      "name": "2025-01_wait",
+      "cohort": "2025-01",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "2025-01_08_stale_once",
+      "cohort": "2025-01",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "2025-01_08_fresh_once",
+      "cohort": "2025-01",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "2025-01_08_shifted_calendar",
+      "cohort": "2025-01",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-08"
+    },
+    {
+      "name": "2025-01_15_stale_once",
+      "cohort": "2025-01",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "2025-01_15_fresh_once",
+      "cohort": "2025-01",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "2025-01_15_shifted_calendar",
+      "cohort": "2025-01",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-15"
+    },
+    {
+      "name": "2025-01_22_stale_once",
+      "cohort": "2025-01",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "2025-01_22_fresh_once",
+      "cohort": "2025-01",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "2025-01_22_shifted_calendar",
+      "cohort": "2025-01",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2025-01-08",
+      "end": "2026-01-09",
+      "boot_date": "2025-01-22"
+    },
+    {
+      "name": "2025-04_wait",
+      "cohort": "2025-04",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "2025-04_08_stale_once",
+      "cohort": "2025-04",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "2025-04_08_fresh_once",
+      "cohort": "2025-04",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "2025-04_08_shifted_calendar",
+      "cohort": "2025-04",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-08"
+    },
+    {
+      "name": "2025-04_15_stale_once",
+      "cohort": "2025-04",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "2025-04_15_fresh_once",
+      "cohort": "2025-04",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "2025-04_15_shifted_calendar",
+      "cohort": "2025-04",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-15"
+    },
+    {
+      "name": "2025-04_22_stale_once",
+      "cohort": "2025-04",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "2025-04_22_fresh_once",
+      "cohort": "2025-04",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "2025-04_22_shifted_calendar",
+      "cohort": "2025-04",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2025-04-08",
+      "end": "2026-04-09",
+      "boot_date": "2025-04-22"
+    },
+    {
+      "name": "2025-07_wait",
+      "cohort": "2025-07",
+      "offset": 8,
+      "policy": "wait",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "2025-07_08_stale_once",
+      "cohort": "2025-07",
+      "offset": 8,
+      "policy": "stale_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "2025-07_08_fresh_once",
+      "cohort": "2025-07",
+      "offset": 8,
+      "policy": "fresh_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "2025-07_08_shifted_calendar",
+      "cohort": "2025-07",
+      "offset": 8,
+      "policy": "shifted_calendar",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-08"
+    },
+    {
+      "name": "2025-07_15_stale_once",
+      "cohort": "2025-07",
+      "offset": 15,
+      "policy": "stale_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "2025-07_15_fresh_once",
+      "cohort": "2025-07",
+      "offset": 15,
+      "policy": "fresh_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "2025-07_15_shifted_calendar",
+      "cohort": "2025-07",
+      "offset": 15,
+      "policy": "shifted_calendar",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-15"
+    },
+    {
+      "name": "2025-07_22_stale_once",
+      "cohort": "2025-07",
+      "offset": 22,
+      "policy": "stale_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    },
+    {
+      "name": "2025-07_22_fresh_once",
+      "cohort": "2025-07",
+      "offset": 22,
+      "policy": "fresh_once",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    },
+    {
+      "name": "2025-07_22_shifted_calendar",
+      "cohort": "2025-07",
+      "offset": 22,
+      "policy": "shifted_calendar",
+      "start": "2025-07-08",
+      "end": "2026-07-09",
+      "boot_date": "2025-07-22"
+    }
+  ],
+  "omitted_incomplete_horizon": [
+    "2025-10"
+  ],
+  "source_sha256": {
+    "src/startup_timing.py": "4cc9a140717d7e9147d30543519bb1a150d3e4affb7cc62d740b697cbe384631",
+    "src/risk_budget_portfolio.py": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/research_startup_timing.py": "3a8a79858462a4d070a4fb921535ccfe068de72856b0b38482b52c37dc116184",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "tests/test_startup_timing.py": "204e30441f470810bdea2d29ee99efb42448bbb96fa8949c9b3550e9eb3cb68b",
+    "configs/startup_timing_research.yaml": "8af6e34849116f3ccc8a189d75800295cfe7de9d59128aa0b2980c9fd9e96d2c"
+  },
+  "input_sha256": {
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/corporate_action_components.yaml": "73b88489a8b961f0bb9f2c97e96489bedc6de822c98d0cc561d468650716954b",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/market.parquet": "a6c638cf559aea8875e1df12f949d614db67d21822578debf7155640b5e43638",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/limits.parquet": "b6c43fe5bc8ced79412385c871ce81c5b3628d4dc820d116d15d2e5b7f5c0e5d",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/normalized_actions.parquet": "00c9e01192438ab2e972a2b9f734fcf7c735d84153e76ffd28a16bfac9bbd1c9",
+    "/root/autodl-tmp/alpha_lab/outputs/risk_budget/20260913T160301_084080Z/risk/discounts.parquet": "6257047d186a5e09cb5da19e9b36e7c742ef052c0a04ca429d618f2474473202",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/hold.parquet": "dd55b78503a4c5b46b034f095dc081c669c07dd6dc5c23d9fd46158dd88e1048",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/signals.parquet": "d5f37685ea1727b3eb0c9ded94cd58818a52dda2930d15d272af4b1b38dc7c99",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/forecasts.parquet": "ec647cd9e4a689ac1fc3f4fac71284c6ad34198465e094d3a140836aaf8cd04c",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/hold.parquet": "bd35f122888ad609403c544f7421873d8d32e537776d525455535f9ac5839435",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/signals.parquet": "2e476dcccfe1ac54df9297dc7b6620c3e188d43abbe622123784db827d1ba460",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/forecasts.parquet": "52fecc53294caab9d5c3cadced06f7f242976879f0ad61d7fbb494cd059be001",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/hold.parquet": "3953c3de7d769c54eb2c42f1b70269b4da77e7e56af96402dea4152419760018",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/signals.parquet": "d7fe991c7cecae212d8fade5669c066e888f692393cabb2ef1802cb25ba18618",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/forecasts.parquet": "e6811ed27a01ac8ceda13bb6d049dc95cf268f936875cafe056431f9008aee96",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/hold.parquet": "b61a85e5256c390a728972be57369dfeb10336b457e42b3ff1a9bf2f97632e9c"
+  },
+  "prior_verified": {
+    "outputs/rolling_review/20260913T141120_325588Z": 473,
+    "outputs/risk_budget/20260913T160301_084080Z": 906
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

@@ -1,0 +1,15 @@
+# 预登记主假设与邻域。看见本轮账户结果后不改阈值或挑最好邻域替代主假设。
+persistence_window: 20
+primary_variant: persist10
+trend:
+  medium_window: 60
+  long_window: 120
+  min_return: 0.0
+  require_above_long_ma: true
+variants:
+  baseline: {monthly_confirmations: 2}
+  fast: {monthly_confirmations: 1}
+  slow: {monthly_confirmations: 3}
+  persist5: {monthly_confirmations: 2, persistent_weak_days: 5}
+  persist10: {monthly_confirmations: 2, persistent_weak_days: 10}
+  persist15: {monthly_confirmations: 2, persistent_weak_days: 15}

@@ -1,0 +1,7 @@
+sample,horizon,events,sectors,member_observations,complete_members,unique_stocks,coverage_min,coverage_median,below_coverage_threshold
+baseline,3,161,85,6207,6100,3335,0.8,1.0,0
+baseline,10,151,83,5869,5743,3299,0.8,1.0,0
+baseline,20,146,80,5772,5611,3247,0.7931034482758621,1.0,1
+selected,3,77,57,3198,3105,2241,0.8,1.0,0
+selected,10,72,56,2974,2867,2212,0.8,1.0,0
+selected,20,68,53,2884,2757,2132,0.7931034482758621,1.0,1

@@ -1,0 +1,74 @@
+[
+  {
+    "strategy": "B01_low_turnover",
+    "cutoff": "2021-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B01_low_turnover",
+    "cutoff": "2022-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B01_low_turnover",
+    "cutoff": "2023-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B02_low_risk",
+    "cutoff": "2021-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B02_low_risk",
+    "cutoff": "2022-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B02_low_risk",
+    "cutoff": "2023-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B03_valuation",
+    "cutoff": "2021-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B03_valuation",
+    "cutoff": "2022-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "B03_valuation",
+    "cutoff": "2023-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "identity_smoke",
+    "cutoff": "2021-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "identity_smoke",
+    "cutoff": "2022-06-30",
+    "signals": true,
+    "account_tables": true
+  },
+  {
+    "strategy": "identity_smoke",
+    "cutoff": "2023-06-30",
+    "signals": true,
+    "account_tables": true
+  }
+]

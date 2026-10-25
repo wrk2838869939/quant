@@ -1,0 +1,9 @@
+# 发现半资金组合无法买足最低手数后，固定可投资股票池对照；不重新选因子。
+parent_prepared: outputs/long_only_followup/20260911T141208_459585Z
+output_root: outputs/investability_followup
+signal_file: tail_signal_signals.parquet
+price_multiplier: 1.05
+variants:
+  - {name: tail_feasible_full, active_fraction: 1.0}
+  - {name: tail_feasible_half, active_fraction: 0.5}
+cost_multipliers: [1.0, 2.0]

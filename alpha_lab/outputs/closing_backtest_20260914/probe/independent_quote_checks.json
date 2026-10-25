@@ -1,0 +1,16 @@
+[
+  {
+    "code": "600000.SH",
+    "matched_bars": 288,
+    "max_close_difference": 0.010000000000001563,
+    "matched_1430_bars": 36,
+    "max_1430_difference": 0.010000000000001563
+  },
+  {
+    "code": "000300.SH",
+    "matched_bars": 168,
+    "max_close_difference": 1.1530000000002474,
+    "matched_1430_bars": 21,
+    "max_1430_difference": 0.4859999999998763
+  }
+]

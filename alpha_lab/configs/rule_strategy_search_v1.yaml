@@ -1,0 +1,739 @@
+# 首批规则搜索配置；仅execution.implemented_families已接入运行器。
+schema_version: 1
+plan_id: rule_strategy_search_v1
+status: first_batch_implemented_smoke_verified
+runnable: true
+parent_inventory: alpha_lab/configs/strategy_candidates_20260920.yaml
+protocol: alpha_lab/docs/RULE_STRATEGY_SEARCH_20260920.md
+account_config: alpha_lab/configs/selection_account_v1.yaml
+snapshot:
+  release: datahub/releases/selection_v1_20260920
+  content_id: c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3
+  prepared_execution: alpha_lab/data/selection_execution_smoke_v1
+  scope: engineering_93_mainboard_stocks_2019_2023
+  limitation: full_window_quality_quarantine_not_unbiased_universe
+policy:
+  new_data_or_asset_extensions: false
+  predictive_model_fitting: false
+  hyperparameter_optimization: true
+  assume_monotonicity: false
+  assume_smoothness: false
+  assume_unimodality: false
+  rank_direction_must_be_declared: true
+  historical_outcomes_are_not_exclusion_criteria: true
+scope:
+  first_rule_families:
+  - id: S01
+    name: 低股票换手率
+  - id: S02
+    name: 低波动与低振幅
+  - id: S03
+    name: Amihud价格冲击强度
+  - id: S04
+    name: 估值与剔除微盘后价值
+  - id: S05
+    name: 短期绝对反转
+  - id: S06
+    name: 跳过近端的中期动量
+  - id: S07
+    name: 长期趋势许可与趋势质量
+  - id: S10
+    name: 资金流强度与价格反应
+  - id: S19
+    name: 波动与换手状态切换
+  - id: S20
+    name: 价格状态下的条件振幅
+  - id: S21
+    name: 日内与隔夜量价相关差
+  - id: S22
+    name: 换手变化的启动与过热
+  - id: S23
+    name: 52周高点锚定
+  rule_variants_after_specification:
+  - id: S08
+    name: 黄金坑、洗盘与二次突破
+  - id: S09
+    name: 涨停后的延续与回调
+  - id: S11
+    name: 固定价量与资金流表达式
+  - id: M01
+    name: 固定多因子合成
+  - id: O01
+    name: 行为计数与树排雷
+  - id: O02
+    name: 因果平滑与排名缓冲
+  - id: O03
+    name: 市场状态与现金开关
+  - id: O04
+    name: 固定、ATR与趋势退出
+  - id: O05
+    name: 耐心持有与重复入选延期
+  - id: O06
+    name: 逐股风险预算与集中度
+  - id: O07
+    name: 风险解除后的额度恢复
+  - id: O08
+    name: 实际持仓共同转弱防御
+  - id: O11
+    name: 复核日历与滚动持仓队列
+  - id: O12
+    name: 固定现金储备
+  existing_data_alignment_only:
+  - id: S12
+    name: 板块强弱轮动
+  - id: S13
+    name: 板块观点的个股表达
+  - id: S14
+    name: 行业内相对收益排序
+  - id: S15
+    name: 行业及相关性簇联动
+  - id: S16
+    name: 低波冷门与高联动合成
+  - id: S18
+    name: 隔夜与日内的行业相对收益
+  - id: S24
+    name: 美股行业固定映射传导
+  - id: S26
+    name: 海外趋势与国内状态交互
+  - id: S27
+    name: 长假海外信息累积
+  - id: O13
+    name: 海外风险门
+  - id: O14
+    name: 高波动与行业域内选择
+  defer_training:
+  - id: M02
+    name: 线性、树与序列网络排序
+  - id: M03
+    name: HMM状态条件模型
+  - id: M04
+    name: 因子有效性轮动
+  - id: M05
+    name: 多期限、多目标标签
+  - id: M06
+    name: 收益与不利幅度双预测
+  - id: M07
+    name: 趋势阶段专家
+  - id: M08
+    name: 与持仓政策对齐的目标
+  - id: M09
+    name: 趋势退出风险与持续期
+  - id: M10
+    name: 自动公式搜索与固定公式比较
+  - id: O09
+    name: 前瞻市场风险概率预算
+  - id: O10
+    name: 小资金整数股成本优化
+  - id: S25
+    name: 海外敏感度学习映射
+  defer_extension:
+  - id: S17
+    name: 经营改善与现金创造增量
+  - id: X01
+    name: 盘中形态与微观结构
+  - id: X02
+    name: 群体止损后的条件接回
+  - id: X03
+    name: 有底仓日内做T与IPO阶段
+  - id: X04
+    name: 学习入场与退出的强化学习
+  - id: X05
+    name: 可转债低价、双低与增强
+  - id: X06
+    name: 真实ETF承载板块与市场观点
+  - id: X07
+    name: 跳空追涨否决
+branch_whitelist:
+  S07:
+    allow:
+    - 固定趋势许可
+    - 固定连续性/效率/位置评分
+    defer:
+    - 收益/MAE预测门槛
+  S11:
+    allow:
+    - 预先固定负方向VWAP偏离极值
+    - 预先登记表达式及方向
+    defer:
+    - 按标签IC学习符号
+    - 重新挖表达式
+  M01:
+    allow:
+    - 等权
+    - 预先给定族等权
+    - 固定权重候选作为超参数
+    defer:
+    - IC/ICIR估计权重
+    - 预测模型权重
+  S15:
+    allow:
+    - 当时行业内滚动相关/残差规则
+    defer:
+    - 训练聚类模型
+    - 估计预测关系
+  S16:
+    allow:
+    - 固定低波冷门评分
+    - 已有行业映射相关项
+    defer:
+    - 依赖学习相关性簇的分支
+  O01:
+    allow:
+    - 计数阈值
+    - 固定条件过滤
+    defer:
+    - 训练决策树
+  O02:
+    allow:
+    - 滚动平均
+    - 固定系数EWMA
+    - 预先固定参数的因果Kalman
+    - 排名确认
+    defer:
+    - 估计滤波噪声参数
+    - 学习排名校准
+  O03:
+    allow:
+    - 固定趋势/广度/波动门槛
+    defer:
+    - 按滚动IC学习选择regime
+  O04:
+    allow:
+    - 收盘确认次时点成交的规则退出
+    defer:
+    - 需分钟路径的精确盘中止盈止损
+  O06:
+    allow:
+    - 等预算
+    - 逆ATR预算
+    - 固定集中度上限
+    defer:
+    - 预测MAE预算
+  O07:
+    allow:
+    - 规则风险减仓的真实成交额度恢复
+    defer:
+    - 依赖预测风险证据的恢复
+  O14:
+    allow:
+    - 固定波动分组
+    - 当时行业域
+    defer:
+    - 从未来绩效学习研究域
+fixed_execution:
+  inherit: alpha_lab/configs/classic_strategy_smoke.yaml
+  freeze:
+  - capital
+  - fees
+  - slippage
+  - price_model
+  - T_plus_one
+  - lots
+  - price_limits
+  - corporate_actions
+  - universe
+  - missing_data_policy
+  next_execution_after_signal: true
+  common_warmup_for_max_lookback: true
+search_space_status: initial_proposal_not_selected_from_backtest_returns
+joint_portfolio_dimensions:
+  frequency:
+  - daily
+  - weekly
+  - monthly
+  top_n:
+  - 3
+  - 4
+  - 5
+portfolio_dimension_notes:
+- 周频需新增策略决策日历适配，现有classic入口仅日/月频
+- 频率为类别，不施加有序单调假设
+- 共同热身需覆盖250日及相关历史派生；从同一冻结行情派生，不换数据版本
+family_spaces:
+  S01:
+    variant:
+    - low_mean_turnover
+    window:
+    - 5
+    - 10
+    - 20
+    - 40
+    - 60
+    - 120
+  S02:
+    variant:
+    - low_vol
+    - low_amplitude
+    window:
+    - 10
+    - 20
+    - 40
+    - 60
+    - 120
+  S03:
+    variant:
+    - amihud
+    window:
+    - 5
+    - 10
+    - 20
+    - 40
+    - 60
+  S04:
+    variant:
+    - positive_ep
+    - positive_bp
+    exclude_smallest_mv_quantile:
+    - 0.0
+    - 0.1
+    - 0.3
+  S05:
+    variant:
+    - absolute_reversal
+    window:
+    - 3
+    - 5
+    - 10
+    - 20
+    - 40
+    - 60
+  S06:
+    variant:
+    - skip_near_momentum
+    lookback:
+    - 40
+    - 60
+    - 120
+    - 180
+    - 250
+    skip:
+    - 0
+    - 5
+    - 10
+    - 20
+  S07:
+    variant:
+    - trend_strength
+    - continuous_trend
+    short_window:
+    - 20
+    - 40
+    - 60
+    long_window:
+    - 60
+    - 120
+    - 180
+    ma_window:
+    - 60
+    - 120
+    - 180
+  S10:
+    variant:
+    - net_flow_amount
+    - net_flow_over_amount
+    - net_flow_over_float_mv
+    - net_flow_over_bucket_gross
+    window:
+    - 3
+    - 5
+    - 10
+    - 20
+    - 40
+  S19:
+    variant:
+    - vol_turnover_switch
+    return_window:
+    - 10
+    - 20
+    - 40
+    - 60
+    state_window:
+    - 10
+    - 20
+    - 40
+    - 60
+    vol_quantile:
+    - 0.3
+    - 0.5
+    - 0.7
+    turnover_quantile:
+    - 0.3
+    - 0.5
+    - 0.7
+  S20:
+    variant:
+    - conditional_amplitude
+    window:
+    - 10
+    - 20
+    - 40
+    - 60
+    low_quantile:
+    - 0.15
+    - 0.25
+    - 0.4
+    high_quantile:
+    - 0.6
+    - 0.75
+    - 0.85
+  S21:
+    variant:
+    - intraday_overnight_correlation_difference
+    window:
+    - 10
+    - 20
+    - 40
+    - 60
+  S22:
+    variant:
+    - turnover_change_continuation
+    - turnover_change_reversal
+    short_window:
+    - 5
+    - 10
+    - 20
+    long_window:
+    - 40
+    - 60
+    - 120
+  S23:
+    variant:
+    - historical_high_proximity
+    window:
+    - 60
+    - 120
+    - 180
+    - 250
+constraints:
+  S06:
+  - skip < lookback
+  S07:
+  - short_window < long_window
+  S22:
+  - short_window < long_window
+controls:
+  fixed:
+  - B01
+  - B02
+  - B03
+  - B04
+  - B05
+  unchanged_baselines: true
+  random_seeds:
+  - 20260920
+  - 20260921
+  - 20260922
+  - 20260923
+  - 20260924
+classic_tunable_variants:
+  momentum:
+    window:
+    - 5
+    - 10
+    - 20
+    - 40
+    - 60
+    - 120
+  macd:
+    fast:
+    - 6
+    - 12
+    - 18
+    slow:
+    - 20
+    - 26
+    - 40
+    signal:
+    - 5
+    - 9
+    - 15
+    constraints:
+    - fast < slow
+  moving_average:
+    fast:
+    - 5
+    - 10
+    - 20
+    - 40
+    slow:
+    - 40
+    - 60
+    - 120
+    - 180
+    constraints:
+    - fast < slow
+classic_tuning_policy: 另记优化版本，不能覆盖固定B03/B04/B05；同搜索预算与内外层约束
+search:
+  seed: 20260920
+  budget_unit: family_per_outer_fold_including_all_structural_variants
+  max_unique_trials: 256
+  exhaustive_if_legal_space_at_most: 256
+  otherwise:
+    global_joint_trials: 128
+    local_refinement_trials: 64
+    continued_global_trials: 64
+    categorical_stratification: true
+    sampling: stratified_categorical_then_uniform_numeric_domain_without_replacement_over_legal_complete_configs
+  retain_distinct_regions: 4
+  local_neighbors:
+  - adjacent_numeric_grid_values
+  - integer_plus_minus_one_when_legal
+  - rounded_plus_minus_ten_percent_when_legal
+  - joint_two_coordinate_moves
+  - nearby_numeric_domain_points_not_only_coarse_reference_values
+  categorical_neighbors: separate_structural_branches_not_numeric_interpolation
+  deduplicate_complete_configs: true
+  infer_unsampled_scores: false
+  stop_on_bad_early_performance: false
+  errors_and_illegal_configs_logged_separately: true
+  space_exhaustion_or_budget_is_not_global_optimality: true
+  legal_space_definition: numeric_domains full stepped range crossed with categorical variants and joint portfolio
+    dimensions, after constraints
+  reference_points: include_historical_reference_configs_in_global_budget_when_legal_not_only_winners
+validation:
+  mode: chronological_nested_selection
+  historical_windows_are_already_used: true
+  engineering_folds:
+  - inner_years:
+    - 2019
+    - 2020
+    outer_year: 2021
+  - inner_years:
+    - 2019
+    - 2020
+    - 2021
+    outer_year: 2022
+  - inner_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    outer_year: 2023
+  inner_blocks: calendar_year_metrics_from_continuous_inner_account
+  parameter_lock_before_outer: true
+  outer_feedback_into_same_round_search: false
+  carry_outer_cash_and_positions: true
+  initial_cash_at_first_outer_only: 100000
+  unmatured_trade_pnl_may_use_future_exit: false
+  formal_unbiased_dates: null
+  formal_scope_blocker: 工程93股有全期质量隔离偏差；时间切分不能修复，也不能重新命名为新鲜样本外
+selection:
+  risk_limit_from_account: true
+  inner_require_continuous_mdd_at_most: 0.3
+  inner_require_each_block_mdd_at_most: 0.3
+  zero_buy_config: retain_in_results_but_not_select_as_stock_strategy
+  primary: median_inner_block_net_annualized_return
+  tie_band_annualized_return: 0.005
+  tie_breakers:
+  - numeric_neighborhood_net_return_q25
+  - lower_turnover
+  - lower_rule_complexity
+  neighborhood_score: only_actual_evaluated_neighbors_same_structural_branch; unsampled_not_imputed
+  insufficient_neighborhood_evidence: mark_unknown_and_do_not_claim_plateau
+  isolated_peak: retain_and_flag_fragile_not_automatically_disprove
+  no_feasible_configuration: report_none_do_not_relax_risk_limit
+  outer_select_best_after_seeing_results: false
+overlay_stage:
+  fixed_hosts:
+  - B03
+  - S01
+  paired_no_overlay_control: true
+  first_modules:
+  - O01
+  - O02
+  - O12
+  cash_fraction_candidates:
+  - 0.0
+  - 0.25
+  - 0.5
+  cash_semantics: 固定总账户内的策略预算参数，撮合与记账不改变
+  later_joint_search: true
+  reject_family_due_only_to_full_exposure_default: false
+required_outputs:
+- all_trials_with_failures
+- complete_config_hashes
+- parameter_surfaces_observed_points_only
+- neighborhood_and_interaction_tables
+- inner_block_results
+- locked_choices_before_outer
+- outer_continuous_equity
+- cash_positions_trades_events
+- cost_exposure_and_rejection_attribution
+- cumulative_search_ledger_across_families_and_rounds
+pre_execution_gates:
+- 新增规则公式与缺失策略明确、独立校验
+- 搜索器接入完整配置去重和预算
+- 内外层时序及账本延续校验
+- 周频策略日历适配
+- 最大窗口共同热身与输入哈希确认
+- 规则各分支不得隐式调用训练模型
+new_backtests_run: true
+family_spaces_semantics: 数值列表为初始参考点，不是单调插值依据；数值完整可行域见numeric_domains；字符串列表为离散分支
+numeric_domains:
+  S01:
+    window:
+      min: 5
+      max: 120
+      step: 1
+      type: integer
+  S02:
+    window:
+      min: 10
+      max: 120
+      step: 1
+      type: integer
+  S03:
+    window:
+      min: 5
+      max: 60
+      step: 1
+      type: integer
+  S04:
+    exclude_smallest_mv_quantile:
+      min: 0.0
+      max: 0.3
+      step: 0.01
+      type: decimal_grid
+  S05:
+    window:
+      min: 3
+      max: 60
+      step: 1
+      type: integer
+  S06:
+    lookback:
+      min: 40
+      max: 250
+      step: 1
+      type: integer
+    skip:
+      min: 0
+      max: 20
+      step: 1
+      type: integer
+  S07:
+    short_window:
+      min: 20
+      max: 60
+      step: 1
+      type: integer
+    long_window:
+      min: 60
+      max: 180
+      step: 1
+      type: integer
+    ma_window:
+      min: 60
+      max: 180
+      step: 1
+      type: integer
+  S10:
+    window:
+      min: 3
+      max: 40
+      step: 1
+      type: integer
+  S19:
+    return_window:
+      min: 10
+      max: 60
+      step: 1
+      type: integer
+    state_window:
+      min: 10
+      max: 60
+      step: 1
+      type: integer
+    vol_quantile:
+      min: 0.3
+      max: 0.7
+      step: 0.01
+      type: decimal_grid
+    turnover_quantile:
+      min: 0.3
+      max: 0.7
+      step: 0.01
+      type: decimal_grid
+  S20:
+    window:
+      min: 10
+      max: 60
+      step: 1
+      type: integer
+    low_quantile:
+      min: 0.15
+      max: 0.4
+      step: 0.01
+      type: decimal_grid
+    high_quantile:
+      min: 0.6
+      max: 0.85
+      step: 0.01
+      type: decimal_grid
+  S21:
+    window:
+      min: 10
+      max: 60
+      step: 1
+      type: integer
+  S22:
+    short_window:
+      min: 5
+      max: 20
+      step: 1
+      type: integer
+    long_window:
+      min: 40
+      max: 120
+      step: 1
+      type: integer
+  S23:
+    window:
+      min: 60
+      max: 250
+      step: 1
+      type: integer
+execution:
+  entrypoint: alpha_lab/scripts/run_rule_strategy_search.py
+  implemented_families:
+  - S01
+  - S02
+  - S03
+  - S04
+  - S05
+  - S06
+  - S07
+  - S10
+  - S19
+  - S20
+  - S21
+  - S22
+  - S23
+  - momentum
+  - macd
+  - moving_average
+  current_scope: 首批13规则家族及3经典调参版本；其余分支保持后续队列
+  fixed_baseline_replay: alpha_lab/outputs/classic_strategy_smoke/20260920T101316_167206Z/rule_search_engine_parity.json
+  prior_engineering_trials:
+  - run: alpha_lab/outputs/rule_strategy_search/20260920T101201_044368Z
+    trials: 128
+  - run: alpha_lab/outputs/rule_strategy_search/20260920T101314_693919Z
+    trials: 24
+  weekly_schedule: 完整冻结日历的每周最后一个交易日收盘，回测首日初始化
+  outer_parameter_switch: 新年第一个收盘决策，下一交易日执行；不重置旧仓/现金
+  missing_policy: 共同2016起热身，市场交易日网格，价格不前填，完整滚动窗；所有试验评价日期相同
+  formula_notes:
+  - S02振幅以当日除权参考价pre_close归一
+  - S21隔夜open/pre_close避免原始昨收除权跳变
+  - S20状态及振幅使用同一时点信息，过去条件样本计数为零时缺失
+  - S07连续趋势用固定四分量，不调用原预测门
+  search_budget_includes_reference_points: true
+variant_complexity:
+  low_vol: 1
+  low_amplitude: 2
+  trend_strength: 2
+  continuous_trend: 6
+  net_flow_amount: 1
+  net_flow_over_amount: 2
+  net_flow_over_float_mv: 2
+  net_flow_over_bucket_gross: 2

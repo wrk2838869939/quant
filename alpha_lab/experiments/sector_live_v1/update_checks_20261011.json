@@ -1,0 +1,26 @@
+{
+  "price_return_checks": [
+    {
+      "date": "20260928",
+      "max_return_error_pp": 5.0000000003436185e-05
+    },
+    {
+      "date": "20260929",
+      "max_return_error_pp": 5.000000001342819e-05
+    },
+    {
+      "date": "20260930",
+      "max_return_error_pp": 5.000000000887628e-05
+    },
+    {
+      "date": "20261008",
+      "max_return_error_pp": 5.000000000887628e-05
+    },
+    {
+      "date": "20261009",
+      "max_return_error_pp": 5.000000001009752e-05
+    }
+  ],
+  "resume_pointer_repaired": true,
+  "note": "旧进程完成数据和快照后，因相对resume路径导致LATEST指针刷新失败；完成状态复核后恢复指针，脚本已修复。"
+}

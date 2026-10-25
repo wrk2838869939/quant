@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "config": {
+    "asof": "2026-10-22",
+    "previous_end": "2026-10-21",
+    "endpoint": "http://jiaoch.site/api",
+    "timeout_seconds": 25,
+    "retries": 3,
+    "workers": 2,
+    "apis": [
+      "daily",
+      "adj_factor",
+      "daily_basic",
+      "moneyflow"
+    ],
+    "minimum_daily_rows": 4500,
+    "minimum_basic_coverage": 0.95,
+    "output_root": "alpha_lab/outputs/sector_live_update",
+    "release": "datahub/releases/selection_live_20261022_eod",
+    "old_release": "datahub/releases/selection_live_20261021_eod",
+    "old_sector_dataset": "alpha_lab/data/sector_live_datasets/sw_l2_v1_20261021T171918_920041Z",
+    "recent_signal_sessions": 5,
+    "stock_history_sessions": 400,
+    "stock_rule_config": "alpha_lab/configs/left_side_trend_v2.yaml",
+    "maximum_review_cases": 8,
+    "initial_capital": 100000,
+    "maximum_drawdown": 0.3,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 140,
+    "requested_date": "2026-10-22",
+    "previous_scan": "alpha_lab/outputs/sector_live_scan/20261021T172443_233422Z"
+  },
+  "dataset": "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261022T155721_349548Z",
+  "dataset_content_id": "2e0dcf06448cbca26af32a8b6e0276d6048aef537297de1bdea541799be2ec8e",
+  "summary": {
+    "requested_date": "2026-10-22",
+    "asof": "2026-10-22",
+    "previous_confirmations_unchanged": true,
+    "valid_sectors": 103,
+    "active_structure_sectors": 96,
+    "watch_sectors": 7,
+    "trigger_sectors": 7,
+    "confirmed_today_sectors": 0,
+    "new_confirmations": 0,
+    "new_confirmations_today": 0,
+    "old_sector_prefix_unchanged": true,
+    "old_330_confirmations_unchanged": true,
+    "model_note": "复用两轮独立模型及各自50%训练阈值；分数不是收益承诺，未新增训练或改变规则"
+  },
+  "artifacts": {
+    "scan_sectors.py": "82a2ab29bf3a0ee90b3782c7f2afb2498c815064893b0b3df9e8d273b6fcf738",
+    "config.yaml": "a4429c59a6f4b5c5ca0075d2d1ee43431135a059ed416ee83acf2308038cb95d",
+    "all_confirmations.parquet": "f9375e94c9f564b67a990637f872c176b8d529e4dd47503182eb392c16784250",
+    "latest_states_all_windows.parquet": "93d764922f75af351bcfba4e7922f57b9e9be4c0908e2ea39df5ac2b51d8b2ce",
+    "sector_states_today.csv": "028f613c785d84c7be1861bd09c8d9fb6ac0b3f917ab909d1be206181ee83d13",
+    "watch_today.csv": "bf463044670f36b5981a2fd358a281383a9615cfeba608ead17680f60e87d8f1",
+    "new_confirmation_features.parquet": "a21205e050372c9abb6b2b16f3dd820e049d098c2d8f5e386156f3e5fbde74b2",
+    "recent_confirmations_scored.csv": "e46ed5ea7c8c56d0cb48f979f7765e20aed6f44ec1ac7f2849325ff3c18d6443",
+    "new_confirmations_scored.csv": "0edceeed40e8879bae5c76e331d6624e2fed2d495b23213c9cd7d309a121a4e0",
+    "summary.json": "1e49da0fdf18b4e441513eb8191c98abd936cd7be5399729c4a982dce4a6f4e2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "cluster_rule": "原首次确认日期相邻间隔超过20个交易日才分新簇；全原事件统一定簇",
+  "bootstrap_repetitions": 2000,
+  "seed": 20261013,
+  "no_old_event_repeats_after_new_independent_event": true,
+  "interval_is_descriptive_not_independent_test": true
+}

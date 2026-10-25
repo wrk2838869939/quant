@@ -1,0 +1,3 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"corr(hclose,rng,10)",-0.0695,-0.83,-0.0649,1.07,0.31,True,56
+"corr(rng,hclose,10)",-0.0695,-0.83,-0.0649,1.07,0.31,True,57

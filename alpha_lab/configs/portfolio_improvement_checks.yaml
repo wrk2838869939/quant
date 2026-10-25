@@ -1,0 +1,6 @@
+# 固定验证情景，不把情景结果用于寻找下一组参数。
+cost_multiplier: 2.0
+bootstrap_samples: 2000
+bootstrap_block_days: 20
+bootstrap_seed: 20260911
+bootstrap_quantiles: [0.025, 0.975]

@@ -1,0 +1,36 @@
+# 固定经典参数，只验流程；不依据收益挑参数。所有策略共用同一工程测试样本。
+account_config: configs/selection_account_v1.yaml
+portfolio_config: configs/monthly_portfolio_audit.yaml
+action_config: configs/corporate_action_components.yaml
+execution_cache: data/raw/execution_audit/20140101_20231231
+output_root: outputs/classic_strategy_smoke
+formation_start: '2018-01-01'
+formation_end: '2018-12-31'
+start: '2019-01-01'
+end: '2023-12-31'
+boards: [sh_main, sz_main]
+universe_size: 100
+formation_min_observations: 200
+formation_latest_listing: '2017-12-31'
+quality_policy: full_window_quarantine_for_engineering_only
+top_n: 5
+momentum_window: 20
+ma_fast: 20
+ma_slow: 60
+macd: [12, 26, 9]  # 使用冻结指标库的标准规格
+frequencies: [daily, monthly]
+algorithms: [momentum, macd, moving_average, random]
+random_seed: 20260920
+buy_cost: 0.001  # 固定有效成本假设，非逐年真实佣金/税率表
+sell_cost: 0.002
+min_fee: 5.0
+slippage_rate: 0.0005  # 额外成本计入现金，价格字段仍记录开盘价
+cash_dividend_haircut: 0.2
+annual_days: 244
+benchmark: '000300.SH'  # 价格指数，仅行情参照，不等于含分红可投资基准
+feature_workers: 4
+audit:
+  money_atol: 1.0e-6
+  reference_atol: 0.00500001
+  future_check_end: '2021-12-31'
+  extreme_daily_return: 0.35

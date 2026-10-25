@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "summary": {
+    "strategy_id": "sector_stock_2026_gate_paused_v1",
+    "effective_from": "2026-10-21",
+    "asof": "2026-10-20",
+    "record_origin": "policy_change_review",
+    "annual_sector_gate_enabled": false,
+    "annual_diagnostic_status": "available_reference_only",
+    "shape_confirmed_today": 2,
+    "new_first_confirmations": 1,
+    "annual_model_pass_reference": 0,
+    "sectors_entering_stock_filter": 1,
+    "stocks_scored": 21,
+    "stock_candidates": 5,
+    "earliest_entry_date": "2026-10-21",
+    "execution_certified": false,
+    "auto_orders": false,
+    "legacy_random_scores_used": false
+  },
+  "sector_scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z",
+  "artifacts": {
+    "scan_opportunities.py": "1f52afe633e7c3c5160076f721f8a5faa5b8a7df2481816c9d60999eaa46d5f0",
+    "policy.yaml": "c9ce112d031a1439e5ab5b083ffe95b600f7f8bf9595d8a982016f39e4ce1c87",
+    "sector_features.parquet": "a21205e050372c9abb6b2b16f3dd820e049d098c2d8f5e386156f3e5fbde74b2",
+    "first_confirmations.csv": "d6b2e447ee8ad672a58e146db83cdd29642a1cd612c8401e8b46c32d1138fc8e",
+    "namechange_for_review.parquet": "52f7cbfd4ed3e52752584e7e611c22ddf7e96cb610ae7a6e7f38bcab14fbef64",
+    "name_history_source.json": "eff11a2672604d14548864dec08f4054023cadf572e82889f6b1404bfc77a82e",
+    "all_member_qualification_20261020.csv": "aa85b0563e8634191a6415b33f7390c7c3f050fde5a0cf6d500a945913c6ac82",
+    "stock_diagnostics.csv": "1e9750a8f64dec66d53bad7e11873120e1e4bee43a3c9d089fcf5c5a276c3787",
+    "stock_candidates.csv": "083a2f9e19e6f624e80595d9ff66b2ed27cc0bf11825e2d1aa11bd0a663a540b",
+    "watch_today.csv": "c5a68f93939df547a2f687481694b039e7112f9b6efc8df0f27cdb777f0fb857",
+    "summary.json": "410779dcd8d676c5995d92f4d5216a853d21a643cd25b8cfe25561761e5c0b42",
+    "REPORT.md": "b7199a96e10e1968a0cee6fabca363c00dedb259e146708c327124dce0e5ed8a",
+    "REPORT.html": "9d93e48a82f67b3d1eed63a6956c7bc6ab4baaef0cf7cb9800021d71753a51d0",
+    "verification.json": "6cc87f2e78d1ce178aa6d32bfd8b981e8fb2a4f3eaf5d363d2ca869cb32f3024"
+  }
+}

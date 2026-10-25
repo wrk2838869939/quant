@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "fresh_holdout": false,
+  "test_market_data_used": false,
+  "policies": [
+    "low_turnover",
+    "continuous_trend",
+    "global_return",
+    "phase_experts",
+    "shared_experts"
+  ],
+  "design": "three prior-return phases; global vs independent vs shared experts; no group quotas; selection precedes sizing",
+  "source_hashes": {
+    "configs/divide_selection.yaml": "1154ba6b7493b3d9813000aa6b0e4fddba41054397da1e22ed0f806f1bf4a71d",
+    "scripts/run_divide_selection.py": "dfc37a9e40975a7e55f50b8f601aa91f4f034d63b6636456343ea144dc13bdf3",
+    "src/divide_selection.py": "0bb8d7b265d9f746a1628004be9a3d0617331c0d3b77fad92e35527d2dc2ba02",
+    "src/value_forecast.py": "7fc2012ab7c7f381a06e58d7b0291dc32e5c990ae7ff975feede8830feb40ffb"
+  },
+  "evaluation_dates": 33,
+  "input_row_permutation_invariant": true,
+  "note": "overlapping 60d entry opportunities; not an executed portfolio; no new holdout",
+  "completed_execution_cases": 20,
+  "automated_tests": 183,
+  "independent_model_verification": "independent_verification.json",
+  "independent_execution_verification": "execution/independent_execution_verification.json",
+  "admission": "NOT_ADMITTED",
+  "input_hashes": {
+    "outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet": "4c5cfa14fb1263800c1fe36430ccba092abb77f2b17def98e753d85face08e65",
+    "outputs/autonomous_value_research/20260912T160734_658714Z/execution/pit_review_features.parquet": "48844159194b42946aba68ea412e4c6e9d0416807ca6918529126234d543f74b",
+    "outputs/autonomous_value_research/20260912T160734_658714Z/execution/monthly_hold_allowed.parquet": "37bac7629b8c7c4f2da2a00984060b8bf39f6de3baa6b22eabb0a689bbbfb994"
+  },
+  "analysis_source_hashes": {
+    "scripts/verify_divide_selection.py": "52728041b8b3296464fc2c87fe36b7cf6b8dc9a3174272b84d7ef8fe4c8f234c",
+    "scripts/verify_divide_selection_execution.py": "8ba7c0e207e8bb562220f73a5acbffc453672582371a0028b0b5ecc1869452cd",
+    "scripts/summarize_divide_selection.py": "89090fdfc42942e8f1cfe03bc89bbba3d30c3144e0b2f260e4d22fea65cb43f1"
+  },
+  "limitations": [
+    "reused_development_not_fresh_oos",
+    "full_A_universe_not_user_account_permission",
+    "phase_experts_profit_concentrated_in_Beijing",
+    "no_active_full_cash_after_initial_day",
+    "conditional_60d_mean_not_patient_holding_target",
+    "unknown_trend_retention_unresolved"
+  ],
+  "report": "docs/DIVIDE_SELECTION_20260913.md"
+}

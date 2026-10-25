@@ -1,0 +1,23 @@
+{
+  "status": "NOT_ADMITTED",
+  "production_changed": false,
+  "fresh_holdout": false,
+  "test_market_data_used": false,
+  "completed_execution_cases": 29,
+  "tests_passed": 142,
+  "reasons": [
+    "full return magnitude calibration worse than constant",
+    "cross-sectional entry confidence does not create active cash",
+    "uniform-return top20 allocation fails input-order economic identifiability",
+    "market risk overlay loses holding returns in reused development window",
+    "suspension gaps can keep long-window holding state unknown for months"
+  ],
+  "engineering_completed": [
+    "patient <=5 holdings with integer/cash constraints",
+    "confirmed exits persist until filled",
+    "dated model fitting and uncertainty diagnostics",
+    "strict evidence-based corporate-action source correction",
+    "all candidate paths retained and independently reconciled"
+  ],
+  "warning": "accounting verification is distinct from strategy admission; no candidate champion selected"
+}

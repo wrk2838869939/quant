@@ -1,0 +1,179 @@
+[
+  {
+    "method": "baseline_selector",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "baseline_selector",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "baseline_selector",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_best",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_best",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_best",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_stable",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_stable",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "account_stable",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_best",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_best",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_best",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_with_baseline_fallback",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_with_baseline_fallback",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "ic_with_baseline_fallback",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "equal_weight",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "equal_weight",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "equal_weight",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B01_low_turnover",
+    "endpoint_reference_match": true,
+    "tables": 4
+  },
+  {
+    "method": "B01_low_turnover",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B01_low_turnover",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B01_low_turnover",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B02_low_risk",
+    "endpoint_reference_match": true,
+    "tables": 4
+  },
+  {
+    "method": "B02_low_risk",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B02_low_risk",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B02_low_risk",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B03_valuation",
+    "endpoint_reference_match": true,
+    "tables": 4
+  },
+  {
+    "method": "B03_valuation",
+    "cutoff": "2021-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B03_valuation",
+    "cutoff": "2022-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  },
+  {
+    "method": "B03_valuation",
+    "cutoff": "2023-06-30",
+    "raw_signal_prefix": true,
+    "account_tables": true
+  }
+]

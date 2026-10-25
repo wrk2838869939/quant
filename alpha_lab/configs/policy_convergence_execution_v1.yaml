@@ -1,0 +1,6 @@
+# 仅改变独立候选的执行调度，不改变训练公式、随机流或预算。
+candidate_workers: 8
+verification_generation: 64
+verification_tasks:
+  - [2022, B02_low_risk, baseline]
+  - [2023, equal_weight, baseline]

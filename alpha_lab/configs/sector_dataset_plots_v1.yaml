@@ -1,0 +1,8 @@
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+output_root: alpha_lab/outputs/sector_dataset_plots
+minimum_pair_days: 60
+return_column: chain_return
+correlation_method: pearson
+font: fonts/SimHei.ttf
+dpi: 180
+histogram_bins: [0, 5, 10, 20, 40, 60, 100, 150, 200, 250]

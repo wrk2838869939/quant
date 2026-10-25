@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "source": "outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet",
+  "source_sha256": "4c5cfa14fb1263800c1fe36430ccba092abb77f2b17def98e753d85face08e65",
+  "source_last_date": "2021-12-27 00:00:00",
+  "source_last_label": "2021-12-29 00:00:00",
+  "model_checks": [
+    {
+      "model": "development_constant",
+      "rows": 27544,
+      "dates": 50,
+      "last_label": "2018-12-05 00:00:00",
+      "independent_max_coef_difference": 2.7755575615628914e-17,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "development_style",
+      "rows": 27544,
+      "dates": 50,
+      "last_label": "2018-12-05 00:00:00",
+      "independent_max_coef_difference": 1.1102230246251565e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "development_full",
+      "rows": 27544,
+      "dates": 50,
+      "last_label": "2018-12-05 00:00:00",
+      "independent_max_coef_difference": 3.885780586188048e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "development_full_known_exit",
+      "rows": 25573,
+      "dates": 50,
+      "last_label": "2018-12-05 00:00:00",
+      "independent_max_coef_difference": 4.371503159461554e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "development_full_complete_path",
+      "rows": 22380,
+      "dates": 50,
+      "last_label": "2018-12-05 00:00:00",
+      "independent_max_coef_difference": 2.498001805406602e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "execution_constant",
+      "rows": 65078,
+      "dates": 86,
+      "last_label": "2021-12-06 00:00:00",
+      "independent_max_coef_difference": 5.551115123125783e-17,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "execution_style",
+      "rows": 65078,
+      "dates": 86,
+      "last_label": "2021-12-06 00:00:00",
+      "independent_max_coef_difference": 2.2898349882893854e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    },
+    {
+      "model": "execution_full",
+      "rows": 65078,
+      "dates": 86,
+      "last_label": "2021-12-06 00:00:00",
+      "independent_max_coef_difference": 7.055987738535663e-16,
+      "prediction_samples": 84,
+      "independent_bootstrap_replicates": 3,
+      "future_pollution_ignored": true
+    }
+  ],
+  "evaluation_rows": 185560,
+  "evaluation_pool_shared_by_all_models": true,
+  "date_equal_summary_verified": true,
+  "mse_decomposition_verified": true,
+  "evaluation_no_entry_rows": 97,
+  "posthoc_addendum": {
+    "status": "passed",
+    "all_summaries_date_equal": true,
+    "rank_return_monotone_increasing": false,
+    "rank_mae_monotone_increasing": true,
+    "date_mean_return_correlation": -0.4286607335215941,
+    "future_top5_return_contribution": 0.04001972021655097,
+    "pool_mean_return": 0.05731597808668097,
+    "paired_month_blocks_reproduced": true,
+    "limitation": "上述相关、尾部及十分组均为重复开发窗口事后描述；尾部不是可知入场特征，区间不是新样本显著性证明。"
+  },
+  "top5_policy_missing_entries_summed_over_frequencies": 0,
+  "bootstrap_unit": "moving_blocks_of_calendar_months_preserving_all_date_clusters",
+  "interval": "10/90 percentiles of conditional mean estimates; not outcome prediction interval; no coverage guarantee",
+  "limitations": [
+    "主误差池保留无法入场时的零收益现金结果，与训练的可入场条件均值目标存在口径差异；独立表同时报告共同可入场子池。",
+    "entry_path 的 opportunity_return 保留 no_entry 零收益；entry_observed_return 为共同可入场子池均值。五名额现金收益是独立入场机会诊断，不是复利组合收益。",
+    "MSE 的 time_mse 为每个日期截面平均残差平方，并不构成市场时机预测能力的独立证明。",
+    "固定六个月移动块仅为相关性保留方案，不保证均值区间覆盖率；没有模拟单次收益噪声。",
+    "2019—2021 为重复开发数据；训练删失变体为敏感性诊断，不据其挑选策略。"
+  ]
+}

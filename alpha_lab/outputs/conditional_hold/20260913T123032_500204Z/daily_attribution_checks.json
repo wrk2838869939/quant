@@ -1,0 +1,152 @@
+[
+  {
+    "name": "cold_baseline",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "continued_baseline",
+    "daily_pnl_max_error": 3.2741809263825417e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "small_baseline",
+    "daily_pnl_max_error": 4.547473508864641e-12,
+    "recent_pnl_error": 9.094947017729282e-13
+  },
+  {
+    "name": "large_baseline",
+    "daily_pnl_max_error": 2.3646862246096134e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "cost2_baseline",
+    "daily_pnl_max_error": 1.4551915228366852e-11,
+    "recent_pnl_error": 3.637978807091713e-12
+  },
+  {
+    "name": "reverse_baseline",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "cold_persist10",
+    "daily_pnl_max_error": 1.546140993013978e-11,
+    "recent_pnl_error": 3.637978807091713e-12
+  },
+  {
+    "name": "continued_persist10",
+    "daily_pnl_max_error": 2.3533175408374518e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "small_persist10",
+    "daily_pnl_max_error": 7.275957614183426e-12,
+    "recent_pnl_error": 1.8189894035458565e-12
+  },
+  {
+    "name": "large_persist10",
+    "daily_pnl_max_error": 4.376943252282217e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "cost2_persist10",
+    "daily_pnl_max_error": 1.4210854715202004e-11,
+    "recent_pnl_error": 2.1827872842550278e-11
+  },
+  {
+    "name": "reverse_persist10",
+    "daily_pnl_max_error": 1.546140993013978e-11,
+    "recent_pnl_error": 3.637978807091713e-12
+  },
+  {
+    "name": "cold_accelerated",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "continued_accelerated",
+    "daily_pnl_max_error": 2.9103830456733704e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "small_accelerated",
+    "daily_pnl_max_error": 4.547473508864641e-12,
+    "recent_pnl_error": 1.8189894035458565e-12
+  },
+  {
+    "name": "large_accelerated",
+    "daily_pnl_max_error": 3.2741809263825417e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "cost2_accelerated",
+    "daily_pnl_max_error": 1.4551915228366852e-11,
+    "recent_pnl_error": 0.0
+  },
+  {
+    "name": "reverse_accelerated",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "cold_patient",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 0.0
+  },
+  {
+    "name": "continued_patient",
+    "daily_pnl_max_error": 4.4565240386873484e-11,
+    "recent_pnl_error": 0.0
+  },
+  {
+    "name": "small_patient",
+    "daily_pnl_max_error": 5.4569682106375694e-12,
+    "recent_pnl_error": 4.547473508864641e-12
+  },
+  {
+    "name": "large_patient",
+    "daily_pnl_max_error": 3.3651303965598345e-11,
+    "recent_pnl_error": 0.0
+  },
+  {
+    "name": "cost2_patient",
+    "daily_pnl_max_error": 1.2732925824820995e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "reverse_patient",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 0.0
+  },
+  {
+    "name": "cold_hybrid",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "continued_hybrid",
+    "daily_pnl_max_error": 1.8189894035458565e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  },
+  {
+    "name": "small_hybrid",
+    "daily_pnl_max_error": 4.547473508864641e-12,
+    "recent_pnl_error": 1.8189894035458565e-12
+  },
+  {
+    "name": "large_hybrid",
+    "daily_pnl_max_error": 2.1827872842550278e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "cost2_hybrid",
+    "daily_pnl_max_error": 1.2391865311656147e-11,
+    "recent_pnl_error": 7.275957614183426e-12
+  },
+  {
+    "name": "reverse_hybrid",
+    "daily_pnl_max_error": 1.77351466845721e-11,
+    "recent_pnl_error": 1.4551915228366852e-11
+  }
+]

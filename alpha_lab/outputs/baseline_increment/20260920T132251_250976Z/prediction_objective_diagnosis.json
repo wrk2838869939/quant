@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "readonly": true,
+  "source_sha256": "a5a1d977b7ce5b47a6aa86420e6237d63156c5bae441c0d366e38e2817b521cb",
+  "fit_streams": 17,
+  "metric_rows": 136,
+  "training_masks_reconstructed": true,
+  "saved_first_segment_predictions_match": true,
+  "limits": "每条已选规格仅首个实际拟合和紧邻预测段；并非全年预测质量或统计显著性；residual_full固定幅度1仅用于目标诊断，不作交易选择"
+}

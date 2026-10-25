@@ -1,0 +1,25 @@
+study: baseline_style_controls_v1
+source_run: alpha_lab/outputs/baseline_combination/20260920T130430_653480Z
+loader_config: alpha_lab/configs/policy_balance_v1.yaml
+baselines: [B01_low_turnover, B02_low_risk, B03_valuation, equal_weight]
+start: '2021-01-01'
+end: '2023-12-31'
+anchor_year: 2021
+style_window: 20
+seeds: [2101, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112]
+workers: 8
+modes:
+  random_priority: []
+  match_size_vol_value: [market_cap, volatility, earnings_yield]
+  match_all: [market_cap, volatility, earnings_yield, turnover]
+matching:
+  rms_caliper: 0.15
+  max_coordinate_gap: 0.25
+  invalid_edge_penalty: 10.0
+  persistent_noise: 0.001
+  new_name_penalty: 0.02
+  minimum_pair_pass_rate: 0.80
+  maximum_actual_mean_abs_gap: 0.10
+  maximum_turnover_ratio: 2.0
+max_drawdown: 0.30
+prefix_date: '2022-06-30'

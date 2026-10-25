@@ -1,0 +1,18 @@
+# 固定三种已知趋势阶段；不搜索分组/阈值，不按回测挑赢家。
+output_root: outputs/divide_selection
+source_panel: outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet
+execution_parent: outputs/autonomous_value_research/20260912T160734_658714Z/execution
+fit_end: '2018-12-31'
+final_fit_end: '2021-12-31'
+development: ['2019-01-01', '2021-12-31']
+execution: ['2022-01-01', '2023-12-31']
+features: [x_mom60, x_mom120, x_continuity, x_jump_share, x_extension, x_volatility, x_drawdown, x_log_size, x_turnover]
+forecast: {horizon: 60, alpha: 1.0, bootstrap_reps: 100, block_dates: 6, seed: 20260913, min_dates: 36}
+phases: [recovery, accelerating, decelerating]
+entry: {min_expected_return: 0.005, max_expected_adverse: 0.15}
+policies: [low_turnover, continuous_trend, global_return, phase_experts, shared_experts]
+continuous_score: {x_mom120: 0.25, x_continuity: 0.25, x_jump_share: -0.25, x_extension: -0.25}
+frequency: monthly
+retail: {max_positions: 5, max_stock_fraction: 0.25, candidate_pool: 20, solver_relative_gap: 0.001, selection_first: true}
+capitals: [20000.0, 50000.0, 100000.0]
+reference_capital: 50000.0

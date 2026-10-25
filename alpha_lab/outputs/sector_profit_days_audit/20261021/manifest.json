@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "artifacts": {
+    "evaluate.py": "bfe2c969f50ad826f8fda2fb49b3ba305ae5e42c43953538f5467eadc39db0ab",
+    "event_metrics.csv": "2bb3b89193619d2a33efc118b1e36fc78522f0a612aeebc0b305a8cfe10fdafb",
+    "daily_paths.csv": "670820e81672ba962885d7cb5775b1729f7ad56b117476c2725350642fa1159f",
+    "excluded.csv": "96309751ad4c0602c297170ab7982f18e8972c69b4215975ab62cc992ef4c5cc",
+    "metrics_by_year.csv": "6f24835bd859eae02ccf61560917f2a12534b8b8b875f37fbc6326a1fa8de3ac",
+    "cluster_intervals.csv": "a88ee2f573b47dd4bfa73ff738e308fdc6e6a64ae11cc0dd46ab7435fad7c4b1",
+    "missing_bounds.csv": "593cda6fb641296ea349d9abe262b177066535ef40d5bbb0637172081df0bbf3",
+    "profit_days.png": "67de9da311efee171f62a039df254fb3280616dca1606a80d3b3c82e50350e87",
+    "REPORT.md": "c5e4461b6d033642bacac2dc69992bdbe005a4d58204136a76e16c29b6df3939",
+    "REPORT.html": "14ad3fc8959d9f1f52a211813e4baaace88f4a2299ffb482aae8b465afd68ad7",
+    "verification.json": "774376db1ba9931987e1ad8ff5d1bc30dba81f6b2564cfe3fa086e977c668b65"
+  }
+}

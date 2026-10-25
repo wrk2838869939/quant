@@ -1,0 +1,20 @@
+{
+  "script": "alpha_lab/scripts/report_rule_strategy_search.py",
+  "sha256": "27b43857092ae00398f0b7c63f00bc849e005e90944408321ac326e00cee8307",
+  "artifacts": {
+    "REPORT.md": "3ed78442a8a5246cea44106e4471710fd99a3c58a2fb337e500f53d841ef417d",
+    "all_trials.csv": "fdba2e2e9bd41f95f8f88ea42624321a274c5980953e6dcb797758d35509256c",
+    "all_trials.parquet": "c1e717b5fd67b0f6713d89c69b2d03653107a355097bb9cd7025712fa6b7724b",
+    "outer_summary.csv": "5d9c56493a09a86b8002532b8a8e419a6c9f531a45ba34f7b710af764976fb0c",
+    "control_summary.csv": "d68b051bad7a4979d39e387e5e6f5675598d08f98b26ba234fe868d34168fbf7",
+    "matched_control_summary.csv": "4a6c0e1fec6266e115a68cbb4a922d4febd4b972c7f29ec74be63ed2a8ae92c2",
+    "parameter_neighborhoods.csv": "8bc39c9a5369ed7bf41251b1b00577a162e528d53f2e9a4bf309780d1b8b1787",
+    "observed_nonmonotonic_triplets.csv": "4eacf76ac8adb24b3ad5a466e78e035dfdb82cf7f188be62f41a6a61c8bfa63d",
+    "outer_nav_drawdown.png": "0638d2c3f082929a0cfaca4614463748ee0b7fcbd6fd72a6b1bfaa2afccb43bd",
+    "S01_parameter_samples.png": "f6b0012aeb5e56eefe141d32bf1002f9d0e5f2a279e42cae226c978ac51ce272",
+    "overlay_study/REPORT.md": "7986d9379e6b3f0f3b3faec146f842b4a4514d9a5a9bd27faac3e3cd41109698",
+    "overlay_study/outer_summary.csv": "196520f7eea122f3d8022514a64ed43312c8647d8df7de018958f8609e8a908e",
+    "search_ledger.csv": "78564cad66a138548eb06c08a2679242c80951232f76fe61c97be0c1ea242eaf",
+    "execution_validation.json": "3a2847b6b567dae5d1656c7dcacb7338402cc86b486aeaedf3cb520c6099cec9"
+  }
+}

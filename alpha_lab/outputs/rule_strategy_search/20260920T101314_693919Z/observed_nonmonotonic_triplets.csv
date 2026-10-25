@@ -1,0 +1,2 @@
+family,outer_year,axis,fixed_params,x1,x2,x3,y1,y2,y3,trial1,trial2,trial3
+S01,2023,window,"{""family"": ""S01"", ""frequency"": ""weekly"", ""top_n"": 4, ""variant"": ""low_mean_turnover""}",13,104,116,0.024470465458919177,0.06058547513410095,0.059171775657283154,9dc4ff48e40be7ba3481,b0840a10ed327b8392b1,21cbbdf338a3c957028a

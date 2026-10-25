@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "case_count": 20,
+  "orders": 1001,
+  "fills": 994,
+  "account_days": 15924,
+  "synthetic_tests": 25,
+  "strategy_admitted": false,
+  "hashes": {
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/INDEPENDENT_REPORT.md": "e5563386efd7f85436b2d1d07fc16be644f1abe048d5ab9ff3492cc9955d140f",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/independent_real_order_verification.json": "120b647fad296c3572f859aa6b893bf29044fed8edaa83440c73684f14491dfd",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/actual_branch_coverage.json": "4ab41d89a303fe614d8449686b16293ea4bc9f513a0288844d8f66c03ffd0c17",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/actual_branch_coverage.csv": "e23577aea6dd6f21ff334fd9199c5cb6de73afd0cac1f802984402798dd21e5e",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/actual_cancellation_reasons.csv": "184a4862a0015e80f6ec3842af7af811e4bea6954f92d78d411c63b317f00df5",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/verify_real_orders.py": "a7f6e6475397db28d148f80db8ab02b8be59ae3d957573db5089dfd3c62be83b",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/summarize_real_orders.py": "37e9ea9cfe7422f24079c322565a427ba851cea4317c4299908864088e484b1d",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/signals/adversarial_final25.log": "baddd21b2e4356eedd48ce09c5e2f229d63cdc9d16e5a828d397f0e8c6c8f860",
+    "/root/autodl-tmp/alpha_lab/tests/test_causal_portfolio_adversarial.py": "dca18412421f0d0b6dd8b79f52b2e4a2d11fdb48dd55b396d93df838e0e4a6d1",
+    "/root/autodl-tmp/alpha_lab/src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/20260913T130810_374654Z/independent_cash_entitlements.json": "b6478d7b352d919b9c26f0532f53cec9ac7dae62e87602798b28f1ab67b8b2b6",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/verify_cash_entitlements.py": "a6cc5bc3591435692cf30f80d469d86f6ca431414d55786110b2dec99442afce"
+  },
+  "independent_cash_max_error": 2.1827872842550278e-11
+}

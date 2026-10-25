@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "original_rows": 12275558,
+  "unchanged_full_projection_rows": 12253984,
+  "changed_cells": 43148,
+  "per_date_rows": {
+    "20240819": 5338,
+    "20250120": 5377,
+    "20250421": 5394,
+    "20260129": 5465
+  },
+  "raw_panel_five_column_hash_matches_before_repair": true,
+  "raw_panel_five_column_hash": "53914474fca7644ddfd33fa7cc91208d950e4f7d4f038235d8f5dbc5791afbec",
+  "all_projected_hfq_prices_unchanged": true,
+  "all_other_projected_cells_unchanged": true,
+  "all_replacements_from_original_nan": true,
+  "exact_api_values_and_units": true,
+  "changed_cells_ledger_exact": true,
+  "current_raw_panel_file_sha256": "04d1b49b8e6b8907bb9767be235723dc8c722567901a8cc60b0f1814d9e596ea",
+  "raw_panel_file_bytes": 3482222501,
+  "raw_panel_mtime_ns": 1788917194170939057,
+  "raw_panel_stat_unchanged_during_verification": true,
+  "full_73_column_historical_byte_hash_available": false,
+  "evidence_boundary": "修复前保存五列内容哈希而非整份原面板字节哈希；已证五列仍与旧冻结一致，不能凭空认证其余68列历史字节。修复仅写独立五列投影。",
+  "repair_artifact_hashes": {
+    "daily_basic_20250120.parquet": "6715282753169b07d5cd64bed92b29eebd6bfd672dc1a08ebe9e7f489950481d",
+    "daily_basic_20240819.parquet": "371cbd1dcb2de067fa7b9f9aa1f710e21fbe5acae6c882f17514549701a22201",
+    "daily_basic_20260129.parquet": "c1d7148f67d30a23070181474a18a49384bc75e7705bae4063cb60928558da29",
+    "daily_basic_20250421.parquet": "5805a2ef06cc974b9e0254e094fa447b63b4c5e3d36c0dec503e05eeeea15522",
+    "repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9",
+    "changed_cells.csv": "edb1ca1d003269abc8448eec7b4c16c300c702c67e0a57a17ed0718a8908a948",
+    "repair_manifest.json": "71715a14da9220d18a6e6ca3753ba9cc480e6ba6345694c7545e335a5960867c",
+    "repair_recent_basic_projection.py": "f4935f92bf98b0ae2d269eb8245edaf0a38f32f1a683bf567a8782daed64599b"
+  },
+  "verifier_sha256": "c5767142485256ef27afa7e16a4d7d92623ca0c149e602423bcb71e7224afd85"
+}

@@ -1,0 +1,12 @@
+{
+  "baseline_events": 230,
+  "baseline_dates": 115,
+  "merged_events": 330,
+  "merged_dates": 162,
+  "merged_sectors": 111,
+  "raw_confirmation_signals": 956,
+  "merged_duplicates": 626,
+  "groups_without_baseline": 100,
+  "new_groups_old_event_active": 82,
+  "groups_with_baseline": 230
+}

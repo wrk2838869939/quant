@@ -1,0 +1,1059 @@
+{
+  "count": 117,
+  "trials": [
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "63662a7bf11ee5121240",
+      "sharpe": 1.335524921929394,
+      "max_monthly_return": 0.2076380954174415,
+      "trades_checked": 75,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "450a5352117c748af96d",
+      "sharpe": 1.187284960910704,
+      "max_monthly_return": 0.26761316196155205,
+      "trades_checked": 89,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "0226246de3ee6ba9e5c8",
+      "sharpe": 1.1412403015798833,
+      "max_monthly_return": 0.24021165536554334,
+      "trades_checked": 155,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 2.0865622345729746,
+      "max_monthly_return": 0.27976936511493,
+      "trades_checked": 57,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "ac22d6b2a84d0c9c6f5b",
+      "sharpe": 1.4154957913554511,
+      "max_monthly_return": 0.20229371165585364,
+      "trades_checked": 81,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 1.4844994438155545,
+      "max_monthly_return": 0.21895760954509624,
+      "trades_checked": 69,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 0.8372652521899775,
+      "max_monthly_return": 0.2801686459518924,
+      "trades_checked": 139,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B01_low_turnover",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": 1.0723268462152218,
+      "max_monthly_return": 0.2160640572984618,
+      "trades_checked": 155,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B02_low_risk",
+      "id": "db7193452e028d192133",
+      "sharpe": 1.4121229779837339,
+      "max_monthly_return": 0.2181468746587676,
+      "trades_checked": 33,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B02_low_risk",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 1.7373738212012422,
+      "max_monthly_return": 0.2835569424002762,
+      "trades_checked": 39,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B02_low_risk",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": 1.3123549410068247,
+      "max_monthly_return": 0.21795858936558332,
+      "trades_checked": 35,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B02_low_risk",
+      "id": "a6face9f443a8c5a3791",
+      "sharpe": 0.7986144969704687,
+      "max_monthly_return": 0.21094803307201082,
+      "trades_checked": 53,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B02_low_risk",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": 1.2401104947917592,
+      "max_monthly_return": 0.22596080731908397,
+      "trades_checked": 51,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "db7193452e028d192133",
+      "sharpe": 1.3139341777805869,
+      "max_monthly_return": 0.2561870015673118,
+      "trades_checked": 44,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "14516276bb7fb4edb11b",
+      "sharpe": 1.4789966029712598,
+      "max_monthly_return": 0.25557862956142574,
+      "trades_checked": 42,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": 1.3139341777805869,
+      "max_monthly_return": 0.2561870015673118,
+      "trades_checked": 44,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "db7bdb1de92ca1e1389c",
+      "sharpe": 2.604923163420671,
+      "max_monthly_return": 0.2812589095779703,
+      "trades_checked": 62,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "63662a7bf11ee5121240",
+      "sharpe": 1.6838315188140356,
+      "max_monthly_return": 0.21481857541194338,
+      "trades_checked": 34,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 1.0999483388813245,
+      "max_monthly_return": 0.28416063081201615,
+      "trades_checked": 52,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "450a5352117c748af96d",
+      "sharpe": 1.5534400352058861,
+      "max_monthly_return": 0.22414702381303697,
+      "trades_checked": 36,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "ac22d6b2a84d0c9c6f5b",
+      "sharpe": 1.6838315188140356,
+      "max_monthly_return": 0.21481857541194338,
+      "trades_checked": 34,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 0.9673104262332133,
+      "max_monthly_return": 0.21138085098245507,
+      "trades_checked": 44,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "B03_valuation",
+      "id": "436f2c00d2ef5bc20d32",
+      "sharpe": 0.7418496393470361,
+      "max_monthly_return": 0.28000184006030615,
+      "trades_checked": 58,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "equal_weight",
+      "id": "db7bdb1de92ca1e1389c",
+      "sharpe": 1.6899891939056553,
+      "max_monthly_return": 0.22139630394883203,
+      "trades_checked": 43,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2021,
+      "host": "equal_weight",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 1.2080777234267526,
+      "max_monthly_return": 0.26870142151679266,
+      "trades_checked": 41,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "63662a7bf11ee5121240",
+      "sharpe": 0.8604547427459565,
+      "max_monthly_return": 0.20176832000000022,
+      "trades_checked": 105,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "450a5352117c748af96d",
+      "sharpe": 0.743276175878917,
+      "max_monthly_return": 0.22517800839058277,
+      "trades_checked": 101,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 0.8382026056484462,
+      "max_monthly_return": 0.20842662450569227,
+      "trades_checked": 119,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": 0.8739527863488716,
+      "max_monthly_return": 0.2074020047336167,
+      "trades_checked": 115,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 0.3220329907209518,
+      "max_monthly_return": 0.20948872161189835,
+      "trades_checked": 90,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "8a76b39f93ed610acf31",
+      "sharpe": 0.7361561005757836,
+      "max_monthly_return": 0.21581425988382996,
+      "trades_checked": 149,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "b38df52aabe1f3ac6bec",
+      "sharpe": 0.5401174879436508,
+      "max_monthly_return": 0.215724521047145,
+      "trades_checked": 219,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B01_low_turnover",
+      "id": "436f2c00d2ef5bc20d32",
+      "sharpe": 0.8961656452175706,
+      "max_monthly_return": 0.20411815012162338,
+      "trades_checked": 237,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B02_low_risk",
+      "id": "db7bdb1de92ca1e1389c",
+      "sharpe": 0.6660970218024278,
+      "max_monthly_return": 0.20738684578108435,
+      "trades_checked": 166,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B02_low_risk",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": 0.736643070989846,
+      "max_monthly_return": 0.2018231972785871,
+      "trades_checked": 357,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "B03_valuation",
+      "id": "8a76b39f93ed610acf31",
+      "sharpe": 0.8058100066962292,
+      "max_monthly_return": 0.27556957994183096,
+      "trades_checked": 141,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "63662a7bf11ee5121240",
+      "sharpe": 1.0634681635111694,
+      "max_monthly_return": 0.22010708499999998,
+      "trades_checked": 130,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "450a5352117c748af96d",
+      "sharpe": 0.921019182580427,
+      "max_monthly_return": 0.20659474522110632,
+      "trades_checked": 128,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 0.9174705573002798,
+      "max_monthly_return": 0.31050277166574003,
+      "trades_checked": 241,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "ac22d6b2a84d0c9c6f5b",
+      "sharpe": 0.9782962641420654,
+      "max_monthly_return": 0.22545369845782104,
+      "trades_checked": 139,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 0.7016950776418244,
+      "max_monthly_return": 0.21748932642439223,
+      "trades_checked": 213,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 1.1700509708835891,
+      "max_monthly_return": 0.3082229874419462,
+      "trades_checked": 203,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2022,
+      "host": "equal_weight",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": 0.9736589304723127,
+      "max_monthly_return": 0.29007722586288054,
+      "trades_checked": 295,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "0226246de3ee6ba9e5c8",
+      "sharpe": -0.3386188344030308,
+      "max_monthly_return": 0.2093802138298846,
+      "trades_checked": 523,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 0.4451372216531854,
+      "max_monthly_return": 0.23020527077857644,
+      "trades_checked": 241,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 0.43655895639497283,
+      "max_monthly_return": 0.25805058697094263,
+      "trades_checked": 235,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "8a76b39f93ed610acf31",
+      "sharpe": 0.2681742310705871,
+      "max_monthly_return": 0.24324287730119076,
+      "trades_checked": 415,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 0.11501848039368692,
+      "max_monthly_return": 0.2025538338234183,
+      "trades_checked": 489,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B01_low_turnover",
+      "id": "b38df52aabe1f3ac6bec",
+      "sharpe": 0.19363112299857224,
+      "max_monthly_return": 0.20098879356347799,
+      "trades_checked": 273,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "db7193452e028d192133",
+      "sharpe": -0.20592249274229427,
+      "max_monthly_return": 0.2823933668970138,
+      "trades_checked": 66,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "14516276bb7fb4edb11b",
+      "sharpe": -0.23165448742421693,
+      "max_monthly_return": 0.2732285691394605,
+      "trades_checked": 68,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": -0.19244690989546642,
+      "max_monthly_return": 0.26929922177529053,
+      "trades_checked": 64,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": -0.1675458210703006,
+      "max_monthly_return": 0.21276515777505978,
+      "trades_checked": 73,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": -0.17147050475147352,
+      "max_monthly_return": 0.2603837538849463,
+      "trades_checked": 141,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "436f2c00d2ef5bc20d32",
+      "sharpe": -0.3703240121992988,
+      "max_monthly_return": 0.20807474057457598,
+      "trades_checked": 143,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B02_low_risk",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": -0.1182730865411796,
+      "max_monthly_return": 0.26593358634058784,
+      "trades_checked": 155,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "31633ae98911ce0c7599",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "db7193452e028d192133",
+      "sharpe": 0.17055056806614766,
+      "max_monthly_return": 0.30667662418012953,
+      "trades_checked": 208,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "14516276bb7fb4edb11b",
+      "sharpe": 0.1276128113851883,
+      "max_monthly_return": 0.20019347814945787,
+      "trades_checked": 194,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "c5ac358ce86118913b0d",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "acb3650b791bbbb6c3dd",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "754a78a3c7970022728e",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "65988ca7c04a716b2d64",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "9ca6f0c8a7ab34182585",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "30889edc579f1dca0832",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "36ecd803eb4f420fa6ec",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "64bfb8dc31d1fe21b059",
+      "sharpe": 0.13760715584914643,
+      "max_monthly_return": 0.22046353933155372,
+      "trades_checked": 113,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "db7bdb1de92ca1e1389c",
+      "sharpe": -0.21332313021307353,
+      "max_monthly_return": 0.24965133117689775,
+      "trades_checked": 323,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "447fb673f5cc309e8ace",
+      "sharpe": 0.0335017631692414,
+      "max_monthly_return": 0.20966457033801933,
+      "trades_checked": 137,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "ce01f7928810b181df8d",
+      "sharpe": -0.046359473385405685,
+      "max_monthly_return": 0.21583593778895582,
+      "trades_checked": 143,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "0226246de3ee6ba9e5c8",
+      "sharpe": 0.2688452074605287,
+      "max_monthly_return": 0.32135431219809885,
+      "trades_checked": 493,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "95a694c6278a1f3c5f31",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": 0.19777889650920238,
+      "max_monthly_return": 0.3046893414954437,
+      "trades_checked": 210,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": -0.2249235894225244,
+      "max_monthly_return": 0.2194834648711701,
+      "trades_checked": 277,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "ffe859559cbe631b6680",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "17ed8b1d8b84c41295cc",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "2d82e6cb0a3dca9837a7",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "3518f3d732ed0c223b9c",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "a77063ee911dd1a1f1e7",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "8b4b9d225de7ab5e9a8a",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "48492991d91c68ac96d7",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "8ddaf1ab3a9f2c4be486",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "df9f33d0bcbd13bcfc0a",
+      "sharpe": 0.22051957604613,
+      "max_monthly_return": 0.212247001468852,
+      "trades_checked": 113,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "8a76b39f93ed610acf31",
+      "sharpe": -0.04107718017597906,
+      "max_monthly_return": 0.24797952340933893,
+      "trades_checked": 315,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "e70f85872678b2a44e9a",
+      "sharpe": 0.1946157201928186,
+      "max_monthly_return": 0.22591037255965385,
+      "trades_checked": 105,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 0.2566536944532501,
+      "max_monthly_return": 0.3430066130476761,
+      "trades_checked": 499,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "d4b3a1727161a760f2e4",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "5330aade84f4facad9f6",
+      "sharpe": 0.23392665024020937,
+      "max_monthly_return": 0.2308172294881392,
+      "trades_checked": 127,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "88ec59045bff4e336812",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "e15583e21307499a646f",
+      "sharpe": 0.13858403802915303,
+      "max_monthly_return": 0.22031065580923892,
+      "trades_checked": 103,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "2a7d4ef9f803634e03ce",
+      "sharpe": 0.1681028870537767,
+      "max_monthly_return": 0.21974924403404827,
+      "trades_checked": 125,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "71258019f241e9271cff",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "063a69799cf7ee93e725",
+      "sharpe": 0.07816268789721983,
+      "max_monthly_return": 0.22094588261111126,
+      "trades_checked": 463,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "5bc20494d986dd2b0ade",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "a69d986f7ed6337e3d1c",
+      "sharpe": 0.11654505184650896,
+      "max_monthly_return": 0.23446561646375863,
+      "trades_checked": 113,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "5544e9ce8b953c9132b6",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "059d9f0ca11d6655023d",
+      "sharpe": -0.336346834443117,
+      "max_monthly_return": 0.2172591705505149,
+      "trades_checked": 685,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "6f4ca42a3c9a5cb21ac5",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "8ef03b0f00153d6b7389",
+      "sharpe": 0.059792750349379566,
+      "max_monthly_return": 0.20013702474720985,
+      "trades_checked": 249,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "7626ae96019466844d29",
+      "sharpe": 0.2509745135787797,
+      "max_monthly_return": 0.21816844588505035,
+      "trades_checked": 109,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "c50c16fbb5f747914615",
+      "sharpe": 0.20647249143574387,
+      "max_monthly_return": 0.2125499069642649,
+      "trades_checked": 123,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 0.23721396817857482,
+      "max_monthly_return": 0.21001215734215184,
+      "trades_checked": 331,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "032991ec5a1ad0a874d3",
+      "sharpe": 0.1693383055818808,
+      "max_monthly_return": 0.21301808099765251,
+      "trades_checked": 143,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "073e70bcd44b27e61cc8",
+      "sharpe": -0.08404947080391065,
+      "max_monthly_return": 0.20695285069162916,
+      "trades_checked": 219,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "436f2c00d2ef5bc20d32",
+      "sharpe": -0.029298208001980408,
+      "max_monthly_return": 0.25370656062695685,
+      "trades_checked": 627,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "B03_valuation",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": -0.18416981354846026,
+      "max_monthly_return": 0.21033408470080772,
+      "trades_checked": 591,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "14516276bb7fb4edb11b",
+      "sharpe": -0.053039015451554074,
+      "max_monthly_return": 0.20555655235263215,
+      "trades_checked": 72,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "db7bdb1de92ca1e1389c",
+      "sharpe": 0.12257929974407683,
+      "max_monthly_return": 0.2854468587590655,
+      "trades_checked": 129,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "63662a7bf11ee5121240",
+      "sharpe": 0.4934849097444045,
+      "max_monthly_return": 0.20251961916755512,
+      "trades_checked": 104,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "450a5352117c748af96d",
+      "sharpe": 0.6135857937947593,
+      "max_monthly_return": 0.20491083539612687,
+      "trades_checked": 96,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "8e07fbbbd1eb6831fc09",
+      "sharpe": -0.0028922050192608396,
+      "max_monthly_return": 0.2063494687656242,
+      "trades_checked": 82,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "2928b6de0cc9e5ec98d2",
+      "sharpe": 0.52137418284006,
+      "max_monthly_return": 0.20535290291236152,
+      "trades_checked": 123,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "8a76b39f93ed610acf31",
+      "sharpe": 0.4203963427407751,
+      "max_monthly_return": 0.2263148125705161,
+      "trades_checked": 111,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "30a50fb624205e68eb7e",
+      "sharpe": 0.04955726166548089,
+      "max_monthly_return": 0.20749241349007774,
+      "trades_checked": 132,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "ac22d6b2a84d0c9c6f5b",
+      "sharpe": 0.6068675960696441,
+      "max_monthly_return": 0.20793483505071397,
+      "trades_checked": 104,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "66aebf8cf6cc789e9197",
+      "sharpe": 0.6285344572359124,
+      "max_monthly_return": 0.3044357511341893,
+      "trades_checked": 115,
+      "audit_pass": true
+    },
+    {
+      "outer_year": 2023,
+      "host": "equal_weight",
+      "id": "c785d08c03507cf6f0f1",
+      "sharpe": -0.14921688084573279,
+      "max_monthly_return": 0.42088488176691974,
+      "trades_checked": 159,
+      "audit_pass": true
+    }
+  ],
+  "scope": "已逐笔审计且所有拟合严格标签成熟；宿主参数及全窗口股票隔离存在已知选择偏差，内层高收益不能直接采信为未来收益"
+}

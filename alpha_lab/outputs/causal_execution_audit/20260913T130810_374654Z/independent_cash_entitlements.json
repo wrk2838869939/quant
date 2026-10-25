@@ -1,0 +1,170 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "name": "cold_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 5992.248,
+      "max_cash_error": 2.2737367544323206e-13,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 14586.488000000003,
+      "max_cash_error": 1.4551915228366852e-11,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "small_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 2208.568,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "large_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 12259.264,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cost2_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 5719.16,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "reverse_baseline",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 5992.248,
+      "max_cash_error": 2.2737367544323206e-13,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 5754.280000000002,
+      "max_cash_error": 7.275957614183426e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 14325.560000000001,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "status": "passed",
+      "cash_dividend_receipts": 23,
+      "total_net_cash_dividends": 5738.976000000001,
+      "max_cash_error": 7.275957614183426e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 14182.312000000004,
+      "max_cash_error": 2.1827872842550278e-11,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cold_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 6586.192000000001,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 13569.008,
+      "max_cash_error": 7.503331289626658e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "small_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 24,
+      "total_net_cash_dividends": 2410.1040000000003,
+      "max_cash_error": 4.547473508864641e-13,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "large_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 13204.600000000002,
+      "max_cash_error": 1.4551915228366852e-11,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cost2_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 6310.031999999999,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "reverse_hybrid",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 6586.192000000001,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 6449.664000000001,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 12906.352,
+      "max_cash_error": 3.637978807091713e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "status": "passed",
+      "cash_dividend_receipts": 25,
+      "total_net_cash_dividends": 6475.904,
+      "max_cash_error": 1.8189894035458565e-12,
+      "max_receivable_error": 0.0
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "status": "passed",
+      "cash_dividend_receipts": 35,
+      "total_net_cash_dividends": 13163.039999999999,
+      "max_cash_error": 7.275957614183426e-12,
+      "max_receivable_error": 0.0
+    }
+  ],
+  "case_count": 20,
+  "total_dividend_receipts": 545,
+  "max_cash_error": 2.1827872842550278e-11,
+  "max_receivable_error": 0.0,
+  "script_sha256": "a6cc5bc3591435692cf30f80d469d86f6ca431414d55786110b2dec99442afce"
+}

@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "window": "cold",
+      "days": 650,
+      "orders": 63,
+      "exact_economic_orders": true
+    },
+    {
+      "window": "continued",
+      "days": 1134,
+      "orders": 89,
+      "exact_economic_orders": true
+    }
+  ],
+  "planner_sha256": "3d76c1479306a04fbcbc5fdc705ca80d6664108a6e644a756f83708231d799a1",
+  "config_sha256": "81a0805c072d0145b0fb126bd12db16d8daadb03bbabaf7f6517e3ff3844336d"
+}

@@ -1,0 +1,239 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>年度板块模型分类核验</title><style>body{font:16px/1.7 sans-serif;max-width:1250px;margin:30px auto;padding:0 22px}table{border-collapse:collapse}td,th{border:1px solid #ccd5dc;padding:7px}img{max-width:100%}pre{white-space:pre-wrap}</style><body><h1>年度板块模型：准确率与召回率补充核验</h1>
+<p>核验日期2026-10-21；行情截至2026-10-20。既有年度模型报告没有提供这组分类指标，本次用保存的逐年预测补算，不训练、不调门槛、不修改数据工程。</p>
+<h2>评价定义</h2>
+<ul>
+<li>样本：原年度研究保存的256个板块首次确认事件；每年使用只含此前成熟标签的模型。没有把未形成形态的板块日纳入负样本，所以召回率仅覆盖该形态事件池，不代表捕获全市场所有上涨。</li>
+<li>预测正类：保存的分数≥该年原有阈值（selected）。</li>
+<li>实际正类：确认日收盘至20交易日后板块收盘收益严格&gt;0；收益等于0归负类。这里是自算板块指数的价格涨跌，没有扣费用，不是可成交收益。</li>
+<li>准确率=(TP+TN)/全部；精确率=TP/(TP+FP)，即通过事件的上涨比例；召回率=TP/(TP+FN)，即实际上涨事件中被通过的比例；平衡准确率为正负两类召回率均值。</li>
+<li>“实际上涨”是本次事后新增的诊断口径。原模型做收益回归，训练时没有直接优化这些分类指标。</li>
+</ul>
+<h2>结果</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">期间</th>
+<th style="text-align: right;">完整标签</th>
+<th style="text-align: right;">未评价</th>
+<th style="text-align: right;">模型通过</th>
+<th style="text-align: left;">准确率</th>
+<th style="text-align: left;">精确率</th>
+<th style="text-align: left;">召回率</th>
+<th style="text-align: left;">原池上涨率</th>
+<th style="text-align: left;">平衡准确率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2019–2026合计</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">51.33%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">45.45%</td>
+<td style="text-align: left;">48.67%</td>
+<td style="text-align: left;">51.18%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">29</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">47.19%</td>
+<td style="text-align: left;">42.00%</td>
+<td style="text-align: left;">47.62%</td>
+<td style="text-align: left;">49.64%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: left;">54.24%</td>
+<td style="text-align: left;">18.75%</td>
+<td style="text-align: left;">17.65%</td>
+<td style="text-align: left;">28.81%</td>
+<td style="text-align: left;">43.35%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2020</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">24.24%</td>
+<td style="text-align: left;">60.00%</td>
+<td style="text-align: left;">22.22%</td>
+<td style="text-align: left;">81.82%</td>
+<td style="text-align: left;">27.78%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2021</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">43.33%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">58.82%</td>
+<td style="text-align: left;">56.67%</td>
+<td style="text-align: left;">40.95%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2022</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: left;">67.50%</td>
+<td style="text-align: left;">68.42%</td>
+<td style="text-align: left;">65.00%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">67.50%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2023</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">54.55%</td>
+<td style="text-align: left;">40.00%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">36.36%</td>
+<td style="text-align: left;">53.57%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2024</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">42.86%</td>
+<td style="text-align: left;">12.50%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">14.29%</td>
+<td style="text-align: left;">45.83%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2025</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">58.33%</td>
+<td style="text-align: left;">83.33%</td>
+<td style="text-align: left;">55.56%</td>
+<td style="text-align: left;">75.00%</td>
+<td style="text-align: left;">61.11%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2026</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">68.75%</td>
+<td style="text-align: left;">72.73%</td>
+<td style="text-align: left;">80.00%</td>
+<td style="text-align: left;">62.50%</td>
+<td style="text-align: left;">65.00%</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="逐年表现和混淆矩阵" src="classification.png" /></p>
+<p>合计TP=50、FP=50、TN=66、FN=60。始终预测上涨的准确率为原池上涨率48.67%；始终预测不涨的准确率为51.33%。因此单看准确率可能误导，需同时观察精确率、召回率、平衡准确率和基准。</p>
+<p>模型拒绝事件中，仍有47.62%后来上涨；拒绝不等于确定会跌。分类指标也不能判断平均盈亏比、成交成本和账户收益。</p>
+<h2>缺失标签的影响</h2>
+<p>30条未评价样本中，29条因报价缺失或指数连续段中断，1条为尚未成熟的2026-09-17酒店餐饮。尤其2025年37条中25条不可评价，12条完整样本不能代表全年。完整样本过滤可能产生非随机缺失偏差。</p>
+<p>未评价事件中模型通过5条、拒绝25条。保留原预测不变，将未知实际涨跌作所有可能赋值，可得到完整256条样本各项指标的数学边界（不是置信区间；各指标端点不要求同时实现）：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">metric</th>
+<th style="text-align: left;">low</th>
+<th style="text-align: left;">high</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">accuracy</td>
+<td style="text-align: left;">45.31%</td>
+<td style="text-align: left;">57.03%</td>
+</tr>
+<tr>
+<td style="text-align: left;">precision</td>
+<td style="text-align: left;">47.62%</td>
+<td style="text-align: left;">52.38%</td>
+</tr>
+<tr>
+<td style="text-align: left;">recall</td>
+<td style="text-align: left;">37.04%</td>
+<td style="text-align: left;">47.83%</td>
+</tr>
+</tbody>
+</table>
+<p>即使缺失标签全部按有利于模型的情况补齐，通过事件的上涨比例上界仍为52.38%。这不修复标签缺失，只说明缺失样本对本组分类结论的最大可能影响。</p>
+<h2>相关性与不确定性</h2>
+<p>事件等权；同日、临近日期不同板块不是独立样本。按相隔超过20个交易日划分20个行情簇，整簇重采样2000次，给出描述性95%分位区间：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">metric</th>
+<th style="text-align: left;">estimate</th>
+<th style="text-align: left;">low</th>
+<th style="text-align: left;">high</th>
+<th style="text-align: right;">clusters</th>
+<th style="text-align: right;">finite_replicates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">accuracy</td>
+<td style="text-align: left;">51.33%</td>
+<td style="text-align: left;">40.62%</td>
+<td style="text-align: left;">59.94%</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">precision</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">33.63%</td>
+<td style="text-align: left;">66.67%</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">recall</td>
+<td style="text-align: left;">45.45%</td>
+<td style="text-align: left;">29.60%</td>
+<td style="text-align: left;">63.64%</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">balanced_accuracy</td>
+<td style="text-align: left;">51.18%</td>
+<td style="text-align: left;">40.82%</td>
+<td style="text-align: left;">59.63%</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">precision_lift</td>
+<td style="text-align: left;">1.33%</td>
+<td style="text-align: left;">-10.86%</td>
+<td style="text-align: left;">9.83%</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+</tbody>
+</table>
+<p>precision_lift为通过事件上涨率减原池上涨率，单位为比例点。区间用于说明样本不确定性，不修复研究家族事后开发偏差。跨年度合计还会混入各年市场和模型保留比例的变化，不能替代逐年比较。</p>
+<h2>数据与时间边界</h2>
+<ul>
+<li>用10月20日板块数据重新计算全部256条目标路径；此前完整标签逐值一致。尚未满20交易日、缺报价或跨连续段的样本单独列出，不按亏损或零收益处理。</li>
+<li>本报告只评价原保存的256条预测；10月20日养殖业是后续扫描新增事件，尚未成熟，未加入分类统计。</li>
+<li>2026年模型最晚训练标签为2025-11-18；模型文件实际在10月13日按历史信息边界重建。历史供应商版本与行业公告时点仍有缺口，规则家族本身也由事后研究确定；不能称完全独立的实盘前瞻测试。</li>
+<li>原研究清单全部产物哈希核对通过；各年训练标签截止与当年事件不相交检查通过；不改动任何模型权重、门槛或正式策略。</li>
+</ul>
+<h2>明细与复现</h2>
+<p><a href="event_predictions_and_labels.csv">逐事件预测和标签</a> · <a href="excluded_labels.csv">未评价样本及原因</a> · <a href="metrics.csv">指标CSV</a> · <a href="cluster_intervals.csv">区间CSV</a></p>
+<pre><code class="language-bash">OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python alpha_lab/outputs/sector_classification_audit/20261021/evaluate.py
+</code></pre></body></html>

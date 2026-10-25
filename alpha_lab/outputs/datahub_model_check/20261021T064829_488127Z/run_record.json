@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-21T07:05:23.310411+00:00",
+  "inspection_started_at_beijing": "2026-10-21 14:45",
+  "asof": "2026-10-20",
+  "model_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python datahub/scripts/frozen_research.py run --release datahub/releases/selection_live_20261020_eod alpha_lab/experiments/sector_live_v1/scan_stocks.py --scan alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z --review-policy",
+  "exit_code": 0,
+  "model_output": "/root/autodl-tmp/alpha_lab/outputs/strategy_2026_opportunity_scan/20261020_gate_paused_20261021T070103_535863Z",
+  "sector_input": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z",
+  "sector_input_mode": "核验哈希后复用同一数据日的板块形态状态与首次确认事件",
+  "audit_command": "python datahub/scripts/audit_research_readiness.py",
+  "snapshot_verify_command": "python datahub/scripts/frozen_research.py verify --release datahub/releases/selection_live_20261020_eod",
+  "model_summary": {
+    "strategy_id": "sector_stock_2026_gate_paused_v1",
+    "effective_from": "2026-10-21",
+    "asof": "2026-10-20",
+    "record_origin": "policy_change_review",
+    "annual_sector_gate_enabled": false,
+    "annual_diagnostic_status": "available_reference_only",
+    "shape_confirmed_today": 2,
+    "new_first_confirmations": 1,
+    "annual_model_pass_reference": 0,
+    "sectors_entering_stock_filter": 1,
+    "stocks_scored": 21,
+    "stock_candidates": 5,
+    "earliest_entry_date": "2026-10-21",
+    "execution_certified": false,
+    "auto_orders": false,
+    "legacy_random_scores_used": false
+  },
+  "data_quality": {
+    "rows": 5568,
+    "duplicate_keys": 0,
+    "invalid_ohlc": 0,
+    "negative_volume_amount": 0,
+    "adjustment_mismatch": 0,
+    "raw_daily_all_keys_values_matched": true,
+    "active_snapshot_files_matched": 24,
+    "update_artifacts_verified": 13
+  }
+}

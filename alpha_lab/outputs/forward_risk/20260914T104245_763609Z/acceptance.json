@@ -1,0 +1,98 @@
+{
+  "validation_gates": [
+    {
+      "model": "price",
+      "checks": {
+        "sample": true,
+        "auc": false,
+        "precision": false,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "breadth",
+      "checks": {
+        "sample": true,
+        "auc": false,
+        "precision": false,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "volatility",
+      "checks": {
+        "sample": true,
+        "auc": true,
+        "precision": true,
+        "exposure": true,
+        "calibration": true,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "correlation",
+      "checks": {
+        "sample": false,
+        "auc": false,
+        "precision": false,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "liquidity",
+      "checks": {
+        "sample": true,
+        "auc": false,
+        "precision": false,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "joint",
+      "checks": {
+        "sample": true,
+        "auc": true,
+        "precision": true,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    },
+    {
+      "model": "joint_utility",
+      "checks": {
+        "sample": true,
+        "auc": true,
+        "precision": false,
+        "exposure": true,
+        "calibration": false,
+        "economic_mean": false,
+        "economic_uncertainty": false
+      },
+      "passed": false
+    }
+  ],
+  "eligible": [],
+  "independent_oos": false,
+  "late_results_cannot_override_validation": true
+}

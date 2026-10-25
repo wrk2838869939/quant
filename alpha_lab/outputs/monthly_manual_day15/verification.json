@@ -1,0 +1,43 @@
+{
+  "selected_config": "configs/monthly_risk_manual_day15.yaml",
+  "selection_reason": "nearest future review among previously validated monthly offsets; not selected on profit",
+  "only_strategy_change": "schedule.parameter: 1 -> 15",
+  "asof": "2026-09-14",
+  "first_review": "2026-09-15",
+  "first_execution": "2026-09-16",
+  "prepare_after": "21:00:00 Asia/Shanghai",
+  "future_reviews": [
+    "2026-09-15",
+    "2026-10-15",
+    "2026-11-16",
+    "2026-12-15"
+  ],
+  "prior_order_parity": {
+    "account": "continued_15_rank_cost0_budget50",
+    "days": 1134,
+    "orders": 124,
+    "restores": 12,
+    "exact_economic_orders": true,
+    "guarded_missing_quote_days": [
+      {
+        "date": "2022-10-26",
+        "missing_quotes": [
+          "600900.SH"
+        ],
+        "research_orders": 0
+      }
+    ]
+  },
+  "future_prices_used": false,
+  "current_buy_orders_generated": false,
+  "mail_sent": false,
+  "orders_submitted": false,
+  "config_sha256": "86eb3942b39f0c489324face218b5052e97af76f8883ab17d412e3cf50dcb09e",
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6",
+  "current_observation_ready": true,
+  "signals_match_frozen_day15": true,
+  "maximum_signal_error": 0.0,
+  "asof_preview_buy_orders": 0,
+  "input_and_metadata_tests": 17,
+  "quarantined_historical_action_rows": 2
+}

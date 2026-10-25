@@ -1,0 +1,7 @@
+{
+  "source_sha256": "6fb0f759d85f627d8caeeaccc5a1336619dd35a53b7bd98b1132f9a1e5c1fbd1",
+  "selection": "worst baseline days are ex-post diagnostic slices, not signal inputs",
+  "counterfactual": "independent full portfolio branches may have different holdings; paired event differences are descriptive",
+  "independence": "overlapping forward windows are not independent observations",
+  "zero_requests": "does not imply risk prediction success"
+}

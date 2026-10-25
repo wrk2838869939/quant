@@ -1,0 +1,135 @@
+{
+  "candidates": 69,
+  "trigger_dates": 35,
+  "clusters": 18,
+  "largest_cluster_events": 38,
+  "largest_cluster_first": "2019-05-08",
+  "largest_cluster_last": "2019-06-10",
+  "ranking_support": [
+    {
+      "horizon": 5,
+      "multi_dates": 6,
+      "triple_dates": 3
+    },
+    {
+      "horizon": 10,
+      "multi_dates": 6,
+      "triple_dates": 3
+    },
+    {
+      "horizon": 20,
+      "multi_dates": 6,
+      "triple_dates": 3
+    }
+  ],
+  "baseline": [
+    {
+      "horizon": 5,
+      "metric": "close_return",
+      "events": 68,
+      "dates": 34,
+      "clusters": 17,
+      "mean": 0.01596684350174082,
+      "median": 0.007953340274359788,
+      "positive_dates": 23,
+      "ci_low": -0.0017324791480953917,
+      "ci_high": 0.029497181546150397
+    },
+    {
+      "horizon": 5,
+      "metric": "market_excess",
+      "events": 68,
+      "dates": 34,
+      "clusters": 17,
+      "mean": 0.008067519836552,
+      "median": 0.0005770702206524536,
+      "positive_dates": 17,
+      "ci_low": -0.008069770916218034,
+      "ci_high": 0.01964492620097504
+    },
+    {
+      "horizon": 5,
+      "metric": "within_date_excess",
+      "events": 40,
+      "dates": 6,
+      "clusters": 4,
+      "mean": 3.854941057726238e-19,
+      "median": 0.0,
+      "positive_dates": 1,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "horizon": 10,
+      "metric": "close_return",
+      "events": 68,
+      "dates": 34,
+      "clusters": 17,
+      "mean": 0.013457648818875368,
+      "median": 0.009104948731738977,
+      "positive_dates": 18,
+      "ci_low": -0.0057801361934575225,
+      "ci_high": 0.02707251391512498
+    },
+    {
+      "horizon": 10,
+      "metric": "market_excess",
+      "events": 68,
+      "dates": 34,
+      "clusters": 17,
+      "mean": 0.008877295006793899,
+      "median": -0.0012976743668783874,
+      "positive_dates": 14,
+      "ci_low": -0.009450487351875111,
+      "ci_high": 0.030316765650424685
+    },
+    {
+      "horizon": 10,
+      "metric": "within_date_excess",
+      "events": 40,
+      "dates": 6,
+      "clusters": 4,
+      "mean": 5.165621017353158e-19,
+      "median": 0.0,
+      "positive_dates": 2,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "horizon": 20,
+      "metric": "close_return",
+      "events": 67,
+      "dates": 33,
+      "clusters": 16,
+      "mean": 0.026431661944383383,
+      "median": 0.019044265224194445,
+      "positive_dates": 22,
+      "ci_low": 0.0021383502503976772,
+      "ci_high": 0.04560636576914063
+    },
+    {
+      "horizon": 20,
+      "metric": "market_excess",
+      "events": 67,
+      "dates": 33,
+      "clusters": 16,
+      "mean": 0.014199278832487703,
+      "median": 0.004692767228795747,
+      "positive_dates": 19,
+      "ci_low": -0.00559480409556704,
+      "ci_high": 0.040451485298067
+    },
+    {
+      "horizon": 20,
+      "metric": "within_date_excess",
+      "events": 40,
+      "dates": 6,
+      "clusters": 4,
+      "mean": 1.0485439677015367e-18,
+      "median": 0.0,
+      "positive_dates": 2,
+      "ci_low": NaN,
+      "ci_high": NaN
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+expr,train_ic,train_icir,valid_ic,lib_corr,passed,n_trials
+"ts_delta(inv(decay(to,20)),5)",0.0314,0.34,0.0418,0.284,True,16
+"decay(ts_max(ts_mean(tsrank(ret1,10),60),20),20)",-0.0179,-0.33,-0.028,0.227,True,17
+"ts_delay(log(vwap_dev),20)",-0.0207,-0.24,-0.0219,0.319,True,18
+"argmin(max(hclose,min(cov(close,to,10),rank(low))),60)",-0.0209,-0.2,-0.03,0.263,True,19
+"argmin(max(hclose,min(cov(close,to,10),rank(low))),60)",-0.0209,-0.2,-0.03,0.263,True,20
+"tsrank(hclose,5)",-0.0199,-0.18,-0.0344,0.309,True,21
+"tsrank(hclose,5)",-0.0199,-0.18,-0.0344,0.309,True,22
+"decay(ts_max(log(vwap_dev),20),20)",-0.0297,-0.18,-0.043,0.639,True,23
+to,-0.0778,-0.48,-0.0836,0.884,False,24

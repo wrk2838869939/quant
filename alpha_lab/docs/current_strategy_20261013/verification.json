@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "historical_cutoff": "2026-09-08",
+  "checked_complete_outcome_windows": 910,
+  "test_events": 166,
+  "selected_test_events": 82,
+  "thresholds": {
+    "1": 0.009237890131771564,
+    "2": -0.0067693686578422785
+  },
+  "statistics_match_saved_report": true
+}

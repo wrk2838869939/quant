@@ -1,0 +1,18 @@
+{
+  "status": "interrupted",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "parent": "/root/autodl-tmp/alpha_lab/outputs/long_only_followup/20260911T141208_459585Z",
+  "parent_signal_hash": "5cc58d8c5784f86acaca31c3711ee82860be71ce96f7a1cd91bd3af0d3f832b4",
+  "source_hashes": {
+    "scripts/run_investability_followup.py": "224a21bd964630a63167bea84c2a9ef86adb5a199827e950671b761c3cf59701",
+    "src/investable.py": "2acfa723d3615e590308a242a01c34e39a7dd8d84987d945b5743868b275308a",
+    "src/portfolio.py": "9a96f00d898b51dcee556067d3c528d2506f14c9c7cff93ca4326ced0e9b8362",
+    "scripts/check_cash_reserve.py": "e68bc89ec7d162532d3ad73ecd3990a4c7fbf8feaa211d49840407e10969d1a9",
+    "scripts/check_portfolio_improvement.py": "0dba15885f3585ab61c157aeedea1497b10f127bc39cbd6477d64abc6df34f23",
+    "scripts/audit_monthly_portfolio.py": "927ded8da89b926aa523f10ac71a26e83db2056b3b0e3f26fe7ec1098b86a2f4",
+    "scripts/prepare_monthly_audit.py": "2476bffba7d35f6b26b3379160f56f881093adb0de7b9b9243d8a5fea174d418",
+    "configs/corporate_action_components.yaml": "afacae4805928fe2683e1314ed06b63e644cde7ef36837ddc923b1894f74cd70"
+  },
+  "reason": "逐行 .loc 回写碎片化宽表导致 O(列数平方) 开销；中断后改为 NumPy 掩码，策略不变"
+}

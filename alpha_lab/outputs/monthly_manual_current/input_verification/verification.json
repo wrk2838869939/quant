@@ -1,0 +1,48 @@
+{
+  "asof": "2026-09-14",
+  "signals_exact": true,
+  "candidate_count": 13,
+  "maximum_score_error": 0.0,
+  "maximum_stock_risk_error": 2.886579864025407e-15,
+  "risk_probability_checks": [
+    {
+      "offset": 1,
+      "review_count": 57,
+      "maximum_probability_error": 4.884981308350689e-15
+    },
+    {
+      "offset": 8,
+      "review_count": 57,
+      "maximum_probability_error": 4.884981308350689e-15
+    },
+    {
+      "offset": 15,
+      "review_count": 56,
+      "maximum_probability_error": 4.551914400963142e-15
+    },
+    {
+      "offset": 22,
+      "review_count": 56,
+      "maximum_probability_error": 4.440892098500626e-15
+    }
+  ],
+  "rebuilt_bundle_exact": true,
+  "illustrative_initial_cash": 80000.0,
+  "illustrative_plan_orders": 0,
+  "risk_active": false,
+  "exposure_cap": 1.0,
+  "risk_probability": 0.11228384063513468,
+  "risk_review_date": "2026-09-01",
+  "next_review": "2026-10-08",
+  "real_account_reconciled": false,
+  "real_account_db_created": false,
+  "mail_sent": false,
+  "orders_submitted": false,
+  "source_hashes": {
+    "src/shadow_inputs.py": "4ed49fcff3b658cec12e38782aeaf59c2445b6306a6a6721c8491372dd1d1bc5",
+    "src/monthly_risk_live.py": "8e8f5fc43ceff68326d65a98413c90025411065afb78a27bc5bc9b7eef1d2cba",
+    "src/shadow_planner.py": "8dc8605f693dc82f951b63cb2665f458eacb40095c3bfa0585990e8d40ce23b2",
+    "src/shadow_account.py": "96c072c7faef0fdae6b96e785db9dae9fd0b69edc577ee02a8ce75973e5d933f",
+    "src/manual_execution.py": "17764c849f8dbcf29d2ba14e43421a7c28e3a28fd6a2d95d15a8b44acc93fffb"
+  }
+}

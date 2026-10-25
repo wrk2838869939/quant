@@ -1,19 +1,11 @@
-# 公开计算示例配置；完整历史输入需单独准备。
+events: alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z
+returns: alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
 output_root: alpha_lab/outputs/sector_fuzzy_v1
-test_years:
-- 2019
-- 2020
-- 2021
-- 2022
-- 2023
-- 2024
-- 2025
-- 2026
+release: datahub/releases/selection_v1_20260920
+test_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
 target_horizon: 20
-report_horizons:
-- 3
-- 10
-- 20
+report_horizons: [3, 10, 20]
 training_years: 8
 half_life_days: 1095
 embargo_sessions: 5
@@ -21,57 +13,31 @@ validation_fraction: 0.25
 minimum_train_events: 25
 minimum_validation_events: 8
 minimum_validation_dates: 4
-retention_fractions:
-- 0.5
-- 0.7
+retention_fractions: [0.5, 0.7]
 primary_retention: 0.5
-target_scale: 0.1
+target_scale: 0.10
 scaler_floor: 0.001
 feature_clip: 5.0
 minimum_breadth_coverage: 0.8
 volatility_window: 20
 breadth_recent_days: 2
 breadth_previous_days: 3
-features:
-- rally
-- pullback
-- reference_distance
-- slowdown
-- log_turnover
-- up_share
-- breadth_change
-- peak_age
-- platform_range
-- trend_return
-- trend_slope
-- volatility
-- quote_coverage
+features: [rally, pullback, reference_distance, slowdown, log_turnover, up_share, breadth_change, peak_age, platform_range, trend_return, trend_slope, volatility, quote_coverage]
 fuzzy:
   reference_center: -0.02
-  reference_width: 0.1
+  reference_width: 0.10
   rally_floor: 0.15
   rally_span: 0.35
   slowdown_ceiling: 0.65
   turnover_center: 0.8
   log_turnover_width: 0.6
-  breadth_floor: -0.2
-  breadth_span: 0.4
-  weights:
-  - 0.35
-  - 0.25
-  - 0.2
-  - 0.2
-ridge_alphas:
-- 1.0
-- 10.0
-- 100.0
+  breadth_floor: -0.20
+  breadth_span: 0.40
+  weights: [0.35, 0.25, 0.20, 0.20]
+ridge_alphas: [1.0, 10.0, 100.0]
 fnn:
-  rules:
-  - 4
-  - 8
-  learning_rates:
-  - 0.003
-  - 0.01
+  rules: [4, 8]
+  learning_rates: [0.003, 0.01]
   weight_decay: 0.01
   width_initial: 1.5
   width_floor: 0.1
@@ -79,14 +45,9 @@ fnn:
   minimum_epochs: 100
   patience_epochs: 150
   check_interval: 10
-  improvement_tolerance: 1.0e-05
-  tuning_seeds:
-  - 17
-  - 43
-  ensemble_seeds:
-  - 17
-  - 43
-  - 101
+  improvement_tolerance: 0.00001
+  tuning_seeds: [17, 43]
+  ensemble_seeds: [17, 43, 101]
   gradient_clip: 5.0
 bootstrap_repetitions: 2000
 bootstrap_seed: 20260923
@@ -94,4 +55,5 @@ cluster_gap_sessions: 20
 minimum_selected_events: 40
 minimum_selected_dates: 20
 minimum_selected_fraction: 0.25
+font: fonts/SimHei.ttf
 dpi: 150

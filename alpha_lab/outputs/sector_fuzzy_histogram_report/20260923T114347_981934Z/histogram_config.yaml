@@ -1,0 +1,12 @@
+experiment: alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z
+returns: alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z
+distribution_report: alpha_lab/outputs/sector_fuzzy_member_distribution/20260923T113206_351461Z
+reference_pdf: alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z/confirmation_returns_report.pdf
+output_root: alpha_lab/outputs/sector_fuzzy_histogram_report
+model: fnn
+retention: 0.5
+horizons: [3, 10, 20]
+plot_bins: 30
+detail_bins: 15
+font: fonts/SimHei.ttf
+dpi: 120

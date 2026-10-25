@@ -1,0 +1,1033 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>盈亏天数标签年度重训</title><style>body{font:16px/1.7 sans-serif;max-width:1550px;margin:30px auto;padding:0 24px}table{border-collapse:collapse;font-size:13px}td,th{border:1px solid #ccd5dc;padding:6px}img{max-width:100%}pre{white-space:pre-wrap}a{color:#246b97}</style><body><h1>年度板块模型：盈亏天数标签重训实验</h1>
+<p>2026-10-21。研究实验，未替换正式模型。沿用原331个事件及13项特征，重做2019—2026年度训练；最终对同一256个年度预测事件比较，其中226个有完整20日标签。原数据工程和模型权重未改动。</p>
+<p><strong>主实验通过组S均值+0.020，旧模型为+0.116，差-0.0956；配对行情簇95%区间[-0.1942, -0.0001]。</strong> 这份报告只评价新旧模型，不根据结果改选股规则或下单。</p>
+<p>本次可评价样本没有显示换标签带来改善：主实验通过组平均盈利天数下降，且通过组S均值低于自身拒绝组；预设缩放检查组也没有改善。主实验全样本的重采样差值区间上界非常接近0，剔除2026年的历史期区间仍跨0，不将其解释成稳定的显著劣势。新模型通过但缺标签的事件更多，必须保留缺失偏差。这也不构成旧模型已被证明有效的证据。</p>
+<h2>标签和实验口径</h2>
+<p>新标签S=(未来20日相对确认日收盘盈利天数−亏损天数)/20；第1—20个交易日，平价记0，范围[-1,1]。必须全路径有效且同一指数连续段；缺失不缩短窗口、不补零。原标签是20日终点收益，新标签衡量盈利持续性而不衡量盈亏幅度。</p>
+<p>主实验只替换标签，target_scale保留0.1，即网络学习S/0.1，输出乘回0.1。另在训练前固定scale=1.0敏感性，网络直接学习S。SmoothL1损失、权重衰减和优化对标签尺度敏感，因此两组可能不同；不能把尺度差异伪装成纯标签收益。没有按测试结果选择上线版本。</p>
+<p>两组都沿用原年度时间推进：最多此前8年、标签在年初前20交易日截止之前成熟；内层按日期末25%验证，同样隔离标签；仅历史内层选4/8规则、学习率0.003/0.01及早停轮数。3种子集成；同日事件降权、历史半衰期1095日。</p>
+<p><strong>每个新模型的门槛由该年度历史训练预测中位数确定，不能套用旧收益分数门槛0.003289。</strong> 新输出是S的回归评分，不是收益率或胜率；FNN不是有界输出层，本实验不事后截断预测。</p>
+<h2>新旧模型比较</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">期间</th>
+<th style="text-align: left;">模型</th>
+<th style="text-align: right;">完整事件</th>
+<th style="text-align: right;">完整通过</th>
+<th style="text-align: right;">通过但无标签</th>
+<th style="text-align: right;">通过组S</th>
+<th style="text-align: right;">拒绝组S</th>
+<th style="text-align: right;">通过组盈利天数</th>
+<th style="text-align: left;">通过组终点收益</th>
+<th style="text-align: left;">S&gt;0精确率</th>
+<th style="text-align: left;">S&gt;0召回率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.116</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">11.16</td>
+<td style="text-align: left;">1.13%</td>
+<td style="text-align: left;">59.00%</td>
+<td style="text-align: left;">50.00%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0.02</td>
+<td style="text-align: right;">0.133</td>
+<td style="text-align: right;">10.2</td>
+<td style="text-align: left;">0.80%</td>
+<td style="text-align: left;">50.93%</td>
+<td style="text-align: left;">46.61%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">226</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">0.016</td>
+<td style="text-align: right;">0.125</td>
+<td style="text-align: right;">10.16</td>
+<td style="text-align: left;">0.28%</td>
+<td style="text-align: left;">49.47%</td>
+<td style="text-align: left;">39.83%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">89</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.112</td>
+<td style="text-align: right;">0.065</td>
+<td style="text-align: right;">11.12</td>
+<td style="text-align: left;">0.35%</td>
+<td style="text-align: left;">59.55%</td>
+<td style="text-align: left;">48.18%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">0.013</td>
+<td style="text-align: right;">0.143</td>
+<td style="text-align: right;">10.13</td>
+<td style="text-align: left;">-0.25%</td>
+<td style="text-align: left;">50.54%</td>
+<td style="text-align: left;">42.73%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">91</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.027</td>
+<td style="text-align: right;">0.129</td>
+<td style="text-align: right;">10.27</td>
+<td style="text-align: left;">0.15%</td>
+<td style="text-align: left;">50.55%</td>
+<td style="text-align: left;">41.82%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2026</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.145</td>
+<td style="text-align: right;">-0.32</td>
+<td style="text-align: right;">11.45</td>
+<td style="text-align: left;">7.47%</td>
+<td style="text-align: left;">54.55%</td>
+<td style="text-align: left;">75.00%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2026</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.067</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">10.67</td>
+<td style="text-align: left;">7.27%</td>
+<td style="text-align: left;">53.33%</td>
+<td style="text-align: left;">100.00%</td>
+</tr>
+<tr>
+<td style="text-align: left;">2026</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-0.25</td>
+<td style="text-align: right;">0.083</td>
+<td style="text-align: right;">7.5</td>
+<td style="text-align: left;">3.26%</td>
+<td style="text-align: left;">25.00%</td>
+<td style="text-align: left;">12.50%</td>
+</tr>
+</tbody>
+</table>
+<p>通过组终点收益是未扣费的自算板块指数观察。S&gt;0精确率指通过事件中“盈利天数多于亏损天数”的比例；召回率仅针对本次形态事件池中S&gt;0的事件。不能与上一份“终点收益&gt;0”的分类指标混淆。</p>
+<p><img alt="逐年新旧比较" src="yearly_comparison.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">期间</th>
+<th style="text-align: left;">模型</th>
+<th style="text-align: right;">完整事件</th>
+<th style="text-align: right;">完整通过</th>
+<th style="text-align: right;">通过但无标签</th>
+<th style="text-align: right;">通过组S</th>
+<th style="text-align: right;">拒绝组S</th>
+<th style="text-align: right;">通过组盈利天数</th>
+<th style="text-align: left;">通过组终点收益</th>
+<th style="text-align: left;">S&gt;0精确率</th>
+<th style="text-align: left;">S&gt;0召回率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">2019</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.263</td>
+<td style="text-align: right;">-0.035</td>
+<td style="text-align: right;">12.62</td>
+<td style="text-align: left;">-2.16%</td>
+<td style="text-align: left;">62.50%</td>
+<td style="text-align: left;">37.04%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2019</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.072</td>
+<td style="text-align: right;">0.098</td>
+<td style="text-align: right;">9.28</td>
+<td style="text-align: left;">-1.84%</td>
+<td style="text-align: left;">44.44%</td>
+<td style="text-align: left;">29.63%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2019</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.052</td>
+<td style="text-align: right;">0.128</td>
+<td style="text-align: right;">9.48</td>
+<td style="text-align: left;">-2.18%</td>
+<td style="text-align: left;">37.04%</td>
+<td style="text-align: left;">37.04%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.21</td>
+<td style="text-align: right;">0.57</td>
+<td style="text-align: right;">12.1</td>
+<td style="text-align: left;">4.33%</td>
+<td style="text-align: left;">70.00%</td>
+<td style="text-align: left;">28.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.273</td>
+<td style="text-align: right;">0.555</td>
+<td style="text-align: right;">12.73</td>
+<td style="text-align: left;">3.01%</td>
+<td style="text-align: left;">72.73%</td>
+<td style="text-align: left;">32.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.35</td>
+<td style="text-align: right;">0.524</td>
+<td style="text-align: right;">13.5</td>
+<td style="text-align: left;">5.51%</td>
+<td style="text-align: left;">75.00%</td>
+<td style="text-align: left;">36.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.1</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">-0.16%</td>
+<td style="text-align: left;">60.00%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.071</td>
+<td style="text-align: right;">0.269</td>
+<td style="text-align: right;">10.71</td>
+<td style="text-align: left;">0.50%</td>
+<td style="text-align: left;">52.94%</td>
+<td style="text-align: left;">50.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.023</td>
+<td style="text-align: right;">0.259</td>
+<td style="text-align: right;">10.23</td>
+<td style="text-align: left;">0.55%</td>
+<td style="text-align: left;">53.85%</td>
+<td style="text-align: left;">38.89%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.042</td>
+<td style="text-align: right;">-0.229</td>
+<td style="text-align: right;">10.42</td>
+<td style="text-align: left;">2.94%</td>
+<td style="text-align: left;">52.63%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-0.042</td>
+<td style="text-align: right;">-0.152</td>
+<td style="text-align: right;">9.58</td>
+<td style="text-align: left;">-0.01%</td>
+<td style="text-align: left;">36.84%</td>
+<td style="text-align: left;">46.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.129</td>
+<td style="text-align: right;">-0.223</td>
+<td style="text-align: right;">11.29</td>
+<td style="text-align: left;">3.26%</td>
+<td style="text-align: left;">50.00%</td>
+<td style="text-align: left;">46.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2023</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.24</td>
+<td style="text-align: right;">-0.142</td>
+<td style="text-align: right;">12.4</td>
+<td style="text-align: left;">0.12%</td>
+<td style="text-align: left;">70.00%</td>
+<td style="text-align: left;">53.85%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2023</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.018</td>
+<td style="text-align: right;">0.045</td>
+<td style="text-align: right;">10.18</td>
+<td style="text-align: left;">-1.41%</td>
+<td style="text-align: left;">63.64%</td>
+<td style="text-align: left;">53.85%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2023</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.175</td>
+<td style="text-align: right;">-0.05</td>
+<td style="text-align: right;">11.75</td>
+<td style="text-align: left;">-0.38%</td>
+<td style="text-align: left;">75.00%</td>
+<td style="text-align: left;">46.15%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-0.562</td>
+<td style="text-align: right;">-0.5</td>
+<td style="text-align: right;">4.38</td>
+<td style="text-align: left;">-7.37%</td>
+<td style="text-align: left;">25.00%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-0.533</td>
+<td style="text-align: right;">-0.54</td>
+<td style="text-align: right;">4.67</td>
+<td style="text-align: left;">-5.03%</td>
+<td style="text-align: left;">22.22%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-0.618</td>
+<td style="text-align: right;">-0.233</td>
+<td style="text-align: right;">3.82</td>
+<td style="text-align: left;">-6.45%</td>
+<td style="text-align: left;">18.18%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.517</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">4.56%</td>
+<td style="text-align: left;">83.33%</td>
+<td style="text-align: left;">55.56%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">0.463</td>
+<td style="text-align: right;">0.6</td>
+<td style="text-align: right;">14.62</td>
+<td style="text-align: left;">3.69%</td>
+<td style="text-align: left;">75.00%</td>
+<td style="text-align: left;">66.67%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0.5</td>
+<td style="text-align: right;">0.517</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">4.56%</td>
+<td style="text-align: left;">83.33%</td>
+<td style="text-align: left;">55.56%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2026</td>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.145</td>
+<td style="text-align: right;">-0.32</td>
+<td style="text-align: right;">11.45</td>
+<td style="text-align: left;">7.47%</td>
+<td style="text-align: left;">54.55%</td>
+<td style="text-align: left;">75.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2026</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.067</td>
+<td style="text-align: right;">-1</td>
+<td style="text-align: right;">10.67</td>
+<td style="text-align: left;">7.27%</td>
+<td style="text-align: left;">53.33%</td>
+<td style="text-align: left;">100.00%</td>
+</tr>
+<tr>
+<td style="text-align: right;">2026</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-0.25</td>
+<td style="text-align: right;">0.083</td>
+<td style="text-align: right;">7.5</td>
+<td style="text-align: left;">3.26%</td>
+<td style="text-align: left;">25.00%</td>
+<td style="text-align: left;">12.50%</td>
+</tr>
+</tbody>
+</table>
+<h2>配对比较与入选变化</h2>
+<p>同一行情簇同时重采样新旧模型预测，区间保留同日板块及相近事件相关性。improvement为新模型通过组S均值减旧模型通过组S均值；gap为该模型通过组减拒绝组。各模型通过数量不相同，本实验未强行在测试集调门槛配平数量。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">period</th>
+<th style="text-align: left;">variant</th>
+<th style="text-align: left;">metric</th>
+<th style="text-align: right;">estimate</th>
+<th style="text-align: right;">low</th>
+<th style="text-align: right;">high</th>
+<th style="text-align: right;">clusters</th>
+<th style="text-align: right;">replicates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">gap</td>
+<td style="text-align: right;">-0.1127</td>
+<td style="text-align: right;">-0.3772</td>
+<td style="text-align: right;">0.097</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">improvement</td>
+<td style="text-align: right;">-0.0956</td>
+<td style="text-align: right;">-0.1942</td>
+<td style="text-align: right;">-0.0001</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">gap</td>
+<td style="text-align: right;">-0.1094</td>
+<td style="text-align: right;">-0.4036</td>
+<td style="text-align: right;">0.1525</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2026</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">improvement</td>
+<td style="text-align: right;">-0.1002</td>
+<td style="text-align: right;">-0.2036</td>
+<td style="text-align: right;">0.0403</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">gap</td>
+<td style="text-align: right;">-0.1298</td>
+<td style="text-align: right;">-0.3998</td>
+<td style="text-align: right;">0.0934</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">improvement</td>
+<td style="text-align: right;">-0.0995</td>
+<td style="text-align: right;">-0.2062</td>
+<td style="text-align: right;">0.0128</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">gap</td>
+<td style="text-align: right;">-0.1019</td>
+<td style="text-align: right;">-0.4029</td>
+<td style="text-align: right;">0.178</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">2019–2025</td>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">improvement</td>
+<td style="text-align: right;">-0.0849</td>
+<td style="text-align: right;">-0.1927</td>
+<td style="text-align: right;">0.058</td>
+<td style="text-align: right;">19</td>
+<td style="text-align: right;">2000</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="配对区间" src="comparison_intervals.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">variant</th>
+<th style="text-align: left;">status</th>
+<th style="text-align: right;">events</th>
+<th style="text-align: right;">complete</th>
+<th style="text-align: right;">mean_s</th>
+<th style="text-align: right;">mean_terminal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">新增通过</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">-0.1742</td>
+<td style="text-align: right;">-0.008</td>
+</tr>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">转为拒绝</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">36</td>
+<td style="text-align: right;">0.1306</td>
+<td style="text-align: right;">0.0172</td>
+</tr>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">都拒绝</td>
+<td style="text-align: right;">114</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">0.1232</td>
+<td style="text-align: right;">0.0091</td>
+</tr>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">都通过</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">0.1078</td>
+<td style="text-align: right;">0.008</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">新增通过</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">-0.125</td>
+<td style="text-align: right;">-0.0027</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">转为拒绝</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">0.1375</td>
+<td style="text-align: right;">0.005</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">都拒绝</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">0.1314</td>
+<td style="text-align: right;">0.0084</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">都通过</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">68</td>
+<td style="text-align: right;">0.1059</td>
+<td style="text-align: right;">0.0143</td>
+</tr>
+</tbody>
+</table>
+<h2>最近事件：仅作新旧模型诊断</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">variant</th>
+<th style="text-align: left;">sector</th>
+<th style="text-align: left;">date</th>
+<th style="text-align: right;">score</th>
+<th style="text-align: right;">threshold</th>
+<th style="text-align: left;">selected</th>
+<th style="text-align: left;">diagnostic_only</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">2026-10-20</td>
+<td style="text-align: right;">-0.042315</td>
+<td style="text-align: right;">0.003289</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">True</td>
+</tr>
+<tr>
+<td style="text-align: left;">旧模型：20日终点收益</td>
+<td style="text-align: left;">酒店餐饮（原首次事件）</td>
+<td style="text-align: left;">2026-09-17</td>
+<td style="text-align: right;">-0.009877</td>
+<td style="text-align: right;">0.003289</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">True</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">2026-10-20</td>
+<td style="text-align: right;">-0.051037</td>
+<td style="text-align: right;">0.066053</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">True</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: left;">酒店餐饮（原首次事件）</td>
+<td style="text-align: left;">2026-09-17</td>
+<td style="text-align: right;">0.109464</td>
+<td style="text-align: right;">0.066053</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">True</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">养殖业</td>
+<td style="text-align: left;">2026-10-20</td>
+<td style="text-align: right;">-0.272051</td>
+<td style="text-align: right;">0.088405</td>
+<td style="text-align: left;">False</td>
+<td style="text-align: left;">True</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: left;">酒店餐饮（原首次事件）</td>
+<td style="text-align: left;">2026-09-17</td>
+<td style="text-align: right;">0.584311</td>
+<td style="text-align: right;">0.088405</td>
+<td style="text-align: left;">True</td>
+<td style="text-align: left;">True</td>
+</tr>
+</tbody>
+</table>
+<p>酒店餐饮行对应9月17日首次事件，不是今天新买点；养殖业行对应10月20日首次确认。二者完整20日标签均尚未成熟，新评分没有利用它们未来走势。上述仅为研究模型诊断，不改变原扫描结果。</p>
+<h2>年度拟合记录</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">variant</th>
+<th style="text-align: right;">year</th>
+<th style="text-align: right;">train</th>
+<th style="text-align: right;">fit</th>
+<th style="text-align: right;">validation</th>
+<th style="text-align: right;">rules</th>
+<th style="text-align: right;">learning_rate</th>
+<th style="text-align: right;">epochs</th>
+<th style="text-align: right;">threshold</th>
+<th style="text-align: left;">last_label</th>
+<th style="text-align: right;">target_scale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">775</td>
+<td style="text-align: right;">0.14589</td>
+<td style="text-align: left;">2018-11-12 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">190</td>
+<td style="text-align: right;">-0.019528</td>
+<td style="text-align: left;">2019-11-29 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">190</td>
+<td style="text-align: right;">0.071283</td>
+<td style="text-align: left;">2020-12-01 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">184</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.099737</td>
+<td style="text-align: left;">2021-11-30 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">222</td>
+<td style="text-align: right;">166</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.0535</td>
+<td style="text-align: left;">2022-11-30 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.064319</td>
+<td style="text-align: left;">2023-10-31 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: right;">223</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.040168</td>
+<td style="text-align: left;">2024-08-07 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">主实验：仅换盈亏天数标签</td>
+<td style="text-align: right;">2026</td>
+<td style="text-align: right;">220</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.066053</td>
+<td style="text-align: left;">2025-11-18 00:00:00</td>
+<td style="text-align: right;">0.1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2019</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">49</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">655</td>
+<td style="text-align: right;">0.170446</td>
+<td style="text-align: left;">2018-11-12 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.00656</td>
+<td style="text-align: left;">2019-11-29 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">62</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.098995</td>
+<td style="text-align: left;">2020-12-01 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: right;">184</td>
+<td style="text-align: right;">154</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.092608</td>
+<td style="text-align: left;">2021-11-30 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2023</td>
+<td style="text-align: right;">222</td>
+<td style="text-align: right;">166</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">150</td>
+<td style="text-align: right;">0.060978</td>
+<td style="text-align: left;">2022-11-30 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2024</td>
+<td style="text-align: right;">239</td>
+<td style="text-align: right;">181</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">0.070865</td>
+<td style="text-align: left;">2023-10-31 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2025</td>
+<td style="text-align: right;">223</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.003</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">-0.00387</td>
+<td style="text-align: left;">2024-08-07 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td style="text-align: left;">缩放敏感性：新标签/1.0</td>
+<td style="text-align: right;">2026</td>
+<td style="text-align: right;">220</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">0.01</td>
+<td style="text-align: right;">120</td>
+<td style="text-align: right;">0.088405</td>
+<td style="text-align: left;">2025-11-18 00:00:00</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+<p>所有年度新旧训练/拟合/验证事件ID完全一致。2026模型训练最晚标签仍为2025-11-18；文件实际于2026-10-21训练，不能称当年初真实存在。</p>
+<h2>缺失、偏差和边界</h2>
+<p>原256条预测有30条无完整评价标签，其中29条路径缺失或连续段中断、1条9月17日酒店餐饮未成熟。2025年37条中25条无法评价；结果不代表完整全年。通过但无标签数量已列入表，不删除候选数。按未知S取[-1,1]得到各组全样本均值数学边界：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">variant</th>
+<th style="text-align: left;">group</th>
+<th style="text-align: right;">events</th>
+<th style="text-align: right;">unknown</th>
+<th style="text-align: right;">low</th>
+<th style="text-align: right;">high</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">通过</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-0.0721</td>
+<td style="text-align: right;">0.101</td>
+</tr>
+<tr>
+<td style="text-align: left;">bounded_scale_1</td>
+<td style="text-align: left;">拒绝</td>
+<td style="text-align: right;">152</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">-0.0303</td>
+<td style="text-align: right;">0.2461</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">通过</td>
+<td style="text-align: right;">130</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">-0.1523</td>
+<td style="text-align: right;">0.1862</td>
+</tr>
+<tr>
+<td style="text-align: left;">label_only_scale_0p1</td>
+<td style="text-align: left;">拒绝</td>
+<td style="text-align: right;">126</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">0.0611</td>
+<td style="text-align: right;">0.1881</td>
+</tr>
+<tr>
+<td style="text-align: left;">original_return</td>
+<td style="text-align: left;">通过</td>
+<td style="text-align: right;">105</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">0.0629</td>
+<td style="text-align: right;">0.1581</td>
+</tr>
+<tr>
+<td style="text-align: left;">original_return</td>
+<td style="text-align: left;">拒绝</td>
+<td style="text-align: right;">151</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">-0.1238</td>
+<td style="text-align: right;">0.2073</td>
+</tr>
+</tbody>
+</table>
+<p>本次是在查看旧模型表现之后改变目标的研究，使用今天的历史供应商数据，存在开发与历史版本偏差；即使某组改善，也不是全新前瞻检验。2026仅16个成熟事件。盈利持续性不限制最大亏损或终点损失，必须与收益幅度并看。</p>
+<p>个股模型没有重训。新板块模型会改变个股模型历史训练事件分布，不能直接组合后声称全流程已验证。本次不改正式策略配置、生产扫描或数据构建代码。</p>
+<h2>核验与复现</h2>
+<ul>
+<li>331个事件的新旧标签完整性和结束日期逐条一致，288个完整标签的旧终点收益重算一致；226个可评分完整事件与上一轮评价一致。</li>
+<li>所有年度训练计划在当年及未来标签、特征扰动后不变；2026主实验全量输入与删除未来输入实际重训后的预测逐值一致。</li>
+<li>16组年度拟合、48份种子模型均保存；权重重载后的预测与训练结束预测一致。预测先落盘再合并评价标签。</li>
+<li>原模型与数据工程哈希未改变；<a href="PREREG.md">实验前固定协议</a>、<a href="label_audit.json">标签审计</a>、<a href="timing_plan_audit.json">时序审计</a>、<a href="fits.json">拟合记录</a>均保留。</li>
+</ul>
+<p><a href="all_event_comparison.csv">逐事件新旧比较</a> · <a href="selection_changes.csv">入选变化</a> · <a href="metrics_by_year.csv">逐年指标</a> · <a href="recent_event_diagnostics.csv">近期事件评分</a> · <a href="paired_cluster_intervals.csv">配对区间</a></p>
+<pre><code class="language-bash">OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python alpha_lab/experiments/sector_profit_days_v1/train.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python alpha_lab/experiments/sector_profit_days_v1/report.py
+</code></pre></body></html>

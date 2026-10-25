@@ -1,0 +1,45 @@
+{
+  "status": "failed",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "interpretation": "matched descriptive controls; no new alpha selection; unknown industries explicit",
+  "parent_signal_hash": "4270bf63b808b24deed46aca3f835f596f63768674a3a61ac71e727a7654322d",
+  "source_hashes": {
+    "scripts/audit_style_attribution.py": "7b51d87b880e9e4ee9163aad7f38cefd313e12b368517d6fac8af1f979c2799e",
+    "src/style_matching.py": "da935c0c4d6e9165d9161e4dfeb0b9fb60bac55d08bf6dfd42cb020b935da3fa",
+    "src/neutralize.py": "f7ac8afda1ef375818fb55b4ad956876092fd606f673f1f46a93279e8422d872",
+    "src/ledger.py": "f784dce8e0bdce46d9406a7c5485503d7260c9c0dff8d2b55477a925d71dc031",
+    "src/portfolio.py": "9a96f00d898b51dcee556067d3c528d2506f14c9c7cff93ca4326ced0e9b8362",
+    "scripts/run_investability_followup.py": "224a21bd964630a63167bea84c2a9ef86adb5a199827e950671b761c3cf59701",
+    "scripts/check_cash_reserve.py": "e68bc89ec7d162532d3ad73ecd3990a4c7fbf8feaa211d49840407e10969d1a9",
+    "scripts/check_portfolio_improvement.py": "0dba15885f3585ab61c157aeedea1497b10f127bc39cbd6477d64abc6df34f23",
+    "scripts/audit_monthly_portfolio.py": "927ded8da89b926aa523f10ac71a26e83db2056b3b0e3f26fe7ec1098b86a2f4",
+    "scripts/prepare_monthly_audit.py": "2476bffba7d35f6b26b3379160f56f881093adb0de7b9b9243d8a5fea174d418",
+    "configs/corporate_action_components.yaml": "afacae4805928fe2683e1314ed06b63e644cde7ef36837ddc923b1894f74cd70"
+  },
+  "n_codes": 1459,
+  "input_hashes": {
+    "candidate_signals.parquet": "4270bf63b808b24deed46aca3f835f596f63768674a3a61ac71e727a7654322d",
+    "industry_board_signals.parquet": "81ddc215d720f1d9aaaaff4d1393a17c0c1d5567b3a91a09410cfde6498ac99e",
+    "size_matched_signals.parquet": "2146ffef1e1b85c8f0ae1add009f84dca6f67241fc461c1525d221a04cc0b532",
+    "size_liquidity_matched_signals.parquet": "713bf4f4b416cedaea39f7de76e0cbe119c2519662228f3d12150cbeb714b9b5"
+  },
+  "config_hashes": {
+    "config.yaml": "926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0",
+    "experiment.yaml": "1bb0233f8ef0cee9ac3382a6640c4979ee9e0b44b7c1b4b73498b7c3d25ff131",
+    "execution_codes.csv": "a87f2974e3133a69593639155051c03eac779cd93d7554be640c2c003c0b29b8",
+    "signal_day_exposures.parquet": "049aa65d3fa8267ee8d150f638fa8bbad965fa1806df2477085b9f0f8bc45318",
+    "matched_pairs.csv": "9682089b9260106b696e10b8f736b4efa24a0e244a3c9de2a44974fb7dec86ea"
+  },
+  "static_input_hashes": {
+    "/root/autodl-tmp/alpha_lab/data/raw/sw_l1_member_hist.parquet": "658f2de62f830645c9a158c0389ada9ccd059b6c9cf1feaf2afe8b4a86728342"
+  },
+  "panel_metadata": {
+    "path": "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet",
+    "bytes": 3482222501,
+    "mtime_ns": 1788917194170939057,
+    "note": "\u539f\u59cb\u5927\u9762\u677f\u8bb0\u5f55\u5143\u6570\u636e\uff1b\u53c2\u4e0e\u5339\u914d\u7684\u6d3e\u751f\u5feb\u7167\u53e6\u6709\u5185\u5bb9SHA256"
+  },
+  "error_type": "AccountingError",
+  "error": "2023-05-25 002972.SZ: \u5206\u7ea2\u91d1\u989d\u4e0e\u9664\u6743\u53c2\u8003\u4ef7\u4e0d\u7b26 (12.8571 vs 12.9100)"
+}

@@ -1,0 +1,5 @@
+sector_code,name,watch,trigger,support_recent,slowed,confirmed
+801012.SI,农产品加工,True,True,False,False,False
+801015.SI,渔业,True,False,False,False,False
+801053.SI,贵金属,True,True,False,False,False
+801219.SI,酒店餐饮,True,True,True,False,False

@@ -1,0 +1,7 @@
+{
+  "case": "startup_2022-04_15_rank_buffer",
+  "corrected_inputs_cloned": true,
+  "all_four_ledgers_exact": true,
+  "clone": "/tmp/selection_stability_replay_20260914",
+  "full_suite_rerun_in_clone": false
+}

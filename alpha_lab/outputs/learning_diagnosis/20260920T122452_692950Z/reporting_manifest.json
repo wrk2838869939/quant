@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "archived_replays": 11,
+  "accounts": 88,
+  "diagnostic_model_replays": 23,
+  "gross_loss_families": 7,
+  "cost_sign_reversals": 4,
+  "matched_low_turn_outperforms": 11,
+  "first_model_pairs": 23,
+  "valid_future_pairs": 22,
+  "future_ic_declines": 19,
+  "script_sha256": "fbad50cf7886c32540b28ce8d3172c3474a2fc930738eabe56bbfd5990df67a9",
+  "parameter_selection": false
+}

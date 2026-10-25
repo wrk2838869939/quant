@@ -1,0 +1,10 @@
+{
+  "type": "verifier_implementation_correction_before_account_audit",
+  "initial_assertion": "signals和forecasts缺失掩码完全相同",
+  "observed_selected_without_forecast": 0,
+  "observed_forecasts_without_selected_signal": 111362,
+  "correct_constraint": "原make_matrices要求signals非缺失处forecast非缺失；未准入股可保留点预测",
+  "changed_file": "scripts/verify_recent_repaired_run.py",
+  "old_frozen_verifier_or_case_outputs_modified": false,
+  "strategy_or_inputs_modified": false
+}

@@ -1,0 +1,10 @@
+{
+  "first_attempt": "alpha_lab/outputs/baseline_combination/20260920T130146_537576Z",
+  "completed_attempt": "alpha_lab/outputs/baseline_combination/20260920T130430_653480Z",
+  "first_attempt_status": "failed_after_search_csv_export",
+  "fix": "exclude_duplicate_top_n_column_from_metrics_export",
+  "same_locked_choices": true,
+  "matching_inner_parquet_tables": 2751,
+  "unique_candidates": 393,
+  "inner_account_executions_including_retry": 786
+}

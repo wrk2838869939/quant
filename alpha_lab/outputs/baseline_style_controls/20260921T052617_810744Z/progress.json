@@ -1,0 +1,5618 @@
+[
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2106,
+    "total": -0.12795433,
+    "mdd": -0.5536176867904077,
+    "fees": 158.433,
+    "turnover": 0.3686355989507695,
+    "turnover_ratio": 0.5192336697238495,
+    "net_gap": 0.42051031000000016,
+    "same_path_prefee_gap": 0.4230784000000002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.939914573501776,
+    "signal_sha256": "7effa6e71fad002946c2d2212fce0b7f9918310c9340d81bd89443dfeb30fc92",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.007390879999999989,
+        "net_pnl": 739.0880000000034
+      },
+      {
+        "year": 2022,
+        "total": -0.21779249679131496,
+        "net_pnl": -21940.2175
+      },
+      {
+        "year": 2023,
+        "total": 0.10667280440269744,
+        "net_pnl": 8405.696499999991
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2107,
+    "total": -0.007869615000000052,
+    "mdd": -0.5709216996176382,
+    "fees": 285.36150000000004,
+    "turnover": 0.4204861605852539,
+    "turnover_ratio": 0.5922666526244278,
+    "net_gap": 0.3004255950000002,
+    "same_path_prefee_gap": 0.3017244000000002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9864223056255433,
+    "signal_sha256": "0a4f106b7b180f61d8d63b3f4b0e63ba7f5ac131cb49fc9eba53e61beecad7af",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.40020840999999985,
+        "net_pnl": 40020.840999999986
+      },
+      {
+        "year": 2022,
+        "total": -0.19112280935378745,
+        "net_pnl": -26761.176499999987
+      },
+      {
+        "year": 2023,
+        "total": -0.12402143395012444,
+        "net_pnl": -14046.626000000004
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2108,
+    "total": -0.01571102000000002,
+    "mdd": -0.2753760872686397,
+    "fees": 367.126,
+    "turnover": 0.6786025281248979,
+    "turnover_ratio": 0.9558308583464522,
+    "net_gap": 0.3082670000000002,
+    "same_path_prefee_gap": 0.30874816000000016,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9767933913778961,
+    "signal_sha256": "1d8957b4afc1d9aa2fbc963a51715161ecfaeee1bb2b47ab7a36685499845806",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.035957030000000056,
+        "net_pnl": 3595.7030000000086
+      },
+      {
+        "year": 2022,
+        "total": -0.12722887743712696,
+        "net_pnl": -13180.365000000005
+      },
+      {
+        "year": 2023,
+        "total": 0.08863053744266258,
+        "net_pnl": 8013.559999999998
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2102,
+    "total": -0.3532259964800001,
+    "mdd": -0.46422473331932634,
+    "fees": 672.03,
+    "turnover": 1.2915722081836358,
+    "turnover_ratio": 1.8192159934561445,
+    "net_gap": 0.6457819764800002,
+    "same_path_prefee_gap": 0.6432140964800003,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.982526600254578,
+    "signal_sha256": "e1031caad661743552207823a0407a03bc93f8e2c81db3e5147a7cb3bdf9b46f",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13565520499999995,
+        "net_pnl": 13565.520499999999
+      },
+      {
+        "year": 2022,
+        "total": -0.2005394159048477,
+        "net_pnl": -22774.363148000004
+      },
+      {
+        "year": 2023,
+        "total": -0.28762445332375475,
+        "net_pnl": -26113.756999999998
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2104,
+    "total": -0.45510673999999995,
+    "mdd": -0.5361363216165546,
+    "fees": 281.874,
+    "turnover": 0.7166137922114877,
+    "turnover_ratio": 1.0093707991408252,
+    "net_gap": 0.7476627200000001,
+    "same_path_prefee_gap": 0.7489964000000001,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9666513643053197,
+    "signal_sha256": "1a71477764c66e50a622adda16986bc47a703b6ce552a784bef80113bd8ba2d4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03988811500000011,
+        "net_pnl": 3988.8115000000107
+      },
+      {
+        "year": 2022,
+        "total": -0.3918090841917161,
+        "net_pnl": -40743.761000000006
+      },
+      {
+        "year": 2023,
+        "total": -0.13844126031648907,
+        "net_pnl": -8755.724499999997
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2105,
+    "total": -0.3228613800000001,
+    "mdd": -0.4318146226415094,
+    "fees": 154.33800000000002,
+    "turnover": 0.3746151813202248,
+    "turnover_ratio": 0.5276560806520001,
+    "net_gap": 0.6154173600000002,
+    "same_path_prefee_gap": 0.6180264000000002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8492779574548417,
+    "signal_sha256": "11d9d086a653fac384d6aa55e44cf8c794340857c6d0f469fcb5503e9cc5a040",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.007341600000000059,
+        "net_pnl": -734.1600000000035
+      },
+      {
+        "year": 2022,
+        "total": -0.12162693631565491,
+        "net_pnl": -12073.399999999994
+      },
+      {
+        "year": 2023,
+        "total": -0.22339755602664646,
+        "net_pnl": -19478.57800000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2103,
+    "total": 0.011051189999999878,
+    "mdd": -0.32008014946312113,
+    "fees": 448.593,
+    "turnover": 0.8003991768225419,
+    "turnover_ratio": 1.1273848836314326,
+    "net_gap": 0.2815047900000003,
+    "same_path_prefee_gap": 0.2811712800000003,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.7471898695991045,
+    "signal_sha256": "9f81401410e27653b411c19d73774c965f62305c23c9ff99fd5d3d7af1e492c1",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.017230730000000083,
+        "net_pnl": 1723.073000000004
+      },
+      {
+        "year": 2022,
+        "total": -0.0805570531672789,
+        "net_pnl": -8194.510999999999
+      },
+      {
+        "year": 2023,
+        "total": 0.08100794920807175,
+        "net_pnl": 7576.556999999986
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2101,
+    "total": -0.18384112500000016,
+    "mdd": -0.2675920086052912,
+    "fees": 132.61650000000003,
+    "turnover": 0.324677090752103,
+    "turnover_ratio": 0.4573168673516843,
+    "net_gap": 0.4763971050000003,
+    "same_path_prefee_gap": 0.4792233600000003,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.6769520527487156,
+    "signal_sha256": "db61a1e177af7cd2abda0ab51da9f9fb9039eabb4989c3a93cab56618ff4744e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.003237384999999815,
+        "net_pnl": 323.7384999999922
+      },
+      {
+        "year": 2022,
+        "total": -0.11529462192041406,
+        "net_pnl": -11566.787499999991
+      },
+      {
+        "year": 2023,
+        "total": -0.08045638588914594,
+        "net_pnl": -7141.063500000018
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2109,
+    "total": -0.364381705,
+    "mdd": -0.44730867984271794,
+    "fees": 431.2505,
+    "turnover": 0.9508540116222223,
+    "turnover_ratio": 1.3393047747734883,
+    "net_gap": 0.6569376850000002,
+    "same_path_prefee_gap": 0.6567776000000002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9285322791616871,
+    "signal_sha256": "57a14ba0262de2fe6648f0d3408b149fc00e7c35fefb4aca619fc23e02994533",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.03808864000000001,
+        "net_pnl": -3808.8640000000014
+      },
+      {
+        "year": 2022,
+        "total": -0.21559765132620956,
+        "net_pnl": -20738.583
+      },
+      {
+        "year": 2023,
+        "total": -0.15759206318704688,
+        "net_pnl": -11890.7235
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2110,
+    "total": -0.2915971304,
+    "mdd": -0.4489534665167615,
+    "fees": 183.97199999999995,
+    "turnover": 0.47519567157895937,
+    "turnover_ratio": 0.6693265465763754,
+    "net_gap": 0.5841531104000002,
+    "same_path_prefee_gap": 0.5864658104000001,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9537789544023079,
+    "signal_sha256": "12204950eae36cf7b2f0f1f506a355c1ad511eecca58e9336f744a5e3cf60e64",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.12292535671999993,
+        "net_pnl": -12292.535671999998
+      },
+      {
+        "year": 2022,
+        "total": -0.1463694848136391,
+        "net_pnl": -12837.69636799999
+      },
+      {
+        "year": 2023,
+        "total": -0.05381986761536128,
+        "net_pnl": -4029.4810000000143
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2111,
+    "total": 0.4616518700000001,
+    "mdd": -0.18360003353265775,
+    "fees": 397.773,
+    "turnover": 0.609761586199223,
+    "turnover_ratio": 0.8588664441524553,
+    "net_gap": -0.16909588999999992,
+    "same_path_prefee_gap": -0.1689211999999999,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9707134366686323,
+    "signal_sha256": "4c93bd00e84c83210570b1a027d5df5546c0592d8608d258ade3bacdca4b4522",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03801447999999996,
+        "net_pnl": 3801.448000000004
+      },
+      {
+        "year": 2022,
+        "total": 0.2277348818871967,
+        "net_pnl": 23639.2105
+      },
+      {
+        "year": 2023,
+        "total": 0.14692743054211377,
+        "net_pnl": 18724.5285
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "random_priority",
+    "seed": 2112,
+    "total": -0.3092686843999999,
+    "mdd": -0.5472660931343513,
+    "fees": 322.761,
+    "turnover": 0.6017308803689236,
+    "turnover_ratio": 0.8475549678039761,
+    "net_gap": 0.6018246644,
+    "same_path_prefee_gap": 0.6027494744,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.969155527981068,
+    "signal_sha256": "fedba292ea4de25025e583b735cda3cd49491a7a7eba3becbf1bbd8856027cda",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.42609931452000027,
+        "net_pnl": 42609.93145200002
+      },
+      {
+        "year": 2022,
+        "total": -0.30270300027827834,
+        "net_pnl": -43168.454120000024
+      },
+      {
+        "year": 2023,
+        "total": -0.30538912520990413,
+        "net_pnl": -30368.345771999986
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2103,
+    "total": -0.00021251000000033216,
+    "mdd": -0.3046456273133653,
+    "fees": 10826.538999999999,
+    "turnover": 17.154454616541447,
+    "turnover_ratio": 24.162534622293983,
+    "net_gap": 0.2927684900000005,
+    "same_path_prefee_gap": 0.18865552000000052,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15450388006996052,
+      "volatility": 0.14026285175608652,
+      "earnings_yield": 0.09475816712954953
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9852791594699358,
+    "signal_sha256": "0d0366203fefaaa5a7442740fa5ed6a4582f5075fb7b426eb77c4b867eea7604",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.12539877442259062,
+        "net_pnl": -14534.12500000003
+      },
+      {
+        "year": 2023,
+        "total": -0.013715932290662813,
+        "net_pnl": -1390.372000000003
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2102,
+    "total": -0.010309265000000067,
+    "mdd": -0.29564396333374054,
+    "fees": 9925.598499999995,
+    "turnover": 16.018260355963406,
+    "turnover_ratio": 22.56217286364056,
+    "net_gap": 0.3028652450000002,
+    "same_path_prefee_gap": 0.20776168000000028,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.1553906815863633,
+      "volatility": 0.1322818919707807,
+      "earnings_yield": 0.08927270797703174
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9858797382424621,
+    "signal_sha256": "b1de229c884d741ed4a226d24eef85823145205848ac5114b8cd4636349d0464",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13068871500000023,
+        "net_pnl": 13068.871500000023
+      },
+      {
+        "year": 2022,
+        "total": -0.12753935993780574,
+        "net_pnl": -14420.731500000009
+      },
+      {
+        "year": 2023,
+        "total": 0.0032533152677789445,
+        "net_pnl": 320.93349999998463
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2104,
+    "total": -0.005213489999999821,
+    "mdd": -0.29564396333374054,
+    "fees": 10054.020999999997,
+    "turnover": 16.222129446530648,
+    "turnover_ratio": 22.849328245106115,
+    "net_gap": 0.29776947,
+    "same_path_prefee_gap": 0.20138168,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15501212927305863,
+      "volatility": 0.13359751912314136,
+      "earnings_yield": 0.08950152050378656
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9849757528612476,
+    "signal_sha256": "f54a9904012faaa8f2aa2435ec62ef54604fbb6e7577ed97e0c58f5a7da96ad8",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13068871500000023,
+        "net_pnl": 13068.871500000023
+      },
+      {
+        "year": 2022,
+        "total": -0.12753935993780574,
+        "net_pnl": -14420.731500000009
+      },
+      {
+        "year": 2023,
+        "total": 0.008418922039483023,
+        "net_pnl": 830.5109999999986
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2101,
+    "total": -0.0240722950000003,
+    "mdd": -0.31240492193017444,
+    "fees": 10765.789499999997,
+    "turnover": 17.190500353947613,
+    "turnover_ratio": 24.213306063154757,
+    "net_gap": 0.31662827500000046,
+    "same_path_prefee_gap": 0.2131228000000005,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15597009780825458,
+      "volatility": 0.1391894524515083,
+      "earnings_yield": 0.09258812618480451
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9841389033255032,
+    "signal_sha256": "2abc7c75d4c88217c4d658c9f45980b2fa0a35f47d5899094fc42e3380989d27",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.13349247785519325,
+        "net_pnl": -15472.21150000002
+      },
+      {
+        "year": 2023,
+        "total": -0.028260826089569036,
+        "net_pnl": -2838.26400000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2105,
+    "total": -0.03798507500000037,
+    "mdd": -0.3129234360358054,
+    "fees": 10817.667499999994,
+    "turnover": 17.558786632733113,
+    "turnover_ratio": 24.732047705543653,
+    "net_gap": 0.3305410550000005,
+    "same_path_prefee_gap": 0.22651680000000057,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.1555778910926158,
+      "volatility": 0.14092003418253582,
+      "earnings_yield": 0.09857182560343405
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9835434379302598,
+    "signal_sha256": "8ce1dd9f75125de98e237605b8508acb683e4e28e6a3785ba65084950f1e25d4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13643191,
+        "net_pnl": 13643.190999999992
+      },
+      {
+        "year": 2022,
+        "total": -0.13744805881066813,
+        "net_pnl": -15620.035999999993
+      },
+      {
+        "year": 2023,
+        "total": -0.01858400191260967,
+        "net_pnl": -1821.662500000035
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2106,
+    "total": -0.015443285000000029,
+    "mdd": -0.3111497398171097,
+    "fees": 10473.384499999996,
+    "turnover": 16.817256019435856,
+    "turnover_ratio": 23.687580859013373,
+    "net_gap": 0.3079992650000002,
+    "same_path_prefee_gap": 0.20741784000000024,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.1561368646979968,
+      "volatility": 0.1396208658740624,
+      "earnings_yield": 0.09248573962251024
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9842035975019702,
+    "signal_sha256": "d174dfcf45f7ce90b037d1083f96841d104d3997b97c9f50459b0df63fc4708b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.145815845,
+        "net_pnl": 14581.584499999997
+      },
+      {
+        "year": 2022,
+        "total": -0.13247334260768584,
+        "net_pnl": -15179.0055
+      },
+      {
+        "year": 2023,
+        "total": -0.00952598523625836,
+        "net_pnl": -946.9075000000012
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2107,
+    "total": -0.03809066000000039,
+    "mdd": -0.3129234360358054,
+    "fees": 10399.225999999999,
+    "turnover": 16.90287006519141,
+    "turnover_ratio": 23.80817066445834,
+    "net_gap": 0.33064664000000055,
+    "same_path_prefee_gap": 0.23080680000000056,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15596378923614154,
+      "volatility": 0.1387461062307209,
+      "earnings_yield": 0.09702075498078563
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9829013939876291,
+    "signal_sha256": "e553c24e2b21b05451cbc3990456b0e6a38d6d8369cf0a5c2d13ea8740dcfe11",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13643191,
+        "net_pnl": 13643.190999999992
+      },
+      {
+        "year": 2022,
+        "total": -0.13744805881066813,
+        "net_pnl": -15620.035999999993
+      },
+      {
+        "year": 2023,
+        "total": -0.018691716258266045,
+        "net_pnl": -1832.221000000034
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2108,
+    "total": -0.026349879999999937,
+    "mdd": -0.3110283969873052,
+    "fees": 10722.963999999996,
+    "turnover": 17.206353802514943,
+    "turnover_ratio": 24.23563609395163,
+    "net_gap": 0.3189058600000001,
+    "same_path_prefee_gap": 0.21582864000000013,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15594806911924403,
+      "volatility": 0.1379113522785182,
+      "earnings_yield": 0.09350318748397556
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9838553305470545,
+    "signal_sha256": "b6e30f2d68e384c0ca013d2e6820bc8f15f8da7c45be9d212311db80b2fc6f68",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15088827500000024,
+        "net_pnl": 15088.827500000014
+      },
+      {
+        "year": 2022,
+        "total": -0.1310160015315126,
+        "net_pnl": -15078.477999999988
+      },
+      {
+        "year": 2023,
+        "total": -0.026450637491273077,
+        "net_pnl": -2645.3375000000233
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2109,
+    "total": -0.01978843000000019,
+    "mdd": -0.31240492193017444,
+    "fees": 10900.402999999991,
+    "turnover": 17.393075868229506,
+    "turnover_ratio": 24.49863940582748,
+    "net_gap": 0.31234441000000035,
+    "same_path_prefee_gap": 0.20749280000000042,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.1543410357804738,
+      "volatility": 0.14048119310772056,
+      "earnings_yield": 0.09450540592976202
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.983523388418969,
+    "signal_sha256": "cc321b8244f36513bc37fba8be0ca798292059dbaa5e82b925acfb4e5f23769b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.13349247785519325,
+        "net_pnl": -15472.21150000002
+      },
+      {
+        "year": 2023,
+        "total": -0.02399534677699655,
+        "net_pnl": -2409.8775000000023
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2110,
+    "total": -0.02081273500000025,
+    "mdd": -0.31240492193017444,
+    "fees": 10805.833499999997,
+    "turnover": 17.243294832434476,
+    "turnover_ratio": 24.287668579645064,
+    "net_gap": 0.3133687150000004,
+    "same_path_prefee_gap": 0.20946280000000045,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15490159475017187,
+      "volatility": 0.13878989694206173,
+      "earnings_yield": 0.09354893041548688
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9838828984733322,
+    "signal_sha256": "130643c94bd385b51be8477d40bb50d8ea8d64b60cbae85c6741c1e0d174decc",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.13349247785519325,
+        "net_pnl": -15472.21150000002
+      },
+      {
+        "year": 2023,
+        "total": -0.025015255618023202,
+        "net_pnl": -2512.3080000000045
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2111,
+    "total": -0.02081273500000025,
+    "mdd": -0.31240492193017444,
+    "fees": 10805.833499999997,
+    "turnover": 17.243294832434476,
+    "turnover_ratio": 24.287668579645064,
+    "net_gap": 0.3133687150000004,
+    "same_path_prefee_gap": 0.20946280000000045,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.15490159475017187,
+      "volatility": 0.13878989694206173,
+      "earnings_yield": 0.09354893041548688
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9838828984733322,
+    "signal_sha256": "653fb12ce2825e03963ad0fb44103defc75c42201f328f9a7bfdb7432fd28dd9",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.13349247785519325,
+        "net_pnl": -15472.21150000002
+      },
+      {
+        "year": 2023,
+        "total": -0.025015255618023202,
+        "net_pnl": -2512.3080000000045
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_size_vol_value",
+    "seed": 2112,
+    "total": -0.01616999500000038,
+    "mdd": -0.3046456273133653,
+    "fees": 10731.071499999991,
+    "turnover": 17.095808667274557,
+    "turnover_ratio": 24.079930143673476,
+    "net_gap": 0.30872597500000054,
+    "same_path_prefee_gap": 0.20556768000000064,
+    "pair_pass": 0.8699551569506726,
+    "actual_gaps": {
+      "market_cap": 0.1535714415374017,
+      "volatility": 0.14044506562947978,
+      "earnings_yield": 0.09481162725392082
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.985215428234234,
+    "signal_sha256": "85a8e83713bebced3594c6d5fa50fa8bd81d8eeed1f2b2fc8dffeba10f0f9ade",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15903245999999993,
+        "net_pnl": 15903.246
+      },
+      {
+        "year": 2022,
+        "total": -0.12539877442259062,
+        "net_pnl": -14534.12500000003
+      },
+      {
+        "year": 2023,
+        "total": -0.02945789083048289,
+        "net_pnl": -2986.1205000000045
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2102,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "3f673c286330f0ac92251116aa42b667d41287b3302a36bb60eafb8d8a591b93",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2104,
+    "total": 0.1784450200000003,
+    "mdd": -0.2521424940186223,
+    "fees": 9237.114000000001,
+    "turnover": 14.345105320172713,
+    "turnover_ratio": 20.205486662624576,
+    "net_gap": 0.11411095999999987,
+    "same_path_prefee_gap": 0.025892239999999858,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.17725957790967345,
+      "volatility": 0.11589241793157432,
+      "earnings_yield": 0.08130293590093482,
+      "turnover": 0.10151729173625075
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9877985345088821,
+    "signal_sha256": "553908f60553bea3de2a6f6b657541ad343c2596ca485f7c1c200aceaf15bf96",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1474784650000005,
+        "net_pnl": 14747.846500000043
+      },
+      {
+        "year": 2022,
+        "total": -0.08899302524165453,
+        "net_pnl": -10211.758000000002
+      },
+      {
+        "year": 2023,
+        "total": 0.12730927367729072,
+        "net_pnl": 13308.41349999998
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2103,
+    "total": 0.17401271499999993,
+    "mdd": -0.2517318531510466,
+    "fees": 8918.62449999999,
+    "turnover": 13.966868411518105,
+    "turnover_ratio": 19.672729276564407,
+    "net_gap": 0.11854326500000023,
+    "same_path_prefee_gap": 0.03350944000000032,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1810925279850612,
+      "volatility": 0.11361557915646948,
+      "earnings_yield": 0.07965215137413773,
+      "turnover": 0.10074291096964598
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9876536935296794,
+    "signal_sha256": "3fff8d5cb0ebc8456a9faa652e229d65f628ae1cc8af467d3a603b1fa55d11d4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13553475500000034,
+        "net_pnl": 13553.47550000003
+      },
+      {
+        "year": 2022,
+        "total": -0.08989413098148658,
+        "net_pnl": -10207.791000000027
+      },
+      {
+        "year": 2023,
+        "total": 0.1360055532846174,
+        "net_pnl": 14055.587
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2106,
+    "total": 0.1784450200000003,
+    "mdd": -0.2521424940186223,
+    "fees": 9237.114000000001,
+    "turnover": 14.345105320172713,
+    "turnover_ratio": 20.205486662624576,
+    "net_gap": 0.11411095999999987,
+    "same_path_prefee_gap": 0.025892239999999858,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.17725957790967345,
+      "volatility": 0.11589241793157432,
+      "earnings_yield": 0.08130293590093482,
+      "turnover": 0.10151729173625075
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9877985345088821,
+    "signal_sha256": "7cd1da7641266a0a74412a165ca9d91caaaceb167e2fd409a76f6da1164c4322",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1474784650000005,
+        "net_pnl": 14747.846500000043
+      },
+      {
+        "year": 2022,
+        "total": -0.08899302524165453,
+        "net_pnl": -10211.758000000002
+      },
+      {
+        "year": 2023,
+        "total": 0.12730927367729072,
+        "net_pnl": 13308.41349999998
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2105,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "a647cdab99a4b157b0f9378077bbaac6ac3b8482056f4162b00685dd45d9681a",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2101,
+    "total": 0.18209235499999998,
+    "mdd": -0.2472589552762141,
+    "fees": 9107.660499999996,
+    "turnover": 14.212261484844433,
+    "turnover_ratio": 20.018372362448414,
+    "net_gap": 0.11046362500000018,
+    "same_path_prefee_gap": 0.023539440000000217,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.181405209314714,
+      "volatility": 0.11330308142787636,
+      "earnings_yield": 0.07912647888180722,
+      "turnover": 0.10131606777330363
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9875319749549263,
+    "signal_sha256": "c6b2cb28b37dae2b3e336c6454a32a49697086f8e874b9faa947f89639eecb12",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13553475500000034,
+        "net_pnl": 13553.47550000003
+      },
+      {
+        "year": 2022,
+        "total": -0.07911267762121488,
+        "net_pnl": -8983.519500000024
+      },
+      {
+        "year": 2023,
+        "total": 0.13043210518325155,
+        "net_pnl": 13639.27949999999
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2107,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "c84b000340473c38d3b097b36b5eca8d0527235b19286acb9267a48ed97e11e8",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2108,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "242e1f5210d01a9dbd0158fd6e4f93e289d4f8a8d4740d5ea493b5d83e3f23ce",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2109,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "9f852561ae6b4d66ee2a24d37512f80322887385471081b8e0f4b988f2139267",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2111,
+    "total": 0.17911850500000015,
+    "mdd": -0.25242915704486,
+    "fees": 9375.893500000002,
+    "turnover": 14.551859259599995,
+    "turnover_ratio": 20.496705435321097,
+    "net_gap": 0.11343747500000001,
+    "same_path_prefee_gap": 0.023830959999999998,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.1758919014324141,
+      "volatility": 0.11718009015477483,
+      "earnings_yield": 0.0823937731089294,
+      "turnover": 0.10224772251826739
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.987567498495689,
+    "signal_sha256": "62defdb81bdc2cf28ef7d5a1f3b8af869d83beb1a01e9948f118f19485403624",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.14853832500000053,
+        "net_pnl": 14853.832500000048
+      },
+      {
+        "year": 2022,
+        "total": -0.08924730918317447,
+        "net_pnl": -10250.395500000042
+      },
+      {
+        "year": 2023,
+        "total": 0.1272273061161462,
+        "net_pnl": 13308.41350000001
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2110,
+    "total": 0.1784450200000003,
+    "mdd": -0.2521424940186223,
+    "fees": 9237.114000000001,
+    "turnover": 14.345105320172713,
+    "turnover_ratio": 20.205486662624576,
+    "net_gap": 0.11411095999999987,
+    "same_path_prefee_gap": 0.025892239999999858,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.17725957790967345,
+      "volatility": 0.11589241793157432,
+      "earnings_yield": 0.08130293590093482,
+      "turnover": 0.10151729173625075
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9877985345088821,
+    "signal_sha256": "a759736c01d9cd654499c9f14bded4e6a4acef5b0f7d082848a337667115f52b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1474784650000005,
+        "net_pnl": 14747.846500000043
+      },
+      {
+        "year": 2022,
+        "total": -0.08899302524165453,
+        "net_pnl": -10211.758000000002
+      },
+      {
+        "year": 2023,
+        "total": 0.12730927367729072,
+        "net_pnl": 13308.41349999998
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2102,
+    "total": 0.011763970200000085,
+    "mdd": -0.18437508803997515,
+    "fees": 340.70349999999996,
+    "turnover": 0.575009791060109,
+    "turnover_ratio": 0.07688231809413068,
+    "net_gap": 0.09268364979999943,
+    "same_path_prefee_gap": 0.13650859479999944,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8757504621842324,
+    "signal_sha256": "3a50347d9b7df7407acd6ae95873d2be6ffce7a0bdd9b8bf333d6420c27cdb67",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.12207275499999981,
+        "net_pnl": 12207.275499999989
+      },
+      {
+        "year": 2022,
+        "total": -0.05227362444960171,
+        "net_pnl": -5865.480979999993
+      },
+      {
+        "year": 2023,
+        "total": -0.04857354084831178,
+        "net_pnl": -5165.397499999992
+      }
+    ]
+  },
+  {
+    "baseline": "B01_low_turnover",
+    "mode": "match_all",
+    "seed": 2112,
+    "total": 0.18209235499999998,
+    "mdd": -0.2472589552762141,
+    "fees": 9107.660499999996,
+    "turnover": 14.212261484844433,
+    "turnover_ratio": 20.018372362448414,
+    "net_gap": 0.11046362500000018,
+    "same_path_prefee_gap": 0.023539440000000217,
+    "pair_pass": 0.7802690582959642,
+    "actual_gaps": {
+      "market_cap": 0.181405209314714,
+      "volatility": 0.11330308142787636,
+      "earnings_yield": 0.07912647888180722,
+      "turnover": 0.10131606777330363
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9875319749549263,
+    "signal_sha256": "2edab9b1e8fc162963f2671c9730851f068090af93c52bf9511ee5f4bfb15c8c",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.13553475500000034,
+        "net_pnl": 13553.47550000003
+      },
+      {
+        "year": 2022,
+        "total": -0.07911267762121488,
+        "net_pnl": -8983.519500000024
+      },
+      {
+        "year": 2023,
+        "total": 0.13043210518325155,
+        "net_pnl": 13639.27949999999
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2101,
+    "total": -0.1825905499999999,
+    "mdd": -0.2675920086052912,
+    "fees": 132.55900000000003,
+    "turnover": 0.3054318321352252,
+    "turnover_ratio": 0.040838099871309444,
+    "net_gap": 0.2870381699999994,
+    "same_path_prefee_gap": 0.33294455999999945,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.6456985566744698,
+    "signal_sha256": "6afdac4f1f5958ddf7f2f5463ba271cfaabcbbb66d268cbffbfdd21d4718f343",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.003237384999999815,
+        "net_pnl": 323.7384999999922
+      },
+      {
+        "year": 2022,
+        "total": -0.11529462192041406,
+        "net_pnl": -11566.787499999991
+      },
+      {
+        "year": 2023,
+        "total": -0.07904739765114277,
+        "net_pnl": -7016.005999999994
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2103,
+    "total": 0.009969550000000105,
+    "mdd": -0.3372052999904671,
+    "fees": 420.0850000000001,
+    "turnover": 0.762350535835163,
+    "turnover_ratio": 0.10193091892792311,
+    "net_gap": 0.09447806999999941,
+    "same_path_prefee_gap": 0.13750919999999942,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.7244300436427671,
+    "signal_sha256": "53197aabd60a78e827815fa8d08dae77f2c5392667d56b2ac2c31ee24c0a3766",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.015769940000000093,
+        "net_pnl": -1576.994000000006
+      },
+      {
+        "year": 2022,
+        "total": -0.07573951764895293,
+        "net_pnl": -7454.510999999999
+      },
+      {
+        "year": 2023,
+        "total": 0.1102410235543636,
+        "net_pnl": 10028.460000000006
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2104,
+    "total": -0.42468949999999994,
+    "mdd": -0.5123545921248238,
+    "fees": 288.35,
+    "turnover": 0.7258610320796169,
+    "turnover_ratio": 0.0970520495965701,
+    "net_gap": 0.5291371199999995,
+    "same_path_prefee_gap": 0.5734855999999995,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9584724832983312,
+    "signal_sha256": "3ec8c0d9e448da7ce8812d0c89c55b5a6a58622a2b9b3fc8a2269a4f95c80213",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03988811500000011,
+        "net_pnl": 3988.8115000000107
+      },
+      {
+        "year": 2022,
+        "total": -0.3918090841917161,
+        "net_pnl": -40743.761000000006
+      },
+      {
+        "year": 2023,
+        "total": -0.09034699877423613,
+        "net_pnl": -5714.000500000002
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2105,
+    "total": -0.28793725000000003,
+    "mdd": -0.3996307215234103,
+    "fees": 146.32500000000002,
+    "turnover": 0.3488968677439513,
+    "turnover_ratio": 0.04664964038000571,
+    "net_gap": 0.39238486999999955,
+    "same_path_prefee_gap": 0.4381535999999996,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8225870120259505,
+    "signal_sha256": "cc144546b2e4ba08761058473af8799d8d726121f13000502b3a16ace5a24399",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.007341600000000059,
+        "net_pnl": -734.1600000000035
+      },
+      {
+        "year": 2022,
+        "total": -0.12162693631565491,
+        "net_pnl": -12073.399999999994
+      },
+      {
+        "year": 2023,
+        "total": -0.18334347564995324,
+        "net_pnl": -15986.165000000008
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2106,
+    "total": -0.13327704499999993,
+    "mdd": -0.5536176867904077,
+    "fees": 155.7045,
+    "turnover": 0.3561248180049197,
+    "turnover_ratio": 0.04761606143886771,
+    "net_gap": 0.23772466499999945,
+    "same_path_prefee_gap": 0.2833995999999995,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9286808608742769,
+    "signal_sha256": "142b5b8dc4cb2969004ea88723269fde0ad183896f90871a2d478d9777ad6978",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.007390879999999989,
+        "net_pnl": 739.0880000000034
+      },
+      {
+        "year": 2022,
+        "total": -0.21779249679131496,
+        "net_pnl": -21940.2175
+      },
+      {
+        "year": 2023,
+        "total": 0.0999179931138734,
+        "net_pnl": 7873.425000000003
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2107,
+    "total": 0.08691218499999986,
+    "mdd": -0.5277953271925397,
+    "fees": 362.0615,
+    "turnover": 0.5319595393558086,
+    "turnover_ratio": 0.0711262367246981,
+    "net_gap": 0.017535434999999655,
+    "same_path_prefee_gap": 0.06114679999999966,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9814860099903527,
+    "signal_sha256": "06136d57f0c1e17238a8c27d1e26defa2e9fdb04828997c3a764529e49a1a77f",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.40020840999999985,
+        "net_pnl": 40020.840999999986
+      },
+      {
+        "year": 2022,
+        "total": -0.19112280935378745,
+        "net_pnl": -26761.176499999987
+      },
+      {
+        "year": 2023,
+        "total": -0.04033603684213638,
+        "net_pnl": -4568.446000000011
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2108,
+    "total": 0.09609688999999988,
+    "mdd": -0.25483397750909187,
+    "fees": 353.815,
+    "turnover": 0.6431322760294899,
+    "turnover_ratio": 0.0859907100558096,
+    "net_gap": 0.00835072999999964,
+    "same_path_prefee_gap": 0.05204455999999965,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9691179828422817,
+    "signal_sha256": "cd88375545fef23d0a65a193f2be11fdfb0d9eb78750432b8125c815a4475036",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.035957030000000056,
+        "net_pnl": 3595.7030000000086
+      },
+      {
+        "year": 2022,
+        "total": -0.12722887743712696,
+        "net_pnl": -13180.365000000005
+      },
+      {
+        "year": 2023,
+        "total": 0.21229087259509005,
+        "net_pnl": 19194.350999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2109,
+    "total": -0.34668363999999996,
+    "mdd": -0.4297818338506909,
+    "fees": 389.44399999999996,
+    "turnover": 0.8579803779715202,
+    "turnover_ratio": 0.11471721240801158,
+    "net_gap": 0.4511312599999995,
+    "same_path_prefee_gap": 0.4944687999999995,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8899367840383604,
+    "signal_sha256": "32b3da23ce6ded012d5c338defa58c1238cdc423fdc286e35d1835d7e73ec3bf",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.03808864000000001,
+        "net_pnl": -3808.8640000000014
+      },
+      {
+        "year": 2022,
+        "total": -0.21904292200063014,
+        "net_pnl": -21069.987500000003
+      },
+      {
+        "year": 2023,
+        "total": -0.13031633162530787,
+        "net_pnl": -9789.512499999997
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2110,
+    "total": -0.23319037539999987,
+    "mdd": -0.45263107510294676,
+    "fees": 994.2964999999999,
+    "turnover": 2.1678608727672297,
+    "turnover_ratio": 0.2898562281811423,
+    "net_gap": 0.3376379953999994,
+    "same_path_prefee_gap": 0.37492701039999937,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9534029425309595,
+    "signal_sha256": "4c0407762cc165e8e626e3c262b29932c75348301d03970eac41cdf9efda3e23",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.12292535671999993,
+        "net_pnl": -12292.535671999998
+      },
+      {
+        "year": 2022,
+        "total": -0.1498068262338922,
+        "net_pnl": -13139.176867999995
+      },
+      {
+        "year": 2023,
+        "total": 0.028332084213859465,
+        "net_pnl": 2112.675000000003
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2111,
+    "total": 0.40176625499999985,
+    "mdd": -0.18360003353265775,
+    "fees": 594.0545000000001,
+    "turnover": 0.8791354361632258,
+    "turnover_ratio": 0.11754577278816786,
+    "net_gap": -0.29731863500000033,
+    "same_path_prefee_gap": -0.25602720000000034,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9516086111428368,
+    "signal_sha256": "c710e9bf3e4579ab4d8028b0def23be851d9384f2ae8d8a41308c363f29524f3",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03801447999999996,
+        "net_pnl": 3801.448000000004
+      },
+      {
+        "year": 2022,
+        "total": 0.22966388676967187,
+        "net_pnl": 23839.44399999999
+      },
+      {
+        "year": 2023,
+        "total": 0.09821095186329476,
+        "net_pnl": 12535.733500000002
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "random_priority",
+    "seed": 2112,
+    "total": -0.3124668835500001,
+    "mdd": -0.47908162706734425,
+    "fees": 480.2930750000001,
+    "turnover": 0.952143884274142,
+    "turnover_ratio": 0.12730744783873327,
+    "net_gap": 0.4169145035499996,
+    "same_path_prefee_gap": 0.4593435527999996,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8911518014899378,
+    "signal_sha256": "4eb025c13841212f43667d277d322bf33dce70a16a7ba5ea37a86ead960a0197",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.24400666452000008,
+        "net_pnl": 24400.666452000005
+      },
+      {
+        "year": 2022,
+        "total": -0.32075878769826704,
+        "net_pnl": -39902.606960000005
+      },
+      {
+        "year": 2023,
+        "total": -0.18633265594094106,
+        "net_pnl": -15744.747847000006
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2102,
+    "total": 0.11126836000000018,
+    "mdd": -0.2515081692717478,
+    "fees": 7235.516000000005,
+    "turnover": 12.633101283478808,
+    "turnover_ratio": 1.689122735807914,
+    "net_gap": -0.006820740000000658,
+    "same_path_prefee_gap": -0.03194392000000071,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.07384731989971716,
+      "volatility": 0.11529356287706181,
+      "earnings_yield": 0.07533632871227693
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9837516384043055,
+    "signal_sha256": "81af6859c56abe47394c8992e8c4a74d3b5034f84b8ce633a25d8ae093f7a3e7",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.0769355749037367,
+        "net_pnl": -7345.575000000012
+      },
+      {
+        "year": 2023,
+        "total": 0.2609223473305695,
+        "net_pnl": 22995.448500000013
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2103,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "bcbe602add2bb2761fdbce8466087c047484b2304f9e3f6f144b0c965ac3cab8",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2104,
+    "total": 0.11126836000000018,
+    "mdd": -0.2515081692717478,
+    "fees": 7235.516000000005,
+    "turnover": 12.633101283478808,
+    "turnover_ratio": 1.689122735807914,
+    "net_gap": -0.006820740000000658,
+    "same_path_prefee_gap": -0.03194392000000071,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.07384731989971716,
+      "volatility": 0.11529356287706181,
+      "earnings_yield": 0.07533632871227693
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9837516384043055,
+    "signal_sha256": "616b49fdeb5390f5f368567ade7ecccdcf5c204d2d975ec35fa5493b25eb4130",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.0769355749037367,
+        "net_pnl": -7345.575000000012
+      },
+      {
+        "year": 2023,
+        "total": 0.2609223473305695,
+        "net_pnl": 22995.448500000013
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2105,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "d19abb27c0f1b2b14d463d997a5d7a518a21b8bf600c4f0617b4411672ce9b01",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2101,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "760336298041cae61f56fd8c2ba7cf431d78fdae1ef761ea212d40d50e92d221",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2106,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "a129223133e3085f424f15d63732d827e6975dce48e817bd1aae708fed5e2a3a",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2107,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "836288612d59bcd6c8cca36ffd4573f3d1703721eb8a4432515674abd400275b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2108,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "a9bea80722286a69b9acf4592d6ee678009a23b3d42e3010a17cdaca33d63bfd",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2109,
+    "total": 0.11126836000000018,
+    "mdd": -0.2515081692717478,
+    "fees": 7235.516000000005,
+    "turnover": 12.633101283478808,
+    "turnover_ratio": 1.689122735807914,
+    "net_gap": -0.006820740000000658,
+    "same_path_prefee_gap": -0.03194392000000071,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.07384731989971716,
+      "volatility": 0.11529356287706181,
+      "earnings_yield": 0.07533632871227693
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9837516384043055,
+    "signal_sha256": "d0c278cebc8a81bc0cc72cbe5c5ef21b311aa8082a5cf14496cbc6efad3f765c",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.0769355749037367,
+        "net_pnl": -7345.575000000012
+      },
+      {
+        "year": 2023,
+        "total": 0.2609223473305695,
+        "net_pnl": 22995.448500000013
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2110,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "3cb295871bc1957b605b6036d05db8739a446c05c4781536161adb5fe89f4686",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2111,
+    "total": 0.008334805000000056,
+    "mdd": -0.24810551854288132,
+    "fees": 7438.991499999998,
+    "turnover": 13.330974028013445,
+    "turnover_ratio": 1.782432580559631,
+    "net_gap": 0.09611281499999946,
+    "same_path_prefee_gap": 0.06895487999999948,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.07264288723184745,
+      "volatility": 0.1108915273329238,
+      "earnings_yield": 0.06708539405945378
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9863171332524191,
+    "signal_sha256": "36972feaa52400c0602f3fd5e649e7010e2df215681982d58eaa6b7d195086c4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.05320036757558133,
+        "net_pnl": -5079.409499999994
+      },
+      {
+        "year": 2023,
+        "total": 0.11544480081225195,
+        "net_pnl": 10435.92749999999
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_size_vol_value",
+    "seed": 2112,
+    "total": 0.11079268500000006,
+    "mdd": -0.24682079358425124,
+    "fees": 7290.8835000000045,
+    "turnover": 12.723879865289911,
+    "turnover_ratio": 1.7012603861774287,
+    "net_gap": -0.006345065000000538,
+    "same_path_prefee_gap": -0.03202192000000058,
+    "pair_pass": 0.8258258258258259,
+    "actual_gaps": {
+      "market_cap": 0.0711831600871604,
+      "volatility": 0.11521870706683814,
+      "earnings_yield": 0.07437539806386781
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9856939374054664,
+    "signal_sha256": "4468d090e9a54a12076f28f0c665f826289fc7ef4ea542a47971ae09077898b2",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.045230374999999934,
+        "net_pnl": -4523.037499999991
+      },
+      {
+        "year": 2022,
+        "total": -0.07223477600682993,
+        "net_pnl": -6896.756999999998
+      },
+      {
+        "year": 2023,
+        "total": 0.25399650941202645,
+        "net_pnl": 22499.062999999995
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2102,
+    "total": -0.03755292999999971,
+    "mdd": -0.22345530132984448,
+    "fees": 8287.493,
+    "turnover": 14.169264498430088,
+    "turnover_ratio": 1.894517132168794,
+    "net_gap": 0.14200054999999923,
+    "same_path_prefee_gap": 0.10635759999999922,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07325953624088036,
+      "volatility": 0.11624520788542016,
+      "earnings_yield": 0.08015142916403882,
+      "turnover": 0.08088317434216852
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9789198425058572,
+    "signal_sha256": "367dd86d631645c8f879f118cd74d97f34bf6ed30865f18e46916cbee7ec7d0d",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.02284648999999994,
+        "net_pnl": -2284.6489999999903
+      },
+      {
+        "year": 2022,
+        "total": -0.022358677297285467,
+        "net_pnl": -2184.7859999999782
+      },
+      {
+        "year": 2023,
+        "total": 0.007475534139256723,
+        "net_pnl": 714.1419999999925
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2103,
+    "total": -0.03755292999999971,
+    "mdd": -0.2234553013298446,
+    "fees": 8287.493,
+    "turnover": 14.169264498430088,
+    "turnover_ratio": 1.894517132168794,
+    "net_gap": 0.14200054999999923,
+    "same_path_prefee_gap": 0.10635759999999922,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07325953624088036,
+      "volatility": 0.11624520788542016,
+      "earnings_yield": 0.08015142916403882,
+      "turnover": 0.08088317434216852
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9789198425058574,
+    "signal_sha256": "fa489245bf3a11917fac2fe0b258fd48435f7b079c372c8fe3d1cd43ecd02146",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.022358677297285467,
+        "net_pnl": -2184.7859999999782
+      },
+      {
+        "year": 2023,
+        "total": 0.007475534139256945,
+        "net_pnl": 714.1420000000071
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2104,
+    "total": -0.030117664999999683,
+    "mdd": -0.2169843738088173,
+    "fees": 8259.366500000002,
+    "turnover": 14.040865478945902,
+    "turnover_ratio": 1.877349399701564,
+    "net_gap": 0.1345652849999992,
+    "same_path_prefee_gap": 0.09920359999999918,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07290836425953931,
+      "volatility": 0.11445737762985721,
+      "earnings_yield": 0.08034638805877245,
+      "turnover": 0.0778786841143977
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9784468742004921,
+    "signal_sha256": "faa4642b6dba0578da0ccd576ad12a3a84135eb59b1949094e18d4377488b371",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.016595065000000186,
+        "net_pnl": -1659.5065000000177
+      },
+      {
+        "year": 2022,
+        "total": -0.01920774375613621,
+        "net_pnl": -1888.8989999999758
+      },
+      {
+        "year": 2023,
+        "total": 0.005563816780654873,
+        "net_pnl": 536.6390000000247
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2101,
+    "total": -0.039578664999999735,
+    "mdd": -0.22478450354217783,
+    "fees": 8241.0665,
+    "turnover": 14.105442412598089,
+    "turnover_ratio": 1.8859837298152091,
+    "net_gap": 0.14402628499999925,
+    "same_path_prefee_gap": 0.10884759999999924,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07263333612173106,
+      "volatility": 0.11641018205933086,
+      "earnings_yield": 0.0801289800810998,
+      "turnover": 0.08144457160827326
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9797768007756505,
+    "signal_sha256": "7002824d3e19e5ab659e6ccee562bab4195cb571f3c80cfc212f16ae8626505b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.024404901334284634,
+        "net_pnl": -2384.7334999999875
+      },
+      {
+        "year": 2023,
+        "total": 0.007463667168630561,
+        "net_pnl": 711.5160000000178
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2105,
+    "total": -0.006591729999999463,
+    "mdd": -0.22478450354217783,
+    "fees": 8255.373,
+    "turnover": 14.111459473462212,
+    "turnover_ratio": 1.8867882475721924,
+    "net_gap": 0.11103934999999898,
+    "same_path_prefee_gap": 0.075717599999999,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07375106291334024,
+      "volatility": 0.11716770994001142,
+      "earnings_yield": 0.07891619508983105,
+      "turnover": 0.08068597682004633
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9799630827485347,
+    "signal_sha256": "82ddfddac394c303eaed98fa4dbb51f13d6fb58bde7f5eef6bc3b5e009311de4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.024404901334284634,
+        "net_pnl": -2384.7334999999875
+      },
+      {
+        "year": 2023,
+        "total": 0.04206633299107754,
+        "net_pnl": 4010.209500000041
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2106,
+    "total": -0.05137472000000021,
+    "mdd": -0.23335155453979506,
+    "fees": 8275.711999999998,
+    "turnover": 14.254456129816434,
+    "turnover_ratio": 1.9059077731718412,
+    "net_gap": 0.15582233999999973,
+    "same_path_prefee_gap": 0.12029719999999974,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07242609995543024,
+      "volatility": 0.11641982721552575,
+      "earnings_yield": 0.08018239262376789,
+      "turnover": 0.08054068801656468
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9798118682109356,
+    "signal_sha256": "4170579fc2036b34d1c1eec7550414d0379a2fe5e3af8aab2c52775bdf3dacd4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.03446888810745807,
+        "net_pnl": -3368.13949999999
+      },
+      {
+        "year": 2023,
+        "total": 0.005461915533136574,
+        "net_pnl": 515.3164999999717
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2107,
+    "total": -0.019978455000000284,
+    "mdd": -0.23335155453979506,
+    "fees": 8287.0855,
+    "turnover": 14.257723945120672,
+    "turnover_ratio": 1.9063447000200435,
+    "net_gap": 0.1244260749999998,
+    "same_path_prefee_gap": 0.08878719999999982,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07345975543729806,
+      "volatility": 0.11717302959783565,
+      "earnings_yield": 0.07913818246475204,
+      "turnover": 0.0798098675404848
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9801698640207943,
+    "signal_sha256": "d8cd456b442df0305afb21e47e77383a3e5b37e31ce4ae9a797ab55d7809df22",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.03446888810745807,
+        "net_pnl": -3368.13949999999
+      },
+      {
+        "year": 2023,
+        "total": 0.038739279538748894,
+        "net_pnl": 3654.94299999997
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2108,
+    "total": -0.05137472000000021,
+    "mdd": -0.23335155453979506,
+    "fees": 8275.711999999998,
+    "turnover": 14.254456129816434,
+    "turnover_ratio": 1.9059077731718412,
+    "net_gap": 0.15582233999999973,
+    "same_path_prefee_gap": 0.12029719999999974,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07242609995543024,
+      "volatility": 0.11641982721552575,
+      "earnings_yield": 0.08018239262376789,
+      "turnover": 0.08054068801656468
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9798118682109356,
+    "signal_sha256": "036646cc5d25144cdc0fe8c6516a11d06b943ee0d1a98f073edad91d5df9e110",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.03446888810745807,
+        "net_pnl": -3368.13949999999
+      },
+      {
+        "year": 2023,
+        "total": 0.005461915533136574,
+        "net_pnl": 515.3164999999717
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2109,
+    "total": -0.019978455000000284,
+    "mdd": -0.23335155453979506,
+    "fees": 8287.0855,
+    "turnover": 14.257723945120672,
+    "turnover_ratio": 1.9063447000200435,
+    "net_gap": 0.1244260749999998,
+    "same_path_prefee_gap": 0.08878719999999982,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07345975543729806,
+      "volatility": 0.11717302959783565,
+      "earnings_yield": 0.07913818246475204,
+      "turnover": 0.0798098675404848
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9801698640207943,
+    "signal_sha256": "12a11c44d65594858f0a65bac92a27bde676d245263886d3841b4ad632dd2e50",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.03446888810745807,
+        "net_pnl": -3368.13949999999
+      },
+      {
+        "year": 2023,
+        "total": 0.038739279538748894,
+        "net_pnl": 3654.94299999997
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2111,
+    "total": -0.004565994999999545,
+    "mdd": -0.2234553013298446,
+    "fees": 8301.7995,
+    "turnover": 14.175190107715785,
+    "turnover_ratio": 1.8953094222916536,
+    "net_gap": 0.10901361499999906,
+    "same_path_prefee_gap": 0.07322759999999907,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07437726303248952,
+      "volatility": 0.11700273576610074,
+      "earnings_yield": 0.07893864417277008,
+      "turnover": 0.08012457955394159
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9791083908946179,
+    "signal_sha256": "3d75481ea68d02f09f94e39921e1a8809bbd401dc1a80a27da28957fc5b5d465",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.022358677297285467,
+        "net_pnl": -2184.7859999999782
+      },
+      {
+        "year": 2023,
+        "total": 0.04200577584776166,
+        "net_pnl": 4012.83550000003
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2110,
+    "total": -0.01995387500000012,
+    "mdd": -0.23332913844776237,
+    "fees": 8248.627499999999,
+    "turnover": 14.191397462474606,
+    "turnover_ratio": 1.8974764445291963,
+    "net_gap": 0.12440149499999964,
+    "same_path_prefee_gap": 0.08914719999999965,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.072983158474739,
+      "volatility": 0.11732153553665979,
+      "earnings_yield": 0.07909283565102103,
+      "turnover": 0.08047101204373433
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9802096696671316,
+    "signal_sha256": "85d9c647fc58c435774e888b9b15b6c372f907be470f1170e7165e56e35bcd5d",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.022846490000000053,
+        "net_pnl": -2284.649000000005
+      },
+      {
+        "year": 2022,
+        "total": -0.03444373341093554,
+        "net_pnl": -3365.6814999999915
+      },
+      {
+        "year": 2023,
+        "total": 0.038738270302048905,
+        "net_pnl": 3654.9429999999847
+      }
+    ]
+  },
+  {
+    "baseline": "B02_low_risk",
+    "mode": "match_all",
+    "seed": 2112,
+    "total": 0.015515655000000184,
+    "mdd": -0.2054149161865465,
+    "fees": 8454.114499999998,
+    "turnover": 14.18836213392911,
+    "turnover_ratio": 1.8970706025794013,
+    "net_gap": 0.08893196499999934,
+    "same_path_prefee_gap": 0.05162279999999936,
+    "pair_pass": 0.7357357357357357,
+    "actual_gaps": {
+      "market_cap": 0.07420919441660224,
+      "volatility": 0.1148355120850366,
+      "earnings_yield": 0.07953593232830036,
+      "turnover": 0.0775159017934319
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9798106250801133,
+    "signal_sha256": "2bcd59fff91c6eeb52a36fcb8ef93aba3d4b6a0302b0e8232092e9ec32e0b532",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.002165254999999977,
+        "net_pnl": 216.52549999998882
+      },
+      {
+        "year": 2022,
+        "total": -0.02394778194540359,
+        "net_pnl": -2399.9634999999835
+      },
+      {
+        "year": 2023,
+        "total": 0.03818375358561488,
+        "net_pnl": 3735.0035000000207
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2102,
+    "total": -0.1954507821200001,
+    "mdd": -0.2820173393933627,
+    "fees": 227.34849999999997,
+    "turnover": 0.49096054428215413,
+    "turnover_ratio": 0.04678281064138427,
+    "net_gap": 0.39525232712,
+    "same_path_prefee_gap": 0.45765721712,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9293288225220139,
+    "signal_sha256": "d8edcb5d38b0c6d43920a7bedaceca6a3da7ac47cc4ff2d600e5847ab6282492",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.010541640000000019,
+        "net_pnl": -1054.1640000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10616802724270269,
+        "net_pnl": -10504.88421199999
+      },
+      {
+        "year": 2023,
+        "total": -0.09029787489333174,
+        "net_pnl": -7986.030000000013
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2104,
+    "total": -0.36267825499999995,
+    "mdd": -0.47452507439948,
+    "fees": 578.7455,
+    "turnover": 1.3409854851290304,
+    "turnover_ratio": 0.12778026819927615,
+    "net_gap": 0.5624797999999999,
+    "same_path_prefee_gap": 0.6213707199999998,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9705921447883318,
+    "signal_sha256": "74618c3e4ea2e26304012a9f32c3a51bd3dee6feed201e048a2625ef1069bec5",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.01421991499999986,
+        "net_pnl": -1421.9914999999892
+      },
+      {
+        "year": 2022,
+        "total": -0.35316033494427923,
+        "net_pnl": -34813.842500000006
+      },
+      {
+        "year": 2023,
+        "total": -0.0005017159637906721,
+        "net_pnl": -31.99149999999645
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2103,
+    "total": -0.002859849999999997,
+    "mdd": -0.2975725193272005,
+    "fees": 1704.0809999999997,
+    "turnover": 2.944559044796762,
+    "turnover_ratio": 0.2805821156494703,
+    "net_gap": 0.2026613949999999,
+    "same_path_prefee_gap": 0.2502989599999999,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.7350029839055435,
+    "signal_sha256": "5e6d981d3c85e24845d217ae41119c11da1b92cf2e2d30397329313586e20172",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.010111650000000028,
+        "net_pnl": -1011.1650000000081
+      },
+      {
+        "year": 2022,
+        "total": -0.06515404489809373,
+        "net_pnl": -6449.5229999999865
+      },
+      {
+        "year": 2023,
+        "total": 0.0775314063281558,
+        "net_pnl": 7174.702999999994
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2105,
+    "total": -0.3130497150000001,
+    "mdd": -0.41408973839496355,
+    "fees": 206.7715,
+    "turnover": 0.44661702889612687,
+    "turnover_ratio": 0.04255739108855437,
+    "net_gap": 0.51285126,
+    "same_path_prefee_gap": 0.5754619200000001,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.7059193968339909,
+    "signal_sha256": "5780730731b5bf37a0937d8ccb5f8fea205b41055083ad717941816844f4b7b5",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.05378654999999988,
+        "net_pnl": 5378.654999999984
+      },
+      {
+        "year": 2022,
+        "total": -0.11486386877873889,
+        "net_pnl": -12104.199999999997
+      },
+      {
+        "year": 2023,
+        "total": -0.26351723523873716,
+        "net_pnl": -24579.4265
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2106,
+    "total": -0.11631945659999987,
+    "mdd": -0.4458572642961499,
+    "fees": 472.2954999999999,
+    "turnover": 0.8319379713968642,
+    "turnover_ratio": 0.07927398043389283,
+    "net_gap": 0.3161210015999998,
+    "same_path_prefee_gap": 0.37607642159999977,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9720188951247166,
+    "signal_sha256": "fd6173cca497d98752a94f1d1a660e53881bab81b8b0f2aed5ddcfcd22936fc8",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.06810773500000011,
+        "net_pnl": 6810.77350000001
+      },
+      {
+        "year": 2022,
+        "total": -0.2053822516321353,
+        "net_pnl": -21937.037160000007
+      },
+      {
+        "year": 2023,
+        "total": 0.041170780864435486,
+        "net_pnl": 3494.318000000014
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2107,
+    "total": -0.030749585000000246,
+    "mdd": -0.4801673647300331,
+    "fees": 1804.5185000000004,
+    "turnover": 3.0204179515200154,
+    "turnover_ratio": 0.2878105842301489,
+    "net_gap": 0.23055113000000016,
+    "same_path_prefee_gap": 0.27718432000000015,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9868213117761628,
+    "signal_sha256": "061e7ddd5b21d3df8740893f49f880a6ae3765fa5e648ab35c98373afcdfbaec",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.07777829999999986,
+        "net_pnl": 7777.829999999987
+      },
+      {
+        "year": 2022,
+        "total": -0.23429472462008194,
+        "net_pnl": -25251.777000000002
+      },
+      {
+        "year": 2023,
+        "total": 0.1744780948144944,
+        "net_pnl": 14398.988499999992
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2101,
+    "total": -0.2807962850000001,
+    "mdd": -0.39260919803427974,
+    "fees": 1210.9884999999997,
+    "turnover": 2.5374995128869666,
+    "turnover_ratio": 0.24179409241035177,
+    "net_gap": 0.48059783,
+    "same_path_prefee_gap": 0.53316632,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.7163743838618465,
+    "signal_sha256": "09dc7318f8c508c2023a760729cc120dbdc81b708a4f0bf1f146dabc1c37de90",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.07323638499999996,
+        "net_pnl": -7323.638500000001
+      },
+      {
+        "year": 2022,
+        "total": -0.19000639661495544,
+        "net_pnl": -17609.10149999999
+      },
+      {
+        "year": 2023,
+        "total": -0.04192091865348513,
+        "net_pnl": -3146.8885000000155
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2108,
+    "total": -0.11998817160000019,
+    "mdd": -0.4794504057878626,
+    "fees": 3857.6970000000006,
+    "turnover": 5.685976135266762,
+    "turnover_ratio": 0.5418071736020028,
+    "net_gap": 0.3197897166000001,
+    "same_path_prefee_gap": 0.34589112160000013,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9727945030317035,
+    "signal_sha256": "c0bebda54a8ec7bbc3914af9b1e689090065967f7792be59d3a853c1083fb2a0",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.4331679249999998,
+        "net_pnl": 43316.79249999998
+      },
+      {
+        "year": 2022,
+        "total": -0.36096360557329676,
+        "net_pnl": -51732.146160000004
+      },
+      {
+        "year": 2023,
+        "total": -0.039127338950425194,
+        "net_pnl": -3583.463499999998
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2109,
+    "total": -0.33456587000000004,
+    "mdd": -0.5385549293744498,
+    "fees": 1771.2510000000007,
+    "turnover": 3.22583951271149,
+    "turnover_ratio": 0.30738486185958563,
+    "net_gap": 0.534367415,
+    "same_path_prefee_gap": 0.58133328,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9794684939098174,
+    "signal_sha256": "8b186f697e26672a5322216798d2ed108ced40c530ae1a0efa835ecb22861066",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1205572399999999,
+        "net_pnl": 12055.723999999987
+      },
+      {
+        "year": 2022,
+        "total": -0.28302399349095264,
+        "net_pnl": -31714.45849999998
+      },
+      {
+        "year": 2023,
+        "total": -0.17174054222484214,
+        "net_pnl": -13797.852500000008
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2110,
+    "total": -0.33458891860000006,
+    "mdd": -0.5049581439040611,
+    "fees": 992.1685,
+    "turnover": 2.139874294645986,
+    "turnover_ratio": 0.20390504917082755,
+    "net_gap": 0.5343904636,
+    "same_path_prefee_gap": 0.5891471536,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9403987166484408,
+    "signal_sha256": "878490d5d118dbb04df6ddb36088b64c0e8d6f225460389e1e353653f0e93a03",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.05080894948000003,
+        "net_pnl": -5080.894948000001
+      },
+      {
+        "year": 2022,
+        "total": -0.2798485762950238,
+        "net_pnl": -26562.976412000004
+      },
+      {
+        "year": 2023,
+        "total": -0.026552417992523725,
+        "net_pnl": -1815.0204999999987
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2111,
+    "total": 0.1330560701600001,
+    "mdd": -0.228662438640428,
+    "fees": 1293.5739999999998,
+    "turnover": 2.0664986455846237,
+    "turnover_ratio": 0.1969132060671308,
+    "net_gap": 0.06674547483999982,
+    "same_path_prefee_gap": 0.11848810983999983,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9639222334948946,
+    "signal_sha256": "f4c737197bfa086c100a8f2f6bbeb1d0858fb22701e001e35e6b08271b465d3f",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.06899648000000003,
+        "net_pnl": 6899.648000000001
+      },
+      {
+        "year": 2022,
+        "total": 0.016061259621734436,
+        "net_pnl": 1716.9430000000139
+      },
+      {
+        "year": 2023,
+        "total": 0.04317034785229068,
+        "net_pnl": 4689.016015999994
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "random_priority",
+    "seed": 2112,
+    "total": -0.28044550104,
+    "mdd": -0.5460992775634375,
+    "fees": 2040.6290000000001,
+    "turnover": 3.579896036658521,
+    "turnover_ratio": 0.3411223169546361,
+    "net_gap": 0.4802470460399999,
+    "same_path_prefee_gap": 0.5245191310399999,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9496937456543876,
+    "signal_sha256": "a60b43b2428c75354f16542b706a98b235218edb93c776ba0011f6f2a588c341",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.15949607468000004,
+        "net_pnl": 15949.607468000002
+      },
+      {
+        "year": 2022,
+        "total": -0.29032624136559015,
+        "net_pnl": -33663.213724
+      },
+      {
+        "year": 2023,
+        "total": -0.12554862812605982,
+        "net_pnl": -10330.943847999995
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2102,
+    "total": 0.03714127500000042,
+    "mdd": -0.21037948005263352,
+    "fees": 11319.768500000004,
+    "turnover": 17.976240571038357,
+    "turnover_ratio": 1.7129259539755353,
+    "net_gap": 0.1626602699999995,
+    "same_path_prefee_gap": 0.11414095999999946,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054522442243791915,
+      "volatility": 0.08196709784229003,
+      "earnings_yield": 0.10823095662498125
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9843116553144976,
+    "signal_sha256": "14e8fbcde298e4a36956daf9f582f4e3a944461d03f8ce24af8f96d813132ded",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.039488017951888166,
+        "net_pnl": 3939.8870000000024
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2103,
+    "total": 0.04238138500000055,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.757500000005,
+    "turnover": 18.14603693531514,
+    "turnover_ratio": 1.7291055660646713,
+    "net_gap": 0.15742015999999937,
+    "same_path_prefee_gap": 0.10775095999999931,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054471559778858473,
+      "volatility": 0.08297151476807538,
+      "earnings_yield": 0.10838931899281211
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9850752938142833,
+    "signal_sha256": "28e5e0160662bfc1135d3fbfb6c52de8fefff81d36b5d610e4c918c85267d3ca",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04473998476590779,
+        "net_pnl": 4463.89800000003
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2104,
+    "total": 0.06148029499999996,
+    "mdd": -0.21037948005263352,
+    "fees": 11429.946500000004,
+    "turnover": 18.04439708933924,
+    "turnover_ratio": 1.7194204748220285,
+    "net_gap": 0.13832124999999995,
+    "same_path_prefee_gap": 0.08870015999999992,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.05450034748677504,
+      "volatility": 0.08256781837772699,
+      "earnings_yield": 0.10873933785763049
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9849973247632532,
+    "signal_sha256": "5db3778e4b91974f150f9fd3b1d4f440b6a8dab365f2e3ba40fc76be7821480e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.06388210993197152,
+        "net_pnl": 6373.788999999975
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2105,
+    "total": 0.05016204000000024,
+    "mdd": -0.21037948005263352,
+    "fees": 11391.372000000003,
+    "turnover": 18.032019701547277,
+    "turnover_ratio": 1.71824105420249,
+    "net_gap": 0.14963950499999967,
+    "same_path_prefee_gap": 0.10040415999999965,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.05492279169260698,
+      "volatility": 0.08299561867373713,
+      "earnings_yield": 0.10883062041837147
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9845896421657839,
+    "signal_sha256": "2a72e2ba1f1a524d1c0025701ca4d87f5ffd002eeaa42c3c989458606f0b297e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.05253824507940008,
+        "net_pnl": 5241.963499999998
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2101,
+    "total": 0.0332288700000003,
+    "mdd": -0.21037948005263352,
+    "fees": 11429.345000000001,
+    "turnover": 18.182088523647334,
+    "turnover_ratio": 1.732540861731316,
+    "net_gap": 0.16657267499999961,
+    "same_path_prefee_gap": 0.1169575999999996,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.05459226897445873,
+      "volatility": 0.08340080628706986,
+      "earnings_yield": 0.10846964207330748
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9844576841351618,
+    "signal_sha256": "5cfffb9b5ab21a7db929e57ea98f08735c1b75f3d710065fbf4bf324f463f064",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.03556676034031048,
+        "net_pnl": 3548.6465000000026
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2106,
+    "total": 0.04238138500000055,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.757500000005,
+    "turnover": 18.14603693531514,
+    "turnover_ratio": 1.7291055660646713,
+    "net_gap": 0.15742015999999937,
+    "same_path_prefee_gap": 0.10775095999999931,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054471559778858473,
+      "volatility": 0.08297151476807538,
+      "earnings_yield": 0.10838931899281211
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9850752938142833,
+    "signal_sha256": "fd1876acf7e2611c664dacec8e3a0f4c9615f7de9a9c9fbb1414ae9b857c6031",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04473998476590779,
+        "net_pnl": 4463.89800000003
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2107,
+    "total": 0.03714127500000042,
+    "mdd": -0.21037948005263352,
+    "fees": 11319.768500000004,
+    "turnover": 17.976240571038357,
+    "turnover_ratio": 1.7129259539755353,
+    "net_gap": 0.1626602699999995,
+    "same_path_prefee_gap": 0.11414095999999946,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054522442243791915,
+      "volatility": 0.08196709784229003,
+      "earnings_yield": 0.10823095662498125
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9843116553144976,
+    "signal_sha256": "ce746234b93ca05613804344cc8c0f885a105fea6672d38405d6c2ddd52bdc6f",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.039488017951888166,
+        "net_pnl": 3939.8870000000024
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2108,
+    "total": 0.04238138500000055,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.757500000005,
+    "turnover": 18.14603693531514,
+    "turnover_ratio": 1.7291055660646713,
+    "net_gap": 0.15742015999999937,
+    "same_path_prefee_gap": 0.10775095999999931,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054471559778858473,
+      "volatility": 0.08297151476807538,
+      "earnings_yield": 0.10838931899281211
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9850752938142833,
+    "signal_sha256": "cd4832347fd8f7348c5259a6f6b4abf41530eb440ba092533bdd38c84672cffe",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04473998476590779,
+        "net_pnl": 4463.89800000003
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2109,
+    "total": 0.041760455000000585,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.850500000006,
+    "turnover": 18.146759222594575,
+    "turnover_ratio": 1.7291743916137219,
+    "net_gap": 0.15804108999999933,
+    "same_path_prefee_gap": 0.10837095999999927,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.05402211085876068,
+      "volatility": 0.0826582152364105,
+      "earnings_yield": 0.10858171355962469
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9851217238050816,
+    "signal_sha256": "90adfeca58aee170e336c48e6abf9b35c703e216e02c6cf5d02bf1639d4d6534",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04411764978556798,
+        "net_pnl": 4401.805000000037
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2110,
+    "total": 0.06637094499999985,
+    "mdd": -0.21037948005263352,
+    "fees": 11552.881500000005,
+    "turnover": 18.22383295661999,
+    "turnover_ratio": 1.7365186190599569,
+    "net_gap": 0.13343060000000007,
+    "same_path_prefee_gap": 0.08258016000000001,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.05464178862389174,
+      "volatility": 0.08303794144202759,
+      "earnings_yield": 0.10869758158421627
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.984512008315271,
+    "signal_sha256": "fd829bc5eda185803aad42ef3d9f6dfb1abeae04623511fe29f4cb56b57d3964",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.06878382602170707,
+        "net_pnl": 6862.853999999963
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2112,
+    "total": 0.04238138500000055,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.757500000005,
+    "turnover": 18.14603693531514,
+    "turnover_ratio": 1.7291055660646713,
+    "net_gap": 0.15742015999999937,
+    "same_path_prefee_gap": 0.10775095999999931,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054471559778858473,
+      "volatility": 0.08297151476807538,
+      "earnings_yield": 0.10838931899281211
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9850752938142833,
+    "signal_sha256": "81a906962fa87091f62df01389370e9468a5acddc6243fba31a7b3feb98f6e18",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04473998476590779,
+        "net_pnl": 4463.89800000003
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_size_vol_value",
+    "seed": 2111,
+    "total": 0.04238138500000055,
+    "mdd": -0.21037948005263352,
+    "fees": 11434.757500000005,
+    "turnover": 18.14603693531514,
+    "turnover_ratio": 1.7291055660646713,
+    "net_gap": 0.15742015999999937,
+    "same_path_prefee_gap": 0.10775095999999931,
+    "pair_pass": 0.9128113879003559,
+    "actual_gaps": {
+      "market_cap": 0.054471559778858473,
+      "volatility": 0.08297151476807538,
+      "earnings_yield": 0.10838931899281211
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9850752938142833,
+    "signal_sha256": "ac8131ad501ce6f8500cf45294b079ccdac735e89fbd738d4ba571a24dbfe99e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0545625150000002,
+        "net_pnl": 5456.251500000013
+      },
+      {
+        "year": 2022,
+        "total": -0.05388026711721294,
+        "net_pnl": -5682.010999999984
+      },
+      {
+        "year": 2023,
+        "total": 0.04473998476590779,
+        "net_pnl": 4463.89800000003
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2102,
+    "total": 0.16449932999999994,
+    "mdd": -0.18260814639360656,
+    "fees": 12878.643,
+    "turnover": 18.65943729718858,
+    "turnover_ratio": 1.7780266294626699,
+    "net_gap": 0.03530221499999997,
+    "same_path_prefee_gap": -0.028805840000000027,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.053964106030456524,
+      "volatility": 0.08535321893716899,
+      "earnings_yield": 0.11758307055819782,
+      "turnover": 0.05514569405763373
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9826431649492537,
+    "signal_sha256": "ec11a2b4a5b009d1bdbf95ea76551a46445f63cb9dd021479f3eafc2febead7b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.09158851499999998,
+        "net_pnl": 9158.85149999999
+      },
+      {
+        "year": 2022,
+        "total": 0.029552779785338767,
+        "net_pnl": 3225.9474999999948
+      },
+      {
+        "year": 2023,
+        "total": 0.03617156444796432,
+        "net_pnl": 4065.1340000000055
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2103,
+    "total": 0.10566256999999979,
+    "mdd": -0.21713222068184423,
+    "fees": 12131.615000000014,
+    "turnover": 18.339982181182986,
+    "turnover_ratio": 1.747586284765801,
+    "net_gap": 0.09413897500000012,
+    "same_path_prefee_gap": 0.037501199999999985,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05622976656515614,
+      "volatility": 0.0847795545391178,
+      "earnings_yield": 0.11754878315220596,
+      "turnover": 0.054135807715152404
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9818623691607462,
+    "signal_sha256": "7aec6c551bbcb759668cd8a067df36df083b7d41666fa71654e5e0ba638c4d6a",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.045021159999999893,
+        "net_pnl": 4502.11599999998
+      },
+      {
+        "year": 2022,
+        "total": 0.0062386009485206895,
+        "net_pnl": 651.9470000000147
+      },
+      {
+        "year": 2023,
+        "total": 0.05146918574130588,
+        "net_pnl": 5412.193999999989
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2104,
+    "total": 0.16405890499999987,
+    "mdd": -0.17887317545847903,
+    "fees": 12665.533500000005,
+    "turnover": 18.312357264026726,
+    "turnover_ratio": 1.7449539525277904,
+    "net_gap": 0.03574264000000005,
+    "same_path_prefee_gap": -0.02623432,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05426247704980249,
+      "volatility": 0.08393141907410226,
+      "earnings_yield": 0.11582664768185946,
+      "turnover": 0.05151023155052171
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9830278780398778,
+    "signal_sha256": "c4383c0cc5bf3d98af166db0905126971c19215d719c4adda0d5bbc9a1dacae1",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1018369149999998,
+        "net_pnl": 10183.691499999986
+      },
+      {
+        "year": 2022,
+        "total": 0.01988124984903039,
+        "net_pnl": 2190.5894999999873
+      },
+      {
+        "year": 2023,
+        "total": 0.03587662109268597,
+        "net_pnl": 4031.6095000000205
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2101,
+    "total": 0.19335189499999994,
+    "mdd": -0.18260814639360656,
+    "fees": 12843.626499999995,
+    "turnover": 18.516999826994695,
+    "turnover_ratio": 1.7644540007169907,
+    "net_gap": 0.0064496499999999735,
+    "same_path_prefee_gap": -0.05730823999999997,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05331196386408974,
+      "volatility": 0.08638191735557497,
+      "earnings_yield": 0.1174419580536766,
+      "turnover": 0.05445125824812233
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9826098629760656,
+    "signal_sha256": "e2898eef8f7a6facac3a2272b9c977ec2e1a4c5b0fe2c3cba1217c0360870e7d",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.09766195999999971,
+        "net_pnl": 9766.195999999967
+      },
+      {
+        "year": 2022,
+        "total": 0.02749248047185704,
+        "net_pnl": 3017.7450000000244
+      },
+      {
+        "year": 2023,
+        "total": 0.058086713781352994,
+        "net_pnl": 6551.2485000000015
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2106,
+    "total": 0.16405890499999987,
+    "mdd": -0.17887317545847903,
+    "fees": 12665.533500000005,
+    "turnover": 18.312357264026726,
+    "turnover_ratio": 1.7449539525277904,
+    "net_gap": 0.03574264000000005,
+    "same_path_prefee_gap": -0.02623432,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05426247704980249,
+      "volatility": 0.08393141907410226,
+      "earnings_yield": 0.11582664768185946,
+      "turnover": 0.05151023155052171
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9830278780398778,
+    "signal_sha256": "ee68d8c46d1c963825eed7fa08f69d4e4bb60a6109c7cfede28d4f9b29a9cf1d",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1018369149999998,
+        "net_pnl": 10183.691499999986
+      },
+      {
+        "year": 2022,
+        "total": 0.01988124984903039,
+        "net_pnl": 2190.5894999999873
+      },
+      {
+        "year": 2023,
+        "total": 0.03587662109268597,
+        "net_pnl": 4031.6095000000205
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2105,
+    "total": 0.09756588000000055,
+    "mdd": -0.206158185507058,
+    "fees": 12167.404000000008,
+    "turnover": 18.292319588698202,
+    "turnover_ratio": 1.7430445958971907,
+    "net_gap": 0.10223566499999936,
+    "same_path_prefee_gap": 0.045239999999999295,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05465614649236618,
+      "volatility": 0.08653919857266433,
+      "earnings_yield": 0.1145952515366536,
+      "turnover": 0.048174232286092016
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.982342589921497,
+    "signal_sha256": "7dff675c46de3c112875161a464e3d4fcdf6e433cd625c5fd351a896b485e282",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.05812335999999996,
+        "net_pnl": 5812.335999999996
+      },
+      {
+        "year": 2022,
+        "total": 0.007404202852113739,
+        "net_pnl": 783.4560000000201
+      },
+      {
+        "year": 2023,
+        "total": 0.029652164880955345,
+        "net_pnl": 3160.796000000031
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2107,
+    "total": 0.16449932999999994,
+    "mdd": -0.18260814639360656,
+    "fees": 12878.643,
+    "turnover": 18.65943729718858,
+    "turnover_ratio": 1.7780266294626699,
+    "net_gap": 0.03530221499999997,
+    "same_path_prefee_gap": -0.028805840000000027,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.053964106030456524,
+      "volatility": 0.08535321893716899,
+      "earnings_yield": 0.11758307055819782,
+      "turnover": 0.05514569405763373
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9826431649492537,
+    "signal_sha256": "9110cf9cb40253e7eabf9e41615fb70a35b587877d97a4a7c7909cac73a07785",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.09158851499999998,
+        "net_pnl": 9158.85149999999
+      },
+      {
+        "year": 2022,
+        "total": 0.029552779785338767,
+        "net_pnl": 3225.9474999999948
+      },
+      {
+        "year": 2023,
+        "total": 0.03617156444796432,
+        "net_pnl": 4065.1340000000055
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2108,
+    "total": 0.1428983049999999,
+    "mdd": -0.17887317545847903,
+    "fees": 12579.713500000007,
+    "turnover": 18.31323820904369,
+    "turnover_ratio": 1.7450378963077824,
+    "net_gap": 0.05690324000000002,
+    "same_path_prefee_gap": -0.004215520000000042,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.054612784223885054,
+      "volatility": 0.08300355863387776,
+      "earnings_yield": 0.11660540888221262,
+      "turnover": 0.05193797346300566
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9833918071933482,
+    "signal_sha256": "d6ca5a86c16f77ae081a55837f6ee25da51ae80838c77440cf4d1f5c0c7b6192",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0962286299999997,
+        "net_pnl": 9622.862999999968
+      },
+      {
+        "year": 2022,
+        "total": 0.018781688816137176,
+        "net_pnl": 2058.9025000000256
+      },
+      {
+        "year": 2023,
+        "total": 0.023352648378396124,
+        "net_pnl": 2608.0650000000023
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2109,
+    "total": 0.11644428500000048,
+    "mdd": -0.2115948923502341,
+    "fees": 12356.691500000008,
+    "turnover": 18.634411072721203,
+    "turnover_ratio": 1.7756419223126527,
+    "net_gap": 0.08335725999999943,
+    "same_path_prefee_gap": 0.02446871999999936,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05470325013808776,
+      "volatility": 0.08813853213307914,
+      "earnings_yield": 0.11960215679540122,
+      "turnover": 0.056081431483601375
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9831007048488593,
+    "signal_sha256": "8af7ea20b7ac690a9f79b6150364570afe7724eeb2778b34d2e86474b8de0414",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03582553499999985,
+        "net_pnl": 3582.55349999998
+      },
+      {
+        "year": 2022,
+        "total": 0.02368802869877129,
+        "net_pnl": 2453.666500000021
+      },
+      {
+        "year": 2023,
+        "total": 0.05288955509730586,
+        "net_pnl": 5608.208500000037
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2110,
+    "total": 0.1428983049999999,
+    "mdd": -0.17887317545847903,
+    "fees": 12579.713500000007,
+    "turnover": 18.31323820904369,
+    "turnover_ratio": 1.7450378963077824,
+    "net_gap": 0.05690324000000002,
+    "same_path_prefee_gap": -0.004215520000000042,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.054612784223885054,
+      "volatility": 0.08300355863387776,
+      "earnings_yield": 0.11660540888221262,
+      "turnover": 0.05193797346300566
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9833918071933482,
+    "signal_sha256": "6157b0f8a5006543173244cf7e7042dd95638447a7d8d208d3438b08e5835d88",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0962286299999997,
+        "net_pnl": 9622.862999999968
+      },
+      {
+        "year": 2022,
+        "total": 0.018781688816137176,
+        "net_pnl": 2058.9025000000256
+      },
+      {
+        "year": 2023,
+        "total": 0.023352648378396124,
+        "net_pnl": 2608.0650000000023
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2111,
+    "total": 0.12889674000000007,
+    "mdd": -0.17951373559370487,
+    "fees": 12622.309999999998,
+    "turnover": 18.475850792400788,
+    "turnover_ratio": 1.7605329779058863,
+    "net_gap": 0.07090480499999985,
+    "same_path_prefee_gap": 0.009360079999999875,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05476404053327246,
+      "volatility": 0.08406841011760463,
+      "earnings_yield": 0.115130137334824,
+      "turnover": 0.05079843707917866
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9833641216473498,
+    "signal_sha256": "8ac3396ee9b383ca9e3519cee5f9e96c52b4db1f737fa47b03d84709318a9383",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.1018369149999998,
+        "net_pnl": 10183.691499999986
+      },
+      {
+        "year": 2022,
+        "total": -0.0012969795988364563,
+        "net_pnl": -142.90599999998813
+      },
+      {
+        "year": 2023,
+        "total": 0.025889387167270073,
+        "net_pnl": 2848.8885000000155
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2102,
+    "total": 0.015142915199999996,
+    "mdd": -0.1838550970727636,
+    "fees": 329.809,
+    "turnover": 0.5682864918121957,
+    "turnover_ratio": 0.15887519874300132,
+    "net_gap": 0.3599145998000004,
+    "same_path_prefee_gap": 0.3801953948000004,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8733454889200687,
+    "signal_sha256": "70239225d43699620bb23126ba2faccb895e1e1b06f6b6a4393cd41dff094ab1",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.12207275499999981,
+        "net_pnl": 12207.275499999989
+      },
+      {
+        "year": 2022,
+        "total": -0.04926228228400398,
+        "net_pnl": -5527.586479999998
+      },
+      {
+        "year": 2023,
+        "total": -0.0484196902657974,
+        "net_pnl": -5165.397499999992
+      }
+    ]
+  },
+  {
+    "baseline": "B03_valuation",
+    "mode": "match_all",
+    "seed": 2112,
+    "total": 0.1816900400000001,
+    "mdd": -0.18260814639360656,
+    "fees": 12953.212000000003,
+    "turnover": 18.7505928450047,
+    "turnover_ratio": 1.7867126894364473,
+    "net_gap": 0.018111504999999806,
+    "same_path_prefee_gap": -0.046742240000000226,
+    "pair_pass": 0.8879003558718861,
+    "actual_gaps": {
+      "market_cap": 0.05345792380587367,
+      "volatility": 0.08611069615913676,
+      "earnings_yield": 0.11709814238675104,
+      "turnover": 0.05415437659711626
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9835638768402855,
+    "signal_sha256": "50d71246ab1f7805046edd3d891e79a92303d2c88450a3fa149e1640ff298c95",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.09766195999999971,
+        "net_pnl": 9766.195999999967
+      },
+      {
+        "year": 2022,
+        "total": 0.016664164985730423,
+        "net_pnl": 1829.1620000000112
+      },
+      {
+        "year": 2023,
+        "total": 0.05890608819051457,
+        "net_pnl": 6573.646000000037
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2103,
+    "total": 0.010788809999999982,
+    "mdd": -0.3356091858201252,
+    "fees": 378.319,
+    "turnover": 0.6993790585772692,
+    "turnover_ratio": 0.19552459635953687,
+    "net_gap": 0.3642687050000004,
+    "same_path_prefee_gap": 0.3840644000000004,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.6936777120819335,
+    "signal_sha256": "3a9e976d2787d08d5642b61f01611fbd0a4f36291eebd6a74c61defc9ba82d38",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04496325000000001,
+        "net_pnl": -4496.324999999997
+      },
+      {
+        "year": 2022,
+        "total": -0.040674864082455464,
+        "net_pnl": -3884.599000000002
+      },
+      {
+        "year": 2023,
+        "total": 0.10325147789091416,
+        "net_pnl": 9459.804999999993
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2104,
+    "total": -0.42468949999999994,
+    "mdd": -0.5123545921248238,
+    "fees": 288.35,
+    "turnover": 0.7258610320796169,
+    "turnover_ratio": 0.20292813113277375,
+    "net_gap": 0.7997470150000003,
+    "same_path_prefee_gap": 0.8204424000000003,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9584724832983312,
+    "signal_sha256": "37419a00f84d0b842f3534898c930b45319b5d3da872cbb4a948a62ad52dbc17",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.03988811500000011,
+        "net_pnl": 3988.8115000000107
+      },
+      {
+        "year": 2022,
+        "total": -0.3918090841917161,
+        "net_pnl": -40743.761000000006
+      },
+      {
+        "year": 2023,
+        "total": -0.09034699877423613,
+        "net_pnl": -5714.000500000002
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2101,
+    "total": -0.2551809500000003,
+    "mdd": -0.31651712029916834,
+    "fees": 542.8950000000001,
+    "turnover": 1.1164376486830874,
+    "turnover_ratio": 0.3121211851315873,
+    "net_gap": 0.6302384650000007,
+    "same_path_prefee_gap": 0.6483884000000006,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.6537263863392133,
+    "signal_sha256": "acf8f01e97f653888e3c1928780fb7c2c8246200d4abd34353dd446268f5c901",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.003237384999999815,
+        "net_pnl": 323.7384999999922
+      },
+      {
+        "year": 2022,
+        "total": -0.18454367108737701,
+        "net_pnl": -18514.11100000002
+      },
+      {
+        "year": 2023,
+        "total": -0.08957041761374607,
+        "net_pnl": -7327.7225000000035
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2105,
+    "total": -0.28793725000000003,
+    "mdd": -0.3996307215234103,
+    "fees": 146.32500000000002,
+    "turnover": 0.3488968677439513,
+    "turnover_ratio": 0.09754069470641134,
+    "net_gap": 0.6629947650000004,
+    "same_path_prefee_gap": 0.6851104000000005,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8225870120259505,
+    "signal_sha256": "cc144546b2e4ba08761058473af8799d8d726121f13000502b3a16ace5a24399",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.007341600000000059,
+        "net_pnl": -734.1600000000035
+      },
+      {
+        "year": 2022,
+        "total": -0.12162693631565491,
+        "net_pnl": -12073.399999999994
+      },
+      {
+        "year": 2023,
+        "total": -0.18334347564995324,
+        "net_pnl": -15986.165000000008
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2106,
+    "total": -0.145419835,
+    "mdd": -0.5090276744844242,
+    "fees": 690.3835000000001,
+    "turnover": 1.3113775677486994,
+    "turnover_ratio": 0.3666203133542741,
+    "net_gap": 0.5204773500000004,
+    "same_path_prefee_gap": 0.5371524000000004,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9521129952592328,
+    "signal_sha256": "04fcc0ba72d71915ca2d83c5493bfb210a5446de74ddd4d8f0cbd7dfa6db8ae5",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.007390879999999989,
+        "net_pnl": 739.0880000000034
+      },
+      {
+        "year": 2022,
+        "total": -0.22886514517582301,
+        "net_pnl": -23055.666000000012
+      },
+      {
+        "year": 2023,
+        "total": 0.10008048435353434,
+        "net_pnl": 7774.5945000000065
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2107,
+    "total": -0.09798856999999994,
+    "mdd": -0.4853207947024101,
+    "fees": 526.297,
+    "turnover": 0.9770233987147298,
+    "turnover_ratio": 0.27314530414469745,
+    "net_gap": 0.47304608500000034,
+    "same_path_prefee_gap": 0.49136200000000035,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9723172370993669,
+    "signal_sha256": "48cf1ac8dd0e5e59545dad9c382a0b75596ef25672780fb5c635423c201149c5",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.007434545000000181,
+        "net_pnl": 743.4545000000071
+      },
+      {
+        "year": 2022,
+        "total": -0.25919629845530057,
+        "net_pnl": -26112.330499999996
+      },
+      {
+        "year": 2023,
+        "total": 0.20862635004666408,
+        "net_pnl": 15570.019
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2108,
+    "total": 0.03993188000000014,
+    "mdd": -0.30605496449568237,
+    "fees": 876.276,
+    "turnover": 1.4543105250282944,
+    "turnover_ratio": 0.4065799152837621,
+    "net_gap": 0.33512563500000025,
+    "same_path_prefee_gap": 0.34994176000000027,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9472530375893492,
+    "signal_sha256": "18920720ea6acd4b56ca09978cc3624ced8ed05fc416b0a36eecfb4fce19d3c7",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.0697759200000001,
+        "net_pnl": 6977.592000000004
+      },
+      {
+        "year": 2022,
+        "total": -0.1677233957556269,
+        "net_pnl": -17942.64499999999
+      },
+      {
+        "year": 2023,
+        "total": 0.16800415459336415,
+        "net_pnl": 14958.240999999995
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2109,
+    "total": -0.34677772500000004,
+    "mdd": -0.42986697468975565,
+    "fees": 447.85249999999996,
+    "turnover": 0.9588815928868462,
+    "turnover_ratio": 0.26807342042409255,
+    "net_gap": 0.7218352400000004,
+    "same_path_prefee_gap": 0.7409356000000005,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.8899091749485775,
+    "signal_sha256": "15e349f5ca616241392671dfd6bcd411fc37dec62eed60e7773ca3caff23264e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.03808864000000001,
+        "net_pnl": -3808.8640000000014
+      },
+      {
+        "year": 2022,
+        "total": -0.21897279079852017,
+        "net_pnl": -21063.241500000004
+      },
+      {
+        "year": 2023,
+        "total": -0.13051965671685373,
+        "net_pnl": -9805.667000000001
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2110,
+    "total": -0.25706066539999983,
+    "mdd": -0.47943581587858686,
+    "fees": 393.8615,
+    "turnover": 0.9383340287851389,
+    "turnover_ratio": 0.2623289616389942,
+    "net_gap": 0.6321181804000002,
+    "same_path_prefee_gap": 0.6517584504000002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9266916319129197,
+    "signal_sha256": "aea486affcb975d427a07999129b5921aeb3549b16419ab2a7aa5d61e12cf188",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.12292535671999993,
+        "net_pnl": -12292.535671999998
+      },
+      {
+        "year": 2022,
+        "total": -0.21315989478482178,
+        "net_pnl": -18695.71386799999
+      },
+      {
+        "year": 2023,
+        "total": 0.07654034225753503,
+        "net_pnl": 5282.1830000000045
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2111,
+    "total": 0.44336653309999985,
+    "mdd": -0.19754708634477502,
+    "fees": 342.56525,
+    "turnover": 0.5238707711024316,
+    "turnover_ratio": 0.1464579469575948,
+    "net_gap": -0.06830901809999945,
+    "same_path_prefee_gap": -0.04815578559999946,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.9569753664288723,
+    "signal_sha256": "35178f5f4a175a340cb813aae776e1afafb2372a03c13bb768f3a4f73679f4cf",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.11423588000000007,
+        "net_pnl": 11423.588000000003
+      },
+      {
+        "year": 2022,
+        "total": 0.14840145930321325,
+        "net_pnl": 16535.42306
+      },
+      {
+        "year": 2023,
+        "total": 0.1279913162373576,
+        "net_pnl": 16377.64224999999
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "random_priority",
+    "seed": 2112,
+    "total": -0.12687129507999984,
+    "mdd": -0.327579683686269,
+    "fees": 416.4295,
+    "turnover": 0.7331766208084916,
+    "turnover_ratio": 0.20497334183189786,
+    "net_gap": 0.5019288100800002,
+    "same_path_prefee_gap": 0.5213434000800002,
+    "pair_pass": 0.0,
+    "actual_gaps": {},
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 1.0,
+    "invested": 0.791019086355863,
+    "signal_sha256": "182580ef4dc94a62394547f0d69e93b72ff1bc34d60283a4d2d4ae4e2eaa094b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.24400666452000008,
+        "net_pnl": 24400.666452000005
+      },
+      {
+        "year": 2022,
+        "total": -0.15754033918750698,
+        "net_pnl": -19598.123187999998
+      },
+      {
+        "year": 2023,
+        "total": -0.1668821407123976,
+        "net_pnl": -17489.67277199999
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2102,
+    "total": 0.09127334500000006,
+    "mdd": -0.2675504339495586,
+    "fees": 5698.137500000003,
+    "turnover": 9.798309343744974,
+    "turnover_ratio": 2.7393020364934917,
+    "net_gap": 0.28378417000000034,
+    "same_path_prefee_gap": 0.25038168000000033,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05879178477370519,
+      "volatility": 0.11016732486600703,
+      "earnings_yield": 0.08091707299870539
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9867249433857083,
+    "signal_sha256": "d0bd0a5b99af763adc7047aff3230018764f665d3f105abaf3c29b7acb0f9f52",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08460627787501096,
+        "net_pnl": -8060.841
+      },
+      {
+        "year": 2023,
+        "total": 0.2512608383314139,
+        "net_pnl": 21913.437000000005
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2103,
+    "total": 0.082681475,
+    "mdd": -0.2675504339495586,
+    "fees": 5668.924500000001,
+    "turnover": 9.754114839244943,
+    "turnover_ratio": 2.7269466298685683,
+    "net_gap": 0.2923760400000004,
+    "same_path_prefee_gap": 0.2592656800000004,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05836135712737188,
+      "volatility": 0.11017804753834247,
+      "earnings_yield": 0.08116799702902687
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9864336125978522,
+    "signal_sha256": "b7a668cc99c2c70e57b57ce81152d7bcbd0b3257533df0204fb30d3351dd11c3",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.07574775447953608,
+        "net_pnl": -7216.8475000000035
+      },
+      {
+        "year": 2023,
+        "total": 0.22951102133481727,
+        "net_pnl": 20210.256500000003
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2104,
+    "total": 0.08760970000000023,
+    "mdd": -0.2675504339495586,
+    "fees": 5630.502000000002,
+    "turnover": 9.690651636219835,
+    "turnover_ratio": 2.7092042954320608,
+    "net_gap": 0.28744781500000016,
+    "same_path_prefee_gap": 0.2547216800000001,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.0590705104423551,
+      "volatility": 0.10927994349071322,
+      "earnings_yield": 0.0809203415261625
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9857434036543186,
+    "signal_sha256": "616790823975758dcb37de2d4f7aec1802ee728240894c486a3c3d9fa45df376",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.0828848509513358,
+        "net_pnl": -7896.8324999999895
+      },
+      {
+        "year": 2023,
+        "total": 0.2447193458721708,
+        "net_pnl": 21383.064000000028
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2105,
+    "total": 0.089076245,
+    "mdd": -0.2675504339495586,
+    "fees": 5650.847500000003,
+    "turnover": 9.725847627022437,
+    "turnover_ratio": 2.719043997966409,
+    "net_gap": 0.2859812700000004,
+    "same_path_prefee_gap": 0.2530516800000004,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05902907927844087,
+      "volatility": 0.10994537130922333,
+      "earnings_yield": 0.08055511527709204
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9865037988548487,
+    "signal_sha256": "f8942e74a5eae32e0c3409b98ad42cbb1f90ef13429fa3807188047ee63c477b",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08700916560374494,
+        "net_pnl": -8289.775499999989
+      },
+      {
+        "year": 2023,
+        "total": 0.25202817526059085,
+        "net_pnl": 21922.661500000002
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2101,
+    "total": 0.09127334500000006,
+    "mdd": -0.2675504339495586,
+    "fees": 5698.137500000003,
+    "turnover": 9.798309343744974,
+    "turnover_ratio": 2.7393020364934917,
+    "net_gap": 0.28378417000000034,
+    "same_path_prefee_gap": 0.25038168000000033,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05879178477370519,
+      "volatility": 0.11016732486600703,
+      "earnings_yield": 0.08091707299870539
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9867249433857083,
+    "signal_sha256": "d13aa355fa641ca8f43d0cb89cbe2d9a103355f539a30886ecee54b5b5c0915a",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08460627787501096,
+        "net_pnl": -8060.841
+      },
+      {
+        "year": 2023,
+        "total": 0.2512608383314139,
+        "net_pnl": 21913.437000000005
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2106,
+    "total": 0.09127334500000006,
+    "mdd": -0.2675504339495586,
+    "fees": 5698.137500000003,
+    "turnover": 9.798309343744974,
+    "turnover_ratio": 2.7393020364934917,
+    "net_gap": 0.28378417000000034,
+    "same_path_prefee_gap": 0.25038168000000033,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05879178477370519,
+      "volatility": 0.11016732486600703,
+      "earnings_yield": 0.08091707299870539
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9867249433857083,
+    "signal_sha256": "b0170ed12d6f2111e59f66dc6ccb73190d5b861343298de1b274d549c78b22f6",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08460627787501096,
+        "net_pnl": -8060.841
+      },
+      {
+        "year": 2023,
+        "total": 0.2512608383314139,
+        "net_pnl": 21913.437000000005
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2107,
+    "total": 0.089076245,
+    "mdd": -0.2675504339495586,
+    "fees": 5650.847500000003,
+    "turnover": 9.725847627022437,
+    "turnover_ratio": 2.719043997966409,
+    "net_gap": 0.2859812700000004,
+    "same_path_prefee_gap": 0.2530516800000004,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05902907927844087,
+      "volatility": 0.10994537130922333,
+      "earnings_yield": 0.08055511527709204
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9865037988548487,
+    "signal_sha256": "c209fbd7e231231c40a906a016feb0937e171bb13579046e54d3c2b7948c7cc9",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08700916560374494,
+        "net_pnl": -8289.775499999989
+      },
+      {
+        "year": 2023,
+        "total": 0.25202817526059085,
+        "net_pnl": 21922.661500000002
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2108,
+    "total": 0.08760970000000023,
+    "mdd": -0.2675504339495586,
+    "fees": 5630.502000000002,
+    "turnover": 9.690651636219835,
+    "turnover_ratio": 2.7092042954320608,
+    "net_gap": 0.28744781500000016,
+    "same_path_prefee_gap": 0.2547216800000001,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.0590705104423551,
+      "volatility": 0.10927994349071322,
+      "earnings_yield": 0.0809203415261625
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9857434036543186,
+    "signal_sha256": "ecb89967b62189d7cc9b80d1ae845923b347199689decc01939572c1125aaac4",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.0828848509513358,
+        "net_pnl": -7896.8324999999895
+      },
+      {
+        "year": 2023,
+        "total": 0.2447193458721708,
+        "net_pnl": 21383.064000000028
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2109,
+    "total": 0.09127334500000006,
+    "mdd": -0.2675504339495586,
+    "fees": 5698.137500000003,
+    "turnover": 9.798309343744974,
+    "turnover_ratio": 2.7393020364934917,
+    "net_gap": 0.28378417000000034,
+    "same_path_prefee_gap": 0.25038168000000033,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05879178477370519,
+      "volatility": 0.11016732486600703,
+      "earnings_yield": 0.08091707299870539
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.986724943385708,
+    "signal_sha256": "72a5a0c7ccf9f6261d6df4b3081c145f0d633a8c87b9b06f02cf3935acd2a603",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261499999989,
+        "net_pnl": -4725.261499999993
+      },
+      {
+        "year": 2022,
+        "total": -0.08460627787501107,
+        "net_pnl": -8060.841000000015
+      },
+      {
+        "year": 2023,
+        "total": 0.2512608383314139,
+        "net_pnl": 21913.437000000005
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2110,
+    "total": 0.082681475,
+    "mdd": -0.2675504339495586,
+    "fees": 5668.924500000001,
+    "turnover": 9.754114839244943,
+    "turnover_ratio": 2.7269466298685683,
+    "net_gap": 0.2923760400000004,
+    "same_path_prefee_gap": 0.2592656800000004,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05836135712737188,
+      "volatility": 0.11017804753834247,
+      "earnings_yield": 0.08116799702902687
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9864336125978522,
+    "signal_sha256": "6f787c88c57660b8087b490e6100042694dca3a6489a7e9949fac90fb0fdb101",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.07574775447953608,
+        "net_pnl": -7216.8475000000035
+      },
+      {
+        "year": 2023,
+        "total": 0.22951102133481727,
+        "net_pnl": 20210.256500000003
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2111,
+    "total": 0.014831735000000013,
+    "mdd": -0.2706220136232649,
+    "fees": 5724.258500000004,
+    "turnover": 10.03981276573937,
+    "turnover_ratio": 2.806818869498128,
+    "net_gap": 0.3602257800000004,
+    "same_path_prefee_gap": 0.32656208000000037,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.06466091716211003,
+      "volatility": 0.10852690722092881,
+      "earnings_yield": 0.07603930258058998
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9860542511954339,
+    "signal_sha256": "dfb503a34dd6572771fc5bd523123b21a2598bd0d0636fd457180e2bc592fd99",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.06687790069347699,
+        "net_pnl": -6371.774499999985
+      },
+      {
+        "year": 2023,
+        "total": 0.14150495027364896,
+        "net_pnl": 12580.209499999997
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_size_vol_value",
+    "seed": 2112,
+    "total": 0.09127334500000006,
+    "mdd": -0.2675504339495586,
+    "fees": 5698.137500000003,
+    "turnover": 9.798309343744974,
+    "turnover_ratio": 2.7393020364934917,
+    "net_gap": 0.28378417000000034,
+    "same_path_prefee_gap": 0.25038168000000033,
+    "pair_pass": 0.7867867867867868,
+    "actual_gaps": {
+      "market_cap": 0.05879178477370519,
+      "volatility": 0.11016732486600703,
+      "earnings_yield": 0.08091707299870539
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9867249433857083,
+    "signal_sha256": "1e0ebeefbaa7a8473120bd15c4a17c6b57544c81adc90657e67fe599519c2a51",
+    "annual": [
+      {
+        "year": 2021,
+        "total": -0.04725261500000011,
+        "net_pnl": -4725.261500000008
+      },
+      {
+        "year": 2022,
+        "total": -0.08460627787501096,
+        "net_pnl": -8060.841
+      },
+      {
+        "year": 2023,
+        "total": 0.2512608383314139,
+        "net_pnl": 21913.437000000005
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2102,
+    "total": 0.24833199000000028,
+    "mdd": -0.24501715603930563,
+    "fees": 5603.320999999998,
+    "turnover": 9.0642264987766,
+    "turnover_ratio": 2.534075342618951,
+    "net_gap": 0.12672552500000012,
+    "same_path_prefee_gap": 0.09427120000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0551435317936269,
+      "volatility": 0.1212712928258553,
+      "earnings_yield": 0.09992196532571417,
+      "turnover": 0.06265129986725494
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9793947603388631,
+    "signal_sha256": "9d2aabb2d04f88ee080c68c470d25dba411ff8c0af76286c4f54f21a82943f72",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36864137691332655,
+        "net_pnl": 33623.623500000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2103,
+    "total": 0.3154847650000001,
+    "mdd": -0.24501715603930574,
+    "fees": 5959.0435,
+    "turnover": 9.582394065316555,
+    "turnover_ratio": 2.678938851258214,
+    "net_gap": 0.059572750000000285,
+    "same_path_prefee_gap": 0.023561200000000282,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.05300071305495118,
+      "volatility": 0.12169150817776105,
+      "earnings_yield": 0.09758657010321903,
+      "turnover": 0.06417273006118
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9799803964500281,
+    "signal_sha256": "e541ef9a9920d0352df17642a23a3453fa06165d5bd991262ed2b5a35beff646",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.4422660754516943,
+        "net_pnl": 40338.90100000001
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2104,
+    "total": 0.27963323500000037,
+    "mdd": -0.2357441896552407,
+    "fees": 5925.476500000001,
+    "turnover": 9.491233945844524,
+    "turnover_ratio": 2.653453321851436,
+    "net_gap": 0.09542428000000003,
+    "same_path_prefee_gap": 0.059748400000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.054398491234823564,
+      "volatility": 0.12005473065940012,
+      "earnings_yield": 0.09658507128719866,
+      "turnover": 0.06164489991913792
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.981697534057244,
+    "signal_sha256": "f0dc5592b98295c8481336a3808d48242e82e851eb3a3d05b61833ea4ea3f4ca",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.025051570000000023,
+        "net_pnl": 2505.1570000000065
+      },
+      {
+        "year": 2022,
+        "total": -0.09614742114877195,
+        "net_pnl": -9855.606499999994
+      },
+      {
+        "year": 2023,
+        "total": 0.38115428309606325,
+        "net_pnl": 35313.773000000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2105,
+    "total": 0.24833199000000028,
+    "mdd": -0.24501715603930574,
+    "fees": 5603.320999999998,
+    "turnover": 9.0642264987766,
+    "turnover_ratio": 2.534075342618951,
+    "net_gap": 0.12672552500000012,
+    "same_path_prefee_gap": 0.09427120000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0551435317936269,
+      "volatility": 0.1212712928258553,
+      "earnings_yield": 0.09992196532571417,
+      "turnover": 0.06265129986725494
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9793947603388629,
+    "signal_sha256": "899ffe70d512d51b844ea5aef92ef655fba713c478f5f71caa6c4beeb1cb1805",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36864137691332655,
+        "net_pnl": 33623.623500000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2106,
+    "total": 0.24833199000000028,
+    "mdd": -0.24501715603930574,
+    "fees": 5603.320999999998,
+    "turnover": 9.0642264987766,
+    "turnover_ratio": 2.534075342618951,
+    "net_gap": 0.12672552500000012,
+    "same_path_prefee_gap": 0.09427120000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0551435317936269,
+      "volatility": 0.1212712928258553,
+      "earnings_yield": 0.09992196532571417,
+      "turnover": 0.06265129986725494
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9793947603388629,
+    "signal_sha256": "e2d499496b2c74a174134e5344cc3445ac9a7af2f07d0f525e351ce5633bed0a",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36864137691332655,
+        "net_pnl": 33623.623500000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2101,
+    "total": 0.24833199000000028,
+    "mdd": -0.24501715603930574,
+    "fees": 5603.320999999998,
+    "turnover": 9.0642264987766,
+    "turnover_ratio": 2.534075342618951,
+    "net_gap": 0.12672552500000012,
+    "same_path_prefee_gap": 0.09427120000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0551435317936269,
+      "volatility": 0.1212712928258553,
+      "earnings_yield": 0.09992196532571417,
+      "turnover": 0.06265129986725494
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9793947603388629,
+    "signal_sha256": "bc88b7f7a2692a3cc079af669cbc28d502ecc211eb9f6edf5f8a0c551224b14f",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36864137691332655,
+        "net_pnl": 33623.623500000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2107,
+    "total": 0.2747515650000003,
+    "mdd": -0.24501715603930574,
+    "fees": 5960.3635,
+    "turnover": 9.599665797231266,
+    "turnover_ratio": 2.6837674894189334,
+    "net_gap": 0.10030595000000009,
+    "same_path_prefee_gap": 0.06428120000000008,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.05317746240734568,
+      "volatility": 0.12153694466715095,
+      "earnings_yield": 0.09766954446617761,
+      "turnover": 0.06475664089356566
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9800964187424925,
+    "signal_sha256": "033aca644309e22dd9518b31921e5e3dd83d98518b90a425908cbb01692968ca",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.39760716790091877,
+        "net_pnl": 36265.58100000002
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2108,
+    "total": 0.24698724000000039,
+    "mdd": -0.24501715603930574,
+    "fees": 5945.796000000001,
+    "turnover": 9.599108005469533,
+    "turnover_ratio": 2.683611548219768,
+    "net_gap": 0.128070275,
+    "same_path_prefee_gap": 0.0921912,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0525595616698225,
+      "volatility": 0.11816338979978354,
+      "earnings_yield": 0.09670179743741482,
+      "turnover": 0.06458908836873521
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.98002014492945,
+    "signal_sha256": "ce2377c5a7e4fc04969f13cdd6db77141747fdf28454f9334965c1d650f7962e",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36716702513323307,
+        "net_pnl": 33489.148500000025
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2109,
+    "total": 0.24698724000000039,
+    "mdd": -0.24501715603930574,
+    "fees": 5945.796000000001,
+    "turnover": 9.599108005469533,
+    "turnover_ratio": 2.683611548219768,
+    "net_gap": 0.128070275,
+    "same_path_prefee_gap": 0.0921912,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0525595616698225,
+      "volatility": 0.11816338979978354,
+      "earnings_yield": 0.09670179743741482,
+      "turnover": 0.06458908836873521
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.98002014492945,
+    "signal_sha256": "afe0eeb8fefb8a23225d2fcdb3a073bc7b1a45977a243c7c50945e9b3b92dc46",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36716702513323307,
+        "net_pnl": 33489.148500000025
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2110,
+    "total": 0.24833199000000028,
+    "mdd": -0.24501715603930574,
+    "fees": 5603.320999999998,
+    "turnover": 9.0642264987766,
+    "turnover_ratio": 2.534075342618951,
+    "net_gap": 0.12672552500000012,
+    "same_path_prefee_gap": 0.09427120000000014,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0551435317936269,
+      "volatility": 0.1212712928258553,
+      "earnings_yield": 0.09992196532571417,
+      "turnover": 0.06265129986725494
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9793947603388629,
+    "signal_sha256": "027b3082d9038fc4935987c2644871de500b94635daf929ef39c1e79ebd12773",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36864137691332655,
+        "net_pnl": 33623.623500000016
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2111,
+    "total": 0.24698724000000039,
+    "mdd": -0.24501715603930574,
+    "fees": 5945.796000000001,
+    "turnover": 9.599108005469533,
+    "turnover_ratio": 2.683611548219768,
+    "net_gap": 0.128070275,
+    "same_path_prefee_gap": 0.0921912,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.0525595616698225,
+      "volatility": 0.11816338979978354,
+      "earnings_yield": 0.09670179743741482,
+      "turnover": 0.06458908836873521
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.98002014492945,
+    "signal_sha256": "f3a314628b7012bb7772f899682c731cf08bd791efdbda3a25b03a2405069d85",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.01828289000000005,
+        "net_pnl": 1828.2890000000043
+      },
+      {
+        "year": 2022,
+        "total": -0.10428058454365263,
+        "net_pnl": -10618.713499999998
+      },
+      {
+        "year": 2023,
+        "total": 0.36716702513323307,
+        "net_pnl": 33489.148500000025
+      }
+    ]
+  },
+  {
+    "baseline": "equal_weight",
+    "mode": "match_all",
+    "seed": 2112,
+    "total": 0.2932519500000006,
+    "mdd": -0.21826712867549236,
+    "fees": 5710.804999999998,
+    "turnover": 9.015128303226325,
+    "turnover_ratio": 2.520349016745714,
+    "net_gap": 0.0818055649999998,
+    "same_path_prefee_gap": 0.048276399999999824,
+    "pair_pass": 0.7207207207207207,
+    "actual_gaps": {
+      "market_cap": 0.05583566782847362,
+      "volatility": 0.11895321297871027,
+      "earnings_yield": 0.10066421997627965,
+      "turnover": 0.059778834119222295
+    },
+    "style_support": false,
+    "credible_control": false,
+    "coverage": 0.9986244841815681,
+    "invested": 0.9823263479345824,
+    "signal_sha256": "ee3a216b15a8ed77c9bb523e2164d40b8b638b783b1be11ef011ba69eec2d1af",
+    "annual": [
+      {
+        "year": 2021,
+        "total": 0.045731130000000064,
+        "net_pnl": 4573.113000000012
+      },
+      {
+        "year": 2022,
+        "total": -0.0936976601241657,
+        "net_pnl": -9798.25599999998
+      },
+      {
+        "year": 2023,
+        "total": 0.3645517291574496,
+        "net_pnl": 34550.33800000002
+      }
+    ]
+  }
+]

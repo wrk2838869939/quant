@@ -1,0 +1,31 @@
+{
+  "prefixes": [
+    {
+      "account": "2022-04_15_fresh_once",
+      "cutoff": "2022-10-14",
+      "exact_prefix": true,
+      "cash_max_error": 2.1827872842550278e-11,
+      "shares_max_error": 0.0
+    },
+    {
+      "account": "2023-01_15_stale_once",
+      "cutoff": "2023-07-18",
+      "exact_prefix": true,
+      "cash_max_error": 7.275957614183426e-12,
+      "shares_max_error": 0.0
+    },
+    {
+      "account": "2024-07_22_shifted_calendar",
+      "cutoff": "2025-01-09",
+      "exact_prefix": true,
+      "cash_max_error": 2.1827872842550278e-11,
+      "shares_max_error": 0.0
+    }
+  ],
+  "source_and_input_hashes_unchanged": true,
+  "root_agents_unchanged": true,
+  "all_boot_sources_not_future": true,
+  "annual_risk_labels_mature": true,
+  "causal_config_sha256": "140a291644969809b5b0caf6385e19a32fb4d76022a5cfb70c8ffba7be11a565",
+  "scope": "验证执行/拼接前缀，不重新训练或全量重建上游因子"
+}

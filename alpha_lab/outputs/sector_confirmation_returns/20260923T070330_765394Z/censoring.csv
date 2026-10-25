@@ -1,0 +1,7 @@
+horizon,status,events
+3,complete,225
+3,segment_or_quote_gap,5
+10,complete,200
+10,segment_or_quote_gap,30
+20,complete,191
+20,segment_or_quote_gap,39

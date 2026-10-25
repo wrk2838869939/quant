@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "summary": {
+    "asof": "2026-10-13",
+    "earliest_entry_date": "2026-10-14",
+    "valid_sectors": 103,
+    "watch_sectors": 4,
+    "trigger_sectors": 2,
+    "confirmed_today": 0,
+    "new_first_confirmations": 0,
+    "annual_sector_pass": 0,
+    "qualified_stocks_scored": 0,
+    "stock_candidates": 0,
+    "model_year": 2026,
+    "sector_model_last_training_label": "2025-11-18",
+    "stock_model_last_training_label": "2025-11-19",
+    "no_retraining": true,
+    "no_data_engineering_code_changes": true,
+    "scope": "既有申万二级自算板块",
+    "execution_certified": false,
+    "legacy_random_model_scores_used": false,
+    "sector_scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261013T155427_428380Z",
+    "dataset": "alpha_lab/data/sector_live_datasets/sw_l2_v1_20261013T154901_328088Z"
+  },
+  "artifacts": {
+    "annual_model_readonly_check.json": "12c637c90b7fd0dc542ed2ee4e4ed639fa676e4c85a88b08226f42f230a96bce",
+    "evaluate_existing_models.py": "fc011edb802629f1f9552b01ecad3cd33d5d4a3bf51c9bd4fb5cfda295c047e7",
+    "today_first_confirmations_asof_model.csv": "fb60d3803882d9e50a83e89aea5019a714c820cd1bb5a10334bc9f6dcd9e87f2",
+    "stock_diagnostics_asof.csv": "e41a77e5125478187f39cc2f3f8ce7b56edca4a0e88236c002161f7e47f7a4d7",
+    "stock_candidates_asof.csv": "e41a77e5125478187f39cc2f3f8ce7b56edca4a0e88236c002161f7e47f7a4d7",
+    "watch_today.csv": "ea6a08038e65e8665cdefea3c9012ca037d49b44a9023cfaa48f71e2f44bf609",
+    "comparison_20261012_20261013.csv": "975b6dc86b35f3311c3b59db81959a24bb76ad635f44f4a16526666f0d37950c",
+    "summary.json": "69fd291a9a33badc9bceee5a977c5168415b0ff06b04e4c75d1b7c24189981c6",
+    "verification.json": "f3228cd59214c9197bb01ce77cef8970ddf9e8e5fe1410a7762cac48da55293e",
+    "gate_status.png": "2e1c2e3dbb8f09d7d620235e9d2ea324c5e30650693ecff98672f4c0856bba64",
+    "REPORT.md": "a9c58de588312fca3c7b385dc63f82d5c9586b83e53625f8a5ae35278a2af662",
+    "REPORT.html": "d9554ef89ca690c4c0f262abd93a4379bbe3514cc73dfbd76af9c6633d9ffb5b"
+  }
+}

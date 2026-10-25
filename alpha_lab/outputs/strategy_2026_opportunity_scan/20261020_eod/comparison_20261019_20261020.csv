@@ -1,0 +1,9 @@
+sector_code,window_today,drawdown_today,trigger_today,confirmed_today,slowed_today,support_recent_today,near_reference_today,name_today,index_return,window_previous,drawdown_previous,trigger_previous,confirmed_previous,slowed_previous,support_recent_previous,near_reference_previous,name_previous
+801012.SI,15,-0.1786983664996987,True,False,True,False,True,农产品加工,0.0008931801665279,15.0,-0.1794312822037076,True,False,True,False,True,农产品加工
+801015.SI,30,-0.1842803620439367,True,False,False,False,True,渔业,-0.0001645247097996,30.0,-0.1841461339233815,True,False,False,False,True,渔业
+801017.SI,15,-0.100254463080459,True,True,True,True,True,养殖业,-0.0011967591012037,,,,,,,,
+801053.SI,15,-0.2226488273332316,True,False,True,False,True,贵金属,-0.0087639624331516,15.0,-0.2157759169300336,True,False,True,False,True,贵金属
+801156.SI,10,-0.1277144469007839,True,False,True,False,True,医疗服务,0.0229690343615942,10.0,-0.1473001393012989,True,False,False,False,True,医疗服务
+801183.SI,15,-0.1214200122644841,True,False,False,False,True,房地产服务,-0.0062636877367535,15.0,-0.1158821742816871,True,False,True,False,True,房地产服务
+801219.SI,15,-0.1531580106931442,True,True,True,True,True,酒店餐饮,0.0035279691475895,15.0,-0.1561351398843672,True,True,True,True,True,酒店餐饮
+801952.SI,30,-0.1324589948367044,True,False,True,False,True,焦炭Ⅱ,-0.0196177851846318,30.0,-0.1150992010532581,True,False,True,False,True,焦炭Ⅱ

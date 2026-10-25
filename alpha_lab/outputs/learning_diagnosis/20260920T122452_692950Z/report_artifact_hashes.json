@@ -1,0 +1,18 @@
+{
+  "manifest.json": "e79b2c6db0ada41d50fcb6b7eae2a8919105c7f5c76f788aa7816530ab2cc97b",
+  "account_comparisons.csv": "0f2103f8dcb1c4b1ac9025b30272a30ff78ae776e631dc1adb75cc2c54ee1fd7",
+  "same_model_train_future_ic.csv": "423cc78b14bd6c574a30f893277bc482c52716a6bee0afa153e4a692123f8465",
+  "selection_stability.csv": "3f1a3fa521aee87f4cba83eb3c7f9a397b821907acc350f83d27c114c3730b3d",
+  "diagnosis_summary.csv": "f59f9e49852814feefe9a836e9cb97c7e2a255514a4c4d5854d2deae2f3abb6e",
+  "ic_family_means.csv": "8c1bcfd7d393c40cf151d6aa960904f801951873251af5b3ab787e36d380eb27",
+  "selection_tail_diagnostics.csv": "ab8007d2039699ea5fe5431352921806053777a2762d2cffc0bd3150f8f1ad65",
+  "selection_tail_summary.csv": "33483525f0dfa21ae648f0c7a2ca3c4f7fafc6379d5f307a0b73f6232c5260a6",
+  "diagnostic_model_replays.csv": "dd8836c70197fa3cc5d88d91f8ca935456ca1b7bec17d8be6d371f482aeeb12c",
+  "cost_and_matched_control.png": "4027aedfc196c9f06081f783c222ccfa7060be3cf7650da9b0a2dfcc2aa913d0",
+  "REPORT.md": "a9003f7460aca213e262756454d6a7ab75b9344a6b9bf80cc8a776b4ed1f2fed",
+  "reporting_manifest.json": "0bdda12b6cdbfb82060099ecec7cb18d0de66ddb0c0eadc553f21e9606640fe6",
+  "execution.log": "c4e3f47545ccaf8aa29612a4a2fbcae99b6b27253423dea82eac58ae0fbd8300",
+  "reporting.log": "b6cd7cf9e6fd71090b0dfad7659f14fd1e96521b82d578c7580fcc54b1665d9e",
+  "archived_source_hashes.json": "1f7b71b930716dfcc80c513074e9c7135e6e9a8a57659123ea73f469f0cf20b7",
+  "completion_checks.json": "54a094a0f2357277497c9c75192aca831814d22fc7888ee0c5ac2b345a2e58a0"
+}

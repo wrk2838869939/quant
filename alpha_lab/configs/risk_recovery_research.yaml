@@ -1,0 +1,14 @@
+parent: outputs/risk_budget/20260913T160301_084080Z
+signal_parent: outputs/rolling_review/20260913T141120_325588Z
+output_root: outputs/risk_recovery
+windows: {continued: '2022-01-01', cold: '2024-01-01'}
+end: '2026-09-08'
+capital: 50000
+schedules: [calendar_01, calendar_08, calendar_15, calendar_22, rolling_00, rolling_05, rolling_10, rolling_15]
+policies:
+  baseline: {restore: false, lot_grace: false}
+  restore: {restore: true, lot_grace: false}
+  grace: {restore: false, lot_grace: true}
+  combined: {restore: true, lot_grace: true}
+stress_cost_multiplier: 2
+reference_capital: 100000

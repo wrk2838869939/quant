@@ -1,0 +1,13 @@
+{
+  "signal_date": "2026-09-01",
+  "pending_sells": {
+    "600236.SH": {
+      "target_shares": 0,
+      "signal_date": "2026-09-01",
+      "reason": "hold_false"
+    }
+  },
+  "supplementary_used": false,
+  "last_sale_date": "2026-08-04",
+  "last_sale_signal": "2026-08-03"
+}

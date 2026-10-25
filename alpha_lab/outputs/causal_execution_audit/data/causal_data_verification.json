@@ -1,0 +1,217 @@
+{
+  "status": "complete",
+  "run": "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z",
+  "manifest_sha256": "c941117d824098c6e83b129fface244a6ff766073ffc83b78efbd3030c5f2c00",
+  "source_hashes": {
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/market.parquet": "9e5a4ba61cdf4522bba6d431838d35ed4704ec9d74f5451cdec5ef1dec2b14cf",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/raw_actions.parquet": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/normalized_actions.parquet": "5715dd381a54cb85e32ba65dc8c169879684159b7f754cadd5b4ee5858761f4e"
+  },
+  "checks": [
+    {
+      "check": "raw_daily_all_execution_universe_exact",
+      "rows": 194987,
+      "fields": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "vol_share"
+      ]
+    },
+    {
+      "check": "official_limit_cache_exact",
+      "rows": 195128
+    }
+  ],
+  "cases": [
+    {
+      "name": "cold_baseline",
+      "trades": 43,
+      "open_fills": 43,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_baseline",
+      "trades": 62,
+      "open_fills": 62,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 5645,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "small_baseline",
+      "trades": 45,
+      "open_fills": 45,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "large_baseline",
+      "trades": 47,
+      "open_fills": 47,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cost2_baseline",
+      "trades": 44,
+      "open_fills": 44,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "reverse_baseline",
+      "trades": 43,
+      "open_fills": 43,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "trades": 44,
+      "open_fills": 39,
+      "strict_day_cross_fills": 5,
+      "holding_rows": 3176,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "trades": 63,
+      "open_fills": 54,
+      "strict_day_cross_fills": 9,
+      "holding_rows": 5645,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "trades": 43,
+      "open_fills": 43,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3234,
+      "dividend_events": 23,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "trades": 63,
+      "open_fills": 63,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 5645,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cold_hybrid",
+      "trades": 41,
+      "open_fills": 41,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_hybrid",
+      "trades": 67,
+      "open_fills": 67,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 5645,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "small_hybrid",
+      "trades": 42,
+      "open_fills": 42,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 24,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "large_hybrid",
+      "trades": 48,
+      "open_fills": 48,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cost2_hybrid",
+      "trades": 42,
+      "open_fills": 42,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "reverse_hybrid",
+      "trades": 41,
+      "open_fills": 41,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "trades": 45,
+      "open_fills": 39,
+      "strict_day_cross_fills": 6,
+      "holding_rows": 3194,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "trades": 68,
+      "open_fills": 59,
+      "strict_day_cross_fills": 9,
+      "holding_rows": 5610,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "trades": 38,
+      "open_fills": 38,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 3235,
+      "dividend_events": 25,
+      "cash_equity_reconciled": true
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "trades": 65,
+      "open_fills": 65,
+      "strict_day_cross_fills": 0,
+      "holding_rows": 5645,
+      "dividend_events": 35,
+      "cash_equity_reconciled": true
+    }
+  ],
+  "scope": "Local raw source consistency and daily-bar frozen-order fill conditions; not an independent exchange price certification or auction queue/fill-volume certification.",
+  "total_cases": 20,
+  "total_fills": 994,
+  "total_holding_rows": 79019,
+  "total_dividend_events": 545,
+  "verifier_sha256": "c72ac1c7a6393cfeefcc829b614ed0fa94d881605a846f9c4ce3f476d53358a1"
+}

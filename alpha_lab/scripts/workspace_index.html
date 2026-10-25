@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>alpha_lab · 研究工作台</title>
+<style>
+:root{color-scheme:light;--ink:#203347;--muted:#647588;--line:#dbe3ea;--blue:#17658c;--bg:#f2f5f8}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:30px 24px}h1{font-size:30px;margin:0}h2{font-size:20px;margin:28px 0 12px}.muted{color:var(--muted)}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.links{display:flex;flex-wrap:wrap;gap:9px 20px;margin:16px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.card{background:white;border:1px solid var(--line);padding:17px;border-radius:10px}.card strong{display:block;margin-bottom:7px}.badge{display:inline-block;font-size:12px;background:#e5f1f6;color:#1a617f;padding:2px 7px;border-radius:4px}.review{background:#fff1db;color:#8b5f17}.error{color:#a12727;background:#fff1f1;padding:12px;border-radius:6px}.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}input,select,button{font:inherit;border:1px solid #bdcbd6;border-radius:6px;padding:9px 12px;background:white;color:var(--ink)}input{flex:1;min-width:230px}button{cursor:pointer}button:disabled{opacity:.45;cursor:default}.table-wrap{overflow:auto;background:white;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse}th,td{text-align:left;vertical-align:top;padding:11px 13px;border-bottom:1px solid var(--line)}th{background:#edf3f7;white-space:nowrap}td small{display:block;color:var(--muted);word-break:break-all;font-family:ui-monospace,monospace;font-size:11px}footer,.pager{margin-top:15px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}.note{font-size:13px;color:var(--muted)}.stats{display:flex;gap:25px;flex-wrap:wrap;margin:18px 0}.stats b{font-size:23px;margin-right:5px}.empty{padding:35px;text-align:center;color:var(--muted)}@media(max-width:650px){main{padding:18px 12px}th,td{padding:9px}h1{font-size:25px}}
+</style>
+<main>
+<h1>alpha_lab · 研究工作台</h1>
+<p class="muted">先看当前策略与最新结果，再查历史研究。原报告和产物保留在原路径。</p>
+<nav class="links"><a href="INDEX.md">文字版入口</a><a href="docs/INDEX.md">文档目录</a><a href="outputs/INDEX.md">产物目录</a><a href="catalog/STORAGE.md">存储占用</a><a href="docs/WORKSPACE_ORGANIZATION.md">使用与归档规则</a></nav>
+<div id="issues"></div>
+<h2>当前工作</h2><div class="links" id="quick"></div><div class="grid" id="latest"></div>
+<div class="stats" id="stats"></div>
+<h2>搜索文档与运行记录</h2>
+<div class="filters"><input id="query" aria-label="搜索" placeholder="搜索标题、路径、关键词或日期，例如：养殖 / walkforward / 20261022"><select id="kind" aria-label="类型"><option value="">所有类型</option><option value="doc">文档</option><option value="run">运行 / 产物目录</option><option value="group">产物族 / 存储占用</option></select><select id="topic" aria-label="主题"><option value="">所有主题</option></select><select id="sort" aria-label="排序"><option value="date">当前指针优先 / 数据日期</option><option value="bytes">空间占用从大到小</option><option value="files">文件数量从多到少</option></select></div>
+<p class="note" id="count"></p>
+<div class="table-wrap"><table><thead><tr><th>名称与路径</th><th>主题 / 类型</th><th>数据日期</th><th>记录状态</th><th>空间 / 文件数</th></tr></thead><tbody id="rows"></tbody></table><div id="empty" class="empty" hidden>没有匹配记录。可缩短关键词，或在目标目录内用 rg 查找具体文件。</div></div>
+<div class="pager"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button></div>
+<p class="note">数据日期仅展示产物明确声明的 asof；“未声明”不会用文件修改时间替代。完成状态是清单记录，不代表收益结论已复现。网页搜索标题、路径和文档章节，不加载80万个原始文件。</p>
+<footer class="note" id="updated"></footer>
+</main>
+<script id="catalog" type="application/json">__CATALOG_JSON__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('catalog').textContent);
+const el=id=>document.getElementById(id);
+const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const href=p=>p.split('/').map(encodeURIComponent).join('/');
+const bytes=n=>{if(n==null)return '未盘点';let i=0,u=['B','KiB','MiB','GiB','TiB'];while(n>=1024&&i<4){n/=1024;i++}return n.toFixed(1)+' '+u[i]};
+const kindName={doc:'文档',run:'运行 / 产物',group:'产物族'};
+el('quick').innerHTML=data.quick_links.map(q=>`<a href="${href(q.path)}">${escape(q.label)}</a>`).join('');
+el('issues').innerHTML=data.issues.length?'<div class="error">'+data.issues.map(escape).join('<br>')+'</div>':'';
+el('latest').innerHTML=data.pointers.map(p=>{let review=p.origin==='policy_change_review';return `<div class="card"><strong>${p.valid?`<a href="${href(p.report)}">${escape(p.label)}</a>`:escape(p.label)}</strong>${p.valid?`<span class="badge ${review?'review':''}">${review?'历史规则复核':p.origin==='current_policy_scan'?'正式策略扫描':'已完成记录'}</span><div>数据日期：${escape(p.asof||'未声明')}</div>`:`<span class="error">${escape(p.error)}</span>`}</div>`}).join('');
+for(const t of [...new Set(data.records.map(r=>r.topic))].sort()){const o=document.createElement('option');o.value=t;o.textContent=t;el('topic').append(o)}
+const docs=data.records.filter(r=>r.kind==='doc').length,runs=data.records.filter(r=>r.kind==='run').length,groups=data.records.filter(r=>r.kind==='group').length;
+el('stats').innerHTML=`<span><b>${docs}</b>份文档</span><span><b>${runs}</b>个运行 / 产物目录</span><span><b>${groups}</b>个产物族</span><span><b>${bytes(data.storage_totals.outputs?.allocated_bytes)}</b>产物占用</span>`;
+el('updated').textContent='索引更新：'+data.generated_at+' · 容量盘点：'+data.storage_generated_at+' · 更新命令：python alpha_lab/scripts/build_workspace_index.py build';
+let page=0,matched=[],pageSize=50;
+function render(reset=true){if(reset)page=0;const terms=el('query').value.trim().toLowerCase().split(/\s+/).filter(Boolean);matched=data.records.filter(r=>(!el('kind').value||r.kind===el('kind').value)&&(!el('topic').value||r.topic===el('topic').value)&&terms.every(t=>[r.title,r.path,r.topic,r.asof,r.current,r.snippet].join(' ').toLowerCase().includes(t)));
+const order=el('sort').value;matched.sort((a,b)=>order==='bytes'?(b.bytes??-1)-(a.bytes??-1):order==='files'?(b.file_count??-1)-(a.file_count??-1):(Number(Boolean(b.current))-Number(Boolean(a.current))||b.asof.localeCompare(a.asof)||b.date_hint.localeCompare(a.date_hint)||a.path.localeCompare(b.path)));
+const pages=Math.max(1,Math.ceil(matched.length/pageSize));page=Math.min(page,pages-1);el('rows').innerHTML=matched.slice(page*pageSize,(page+1)*pageSize).map(r=>`<tr><td><a href="${href(r.report)}">${escape(r.title)}</a><small>${escape(r.path)}</small></td><td>${escape(r.topic)}<br><span class="note">${kindName[r.kind]}</span></td><td>${escape(r.asof||'未声明')}</td><td>${escape(r.current||r.status)}${r.origin==='policy_change_review'?'<br><span class="badge review">历史规则复核</span>':''}${r.protected?'<br><span class="note">当前链路保留</span>':''}</td><td>${bytes(r.bytes)}<br><span class="note">${r.file_count==null?'':r.file_count.toLocaleString()+' 文件'}</span></td></tr>`).join('');
+el('empty').hidden=matched.length>0;el('count').textContent='匹配 '+matched.length+' 条；容量属于盘点快照，目录之间存在包含关系，请勿将产物族和子目录重复相加。';el('page').textContent=(page+1)+' / '+pages;el('prev').disabled=page===0;el('next').disabled=page>=pages-1;}
+for(const name of ['query','kind','topic','sort'])el(name).addEventListener(name==='query'?'input':'change',()=>render());
+el('prev').onclick=()=>{page--;render(false)};el('next').onclick=()=>{page++;render(false)};render();
+</script>
+</html>

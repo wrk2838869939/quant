@@ -1,0 +1,13 @@
+family,year,signal_dates,constant_score_dates,no_score_dates
+factor_weight,2021,13,0,0
+factor_weight,2022,13,0,0
+factor_weight,2023,13,0,0
+linear,2021,53,0,0
+linear,2022,51,0,0
+linear,2023,51,0,0
+lgbm,2021,53,0,0
+lgbm,2022,51,0,0
+lgbm,2023,1,0,1
+dual,2021,53,0,0
+dual,2022,51,0,0
+dual,2023,51,0,0

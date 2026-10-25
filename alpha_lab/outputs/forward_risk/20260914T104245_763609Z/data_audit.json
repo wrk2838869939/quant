@@ -1,0 +1,13 @@
+{
+  "rows": 12280264,
+  "codes": 5819,
+  "dates": 3085,
+  "source_start": "2014-01-02 00:00:00",
+  "source_end": "2026-09-08 00:00:00",
+  "price_unit_rows": 12280264,
+  "amount_unit_rows": 12280264,
+  "current_constituents_used": false,
+  "repaired_rows": 4706,
+  "missing_market_sessions": 0,
+  "eligibility": "至少120个历史报价、最近60日价格完整；当日可知筛选，含退市股票历史。"
+}

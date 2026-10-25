@@ -1,0 +1,125 @@
+{
+  "status": "complete",
+  "inputs": {
+    "/root/autodl-tmp/alpha_lab/data/raw/stock_basic_all.parquet": "6dbbe2bfe573231036b135a14bd5da748e2ee3f15a02f9b374de8bd27e08fd1b",
+    "/root/autodl-tmp/alpha_lab/data/raw/namechange_all.parquet": "677d06173e8bdf29d5376824a68b70498fbf476da6a2abc2b93e75b0ca34bd2b",
+    "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9"
+  },
+  "sources": [
+    {
+      "file": "port_2018_listing.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-12-24/1205685040.PDF",
+      "sha256": "af21e3372dfe6c7bcaab8e54ed246c6fe43a1bc3980b44f292bab80f00fc1ceb",
+      "bytes": 977231
+    },
+    {
+      "file": "property_2019_change.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-12-06/1207141416.PDF",
+      "sha256": "73b211e1d155d125203a3ea689439efbd64136f767ade3446de6b2e9d91adf9f",
+      "bytes": 147865
+    },
+    {
+      "file": "property_2023_report.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-08-25/1217629427.PDF",
+      "sha256": "bd6e1a37f70004122559590dc10d60599138166c049deccd5064a085b788a207",
+      "bytes": 3135087
+    },
+    {
+      "file": "avic_2025_change.pdf",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-02-07/e2d8b9d3-879b-4587-9e1e-235ebf4c8a44.PDF",
+      "sha256": "90427f29e153de4a4ebd236e25f226ac1b2a72911e0577a667a70076ad495f03",
+      "bytes": 368686
+    },
+    {
+      "file": "avic_2010_listing.html",
+      "url": "https://www.szse.cn/aboutus/trends/news/t20100827_518017.html",
+      "sha256": "e0357fb6ddc81f4ae93f0423f7f668ebb8ba53e3ffd80baed73341baa4381f20",
+      "bytes": 15479
+    }
+  ],
+  "events": [
+    {
+      "old_code": "000022.SZ",
+      "new_code": "001872.SZ",
+      "effective_date": "2018-12-26",
+      "announcement_date": "2018-12-24",
+      "original_list_date": "1993-05-05",
+      "market": "主板",
+      "last_old_name": "深赤湾A",
+      "listing_source": "port_2018_listing.pdf",
+      "change_source": "port_2018_listing.pdf"
+    },
+    {
+      "old_code": "000043.SZ",
+      "new_code": "001914.SZ",
+      "effective_date": "2019-12-16",
+      "announcement_date": "2019-12-06",
+      "original_list_date": "1994-09-28",
+      "market": "主板",
+      "last_old_name": "中航善达",
+      "listing_source": "property_2023_report.pdf",
+      "change_source": "property_2019_change.pdf"
+    },
+    {
+      "old_code": "300114.SZ",
+      "new_code": "302132.SZ",
+      "effective_date": "2025-02-17",
+      "announcement_date": "2025-02-07",
+      "original_list_date": "2010-08-27",
+      "market": "创业板",
+      "last_old_name": "中航电测",
+      "listing_source": "avic_2010_listing.html",
+      "change_source": "avic_2025_change.pdf"
+    }
+  ],
+  "price_identity_checks": [
+    {
+      "old_code": "000022.SZ",
+      "canonical_code": "001872.SZ",
+      "duplicate_rows": 936,
+      "raw_prices_and_basic_fields_exact": true,
+      "adj_differing_rows": 8,
+      "canonical_first": "2014-01-02",
+      "old_last": "2018-12-20"
+    },
+    {
+      "old_code": "000043.SZ",
+      "canonical_code": "001914.SZ",
+      "duplicate_rows": 1372,
+      "raw_prices_and_basic_fields_exact": true,
+      "adj_differing_rows": 137,
+      "canonical_first": "2014-01-02",
+      "old_last": "2019-12-13"
+    },
+    {
+      "old_code": "300114.SZ",
+      "canonical_code": "302132.SZ",
+      "duplicate_rows": 2685,
+      "raw_prices_and_basic_fields_exact": true,
+      "adj_differing_rows": 8,
+      "canonical_first": "2014-01-02",
+      "old_last": "2025-02-14"
+    }
+  ],
+  "added_basics": 3,
+  "added_name_intervals": 9,
+  "original_rows_unchanged": true,
+  "price_data_modified": false,
+  "code_retires_without_delisting": true,
+  "price_stitching": false,
+  "execution_code_rollover_implemented": false,
+  "removed_duplicate_rows": 4993,
+  "canonical_projection_rows": 12270565,
+  "canonical_retained_values_unchanged": true,
+  "require_canonical_projection_with_overlay": true,
+  "classification": "isolated historical metadata overlay; R is retired alias, not exchange delisting",
+  "outputs": {
+    "stock_basic_identity_overlay.parquet": "cccf09f940070286ec38077c2a1a0d6f6a7664655579c7a9caaf2c83314f1ced",
+    "namechange_identity_overlay.parquet": "1fff07600e12d28751a27e7fd86c0526bcca484d6e8379557f513400cedda16a",
+    "security_code_intervals.csv": "3107f1b73198f0a58a4d77f8a0876153c15757f503bd12d9f6e99ca8e9cf96cb",
+    "added_basics.csv": "224279801a0f39b2c7b803ae5e9ee9cf6a209478c66245f87422fc8b4566223a",
+    "canonical_feature_projection.parquet": "07025a4cdc82f31edc86f5d884706b3dfec23f300b33bbcabcddcf9b1a2281a1",
+    "alias_adjustment_differences.csv": "149599a61c5fc9823ec15968fd46f282f61092a0efefe1c7b7f8b44b53f9072b"
+  },
+  "script_sha256": "1494d1f6d7399da4123872a678b88dfce577f84f683f1645ea8713dbeb452157"
+}

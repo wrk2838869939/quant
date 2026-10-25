@@ -1,0 +1,20 @@
+# 固定历史扩展和风险预测检验；研究事件不视为真实持仓。
+output_root: outputs/exit_history
+parent: outputs/exit_evidence/20260913T150246_816170Z
+rolling_parent: outputs/rolling_review/20260913T141120_325588Z
+execution_parent: outputs/causal_execution/20260913T130810_374654Z
+feature_projection: outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet
+start: '2015-01-01'
+end: '2026-09-08'
+top_n: 20
+nonoverlap_days: 60
+min_listing_days: 60
+features: [ret20, ret60, ret120, ma120_gap, ma120_slope20, drawdown120, rebound20, weak_fraction20, volatility20]
+horizons: [20, 60]
+targets: [ret, mae]
+prediction_years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+model: {alpha: 10.0, min_train_events: 30, min_train_dates: 15}
+deep_loss: -0.10
+min_date_group: 3
+prefix_cutoffs: ['2019-06-28', '2023-06-30']
+trend: {medium_window: 60, long_window: 120, min_return: 0.0, require_above_long_ma: true}

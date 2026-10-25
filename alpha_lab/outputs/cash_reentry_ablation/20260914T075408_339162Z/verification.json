@@ -1,0 +1,21 @@
+{
+  "accounts": 18,
+  "all_reconciled": true,
+  "controls": 2,
+  "prefixes": [
+    {
+      "account": "continued_08_staged_cost30_fast_reentry",
+      "cutoff": "2023-01-04",
+      "all_four_ledgers_exact": true
+    },
+    {
+      "account": "cold_01_staged_cost0_fast_reentry",
+      "cutoff": "2025-01-03",
+      "all_four_ledgers_exact": true
+    }
+  ],
+  "recovery_events": 99,
+  "five_slots_below60pct": 29,
+  "interpretation": "重入只增加新股建仓机会；未恢复减掉的旧仓，不能据本消融声称完整退出恢复机制无效",
+  "live_approved": false
+}

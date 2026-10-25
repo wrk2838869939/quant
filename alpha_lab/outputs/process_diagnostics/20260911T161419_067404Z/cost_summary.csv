@@ -1,0 +1,3 @@
+side,orders,fees,median_gross,minimum_fee_fraction,median_effective_fee
+buy,700,3500.0,2012.5,1.0,0.002484472203046006
+sell,651,3395.02572,2071.0,0.7204301075268817,0.0024142926122646064

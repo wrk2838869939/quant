@@ -1,0 +1,290 @@
+[
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801711.SI_s1_20150630",
+    "recomputed": -0.21255700140274847
+  },
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.3092406410545787
+  },
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801162.SI_s8_20160106",
+    "recomputed": -0.09108798449564848
+  },
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.3092406410545787
+  },
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801711.SI_s1_20150630",
+    "recomputed": -0.21255700140274847
+  },
+  {
+    "level": "sector",
+    "horizon": 3,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.09997888564429114
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801102.SI_s20_20250108",
+    "recomputed": -0.28068181818181814
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.7277085330776605
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801102.SI_s20_20250108",
+    "recomputed": -0.10681818181818181
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.7277085330776605
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801102.SI_s20_20250108",
+    "recomputed": -0.28068181818181814
+  },
+  {
+    "level": "member",
+    "horizon": 3,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.20038350910834146
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.15330153067127839
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.6749980519942276
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801162.SI_s8_20160106",
+    "recomputed": -0.09108798449564848
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.6749980519942276
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.19995989838134265
+  },
+  {
+    "level": "sector",
+    "horizon": 10,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.09997888564429114
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801733.SI_s3_20200326",
+    "recomputed": -0.41726488508173987
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.9911049545403212
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.10030395136778114
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.9911049545403212
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801733.SI_s3_20200326",
+    "recomputed": -0.41726488508173987
+  },
+  {
+    "level": "member",
+    "horizon": 10,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.20038350910834146
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.23478609792277216
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.5075640231425438
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801162.SI_s8_20160106",
+    "recomputed": -0.09108798449564848
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.6913768000427898
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.285844654502172
+  },
+  {
+    "level": "sector",
+    "horizon": 20,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801742.SI_s2_20150709",
+    "recomputed": 0.09997888564429114
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "end_return",
+    "side": "minimum",
+    "event_id": "801733.SI_s3_20200326",
+    "recomputed": -0.5125776678530495
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "end_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.9583941605839414
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "max_return",
+    "side": "minimum",
+    "event_id": "801074.SI_s2_20160106",
+    "recomputed": -0.10030395136778114
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "max_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 1.108272506082725
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "min_return",
+    "side": "minimum",
+    "event_id": "801733.SI_s3_20200326",
+    "recomputed": -0.5125776678530495
+  },
+  {
+    "level": "member",
+    "horizon": 20,
+    "metric": "min_return",
+    "side": "maximum",
+    "event_id": "801102.SI_s23_20260803",
+    "recomputed": 0.20038350910834146
+  }
+]

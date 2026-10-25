@@ -1,0 +1,10 @@
+scope,variant,model_selected_events,eligible_sector_days,stock_days,event_stocks,sector_events,signal_dates,first_entry_dates
+all_events,legacy_today,331,897,72,69,51,40,38
+all_events,same_event_today,331,875,71,68,50,39,37
+all_events,persistent_5d,331,1282,82,75,56,46,43
+random_test_selected,legacy_today,82,228,9,9,8,7,7
+random_test_selected,same_event_today,82,226,9,9,8,7,7
+random_test_selected,persistent_5d,82,324,11,11,10,9,9
+chronological_selected,legacy_today,118,304,27,26,19,20,19
+chronological_selected,same_event_today,118,298,27,26,19,20,19
+chronological_selected,persistent_5d,118,443,32,27,19,24,20

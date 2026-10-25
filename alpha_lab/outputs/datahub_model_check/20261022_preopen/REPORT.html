@@ -1,0 +1,252 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>21日收盘模型报告</title><style>body{font:16px/1.7 sans-serif;max-width:1200px;margin:30px auto;padding:0 20px;color:#243647}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd5df;padding:7px}th{background:#edf3f7}img{max-width:100%}pre{background:#edf3f7;padding:15px;overflow:auto}</style><body><h1>21日收盘数据与模型结果：22日开盘前</h1>
+<p><strong>已将A股数据更新至2026年10月21日收盘，完成冻结、板块构建和当前策略扫描。新首次确认0个，进入个股筛选0个板块，新个股候选0只。</strong></p>
+<p>年度板块模型继续暂停过滤，仅保留诊断；不使用旧随机分组模型评分决定资格。数据更新与数据集构建使用原封装程序，只增加本次日期配置，原工程代码、模型权重及策略规则哈希未变。</p>
+<h2>数据完整性</h2>
+<p>本次新增1个交易日、5,568条有效股票日线。行情、复权、日度指标和资金流覆盖本次全部有交易股票；关键字段无缺失，重复键、OHLC异常、复权不一致均为0，成交量、成交额与原始数据按既有单位换算后一致。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">api</th>
+<th style="text-align: right;">raw_rows</th>
+<th style="text-align: right;">covered</th>
+<th style="text-align: right;">missing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">daily</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">adj_factor</td>
+<td style="text-align: right;">5578</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">daily_basic</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td style="text-align: left;">moneyflow</td>
+<td style="text-align: right;">5576</td>
+<td style="text-align: right;">5568</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>上市主档5,578条 = 5,568条有效行情 + 8只全日停牌 + 2条此前已发现的过期上市状态（信达、东兴）。停牌名单已通过既有接口按21日重新查询，详见<a href="missing_daily_reconciled.csv">无行情原因</a>。两家终止上市依据沿用<a href="../20261021T064829_488127Z/REPORT.html">上次核验报告</a>。</p>
+<p>更新前后20日及以前全部2026日线逐行一致；更新产物哈希和冻结快照校验通过。2026分区实测1,051,857行。</p>
+<p>新板块数据含103个有效板块，当日成员归属覆盖79.31%。既有行业历史完整性/PIT限制仍在；美股、基准指数和全仓库名称历史未在本次同步。这些数据不参与本次信号生成，不能把本次A股更新描述成全仓库已完整。</p>
+<h2>模型结果与事件有效期</h2>
+<table>
+<thead>
+<tr>
+<th>环节</th>
+<th style="text-align: right;">21日结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>有效板块</td>
+<td style="text-align: right;">103</td>
+</tr>
+<tr>
+<td>观察池</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>触发层</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr>
+<td>当日形态确认</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>去重后新首次确认</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>进入个股筛选的板块</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>本次评分个股</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>新候选</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">板块</th>
+<th style="text-align: left;">代码</th>
+<th style="text-align: left;">21日形态确认</th>
+<th style="text-align: left;">本轮涨幅</th>
+<th style="text-align: left;">距峰值回撤</th>
+<th style="text-align: left;">距参照位</th>
+<th style="text-align: left;">最近首次确认</th>
+<th style="text-align: left;">是否21日首次</th>
+<th style="text-align: left;">状态说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">农产品加工</td>
+<td style="text-align: left;">801012.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">31.01%</td>
+<td style="text-align: left;">-17.22%</td>
+<td style="text-align: left;">2.82%</td>
+<td style="text-align: left;">2019-05-13 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">渔业</td>
+<td style="text-align: left;">801015.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">26.83%</td>
+<td style="text-align: left;">-16.85%</td>
+<td style="text-align: left;">1.71%</td>
+<td style="text-align: left;">2025-01-07 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">贵金属</td>
+<td style="text-align: left;">801053.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">30.42%</td>
+<td style="text-align: left;">-22.69%</td>
+<td style="text-align: left;">-8.79%</td>
+<td style="text-align: left;">2024-07-01 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑；下跌尚未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">房地产服务</td>
+<td style="text-align: left;">801183.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">19.86%</td>
+<td style="text-align: left;">-12.16%</td>
+<td style="text-align: left;">3.14%</td>
+<td style="text-align: left;">无</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑</td>
+</tr>
+<tr>
+<td style="text-align: left;">酒店餐饮</td>
+<td style="text-align: left;">801219.SI</td>
+<td style="text-align: left;">是</td>
+<td style="text-align: left;">16.99%</td>
+<td style="text-align: left;">-15.47%</td>
+<td style="text-align: left;">-7.62%</td>
+<td style="text-align: left;">2026-09-17 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">旧事件再次满足形态</td>
+</tr>
+<tr>
+<td style="text-align: left;">航海装备Ⅱ</td>
+<td style="text-align: left;">801744.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">16.83%</td>
+<td style="text-align: left;">-10.12%</td>
+<td style="text-align: left;">-0.12%</td>
+<td style="text-align: left;">2025-10-21 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑；下跌尚未减速</td>
+</tr>
+<tr>
+<td style="text-align: left;">焦炭Ⅱ</td>
+<td style="text-align: left;">801952.SI</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">17.73%</td>
+<td style="text-align: left;">-13.18%</td>
+<td style="text-align: left;">-0.78%</td>
+<td style="text-align: left;">2025-11-25 00:00:00</td>
+<td style="text-align: left;">否</td>
+<td style="text-align: left;">近期未破支撑</td>
+</tr>
+</tbody>
+</table>
+<p>当日满足形态与新的首次确认是两件事。养殖业20日事件的原入场有效日是21日，不顺延至22日；酒店餐饮旧事件也不重开。暂停年度板块判断没有取消事件去重或延长入场窗口。</p>
+<p>与20日相比：养殖业、医疗服务退出观察层，航海装备Ⅱ进入观察层。养殖业21日反弹后距本轮峰值回撤为-7.49%，未达到原规则至少10%的回撤要求，当前回落门槛未过。航海装备Ⅱ仍缺近期跌破支撑和下跌减速两个条件。<a href="state_changes.csv">状态变化明细</a></p>
+<p><strong>本次没有新个股候选。</strong> 当前策略只对当日去重后的首次确认执行个股筛选；无新事件时，个股评分流程按规则跳过，不是个股评分全部失败。</p>
+<p>本次是21日的正式当前策略扫描，记录类型 <code>current_policy_scan</code>，对应下一交易日22日；不是按新规则回填旧信号。模型报告不等同于订单或成交，未执行任何交易。</p>
+<h2>20日候选后续跟踪</h2>
+<p>以下保留20日的候选身份，仅列21日价格变化；不是22日新推荐，也没有按21日涨跌重新排序。涨跌幅采用行情字段，不是实际买入收益或策略回测收益。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">20日候选</th>
+<th style="text-align: left;">代码</th>
+<th style="text-align: right;">20日收盘</th>
+<th style="text-align: right;">21日收盘</th>
+<th style="text-align: left;">21日涨跌幅</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">京基智农</td>
+<td style="text-align: left;">000048.SZ</td>
+<td style="text-align: right;">14.57</td>
+<td style="text-align: right;">15.00</td>
+<td style="text-align: left;">+2.95%</td>
+</tr>
+<tr>
+<td style="text-align: left;">神农集团</td>
+<td style="text-align: left;">605296.SH</td>
+<td style="text-align: right;">28.68</td>
+<td style="text-align: right;">30.30</td>
+<td style="text-align: left;">+5.65%</td>
+</tr>
+<tr>
+<td style="text-align: left;">华英农业</td>
+<td style="text-align: left;">002321.SZ</td>
+<td style="text-align: right;">1.82</td>
+<td style="text-align: right;">1.85</td>
+<td style="text-align: left;">+1.65%</td>
+</tr>
+<tr>
+<td style="text-align: left;">巨星农牧</td>
+<td style="text-align: left;">603477.SH</td>
+<td style="text-align: right;">13.33</td>
+<td style="text-align: right;">14.00</td>
+<td style="text-align: left;">+5.03%</td>
+</tr>
+<tr>
+<td style="text-align: left;">天域生物</td>
+<td style="text-align: left;">603717.SH</td>
+<td style="text-align: right;">5.61</td>
+<td style="text-align: right;">5.60</td>
+<td style="text-align: left;">-0.18%</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="历史候选跟踪" src="previous_candidates_followup.png" /></p>
+<h2>产物与复现</h2>
+<ul>
+<li><a href="../../strategy_2026_opportunity_scan/20261021_gate_paused_20261021T173036_633714Z/REPORT.html">当前模型报告</a></li>
+<li><a href="../../strategy_2026_opportunity_scan/20261021_gate_paused_20261021T173036_633714Z/stock_candidates.csv">当前候选CSV</a></li>
+<li><a href="../../strategy_2026_opportunity_scan/20261021_gate_paused_20261021T173036_633714Z/first_confirmations.csv">首次确认事件</a></li>
+<li><a href="../../sector_live_scan/20261021T172443_233422Z/sector_states_today.csv">完整板块状态</a></li>
+<li><a href="field_coverage.csv">本次字段覆盖</a>、<a href="update_verification.json">更新验证</a>、<a href="verification.json">保护文件核验</a></li>
+<li><a href="update.log">更新日志</a>、<a href="build_dataset.log">板块构建日志</a>、<a href="scan_sectors.log">板块扫描日志</a>、<a href="scan_stocks.log">当前策略日志</a></li>
+</ul>
+<p>行情快照：<code>datahub/releases/selection_live_20261021_eod</code>；内容ID：<code>615021535699c648a382255f3bfd6fc3ac9fdb985032dfef19ab91f1f182a8a3</code>。</p>
+<pre><code class="language-bash">python alpha_lab/experiments/sector_live_v1/update_market.py --config alpha_lab/experiments/sector_live_v1/config_20261021_eod.yaml
+python datahub/scripts/frozen_research.py run --release datahub/releases/selection_live_20261021_eod alpha_lab/scripts/build_sector_dataset.py --config alpha_lab/experiments/sector_live_v1/dataset_config_20261021_eod.yaml
+python datahub/scripts/frozen_research.py run --release datahub/releases/selection_live_20261021_eod alpha_lab/experiments/sector_live_v1/scan_sectors.py --dataset /root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261021T171918_920041Z --config alpha_lab/experiments/sector_live_v1/config_20261021_eod.yaml
+python datahub/scripts/frozen_research.py run --release datahub/releases/selection_live_20261021_eod alpha_lab/experiments/sector_live_v1/scan_stocks.py --scan /root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261021T172443_233422Z
+</code></pre>
+<p>更新已完成，不应再次执行首条增量下载；复现模型可以直接使用已冻结快照及后续命令。未重新训练模型、修改筛选门槛或回填历史事件。</p></body></html>

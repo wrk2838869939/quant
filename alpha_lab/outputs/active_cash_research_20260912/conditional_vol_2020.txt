@@ -1,0 +1,2357 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ufaj20
+Financial Analysts Journal
+ISSN: 0015-198X (Print) 1938-3312 (Online) Journal homepage: https://www.tandfonline.com/loi/ufaj20
+Conditional Volatility Targeting
+Dion Bongaerts, Xiaowei Kang & Mathijs van Dijk
+To cite this article: Dion Bongaerts, Xiaowei Kang & Mathijs van Dijk (2020): Conditional Volatility
+Targeting, Financial Analysts Journal
+To link to this article:  https://doi.org/10.1080/0015198X.2020.1790853
+© 2020 The Author(s). Published with
+license by Taylor & Francis Group, LLC.
+View supplementary material 
+Published online: 04 Sep 2020.
+Submit your article to this journal 
+View related articles 
+View Crossmark data
+
+Financial Analysts Journal | A Publication of CFA Institute
+Research
+PL Credits: 2.0
+Volume 76 Number 4	
+© 2020 The Author(s). Published with license by Taylor & Francis, LLC.
+1
+https://doi.org/10.1080/0015198X.2020.1790853
+Conditional Volatility 
+Targeting
+Dion Bongaerts , Xiaowei Kang, CFA, and Mathijs van Dijk 
+Dion Bongaerts is an associate professor of finance at Rotterdam School of Management, Erasmus University, the Netherlands. 
+Xiaowei Kang, CFA, is head of research of the Indexed Funds Department at the Abu Dhabi Investment Authority and an affiliated 
+researcher at Rotterdam School of Management, Erasmus University, the Netherlands. Mathijs van Dijk is a professor of finance at 
+Rotterdam School of Management, Erasmus University, the Netherlands.
+T
+he clustering of volatility and the negative correlation between 
+realized volatility and returns are two well-documented fea-
+tures of equity markets. These features have motivated the use 
+of volatility targeting to dynamically adjust market exposure based 
+on volatility. Volatility targeting essentially levers up the exposure 
+whenever volatility is low and scales it down when volatility is high. 
+Investors can use this strategy to boost portfolio returns and mitigate 
+tail risks and drawdowns.
+Against the recent backdrop of elevated macroeconomic and market 
+uncertainties, volatility-targeting strategies have received renewed 
+attention among both academics and practitioners. Moreira and Muir 
+(2017) found that volatility-managed portfolios increase Sharpe ratios 
+for the US equity market and long–short equity factors. Harvey, 
+Hoyle, Korgaonkar, Rattray, Sargaison, and Van Hemert (2018) showed 
+that volatility targeting reduces tail risks across asset classes in the 
+US market but that the Sharpe ratio gain is limited to “risk assets” 
+(equities and corporate credit).
+In our study, we critically assessed the performance and practi-
+cal implementation of volatility-targeting strategies in major equity 
+markets and for major factors. Our strategies use equity index futures 
+and investable equity factors so that they can be implemented in 
+practice. In this article, we first confirm the findings of Liu, Tang, and 
+Zhou (2019) that the volatility-targeting strategies in Moreira and Muir 
+(2017) and Harvey et al. (2018) are subject to look-ahead bias because 
+they involve a scaling factor that is constructed ex post. We describe an 
+implementable volatility-targeting strategy we constructed that does 
+not involve ex post scaling, which we call conventional volatility targeting. 
+We found that the conventional volatility-targeting strategy does not 
+consistently improve risk-adjusted performance in international equity 
+markets and can significantly overshoot the volatility target—thereby 
+increasing maximum drawdowns and tail risks. When applying the con-
+ventional strategy to equity factors, we found that it increased Sharpe 
+ratios for the momentum factor (factors are defined later) across US 
+In analyzing the performance of 
+volatility-targeting strategies, we 
+found that conventional volatility 
+targeting fails to consistently improve 
+performance in global equity markets 
+and can lead to markedly greater 
+drawdowns. Motivated by return 
+patterns in various volatility states, 
+we propose a strategy of conditional 
+volatility targeting that adjusts 
+risk exposures only in the extremes 
+during high- and low-volatility 
+states. This strategy consistently 
+enhances Sharpe ratios and reduces 
+drawdowns and tail risks, with low 
+turnover and leverage, when used 
+in the major equity markets and for 
+momentum factors across regions. 
+Conditional volatility management 
+can also be applied to tactical 
+allocations among multiple assets 
+or risk factors.
+Disclosure: The authors report no 
+conflicts of interest. The views expressed 
+in this article are those of the authors 
+in their personal capacity and do not 
+reflect the views of the Rotterdam 
+School of Management or the Abu Dhabi 
+Investment Authority.
+This is an Open Access article distributed 
+under the terms of the Creative Commons 
+Attribution-NonCommercial-NoDerivatives 
+License (http://creativecommons.org/licenses/
+by-nc-nd/4.0/), which permits non-commercial 
+re-use, distribution, and reproduction in any 
+medium, provided the original work is properly 
+cited, and is not altered, transformed, or built 
+upon in any way.
+We would like to thank Stephen J. Brown, Jean-Francois L’Her, and Steven Thorley, CFA, 
+for helpful comments and suggestions.
+
+Financial Analysts Journal | A Publication of CFA Institute
+2	
+
+Fourth Quarter 2020
+and international markets, but it did not do so for 
+the size, value, profitability, or investment factors. 
+Furthermore, the conventional strategy is associated 
+with high portfolio turnover (often more than 200% 
+per year) and significant time-varying leverage, which 
+is likely to cause problems in practical implementa-
+tion. These findings cast doubt on the usefulness of 
+conventional volatility-targeting strategies.
+We continue in the article by showing that the gains 
+from volatility targeting vary with volatility states. 
+In particular, during times of high volatility, volatil-
+ity clustering is stronger, the correlation between 
+realized volatility and future returns is significantly 
+more negative, and the gains from volatility target-
+ing are thus larger than in times of low or medium 
+volatility. Motivated by these findings, we propose 
+a conditional volatility-targeting strategy that adjusts 
+risk exposures conditioned on (extreme) volatility 
+states. In its basic form, the strategy reduces risk 
+exposures during high-volatility states, increases risk 
+exposures during low-volatility states, and maintains 
+an unscaled exposure otherwise.
+We show that this conditional strategy significantly 
+reduces drawdowns and tail risks in all major equity 
+markets and for the momentum factor, and it does 
+so with significantly lower turnover and leverage 
+than the conventional volatility-targeting strategy. 
+Furthermore, we show that the conditional strategy 
+enhances Sharpe ratios—most prominently for the 
+momentum factor across regions and, to a lesser 
+degree, for the market factor. We also show that the 
+performance of the conditional strategy is robust to 
+alternative approaches to identifying volatility states.
+We conclude that conditioning on (extreme) volatil-
+ity states is important when using volatility target-
+ing. Importantly, investors should be selective with 
+the use of volatility targeting because the strategy 
+improves performance only for a limited range of 
+factors and markets.
+Conditional volatility management has broader appli-
+cations than discussed in our main analysis. Volatility 
+management that allocates between risky assets 
+(equities, momentum-factor strategies) and flight-to-
+quality assets (treasuries, profitability-factor strate-
+gies) during high-volatility states can enhance returns 
+and is a promising direction for future research.
+Data and Methods
+We used daily return data on global equity markets 
+and factors. Exhibit 1 provides an overview of our 
+data. For equity markets, we covered the 10 larg-
+est markets that historically account for more than 
+80%–90% of market capitalization in global equities.1 
+These markets have liquid equity index futures, 
+which significantly reduces the cost of implementing 
+volatility-targeting strategies. Our daily returns are 
+given in domestic currencies and cover the period of 
+January 1972 to March 2019. We used equity index 
+futures after their inception in each market; prior to 
+that time, we used the corresponding equity index 
+returns for the market.2
+For equity factors, we used data from Kenneth 
+French’s website to construct (large-capitalization 
+versions of) the following factors: momentum 
+(MOM, or Carhart 1997 monthly momentum), size 
+Exhibit 1. Sample and Data Description
+Assets
+Regions
+Complete 
+Sample Period
+Strategy 
+Sample Period
+Data Source
+Equity markets 
+(equity index 
+futures)
+US, Japan, UK, France, Canada, 
+Germany, Switzerland, 
+Australia, Netherlands, 
+and Hong Kong SAR
+1972–2019
+1982–2019
+Datastream
+Equity factors (size, 
+value, profitabil-
+ity, investment,  
+and momentum)
+US
+Global, Global ex US, Europe, 
+Japan, Asia Pacific ex Japan
+1963–2019
+1990–2019
+1973–2019
+1995–2019
+Kenneth R. French website 
+(https://mba.tuck.dart-
+mouth.edu/pages/faculty/
+ken.french/data_library.
+html); factor returns recon-
+structed by authors using 
+only the “Big” portfolios to 
+ensure investability
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+3
+(SMB, or small minus big), value (HML, or high book to 
+market minus low book to market), profitability (RMW, 
+or robust [high] operating profitability minus weak 
+[low] operating profitability), and investment (CMA, 
+or conservative investment minus aggressive invest-
+ment); see Fama and French (2015).3 The data (based 
+on availability of return data) span July 1963–March 
+2019 for the US factors and November 1990–March 
+2019 for global, global ex US, Europe, Japan, and Asia 
+ex Japan factors.
+The factors used in most academic studies are well 
+known to be not investable strategies because they 
+include many small- and microcap stocks. Such 
+stocks are generally illiquid and difficult to short. 
+Therefore, for all the equity factors except SMB, 
+we recalculated factor returns using the largest 
+stocks with respect to market capitalization (larger-
+than-median stocks by market cap on the NYSE). 
+For instance, whereas the original HML factor is con-
+structed as [1/2 × (Small Value + Big Value)] – [1/2 × 
+(Small Growth + Big Growth), we reconstructed the 
+factor as Big Value – Big Growth. For the size factor, 
+we formed portfolios on the basis of market cap and 
+constructed the factor as the difference between the 
+largest size quintile and the second-largest quintile.4
+Following Moreira and Muir (2017) and Harvey 
+et al. (2018), we focused on excess returns. Returns 
+of equity index futures and long–short equity factors 
+are equivalent to excess returns because both are 
+unfunded. To calculate excess returns, we used for 
+the period prior to the inception of equity index 
+futures the cash equity index returns and deducted 
+the risk-free rate (the three-month T-bill rate for the 
+US market and the equivalent for other countries/
+regions, all of which came from Datastream).
+Constructing Volatility-Targeting 
+Portfolios. Volatility-targeting strategies scale the 
+excess returns of the original portfolio by the inverse 
+of its conditional volatility. Consistent with the 
+findings of Liu et al. (2019), however, we point out 
+that the strategies constructed by Moreira and Muir 
+(2017) and Harvey et al. (2018) are subject to look-
+ahead bias as to volatility because their methodology 
+assumes that the volatility-targeting portfolio can be 
+rescaled ex post. For instance, Harvey et al. (2018) 
+calculated volatility-scaled returns as follows:
+r
+r
+k
+t
+scaled
+t
+target
+t
+scaled
+=
+×
+×
+−
+σ
+σ
+2
+, 	
+(1)
+where rt is return at time t, σ is standard deviation, 
+σtarget is a fixed volatility target, and the constraint 
+kscaled is chosen ex post to achieve the specific volatil-
+ity target over the full sample period. Under certain 
+assumptions,5 ex post rescaling leaves Sharpe ratios 
+unaffected and the performance of the strategy 
+easy to compare with the original portfolio, but the 
+strategies are impossible to implement in practice. 
+Moreover, they may leave investors exposed to 
+unanticipatedly high volatility and excess kurtosis of 
+returns. Therefore, we constructed implementable 
+volatility-targeting strategies without ex post scaling 
+and look-ahead bias.
+Specifically, we constructed two types of volatility-
+targeting strategies. The first strategy (which we call 
+“conventional volatility targeting” and for which we, 
+hereafter, use the shorthand “conventional strategy”) 
+scales risk exposure throughout the sample period at 
+the start of each month t:
+−
+σ
+=
+× σ
+1
+ˆ
+target
+scaled
+t
+t
+t
+r
+r
+ for t = 1 to T,	
+(2)
+where σtarget is the long-term realized volatility 
+calculated using all daily returns up to and includ-
+ing month t – 1. The variable 
+−
+σ
+1
+ˆ t
+ is the predicted 
+volatility for month t and was estimated by the 
+realized volatility in the previous month, t – 1 (as the 
+equally weighted standard deviation of daily returns). 
+We excluded the last trading day of the month to 
+ensure that 
+−
+σ
+1
+ˆ t
+ would be known one day ahead of 
+rebalancing.
+The second strategy (“conditional volatility target-
+ing,” or the “conditional strategy”) adjusts risk 
+exposures only when month t is predicted to be 
+an extreme volatility state (scaling up to a certain 
+leverage), and otherwise, an unscaled risk exposure is 
+maintained; that is, 
+(
+)
+−
+
+
+σ
+=
+×
+×
++
+−
+×
+
+
+
+
+σ
+
+
+max
+1
+,
+min
+ˆ
+, 
+1
+target
+scaled
+t
+t
+t
+t
+t
+t
+r
+I
+r
+L
+I
+r 	
+(3)
+where indicator variable It equals 1 if month t is 
+predicted to be an extreme volatility state and equals 
+0 otherwise and Lmax is the maximum leverage the 
+strategy can take on. We constructed the conditional 
+strategy to reduce exposure and risk in high-volatility 
+states, increase exposure and risks by taking on 
+leverage in low-volatility states, and maintain an 
+unscaled exposure in medium-volatility states.6
+
+Financial Analysts Journal | A Publication of CFA Institute
+4	
+
+Fourth Quarter 2020
+To forecast volatility states for the conditional strat-
+egy, we sorted realized volatility of all months up to 
+t – 1 into quintiles. If the volatility of month t – 1 was 
+in the highest (lowest) quintile, we predicted a high-
+volatility (low-volatility) state for month t; otherwise, 
+we predicted a medium-volatility state for month t. 
+This simple approach used the same data as the 
+conventional strategy, so the strategies are directly 
+comparable. In addition, our conditional strategy is 
+robust to the use of alternative bands for predicted 
+volatility states—such as realized volatility quartiles 
+instead of quintiles—or fixed ratios of realized volatil-
+ity over target volatility (see the section “Robustness 
+Tests of Conditional Strategies”).
+For analysis of both equity markets and equity fac-
+tors, we set the volatility target in month t as, based 
+on all return data available prior to month t, the long-
+term volatility of that asset. This approach prevented 
+any look-ahead bias or arbitrary choices as to volatil-
+ity targets. We required at least 10 years of returns 
+for calculating the long-term volatility. Therefore, our 
+volatility-targeting analysis starts 10 years after the 
+starting dates of the two datasets.7
+As a robustness check, we also followed Harvey 
+et al. (2018) by using the exponentially weighted 
+standard deviation of daily returns in the previ-
+ous year to estimate volatility. In addition, we used 
+GARCH (generalized autoregressive conditional 
+heteroskedasticity) forecasts to estimate volatility. 
+We found the benefits of volatility targeting to be 
+robust to different volatility forecasts. We preferred 
+using realized volatility in the previous month for 
+simplicity reasons.8 Implied volatility is a potentially 
+more efficient estimate of future volatility that may 
+further improve performance but is not used in this 
+article because it is available only for a short sample 
+period for the 10 equity markets we studied; it is not 
+available for the long–short equity factors.
+Transaction Costs. All of our performance 
+measures are net of transaction costs. To account 
+for the trading costs for implementing the volatility-
+targeting strategies, we assumed a transaction cost 
+of 3 basis points (bps) of notional value traded for 
+equity futures for the last 20 years of the sample 
+period and 5 bps for the earlier period, which is 
+more conservative than the 1 bp used by Harvey 
+et al. (2018). We based our assumption on Kotecha, 
+Couasnon, and Galazidis (2016) and CME Group 
+(2016), which estimated a total transaction cost of 
+1.4–1.5 bps for a $100 million order on S&P 500 
+Index futures (these estimates included market 
+impact). Trading costs in international equity index 
+futures are probably higher than in US markets, but 
+the market impact may be mitigated because of 
+smaller transaction sizes.
+For trading equity factors, the transaction costs 
+contain two components. The first comes from the 
+trading associated with volatility targeting. The sec-
+ond comes from the rebalancing of the equity factors 
+themselves. Neither the Fama–French factor returns 
+on the French website nor Moreira and Muir (2017) 
+account for the latter. For the first component, we 
+assumed a transaction cost of 25 bps of notional value 
+traded to implement volatility targeting, which is more 
+conservative than the 18 bps average implementa-
+tion shortfall found by Frazzini, Israel, and Moskowitz 
+(2015).9 We used a more conservative estimate to 
+account for higher trading costs in the earlier periods 
+of our sample. For the second component, we conser-
+vatively assumed an annualized two-way turnover of 
+400% for momentum (which translates to 100 bps of 
+rebalancing cost) and 200% for other factors (translat-
+ing to 50 bps of rebalancing cost).
+Motivation for Conditional 
+Volatility Targeting
+In this section, we review the performance drivers 
+of volatility targeting, consider the challenges of 
+implementing the conventional strategy, and discuss 
+motivation for the conditional strategy.
+Conventional Volatility Targeting: 
+Inconsistent Performance in Equity 
+Markets. Two well-documented features of equity 
+markets underpin the theory and practice of volatil-
+ity targeting. The first is volatility clustering, which 
+led to the development of autoregressive conditional 
+heteroskedasticity models (Engle 1982), which are 
+now widely used in financial economics. The second 
+is the negative correlation between volatility and 
+returns. In particular, market crashes tend to be asso-
+ciated with volatility spikes.10 Black (1976) explained 
+the negative contemporaneous correlation between 
+equity returns and volatility by noting a “leverage 
+effect”; that is, negative returns increase financial 
+leverage, leading to increased risk and volatility.11
+Harvey et al. (2018) argued that the leverage effect is 
+confined to risk assets (stocks and corporate bonds) 
+and can explain why volatility targeting improves 
+Sharpe ratios for such assets. Yet, the contempo-
+raneous correlation between returns and volatility 
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+5
+cannot be directly exploited. Instead, volatility-
+targeting strategies use estimates of future volatility, 
+such as realized volatility. Therefore, it is the correla-
+tion between realized volatility and future returns (as 
+well as future realized volatility) that largely deter-
+mines whether volatility targeting leads to superior 
+risk-adjusted returns.12
+An analysis of the performance of conventional 
+volatility targeting provides insights into these two 
+performance drivers. Table 1 shows performance 
+statistics for the conventional volatility-targeting 
+strategy versus the original portfolio in major equity 
+markets and for US equity factors. In addition to the 
+Sharpe ratio, we report the maximum drawdown and 
+the expected shortfall (99%) because one of the main 
+motivations of the strategy is to reduce downside risk 
+and tail risk.13 For ease of comparison, we show the 
+performance of the conventional strategy relative to 
+the original portfolios. We highlighted in boldface any 
+performance results shown in Table 1 that contradict 
+the objectives of the strategy. Also reported is the 
+ratio of realized volatility to target volatility for the 
+volatility-targeting strategies; the unconditional vola-
+tility estimate of the original portfolio is the target.
+Panel A of Table 1 shows that the conventional 
+strategy improves Sharpe ratios the most in the 
+US and Japanese markets; the improvement is 
+much weaker or even nonexistent in other markets. 
+Table 1. Performance of the Conventional Volatility-Targeting Strategy
+ 
+ 
+Original Portfolio
+Conventional Volatility-Targeting Portfolio
+Sharpe 
+Ratio
+Maximum 
+Drawdown
+Expected 
+Shortfall 
+Sharpe 
+Ratio 
+Increase
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+Realized 
+Volatility/
+Target
+Annual 
+Turnover 
+(times)
+A. Global equity markets (1982–2019)
+ 
+ 
+ 
+ 
+ 
+US
+0.59
+52.8%
+–14.9%
+0.15*
+–7.0%
+1.2%
+1.16
+2.4
+Japan
+0.10
+75.4 
+–17.1 
+0.13
+–2.8 
+–1.8 
+0.98
+1.8
+UK
+0.43
+49.4 
+–14.9 
+0.01
+9.8 
+1.5 
+1.31
+2.1
+France
+0.38
+60.7 
+–16.6 
+0.00
+–3.6 
+1.3 
+1.05
+1.9
+Canada
+0.35
+49.6 
+–17.2 
+0.01
+4.0 
+1.9 
+1.15
+2.1
+Germany
+0.36
+68.3 
+–20.4 
+0.06
+–9.9 
+0.8 
+0.99
+1.8
+Switzerland
+0.42
+51.3 
+–16.6 
+0.06
+–0.8 
+0.2 
+1.09
+2.2
+Australia
+0.42
+51.0 
+–18.4 
+–0.03
+4.0 
+6.4 
+1.34
+2.1
+Netherlands
+0.36
+68.7 
+–21.2 
+0.01
+–4.8 
+–0.3 
+1.14
+2.3
+Hong Kong SAR
+0.31
+59.4
+–28.3
+–0.04
+34.4 
+16.9 
+1.57
+2.6
+Market average
+0.37
+58.7
+–18.6
+0.04
+2.3
+2.8
+1.18
+2.1
+B. US equity factors (1973–2019)
+ 
+ 
+ 
+ 
+ 
+ 
+Size
+0.25
+46.5%
+–5.9%
+–0.15**
+3.8%
+0.0%
+0.99
+1.6
+Value
+0.13
+42.9 
+–10.2 
+–0.13*
+19.2 
+–0.4 
+0.95
+1.7
+Profitability
+0.19
+34.6 
+–7.2 
+–0.08
+1.0 
+–0.3 
+0.95
+1.6
+Investment
+0.26
+48.5 
+–9.2 
+–0.22**
+17.5 
+–1.7 
+1.00
+2.0
+Momentum
+0.14
+51.3
+–18.0
+0.16**
+–7.4
+–5.5
+0.93
+2.0
+Notes: Results are net of transaction costs. The “Expected Shortfall” (99%) is the mean of monthly returns below the first percen-
+tile. “Realized Volatility/Target” is the ratio of the realized volatility of the strategy to the volatility of the original portfolio. “Annual 
+Turnover” is one-way turnover (i.e., the sum of buy and sell divided by two). Performance results that violated the objectives of the 
+strategy are in boldface. For statistics on Sharpe ratios, see Lo (2002).
+*Sharpe ratio increase significant at the 5% level.
+**Sharpe ratio increase significant at the 1% level.
+
+Financial Analysts Journal | A Publication of CFA Institute
+6	
+
+Fourth Quarter 2020
+The conventional strategy reduces maximum draw-
+down the most in the US and German markets, and 
+it actually increases the maximum drawdown in the 
+UK, Canadian, Australian, and Hong Kong markets, 
+by 4.0%–34.4%. The strategy also increases expected 
+shortfall in 8 out of 10 markets, including the US 
+market. This result defies one of the main purposes 
+of volatility targeting: reduction of downside risk. 
+This result is at odds with Harvey et al. (2018), who 
+showed that volatility targeting consistently reduces 
+tail risk. A possible reason is their ex post scaling.
+Volatility-targeting strategies can over- or under-
+shoot the target volatility in the following month. 
+The ratio of realized volatility to target volatility of 
+the conventional strategy in Panel A of Table 1 is 
+generally higher than 1.0 (e.g., 1.16 in the US market 
+and 1.31 in the UK market), which suggests that 
+overshooting has more significant effects on the 
+realized volatility of the conventional strategy than 
+undershooting.14 Overshooting target volatility 
+can cause problems in practice. For instance, it can 
+completely distort the risk contribution of equities 
+in an investor’s overall asset allocation. In addition, it 
+is the main driver of the increased drawdown and/or 
+tail risk we observe.
+The average annual turnover of the conventional 
+strategy shown in Panel A of Table 1 is high—ranging 
+from 1.8 to 2.6 in various markets. 
+Overall, we conclude that there is no evidence that 
+the conventional volatility-targeting strategy con-
+sistently increases risk-adjusted returns and reduces 
+downside risk across international markets. The lack 
+of consistent outperformance and risk reduction, 
+together with the high turnover of the conventional 
+strategy, makes conventional volatility targeting 
+unappealing for implementation.
+Panel B of Table 1 shows results for our analysis of 
+the performance of volatility-targeting strategies for 
+equity factors in the US market. Since the report by 
+Ang, Goetzmann, and Schaefer (2009), factor invest-
+ing has become increasingly popular among institu-
+tional investors. Because equity factors are cyclical 
+and can experience large drawdowns, investors 
+typically diversify among multiple factors to reduce 
+downside risk. Another approach to managing the 
+downside risk of factor portfolios is to dynamically 
+adjust the exposure to individual factors on the basis 
+of the state of the market. Volatility management is 
+a natural candidate for achieving such downside risk 
+reduction.
+Panel B of Table 1 shows the performance of the 
+conventional volatility-targeting strategy versus 
+the original long–short factor portfolios. For the 
+US momentum factor, the strategy significantly 
+improved the Sharpe ratio (by 0.16), decreased 
+the maximum drawdown by 7.4% (from 51.3%), 
+and reduced the expected shortfall by 5.5% (from 
+–18.0%).15 For the US size, value, and investment 
+factors, however, conventional volatility target-
+ing decreased the Sharpe ratios and increased the 
+maximum drawdowns.
+We conducted a similar analysis for equity factors in 
+international markets. Consistent with our findings 
+for the US factors and with a concurrent paper by 
+Cederburg, O’Doherty, Wang, and Yan (forthcom-
+ing), the conventional strategy improved Sharpe 
+ratios and reduced downside risk for the momentum 
+factor in various regions but did not do so for other 
+factors.16 This finding is in contrast to Moreira and 
+Muir (2017), who found that volatility-managed 
+portfolios produce large alphas for all equity fac-
+tors. Importantly, the conventional strategy requires 
+significant and time-varying leverage and incurs 
+high turnover. For the momentum factor, the maxi-
+mum leverage ranges between 3.7 and 5.5, and the 
+annualized turnover ranges between 2.0 and 2.6. 
+These characteristics make the conventional strategy 
+particularly challenging to implement for long–short 
+equity factors because of trading and shorting costs.
+The Behavior of Asset Prices Differs 
+across Volatility States. The lack of perfor-
+mance consistency in the conventional strategies can 
+be attributed to the relationship between volatility 
+and return. Table 2 provides data on the behavior of 
+returns and volatility in the three different volatility 
+states. Panel A of Table 2 shows that the (tradable) 
+correlation between realized volatility and future 
+returns is only –0.02, on average, in the major equity 
+markets (compared with a strongly negative con-
+temporaneous correlation of approximately –0.30). 
+This relationship explains the relatively weak and 
+inconsistent performance of conventional strategies 
+in global markets.
+Panels B and C of Table 2 show that the correlations 
+between volatility and future returns are strongly 
+negative for the momentum factor across regions 
+but not for any other factors. To further illustrate 
+this phenomenon, Figure A3 in Appendix A shows 
+that momentum crashes are often associated with 
+spikes in momentum volatility—most notably in 2009 
+but also in other episodes, such as 2000–2001. 
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+7
+In comparison, the profitability factor tends to do 
+well when volatility is high; it generated significant 
+returns during both periods.
+As discussed, the other practical problems of con-
+ventional volatility targeting include the tendency to 
+overshoot the volatility target, increased drawdowns 
+and tail risk, significant leverage, and high turnover. 
+We argue that these problems are directly related to 
+the constant and unconditional rebalancing across 
+all volatility states. Such unconditional rebalancing 
+implicitly assumes a uniform utility gain from volatil-
+ity targeting across all volatility states.
+Table 2. Behavior of Returns and Volatilities in Different Volatility States
+ 
+Contemporaneous 
+Correlation  
+(volatility vs. 
+return)
+Correlation of Realized Volatility 
+with Future Return
+Volatility Autocorrelation
+Whole 
+Period
+High-
+Vol. 
+States
+Medium-
+Vol. 
+States
+Low-
+Vol. 
+States
+High-
+Vol. 
+States
+Medium-
+Vol. 
+States
+Low-
+Vol. 
+States
+A. Global equity markets
+US
+–0.32
+–0.05
+–0.22
+–0.02
+–0.06
+0.43
+0.14
+0.22
+Japan
+–0.33
+–0.06
+–0.04
+0.11
+–0.02
+0.35
+0.04
+0.22
+UK
+–0.14
+0.04
+–0.05
+–0.01
+0.01
+0.60
+0.13
+0.13
+France
+–0.30
+–0.01
+–0.17
+0.02
+0.08
+0.52
+0.18
+0.24
+Canada
+–0.32
+–0.05
+–0.18
+0.00
+–0.05
+0.66
+0.15
+0.31
+Germany
+–0.30
+0.02
+–0.14
+–0.02
+–0.07
+0.55
+0.20
+0.26
+Switzerland
+–0.35
+–0.03
+–0.10
+–0.01
+0.09
+0.45
+0.05
+0.31
+Australia
+–0.31
+–0.03
+–0.08
+0.03
+–0.14
+0.59
+0.07
+0.26
+Netherlands
+–0.37
+–0.01
+–0.09
+–0.10
+0.07
+0.66
+0.13
+0.15
+Hong Kong SAR
+–0.23
+–0.03
+0.02
+–0.03
+–0.04
+0.35
+0.35
+0.21
+Market average
+–0.30
+–0.02
+–0.10
+0.00
+–0.01
+0.52
+0.14
+0.23
+B. US equity factors
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Size
+–0.12
+0.06
+0.05
+0.01
+0.03
+0.42
+0.12
+0.26
+Value
+0.07
+0.02
+0.05
+0.01
+–0.17
+0.81
+0.13
+0.19
+Profitability
+0.14
+0.09
+0.21
+–0.03
+0.01
+0.69
+0.14
+0.08
+Investment
+0.19
+0.17
+0.22
+0.02
+–0.01
+0.71
+0.08
+0.12
+Momentum
+–0.23
+–0.14
+–0.21
+–0.06
+0.16
+0.71
+0.18
+0.23
+C. Global momentum factors
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Global
+–0.30
+–0.16
+–0.21
+0.06
+0.10
+0.65
+0.08
+0.29
+Global ex US
+–0.24
+–0.15
+–0.22
+–0.02
+0.07
+0.62
+0.22
+0.22
+Europe
+–0.20
+–0.19
+–0.29
+–0.07
+–0.04
+0.70
+0.11
+0.24
+Japan
+–0.18
+–0.05
+–0.06
+0.09
+0.09
+0.52
+0.13
+0.07
+Pacific ex Japan
+–0.31
+–0.25
+–0.27
+0.07
+–0.19
+0.37
+0.15
+0.23
+Momentum 
+average
+–0.24
+–0.16
+–0.21
+0.01
+0.03
+0.60
+0.15
+0.21
+Notes: The realized volatility of month t – 1 was sorted into five quintiles as proxies for different volatility states. The lowest- 
+and highest-volatility quintiles are defined as, respectively, the low-volatility and high-volatility states. To save space, statistics 
+reported for the medium-volatility state are the average of Quintiles 2–4. “Volatility Autocorrelation” is the correlation between 
+the realized volatility of current and previous months.
+
+Financial Analysts Journal | A Publication of CFA Institute
+8	
+
+Fourth Quarter 2020
+In contrast, it is well documented that economic and 
+volatility states significantly affect investor behavior 
+and asset prices. For instance, Henkel, Martin, and 
+Nardari (2011) showed that short-horizon return 
+predictability is weak in good times but sizable in 
+bad times, when volatility tends to be high. Chen and 
+Liang (2007) examined market timing by hedge funds 
+and found that their timing ability appears stronger 
+in bear and volatile market conditions. Ang and 
+Bekaert (2004) and Kritzman, Page, and Turkington 
+(2012) related shifts in volatility states and economic 
+regimes to the associated opportunities for dynamic 
+asset allocation.
+Motivated by these findings, we examined the 
+behavior of returns and volatilities in different volatil-
+ity states. We report in Table 2 the tradable correla-
+tion between realized volatility and future returns 
+for different volatility states as defined in the section 
+“Constructing Volatility-Targeting Portfolios.” Panel 
+A shows that this correlation is more negative in 
+high-volatility states than low-volatility states across 
+equity markets. For instance, for the US market, it 
+is –0.22 in the high-volatility state and –0.02 and 
+–0.06 in, respectively, the medium-volatility and 
+low-volatility states. Averaged across markets, this 
+correlation equals –0.10 in the high-volatility state, 
+compared with 0.00 and –0.01, respectively, in the 
+medium- and low-volatility states. Panels B and C of 
+Table 2 report these correlations for equity factors. 
+We focused on the momentum factor and found that 
+the correlation between realized volatility and future 
+returns is much more negative in high-volatility 
+states across regions (on average, –0.21, compared 
+with an average of 0.01 and 0.03 in medium- and 
+low-volatility states, respectively).
+Table 2 also reports the monthly volatility autocor-
+relation in the three volatility states. Across major 
+equity markets and factors, this autocorrelation 
+tends to be much higher in high-volatility states than 
+in other states, which suggests stronger volatility 
+clustering in high-volatility states (for markets, on 
+average 0.52 in the high-volatility state versus 0.14 
+and 0.23 in the medium- and low-volatility states; 
+for momentum across regions, 0.60 in high-volatility 
+states compared with 0.15 and 0.21 in medium- and 
+low-volatility states). This finding implies stronger 
+predictability of volatility in high-volatility states—
+enhancing the effectiveness of volatility targeting.
+Overall, the results in Table 2 suggest that the gains 
+from volatility targeting are likely to be highest 
+during high-volatility states. This finding motivated 
+us to construct volatility-targeting strategies that 
+condition on (extreme) volatility states. The standard 
+version of our conditional volatility-targeting strat-
+egy adjusts risk exposures in the extremes—that is, 
+during high- and low-volatility states—and maintains 
+an unscaled risk exposure otherwise. The weak 
+correlation between realized volatility and future 
+returns in the low-volatility state suggests that the 
+lowest volatility is not necessarily associated with 
+proportionally lower excess return, which provides 
+scope for leverage. We capped the leverage in the 
+low-volatility states to prevent an increase in overall 
+risk and drawdowns (our initial strategy capped the 
+maximum risk exposure at 200%, but the finding is 
+robust to different levels of leverage).
+Performance of Conditional 
+Volatility Targeting
+In this section, we first discuss the performance and 
+benefits of conditional volatility targeting in global 
+equity markets and factors. Thereafter, we provide 
+the robustness tests of our results.
+Performance of the Conditional 
+Strategy. Table 3 shows the performance of the 
+conditional portfolios relative to the original portfo-
+lios. As before, performance results that contradict 
+the objectives of the strategy are in boldface. In 
+Panel A, the first notable observation is that the 
+conditional strategy significantly and consistently 
+reduced the maximum drawdown across all equity 
+markets (except the UK market), by an average of 
+6.6%. It also consistently reduced the expected 
+shortfall (99%) of monthly returns in 9 out of the 
+10 markets, by an average of 1.3%. This result is 
+in contrast to the conventional strategy, which 
+actually increased the maximum drawdown in the 
+UK, Canadian, Australian, and Hong Kong markets 
+(sometimes by a significant amount—e.g., 34.4% in 
+Hong Kong) and increased the expected shortfall in 
+8 out of 10 markets (a 2.3% increase, on average). To 
+ensure that these results were not driven by reduced 
+volatility, we also provide in Table 3 maximum draw-
+down and expected shortfall statistics with ex post 
+scaling as in Moreira and Muir (2017) and confirm 
+a significantly reduced maximum drawdown and 
+expected shortfall.
+The second observation is that the conditional 
+strategy achieved a higher Sharpe ratio improvement 
+than the conventional strategy (0.07 versus 0.04, 
+on average). In addition, the conditional strategy 
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+9
+improved Sharpe ratios in all markets, whereas the 
+conventional strategy improved Sharpe ratios in 8 
+out of 10 markets. The caveat is that the Sharpe 
+ratio improvement is statistically significant only for 
+the US and Hong Kong markets. The performance 
+consistency across all markets, however, reduces the 
+concern that this outperformance is merely the result 
+of chance. In addition, in practice, a single trading 
+strategy on the aggregate market rarely improves 
+Sharpe ratios with statistical significance. For this 
+Table 3. Performance of Conditional Volatility Targeting
+ 
+Conditional Volatility-Targeting Portfolio
+Volatility Adjusted
+Sharpe 
+Ratio 
+Increase
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+Realized 
+Volatility/ 
+Target
+Annual 
+Turnover 
+(times)
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+A. Global equity markets (1982–2019)
+US
+0.16*
+–8.3%
+–1.7%
+0.97
+1.6
+–7.2%
+–1.3%
+Japan
+0.09
+–7.0 
+–4.9 
+0.85
+0.9
+–0.2 
+–2.7 
+UK
+0.04
+2.2 
+–0.9 
+1.11
+1.6
+–1.6 
+–2.3 
+France
+0.03
+–5.1 
+–0.3 
+0.92
+1.4
+–1.9 
+1.1 
+Canada
+0.02
+–7.1 
+–1.4 
+0.96
+1.2
+–5.7 
+–0.8 
+Germany
+0.07
+–10.4 
+–2.4 
+0.86
+1.1
+–4.3 
+0.6 
+Switzerland
+0.07
+–7.2 
+–1.5 
+0.94
+1.4
+–5.2 
+–0.6 
+Australia
+0.04
+–7.8 
+2.7 
+1.12
+1.5
+–12.1 
+0.5 
+Netherlands
+0.02
+–10.4 
+–0.8 
+0.98
+1.6
+–9.8 
+–0.5 
+Hong Kong SAR
+0.14*
+–4.7 
+–1.6 
+1.12
+1.5
+–9.6 
+–4.4 
+Market average
+0.07
+–6.6
+–1.3
+0.98
+1.4
+–5.8
+–1.0
+B. US equity factors (1973–2019)
+ 
+ 
+ 
+ 
+Size
+–0.11
+–0.6%
+–0.7%
+0.89
+1.0
+3.7%
+0.0%
+Value
+–0.05
+6.5 
+–2.6 
+0.83
+1.2
+13.2 
+–1.1 
+Profitability
+–0.09
+–1.5 
+–0.7 
+0.86
+1.3
+3.3 
+0.4 
+Investment
+–0.18**
+7.7 
+–2.4 
+0.87
+1.4
+13.5 
+–1.4 
+Momentum
+0.17**
+–6.8
+–6.8
+0.79
+1.1
+2.1
+–3.9
+C. Global momentum factors (1995–2019)
+ 
+ 
+ 
+ 
+Global
+0.19*
+–21.0%
+–8.5%
+0.75
+0.9
+–12.5%
+–5.4%
+US
+0.26**
+–18.3 
+–12.1 
+0.75
+1.2
+–9.3 
+–8.5 
+Global ex US
+0.27**
+–20.9 
+–7.0 
+0.79
+1.2
+–15.0 
+–4.6 
+Europe
+0.27**
+–21.2 
+–9.0 
+0.74
+1.1
+–12.9 
+–5.6 
+Japan
+0.07
+–21.9 
+–7.5 
+0.79
+1.1
+–11.0 
+–4.5 
+Pacific ex Japan
+0.30**
+–17.0 
+–12.1 
+0.95
+1.6
+–15.2 
+–11.1 
+Momentum 
+average
+0.23
+–20.1
+–9.4
+0.80
+1.2
+–12.6
+–6.6
+Notes: Performance results that violate the objectives of the strategy are in boldface. The “Volatility Adjusted” statistics show the 
+drawdown and shortfall reduction for a hypothetical conditional strategy with the same ex post realized volatility as the original 
+portfolio. See Table 1 for descriptions of other column headings.
+*Sharpe ratio increase significant at the 5% level.
+**Sharpe ratio increase significant at the 1% level.
+
+Financial Analysts Journal | A Publication of CFA Institute
+10	
+
+Fourth Quarter 2020
+reason, most investors combine multiple strategies in 
+their tactical asset allocation.
+The third observation is that the annual turnover 
+of the conditional strategy is much lower than that 
+of the conventional strategy (e.g., 1.6 versus 2.4 for 
+the US market and 1.4 versus 2.1, on average, across 
+markets). Finally, the conditional strategy achieved 
+a ratio of realized volatility to target volatility that is 
+much closer to 1.0 (across-market average of 0.98), 
+without a systematic bias of over- or undershooting.
+In short, the conditional strategy consistently deliv-
+ers its main promise of downside risk reduction, 
+more significantly improves Sharpe ratios, and more 
+accurately achieves the volatility target with materi-
+ally lower turnover than the conventional strategy.
+Panel B of Table 3 shows that the conditional 
+volatility-targeting portfolio significantly improved 
+performance for the US momentum factor but not 
+for other US factors (consistent with the conven-
+tional strategy; see Table 1). It doubled the Sharpe 
+ratio of US momentum, with an increase of 0.17 from 
+0.14 (statistically significant at the 1% level). This 
+improvement is marginally greater than that of the 
+conventional strategy (+0.16) but comes at only half 
+the turnover (1.1 versus 2).
+Panel C of Table 3 presents the performance of the 
+conditional strategy for momentum factors across 
+regions for 1995–2019 (the US market is included for 
+comparison). In this period, the momentum factors 
+experienced high volatility and modest returns, 
+with an average Sharpe ratio of only 0.12 across 
+regions (see Table A1 in Appendix A). The conditional 
+strategy more than doubled the Sharpe ratio for 
+momentum, with an average increase of 0.23. This 
+increase is statistically significant at the 1% level for 
+the US, global ex US, Europe, and Pacific ex Japan 
+momentum factors and is significant at the 5% level 
+for the global momentum factor. The conditional 
+strategy significantly reduced maximum drawdowns, 
+by an average of 20.1% (from 54.1%), and reduced 
+expected shortfall by an average of 9.4% (from 
+–20.8%). After ex post rescaling, the maximum draw-
+down and expected shortfall reductions were still 
+large (12.6% and 6.6%, respectively).
+Compared with the conventional strategy (see 
+Table A1 in Appendix A), the conditional strategy 
+applied to the momentum factors achieved a Sharpe 
+ratio increase that is higher in the US market (0.26 
+versus 0.16), lower in European markets (0.27 versus 
+0.37), and broadly similar in other regions—but with 
+less regional variation. The conditional strategy 
+incurred only half the turnover of the conventional 
+strategy (1.2 versus 2.4, on average), required 
+materially lower leverage (maximum of 2.0 versus 
+5.5), and reduced expected shortfall more than the 
+conventional strategy (9.4% versus 7.2%). Moreover, 
+for long–short portfolios, the conditional strategy is 
+easier to implement in practice than the conventional 
+strategy because taking leveraged positions in long–
+short equity factors is more challenging and costlier 
+than in broad equity markets with liquid futures.
+Many investors implement factor investing strate-
+gies by using long-only portfolios, in which the ability 
+to underweight the undesired stocks is constrained 
+by the stock’s market-cap weight in the long-only 
+equity benchmark. This constraint makes taking 
+sizable leveraged positions on equity factors difficult. 
+Therefore, we also considered an unlevered version 
+of the conditional volatility strategy for momentum. 
+This strategy reduced exposures only in high-
+volatility states. It maintained an unscaled exposure 
+without taking leverage in all other states.17
+To highlight the economic significance of condi-
+tional volatility targeting for the momentum factor, 
+Figure 1 allows a comparison of the annualized 
+excess return and volatility of the (regular) con-
+ditional strategy and the unlevered conditional 
+strategy with the original momentum factor. Both 
+conditional strategies increased momentum’s excess 
+returns by an economically significant amount (from 
+1.2% to 3.1% and 4.5%, respectively, in the US mar-
+ket; from 2.0% to 3.7% and 4.7%, respectively, on 
+average, across regions). The excess return improve-
+ment was achieved despite lower realized volatility. 
+Hence, conditional volatility targeting can be used to 
+enhance returns while reducing the risk budget for 
+momentum factors.
+Our key observations of stronger volatility clustering 
+and strong correlation between realized volatility 
+and future returns in high-volatility states apply not 
+only to equity markets and the momentum factor 
+but potentially also to other markets and factors. For 
+instance, while equity markets and the momentum 
+factor tend to crash in high-volatility states, treasury 
+bonds and the profitability factor tend to generate 
+positive returns during such flight-to-quality periods. 
+Therefore, during high-volatility states, dynamic 
+allocation from equities to treasury bonds and from 
+momentum to the profitability factor has the poten-
+tial to generate significant excess returns on top of 
+the conditional volatility-targeting strategy.
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+11
+For instance, Figure A4 in Appendix A simulates 
+a conditional strategy that reduces momentum 
+exposure during high-volatility states and reallocates 
+the capital to the profitability factor (instead of cash). 
+This dynamic allocation to profitability generated 
+additional excess return of about 30% during the 
+technology bubble and about 15% during the global 
+financial crisis. Similarly, we found that dynamic 
+allocation to treasury bond futures during periods of 
+high equity volatility generated additional returns. 
+Such volatility management strategies with multiple 
+asset classes or risk factors can be a promising direc-
+tion for future research.
+Robustness Tests of Conditional 
+Strategies. This section provides evidence that 
+the performance of conditional volatility targeting 
+with the momentum and market factors is persistent 
+over long historical periods and robust to alternative 
+approaches to identifying volatility states.
+Our performance statistics in the sections 
+“Motivation for Conditional Volatility Targeting” and 
+“Performance of the Conditional Strategy” cover the 
+entire sample period, which goes back to 1973 for US 
+equity factors and 1982 for the 10 equity markets. 
+Because investors generally have shorter horizons, 
+we also analyzed the performance of conditional 
+volatility targeting for the momentum and market 
+factors over rolling 10-year periods.18 
+As discussed in the section “Constructing Volatility-
+Targeting Portfolios,” we estimated the volatility 
+state of each month by using, for simplicity, realized 
+volatility quintiles. We conducted a sensitivity test 
+of this choice by using realized volatility quartiles 
+instead of quintiles; we defined the top and bottom 
+quartiles as, respectively, high-volatility and low-
+volatility states. Table S2 in the Supplemental Online 
+Appendix shows results that are very similar to the 
+tests that used quintiles.
+Figure 1. Economic 
+Significance of 
+Conditional Volatility 
+Targeting for the 
+Momentum Factor
+Percent
+A. Annual Excess Return
+7
+6
+5
+4
+3
+2
+1
+0
+US
+Global
+Global ex US
+Europe
+Japan
+Paciﬁc ex Japan
+Original Factor
+Condional Strategy (Unlevered)
+Condional Strategy
+Percent
+B. Realized Volality
+20
+18
+14
+16
+12
+10
+8
+6
+4
+2
+0
+US
+Global
+Global ex US
+Europe
+Japan
+Paciﬁc ex Japan
+Notes: Performance is reported net of transaction costs. The sample period is 1995–2019.
+
+Financial Analysts Journal | A Publication of CFA Institute
+12	
+
+Fourth Quarter 2020
+In practice, investors may also estimate volatility 
+states by using the ratio of realized volatility of the 
+previous month to target volatility (i.e., defining high 
+volatility as Realized volatility > Th × Target volatil-
+ity, where threshold Th is a constant). This method is 
+not our preferred approach because this ratio has a 
+heterogeneous distribution across various markets 
+and equity factors, which implies that performance 
+results would not be fully comparable across markets 
+and factors. Nonetheless, as a robustness test, we 
+analyzed the performance of conditional volatility 
+targeting by using fixed thresholds of the ratio of 
+realized volatility to target volatility. The medium 
+realized volatility in a given month was only approxi-
+mately 0.7 times the factor’s long-term volatility 
+because of the skewness in volatility distributions. 
+For our robustness test, we used a ratio of 1.0 or 1.2 
+to define high-volatility states and a ratio of 0.5 or 
+0.6 to define low-volatility states.
+Table 4 reports the performance improvement of the 
+conditional strategy for the US market factor and 
+momentum factor when we used three variations 
+of volatility bands. The increase in Sharpe ratio and 
+downside risk reduction are broadly consistent with 
+those of the regular conditional strategy (Table 3) 
+for both factors. In practice, given sufficient histori-
+cal data on the volatility structure of a particular 
+market or factor, investors can fine-tune the high-
+volatility/low-volatility bands to construct condi-
+tional strategies that meet particular risk and return 
+requirements.
+Conclusions
+We analyzed volatility-targeting strategies in global 
+equity markets and for factors. We found that 
+conventional volatility-targeting strategies fail to 
+consistently enhance risk-adjusted performance 
+in global equity markets and can lead to markedly 
+greater drawdowns than without volatility targeting. 
+Conventional volatility targeting worked for momen-
+tum across regions but not for other factors, and it 
+generated significant leverage and high turnover. 
+We showed that these limitations of conventional 
+volatility targeting stem mainly from its inability to 
+condition on (extreme) volatility states. 
+Therefore, we constructed and analyzed volatility-
+targeting strategies that conditioned on volatility 
+states. We used equity index futures and invest-
+able equity factors that can be implemented by 
+practitioners. 
+We showed that the benefits from volatility targeting 
+are concentrated in high-volatility states. In these 
+states, volatility clustering is stronger and the corre-
+lation between realized volatility and future return is 
+significantly more negative than in low- or medium-
+volatility states. Our conditional volatility-targeting 
+strategy significantly improved Sharpe ratios for the 
+momentum factor and, to a lesser degree, the market 
+factor across regions. The conditional strategy also 
+consistently reduced maximum drawdowns and tail 
+risks and did so with much lower turnover and lever-
+age than the conventional strategy.
+Table 4. Performance of Conditional Volatility Targeting with Various Ratios of Realized 
+Volatility to Target Volatility 
+High-
+Volatility 
+Band
+Low-Volatility 
+Band
+Sharpe 
+Ratio 
+Increase
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+Realized 
+Volatility/ 
+Target
+Annual 
+Turnover
+US market
+> 1.0 × Target
+< 0.5 × Target
+0.15*
+–8.5%
+–2.4%
+0.93
+1.36
+> 1.2 × Target
+< 0.5 × Target
+0.15*
+–8.7
+–2.3
+0.95
+1.33
+> 1.0 × Target
+< 0.6 × Target
+0.17*
+–8.5
+–1.7
+1.00
+1.75
+US momentum
+> 1.0 × Target
+< 0.5 × Target
+0.15**
+–5.9%
+–6.9%
+0.79
+1.23
+> 1.2 × Target
+< 0.5 × Target
+0.15**
+–6.1
+–6.7
+0.81
+1.19
+> 1.0 × Target
+< 0.6 × Target
+0.17**
+–11.1
+–6.2
+0.84
+1.52
+Notes: See the notes to Table 1. Performance is reported relative to the original portfolio and net of transaction costs.
+*Sharpe ratio increase significant at the 5% level.
+**Sharpe ratio increase significant at the 1% level.
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+13
+The conditional volatility-targeting strategy has 
+several practical applications in factor investing and 
+tactical asset allocation. The momentum factors have 
+generated relatively modest returns with significant 
+volatility and large drawdowns in recent decades. 
+Using the conditional strategy for momentum factors 
+could generate economically large improvements in 
+returns with materially lower downside risks. Similarly, 
+against the current backdrop of low expected returns 
+and high uncertainties in global equity markets, the 
+conditional strategy can be used to enhance the risk-
+adjusted performance of broad equity markets.
+Conditional volatility management has broader appli-
+cations beyond our main analysis. For instance, it can 
+be applied to tactical allocation between risky assets 
+(equities, the momentum factor) and flight-to-quality 
+assets (treasuries, the profitability factor), which 
+offers to further improve performance, particularly 
+during high-volatility states. Finally, we believe the 
+performance of conditional volatility management 
+can be further enhanced through advanced methods 
+of volatility-state forecasting.
+Figure A1. Volatility 
+Clustering and 
+Negative Correlation 
+between Equity 
+Returns and Volatility
+0
+Excess Return (%)
+100
+80
+60
+40
+20
+–20
+Jan/72
+Jan/77
+Jan/82
+Jan/87
+Jan/92
+Jan/97
+Jan/02
+Jan/07
+Jan/12
+Jan/17
+Monthly Excess Return
+Monthly Realized Volality
+Figure A2. Ratio 
+of Realized Monthly 
+Volatility to Target 
+Volatility for Conven­
+tional Volatility-
+Targeting Strategy 
+on S&P 500 
+Rao
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+Feb/72
+Jul/77
+Dec/82
+May/88
+Oct/93
+Mar/99
+Aug/04
+Jan/10
+Jun/15
+Note: This figure shows the time series of the ratio of monthly realized volatility of the 
+conventional volatility-targeting strategy to the target volatility (unconditional volatility 
+of the S&P 500).
+Appendix A. Additional Performance Analysis
+
+Financial Analysts Journal | A Publication of CFA Institute
+14	
+
+Fourth Quarter 2020
+Table A1. Performance of Conventional Volatility Targeting on Global Momentum Factors
+ 
+ 
+Original Portfolio
+Conventional Volatility-Targeting Portfolio
+Sharpe 
+Ratio
+Maximum 
+Drawdown
+Expected 
+Shortfall
+Sharpe 
+Ratio 
+Increase
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+Realized 
+Volatility/ 
+Target
+Annual 
+Turnover 
+(times)
+Global momentum factors (1995–2019)
+Global
+0.15
+52.3%
+–18.2%
+0.17*
+–21.0%
+–7.4%
+0.97
+2.5
+US
+0.07
+51.3
+–23.1
+0.16
+–19.3
+–10.4
+0.84
+2.0
+Global ex US
+0.23
+47.0
+–16.0
+0.28**
+–21.9
+–6.0
+1.01
+2.4
+Europe
+0.19
+49.3
+–18.8
+0.37**
+–20.9
+–7.7
+0.97
+2.4
+Japan
+0.01
+62.2
+–19.0
+0.04
+–20.4
+–3.7
+1.04
+2.6
+Pacific ex Japan
+0.07
+62.3
+–29.9
+0.34**
+–15.8
+–7.9
+1.16
+2.4
+Average
+0.12
+54.1
+–20.8
+0.23
+–19.9
+–7.2
+1.00
+2.4
+Notes: See the notes to Table 1. The table is complementary to Table 1 and shows the performance of the conventional strategy 
+(net of transaction costs) relative to that of the original portfolio. 
+*Sharpe ratio increase significant at the 5% level.
+**Sharpe ratio increase significant at the 1% level. 
+Figure A3. Historical 
+Return and Volatility 
+of US Profitability and 
+Momentum Factors 
+A. US Proﬁtability Factor
+0
+Return (%)
+120
+100
+80
+60
+40
+20
+–20
+Volality (%)
+50
+40
+30
+20
+10
+0
+Apr/94
+Apr/00
+Apr/97
+Apr/06
+Apr/03
+Apr/12
+Apr/15
+Apr/18
+Apr/09
+Return (le axis, log scale)
+Monthly Realized Volality (right axis)
+B. US Momentum Factor
+0
+Return (%)
+100
+80
+60
+40
+20
+–20
+Volality (%)
+90
+75
+45
+30
+0
+Return (le axis, log scale)
+Monthly Realized Volality (right axis)
+Apr/94
+Apr/00
+Apr/97
+Apr/06
+Apr/03
+Apr/12
+Apr/15
+Apr/18
+Apr/09
+60
+15
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+15
+Figure A4. Additional 
+Excess Return from 
+Tactical Allocation to 
+Profitability Factor 
+during High-Volatility 
+States
+0
+Excess Return (%)
+60
+50
+40
+30
+20
+10
+–10
+–20
+Volality (%)
+80
+40
+50
+60
+70
+30
+20
+10
+0
+Apr/94
+Feb/00
+Mar/97
+Jan/03
+Nov/08
+Dec/05
+Oct/11
+Aug/17
+Sep/14
+Outperformance from Taccal Allocaon to Proﬁtability Factor (le axis)
+Momentum Realized Volality (right axis)
+Notes: This figure simulates the performance of a conditional strategy that reduces momentum 
+exposure during high-volatility states and reallocates the capital to the profitability factor 
+(instead of cash). It shows the additional return from the tactical allocation to the profitability 
+factor, in excess of the performance of the regular conditional strategy.
+Table A2. Performance of Unlevered Conditional Volatility Targeting with Global 
+Momentum Factors
+Original Portfolio
+Conditional Volatility-Targeting Portfolio
+Sharpe 
+Ratio
+Maximum 
+Drawdown
+Expected 
+Shortfall
+Sharpe 
+Ratio 
+Increase
+Maximum 
+Drawdown 
+Reduction
+Expected 
+Shortfall 
+Reduction
+Realized 
+Volatility/ 
+Target
+Annual 
+Turnover 
+(times)
+Global momentum factors (1995–2019)
+Global
+0.15
+52.3%
+–18.2%
+0.18*
+–21.0%
+–8.5%
+0.73
+0.40
+US
+0.07
+51.3
+–23.1
+0.18*
+–18.3
+–12.1
+0.68
+0.45
+Global ex US
+0.23
+47.0
+–16.0
+0.18*
+–20.9
+–7.0
+0.75
+0.40
+Europe
+0.19
+49.3
+–18.8
+0.24**
+–21.2
+–9.0
+0.72
+0.44
+Japan
+0.01
+62.2
+–19.0
+0.05
+–17.2
+–7.6
+0.76
+0.40
+Pacific ex Japan
+0.07
+62.3
+–29.9
+0.24**
+–21.0
+–12.1
+0.81
+0.26
+Average
+0.12
+54.1
+–20.8
+0.18
+–19.9
+–9.4
+0.74
+0.39
+Notes: See the notes to Table 1. The table shows the performance of the unlevered conventional strategy that adjusts risks only 
+during high-volatility states, net of transaction costs. 
+*Sharpe ratio increase significant at the 5% level.
+**Sharpe ratio increase significant at the 1% level. 
+
+Financial Analysts Journal | A Publication of CFA Institute
+16	
+
+Fourth Quarter 2020
+Editor’s Note
+This article was externally reviewed using our double-blind 
+peer-review process. When the article was accepted for 
+publication, the authors thanked the reviewers in their 
+acknowledgments. Lisa Goldberg and one anonymous 
+reviewer were the reviewers for this article.
+Submitted 6 March 2020
+Accepted 23 June 2020 by Stephen J. Brown
+Notes
+1.	 We ranked equity markets by free-float market capitaliza-
+tion as of March 2019, and we selected the 10 largest 
+markets for which we had return data for the whole 
+sample period—that is, since 1972.
+2.	 This approach did not affect the accuracy of our results 
+because of the high correlation (0.99) between an equity 
+index and its futures. Moskowitz, Ooi, and Pedersen 
+(2012) also combined futures data with equity index data.
+3.	 The French website is https://mba.tuck.dartmouth.edu/
+pages/faculty/ken.french/data_library.html.
+Figure A5. Sharpe 
+Ratio over Rolling 
+10-Year Periods for US 
+Momentum and US 
+Market 
+0
+0
+Sharpe Rao
+A. US Momentum: Sharpe Ra
+o over Rolling 10-Year Periods
+1.0
+0.8
+0.6
+0.4
+0.2
+–0.2
+–0.4
+Jul/83
+Jul/87
+Jul/91
+Jul/95
+Jul/99
+Jul/03
+Jul/07
+Jul/11
+Jul/15
+US Momentum
+US Momentum Condional Strategy
+Sharpe Rao
+B. US Market: Sharpe Ra
+o over Rolling 10-Year Periods
+1.4
+0.8
+1.0
+1.2
+0.6
+0.4
+0.2
+–0.2
+–0.4
+Jan/92
+Dec/94 Nov/97 Oct/00
+Sep/03 Aug/06
+Jul/09
+Jun/12 May/15 Apr/18
+S&P 500
+S&P 500 Condional Strategy
+
+
+Conditional Volatility Targeting
+Volume 76 Number 4	
+
+17
+4.	 For completeness, we show in the Supplemental Online 
+Appendix (Table S1) that empirical results when the origi-
+nal factors were used are consistent with our findings.
+5.	 As illustrated by Anderson, Bianchi, and Goldberg (2012), 
+levering a strategy by a constant leaves the Sharpe ratio 
+in tact only if the borrowing rate equals the risk-free rate. 
+This assumption applies to volatility-targeting strategies 
+with equity factors that require borrowing/leverage.
+6.	 We include in Table A2 in Appendix A an unlevered ver-
+sion of the conditional strategy that adjusted risks only 
+in high-volatility states. This approach can be useful to 
+investors who are constrained not to use leverage because 
+of investment guidelines or cost considerations.
+7.	 For equity factors in international markets, our sample 
+period began in November 1990. To avoid a further short-
+ening of our sample period, we required at least five years 
+of historical returns to calculate long-term volatilities for 
+those markets.
+8.	 Using monthly realized volatility produced somewhat bet-
+ter performance than using exponentially weighted volatil-
+ity or GARCH for the conventional and the conditional 
+strategies. The reason is that realized volatility responds 
+more quickly to market turmoil.
+9.	 Their methodology accounted for all trading costs, includ-
+ing commissions, bid–ask spreads, and market impact.
+10.	Figure A1 in Appendix A illustrates the association of 
+major market crashes—such as Black Monday in 1987, 
+the bursting of the tech bubble, the 2008 global financial 
+crisis, and the European debt crisis—with large volatility 
+spikes and strong volatility clustering.
+11.	In contrast, Campbell and Hentschel (1992) developed a 
+model of volatility feedback effects in which an increase 
+in equity volatility raises the required return on equity and 
+thus brings about a decline in equity price.
+12.	Hallerbach (2012) and Dachraoui (2018) also discussed the 
+conditions for volatility targeting to improve risk-adjusted 
+performance.
+13.	Expected shortfall is preferable to value at risk (VAR) 
+because expected shortfall is the mean of losses beyond 
+the percentile whereas VAR disregards losses beyond the 
+percentile. See Acerbi and Tasche (2002).
+14.	See also Figure A2 in Appendix A.
+15.	Daniel and Moskowitz (2016), studying momentum 
+crashes, designed a dynamic strategy based on forecasts 
+of momentum’s mean and variance to increase the Sharpe 
+ratio of a static momentum strategy.
+16.	See Table A1 in Appendix A.
+17.	Table A2 in Appendix A shows that this unlevered condi-
+tional strategy still doubled the Sharpe ratio, increasing 
+it by an average of 0.18, with statistical significance in all 
+regions except Japan. It required only a fraction of the 
+turnover of the conventional strategy (0.4 versus 2.4, 
+on average) and achieved more significant downside risk 
+reduction.
+18.	Figure A5 in Appendix A shows that the increase in Sharpe 
+ratios is highly persistent for the US momentum factor 
+(Panel A) and the US market (Panel B, although it is a bit 
+weaker) over the rolling periods. Contrary to rebuttals that 
+volatility targeting “buys high and sells low,” these results 
+indicate that the strategy’s outperformance tends to 
+increase during market crashes because it quickly reduces 
+risks when a crisis hits and increases risk when the market 
+starts to recover.
+References
+Acerbi, C., and D. Tasche. 2002. “On the Coherence of 
+Expected Shortfall.” Journal of Banking & Finance 26 (7): 
+1487–503. 
+Anderson, R. M., S. W. Bianchi, and L. R. Goldberg. 2012. 
+“Will My Risk Parity Strategy Outperform?” Financial Analysts 
+Journal 68 (6): 75–93. 
+Ang, A., and G. Bekaert. 2004. “How Regimes Affect Asset 
+Allocation.” Financial Analysts Journal 60 (2): 86–99. 
+Ang, A., W. N. Goetzmann, and S. M. Schaefer. 2009. 
+“Evaluation of Active Management of the Norwegian 
+Government Pension Fund—Global.” Working paper 
+(14 December).
+Black, F. 1976. “Studies of Stock Price Volatility Changes.” 
+Proceedings of the 1976 Business and Economic Statistics Section, 
+American Statistical Association: 177–81.
+Campbell, J. Y., and L. Hentschel. 1992. “No News Is Good 
+News: An Asymmetric Model of Changing Volatility in Stock 
+Returns.” Journal of Financial Economics 31 (3): 281–318. 
+Carhart, M. M. 1997. “On Persistence in Mutual Fund 
+Performance.” Journal of Finance 52 (1): 57–82.
+Cederburg, S., M. S. O’Doherty, F. Wang, and X. Yan. 
+Forthcoming. “On the Performance of Volatility-Managed 
+Portfolios.” Journal of Financial Economics. 
+Chen, Y., and B. Liang. 2007. “Do Market Timing Hedge Funds 
+Time the Market?” Journal of Financial and Quantitative Analysis 
+42 (4): 827–56. 
+CME Group. 2016. “A Cost Comparison of Futures and ETFs.” 
+CME Group Big Picture Papers.
+Dachraoui, K. 2018. “On the Optimality of Target Volatility 
+Strategies.” Journal of Portfolio Management 44 (5):58–67. 
+Daniel, K., and T. J. Moskowitz. 2016. “Momentum Crashes.” 
+Journal of Financial Economics 122 (2): 221–47. 
+Engle, R. F. 1982. “Autoregressive Conditional 
+Heteroskedasticity with Estimates of the Variance of U.K. 
+Inflation.” Econometrica 50 (4): 987–1007. 
+
+Financial Analysts Journal | A Publication of CFA Institute
+18	
+
+Fourth Quarter 2020
+Fama, E. F., and K. R. French. 2015. “A Five-Factor Asset 
+Pricing Model.” Journal of Financial Economics 116 (1): 1–22. 
+Frazzini, A., R. Israel, and T. J. Moskowitz. 2015. “Trading 
+Costs of Asset Pricing Anomalies.” Working paper, AQR 
+Capital Management.
+Hallerbach, W. G. 2012. “A Proof of the Optimality of Volatility 
+Weighting over Time.” Journal of Investment Strategies 1 (4): 
+87–99. 
+Harvey, C. R., E. Hoyle, R. Korgaonkar, S. Rattray, M. 
+Sargaison, and O. Van Hemert. 2018. “The Impact of Volatility 
+Targeting.” Journal of Portfolio Management 45 (1): 14–33.
+Henkel, S. J., J. S. Martin, and F. Nardari. 2011. “Time-Varying 
+Short-Horizon Predictability.” Journal of Financial Economics 
+99 (3): 560–80. 
+Kotecha, C., C. Couasnon, and J. Galazidis. 2016. “A Cost 
+Comparison of Futures, ETFs, and Swaps on Equity Indices.” 
+Bank of America Merrill Lynch Delta-One Cost Monitor. 
+Kritzman, M. P., S. Page, and D. Turkington. 2012. “Regime 
+Shifts: Implications for Dynamic Strategies.” Financial Analysts 
+Journal 68 (3): 22–39. 
+Liu, F., X. Tang, and G. Zhou. 2019. “Volatility-Managed 
+Portfolio: Does It Really Work?” Journal of Portfolio 
+Management 46 (1): 38–51. 
+Lo, A. W. 2002. “The Statistics of Sharpe Ratios.” Financial 
+Analysts Journal 58 (4): 36–52. 
+Moreira, A., and T. Muir. 2017. “Volatility-Managed Portfolios.” 
+Journal of Finance 72 (4): 1611–44. 
+Moskowitz, T. J., Y. H. Ooi, and L. H. Pedersen. 2012. “Time-
+Series Momentum.” Journal of Financial Economics 104 (2): 
+228–50. 

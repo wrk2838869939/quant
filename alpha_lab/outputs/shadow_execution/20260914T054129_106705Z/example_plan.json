@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "mode": "shadow",
+  "account_id": "historical_fixture",
+  "plan_id": "91c6b9d1a810a0c70751cbbe",
+  "decision_date": "2026-09-01",
+  "execution_date": "2026-09-02",
+  "orders": [
+    {
+      "ts_code": "600236.SH",
+      "side": "sell",
+      "shares": 700,
+      "limit_price": 8.89,
+      "reference_price": 9.88,
+      "signal_date": "2026-09-01",
+      "reason": "hold_false",
+      "reserved_cash": 0,
+      "decision_date": "2026-09-01",
+      "execution_date": "2026-09-02",
+      "session": "opening_auction",
+      "status": "planned",
+      "order_id": "91c6b9d1a810a0c70751cbbe-01"
+    }
+  ],
+  "decisions": [],
+  "provenance": {
+    "snapshot": "2823a5e1d751346d94d9b95b1dd43e15fe4efd7701e139003df697e31e2d8a33",
+    "bundle": "abc410498104f39b9c028014ef68bae10e3dc273fbc1fc8911ed4108fb717e92",
+    "calendar": "523708f71556c3a0f0b28ab6b02916348f11b4cb58c44d19e520f0344d85eb11",
+    "config": "6a37c98a7162f1d6d48bf0a2afc46c33fbcf66e74d7d6fc69e4861ce25317c96",
+    "memory": "99500060379b57d8579ec367399c72a1bb8030b06ed76c60bf2669276556d20b"
+  },
+  "next_memory": {
+    "signal_date": "2026-09-01",
+    "pending_sells": {
+      "600236.SH": {
+        "target_shares": 0,
+        "signal_date": "2026-09-01",
+        "reason": "hold_false"
+      }
+    },
+    "supplementary_used": false,
+    "last_sale_date": "2026-08-04",
+    "last_sale_signal": "2026-08-03"
+  },
+  "requires_preflight": true,
+  "equity": 81844.90199999999,
+  "cash": 28390.901999999987,
+  "snapshot_positions": {
+    "600236.SH": 700,
+    "600350.SH": 700,
+    "601988.SH": 2500,
+    "000301.SZ": 700,
+    "601857.SH": 1100
+  },
+  "live_submission": false
+}

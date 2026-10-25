@@ -1,0 +1,7 @@
+run,role,trials,status,errors
+alpha_lab/outputs/rule_strategy_search/20260920T101201_044368Z,engineering_pilot,128,complete,0
+alpha_lab/outputs/rule_strategy_search/20260920T101314_693919Z,engineering_pilot,24,complete,0
+alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z,formal_core_search,11280,complete,0
+alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z/overlay_study,formal_overlay_search,324,complete,0
+alpha_lab/outputs/learning_strategy_search/20260920T111657_202278Z,learning_engineering_pilot,16,complete,0
+alpha_lab/outputs/learning_strategy_search/20260920T112021_620509Z,formal_learning_search,384,complete,0

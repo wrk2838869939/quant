@@ -1,0 +1,17 @@
+{
+  "formation_universe.csv": "e29095ed1121e52d32651d6e459286326fb5f996d27f20c9fc9006653876bd91",
+  "quarantine.csv": "e48b94f2239c72343c50d349dfbed66f5ca6c4285dd506ee5a58de583ba58725",
+  "indicator_reconciliation.csv": "fe70a8b79a6f445af8f44864299acd9cb0d5349508ae39bb2c4d683b7de16b4d",
+  "market.parquet": "60e66e5e0f1698451d9dac0ae774ca15c6a66bbe1639347a029b01e68a79923a",
+  "basics.parquet": "1e9259e7fecc674e4d5a1d8b9971e9c5e17f5e2c765a7a0fcd369493243fc841",
+  "st.parquet": "c62c933ef7dd16f2f29ac9b16a256f045be7f1f636ccb535b86aeda8587bfc1e",
+  "limits.parquet": "d03e3283c20156a8c4406e590d143c9c350a41604f827496171f37ed960690df",
+  "actions.parquet": "9b50d4febd69ce95da36249ad197340ec5575f5377e179280e6dc1bde69c01e0",
+  "raw_actions.parquet": "4d6d11871247a358cbcf083916ba466c6134c4779aadc980b2c321bed0a4ab35",
+  "features.parquet": "626787d29e8aecd5bf156bd9ffc50c13dd5d5b8f620d3dad5b033af6ce33112d",
+  "eligible.parquet": "b57f86c24d831186da1e6874427cbe0829a7e8d97fd8469d824a7916aa3bf553",
+  "universe.csv": "25da27916852471eb1be40dcc839a2cc8056801c6da84b88e8f7fe243048ae0a",
+  "benchmark.parquet": "afe3bc7ef0a0d90cb231730c05b5f73414d504f9d9302eb424b650edff966c53",
+  "preparation.json": "89c9bc4a75ef8f566fcf16273193b990b17bcc640bc783bb0e1e5667e7ff8c75",
+  "rule_history.parquet": "a107ce41c97bde317a3651673109579d975e88a057fbc26bc227a9ba7fe15b52"
+}

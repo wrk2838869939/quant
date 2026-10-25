@@ -1,0 +1,200 @@
+{
+  "002326.SZ": {
+    "date": "2019-09-30",
+    "kind": "action_ref",
+    "reference": 8.6202,
+    "pre_close": 8.98
+  },
+  "002559.SZ": {
+    "date": "2019-05-29",
+    "kind": "action_ref",
+    "reference": 5.9067,
+    "pre_close": 5.94
+  },
+  "002831.SZ": {
+    "date": "2019-05-13",
+    "kind": "action_ref",
+    "reference": 22.8091,
+    "pre_close": 22.89
+  },
+  "300125.SZ": {
+    "date": "2019-03-13",
+    "kind": "action_ref",
+    "reference": 17.0946,
+    "pre_close": 17.2
+  },
+  "300393.SZ": {
+    "date": "2019-06-19",
+    "kind": "action_ref",
+    "reference": 10.9295,
+    "pre_close": 10.98
+  },
+  "300421.SZ": {
+    "date": "2019-04-24",
+    "kind": "action_ref",
+    "reference": 10.7684,
+    "pre_close": 10.89
+  },
+  "300497.SZ": {
+    "date": "2019-06-06",
+    "kind": "action_ref",
+    "reference": 14.225,
+    "pre_close": 14.28
+  },
+  "300639.SZ": {
+    "date": "2019-04-30",
+    "kind": "action_ref",
+    "reference": 15.9833,
+    "pre_close": 16.06
+  },
+  "600346.SH": {
+    "date": "2019-06-27",
+    "kind": "action_ref",
+    "reference": 11.8214,
+    "pre_close": 11.91
+  },
+  "600468.SH": {
+    "date": "2019-06-28",
+    "kind": "action_ref",
+    "reference": 4.4214,
+    "pre_close": 4.48
+  },
+  "600681.SH": {
+    "date": "2019-04-25",
+    "kind": "action_ref",
+    "reference": 9.4857,
+    "pre_close": 9.56
+  },
+  "600699.SH": {
+    "date": "2019-07-29",
+    "kind": "action_ref",
+    "reference": 15.5929,
+    "pre_close": 15.94
+  },
+  "603303.SH": {
+    "date": "2019-05-28",
+    "kind": "action_ref",
+    "reference": 9.3475,
+    "pre_close": 9.39
+  },
+  "603776.SH": {
+    "date": "2019-06-26",
+    "kind": "action_ref",
+    "reference": 18.2714,
+    "pre_close": 18.33
+  },
+  "603819.SH": {
+    "date": "2019-06-13",
+    "kind": "action_ref",
+    "reference": 13.1643,
+    "pre_close": 13.22
+  },
+  "603879.SH": {
+    "date": "2019-06-06",
+    "kind": "action_ref",
+    "reference": 8.1,
+    "pre_close": 8.16
+  },
+  "002166.SZ": {
+    "date": "2019-04-17",
+    "kind": "continuity",
+    "prev_close": 10.14,
+    "pre_close": 8.7
+  },
+  "002185.SZ": {
+    "date": "2019-07-11",
+    "kind": "continuity",
+    "prev_close": 5.1,
+    "pre_close": 4.57
+  },
+  "002202.SZ": {
+    "date": "2019-03-29",
+    "kind": "continuity",
+    "prev_close": 16.05,
+    "pre_close": 14.62
+  },
+  "002793.SZ": {
+    "date": "2019-04-25",
+    "kind": "continuity",
+    "prev_close": 12.61,
+    "pre_close": 12.31
+  },
+  "300715.SZ": {
+    "date": "2019-12-30",
+    "kind": "continuity",
+    "prev_close": 23.3,
+    "pre_close": 20.86
+  },
+  "600113.SH": {
+    "date": "2019-03-06",
+    "kind": "continuity",
+    "prev_close": 8.61,
+    "pre_close": 7.75
+  },
+  "600282.SH": {
+    "date": "2019-05-08",
+    "kind": "continuity",
+    "prev_close": 4.18,
+    "pre_close": 3.88
+  },
+  "600360.SH": {
+    "date": "2019-04-15",
+    "kind": "continuity",
+    "prev_close": 7.54,
+    "pre_close": 6.7
+  },
+  "600459.SH": {
+    "date": "2019-03-01",
+    "kind": "continuity",
+    "prev_close": 14.49,
+    "pre_close": 13.54
+  },
+  "600480.SH": {
+    "date": "2019-06-20",
+    "kind": "continuity",
+    "prev_close": 8.85,
+    "pre_close": 8.82
+  },
+  "600483.SH": {
+    "date": "2019-08-02",
+    "kind": "continuity",
+    "prev_close": 8.22,
+    "pre_close": 8.01
+  },
+  "600487.SH": {
+    "date": "2019-06-18",
+    "kind": "continuity",
+    "prev_close": 15.85,
+    "pre_close": 15.7
+  },
+  "600781.SH": {
+    "date": "2019-07-25",
+    "kind": "resume_after_exdiv_suspension",
+    "reference": 9.98,
+    "pre_close": 10.08
+  },
+  "002602.SZ": {
+    "date": "2019-06-06",
+    "kind": "action_ref",
+    "reference": 10.9312,
+    "pre_close": 11.03
+  },
+  "002017.SZ": {
+    "date": "2019-02-28",
+    "kind": "continuity",
+    "prev_close": 13.84,
+    "pre_close": 11.64
+  },
+  "603603.SH": {
+    "date": "2019-07-17",
+    "kind": "continuity",
+    "prev_close": 15.02,
+    "pre_close": 14.92
+  },
+  "300346.SZ": {
+    "date": "2019-05-09",
+    "kind": "action_ref",
+    "reference": 8.34,
+    "pre_close": 8.41
+  }
+}

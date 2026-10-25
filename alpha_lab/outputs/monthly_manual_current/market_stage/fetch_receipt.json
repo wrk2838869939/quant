@@ -1,0 +1,35 @@
+{
+  "source": "configured Tushare provider",
+  "latest_completed_session": "2026-09-14",
+  "requests": [
+    {
+      "api": "daily",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-14T11:28:24.785419+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_20260914.parquet",
+      "sha256": "78576d836db7bbc293312ae12afbe2946fa083eb78b8091a17ed4d0ad1b40d2c"
+    },
+    {
+      "api": "daily_basic",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-14T11:28:25.405408+00:00",
+      "status": "downloaded",
+      "rows": 5550,
+      "file": "daily_basic_20260914.parquet",
+      "sha256": "20a315c90b38bd5db1607b0fd0ad507a979b2563c67179396b048f3633ff87c5"
+    },
+    {
+      "api": "adj_factor",
+      "trade_date": "20260914",
+      "requested_at": "2026-09-14T11:28:29.321099+00:00",
+      "status": "downloaded",
+      "rows": 5562,
+      "file": "adj_factor_20260914.parquet",
+      "sha256": "4558f70f8d8e032249080cb15bfb07e1026690df11a215da8126937edad4d718"
+    }
+  ],
+  "validation_pending": true,
+  "live_orders": false
+}

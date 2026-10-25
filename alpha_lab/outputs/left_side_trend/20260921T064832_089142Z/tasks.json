@@ -1,0 +1,218 @@
+[
+  [
+    "grid_000",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_001",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_002",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_003",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_004",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_005",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_006",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_007",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_008",
+    {
+      "historical_window": 60,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_009",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_010",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_011",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_012",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_013",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_014",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_015",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_016",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_017",
+    {
+      "historical_window": 120,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_018",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_019",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_020",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 10,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_021",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_022",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_023",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 20,
+      "advance_lookback": 60
+    }
+  ],
+  [
+    "grid_024",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 20
+    }
+  ],
+  [
+    "grid_025",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 40
+    }
+  ],
+  [
+    "grid_026",
+    {
+      "historical_window": 180,
+      "maximum_pullback_days": 40,
+      "advance_lookback": 60
+    }
+  ]
+]

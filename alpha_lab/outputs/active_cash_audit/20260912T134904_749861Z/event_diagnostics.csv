@@ -1,0 +1,4 @@
+rule,requests,next_5d_down_events,next_5d_observed_events,next_5d_mean_return,next_10d_down_events,next_10d_observed_events,next_10d_mean_return,next_20d_down_events,next_20d_observed_events,next_20d_mean_return,mean_pre_signal_5d_return,completed_events,positive_paired_events,mean_paired_return_difference,max_cash_episode_days,worst10_baseline_days_cash,worst10_baseline_days_requested_cash
+legacy_v14,0,0,0,,0,0,,0,0,,,0,0,,0.0,0,0
+breadth_trend,15,7,15,0.0003256219790011867,6,15,0.0030212239006388933,4,14,0.0115610418388984,-0.010781041366948602,14,2,-0.011220322049712766,27.0,3,3
+extreme_downside,11,4,11,0.005668096876406481,5,11,0.006579761543312155,6,11,0.0007435369696179192,-0.007168904953882427,11,2,-0.008309849715602073,9.0,2,2

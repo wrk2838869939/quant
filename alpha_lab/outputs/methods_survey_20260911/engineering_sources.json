@@ -1,0 +1,32 @@
+[
+  {
+    "repo": "microsoft/qlib",
+    "error": "ConnectionError"
+  },
+  {
+    "repo": "quantopian/alphalens",
+    "commit": "77084f1e4c2c0be407e032d444fb19e4be4b0f37",
+    "files": [
+      {
+        "path": "alphalens/performance.py",
+        "url": "https://github.com/quantopian/alphalens/blob/77084f1e4c2c0be407e032d444fb19e4be4b0f37/alphalens/performance.py",
+        "sha256": "b4e4d72d0f1fa8da6de5699136c5e1ca47b611cabcfd25ef50d6196e56d10b5f",
+        "local": "quantopian_alphalens_performance.py"
+      },
+      {
+        "path": "alphalens/utils.py",
+        "url": "https://github.com/quantopian/alphalens/blob/77084f1e4c2c0be407e032d444fb19e4be4b0f37/alphalens/utils.py",
+        "sha256": "5b542c5633af2cd6f316761b6678f2249b338f34c70f6f248015819eb874364f",
+        "local": "quantopian_alphalens_utils.py"
+      }
+    ]
+  },
+  {
+    "repo": "cvxgrp/cvxportfolio",
+    "error": "ReadTimeout"
+  },
+  {
+    "repo": "ricequant/rqalpha",
+    "error": "HTTPError"
+  }
+]

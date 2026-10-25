@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "sector_scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20260923T131248_195204Z",
+  "config": {
+    "asof": "2026-09-23",
+    "previous_end": "2026-09-08",
+    "endpoint": "http://jiaoch.site/api",
+    "timeout_seconds": 25,
+    "retries": 3,
+    "workers": 2,
+    "apis": [
+      "daily",
+      "adj_factor",
+      "daily_basic",
+      "moneyflow"
+    ],
+    "minimum_daily_rows": 4500,
+    "minimum_basic_coverage": 0.95,
+    "output_root": "alpha_lab/outputs/sector_live_update",
+    "release": "datahub/releases/selection_live_20260923",
+    "old_release": "datahub/releases/selection_v1_20260920",
+    "old_sector_dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "recent_signal_sessions": 5,
+    "stock_history_sessions": 400,
+    "stock_rule_config": "alpha_lab/configs/left_side_trend_v2.yaml",
+    "maximum_review_cases": 8,
+    "initial_capital": 100000,
+    "maximum_drawdown": 0.3,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 140
+  },
+  "summary": {
+    "asof": "2026-09-23",
+    "watched_sectors": 4,
+    "stocks_checked": 52,
+    "recent_confirmations": 1,
+    "exploratory_stock_rules_pass": 0,
+    "combined_candidates": 0,
+    "stock_rules_note": "复用旧个股量价/趋势规则，仅探索性检查，尚无本次模型下的选股回测验证"
+  },
+  "artifacts": {
+    "scan_stocks.py": "1b8d213317988d5050b2c3c93f3313b8f42ea6cc23dd2f167c4542d1d9e7da91",
+    "config.yaml": "0eb88ee4283d57988e87d81bf3579f50120f99dfbcb91ad144bcdf6a32de040c",
+    "left_side_trend_v2.yaml": "97e4577869982e179c731106e81ee9f09cb4e91ffcef78b0d0177526c7e21d0b",
+    "recent_confirmations.csv": "a08236e00b3b9dd0cbb25f39b134055ed185008c001d51ddef1d4db1c6ac53f7",
+    "current_members_801012.SI.parquet": "3966d45511609f3b9fe211db40b105f94b8859cff1b8f97286ef3b351b6a0ef8",
+    "current_members_801015.SI.parquet": "feebcd54cce8b038d77b5bcd5f513a99474422f68c02469b333e66d982719d97",
+    "current_members_801053.SI.parquet": "9738b257086e80f930692ae24330d82ea584b320379164ec7def1370b70ea2ea",
+    "current_members_801219.SI.parquet": "d8599b7f0c1d2b1478cb5ac1547ef0271401d0f6340b01adea9cb49388cc6000",
+    "membership_crosscheck.csv": "b02a34c5fdc6497e8b14ed97a54ff45c274fd1140eeec2a1a33b8ae86b574b9d",
+    "stock_diagnostics_all.csv": "b24018eff2683b428f69c685fab0c161ffed5502b5464afb977eb690dd2f606f",
+    "stock_candidates.csv": "a5954667c219efb7e314d6a24a01233538dce2262285c874ed4747af963b895e",
+    "summary.json": "92c573c395959cd63a60c545529881359583ef1635b325cfc0ca6a4da9a27b6f",
+    "sector_watch_charts.pdf": "8fa8f13a347b37c79ae0257facf1888034fe4683203bf6ff240e2761c9b62263",
+    "README.md": "ba79bdec9425b89e8393848924b7b466c5dc8fc38634b26a0ef4426dce0b8d51"
+  }
+}

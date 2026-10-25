@@ -1,0 +1,23 @@
+{
+  "config_sha256": "8001d3d94d7ef3b349f8cec362d536dc8bf5c34bf42f564e5f198dc4967b1e7c",
+  "protocol_sha256": "678b8b18be9c22d748edcd43ec9db84e940ce63a1db23c1c256ef88dd2c62459",
+  "source_hashes": {
+    "scripts/research_exit_history.py": "887e117d740c607cd2e1d4ec57045b8515cbcca64c2fdeec534f81dfcb71f15b",
+    "src/exit_history.py": "85777fb322357bbea2e6edbcb814c26c6c1a90a8aeb3ebe9fdae224e4890d517",
+    "tests/test_exit_history.py": "071ed7a4e3007c5498e04ca32dfa0de1eac20cd7f9e7692ea0818428eace3554",
+    "src/exit_evidence.py": "63b845d5e926ce95294dbd3927015086d60b1969df86fd6ccd0bcd45f9e1c350",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/trend_entry.py": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+    "src/conditional_hold.py": "edb89815162d1a835845ff1b6a368a3c024b952421b0acd94faa2d36763609eb",
+    "src/hold_sensitivity.py": "734f1109b2d37939decf14c17ea7370d6a514bd0f694fa437cfe000ad4ce0d33",
+    "configs/conditional_hold_research.yaml": "893d254cf112c14df4996d932a7c1c2a928a1b3b6dd4808ce76001d839ee3bca"
+  },
+  "input_hashes": {
+    "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution/20260913T130810_374654Z/inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "/root/autodl-tmp/alpha_lab/outputs/exit_evidence/20260913T150246_816170Z/completion.json": "ee0e8456c1ec406da9705cd9e2735f4ec48b316c166e584c34067e2b7c871fe0",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/completion.json": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac"
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

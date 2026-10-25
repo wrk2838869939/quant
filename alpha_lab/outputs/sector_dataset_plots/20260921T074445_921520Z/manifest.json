@@ -1,0 +1,76 @@
+{
+  "dataset_content_id": "12e9fc88adc9319c932598aa340136087d0fbeacf2e9bd2f50ae35022e166aa1",
+  "config": {
+    "dataset": "alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z",
+    "output_root": "alpha_lab/outputs/sector_dataset_plots",
+    "minimum_pair_days": 60,
+    "return_column": "chain_return",
+    "correlation_method": "pearson",
+    "font": "fonts/SimHei.ttf",
+    "dpi": 180,
+    "histogram_bins": [
+      0,
+      5,
+      10,
+      20,
+      40,
+      60,
+      100,
+      150,
+      200,
+      250
+    ]
+  },
+  "summary": {
+    "all": {
+      "sectors": 170,
+      "pairs": 14365,
+      "estimable_pairs": 7031,
+      "missing_pairs": 7334,
+      "median_correlation": 0.5445499006286654
+    },
+    "sw2021": {
+      "sectors": 134,
+      "pairs": 8911,
+      "estimable_pairs": 5253,
+      "missing_pairs": 3658,
+      "median_correlation": 0.4893949248638606
+    },
+    "sw2014": {
+      "sectors": 104,
+      "pairs": 5356,
+      "estimable_pairs": 3156,
+      "missing_pairs": 2200,
+      "median_correlation": 0.6471083838977834
+    }
+  },
+  "artifacts": {
+    "member_counts_all.csv": "6aae5b79737bc54f3f99e70a03cc6dc5ed8913f8c41dd85306e31538aefd32f3",
+    "member_count_distribution.png": "477d384886f936776ded74b18b2227212b16cc53b9f68a36bbafc142dea422a0",
+    "member_count_distribution.pdf": "ccd3d9a8f481d6518595362c20e1e3b679144fcc889209f0e9becdb3ddc966bc",
+    "member_counts_all.png": "3b9fb4fe6e76f751215ffe28a3072539ddcca4159bba05e652f1dafaeb75bdcc",
+    "member_counts_all.pdf": "a695364f88c6b2e60ce46714d1f041aee8d9d9c32effcacbebbd2a069b55ca20",
+    "correlation_all.csv": "ed4b93f6259ce035de1d1d7439f75454c2b94751b1450ac91a836e9e1c1caf78",
+    "pair_days_all.csv": "26bea365f5e4638e5a65ca71f4f0442f3e4db7229d6fa09a8f923146cb119f15",
+    "pairs_all.csv": "0943aa3bf724fdd133698fa9b18482b0ceaab75257f17912dcaf9e8e60f8ee10",
+    "returns_all.parquet": "f9d1c6ba8cc6eabd5f93fd074582dc079b57f27547e16f2eddb370a71c0835c1",
+    "correlation_all.png": "e6065f8b515b21f4a92d06ef794b9d8c7abdeb535649278d4b248af6e3df7969",
+    "correlation_all.pdf": "5049f0308b5cda749318f8e5de47ce0360f60e59283dbf691336460521bc4736",
+    "correlation_sw2021.csv": "36d59a478c00b53671146e5474a75371b8b1a1318b87ce760b0d9e79f4f35725",
+    "pair_days_sw2021.csv": "f5dd9bd053454df2743dada595981de60d5384471cd5fc5ee2dc0c45f1764673",
+    "pairs_sw2021.csv": "7c3065dbe5d1b8251737ebf0ab9dd7f485ad1ad9e1facaef3c62b95a6ca458be",
+    "returns_sw2021.parquet": "ee2bac6296ba32b6163986792c84da15e66efa50c9ed565d39594cef4adb62ad",
+    "correlation_sw2021.png": "392f8b7079600e0df8a822ec360717dd344e84a371b3528c6bbde5ec57d623f7",
+    "correlation_sw2021.pdf": "e80de54716b2dc7ec7b3b56b8a79ce2f19580f271372efa44ce2416d6cef1801",
+    "correlation_sw2014.csv": "6a9e9046de8fe0bb33005eb6cbd31acb907d81b06bb740ee3420db8c73c20410",
+    "pair_days_sw2014.csv": "d1ac6e93f6bb3da08d2b7c7c38089de51a624ac4a07606634c1dc8f17e96694f",
+    "pairs_sw2014.csv": "7f5f8008be19834e2027675093f439dd57d4b4599f5a902f9fddbec3000cdfcb",
+    "returns_sw2014.parquet": "64d9fee764f4e3c8f965281a5e95cad4f58a3231b84d44210fc7585407704c21",
+    "correlation_sw2014.png": "adbb9bd3b657ae919c8afcf18e6f55edcdbfbead9dd9962036cb6f569a6ccc86",
+    "correlation_sw2014.pdf": "b142f64eeee81bca22bdf64f6ec93677ae896edfec756461491173126400941e",
+    "correlation_explorer.html": "7a59ca2db30920f522b8f36aad3a694d25224387bd7b444ef2384c4561a26d28",
+    "README.md": "e237a592f8949fc97c2e33635dbdab0f79af9bb4ee1da9c9143c6520e0321891",
+    "sector_dataset_plots_v1.yaml": "22f6563428d5e98b443b9fa65a0b5c564781a24427ce197a60e13bbff3a95388",
+    "plot_sector_dataset.py": "bf771d2b14dde72168b790c1daefcc6443d5a4351550a0b8311059e28b7e87ea"
+  }
+}

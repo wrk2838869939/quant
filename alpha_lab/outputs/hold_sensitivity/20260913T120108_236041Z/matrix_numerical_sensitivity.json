@@ -1,0 +1,32 @@
+{
+  "boundaries": [
+    {
+      "date": "2025-10-15",
+      "ts_code": "605296.SH",
+      "close": 41.65625,
+      "numpy_mean": 41.65625,
+      "pandas_mean": 41.65624999999999,
+      "numpy_trend": false,
+      "frozen_trend": true
+    }
+  ],
+  "changed_monthly_counts": [
+    {
+      "date": "2025-11-03",
+      "ts_code": "605296.SH",
+      "frozen_weak_count": 18.0,
+      "flipped_weak_count": 19.0
+    }
+  ],
+  "changed_hold_cells": {
+    "baseline": 0,
+    "fast": 0,
+    "slow": 0,
+    "persist5": 0,
+    "persist10": 0,
+    "persist15": 0
+  },
+  "account_decision_inputs_unchanged": true,
+  "account_rerun_performed": false,
+  "conclusion": "六hold若逐格相同，则只翻转持有证据的所有账户决策输入完全不变；原入场信号未改"
+}

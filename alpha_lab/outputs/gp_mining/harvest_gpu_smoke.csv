@@ -1,0 +1,6 @@
+expr,train_ic,train_icir,valid_ic,lib_corr,passed,n_trials
+"sqrt(decay(vwap_dev,5))",-0.0177,-0.17,-0.0262,0.37,True,25
+"inv(ts_min(mul(log(hclose),mul(ret1,high)),60))",-0.0169,-0.1,-0.0621,0.493,True,26
+vol,-0.0635,-0.56,-0.0547,0.665,True,27
+to,-0.0778,-0.48,-0.0837,0.887,False,28
+"ts_mean(ts_mean(abs(decay(to,5)),20),60)",-0.0419,-0.24,-0.0538,0.867,False,29

@@ -1,0 +1,7 @@
+source: alpha_lab/outputs/sector_fuzzy_histogram_report/20260923T114347_981934Z
+output_root: alpha_lab/outputs/sector_fuzzy_between_sectors
+horizons: [3, 10, 20]
+boards_per_page: 22
+plot_bins: 20
+font: fonts/SimHei.ttf
+dpi: 150

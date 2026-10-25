@@ -1,0 +1,8 @@
+{
+  "promoted": false,
+  "production_changed": false,
+  "real_orders": false,
+  "email_sent": false,
+  "reason": "收益保留与交易频率未通过；恢复权限和恢复旧仓存在结构差异",
+  "next_experiment": "只恢复本次风控实际减掉且仍合格的旧仓；资金与整手约束下的定向恢复，不默认有效"
+}

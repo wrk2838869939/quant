@@ -1,0 +1,10 @@
+{
+  "full_market_feature_prefixes": [
+    "2018-12-28",
+    "2021-12-31"
+  ],
+  "train_model_parameters_prefix_exact": true,
+  "matured_labels_checked": true,
+  "source_units_checked": true,
+  "root_agents_unchanged": true
+}

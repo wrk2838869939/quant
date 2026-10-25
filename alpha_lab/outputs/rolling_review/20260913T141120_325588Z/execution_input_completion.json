@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "codes": 281,
+  "rows": 317417,
+  "old_market_exact": true,
+  "old_actions_exact": true,
+  "missing_limits": 0,
+  "actions": 1522,
+  "evidence_frozen_sha256": "68f7017dd80c3f5fd0278c93275a0cc2549ad58cdd583ea88e71331189eb814d",
+  "hashes": {
+    "inputs/daily_close.parquet": "5e4a4a9d665a34f3a8e1882b3cb49e6ac10dc836c36ae51c20057a346afa7e8c",
+    "inputs/daily_trend.parquet": "742daec43d759721b312ace3e2d9b8e483b823150b15ede0f1b0893125e6dfaa",
+    "inputs/daily_observable.parquet": "39c1eedaa25b5fd8c4ae838d36b2826c8b5f4027f88c5020807f8eb3ee932712",
+    "inputs/market.parquet": "a6c638cf559aea8875e1df12f949d614db67d21822578debf7155640b5e43638",
+    "inputs/limits.parquet": "b6c43fe5bc8ced79412385c871ce81c5b3628d4dc820d116d15d2e5b7f5c0e5d",
+    "inputs/raw_actions.parquet": "dc86f2c979557df7d89cc2eb0c766250f27bcbeb4ff5838d3eee124fa3d6d04e",
+    "inputs/normalized_actions.parquet": "00c9e01192438ab2e972a2b9f734fcf7c735d84153e76ffd28a16bfac9bbd1c9",
+    "inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "inputs/execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599",
+    "inputs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "inputs/corporate_action_components.yaml": "73b88489a8b961f0bb9f2c97e96489bedc6de822c98d0cc561d468650716954b"
+  },
+  "same_day_original_order_preserved": true
+}

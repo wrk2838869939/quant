@@ -1,0 +1,9 @@
+{
+  "structural_fix_verified": true,
+  "economic_upgrade_passed": false,
+  "manual_adapter_integrated": false,
+  "independent_oos": false,
+  "live_approved": false,
+  "orders_or_emails_sent": false,
+  "reason": "32/32恢复账户年化低于同日期同费用rank；人工状态事务尚未接入"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "continued_baseline_buffer00",
+  "status": "passed",
+  "planned_orders": 63,
+  "filled_orders": 63,
+  "intraday_limit_fills": 9,
+  "supplementary_attempts": 23,
+  "bonus_events": 0,
+  "actual_days": 1135,
+  "max_order_cash_difference": 0.0,
+  "missing_announcement_paths": 0,
+  "same_day_announcement_ambiguity_paths": 0,
+  "hashes": {
+    "daily.csv": "afe80996b674a59cfb07ed3a6c6e62e4532707034066a84226f82d699d5637f6",
+    "trades.csv": "e71e47dea888b7caac39c1b8795068217dc4103a49bc4c73d3a3ec84f973826a",
+    "events.csv": "42ffe6af3be5d5c14226d8e99927ba077780deac4c49b830331a95427cfa192e",
+    "holdings.csv": "2d085f2d7794188a1e2b98a7c99d0933556488e75998e350baec3970c5200969"
+  }
+}

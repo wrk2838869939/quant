@@ -1,0 +1,15 @@
+# 在查看本轮结果前固定五组机制对照；不扫描参数，不接触 TEST。
+baseline_prepared: outputs/monthly_portfolio_audit/20260911T101938_965835Z
+output_root: outputs/portfolio_improvement
+diagnostic_quantiles: 10
+families:
+  defensive: ['lit:low_turnover', 'lit:low_amp', 'lit:low_vol', 'lit:amihud']
+  reversal: ['lit:rev20', 'lit:rev5', 'lit:mom60s5']
+  microstructure: ['gp:ts_min(vwap_dev,5)', 'gp:ts_std(lg_share,10)']
+  valuation: ['lit:ep', 'lit:bp']
+variants:
+  - {name: baseline, blend: z_icir, band_mult: 1.0}
+  - {name: baseline_buffer, blend: z_icir, band_mult: 2.0}
+  - {name: rank_icir, blend: rank_icir, band_mult: 1.0}
+  - {name: rank_icir_buffer, blend: rank_icir, band_mult: 2.0}
+  - {name: family_rank_buffer, blend: family_rank, band_mult: 2.0}

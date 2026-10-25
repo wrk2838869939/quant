@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+"""生成同日个股筛选报告、仓位敏感性和独立图表。"""
+from pathlib import Path
+import argparse
+import json
+import sys
+
+import numpy as np
+import pandas as pd
+import yaml
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path[:0] = [str(ROOT / 'alpha_lab/src'), str(ROOT / 'alpha_lab/scripts')]
+from sector_dataset import digest
+from research_stock_selection_asof_v2 import cluster_interval
+
+LABELS = dict(original='原完整规则', no_expansion='取消前期放量', price_trend='趋势＋价格形态',
+              trend_only='仅趋势', price_only='仅价格形态', all_members='全体合格成员',
+              price_strength5='价格池强度前5', price_lowvol5='价格池低波前5', ridge_price5='历史训练排序')
+
+
+def pct(value, digits=2):
+    return '—' if pd.isna(value) else f'{value * 100:+.{digits}f}%'
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('run', type=Path)
+    args = parser.parse_args()
+    out = args.run
+    cfg = yaml.safe_load((out / 'config.yaml').read_text())
+    clusters = pd.read_csv(out / 'fixed_event_clusters.csv')
+    cfg['statistics']['event_clusters'] = clusters.set_index('event_id').cluster.to_dict()
+    s = pd.read_csv(out / 'summary_NOT_ACCOUNT.csv')
+    s20 = s[s.horizon.eq(20)]
+    basket = pd.read_csv(out / 'event_baskets_NOT_ACCOUNT.csv', parse_dates=['date'])
+    common = basket[basket.scope.eq('stock_model_available') & basket.horizon.eq(20)]
+    ml = common[common.variant.eq('ridge_price5')]
+    base = common[common.variant.eq('price_only')]
+    pair = ml.merge(base, on='event_id', suffixes=('_ml', '_base'), validate='one_to_one')
+    pair = pair[pair.signaled_ml & pair.complete_ml & pair.complete_base].copy()
+    paired = pd.DataFrame(dict(event_id=pair.event_id, date=pair.date_ml,
+                               excess=pair.capped_return_ml - pair.capped_return_base))
+    interval = cluster_interval(paired, None, cfg['statistics'])
+    cash = dict(events=len(pair), model_mean=pair.capped_return_ml.mean(), price_pool_mean=pair.capped_return_base.mean(),
+                difference=paired.excess.mean(), model_exposure=pair.capped_exposure_ml.mean(),
+                price_pool_exposure=pair.capped_exposure_base.mean(), **interval)
+    (out / 'same_event_capped_allocation.json').write_text(json.dumps(cash, ensure_ascii=False, indent=2))
+    pair.to_csv(out / 'same_event_capped_allocation.csv', index=False)
+    price_pairs = pd.read_csv(out / 'ridge_vs_same_date_price_pool.csv', parse_dates=['date'])
+    price_pairs = price_pairs[price_pairs.horizon.eq(20)].dropna(subset=['price_pool_excess'])
+    annual = price_pairs.groupby(price_pairs.date.dt.year).agg(events=('event_id', 'size'), difference=('price_pool_excess', 'mean'))
+    annual.to_csv(out / 'ridge_same_pool_annual.csv')
+    summary = pd.read_csv(out / 'ridge_vs_price_pool_summary.csv')
+    gates = pd.read_csv(out / 'gate_paired_comparisons.csv')
+    turns = pd.read_csv(out / 'turnover_gate_pairs.csv')
+    no2022 = price_pairs[price_pairs.date.dt.year.ne(2022)].price_pool_excess.mean()
+    nomax = price_pairs.drop(price_pairs.price_pool_excess.idxmax()).price_pool_excess.mean()
+    decisions = pd.read_parquet(out / 'all_decisions_BEFORE_EVALUATION.parquet')
+    counts = decisions[decisions.ridge_price5].groupby('event_id').size().value_counts().sort_index()
+    selected = decisions[decisions.ridge_price5]
+    pool = decisions[decisions.model_start.notna() & decisions.price]
+    # 标准绘图库产生可独立导出的图；均为研究价格观察。
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from matplotlib import font_manager
+    font = ROOT / 'fonts/SimHei.ttf'
+    font_manager.fontManager.addfont(str(font))
+    plt.rcParams.update({'font.family': font_manager.FontProperties(fname=font).get_name(), 'axes.unicode_minus': False})
+    fig, axes = plt.subplots(1, 2, figsize=(13, 5.5), layout='constrained')
+    names = ['original', 'no_expansion', 'price_trend', 'trend_only', 'price_only']
+    a = s20[s20.scope.eq('all_sector_pass')].set_index('variant').loc[names]
+    axes[0].barh([LABELS[x] for x in names], a.signals, color='#367ba3')
+    axes[0].invert_yaxis()
+    for y, n in enumerate(a.signals):
+        axes[0].text(n + 1, y, str(n), va='center')
+    axes[0].set(xlim=(0, 112), xlabel='有候选的板块事件数 / 105', title='固定确认日：硬门槛削减多少机会')
+    names = ['no_expansion', 'price_trend', 'price_only', 'price_strength5', 'price_lowvol5', 'ridge_price5']
+    b = s20[s20.scope.eq('stock_model_available')].set_index('variant').loc[names]
+    for y, (name, r) in enumerate(b.iterrows()):
+        color = '#bc5a36' if name == 'ridge_price5' else '#367ba3'
+        axes[1].plot([r.ci_low * 100, r.ci_high * 100], [y, y], color=color, lw=2)
+        axes[1].scatter(r.mean_excess * 100, y, color=color, zorder=3)
+    axes[1].set_yticks(range(len(names)), [LABELS[x] for x in names])
+    axes[1].invert_yaxis()
+    axes[1].axvline(0, color='#888', linestyle='--', lw=1)
+    axes[1].set(xlabel='相对同日板块成员的20日差值（百分点）', title='2022—2026：均值与行情簇95%区间')
+    for ax in axes:
+        ax.grid(axis='x', alpha=.18)
+    fig.suptitle('个股筛选研究：增加候选不等于证明选股优势；非账户回测', fontsize=14)
+    fig.savefig(out / 'stock_selection_comparison.png', dpi=160)
+    plt.close(fig)
+    lines = ['# 板块通过后的个股筛选：同日对照与历史训练排序', '',
+             '2026-10-13；行情截至2026-10-12。延续逐时点板块模型，未使用随机冻结模型回填。', '',
+             '**结果：硬门槛明显压缩候选；历史训练的连续评分在20日观察上值得继续验证，但尚无稳定净交易优势证据。不能直接将本轮历史优胜方案部署为买入规则。**', '',
+             '![数量与相对表现](stock_selection_comparison.png)', '',
+             '## 1. 本轮隔离了什么', '',
+             '统一板块首次确认日收盘选股、次日开盘进入，固定3/10/20交易日后开盘观察。各方案在同一事件同一天比较，不把更晚的企稳日期混入选股效果。事件等权，板块内股票等权；股票不是独立事件。', '',
+             '因此原规则本轮为9个事件，上轮等待5日内首次出现候选为17个事件，口径不同并非信号消失。固定约40bp费用压力测试已经包含，但仍缺少实际资金/整手/限价成交账本，下面全部是价格观察。', '',
+             '## 2. 固定确认日的候选与表现', '',
+             '| 筛选方式 | 有候选事件/105 | 完整价格路径事件 | 20日均值 | 20日中位数 | 相对同日板块均值 |',
+             '|---|---:|---:|---:|---:|---:|']
+    for name in ['original', 'no_expansion', 'price_trend', 'trend_only', 'price_only', 'price_strength5', 'price_lowvol5']:
+        r = s20[s20.scope.eq('all_sector_pass') & s20.variant.eq(name)].iloc[0]
+        lines.append(f'| {LABELS[name]} | {int(r.signals)} | {int(r.complete_signals)} | {pct(r["mean"])} | {pct(r["median"])} | {pct(r.mean_excess)} |')
+    lines += ['', '表中相对值的百分数读作百分点。方案覆盖事件不同，不能直接拿各自均值排名选赢家；原规则仅9事件，其中仅6个事件可与完整板块篮子配对，样本很小。全部区间、缺失数见summary_NOT_ACCOUNT.csv。', '',
+              '## 3. 趋势和换手是否必须硬过滤', '',
+              '在同日同板块的价格形态池中，趋势通过组相对趋势未通过组：']
+    r = gates.iloc[0]
+    lines += [f'- {int(r.paired_events)}个配对事件，20日均值差{pct(r["mean"])}，95%区间[{pct(r.ci_low)}, {pct(r.ci_high)}]。',
+              '- 个股趋势有弱的正向迹象，但证据不足以证明必须将未通过者全部删除；也不能由“不显著”反推趋势无效。', '',
+              '在已通过趋势和价格形态的池内，换手条件通过组相对未通过组：', '',
+              '| 条件 | 配对事件 | 均值差 | 95%区间 |', '|---|---:|---:|---|']
+    for r in turns.itertuples():
+        lines.append(f'| {"前期放量≥1.4倍" if r.gate == "expansion" else "后期换手≤前期0.7倍"} | {r.paired_events} | {pct(r.mean)} | [{pct(r.ci_low)}, {pct(r.ci_high)}] |')
+    lines += ['', '方向偏正、样本很少、区间较宽。取消门槛能增加候选，并不证明条件应被删除。更合理的待验证假设是保留这些信息作为连续评分，而不要求所有股票跨过相同绝对阈值。', '',
+              '## 4. 历史训练排序如何工作', '',
+              '只使用五类截面分位：60日强度、20日波动、前期换手扩张、后期换手收缩、跌速变化；另加趋势/价格条件、交互及缺失标记。标签为同事件内相对合格成员的20日价格观察。', '',
+              '每年只训练此前已结束且已隔离20交易日的标签；个股训练事件还必须是其当年的板块模型通过者。正则强度在历史内层验证中选择，日期不拆分。2019—2021样本不足跳过，2022—2026可评分59事件。每个真实年度删除未来记录重训，参数和权重完全一致。', '',
+              '只在价格形态池里选择预测相对值大于0的前5只，允许空缺。59个事件中54个出现候选，共193个事件×股票；选出数量为：' + '、'.join(f'{int(k)}只对应{int(v)}事件' for k, v in counts.items()) + '。', '',
+              '## 5. 与相同事件的价格池比较', '',
+              '| 持有观察期 | 配对事件 | 排序相对价格池均值 | 95%区间 |', '|---|---:|---:|---|']
+    for r in summary.itertuples():
+        lines.append(f'| {r.horizon}交易日 | {r.pairs} | {pct(r.mean)} | [{pct(r.ci_low)}, {pct(r.ci_high)}] |')
+    lines += ['', '20日差值按年度拆分：', '', '| 年份 | 配对事件 | 排序相对价格池均值 |', '|---|---:|---:|']
+    for year, r in annual.iterrows():
+        lines.append(f'| {year} | {int(r.events)} | {pct(r.difference)} |')
+    lines += ['', f'五个年度方向均为正；去掉2022年后均值差{pct(no2022)}，去掉最大单事件贡献后{pct(nomax)}。但主区间仍包含零，短期观察不一致，不能当作已验证alpha。', '',
+              '基准不同也会影响判断：排序相对全体板块成员的均值约+1.03个百分点，去掉2022年后约+0.11个百分点；相对价格形态池的改善更稳定。不要将两个基准混用。', '',
+              '## 6. 仓位和风险会吃掉多少表面改善', '',
+              f'在相同的{cash["events"]}个可配对事件中，若入选股等分全部事件额度，20日均值差约+1.20个百分点。若每股最多20%、不足5只留现金：', '',
+              f'- 排序平均投入比例{cash["model_exposure"]:.1%}，价格池{cash["price_pool_exposure"]:.1%}。',
+              f'- 排序的事件额度价格观察均值{pct(cash["model_mean"])}，价格池{pct(cash["price_pool_mean"])}。',
+              f'- 差值缩小为{pct(cash["difference"])}，95%区间[{pct(cash["ci_low"])}, {pct(cash["ci_high"])}]。', '',
+              '这仍是独立事件额度的假设观察，不是可相加的账户收益；同时出现的事件可能占用同一笔现金。缺失价格路径在主表不报收益，另有−20%/−100%缺失压力情景，见missing_path_stress_NOT_ACCOUNT.csv。', '',
+              f'排序选中股票的20日波动率中位数为{selected.volatility.median():.2%}，价格池为{pool.volatility.median():.2%}；有偏向更高波动的迹象。其放量倍数中位数约{selected.expansion.median():.2f}，仅{selected.expansion.ge(1.4).mean():.1%}达到1.4倍硬门槛。大多数新增候选是相对换手更强，而非满足绝对放量阈值。', '',
+              '## 7. 当前研究结论', '',
+              '1. 不继续用“同时满足全部条件”来定义唯一研究池。保留基础资格和价格形态作为扩展观察池，让趋势、换手、波动参与连续评分，并与原规则并列验证。',
+              '2. 本轮历史训练排序仅获得研究候选资格；尚不支持替换实盘规则。其20日改善有线索，但区间、仓位约束和风险暴露都限制结论。',
+              '3. 下一项关键验证应是固定本轮版本后的新增事件与统一资金占用、公司行动、停牌及限价执行，而不是继续向历史里添加更多参数。生产配置和通知均未修改。', '',
+              '## 8. 审计边界与复现', '',
+              '三项时序单元测试通过；5个真实年度的删除未来记录重训通过。模型权重、内层搜索、候选生成和评价分开落盘。事件簇在完整105事件时间线上固定，不能按各方案结果重划簇。', '',
+              '研究仍使用供应商当前历史区间，缺少逐日原始版本和行业公告时间；策略家族及候选网格在今天指定。完整标签事件过滤也可能产生非随机缺失偏差。没有新独立测试或实盘成交收益的证明。', '',
+              '```bash',
+              'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m unittest discover -s alpha_lab/tests -p \'test_stock_selection_asof.py\'',
+              'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python alpha_lab/scripts/research_stock_selection_asof_v2.py',
+              'python alpha_lab/scripts/report_stock_selection_asof_v2.py <输出目录>', '```', '']
+    (out / 'REPORT.md').write_text('\n'.join(lines))
+    manifest = json.loads((out / 'manifest.json').read_text())
+    manifest['reporter_source'] = {str(Path(__file__).relative_to(ROOT)): digest(__file__)}
+    manifest['artifacts'] = {str(p.relative_to(out)): digest(p) for p in out.rglob('*') if p.is_file() and p.name != 'manifest.json'}
+    (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
+    print('CAPPED', json.dumps(cash, ensure_ascii=False))
+    print('REPORT', out / 'REPORT.md')
+
+
+if __name__ == '__main__':
+    main()

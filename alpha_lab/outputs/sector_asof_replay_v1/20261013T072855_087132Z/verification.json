@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_hashes": 74,
+  "annual_timing_years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "prediction_rows": 256,
+  "selected_events": 105,
+  "stock_decision_rows": 9591,
+  "data_vintage_certified": false
+}

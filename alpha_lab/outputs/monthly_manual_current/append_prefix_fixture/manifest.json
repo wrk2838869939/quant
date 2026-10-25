@@ -1,0 +1,8 @@
+{
+  "historical_fixture": true,
+  "real_account": false,
+  "output_sha256": {
+    "feature_panel.parquet": "2b860b1035272f873bce2e59e573e841a9de913428db1fde91d991f1fc6593f8",
+    "st.parquet": "7d810ce863a6b10d190a16385fbfa4a8e5d867d37cf0cfbba8d82b38de2452f7"
+  }
+}

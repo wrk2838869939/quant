@@ -1,0 +1,5 @@
+family,branch,passed,max_error
+cnn,return_predictions,True,0.0
+cnn,paired_predictions,True,0.0
+hmm,return_predictions,True,0.0
+hmm,paired_predictions,True,0.0

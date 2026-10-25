@@ -1,0 +1,11 @@
+{
+  "dataset_content_id": "12e9fc88adc9319c932598aa340136087d0fbeacf2e9bd2f50ae35022e166aa1",
+  "read_api_check": true,
+  "artifact_hashes": {
+    "/root/autodl-tmp/alpha_lab/docs/SECTOR_DATASET_BUILD_20260921.md": "e249e564c767f8c3da2034616a7c96d2a8825585b83db95d4ba1a90deecbb9ca",
+    "/root/autodl-tmp/alpha_lab/docs/SECTOR_DATASET_V1.md": "c7de9f9234a3b599bc528bde1d3430360b6609bbce31e0dccead69fdf3bfd2bb",
+    "/root/autodl-tmp/alpha_lab/scripts/inspect_sector_dataset.py": "80e9970b63b1967f6e6eaf0e34302ed5729dae900cb2600600afecd75c874af5",
+    "/root/autodl-tmp/alpha_lab/outputs/sector_dataset_review/sw_l2_v1_20260921T073401_889301Z/latest_sectors.csv": "e847bf55e913ed2719a5a0770fa1e72799a09f45f4c3a6747e017a03242efd71",
+    "/root/autodl-tmp/alpha_lab/outputs/sector_dataset_review/sw_l2_v1_20260921T073401_889301Z/membership_conflicts.csv": "d5571063d27dd14f7dfda8f05c86570860eac5675c7a982abc2df0de86cf7def"
+  }
+}

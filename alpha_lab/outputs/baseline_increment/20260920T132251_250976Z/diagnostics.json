@@ -1,0 +1,42 @@
+{
+  "audited_accounts": 704,
+  "audited_trade_records": 57520,
+  "cash_max_error": 1.673470251262188e-10,
+  "saved_fit_pairs": 836,
+  "saved_models": 1672,
+  "immature_labels_used": 0,
+  "nonmonotonic_triplets": 93,
+  "all_triplets": 480,
+  "selections": {
+    "baseline": {
+      "host_years": 12,
+      "exact_baseline": 12,
+      "learned": 0,
+      "cash": 0
+    },
+    "residual_best": {
+      "host_years": 12,
+      "exact_baseline": 1,
+      "learned": 11,
+      "cash": 0
+    },
+    "residual_stable": {
+      "host_years": 12,
+      "exact_baseline": 1,
+      "learned": 11,
+      "cash": 0
+    },
+    "direct_best": {
+      "host_years": 12,
+      "exact_baseline": 0,
+      "learned": 8,
+      "cash": 4
+    },
+    "direct_with_fallback": {
+      "host_years": 12,
+      "exact_baseline": 4,
+      "learned": 8,
+      "cash": 0
+    }
+  }
+}

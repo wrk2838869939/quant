@@ -1,0 +1,12 @@
+{
+  "asof": "2026-10-21",
+  "daily_rows": 5568,
+  "active_master_rows": 5578,
+  "suspended": 8,
+  "stale_delisted": 2,
+  "missing_critical_fields": 0,
+  "duplicate_keys": 0,
+  "ohlc_invalid": 0,
+  "hfq_mismatch": 0,
+  "raw_amount_volume_close_match": true
+}

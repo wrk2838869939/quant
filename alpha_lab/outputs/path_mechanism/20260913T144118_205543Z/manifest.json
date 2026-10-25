@@ -1,0 +1,579 @@
+{
+  "cases": [
+    {
+      "name": "continued_calendar_01_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_calendar_01_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_calendar_01_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_calendar_01_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_calendar_01_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_calendar_08_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_calendar_08_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_calendar_08_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_calendar_08_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_calendar_08_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_calendar_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_calendar_15_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_calendar_15_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_calendar_15_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_calendar_15_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_calendar_22_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_calendar_22_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_calendar_22_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_calendar_22_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_calendar_22_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_rolling_00_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_rolling_00_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_rolling_00_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_rolling_00_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_rolling_00_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_rolling_05_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_rolling_05_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_rolling_05_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_rolling_05_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_rolling_05_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_rolling_10_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_rolling_10_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_rolling_10_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_rolling_10_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_rolling_10_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "continued_rolling_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline"
+    },
+    {
+      "name": "continued_rolling_15_duration",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "duration"
+    },
+    {
+      "name": "continued_rolling_15_wait",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "wait"
+    },
+    {
+      "name": "continued_rolling_15_recover",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "recover"
+    },
+    {
+      "name": "continued_rolling_15_lot_buffer",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_calendar_01_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_calendar_01_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_calendar_01_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_calendar_01_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_calendar_01_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_calendar_08_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_calendar_08_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_calendar_08_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_calendar_08_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_calendar_08_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_calendar_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_calendar_15_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_calendar_15_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_calendar_15_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_calendar_15_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_calendar_22_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_calendar_22_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_calendar_22_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_calendar_22_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_calendar_22_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_rolling_00_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_rolling_00_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_rolling_00_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_rolling_00_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_rolling_00_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_rolling_05_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_rolling_05_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_rolling_05_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_rolling_05_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_rolling_05_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_rolling_10_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_rolling_10_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_rolling_10_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_rolling_10_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_rolling_10_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "lot_buffer"
+    },
+    {
+      "name": "cold_rolling_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline"
+    },
+    {
+      "name": "cold_rolling_15_duration",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "duration"
+    },
+    {
+      "name": "cold_rolling_15_wait",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "wait"
+    },
+    {
+      "name": "cold_rolling_15_recover",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "recover"
+    },
+    {
+      "name": "cold_rolling_15_lot_buffer",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "lot_buffer"
+    }
+  ],
+  "config_sha256": "239e213230238a26192b27eadf60ea49c1b9f18efc8def1f6a0954b741f92f9d",
+  "parent_completion_sha256": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac",
+  "source_sha256": {
+    "src/path_mechanism_portfolio.py": "e68428f9e4269f9006e4625d73485f6fb69bee27cf522d09b159ca890b32d104",
+    "src/duration_hold.py": "ce69292d3baac50950e06d8ea0bf7755ad4d07c33180ad2f78cca4e6b3c68865",
+    "src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/research_path_mechanisms.py": "d19f6bc6e2b142f63127608ea43433c346b6deb7ea9101bd536ef48a0aa5c7b6",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "tests/test_path_mechanisms.py": "99960ab970029c37c3002deb44b756fa8b0abacf7e165efdc0158600d8d332f6",
+    "tests/test_causal_portfolio_adversarial.py": "dca18412421f0d0b6dd8b79f52b2e4a2d11fdb48dd55b396d93df838e0e4a6d1"
+  }
+}

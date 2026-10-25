@@ -1,0 +1,11 @@
+window,variant,fixed_first_failures,early_exits,next_review_known,next_review_recovered,forward20_known,forward20_positive,forward20_mean,forward20_median
+old,baseline,21,0,0,0,0,0,,
+old,persist10,21,7,7,3,7,4,0.04813541820546431,0.052971836664170935
+old,accelerated,21,2,2,1,2,1,0.02802287581699331,0.02802287581699331
+old,patient,21,0,0,0,0,0,,
+old,hybrid,21,2,2,1,2,1,0.02802287581699331,0.02802287581699331
+recent,baseline,29,0,0,0,0,0,,
+recent,persist10,29,15,13,6,13,8,0.06135417028485874,0.04585987261146496
+recent,accelerated,29,3,3,0,3,1,0.048333299458279834,-0.007407407407407418
+recent,patient,29,0,0,0,0,0,,
+recent,hybrid,29,3,3,0,3,1,0.048333299458279834,-0.007407407407407418

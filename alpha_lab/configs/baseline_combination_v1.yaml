@@ -1,0 +1,48 @@
+# 三条完整基线的受约束权重学习；正式结果前锁定。
+schema_version: 1
+study: baseline_combination_v1
+registry: alpha_lab/configs/selection_baselines_v1.yaml
+reference_run: alpha_lab/outputs/selection_baselines/20260920T125034_094790Z
+inner_start: '2019-01-01'
+outer_years: [2021, 2022, 2023]
+outer_start: '2021-01-01'
+outer_end: '2023-12-31'
+search:
+  simplex_denominator: 10
+  include_equal_weight: true
+  workers: 6
+  missing: intersection_of_positive_weight_factors
+  score_scaling: daily_percentile_rank
+  policies: unique_baseline_frequency_and_top_n_in_current_fold
+  vertices: exact_baseline_score_filter_frequency_top_n
+  assume_monotonicity: false
+  stable_tie_band: 0.005
+  neighbor_minimum: 3
+  max_drawdown: 0.30
+ic:
+  horizon: 20
+  min_stocks: 10
+  label_end_strictly_before_outer_start: true
+selection:
+  account_objective: median_calendar_year_net_annualized_return
+  feasibility: continuous_and_each_year_drawdown_with_buys
+  tie_breakers: [lower_turnover, fewer_active_factors, deterministic_id]
+  no_feasible_candidate: cash
+  methods:
+    - baseline_selector
+    - account_best
+    - account_stable
+    - ic_best
+    - ic_with_baseline_fallback
+    - equal_weight
+checks:
+  prefix_dates: ['2021-06-30', '2022-06-30', '2023-06-30']
+  audit_every_trial: true
+  match_all_endpoint_account_tables: true
+limitations:
+  - 三条机制按已经观察的外层成绩挑选；属于诊断研究，不是新鲜样本外。
+  - 内层以当年已选的基线参数重新拟合组合；沿用过去数据但叠加选择偏差。
+  - 93股存在全窗口质量隔离偏差，保留冻结数据不扩展。
+  - 正权因子取资格交集；权重降至零时过滤条件可能跳变。
+  - 权重是排名分数组合，不是子账户资金配比；不做收益曲线加权。
+  - 网格穷举只保证已登记离散候选内最优，不保证连续域最优或未来胜出。

@@ -1,0 +1,33 @@
+{
+  "status": "prepared",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "scope": [
+    "TRAIN风险持续与恢复",
+    "TRAIN收益估计滚动校准",
+    "整手旧仓联合优化",
+    "资金矩阵",
+    "成本压力",
+    "执行延迟",
+    "风险上限压力",
+    "前视和对账"
+  ],
+  "config_sha256": "b2f175f361baf99ea426167f79b9afaeb6a0ccf259c912f47fe9b785cdd34b98",
+  "source_sha256": "2d1ac9719ad4c5fca861d46bf426497a8f725a8896195c803f1da5c251098bc2",
+  "training_last_label": "2021-12-22 00:00:00",
+  "label_convention": "next-open adjusted-price proxy; missing entry cash, missing exit last mark, delisting zero; actual execution separately audited",
+  "source_hashes": {
+    "scripts/prepare_retail_validation.py": "2d1ac9719ad4c5fca861d46bf426497a8f725a8896195c803f1da5c251098bc2",
+    "src/risk_states.py": "f2360b755106ec8fe6998072e72d4b271979ff0740afb9893ec96b3855bec763",
+    "scripts/run_gp_mining.py": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df",
+    "scripts/synthesis_and_test.py": "fc50aa029189d0a13c576f1def73383ac41dcdcda03567bd0c305a2c7596cda0"
+  },
+  "artifacts": {
+    "risk_plans.csv": "d8e373a3dcbe7beaf5e2086bb7349fd9cb8b7edb3212c2249be49fd12e4d1090",
+    "train_risk_events.csv": "8ba36595173e171d4d737c5573420252a19b0bb0cb2717958f6e91c3c932072a",
+    "train_rank_returns.csv": "68ef1e8dd4ec60812f6785dee747518474c815c5bffdcb99d443dcaa1bd6b2a3",
+    "training_coverage.csv": "bc9be885cb03fa2075f22a9d6c91a0cb18ff1f34582dd54371f97da6e17d2a50",
+    "return_calibration_walk_forward.csv": "b4cefc7050efa2b838110323bcfb1ba5510ca41ec930c99a7fcd441f3fb3f31d",
+    "frozen_return_model.csv": "477dbf9ef053ed1ab117c89b47dc9a54f9a9af8ed4c11d6386116cbaa756a41f"
+  }
+}

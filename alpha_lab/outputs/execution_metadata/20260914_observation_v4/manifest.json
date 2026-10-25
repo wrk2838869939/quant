@@ -1,0 +1,18 @@
+{
+  "historical_backfill": true,
+  "generated_at": "2026-09-14T06:16:02.822667+00:00",
+  "bundle_sha256": "3dd11bfa140bdc14f668bc4fb825283f4f7d03fba5d75ebf876b30e357451be8",
+  "snapshot_sha256": null,
+  "metadata_receipt_sha256": "cbafcf52f2759251eaab334b74d9d62bcd17f4e2131cc7d6c982fafaab25fc77",
+  "metadata_stage": "/root/autodl-tmp/alpha_lab/outputs/execution_metadata/20260914_stage",
+  "price_asof": "2026-09-11",
+  "real_account_supplied": false,
+  "files_sha256": {
+    "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9",
+    "/root/autodl-tmp/alpha_lab/outputs/shadow_execution/20260914T054517_770961Z/model_2026.json": "5f2d3fbc3f3286b69b8c5aa2264bc8fac4de448e933c561a5fa9e73215b30247",
+    "/root/autodl-tmp/alpha_lab/outputs/live_ingestion/20260914_market_stage/validated/package.json": "ddc6e6d054ab2bd9b96838d23fe021a0a08e1f4e1ee17b26ac50543ab5c3db87",
+    "/root/autodl-tmp/alpha_lab/outputs/live_ingestion/20260914_market_stage/validated/feature_increment.parquet": "3cc7bbe8c42b78a8a4dfadb7fc13a6ff5230ade7ed64bd708a771661df54357e",
+    "/root/autodl-tmp/alpha_lab/outputs/live_ingestion/20260914_market_stage/validated/market_increment.parquet": "5577bc5474378dd1c88696614f84dca93aeb737be622def3f132a64a370ecb84",
+    "/root/autodl-tmp/alpha_lab/configs/shadow_execution.yaml": "81a0805c072d0145b0fb126bd12db16d8daadb03bbabaf7f6517e3ff3844336d"
+  }
+}

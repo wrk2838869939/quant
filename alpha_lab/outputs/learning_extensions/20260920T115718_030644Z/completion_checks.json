@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "formal_trials": 336,
+  "pilot_trials": 28,
+  "successful_fit_batches": 1904,
+  "tests": {
+    "passed": 60,
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 python -m pytest alpha_lab/tests/test_learning_extensions.py alpha_lab/tests/test_learning_search.py alpha_lab/tests/test_rule_search.py alpha_lab/tests/test_classic_smoke.py alpha_lab/tests/test_portfolio.py -q"
+  },
+  "static_cash_recombination_pass": [
+    "trade_filter_static_half",
+    "market_gate_static_half"
+  ],
+  "model_roundtrip_max_error": 0.0,
+  "cumulative_strategy_trials": 12520,
+  "limitations": [
+    "93-stock quality-selected engineering sample",
+    "previously observed outer years",
+    "16 configurations per family fold; no global optimality claim"
+  ]
+}

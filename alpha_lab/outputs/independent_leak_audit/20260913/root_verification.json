@@ -1,0 +1,61 @@
+{
+  "integrity_and_evidence_checks": [
+    {
+      "name": "sealed_run_artifacts",
+      "count": 730,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "opening_scope",
+      "count": 55,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "execution_source_inputs",
+      "count": 19,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "execution_artifacts",
+      "count": 11,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "signals_provenance",
+      "count": 18,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "data_sources",
+      "count": 7,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "public_source_files",
+      "count": 3,
+      "failures": [],
+      "passed": true
+    },
+    {
+      "name": "all_case_trade_counts_and_signal_dates",
+      "count": 30,
+      "passed": true
+    }
+  ],
+  "verification_passed": true,
+  "original_artifacts_preserved_count": 730,
+  "trade_count": 1591,
+  "full_day_volume_gate_counterfactual_scope": "cold_hybrid and continued_hybrid only",
+  "data_check_count": 63,
+  "data_failed_checks": [
+    "panel_stock_identity_covered"
+  ],
+  "audit_verdict": "FINDINGS_CONFIRMED_NOT_ADMITTED",
+  "limitation": "Evidence consistency verification is not a new independent market-data or execution certification."
+}

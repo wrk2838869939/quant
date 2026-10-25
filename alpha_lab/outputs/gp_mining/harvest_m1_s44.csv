@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"decay(sqrt(zscore(gap)),10)",-0.1158,-1.0,-0.1101,1.05,0.555,True,63

@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "purpose": "read_only_PIT_audit",
+  "run": "/root/autodl-tmp/alpha_lab/outputs/financial_pit_audit/20260913T070937_341943Z",
+  "raw_path": "/root/autodl-tmp/alpha_lab/data/raw/fina_indicator_all.parquet",
+  "raw_row_hash": "6e783e7fab94abea77232e5d674a69fa5f19a6f633eb9fadef7a98c6a8b4c0c0",
+  "filters": [
+    [
+      "ann_date",
+      "<=",
+      "20231231"
+    ],
+    [
+      "end_date",
+      "<=",
+      "20231231"
+    ]
+  ],
+  "sources": [
+    {
+      "url": "https://tushare.pro/document/2?doc_id=79",
+      "file": "sources/tushare_fina_indicator.html",
+      "sha256": "d85777706569661d988b74e818d01d6ad9bdca8609fee5ab9ccf5cb57bf800bc"
+    },
+    {
+      "url": "https://tushare.pro/document/2?doc_id=44",
+      "file": "sources/tushare_cashflow.html",
+      "sha256": "4a74156404d055cadf821eae5bd62bd9b94807704160c97b851c71ec2aaca2cb"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2019-03-30/1205964020.PDF",
+      "file": "sources/ningbo2018.pdf",
+      "sha256": "c9d5c1834e5451ca7e9fed3ee62532f64f5227707f49492dc8f0a13594c8f1d5"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2020-04-11/1207481981.PDF",
+      "file": "sources/ningbo2019.pdf",
+      "sha256": "007ba31c1f9e98a39d76bdf33002548513c5c581a14c14d1f898ce0b47d64d75"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2020-04-29/1207668715.PDF",
+      "file": "sources/daqin2019.pdf",
+      "sha256": "2859566b71216901447062cf94e92c53b1fcc1682fac0c38b5fffa3443ef3ee4"
+    }
+  ],
+  "source_code_hash": {
+    "alpha_lab/scripts/fetch_lowfreq.py": "d0e36f14a519139e9c19583c82d65ec845dd04a9045c06c1394d749b55d11865"
+  },
+  "artifacts": {
+    "README.md": "c55388bf453b7538ef1c33a6c0172a42eb2605dd761daf399381d7dd87f08b8e",
+    "ann_lag_over365.csv": "520f36847ad7c9ccee48675cc7d6c1ce0123340300d7ee33d1b66cbd50ece62d",
+    "annual_coverage.csv": "50e1d504ad5cc2a24aecf6856ac6467a1f66644febad479ac92999557e2adccb",
+    "audit_fina_indicator_snapshot.py": "0dbdfa5c4673608e7b7223fd6dda06dc24f39383e3909e7cfa3e8c931acdc9ab",
+    "field_coverage.csv": "7377bfa7f9f0020f09af1b1e384a195d994966e2ad1ecfe94c5eecda4e901123",
+    "full_test_suite.log": "b47bff9926e460c32d6265da964985f5ec31064566881d1bf2c5bf010e3c68b4",
+    "issuer_value_checks.csv": "a0c9a0bc4bd8e1c5867cffbc4c10fa0944ae6bb1422d597ce2d5b41e3e1f3fa2",
+    "multiple_announcement_changes.csv": "abf0a2cbb7d55f283095f8f62440dab276368eaccc6ee7180b8c08f2c701e57b",
+    "multiple_announcement_rows.csv": "cc026489ca81a377c80984bcb2b885f7bcf828b7cbcb1f4471e48a558f7be8bc",
+    "nonstandard_periods.csv": "63da6649354dc77906231982a924f19136f8c51623b6806a64f54b90f1d3e412",
+    "preselected_five_company_rows.csv": "3864e1fd1ec316a4f6a7fc54a4bd0205b9c5a3f82e562142ea7e18d5e23ccd69",
+    "raw_schema.txt": "edec21249af677cd0ec8c5b8d09d40aba1fd8d303a1a03a7261f8e23628232b3",
+    "registration.json": "e39495c5c33ce998e4471adcd13a42910faf797216deecf04a6bc3e2fe68fc3e",
+    "restatement_control.json": "a40f47d71776bd82bf9d8c8b788b432e69dc6170da4c8ff039f452784d09b7cb",
+    "sources/daqin2019.pdf": "2859566b71216901447062cf94e92c53b1fcc1682fac0c38b5fffa3443ef3ee4",
+    "sources/daqin2019.txt": "559bc6319df15d0e8ec5275c13e81f9360f1fabbadbc08fca963045943e5cf7e",
+    "sources/issuer_urls.json": "b8d9e75a5cf370c54d7c80d7a73e1aaeacab0f30986619d10b366d38487acb87",
+    "sources/ningbo2018.pdf": "c9d5c1834e5451ca7e9fed3ee62532f64f5227707f49492dc8f0a13594c8f1d5",
+    "sources/ningbo2018.txt": "31e5560e42991d3d3c385ec9827e621f5ab0dccd950c17b4c54e61e1bff38c65",
+    "sources/ningbo2019.pdf": "007ba31c1f9e98a39d76bdf33002548513c5c581a14c14d1f898ce0b47d64d75",
+    "sources/ningbo2019.txt": "9d945cdb5acb48409227596204253da6918afcc9d9c435878e272162966278d6",
+    "sources/tushare_cashflow.html": "4a74156404d055cadf821eae5bd62bd9b94807704160c97b851c71ec2aaca2cb",
+    "sources/tushare_fina_indicator.html": "d85777706569661d988b74e818d01d6ad9bdca8609fee5ab9ccf5cb57bf800bc",
+    "summary.json": "8cc0ca7456b50d7806daceb93d016fc69325da4084be919f8b90fa6823e8fb06"
+  },
+  "excludes": "root-owned opportunity_coverage/version_api_probe and peer-owned restatement_evidence each retain independent provenance; referenced separately",
+  "training": false,
+  "raw_modified": false,
+  "credentials_accessed": false,
+  "verdict": "confirmed_mixed_version_row_reject_ann_date_only_full_snapshot_strict_PIT",
+  "positive_issuer_checks": 13,
+  "external_evidence": {
+    "version_api_probe/manifest.json": "560699477c0bb8f9a31e8a02aa4491d9a30ebec85ac2454046860988fa78eef4",
+    "restatement_evidence/sources.json": "e596eed5f1013a4c2575d7714f988cbfefd79597a79b3fa36032205d26aaf139",
+    "restatement_evidence/cashflow_probe_selected.csv": "9cbcff92c338a43f28a582096ef9b258931d03812c86674953f48f88b88a3bd5"
+  }
+}

@@ -1,0 +1,78 @@
+study: sector_asof_replay_v1
+release: datahub/releases/selection_live_20261013
+dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261013T053143_382413Z
+parent_run: alpha_lab/outputs/sector_entry_window_v1/20261013T064932_361598Z
+event_source: alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z
+model_config: alpha_lab/experiments/sector_fuzzy_v1/config.yaml
+stock_rules: alpha_lab/configs/left_side_trend_v2.yaml
+output_root: alpha_lab/outputs/sector_asof_replay_v1
+asof: '2026-10-12'
+test_years:
+- 2019
+- 2020
+- 2021
+- 2022
+- 2023
+- 2024
+- 2025
+- 2026
+model:
+  update: annual_before_first_session
+  training_years: 8
+  embargo_sessions: 20
+  validation_fraction: 0.25
+  minimum_train_events: 25
+  minimum_validation_events: 8
+  minimum_validation_dates: 4
+  retention: 0.5
+  rules:
+  - 4
+  - 8
+  learning_rates:
+  - 0.003
+  - 0.01
+  tuning_seeds:
+  - 17
+  - 43
+  ensemble_seeds:
+  - 17
+  - 43
+  - 101
+  maximum_epochs: 1500
+  half_life_days: 1095
+stock:
+  eligibility: same_event_today
+  history_sessions: 400
+  rank_window: 60
+  volatility_window: 20
+  top_n: 5
+  variants:
+  - original
+  - no_expansion
+  - price_trend
+  - trend_only
+  - price_only
+  - qualified_all
+  - price_trend_strength5
+  - price_trend_lowvol5
+  name_announcement_strict_before: true
+observation:
+  horizons:
+  - 3
+  - 10
+  - 20
+  buy_cost: 0.001
+  sell_cost: 0.002
+  slippage_per_side: 0.0005
+  bootstrap_seed: 20261013
+  bootstrap_repetitions: 1000
+  cluster_gap_sessions: 20
+prefix_checks:
+- date: '2018-12-28'
+  sector: 801154.SI
+- date: '2021-12-10'
+  sector: 801053.SI
+- date: '2024-12-31'
+  sector: 801765.SI
+- date: '2026-07-23'
+  sector: 801084.SI

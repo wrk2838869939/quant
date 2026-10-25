@@ -1,0 +1,93 @@
+{
+  "trials": 384,
+  "errors": 0,
+  "unique_fit_records": 5572,
+  "successful_fits": 5572,
+  "insufficient_training": 0,
+  "label_availability_pass": true,
+  "model_hashes_pass": true,
+  "independent_accounts": 20,
+  "trades_checked": 6921,
+  "max_money_error": 1.673470251262188e-10,
+  "real_feature_label_prefix": {
+    "features": 23,
+    "label_horizons": 3,
+    "passed": true
+  },
+  "real_prediction_prefix": [
+    {
+      "family": "factor_weight",
+      "params": {
+        "family": "factor_weight",
+        "variant": "ic",
+        "horizon": 5,
+        "train_window": 756,
+        "retrain_months": 1,
+        "frequency": "monthly",
+        "top_n": 3,
+        "shrinkage": 0.5,
+        "keep_features": 0
+      },
+      "cutoff": "2020-06-15",
+      "passed": true
+    },
+    {
+      "family": "linear",
+      "params": {
+        "family": "linear",
+        "variant": "elastic_net",
+        "horizon": 10,
+        "train_window": 504,
+        "retrain_months": 3,
+        "frequency": "weekly",
+        "top_n": 3,
+        "alpha": 0.001,
+        "l1_ratio": 0.5
+      },
+      "cutoff": "2020-06-15",
+      "passed": true
+    },
+    {
+      "family": "lgbm",
+      "params": {
+        "family": "lgbm",
+        "variant": "ranking",
+        "horizon": 20,
+        "train_window": 504,
+        "retrain_months": 1,
+        "frequency": "weekly",
+        "top_n": 4,
+        "n_estimators": 64,
+        "num_leaves": 3,
+        "min_child_samples": 600,
+        "learning_rate": 0.03,
+        "reg_lambda": 1.0
+      },
+      "cutoff": "2020-06-15",
+      "passed": true
+    },
+    {
+      "family": "dual",
+      "params": {
+        "family": "dual",
+        "variant": "regression",
+        "horizon": 5,
+        "train_window": 504,
+        "retrain_months": 3,
+        "frequency": "weekly",
+        "top_n": 4,
+        "n_estimators": 64,
+        "num_leaves": 15,
+        "min_child_samples": 600,
+        "learning_rate": 0.03,
+        "reg_lambda": 10.0,
+        "risk_aversion": 0.25,
+        "risk_cap": 0.05
+      },
+      "cutoff": "2020-06-15",
+      "passed": true
+    }
+  ],
+  "unit_tests_pre_run": 45,
+  "representative_model_roundtrips": 8
+}

@@ -1,0 +1,5 @@
+page,title,image
+1,板块间分布直方图（每板块一个数值）,between_sector_histograms.png
+2,具体板块并列比较 1-22 / 65,named_sector_comparison_01.png
+3,具体板块并列比较 23-44 / 65,named_sector_comparison_02.png
+4,具体板块并列比较 45-65 / 65,named_sector_comparison_03.png

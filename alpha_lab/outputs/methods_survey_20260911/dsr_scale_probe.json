@@ -1,0 +1,12 @@
+[
+  {
+    "return_scale": 1,
+    "daily_sharpe": 0.035924655887980536,
+    "current_function_output": 0.0
+  },
+  {
+    "return_scale": 100,
+    "daily_sharpe": 0.035924655887980536,
+    "current_function_output": 0.7831472584745772
+  }
+]

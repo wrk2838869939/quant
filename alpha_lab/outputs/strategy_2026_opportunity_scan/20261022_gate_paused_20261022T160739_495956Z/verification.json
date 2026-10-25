@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "protected_original_hashes_unchanged": true,
+  "source_scan_manifest_verified": true,
+  "old_events_not_reopened": true,
+  "stock_weights_unchanged": true,
+  "annual_gate_enabled": false,
+  "no_orders": true
+}

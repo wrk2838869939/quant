@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "asof": "2026-10-22",
+  "artifacts": {
+    "protected_before.json": "fd58e5a45d4ebf49c3ccb850c942a3d752452a59bc546eea4bb73f331f06de14",
+    "before_pointers.json": "be1f32359f117aa62da250ec61d9beb2e6ae3df8648078cd9a17983d4e862443",
+    "run_pipeline.py": "f740b2f9dd7178423ed8eece0def1194ed96025dc84e83a3984431e4cf9aaa46",
+    "pipeline.json": "61a2ded5edf1207b97000a3df71e0f105ee56ec113442650224b0d31d7f76d2d",
+    "update.log": "7797207ece09f28277e9a036b67efb223409a42947581915429f559a3aa5245e",
+    "build_dataset.log": "4225a42d043d76dc50244d3ec31c9a71f4bb7a884af7d00d9a3c170d21be2dda",
+    "audit_latest.py": "fd6493f6260280e2d29b6fb1a87aa16ac823122ec5fe307c33aec99cd9adce38",
+    "audit.log": "00de1991970f943ad58d01b2331559bd8cbd2de4446ef15bb2fd29ee6068faf4",
+    "field_coverage.csv": "a9f8883a3d39855d583e0e5d8d4ba84f8c039c07c6a0fcde75d0bb24241591f6",
+    "api_coverage.csv": "752e10e5627ddb327afec6e8ef03f50951519745e385ce2ec93de4aa67668780",
+    "suspend_d_20261022.parquet": "facdcd3cda454850179b285eca76d41e9544dbd7c71434f094fc9932d21d6a8c",
+    "missing_daily_reconciled.csv": "9ec0ec21840dcbc8f0e4fd5dde4281d9f2a0384b2653cc32fea708c61183ed97",
+    "latest_quality.json": "55c6142d3424cc7ecf9b4d9ac3be00201f036a0814c15c7dd920e2f5779b9f2d",
+    "build_report.py": "b687408afb39e37521a42e3bd6a93a3d94323577a52af7f050be7bbd3385703a",
+    "scan_sectors.log": "f47da7867d5c15a41958506d17a6d4f9d738986616db47f2b3a97ea0d0305928",
+    "scan_stocks.log": "7c7507ca3dde51efaf8b8a73cdf7371cf77d99592bf0140678f2b3459426e325",
+    "watch_with_reasons.csv": "98b7570a12f5f79d58a16d64ec06c11c7bf192271f9815611d853cc57e99fe7e",
+    "state_changes.csv": "78cad1b0f509c96e2e54b74df865b4c59ef65e8778545024fa4a2346ece1700f",
+    "previous_events_status.csv": "6e8c05aa68e51f2b45d714b5e2790d4ed6b278aa7b97c21aac5df68f509b00bd",
+    "watch_drawdown.png": "2382b223e55b1425a500dd044b2866cd79b26634257bd89858569ed2ab4f7474",
+    "REPORT.md": "d51797bd87f7a63aecef2449a81db5999c745ee6f779dba2d65c7839cc0957bc",
+    "REPORT.html": "364f4a05796be0a66a29f3a4a94574a3337a46c28cf59f93adc41d5a591d9f4f",
+    "verification.json": "42163f809a82e56dceffb993798fcbbd3799cf491cb10811a803bea4f6b3cfbc",
+    "__pycache__/build_report.cpython-310.pyc": "0d87c4c0b3afd1497a6e458b8663e1f89a3ac88318570229d7fc8fc9af75c4c9"
+  }
+}

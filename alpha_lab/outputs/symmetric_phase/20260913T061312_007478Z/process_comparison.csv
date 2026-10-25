@@ -1,0 +1,5 @@
+policy,closed_episodes,censored_episodes,closed_median_days,exit_reasons,october_2023_total,final_two_months_pnl
+low_turnover,10,5,127.5,"{""hold_false"": 10, ""single_stock_cap"": 4}",0.5720024600000002,2864.3559999999998
+global_return,28,5,43.5,"{""hold_false"": 28, ""single_stock_cap"": 9}",-0.010990303999999895,102.32099999999627
+symmetric_intercept,25,5,41.0,"{""hold_false"": 25, ""single_stock_cap"": 13}",-0.07454926000000006,2411.1110000000044
+symmetric_slopes,28,5,42.0,"{""hold_false"": 28, ""single_stock_cap"": 12}",-0.14622475599999996,-608.2699999999968

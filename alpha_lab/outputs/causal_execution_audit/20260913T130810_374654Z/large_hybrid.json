@@ -1,0 +1,19 @@
+{
+  "name": "large_hybrid",
+  "status": "passed",
+  "planned_orders": 48,
+  "filled_orders": 48,
+  "intraday_limit_fills": 0,
+  "supplementary_attempts": 18,
+  "bonus_events": 0,
+  "actual_days": 651,
+  "max_order_cash_difference": 0.0,
+  "missing_announcement_paths": 0,
+  "same_day_announcement_ambiguity_paths": 0,
+  "hashes": {
+    "daily.csv": "b835fe9fccf8baaea7e4a02a88d2834f2de620d24b2d762991547207bdd2e20d",
+    "trades.csv": "7944e1151256126aa9a8d9c9c6febe43cb5f92c038eb4a8d7fcd9843f8075866",
+    "events.csv": "c7e9b9bf9a1c47857317a8a295bfa519db37925b1bf21a9fd06c4ad81dd7ef30",
+    "holdings.csv": "6e288cbf9b86fed01443917583da3967ed37fd2abba645114a0ff9bdc528c5ff"
+  }
+}

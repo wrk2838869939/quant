@@ -1,0 +1,5 @@
+sector_code,name,window_today,index_return,drawdown_today,trigger_today,confirmed_today,slowed_today,support_recent_today,near_reference_today,window_previous,drawdown_previous,trigger_previous,confirmed_previous,slowed_previous,support_recent_previous,near_reference_previous
+801012.SI,农产品加工,15,0.0064705317057203,-0.1234273438879129,False,False,False,False,False,40,-0.1290627708428664,True,False,False,False,True
+801015.SI,渔业,15,0.0217977064178205,-0.1193123213729617,False,False,False,False,False,15,-0.1380997695575971,False,False,False,False,False
+801053.SI,贵金属,15,0.0152314141296534,-0.2105576331493118,True,False,False,False,True,15,-0.2224015570603,True,False,False,False,True
+801219.SI,酒店餐饮,15,0.0108828879600273,-0.1318950732321742,True,False,False,True,True,15,-0.1412408528156302,True,False,False,True,True

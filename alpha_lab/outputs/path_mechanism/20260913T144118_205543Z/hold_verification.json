@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "schedule": "calendar_01",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_01",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_08",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_08",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_15",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_15",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_22",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "calendar_22",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_00",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_00",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_05",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_05",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_10",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_10",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_15",
+      "cutoff": "2023-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "schedule": "rolling_15",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    }
+  ],
+  "hashes": {
+    "calendar_01.parquet": "45211e46360d95503d0a64d8f6b73e755afd32fa3202d7afcf8104166740a881",
+    "calendar_08.parquet": "7e911ec2337089d231a9799efe158c459a66ac2e99444861a61064e29a2a3c39",
+    "calendar_15.parquet": "24909a5382af0ae2f08e6421f34b98483c4781100f49c0ed5f12fedd7610c12c",
+    "calendar_22.parquet": "7cc3ccf3f575c8d66d4911a47d572aacd1a392632d3f0b1dce8b9651305e72b4",
+    "rolling_00.parquet": "91998c2f4110c96cdff60a39fba6338098f79443679cddf74f3157e389859978",
+    "rolling_05.parquet": "05f116a1760c93dc16753053864516cbfcb2e83ae96a0d3cbe365c943263ca96",
+    "rolling_10.parquet": "afaec40ef2f5375ed9371ff95b48c6c08d83718b992a47b2ecb282f6f680d2a5",
+    "rolling_15.parquet": "e32227013b2f2c75446d9e7d19ba407cbac53591c7612f77ae03e950b2c3075c"
+  }
+}

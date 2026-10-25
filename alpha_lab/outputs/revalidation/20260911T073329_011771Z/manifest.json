@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "panel": "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet",
+  "panel_bytes": 3482222501,
+  "panel_mtime_ns": 1788917194170939057,
+  "read_end": "2023-12-31",
+  "source_hashes": {
+    "src/eval_factor.py": "c3f488c21a46f00a5eb1f88d4ef0b1a90c873850eb7cd85113f2e407dd29276b",
+    "src/expr_engine.py": "1ae6ddec5f77078a3b598203bf6fdbc3735c1d0ee6c9da2bf0930c3fe2ea078a",
+    "src/factors_library.py": "1e4987bf568e1d962c4d36ef993a4d74687199c1a87fc18485dccd87e8571630",
+    "src/gp_miner.py": "c16799dac7a6fa48df56c9777b3769747528e3ab4426ba9658f0e9b50613df5d",
+    "src/gp_miner_gpu.py": "02d13498e0a8321feb64f1e6ff29636c4f7aa2f9fff9c67b2445f73a2caa5b59",
+    "src/gpu_eval.py": "f80900ad44f01d0f88eedafd07f67c1346ae2290e5bd7b8c8edaafddab93c26e",
+    "src/gpu_ops.py": "4accf8d0d31552b5e5563f13193cba5e6277f1310cf13c8ad8b9faa8b6524067",
+    "src/labels.py": "36ff1f59e7d080b1f4fefe93f73a59f4c7427bba2c8b92a9896b76c5465a87fb",
+    "src/ledger.py": "64aefc5c9bfaa4fa3899a56c241341f69bd3ba61eb3823d266ac53c5e3057d9c",
+    "src/neutralize.py": "52ee1bc024bcd8d82e4e698a4f8e01bcce55fd2afbc6dcad91c38ba3c83c4e41",
+    "src/rank_ic.py": "9ae94f6304cebeafc17134c6a5afaa68f054a04d5948684e8e94cc6f7575fc6f",
+    "src/ts_client.py": "257674ae6644a7db4de14b304470d8ae2e3203b419172733c2fed69aa720f0ef",
+    "scripts/revalidate_candidates.py": "670935c59f31952e0696adbddfe3b3bc3e9243f46fdca7498ff16c1b3930daf0",
+    "scripts/run_gp_mining.py": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df",
+    "configs/revalidate_candidates.yaml": "aa2a95189ea45c7dfdf258b1867c3f5be3a317f015fbaabc03dfa733b841ff10"
+  },
+  "torch": "2.1.2+cu118",
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "test_accessed": false,
+  "elapsed_seconds": 111.72123361192644,
+  "panel_rows_end": "2023-12-29 00:00:00",
+  "shape": [
+    2433,
+    5502
+  ],
+  "evaluated": 9,
+  "ledger_rows_after": 72
+}

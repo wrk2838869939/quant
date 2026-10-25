@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "action_known_dates_exact": 980,
+  "ST_known_dates_exact": 2830,
+  "no_late_implementation_or_ST_announcements": true,
+  "script_sha256": "fa04f492292c4f8bf6902921d4b18f0be81e99dd6df57f78e527f9bb507baa1a"
+}

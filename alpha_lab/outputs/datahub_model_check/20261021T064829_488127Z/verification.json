@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "protected_hashes": {
+    "alpha_lab/experiments/sector_live_v1/update_market.py": true,
+    "alpha_lab/scripts/build_sector_dataset.py": true,
+    "alpha_lab/src/sector_dataset.py": true,
+    "alpha_lab/experiments/sector_live_v1/scan_sectors.py": true,
+    "alpha_lab/configs/strategy_2026_sector_stock_plan.yaml": true,
+    "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_17.pt": true,
+    "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_43.pt": true,
+    "alpha_lab/outputs/sector_asof_replay_v1/20261013T072855_087132Z/models/2026_101.pt": true,
+    "alpha_lab/outputs/stock_selection_asof_v2/20261013T074542_476130Z/models/2026.npz": true
+  },
+  "source_and_model_artifacts_verified": true,
+  "latest_daily_coverage_reconciled": true,
+  "annual_gate_disabled": true,
+  "candidate_rules_passed": true
+}

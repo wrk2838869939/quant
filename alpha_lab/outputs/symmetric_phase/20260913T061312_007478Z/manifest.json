@@ -1,0 +1,99 @@
+{
+  "status": "complete",
+  "config_sha256": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+  "test_market_data_used": false,
+  "fresh_holdout": false,
+  "scope": "P0 state/selection diagnostics; P1 symmetric intercept/slopes; 60d unchanged; no new cash threshold",
+  "planned_execution_cases": 21,
+  "case_design": {
+    "mainboard_three_capitals": 12,
+    "reference_reversed_input": 4,
+    "all_A_training_transfer": 4,
+    "keep_failure_memory_single_variant": 1
+  },
+  "policies": [
+    "low_turnover",
+    "global_return",
+    "symmetric_intercept",
+    "symmetric_slopes"
+  ],
+  "development": [
+    "2019-01-01",
+    "2021-12-31"
+  ],
+  "execution": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "admission": "NOT_ADMITTED",
+  "source_hashes": {
+    "scripts/run_symmetric_phase_research.py": "986f0106c170db6c3ab2557d3e1f1a14b8e5dbcb715a87f000be618e3fedc325",
+    "src/symmetric_phase.py": "b772f07bf064baa0d6e32a69843d50e9c17019975ed78c6ee18268473ce7b308",
+    "src/value_forecast.py": "7fc2012ab7c7f381a06e58d7b0291dc32e5c990ae7ff975feede8830feb40ffb",
+    "src/divide_selection.py": "0bb8d7b265d9f746a1628004be9a3d0617331c0d3b77fad92e35527d2dc2ba02",
+    "configs/symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041"
+  },
+  "input_hashes": {
+    "outputs/trend_entry_audit/20260912T154239_247938Z/entry_paths.parquet": "4c5cfa14fb1263800c1fe36430ccba092abb77f2b17def98e753d85face08e65",
+    "outputs/autonomous_value_research/20260912T160734_658714Z/execution/pit_review_features.parquet": "48844159194b42946aba68ea412e4c6e9d0416807ca6918529126234d543f74b"
+  },
+  "model_count": 16,
+  "evaluation_dates": 33,
+  "evaluation_universe": "mainboard",
+  "feature_rank_universe": "unchanged_all_eligible_A_point_in_time",
+  "diagnostic_semantics": "overlapping_60d_opportunities_not_portfolio; matched_neighbors_not_investable",
+  "completed_execution_cases": 21,
+  "complete_scope": "P0/P1; P2/P3 not implemented",
+  "tests_passed": 199,
+  "independent_model_verification": true,
+  "independent_execution_verification": true,
+  "reverse_csv_exact_comparisons": 60,
+  "holding_variant_csv_exact_comparisons": 15,
+  "posthoc_explanatory_bridge": "entry_bridge/manifest.json",
+  "ledger_experiment_ids": [
+    "20260913T061312_007478Z:base_20000_low_turnover",
+    "20260913T061312_007478Z:base_20000_global_return",
+    "20260913T061312_007478Z:base_20000_symmetric_intercept",
+    "20260913T061312_007478Z:base_20000_symmetric_slopes",
+    "20260913T061312_007478Z:base_50000_low_turnover",
+    "20260913T061312_007478Z:base_50000_global_return",
+    "20260913T061312_007478Z:base_50000_symmetric_intercept",
+    "20260913T061312_007478Z:base_50000_symmetric_slopes",
+    "20260913T061312_007478Z:base_100000_low_turnover",
+    "20260913T061312_007478Z:base_100000_global_return",
+    "20260913T061312_007478Z:base_100000_symmetric_intercept",
+    "20260913T061312_007478Z:base_100000_symmetric_slopes",
+    "20260913T061312_007478Z:reverse_50000_low_turnover",
+    "20260913T061312_007478Z:reverse_50000_global_return",
+    "20260913T061312_007478Z:reverse_50000_symmetric_intercept",
+    "20260913T061312_007478Z:reverse_50000_symmetric_slopes",
+    "20260913T061312_007478Z:transfer_50000_transfer_low_turnover",
+    "20260913T061312_007478Z:transfer_50000_transfer_global_return",
+    "20260913T061312_007478Z:transfer_50000_transfer_symmetric_intercept",
+    "20260913T061312_007478Z:transfer_50000_transfer_symmetric_slopes",
+    "20260913T061312_007478Z:variant_50000_low_turnover_keep_failure_memory"
+  ],
+  "report": "docs/SYMMETRIC_PHASE_VALIDATION_20260913.md",
+  "supplemental_hashes": {
+    "docs/SYMMETRIC_PHASE_VALIDATION_20260913.md": "15b61488d650ea57dc2c4b76077d0d7136115f9d593ecd7198d5c6c14efdf9cc",
+    "README.md": "14d3063322fa8d028f37f7d0c0fee61ce2348e81f7443935adefbbc878cefbc1",
+    "scripts/finalize_symmetric_phase.py": "6d889601b830c9a3c2fc3804d5998af5f91dc8831fefb4a791b4356ef9a840b5",
+    "scripts/summarize_symmetric_phase.py": "492ec616aef0710d11a545f561e711bb4ac2fd7e8267f76e18ccfc003ad811ea",
+    "scripts/diagnose_symmetric_entry_bridge.py": "680be007f9a3bedfc2b1c95812a14a5fd2367cb896c515e3f74fc80412daa00c"
+  },
+  "completion_output_hashes": {
+    "capital_comparison.csv": "da5937fd56f4abf308800cef64f9772317a34bdf49f8c1598e4d376cfd655327",
+    "process_comparison.csv": "d9323592038d753d8df6823e71c3d941e2c19cd58e05e47ec95bdf7c4cc81692",
+    "actual_phase_pnl.csv": "986cbd19884ba978b98b8860383454b00a2f91efaa72a527edb5f3ccc25b05af",
+    "monthly_returns.csv": "93ccfaf746c0985f0d3bfd6b995ae2bf9d7873d8e729ccb787816f6eac05454f",
+    "training_transfer_comparison.csv": "50cc829ce191183b8e84405bfb54495e62c615e87e2e2258b55a9f2473dbed4b",
+    "execution_paths.png": "dc6d4df6d10b27843b6febd62e08db9fb506cc6d02bcb2cc0de03dd59efbf5d5",
+    "execution/manifest.json": "2511da25b7c496e84f6d096635a0f66aebc4498f21573a2da6aae6cedd30df6c",
+    "execution/full_test_suite.log": "8dba12f941c6d70d12e4f36cdc62aff650f5dd1e8022796b2a71f9f9aafc28aa",
+    "verification/report.json": "41680aa2025d8f7878c828671f9bff3ad54cf726858e104385446fcda3f882ab",
+    "holding_evidence/manifest.json": "55a4ddf5a24b5df1751f1c5f7caab9b2dd16717a4e67cb3d85d1ccd20ed4ea57",
+    "entry_bridge/manifest.json": "a39200333cbaee48bfd4b4bad20e0c5ed0438f72ddd2c370d12a9fa1332f4d59",
+    "verification/verify_entry_bridge_review.py": "febc7c42ff6e4e56077cd59722685bbf5e22c13a14cd7a3101386aed8245c17f",
+    "verification/entry_bridge_review.json": "9c93b3afcb49c9903bfc1f558e69904e99035e9d57a266f67c8fc4e6ef927507"
+  }
+}

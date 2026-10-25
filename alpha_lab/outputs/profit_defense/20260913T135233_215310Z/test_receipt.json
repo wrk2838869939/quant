@@ -1,0 +1,15 @@
+{
+  "state_machine_tests": {
+    "passed": 4,
+    "source_sha256": "eba65ae6be41ed2af151003a0974ef01e1e01d83b061da42da1f04b4959ce630",
+    "evidence": "unittest tool execution this session, all four passed"
+  },
+  "engine_integration_tests": {
+    "passed": 3,
+    "log_sha256": "0bf3fd1b50e014c088163b0c853774d71be0ff416e965486a4507d22d542d50e"
+  },
+  "inherited_adversarial_tests": {
+    "passed": 25,
+    "log_sha256": "7648362caf9ec6ee7f60f1d6a7e9d3609ccf8c0f42da62fd5489550194d54dca"
+  }
+}

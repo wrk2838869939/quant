@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "default_scan_stocks_entry_executed": true,
+  "review": "alpha_lab/outputs/strategy_2026_opportunity_scan/20261020_gate_paused_20261021T023746_584755Z",
+  "annual_sector_gate_enabled": false,
+  "old_gate_would_pass_sectors": 0,
+  "new_stock_filter_sectors": 1,
+  "qualified_scores_matched": 21,
+  "candidate_set_matched": 5,
+  "hotel_old_event_not_reopened": true,
+  "data_engineering_original_plan_and_model_hashes_unchanged": true
+}

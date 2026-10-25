@@ -1,0 +1,82 @@
+{
+  "events": 330,
+  "dates": 162,
+  "sectors": 111,
+  "single_event_sectors": 24,
+  "board": [
+    {
+      "horizon": 3,
+      "complete": 324,
+      "mean": 0.005201066691540858,
+      "median": 0.008274706351652505,
+      "positive": 0.5864197530864198,
+      "q10": -0.042853062727260936,
+      "q90": 0.050883836774891736,
+      "mean_max": 0.019764919494460808,
+      "mean_min": -0.012311837509063648,
+      "date_equal_mean": 0.0041072125692158176,
+      "mean_excess": 0.007787770155111075
+    },
+    {
+      "horizon": 10,
+      "complete": 298,
+      "mean": 0.005814276139003555,
+      "median": -0.0012977269421214355,
+      "positive": 0.49328859060402686,
+      "q10": -0.07093685422316093,
+      "q90": 0.07467051271294108,
+      "mean_max": 0.04366069425879014,
+      "mean_min": -0.03019947895815885,
+      "date_equal_mean": 0.010131664445951047,
+      "mean_excess": 0.011052443488813006
+    },
+    {
+      "horizon": 20,
+      "complete": 288,
+      "mean": 0.010473246854288302,
+      "median": 0.005401426707549506,
+      "positive": 0.5208333333333334,
+      "q10": -0.08341975947391736,
+      "q90": 0.10945454152226972,
+      "mean_max": 0.06125559668575842,
+      "mean_min": -0.048267649116789234,
+      "date_equal_mean": 0.012272679704898383,
+      "mean_excess": 0.018634917715836318
+    }
+  ],
+  "members": [
+    {
+      "horizon": 3,
+      "total": 12653,
+      "complete": 12342,
+      "coverage_median": 1.0,
+      "event_mean": 0.006915983855840695,
+      "positive_member_fraction": 0.5437958842917249,
+      "spread_median": 0.07143941801246118,
+      "sufficient_events": 324,
+      "board_matched_mean": 0.005815144297890294
+    },
+    {
+      "horizon": 10,
+      "total": 12653,
+      "complete": 12230,
+      "coverage_median": 1.0,
+      "event_mean": 0.013038257484644985,
+      "positive_member_fraction": 0.510347230770542,
+      "spread_median": 0.13137226999055557,
+      "sufficient_events": 320,
+      "board_matched_mean": 0.009897245527885266
+    },
+    {
+      "horizon": 20,
+      "total": 12653,
+      "complete": 12143,
+      "coverage_median": 1.0,
+      "event_mean": 0.024555831858971373,
+      "positive_member_fraction": 0.5432030158676141,
+      "spread_median": 0.18326109308924116,
+      "sufficient_events": 313,
+      "board_matched_mean": 0.01664468938602258
+    }
+  ]
+}

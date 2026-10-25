@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import norm, skew, kurtosis
 
-LEDGER = Path(__file__).resolve().parents[1] / "outputs/experiment_ledger.csv"
+LEDGER = Path("/root/autodl-tmp/alpha_lab/outputs/experiment_ledger.csv")
 
 
 class ExperimentLedger:

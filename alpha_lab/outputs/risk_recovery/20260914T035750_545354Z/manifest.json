@@ -1,0 +1,785 @@
+{
+  "cases": [
+    {
+      "name": "continued_calendar_01_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_cost2_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "continued_cost2_restore",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "continued_cost2_grace",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "continued_cost2_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "continued_large_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "continued_large_combined",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "cold_calendar_01_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_cost2_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_cost2_restore",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "restore",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_cost2_grace",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "grace",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_cost2_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_large_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "cold_large_combined",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "combined",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    }
+  ],
+  "config_sha256": "a82b4a19201f75c5d8fe9102f30ff73be4612802109781d7a5aa109e52913d8c",
+  "protocol_sha256": "7bd8de4b50f8008e2d6ea235b337911dc8b5bbce85a3198d198f23839213f844",
+  "source_hashes": {
+    "scripts/research_risk_recovery.py": "8460771b264e82e64146c5ef4211762edac54d3647f4c58b1bdb190068c1bf0c",
+    "src/risk_recovery_portfolio.py": "a2b0e913e140bf5493e3280ebf957f0f81de9374775327e67dec4aacda4ee4e2",
+    "src/risk_budget_portfolio.py": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "scripts/run_risk_recovery_tests.py": "07601ae5efc74b1f9e6de49c22785cf46d08e32aa2775eacac3ff2840c192bce",
+    "tests/test_risk_recovery.py": "9ef5425cbee5e113d12f0a4a86c7faeaf5ff8e4205e9d618a943daf283ac0243",
+    "tests/test_risk_budget.py": "afb8bb01ec786e49cf0b1cfbda4acaf3880763f33da988a29e00c5a6cae62909",
+    "tests/test_causal_portfolio_adversarial.py": "dca18412421f0d0b6dd8b79f52b2e4a2d11fdb48dd55b396d93df838e0e4a6d1"
+  },
+  "parent_hashes": {
+    "outputs/risk_budget/20260913T160301_084080Z": "da729beb85f13f4ca1d343a7bdc239f7cea9b3ef08c3635f7fdb4fa3edd12d95",
+    "outputs/rolling_review/20260913T141120_325588Z": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac"
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

@@ -1,0 +1,79 @@
+{
+  "asof": "2026-10-22",
+  "status": "complete",
+  "steps": [
+    {
+      "step": "update",
+      "args": [
+        "alpha_lab/experiments/sector_live_v1/update_market.py",
+        "--config",
+        "alpha_lab/experiments/sector_live_v1/config_20261022_eod.yaml"
+      ],
+      "returncode": 0
+    },
+    {
+      "step": "build_dataset",
+      "args": [
+        "datahub/scripts/frozen_research.py",
+        "run",
+        "--release",
+        "datahub/releases/selection_live_20261022_eod",
+        "alpha_lab/scripts/build_sector_dataset.py",
+        "--config",
+        "/root/autodl-tmp/alpha_lab/experiments/sector_live_v1/dataset_config_20261022_eod.yaml"
+      ],
+      "returncode": 0
+    },
+    {
+      "step": "scan_sectors",
+      "args": [
+        "datahub/scripts/frozen_research.py",
+        "run",
+        "--release",
+        "datahub/releases/selection_live_20261022_eod",
+        "alpha_lab/experiments/sector_live_v1/scan_sectors.py",
+        "--dataset",
+        "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261022T155721_349548Z",
+        "--config",
+        "alpha_lab/experiments/sector_live_v1/config_20261022_eod.yaml"
+      ],
+      "returncode": 0
+    },
+    {
+      "step": "scan_stocks",
+      "args": [
+        "datahub/scripts/frozen_research.py",
+        "run",
+        "--release",
+        "datahub/releases/selection_live_20261022_eod",
+        "alpha_lab/experiments/sector_live_v1/scan_stocks.py",
+        "--scan",
+        "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261022T160204_763709Z"
+      ],
+      "returncode": 0
+    }
+  ],
+  "current_step": "scan_stocks",
+  "update": "/root/autodl-tmp/alpha_lab/outputs/sector_live_update/20261022T155629_062229Z",
+  "dataset": "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261022T155721_349548Z",
+  "scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261022T160204_763709Z",
+  "model": "/root/autodl-tmp/alpha_lab/outputs/strategy_2026_opportunity_scan/20261022_gate_paused_20261022T160739_495956Z",
+  "summary": {
+    "strategy_id": "sector_stock_2026_gate_paused_v1",
+    "effective_from": "2026-10-21",
+    "asof": "2026-10-22",
+    "record_origin": "current_policy_scan",
+    "annual_sector_gate_enabled": false,
+    "annual_diagnostic_status": "not_needed_no_events",
+    "shape_confirmed_today": 0,
+    "new_first_confirmations": 0,
+    "annual_model_pass_reference": 0,
+    "sectors_entering_stock_filter": 0,
+    "stocks_scored": 0,
+    "stock_candidates": 0,
+    "earliest_entry_date": "2026-10-23",
+    "execution_certified": false,
+    "auto_orders": false,
+    "legacy_random_scores_used": false
+  }
+}

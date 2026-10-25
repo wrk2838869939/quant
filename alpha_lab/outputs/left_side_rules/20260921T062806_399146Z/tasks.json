@@ -1,0 +1,842 @@
+[
+  [
+    "default",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "no_leader",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "no_leader"
+  ],
+  [
+    "stock_only",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "stock_only"
+  ],
+  [
+    "grid_000",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_001",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_002",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_003",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_004",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_005",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_006",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_007",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_008",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_009",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_010",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_011",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_012",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_013",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_014",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_015",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_016",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_017",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_018",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_019",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_020",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_021",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_022",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_023",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_024",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_025",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_026",
+    {
+      "shape_window": 4,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_027",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_028",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_029",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_030",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_031",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_032",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_033",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_034",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_035",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_036",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_037",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_038",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_039",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_040",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_041",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_042",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_043",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_044",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_045",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_046",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_047",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_048",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_049",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_050",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_051",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_052",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_053",
+    {
+      "shape_window": 5,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_054",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_055",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_056",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_057",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_058",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_059",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_060",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_061",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_062",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.1,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_063",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_064",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_065",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_066",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_067",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_068",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_069",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_070",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_071",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.4,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_072",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_073",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_074",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.5,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_075",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_076",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_077",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.7,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ],
+  [
+    "grid_078",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.05
+    },
+    "full"
+  ],
+  [
+    "grid_079",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.12
+    },
+    "full"
+  ],
+  [
+    "grid_080",
+    {
+      "shape_window": 7,
+      "turnover_expansion": 1.8,
+      "turnover_contraction": 0.9,
+      "value_tolerance": 0.2
+    },
+    "full"
+  ]
+]

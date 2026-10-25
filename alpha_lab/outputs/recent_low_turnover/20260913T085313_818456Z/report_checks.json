@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cold_50000",
+    "daily_and_recent_attribution_verified": true
+  },
+  {
+    "name": "continued_50000",
+    "daily_and_recent_attribution_verified": true
+  },
+  {
+    "name": "cold_20000",
+    "daily_and_recent_attribution_verified": true
+  },
+  {
+    "name": "cold_100000",
+    "daily_and_recent_attribution_verified": true
+  },
+  {
+    "name": "cost2_50000",
+    "daily_and_recent_attribution_verified": true
+  },
+  {
+    "name": "reverse_50000",
+    "daily_and_recent_attribution_verified": true
+  }
+]

@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"ts_min(vwap_dev,5)",0.0908,0.89,0.0708,1.28,0.402,True,59

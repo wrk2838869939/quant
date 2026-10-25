@@ -1,0 +1,20 @@
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+events: alpha_lab/outputs/sector_shape_events/20260922T024547_848112Z
+output_root: alpha_lab/outputs/sector_state_evolution
+benchmark: 000300.SH
+landmarks: [0, 5, 10]
+tracking_sessions: 10
+primary_horizon: 20
+horizons: [5, 10, 20]
+recent_days: 2
+preceding_days: 3
+slowdown_ratio: 0.65
+minimum_observation_coverage: 0.80
+cluster_gap_sessions: 30
+bootstrap_repetitions: 2000
+bootstrap_seed: 20260922
+minimum_ci_clusters: 5
+prefix_check_date: '2023-06-30'
+font: fonts/SimHei.ttf
+dpi: 170
+states: ['广度未改善且未减速', '仅广度改善', '仅跌速放缓', '广度改善且跌速放缓', '此前无下跌', '状态数据不足']

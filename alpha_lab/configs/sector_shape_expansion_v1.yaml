@@ -1,0 +1,33 @@
+base_config: alpha_lab/configs/sector_shape_events_v1.yaml
+source_events: alpha_lab/outputs/sector_shape_events/20260922T024547_848112Z
+output_root: alpha_lab/outputs/sector_shape_expansion
+confirmation_memory_days: 5
+review_per_group: 6
+review_context_days: 25
+review_max_prior_days: 180
+variants:
+  original: {}
+  amplitude:
+    minimum_rally: 0.15
+    minimum_pullback: 0.10
+    minimum_fast_fall: 0.07
+  platform:
+    platform_window: 15
+    platform_max_range: 0.20
+    platform_max_abs_return: 0.10
+    breakout_margin: 0.01
+  trend:
+    trend_window: 60
+    trend_average_window: 40
+    trend_slope_days: 10
+  expanded:
+    minimum_rally: 0.15
+    minimum_pullback: 0.10
+    minimum_fast_fall: 0.07
+    platform_window: 15
+    platform_max_range: 0.20
+    platform_max_abs_return: 0.10
+    breakout_margin: 0.01
+    trend_window: 60
+    trend_average_window: 40
+    trend_slope_days: 10

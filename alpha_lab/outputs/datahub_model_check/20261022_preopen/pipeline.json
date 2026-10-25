@@ -1,0 +1,7 @@
+{
+  "update": "/root/autodl-tmp/alpha_lab/outputs/sector_live_update/20261021T171754_746422Z",
+  "dataset": "/root/autodl-tmp/alpha_lab/data/sector_live_datasets/sw_l2_v1_20261021T171918_920041Z",
+  "scan": "/root/autodl-tmp/alpha_lab/outputs/sector_live_scan/20261021T172443_233422Z",
+  "model": "/root/autodl-tmp/alpha_lab/outputs/strategy_2026_opportunity_scan/20261021_gate_paused_20261021T173036_633714Z",
+  "finished_at": "2026-10-21T17:30:49.138292+00:00"
+}

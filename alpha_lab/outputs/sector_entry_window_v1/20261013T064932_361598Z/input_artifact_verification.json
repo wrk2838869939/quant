@@ -1,0 +1,18 @@
+[
+  {
+    "source": "alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z",
+    "files_verified": 52
+  },
+  {
+    "source": "alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z",
+    "files_verified": 36
+  },
+  {
+    "source": "alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z",
+    "files_verified": 39
+  },
+  {
+    "source": "alpha_lab/outputs/sector_live_scan/20261013T053630_999606Z",
+    "files_verified": 9
+  }
+]

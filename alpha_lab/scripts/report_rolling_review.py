@@ -1,0 +1,142 @@
+"""由已核验账户生成完整日历敏感性报告和过程摘录。"""
+from pathlib import Path
+import sys
+import pandas as pd
+import json
+import shutil
+from research_profit_defense import save,digest
+ROOT=Path(__file__).resolve().parents[1];run=Path(sys.argv[1]).resolve();a=run/'analysis'
+s=pd.read_csv(a/'summary.csv');h=s[s.policy.eq('hybrid')];years=pd.read_csv(a/'yearly.csv')
+label=lambda x:('每月'+str(int(x[-2:]))+'日起' if x.startswith('calendar') else '滚动20日，偏移'+str(int(x[-2:])))
+pct=lambda x:f'{x*100:+.2f}%'
+def table(frame,cols):
+    return '| '+' | '.join(cols)+' |\n| '+' | '.join(['---']*len(cols))+' |\n'+'\n'.join('| '+' | '.join(map(str,row))+' |' for row in frame)+'\n'
+text='''# 月内起点与滚动复核：完整检验
+
+日期：2026-09-13；行情截至2026-09-08。所有窗口均为重复历史研究，不是新样本外；不晋升新策略、不改变生产。
+
+## 结论
+
+月初不是必要条件，复核日期应当成为策略稳健性的检验维度。但本次四种20交易日滚动起点，在两个账户起始窗口中，累计收益、年化、最大回撤及Sharpe均未超过原月初方案。换日期尚未解决收益来源和防守能力的问题。
+
+所有8种日历的长期收益都为正，但幅度与回撤对日历敏感。不能把本轮最好日期设成新默认，也不能把8条曲线平均后当成5万元单账户收益。
+
+## 协议与不变条件
+
+- 原60/120日收益、均线及60日换手率，本来就在逐日滚动。本轮改变的是**决策日历**，不涉及滚动训练新模型。
+- 每月自然日1、8、15、22日起第一个交易日；每20个交易日一次，偏移0、5、10、15。滚动锚点固定2022首个交易日，2024现金启动不重置计数。
+- 8日历×2022连续/2024现金启动×Hybrid/首次买入持有＝32账户。所有窗口从同一首日计收益，首次等待期间保持现金，不跳过等待期。
+- 每个复核日重新计算全A合格截面排名，之后限制主板交易；保持原趋势准入、低换手排序、Top20预约候选、2021冻结预测常数、Hybrid持有规则。
+- 5万元、最多5只、100股整手、原现金联合分配、单股25%复核配置上限。没有新增价格排除条件；原25%配置上限仍会限制部分昂贵股票，这是策略限制，不是交易所规定。
+- 两/三次失败仍指低频复核次数；每日观察不是每日独立确认。前晚固定DAY限价/股数/含费预算，实际卖款到账后才可计划补仓；买0.1%、卖0.2%、最低5元、分红统一扣20%，沿用原执行口径及零额外滑点。
+- 初始持有对照与对应Hybrid的第一轮真实买单逐格一致，随后保留分红现金；其差值包含退出、再配置、费用和再投资，不能直接叫作择时alpha。
+
+研究方法参考[Newfound：Rebalance Timing Luck](https://www.thinknewfound.com/rebalance-timing-luck)：固定规则也可能因复核时点不同产生显著路径分歧。本轮保留每个可执行单账户，未采用多子组合摊薄方法。
+
+## 全部账户表现
+
+年化采用244交易日，回撤包含期初现金基准；2026仅截至9月8日。下表为Hybrid费后实际账户，负号表示回撤。
+
+'''
+for window,title in [('continued','2022年现金启动并连续持有'),('cold','2024年现金启动')]:
+ g=h[h.window.eq(window)]
+ text+=f'### {title}\n\n'
+ text+=table([[label(x.schedule),pct(x.total),pct(x.ann),pct(x.mdd),f'{x.sharpe:.3f}',x.n_trades] for x in g.itertuples()],['日历','累计','年化','最大回撤','Sharpe','买卖笔数'])+'\n'
+text+='''### 起点分布
+
+四个起点的年化中位数：2022连续，固定月内日期18.37%、滚动15.06%；2024启动，固定月内日期17.04%、滚动12.49%。2024滚动组年化9.65%—17.68%、最大回撤16.59%—24.36%，原月初年化18.01%、回撤14.64%。这些是对本轮起点集合的描述，不是显著性检验。
+
+固定月内日期也不存在跨窗口冠军：15日起在2022连续收益最高，但回撤20.32%深于月初15.97%；22日起在2024启动收益最高，但回撤20.91%深于月初14.64%。
+
+## 过程数据：差异从哪里产生
+
+### 相同首次买单，后续路径仍显著分叉
+
+2022月初与滚动0偏移都在1月5日买入：茂业商业2400股、大秦铁路1100股、宁波港3000股、新华文轩1300股、公牛集团200股。日期、价格、股数、费用完全相同。
+
+首次持仓分叉发生2022-06-09：滚动组依据6月8日复核，4.01元卖出宁波港；月初组到7月1日复核、7月4日3.89元卖出。这个局部提前卖出价更好，但不能据此判断整条策略更好：后续补仓及退出机会均改变，最终累计收益84.95%对147.42%。其全年收益已在2022出现差距：6.70%对19.99%；2026至终点为−12.89%对−4.11%。
+
+这是可定位的日历路径依赖，不能把全部差异归于首次选股，也不能把全部长期差额归于这一笔交易。
+
+### 起始持有对照：近期后续管理缺少稳定增益
+
+2022连续8种日历有7种Hybrid高于各自首次买入持有；2024启动8种有7种低于首次买入持有。2024四种滚动分别落后19.75、37.03、19.88、11.83个百分点；月初落后15.36个百分点。获利不是只有首次选股一个来源，但近期主动管理增益不足的判断跨日历仍成立。
+
+'''
+pairs=pd.read_csv(a/'active_vs_initial_hold.csv')
+text+=table([[('2022' if x.window=='continued' else '2024'),label(x.schedule),pct(x.hybrid_total),pct(x.buyhold_total),pct(x.active_path_delta_return)] for x in pairs.itertuples()],['启动','日历','Hybrid','首次买入持有','差值'])+'\n'
+text+='''### 2026年六月：减轻单月亏损不等于防守成功
+
+'''
+months=pd.read_csv(a/'monthly.csv');rows=[]
+for x in h[h.window.eq('cold')].itertuples():
+ v=months[months.name.eq(x.name)&months.month.eq('2026-06')].ret.iloc[0]
+ rows.append([label(x.schedule),pct(v),pct(x.mdd)])
+text+=table(rows,['日历','六月收益','整个近期窗口最大回撤'])+'\n'
+text+='''其他日历六月亏损约9.41%—10.55%，比月初12.93%小，但月初持有桂冠电力、龙源电力，滚动0偏移持有中国神华、中信银行，进入六月前的风险篮子已经不同。
+
+滚动0偏移6月24日才复核：中石油120日收益−2.49%/距MA120−15.09%，神华−1.33%/−10.30%，中信银行−1.16%/−4.79%，三只被判退出；6月25日卖出，26日又买入东方盛虹、宁波银行、中信建投。到复核日账户相对五月末已经亏损7.30%。月底新增三股分别贡献−118.41、−595.43、−223.84元，完整六月亏损6945.09元。
+
+原月初六月亏损10822.68元，其中桂冠3465.28元、中石油2985.00元、龙源2754.00元。两组并不是同一篮子上的纯退出速度实验；较小六月亏损同时混合了前期选股、权重、退出及补仓效应。
+
+所有16个Hybrid账户的零持股日均只来自首次等待期，首次买入后没有主动全空仓。滚动复核仍没有构成独立的防守现金政策。
+
+## 滚动一年评价
+
+另对每条真实连续账户计算所有244交易日收益窗口，不在每个窗口起点重置为现金。各窗口大量重叠，不能当作独立样本或胜率概率。
+
+2024启动月初账户的最差滚动一年收益−7.59%。滚动偏移0/5/10/15分别为−10.50%、−20.82%、−15.97%、−6.03%。偏移15在这个局部风险指标改善，但全期年化17.68%与最大回撤16.59%仍弱于月初18.01%/14.64%。因此不能声称所有风险尺度都退化，也没有足够依据晋升滚动版本。
+
+## 逐年收益
+
+'''
+for window,title in [('continued','2022连续'),('cold','2024启动')]:
+ group=h[h.window.eq(window)];yearlist=sorted(years[years.name.isin(group.name)].year.unique())
+ rows=[]
+ for x in group.itertuples():
+  vals=years[years.name.eq(x.name)].set_index('year').total
+  rows.append([label(x.schedule)]+[pct(vals[y]) for y in yearlist])
+ text+=f'### {title}\n\n'+table(rows,['日历']+[str(y)+('至9/8' if y==2026 else '') for y in yearlist])+'\n'
+text+='''## 数据、检验与留档
+
+1. 404个不同复核日从完整截面重算；Top20候选并集281只，较原172只新增109只。官方限价覆盖完整，没有因旧执行缓存缺数据删股票。
+2. 新候选顺丰2024-11-07普通/特别分红两组件经[发行人公告2024-098](https://pdf.dfcfw.com/pdf/H2_AN202410301640607006_1.pdf)核实：每股实际派1.40元，回购股不参与分红导致除息参考扣减1.393962元。证据PDF及本轮叠加配置已留档，原封存配置不改。
+3. 新增股票引起归一化函数同日不稳定排序，首次复现只有4条同日银行分红事件排列不同；净值/成交/持仓已全同。保留失败尝试，恢复原公司行动的相对顺序后严格重跑，两个月初账户的四类CSV逐格全同；没有放宽精度或调整经济数值。
+4. 5项日历单元测试；18项真实特征历史截断比较；8日历×2历史截断共16组持有许可比较；2个非月初实际账户截断重跑，净值/成交/持仓前缀逐格相同。
+5. 32账户、1024个订单、1017笔成交，逐日现金/股数/净值及逐股逐月利润独立对账；最多5只、整手买入、决定早于成交、预算不预支均通过。每组初始持有对照实际买单严格一致。
+6. 原330个封存产物哈希不变。执行引擎未修改；AGENTS.md、原版本及生产未修改。本轮结果图已检查。
+
+现有日线数据不能认证真实成交队列，历史数据版本及行业覆盖缺口仍沿用前轮限制；测试通过只证明上述核验范围，不等于数据供应链和实盘成交均已认证。8种日历也不是所有起点的穷尽检验。
+
+## 研究决策与复现入口
+
+保留月初策略作原始对照，本轮不改默认日历。以后新增选股或防守规则应同时接受错开起点与滚动一年评价，避免以单一月初结果定论。防守研究应继续区分利润回吐、长期趋势破坏、退出后再买和独立现金状态；不能用改日历代替这些机制的验证。
+
+'''
+text+=f'产物目录：`{run.relative_to(ROOT)}`。完整初始买单、逐股逐月归因、每次持仓趋势状态及滚动年收益在其`analysis/`内。\n\n'
+text+='''```bash
+cd alpha_lab
+python -m unittest discover -s tests -p test_rolling_review.py -v
+python scripts/research_rolling_review.py --stage prepare
+# 下列 RUN 取 prepare 输出的新目录；不要在已封存目录覆盖运行。
+python scripts/research_rolling_review.py --run "$RUN" --stage signals
+python scripts/verify_rolling_inputs.py --run "$RUN"
+# 数据阶段保留分红断言失败记录后，按同份原公告执行局部修复。
+python scripts/research_rolling_review.py --run "$RUN" --stage data > "$RUN/data.log" 2>&1
+python scripts/prepare_rolling_execution_data.py "$RUN"
+# 原始normalize同日排序需先复现两基准，再运行preserve_rolling_action_order.py留档修复；
+# 两窗口execute首次仅在严格基准事件顺序断言停止。随后重跑全部32组。
+python scripts/research_rolling_review.py --run "$RUN" --stage execute --window continued > "$RUN/continued.log" 2>&1
+python scripts/research_rolling_review.py --run "$RUN" --stage execute --window cold > "$RUN/cold.log" 2>&1
+python scripts/preserve_rolling_action_order.py "$RUN"
+python scripts/research_rolling_review.py --run "$RUN" --stage execute --window continued
+python scripts/research_rolling_review.py --run "$RUN" --stage execute --window cold
+python scripts/verify_rolling_accounts.py "$RUN"
+python scripts/analyze_rolling_review.py --run "$RUN"
+```
+'''
+# 验证报告中的零持股日解释；首次入场后的现金期不能漏报。
+assert (h.n_cash_days==h.initial_cash_days).all()
+path=ROOT/'docs/ROLLING_REVIEW_RESEARCH_20260913.md';path.write_text(text)
+shutil.copy2(path,run/'REPORT.md')
+print(path)

@@ -1,0 +1,29 @@
+{
+  "quick_links": [
+    {"label": "当前策略规则", "path": "configs/strategy_2026_opportunity_scan.yaml"},
+    {"label": "年度板块过滤暂停说明", "path": "docs/current_strategy_20261013/ANNUAL_SECTOR_GATE_PAUSED_20261021.md"},
+    {"label": "日更与扫描操作入口", "path": "experiments/sector_live_v1/README.md"},
+    {"label": "存储与归档规则", "path": "docs/WORKSPACE_ORGANIZATION.md"},
+    {"label": "板块到个股技术方案（结合当前变更阅读）", "path": "docs/current_strategy_20261013/strategy_2026_plan/TECHNICAL_DESIGN.md"}
+  ],
+  "pointers": [
+    {"label": "最新数据核验与日报", "path": "outputs/datahub_model_check/LATEST"},
+    {"label": "最新正式模型结果", "path": "experiments/sector_live_v1/LATEST_CANDIDATES"},
+    {"label": "最新板块扫描", "path": "experiments/sector_live_v1/LATEST_SCAN"},
+    {"label": "最新行情更新", "path": "experiments/sector_live_v1/LATEST_UPDATE"},
+    {"label": "历史规则复核（不是正式新信号）", "path": "experiments/sector_live_v1/LATEST_POLICY_REVIEW"}
+  ],
+  "protected_output_groups": [
+    "sector_live_update", "sector_live_scan", "strategy_2026_opportunity_scan",
+    "datahub_model_check", "sector_asof_replay_v1", "stock_selection_asof_v2",
+    "sector_multiscale_events", "sector_shape_expansion", "sector_fuzzy_random_halves"
+  ],
+  "topics": [
+    {"name": "日更与当前策略", "patterns": ["*sector_live*", "*opportunity_scan*", "*datahub_model_check*", "*gate_pause*", "*ANNUAL_SECTOR_GATE_PAUSED*", "*OPPORTUNITY_SCAN*"]},
+    {"name": "板块与个股研究", "patterns": ["*sector*", "*SECTOR*", "*stock_selection*", "*STOCK_SELECTION*", "*hotel*", "*HOTEL*", "*breeding*", "*BREEDING*", "*left_side*", "*LEFT_SIDE*", "*current_strategy*"]},
+    {"name": "财务与数据质量", "patterns": ["*financial*", "*FINANCIAL*", "*identity*", "*DATA_SCHEMA*", "*QUALITY*", "*OPERATOR_PARITY*"]},
+    {"name": "因子与样本外审计", "patterns": ["*gp_mining*", "*walkforward*", "*WALKFORWARD*", "*revalidation*", "*REVALIDATION*", "*leak*", "*LEAK*"]},
+    {"name": "执行与风控", "patterns": ["*execution*", "*EXECUTION*", "*LIVE_*", "*live_*", "*risk*", "*RISK*", "*cash*", "*CASH*", "*manual*", "*MANUAL*", "*closing*", "*CLOSING*", "*opening*", "*OPENING*", "*mail*", "*MAIL*", "*entry_guard*", "*ENTRY_GUARD*"]},
+    {"name": "组合与策略搜索", "patterns": ["*policy*", "*POLICY*", "*baseline*", "*BASELINE*", "*learning*", "*LEARNING*", "*strategy_search*", "*STRATEGY_SEARCH*", "*portfolio*", "*PORTFOLIO*", "*monthly*", "*MONTHLY*"]}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "full_universe": 5823,
+  "risk_max_abs_change": 0.0,
+  "is_review": false,
+  "development_attempts": [
+    {
+      "path": "20260914_observation",
+      "failure": "duplicate implementation records"
+    },
+    {
+      "path": "20260914_observation_v2",
+      "failure": "proposal date variants"
+    },
+    {
+      "path": "20260914_observation_v3",
+      "failure": "inactive historical codes absent from security master"
+    }
+  ]
+}

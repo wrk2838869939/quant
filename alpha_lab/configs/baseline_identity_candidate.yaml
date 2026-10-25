@@ -1,0 +1,6 @@
+# 候选接口工程验证：保持父基线的所有分数，预期账户逐表一致。
+candidate_id: identity_smoke
+parent_baseline: B01_low_turnover
+plugin_module: selection_baseline_plugins
+plugin_function: identity
+params: {}

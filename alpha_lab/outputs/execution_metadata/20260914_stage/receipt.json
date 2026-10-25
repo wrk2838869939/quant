@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "source": "configured Tushare provider",
+  "price_date": "2026-09-11",
+  "signal_date": "2026-09-01",
+  "observation_date": "2026-09-14",
+  "scope": [
+    "001872.SZ",
+    "001965.SZ",
+    "003816.SZ",
+    "600018.SH",
+    "600036.SH",
+    "600039.SH",
+    "600377.SH",
+    "601009.SH",
+    "601229.SH",
+    "601288.SH",
+    "601298.SH",
+    "601326.SH",
+    "601398.SH",
+    "601598.SH",
+    "601658.SH",
+    "601728.SH",
+    "601825.SH",
+    "601988.SH",
+    "601998.SH",
+    "603587.SH"
+  ],
+  "account_scope_supplied": false,
+  "bundle_sha256": "04cb89a41814c1203141aacc2da144d0050128666284e085e1394fe0f53135c9",
+  "snapshot_sha256": null,
+  "requests": [
+    {
+      "api": "stock_basic",
+      "params": {
+        "list_status": "L",
+        "fields": "ts_code,symbol,name,market,exchange,list_status,list_date,delist_date"
+      },
+      "requested_at": "2026-09-14T06:10:49.224246+00:00",
+      "row_cap": 6000,
+      "file": "000_stock_basic.parquet",
+      "rows": 5562,
+      "sha256": "65a2267310024853dbfc857d5bab218f9c78e567dd7a19a3a466134682634975",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:51.110942+00:00"
+    },
+    {
+      "api": "stock_basic",
+      "params": {
+        "list_status": "D",
+        "fields": "ts_code,symbol,name,market,exchange,list_status,list_date,delist_date"
+      },
+      "requested_at": "2026-09-14T06:10:51.111202+00:00",
+      "row_cap": 6000,
+      "file": "001_stock_basic.parquet",
+      "rows": 339,
+      "sha256": "7f6ebe9fbc778ea207e9b77400411abcc0977646ff5b97b829d428d33db7aa2d",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:51.307992+00:00"
+    },
+    {
+      "api": "stock_basic",
+      "params": {
+        "list_status": "P",
+        "fields": "ts_code,symbol,name,market,exchange,list_status,list_date,delist_date"
+      },
+      "requested_at": "2026-09-14T06:10:51.308913+00:00",
+      "row_cap": 6000,
+      "file": "002_stock_basic.parquet",
+      "rows": 0,
+      "sha256": "b9027b7d320c631dd5f21dab41d372bc38544735f5c277b108e1531e0fa6da15",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:51.529448+00:00"
+    },
+    {
+      "api": "stock_basic",
+      "params": {
+        "list_status": "G",
+        "fields": "ts_code,symbol,name,market,exchange,list_status,list_date,delist_date"
+      },
+      "requested_at": "2026-09-14T06:10:51.530107+00:00",
+      "row_cap": 6000,
+      "file": "003_stock_basic.parquet",
+      "rows": 0,
+      "sha256": "b9027b7d320c631dd5f21dab41d372bc38544735f5c277b108e1531e0fa6da15",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:51.759595+00:00"
+    },
+    {
+      "api": "stock_basic",
+      "params": {
+        "list_status": "UN",
+        "fields": "ts_code,symbol,name,market,exchange,list_status,list_date,delist_date"
+      },
+      "requested_at": "2026-09-14T06:10:51.760157+00:00",
+      "row_cap": 6000,
+      "file": "004_stock_basic.parquet",
+      "rows": 0,
+      "sha256": "b9027b7d320c631dd5f21dab41d372bc38544735f5c277b108e1531e0fa6da15",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:51.961975+00:00"
+    },
+    {
+      "api": "trade_cal",
+      "params": {
+        "exchange": "SSE",
+        "start_date": "20260101",
+        "end_date": "20261231"
+      },
+      "requested_at": "2026-09-14T06:10:51.962791+00:00",
+      "row_cap": 1000,
+      "file": "005_trade_cal.parquet",
+      "rows": 365,
+      "sha256": "b9207d50d8dc52418de2f2fd47f9e2a9be274e98f4848e47a9ffe5debeda050d",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:52.198400+00:00"
+    },
+    {
+      "api": "trade_cal",
+      "params": {
+        "exchange": "SZSE",
+        "start_date": "20260101",
+        "end_date": "20261231"
+      },
+      "requested_at": "2026-09-14T06:10:52.199156+00:00",
+      "row_cap": 1000,
+      "file": "006_trade_cal.parquet",
+      "rows": 0,
+      "sha256": "715db6c5d2ae359db5cfa564ed31327dacf8437f37bd400e4401352ec297dc68",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:52.501978+00:00"
+    },
+    {
+      "api": "stock_st",
+      "params": {
+        "trade_date": "20260901"
+      },
+      "requested_at": "2026-09-14T06:10:52.502657+00:00",
+      "row_cap": 1000,
+      "file": "007_stock_st.parquet",
+      "rows": 203,
+      "sha256": "b6e5c2a6bedee9f66b03a63ced833608c5ded4682bd829d51bf8d23884533007",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:53.138550+00:00"
+    },
+    {
+      "api": "stock_st",
+      "params": {
+        "trade_date": "20260911"
+      },
+      "requested_at": "2026-09-14T06:10:53.139549+00:00",
+      "row_cap": 1000,
+      "file": "008_stock_st.parquet",
+      "rows": 204,
+      "sha256": "6678287308e899c934e11e521ea5ad128706ed576fc9c9e17f84a794acb90d0a",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:53.355801+00:00"
+    },
+    {
+      "api": "stock_st",
+      "params": {
+        "trade_date": "20260914"
+      },
+      "requested_at": "2026-09-14T06:10:53.356845+00:00",
+      "row_cap": 1000,
+      "file": "009_stock_st.parquet",
+      "rows": 0,
+      "sha256": "88e7f61c80b7dc36bf1f3a02d58a9d8a75132da9bb567d96dfaa41416e37ab7f",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:53.588557+00:00"
+    },
+    {
+      "api": "namechange",
+      "params": {
+        "start_date": "20260901",
+        "end_date": "20260914"
+      },
+      "requested_at": "2026-09-14T06:10:53.589585+00:00",
+      "row_cap": 1000,
+      "file": "010_namechange.parquet",
+      "rows": 19,
+      "sha256": "4e42b128a2b6a83c33fa84ef4dc6dc6908564bfa5fcae63b696294030469a697",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:53.882362+00:00"
+    },
+    {
+      "api": "stk_limit",
+      "params": {
+        "trade_date": "20260914"
+      },
+      "requested_at": "2026-09-14T06:10:53.883186+00:00",
+      "row_cap": 6000,
+      "file": "011_stk_limit.parquet",
+      "rows": 0,
+      "sha256": "21f068ce015ce30889339e311306d1023c7a689106a0dbbd4e503a40bf01036d",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:54.083105+00:00"
+    },
+    {
+      "api": "suspend_d",
+      "params": {
+        "trade_date": "20260914"
+      },
+      "requested_at": "2026-09-14T06:10:54.084250+00:00",
+      "row_cap": 6000,
+      "file": "012_suspend_d.parquet",
+      "rows": 0,
+      "sha256": "88e7f61c80b7dc36bf1f3a02d58a9d8a75132da9bb567d96dfaa41416e37ab7f",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:54.381702+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ex_date": "20260914"
+      },
+      "requested_at": "2026-09-14T06:10:54.383109+00:00",
+      "row_cap": 2000,
+      "file": "013_dividend.parquet",
+      "rows": 0,
+      "sha256": "4357345494ca9d36c0d65855567403beaf90bc984835f35a198f23d3fde680a9",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:55.070480+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "001872.SZ"
+      },
+      "requested_at": "2026-09-14T06:10:55.071813+00:00",
+      "row_cap": 2000,
+      "file": "014_dividend.parquet",
+      "rows": 94,
+      "sha256": "af20c4f495cfeb05ac317c768a7385b7c2c998452fb901755d7cf67f57c8a938",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:55.292477+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "001965.SZ"
+      },
+      "requested_at": "2026-09-14T06:10:55.293229+00:00",
+      "row_cap": 2000,
+      "file": "015_dividend.parquet",
+      "rows": 49,
+      "sha256": "e1cd6adc3d479aea98bfffce91bca4d8d3fc7b9a18501ab76a8a9dbfe87551ea",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:55.492889+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "003816.SZ"
+      },
+      "requested_at": "2026-09-14T06:10:55.494264+00:00",
+      "row_cap": 2000,
+      "file": "016_dividend.parquet",
+      "rows": 33,
+      "sha256": "642d7165744fa540c27103f20ff09d31d2698b397210dd21b56146959928fa23",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:55.831127+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "600018.SH"
+      },
+      "requested_at": "2026-09-14T06:10:55.831943+00:00",
+      "row_cap": 2000,
+      "file": "017_dividend.parquet",
+      "rows": 67,
+      "sha256": "4ce3a1d3db57f11981a948ceec22b2b397803779e8db0e9ae70ac1bf0c0a9859",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:56.034650+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "600036.SH"
+      },
+      "requested_at": "2026-09-14T06:10:56.035945+00:00",
+      "row_cap": 2000,
+      "file": "018_dividend.parquet",
+      "rows": 57,
+      "sha256": "df045292c4dbcd0efdfc6f6a83b76b11ef8cd34ebda7fe6c4cb861ae28f0b39a",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:56.247336+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "600039.SH"
+      },
+      "requested_at": "2026-09-14T06:10:56.248800+00:00",
+      "row_cap": 2000,
+      "file": "019_dividend.parquet",
+      "rows": 60,
+      "sha256": "b38aaa309e8fb0e9bb115df5d81385ef2f9965f4b5499a6341cee0d679d83a96",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:56.454353+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "600377.SH"
+      },
+      "requested_at": "2026-09-14T06:10:56.455123+00:00",
+      "row_cap": 2000,
+      "file": "020_dividend.parquet",
+      "rows": 62,
+      "sha256": "7bda23cda2b097644513118af530e8832fd89318cdbfa13ce193052cfd2045fe",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:56.772765+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601009.SH"
+      },
+      "requested_at": "2026-09-14T06:10:56.773775+00:00",
+      "row_cap": 2000,
+      "file": "021_dividend.parquet",
+      "rows": 50,
+      "sha256": "06890ef07c2e73c5664eb6a74e3ebee7a26fb2b9d9c099b5333c09fbec6b485d",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:56.984902+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601229.SH"
+      },
+      "requested_at": "2026-09-14T06:10:56.985876+00:00",
+      "row_cap": 2000,
+      "file": "022_dividend.parquet",
+      "rows": 37,
+      "sha256": "433f95ff16b5655938e39b8ac800b762490054e6e79fd603c1d41985ba92cf0d",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:57.209972+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601288.SH"
+      },
+      "requested_at": "2026-09-14T06:10:57.211096+00:00",
+      "row_cap": 2000,
+      "file": "023_dividend.parquet",
+      "rows": 44,
+      "sha256": "f4a79d2902736dc306016331351bc9cb41ab48aa67bf97b843a65a31393592b2",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:57.413673+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601298.SH"
+      },
+      "requested_at": "2026-09-14T06:10:57.414710+00:00",
+      "row_cap": 2000,
+      "file": "024_dividend.parquet",
+      "rows": 51,
+      "sha256": "e8990ed5525f96afe2143a521ebccdcecf78f227ccdf504740a819c04302911b",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:57.608889+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601326.SH"
+      },
+      "requested_at": "2026-09-14T06:10:57.610225+00:00",
+      "row_cap": 2000,
+      "file": "025_dividend.parquet",
+      "rows": 50,
+      "sha256": "3d673663c428248680f373a4439fae0aacd61b482503048dca321e50e2b17ff5",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:57.821751+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601398.SH"
+      },
+      "requested_at": "2026-09-14T06:10:57.822796+00:00",
+      "row_cap": 2000,
+      "file": "026_dividend.parquet",
+      "rows": 59,
+      "sha256": "9d665b86075acd23d2a438587a460db4a2988482d4d6dec3c059cae2117990f4",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:58.033942+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601598.SH"
+      },
+      "requested_at": "2026-09-14T06:10:58.034745+00:00",
+      "row_cap": 2000,
+      "file": "027_dividend.parquet",
+      "rows": 37,
+      "sha256": "42cae29f47b0a6f7271864c706d8af09b27c133fde8f82def34ebb93aab278a0",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:58.269690+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601658.SH"
+      },
+      "requested_at": "2026-09-14T06:10:58.271064+00:00",
+      "row_cap": 2000,
+      "file": "028_dividend.parquet",
+      "rows": 43,
+      "sha256": "f66ca359fcfa17c7830d79657716c64a74e21a1e7a94313e06e995166fea29d4",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:58.481744+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601728.SH"
+      },
+      "requested_at": "2026-09-14T06:10:58.482891+00:00",
+      "row_cap": 2000,
+      "file": "029_dividend.parquet",
+      "rows": 31,
+      "sha256": "d30fe0fd65f4a2395d6391c8fafbf2f6bdb2e374207bbdbbf38e58c6b4e698ae",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:58.778481+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601825.SH"
+      },
+      "requested_at": "2026-09-14T06:10:58.779902+00:00",
+      "row_cap": 2000,
+      "file": "030_dividend.parquet",
+      "rows": 25,
+      "sha256": "1649757d1cf63d68b4767f15bb6460c7e0dd423bb01d41d810a5b1279efa6f6a",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:59.082205+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601988.SH"
+      },
+      "requested_at": "2026-09-14T06:10:59.083912+00:00",
+      "row_cap": 2000,
+      "file": "031_dividend.parquet",
+      "rows": 53,
+      "sha256": "b115b2e913775fed4d012c51060d1db6817b57d1fba6648a1a625b7efd62e7ef",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:59.290350+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "601998.SH"
+      },
+      "requested_at": "2026-09-14T06:10:59.291251+00:00",
+      "row_cap": 2000,
+      "file": "032_dividend.parquet",
+      "rows": 48,
+      "sha256": "dc822ea67587109f6fe7038ece19f4b74b4c8f55ac65c6bc58c929571adda7e3",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:59.500837+00:00"
+    },
+    {
+      "api": "dividend",
+      "params": {
+        "ts_code": "603587.SH"
+      },
+      "requested_at": "2026-09-14T06:10:59.503692+00:00",
+      "row_cap": 2000,
+      "file": "033_dividend.parquet",
+      "rows": 50,
+      "sha256": "0a792c2f392fb874a1dbe7579507fc5d919c7c04d530846968de66d68a37d177",
+      "status": "downloaded",
+      "received_at": "2026-09-14T06:10:59.720798+00:00"
+    }
+  ],
+  "live_orders": false
+}

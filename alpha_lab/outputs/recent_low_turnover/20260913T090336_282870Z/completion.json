@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "strategy_admission": "NOT_ADMITTED",
+  "no_refit": true,
+  "no_parameter_tuning": true,
+  "latest_local_market_date": "2026-09-08",
+  "registered_cases": 6,
+  "tests_passed": 280,
+  "input_coverage_gate": "passed",
+  "independent_account_gate": "passed",
+  "old_account_prefix": "exactly_reproduced",
+  "invalid_parent_retained": true,
+  "artifact_hashes": {
+    "manifest.json": "ffb0c08c33aed71c7d7990efa107c01621d82e2f6261aa3a02058525ee13f95f",
+    "inputs_manifest.json": "abb2d8ae81e859a79cb12f8e5048c6290e3377ccb4508e4e082549ad9029fd66",
+    "input_coverage_audit/coverage_gate.json": "9e15403b1b935f59acf7dc4417c0f91d995f958d39aeb8da69d8ea6b6bb57126",
+    "data_repair/repair_manifest.json": "71715a14da9220d18a6e6ca3753ba9cc480e6ba6345694c7545e335a5960867c",
+    "independent_combined_verification.json": "fe2e0175e87a3a7e68bdf0023bec3efeb11b65bb2fc57a461c2ced58ae69f373",
+    "execution/independent_recent_verification.json": "c3c2432e5a6c868de4f3673bfd3f10d43442aed0bfb32fbba105c8d059469838",
+    "recent_summary.csv": "11fdab7e66307c8cb0c2ea82f27af81078e4d75f58ae625ed05b92ca2a3e963d",
+    "annual.csv": "00d80a6ca609c18478be4395a4a0eb8da2b80199e0345684db030a3d12df2a1f",
+    "monthly.csv": "87ca9e8d3859aeee7ead9468d1f4b3197023018c9b7f3e6c0033b34cb415c3f4",
+    "asset_attribution.csv": "0e7356e785bf8b9fafd60c68f56481a8356424089559dc4dd3c6aef91c560ff1",
+    "benchmark_price_evidence.csv": "0f056c253b56d3c5886f7fdd87e345851abf77a50c6948beb251bc0eb146daac",
+    "unittest_final.log": "2c2f3f5213727e1613d90e39a6852990799a33ccd4119b98c3ced9028595a565",
+    "REPORT.md": "6e2cca609eabf4f6b7b343f74325a8ff0e7f13a5e59b4736f13e0b068c902485"
+  }
+}

@@ -1,0 +1,17 @@
+# 固定三组机制对照；不因结果调整匹配规则；无新的收益信号。
+parent_prepared: outputs/investability_followup/20260911T142805_295786Z
+signal_file: tail_feasible_half_signals.parquet
+output_root: outputs/style_attribution
+active_fraction: 0.5
+lookback_start: '2021-10-01'
+lookback_days: 20
+min_neutralization_samples: 50
+seed: 20260911
+variants:
+  - {name: industry_board, features: []}
+  - {name: size_matched, features: [log_mv]}
+  - {name: size_liquidity_matched, features: [log_mv, log_amount20]}
+cost_multipliers: [1.0]
+bootstrap_block_days: 20
+bootstrap_samples: 2000
+bootstrap_quantiles: [0.025, 0.975]

@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+vwap_dev,0.0303,0.31,0.0173,1.75,0.094,True,48

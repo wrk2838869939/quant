@@ -1,0 +1,12 @@
+{
+  "unit_tests": 6,
+  "disjoint_roles": true,
+  "swapped_halves": true,
+  "test_targets_excluded_from_fit_interface": true,
+  "test_target_shock_train_valid_unchanged": true,
+  "scaler_train_only": true,
+  "model_checkpoints_replayed": 8,
+  "source_artifacts_verified": true,
+  "scored_test_events": 166,
+  "random_seed": 2026092301
+}

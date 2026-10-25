@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "schedule": "calendar_01",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_01",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_08",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_08",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_15",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_15",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 14.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_22",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 15.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "calendar_22",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 15.0,
+      "max_review_gap": 23.0
+    },
+    {
+      "schedule": "rolling_00",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_00",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 43,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_05",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_05",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_10",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_10",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_15",
+      "cutoff": "2023-06-30 00:00:00",
+      "rows": 18,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    },
+    {
+      "schedule": "rolling_15",
+      "cutoff": "2025-06-30 00:00:00",
+      "rows": 42,
+      "codes": 281,
+      "prefix_exact": true,
+      "min_review_gap": 20.0,
+      "max_review_gap": 20.0
+    }
+  ],
+  "source_sha256": "06daf9e6087cc91b047e2d958f9634fbd3e1ce78b8abef58967f4c46349ba82f",
+  "interpretation": "dates and hold permissions only; not independent data authenticity"
+}

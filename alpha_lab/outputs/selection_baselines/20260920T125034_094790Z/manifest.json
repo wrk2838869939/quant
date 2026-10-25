@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "registry_id": "selection_baselines_v1",
+  "registry_sha256": "c2a4259841c05f766b320ec7f732777e05e605f3cb928fdf5f5b34b6722ba04e",
+  "source_hashes": {
+    "alpha_lab/scripts/run_selection_baselines.py": "7d68dff193113b1b2eb0d72a9c8685f90769fbe9ab34d4e454e0408d2ea4856d",
+    "alpha_lab/src/selection_baselines.py": "c8300384aae8596ce2c40d9fe95ba4eccce906d998215169c7c97eb707e46edb",
+    "alpha_lab/src/rule_search.py": "5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda",
+    "alpha_lab/src/portfolio.py": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+    "alpha_lab/src/classic_smoke.py": "6e203fb5c7d815d8f7aa5c547805dac99ba8a18aff342c362916bb3ba76328f4",
+    "alpha_lab/scripts/run_rule_strategy_search.py": "0172c406d30fc55032042ec4f00062df2f91f789556455e568ddf5c806a48cb0",
+    "alpha_lab/scripts/run_classic_strategy_smoke.py": "563f392304acbdd645c78f218d9c97847728ccb4a7bb246059b865d3dad292a2",
+    "alpha_lab/scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "alpha_lab/configs/selection_baselines_v1.yaml": "c2a4259841c05f766b320ec7f732777e05e605f3cb928fdf5f5b34b6722ba04e",
+    "alpha_lab/configs/selection_account_v1.yaml": "50d3f83b6868c4bfcdfba56edd58d6f904a206fb454fd9bbcee5f0f522e30422",
+    "alpha_lab/configs/baseline_identity_candidate.yaml": "5fa6e51d46b6eef6bf63018af47e827fda82d9bbd989ba6939b632bfe4f38fe6",
+    "alpha_lab/src/selection_baseline_plugins.py": "598dfe0ddb35208d599229c58a16ddedeefc9c35d1b873599abf1e5b56ea4d2a"
+  },
+  "source_run": "alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z",
+  "dataset": {
+    "release": "datahub/releases/selection_v1_20260920",
+    "snapshot_id": "selection_v1_20260920",
+    "content_id": "c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3"
+  },
+  "started_at": "2026-09-20T12:50:34.098737+00:00",
+  "parameter_search": false,
+  "candidate": {
+    "candidate_id": "identity_smoke",
+    "parent_baseline": "B01_low_turnover",
+    "plugin_module": "selection_baseline_plugins",
+    "plugin_function": "identity",
+    "params": {}
+  },
+  "finished_at": "2026-09-20T12:50:56.045791+00:00",
+  "baselines": 3,
+  "accounts": 4,
+  "prefix_checks": 12,
+  "reference_replays": 3,
+  "source_inputs_unchanged": true
+}

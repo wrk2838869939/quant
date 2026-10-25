@@ -1,0 +1,43 @@
+# 先固定分组，再查看结果；没有参数搜索、训练或收益驱动的删改。
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+events: alpha_lab/outputs/sector_shape_events/20260922T024547_848112Z
+output_root: alpha_lab/outputs/sector_candidate_quality
+benchmark: 000300.SH
+primary_horizon: 20
+horizons: [5, 10, 20]
+recent_days: 2
+preceding_days: 3
+minimum_observation_coverage: 0.80
+bootstrap_repetitions: 2000
+bootstrap_seed: 20260922
+minimum_ci_clusters: 5
+minimum_display_dates: 5
+cluster_gap_sessions: 20
+prefix_check_date: '2023-06-30'
+font: fonts/SimHei.ttf
+dpi: 170
+# 中间区间左闭右开；没有假定分组效果单调。
+bins:
+  drawdown_depth: [0, 0.20, 0.30, 1.01]
+  decline_speed: [0, 0.01, 0.02, 1.01]
+  slowdown_ratio: [0, 0.20, 0.45, 1.01]
+  breadth_change: [-1.01, 0, 0.20, 1.01]
+  turnover_contraction: [0, 0.70, 1.00, 1000]
+labels:
+  drawdown_depth: ['回撤15%–20%', '回撤20%–30%', '回撤≥30%']
+  decline_speed: ['平均跌速<1%/日', '平均跌速1%–2%/日', '平均跌速≥2%/日']
+  slowdown_ratio: ['减速比<0.20', '减速比0.20–0.45', '减速比≥0.45']
+  breadth_change: ['上涨占比下降', '上涨占比改善<20pp', '上涨占比改善≥20pp']
+  turnover_contraction: ['换手比<0.70', '换手比0.70–1.00', '换手比≥1.00']
+feature_names:
+  price_zone: 价格位置
+  drawdown_depth: 回撤幅度
+  decline_speed: 平均下跌速度
+  slowdown_ratio: 最近跌速变化
+  breadth_change: 上涨占比变化
+  turnover_contraction: 近期换手变化
+price_zones: ['跌穿平台下沿', '平台区间内', '平台上沿至上涨初期', '高于上涨初期参照']
+leader_gap_edges: [-1000, -0.01, 0.01, 1000]
+leader_gap_labels: ['龙头落后其余成员≥1pp', '龙头与其余成员接近', '龙头领先其余成员≥1pp']
+minimum_leader_observations: 2
+minimum_remaining_observations: 2

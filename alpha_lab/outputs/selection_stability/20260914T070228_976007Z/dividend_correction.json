@@ -1,0 +1,25 @@
+{
+  "time": "2026-09-14T07:17:15.391018+00:00",
+  "code": "601898.SH",
+  "ex_date": "2024-08-20",
+  "known_date": "2024-08-13",
+  "original": 0.113,
+  "annual_component": 0.442,
+  "special_component": 0.113,
+  "corrected_total": 0.555,
+  "source": "https://www.chinacoalenergy.com/cms_files/jcms1/web2/site/attach/0/5c706ac8437542fc8b925e9dc0c84260.pdf",
+  "evidence_sha256": "d4d18db5f1712dd7c9302da914e45b5a1133a357244c1a3108eccb861fb7cff8",
+  "source_script_sha256": "524d8966cd39019a1e1a7e49b929ca4515af6ecf6b622139220c03a7eb81485e",
+  "original_actions_sha256": "323877a149003710d694346c1e3d20b8a7552ecf367a6a995b7c6ef6669ab5b7",
+  "corrected_actions_sha256": "da7f1c9c724da140f1f56d0c9e81c70de769ca1784abbc0162820a9ac75ea17b",
+  "reference_price_rounding_residual": -0.005000000000000782,
+  "completed_accounts_audited": 181,
+  "reused_accounts_audited": 45,
+  "zero_entitled_shares_in_all_completed": true,
+  "failed_accounts_preserved": [
+    "cold_22_smooth20",
+    "cold_22_smooth40"
+  ],
+  "unchanged_successful_results_reused": true,
+  "input_revision_preserved_in": "attempts/incomplete_601898_dividend"
+}

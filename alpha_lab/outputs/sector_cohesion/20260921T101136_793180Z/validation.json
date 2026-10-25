@@ -1,0 +1,7 @@
+{
+  "prior_reproduction_sectors": 134,
+  "real_ols_checks": 12,
+  "real_prefix_check": true,
+  "same_pair_counts": true,
+  "leader_rest_disjoint": true
+}

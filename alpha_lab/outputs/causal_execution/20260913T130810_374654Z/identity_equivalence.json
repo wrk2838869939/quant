@@ -1,0 +1,13 @@
+{
+  "interpretation": "Identity uniqueness repair leaves inputs used by baseline/Hybrid and frozen training constant unchanged; execution comparison therefore retains original identical signal/hold/constant inputs. Do not add 32 duplicate samples.",
+  "qualified_months": 146,
+  "qualification_rows": 497236,
+  "training_rows": 51883,
+  "identity_projection_used_to_validate_equivalence": true,
+  "original_execution_inputs_preserved": true,
+  "evidence_sha256": {
+    "/root/autodl-tmp/alpha_lab/outputs/identity_repair/20260913T130530_010878Z/repair_manifest.json": "8414071587f6f08b8e5b66214c2769399e2f4474089da526c39962fe9d0648d8",
+    "/root/autodl-tmp/alpha_lab/outputs/identity_repair/20260913T130530_010878Z/impact.json": "51aa56f1811908cb58ea8fd4f55989e068102b62e158957607d8f7636aeeee32",
+    "/root/autodl-tmp/alpha_lab/outputs/causal_execution_audit/signals/identity_training_verification.json": "50f8baa371f659253ed526dc87136d3e588a7866cc20d8445eecd5830195417c"
+  }
+}

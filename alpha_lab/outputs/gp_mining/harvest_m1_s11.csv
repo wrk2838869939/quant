@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"ts_std(lg_share,10)",0.0757,0.77,0.0547,1.38,0.459,True,60

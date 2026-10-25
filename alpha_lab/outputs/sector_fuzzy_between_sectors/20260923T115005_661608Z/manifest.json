@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "config": {
+    "source": "alpha_lab/outputs/sector_fuzzy_histogram_report/20260923T114347_981934Z",
+    "output_root": "alpha_lab/outputs/sector_fuzzy_between_sectors",
+    "horizons": [
+      3,
+      10,
+      20
+    ],
+    "boards_per_page": 22,
+    "plot_bins": 20,
+    "font": "fonts/SimHei.ttf",
+    "dpi": 150
+  },
+  "source_manifest_sha256": "e9daaf1da3d5d892d9f5e0d28d7159a09fbad701fb9f2ed351dcf6557828f32c",
+  "compared_groups": 65,
+  "combinations": 195,
+  "new_pages": 4,
+  "full_pages": 72,
+  "artifacts": {
+    "between_config.yaml": "a5d9ecfb0b5f65a99f3eeacedee4bcf41b5574496502ae00c1b40aadf47872e4",
+    "report_between.py": "c7c9826fd5a86ed547afa92914216910e4ba1deebd277ef1835998e4ffbe8f55",
+    "between_sector_values.csv": "754d80ffd8bd697ed8b3a4fc1d91ebb2afc5d1e0e6f2980282095b82abe98bf4",
+    "between_sector_histograms.png": "e4f619c2d0d7481c57eeaa29d53b2f2bf56bc4af1b626e2282d2276f594dc153",
+    "between_sectors_report.pdf": "96f89f23e32be089ff82acc452439fc50e4f9f777bf27d613af138a979932f8b",
+    "named_sector_comparison_01.png": "d83cefaebd35f6f8644a6046a2607d9d41c3b97c66ffee8728e979c22ffbf07f",
+    "named_sector_comparison_02.png": "200db40327488e78a8ac9f4ded286f6239efcef3df34ce0117c48bb3af844bf8",
+    "named_sector_comparison_03.png": "7695dd941cc7d975de6e54178a17ee8975c39c1f8fd26a193a40d3dcd8e29d6d",
+    "histogram_bins.csv": "9af905cab653df3744889fb6b660ee6d2cff227dc557edfa7e0fbc514265cebc",
+    "page_index.csv": "56dd712384ae15bd3fc592df6babda7bcb8521de82811304c51099bf0489026d",
+    "confirmation_returns_report.pdf": "fd3214c04c271020cf0d9911fa3c1bb8cc35e842999ad5fddb18d99aab613e86",
+    "overview.html": "7c1979db3dd8e14c41bcf332b6684d1e8170a543fd64cf67760384309cf26cc0",
+    "README.md": "a0bcf61d9462b357cef50edee74cb35dbfc5f1a1b3b9bb1f4f07d19bdb4d6948"
+  }
+}

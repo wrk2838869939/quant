@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "original_annual_events": 256,
+  "reconfirmation_starts": 499,
+  "distinct_reconfirmed_events": 185,
+  "latest_hotel_state_matches_original_scan": true,
+  "prereg_sha256": "b80267fd3371a0f071147e352ec85d254f46cf6fed63ad04f7fb1ea7af1ee9d6"
+}

@@ -1,0 +1,5 @@
+strategy,annualized_mean_daily_delta,descriptive_low,descriptive_high,fresh_holdout
+baseline,0.0,0.0,0.0,False
+tail_unfiltered,0.04952262466273137,-0.12270094087161734,0.21151542382719865,False
+tail_feasible_full,0.09592906785993828,-0.15561697086285972,0.32531677549235594,False
+tail_feasible_half,0.050938894526272,-0.07598300643223782,0.17766219560729493,False

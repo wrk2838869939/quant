@@ -1,0 +1,23 @@
+{
+  "asof": "2026-10-20",
+  "sector": "养殖业",
+  "members": 22,
+  "qualified": 21,
+  "price_pass": 11,
+  "observation_candidates": [
+    "000048.SZ",
+    "605296.SH",
+    "002321.SZ",
+    "603477.SH",
+    "603717.SH"
+  ],
+  "official_strategy_candidates": 0,
+  "model_year": 2026,
+  "model_last_label": "2025-11-19",
+  "scenario": "20日横截面独立观察；不是原策略新入场",
+  "name_history_refetched_for_all_members": true,
+  "qualification_unchanged": true,
+  "no_retraining": true,
+  "no_engineering_changes": true,
+  "model_condition_applicability": "未验证板块模型拒绝后的个股排序有效性"
+}

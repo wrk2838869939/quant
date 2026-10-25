@@ -1,0 +1,7 @@
+{
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m pytest -q alpha_lab/tests/test_policy_evolution.py",
+  "passed": 33,
+  "exit_code": 0,
+  "duration_seconds": 2.99,
+  "scope": "旧账本用例及新增随机流续接、平台判据、现金/分红/红股/延迟卖出/部分减仓缓存等价检查"
+}

@@ -1,0 +1,11 @@
+{
+  "tests": 10,
+  "upstream_checks": [
+    {
+      "window": 10,
+      "upstream_prefix_exact": true
+    }
+  ],
+  "merged_prefix_exact": true,
+  "source_hashes": true
+}

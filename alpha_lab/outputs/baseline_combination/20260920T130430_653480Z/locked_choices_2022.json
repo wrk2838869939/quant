@@ -1,0 +1,477 @@
+{
+  "outer_year": 2022,
+  "inner_end": "2021-12-31",
+  "locked_at": "2026-09-20T13:05:45.394557+00:00",
+  "choices": {
+    "baseline_selector": {
+      "id": "64bd9658909415b98f81",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": 0
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": 0.09888774499999986,
+        "ann": 0.03202094234734787,
+        "mdd": -0.16712344835332005,
+        "sharpe": 0.289422761178186,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 21,
+        "total_fees": 1130.3935000000001,
+        "mean_invested": 0.9765056387613301,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 8,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": 0.09525724000000002,
+        "worst_block_mdd": -0.15067261565008994,
+        "buys": 13,
+        "turnover": 1.8727928753985144,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.09525724000000002,
+            "ann": 0.09525724000000002,
+            "mdd": -0.09174343764420045,
+            "sharpe": 0.7627209012038597,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.08820990765603154,
+            "ann": -0.0885563426124657,
+            "mdd": -0.14440048197807764,
+            "sharpe": -0.5191668246453031,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": 0.10037908877902213,
+            "ann": 0.10081232829443998,
+            "mdd": -0.15067261565008994,
+            "sharpe": 0.719814442221688,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.017644754719159182,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 13761,
+      "independent_audit": true,
+      "original_inner_endpoint_match": true,
+      "neighbor_ids": [
+        "c386ddf544a30928abd8",
+        "cdbdecd12b898f764456"
+      ],
+      "neighbor_count": 2,
+      "neighbor_q25": null
+    },
+    "account_best": {
+      "id": "64bd9658909415b98f81",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": 0
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": 0.09888774499999986,
+        "ann": 0.03202094234734787,
+        "mdd": -0.16712344835332005,
+        "sharpe": 0.289422761178186,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 21,
+        "total_fees": 1130.3935000000001,
+        "mean_invested": 0.9765056387613301,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 8,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": 0.09525724000000002,
+        "worst_block_mdd": -0.15067261565008994,
+        "buys": 13,
+        "turnover": 1.8727928753985144,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.09525724000000002,
+            "ann": 0.09525724000000002,
+            "mdd": -0.09174343764420045,
+            "sharpe": 0.7627209012038597,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.08820990765603154,
+            "ann": -0.0885563426124657,
+            "mdd": -0.14440048197807764,
+            "sharpe": -0.5191668246453031,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": 0.10037908877902213,
+            "ann": 0.10081232829443998,
+            "mdd": -0.15067261565008994,
+            "sharpe": 0.719814442221688,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.017644754719159182,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 13761,
+      "independent_audit": true,
+      "original_inner_endpoint_match": true,
+      "neighbor_ids": [
+        "c386ddf544a30928abd8",
+        "cdbdecd12b898f764456"
+      ],
+      "neighbor_count": 2,
+      "neighbor_q25": null
+    },
+    "account_stable": {
+      "id": "64bd9658909415b98f81",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": 0
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": 0.09888774499999986,
+        "ann": 0.03202094234734787,
+        "mdd": -0.16712344835332005,
+        "sharpe": 0.289422761178186,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 21,
+        "total_fees": 1130.3935000000001,
+        "mean_invested": 0.9765056387613301,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 8,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": 0.09525724000000002,
+        "worst_block_mdd": -0.15067261565008994,
+        "buys": 13,
+        "turnover": 1.8727928753985144,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.09525724000000002,
+            "ann": 0.09525724000000002,
+            "mdd": -0.09174343764420045,
+            "sharpe": 0.7627209012038597,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.08820990765603154,
+            "ann": -0.0885563426124657,
+            "mdd": -0.14440048197807764,
+            "sharpe": -0.5191668246453031,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": 0.10037908877902213,
+            "ann": 0.10081232829443998,
+            "mdd": -0.15067261565008994,
+            "sharpe": 0.719814442221688,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.017644754719159182,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 13761,
+      "independent_audit": true,
+      "original_inner_endpoint_match": true,
+      "neighbor_ids": [
+        "c386ddf544a30928abd8",
+        "cdbdecd12b898f764456"
+      ],
+      "neighbor_count": 2,
+      "neighbor_q25": null
+    },
+    "ic_best": {
+      "id": "64bd9658909415b98f81",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": 0
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": 0.09888774499999986,
+        "ann": 0.03202094234734787,
+        "mdd": -0.16712344835332005,
+        "sharpe": 0.289422761178186,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 21,
+        "total_fees": 1130.3935000000001,
+        "mean_invested": 0.9765056387613301,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 8,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": 0.09525724000000002,
+        "worst_block_mdd": -0.15067261565008994,
+        "buys": 13,
+        "turnover": 1.8727928753985144,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.09525724000000002,
+            "ann": 0.09525724000000002,
+            "mdd": -0.09174343764420045,
+            "sharpe": 0.7627209012038597,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.08820990765603154,
+            "ann": -0.0885563426124657,
+            "mdd": -0.14440048197807764,
+            "sharpe": -0.5191668246453031,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": 0.10037908877902213,
+            "ann": 0.10081232829443998,
+            "mdd": -0.15067261565008994,
+            "sharpe": 0.719814442221688,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.017644754719159182,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 13761,
+      "independent_audit": true,
+      "original_inner_endpoint_match": true,
+      "neighbor_ids": [
+        "c386ddf544a30928abd8",
+        "cdbdecd12b898f764456"
+      ],
+      "neighbor_count": 2,
+      "neighbor_q25": null
+    },
+    "ic_with_baseline_fallback": {
+      "id": "64bd9658909415b98f81",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": 0
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": 0.09888774499999986,
+        "ann": 0.03202094234734787,
+        "mdd": -0.16712344835332005,
+        "sharpe": 0.289422761178186,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 21,
+        "total_fees": 1130.3935000000001,
+        "mean_invested": 0.9765056387613301,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 8,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": 0.09525724000000002,
+        "worst_block_mdd": -0.15067261565008994,
+        "buys": 13,
+        "turnover": 1.8727928753985144,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.09525724000000002,
+            "ann": 0.09525724000000002,
+            "mdd": -0.09174343764420045,
+            "sharpe": 0.7627209012038597,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.08820990765603154,
+            "ann": -0.0885563426124657,
+            "mdd": -0.14440048197807764,
+            "sharpe": -0.5191668246453031,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": 0.10037908877902213,
+            "ann": 0.10081232829443998,
+            "mdd": -0.15067261565008994,
+            "sharpe": 0.719814442221688,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.017644754719159182,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 13761,
+      "independent_audit": true,
+      "original_inner_endpoint_match": true,
+      "neighbor_ids": [
+        "c386ddf544a30928abd8",
+        "cdbdecd12b898f764456"
+      ],
+      "neighbor_count": 2,
+      "neighbor_q25": null
+    },
+    "equal_weight": {
+      "id": "d28e8f0edd7a4615d52d",
+      "outer_year": 2022,
+      "inner_end": "2021-12-31",
+      "params": {
+        "weights": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "frequency": "weekly",
+        "top_n": 5,
+        "endpoint": null
+      },
+      "status": "ok",
+      "max_label_end": "2021-12-31",
+      "metrics": {
+        "total": -0.020950035000000033,
+        "ann": -0.007051887295566939,
+        "mdd": -0.18286420575707307,
+        "sharpe": 0.0025160894741664687,
+        "n_days": 730,
+        "capital": 100000.0,
+        "top_n": 5,
+        "n_trades": 17,
+        "total_fees": 764.1714999999999,
+        "mean_invested": 0.9515635202267504,
+        "missing_limit_events": 0,
+        "stale_warnings": 0,
+        "delist_events": 0,
+        "adjustment_metadata_events": 7,
+        "rights_declined_events": 0,
+        "n_rebalances": 155,
+        "execution_data_sufficient": true,
+        "median_ann": -0.0002630233968864415,
+        "worst_block_mdd": -0.13494458100958107,
+        "buys": 11,
+        "turnover": 1.3289585442963217,
+        "yearly": [
+          {
+            "year": 2019,
+            "total": 0.10771144999999982,
+            "ann": 0.10771144999999982,
+            "mdd": -0.09326336872696972,
+            "sharpe": 0.8518556228133791,
+            "n_days": 244
+          },
+          {
+            "year": 2020,
+            "total": -0.11591914121678515,
+            "ann": -0.1163672775191279,
+            "mdd": -0.13494458100958107,
+            "sharpe": -0.8206258880411652,
+            "n_days": 243
+          },
+          {
+            "year": 2021,
+            "total": -0.00026194557334147106,
+            "ann": -0.0002630233968864415,
+            "mdd": -0.09925581206213452,
+            "sharpe": 0.04262147601316494,
+            "n_days": 243
+          }
+        ],
+        "feasible": true
+      },
+      "mean_ic": -0.07025288902972916,
+      "ic_dates": 152,
+      "signal_dates": 156,
+      "signal_nonmissing": 9741,
+      "independent_audit": true,
+      "neighbor_ids": [],
+      "neighbor_count": 0,
+      "neighbor_q25": null
+    }
+  }
+}

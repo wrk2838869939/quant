@@ -1,0 +1,7 @@
+condition,passed_all,passed_with_trend,shape_pass_if_removed,stock_pass_if_removed
+早期三日下跌至少1%,13,3,0,0
+早期换手放大至少1.4倍,0,0,0,0
+最近换手缩至0.7倍以下,2,1,0,0
+负收益幅度缩至0.65倍以下,9,2,0,0
+最近两日上涨不超2%,38,7,0,0
+当日跌幅不超2%,21,5,0,0

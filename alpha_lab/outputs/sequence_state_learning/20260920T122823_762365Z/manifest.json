@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-20T12:28:25.317545+00:00",
+  "pilot": true,
+  "source_hashes": {
+    "alpha_lab/scripts/run_sequence_state_learning.py": "56ec876f78cc985209fcd8f41263b923da2f4a47b21f665d9a93919aeec0aba8",
+    "alpha_lab/src/learning_search.py": "a7bc8ec5970e6ea22f331744b10e2b9347db7bd6c613fda0ef38b4c48129c90c",
+    "alpha_lab/src/learning_extensions.py": "579cb44f3bc66d5b8861cfaf5d80fdec213d6119959d813e08f14aa571987283",
+    "alpha_lab/src/sequence_state_learning.py": "46c29b3bfa2daa3bb11875cbf03a5fa80f712e8c79c94964ad8e0fa424c85c73",
+    "alpha_lab/src/rule_search.py": "5b0b492e7f7fbdf168749cf51fcbae3ed3e2cd4f74d08501c3d023c0995e8eda",
+    "alpha_lab/src/portfolio.py": "06cbf49745e562e62105cac2743d17ebb91dd196a1c9a5b73ecd1a96121908e2",
+    "alpha_lab/src/classic_smoke.py": "6e203fb5c7d815d8f7aa5c547805dac99ba8a18aff342c362916bb3ba76328f4",
+    "alpha_lab/scripts/run_rule_strategy_search.py": "0172c406d30fc55032042ec4f00062df2f91f789556455e568ddf5c806a48cb0",
+    "alpha_lab/scripts/run_classic_strategy_smoke.py": "563f392304acbdd645c78f218d9c97847728ccb4a7bb246059b865d3dad292a2",
+    "alpha_lab/scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "alpha_lab/configs/sequence_state_learning_v1.yaml": "6d111f2883edeb17c5b119c50276b9b58d46d582881a62f64bce85bc80855cc6",
+    "alpha_lab/configs/selection_account_v1.yaml": "50d3f83b6868c4bfcdfba56edd58d6f904a206fb454fd9bbcee5f0f522e30422",
+    "alpha_lab/configs/classic_strategy_smoke.yaml": "91f55fbf1334a081038353f67ecedd88c7e42bf945c85d24b46510de8a01b825",
+    "alpha_lab/configs/monthly_portfolio_audit.yaml": "926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0",
+    "alpha_lab/configs/corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5"
+  },
+  "sklearn": "1.7.2",
+  "lightgbm": "4.7.0",
+  "torch": "2.1.2+cu118",
+  "hmmlearn": "0.3.3",
+  "budget": 4,
+  "dataset": {
+    "release": "datahub/releases/selection_v1_20260920",
+    "snapshot_id": "selection_v1_20260920",
+    "content_id": "c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3"
+  },
+  "finished_at": "2026-09-20T12:28:57.516038+00:00",
+  "trials": 8,
+  "errors": 0,
+  "no_feasible_folds": 0
+}

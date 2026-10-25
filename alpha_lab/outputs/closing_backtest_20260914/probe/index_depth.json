@@ -1,0 +1,30 @@
+[
+  {
+    "month": "2026-01",
+    "rows": 0,
+    "first": null
+  },
+  {
+    "month": "2026-03",
+    "error_type": "Exception",
+    "chinese_reason_fragments": [
+      "接口用法错误",
+      "请检查代码后重试",
+      "使用用法"
+    ]
+  },
+  {
+    "month": "2026-05",
+    "error_type": "Exception",
+    "chinese_reason_fragments": [
+      "接口用法错误",
+      "请检查代码后重试",
+      "使用用法"
+    ]
+  },
+  {
+    "month": "2026-07",
+    "rows": 160,
+    "first": "2026-07-01 10:00:00"
+  }
+]

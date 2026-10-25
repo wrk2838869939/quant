@@ -1,0 +1,23 @@
+# 观察收益前固定假设；研究分支，不改变生产。
+parent: outputs/rolling_review/20260913T141120_325588Z
+risk_parent: outputs/risk_budget/20260913T160301_084080Z
+startup_parent: outputs/startup_timing/20260914T064444_558372Z
+feature_projection: outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet
+output_root: outputs/selection_stability
+capital: 80000
+max_positions: 5
+start: '2022-01-01'
+end: '2026-09-08'
+calendar_days: [1, 8, 15, 22]
+smoothing_windows: [10, 20, 40]
+primary_window: 20
+rank_buffer: 10
+rank_confirmations: 2
+policies: [baseline, smooth20, rank_buffer, combined]
+neighbors: [smooth10, smooth40]
+workers: 3
+acceptance:
+  startup_median_range_ratio_max: 0.8
+  median_annual_return_loss_max: 0.02
+  median_mdd_worsening_max: 0.01
+  median_trade_increase_fraction_max: 0.25

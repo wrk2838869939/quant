@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_artifacts_verified": 63,
+  "scored": 256,
+  "complete": 226,
+  "excluded": 30,
+  "old_complete_labels_matched": 226,
+  "latest_data": "2026-10-20",
+  "no_retraining": true
+}

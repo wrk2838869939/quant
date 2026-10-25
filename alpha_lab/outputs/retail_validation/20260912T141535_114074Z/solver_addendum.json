@@ -1,0 +1,7 @@
+{
+  "reason": "1e-8 relative gap timed out before first complete scenario; narrow equivalent return groups create a knapsack problem",
+  "relative_gap": 0.001,
+  "time_limit_seconds": 30,
+  "maximum_configurable_gap": 0.01,
+  "policy": "Certified bound required; timeout rejected. Relative gap and currency bound recorded per allocation. No performance parameter changed."
+}

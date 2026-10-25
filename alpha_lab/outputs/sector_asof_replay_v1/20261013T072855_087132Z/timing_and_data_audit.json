@@ -1,0 +1,64 @@
+{
+  "annual_timing_checks": [
+    {
+      "year": 2019,
+      "train": 61,
+      "fit": 49,
+      "valid": 9,
+      "passed": true
+    },
+    {
+      "year": 2020,
+      "train": 120,
+      "fit": 62,
+      "valid": 57,
+      "passed": true
+    },
+    {
+      "year": 2021,
+      "train": 154,
+      "fit": 62,
+      "valid": 37,
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "train": 184,
+      "fit": 154,
+      "valid": 30,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "train": 222,
+      "fit": 166,
+      "valid": 53,
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "train": 239,
+      "fit": 181,
+      "valid": 53,
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "train": 223,
+      "fit": 155,
+      "valid": 40,
+      "passed": true
+    },
+    {
+      "year": 2026,
+      "train": 220,
+      "fit": 175,
+      "valid": 37,
+      "passed": true
+    }
+  ],
+  "new_announcement_rejections_stock_event_days": 0,
+  "data_vintage_certified": false,
+  "strict_original_asof_certification": "unavailable: membership has no announcement/publication timestamp or historical vendor vintages",
+  "algorithm_asof_checks": "passed"
+}

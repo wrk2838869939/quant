@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "source_sha256": "4c5cfa14fb1263800c1fe36430ccba092abb77f2b17def98e753d85face08e65",
+  "source_last_date": "2021-12-27 00:00:00",
+  "evaluated_rows": 185560,
+  "no_entry_rows_kept_in_evaluation": 97,
+  "decomposition_checked": true,
+  "all_variants_retained": [
+    "constant",
+    "style",
+    "full",
+    "full_known_exit",
+    "full_complete_path"
+  ],
+  "primary_error_semantics": "opportunity_pool_including_no_entry_cash_zero; fit_conditions_on_observed_entry",
+  "fresh_holdout": false,
+  "interval_is_outcome_prediction_interval": false,
+  "sensitivities_are_censoring_diagnostics_not_strategy_candidates": true
+}

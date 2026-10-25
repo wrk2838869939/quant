@@ -1,0 +1,40 @@
+[
+  {
+    "family": "cnn",
+    "params": {
+      "family": "cnn",
+      "variant": "temporal_conv",
+      "horizon": 20,
+      "train_window": 252,
+      "retrain_months": 6,
+      "frequency": "monthly",
+      "top_n": 3,
+      "width": 32,
+      "kernel": 7,
+      "lookback": 20,
+      "epochs": 3,
+      "learning_rate": 0.001,
+      "weight_decay": 0.1
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  },
+  {
+    "family": "hmm",
+    "params": {
+      "family": "hmm",
+      "variant": "filtered_gaussian",
+      "horizon": 20,
+      "train_window": 504,
+      "retrain_months": 6,
+      "frequency": "daily",
+      "top_n": 3,
+      "states": 4,
+      "persistence": 10.0,
+      "alpha": 1.0,
+      "expert_weight": 0.25
+    },
+    "cutoff": "2020-06-15",
+    "passed": true
+  }
+]

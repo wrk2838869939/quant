@@ -1,0 +1,72 @@
+"""冻结长期状态分治实验；不读取本轮账户结果或新增候选。"""
+import argparse
+import json
+from pathlib import Path
+import shutil
+import sys
+import pandas as pd
+import yaml
+
+ROOT=Path(__file__).resolve().parents[1]
+sys.path[:0]=[str(ROOT/'src'),str(ROOT/'scripts')]
+from conditional_hold import build_conditional_holds
+from run_patient_value_execution import digest
+
+
+def main():
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--run',type=Path,required=True);p.add_argument('--parent',type=Path,required=True)
+    args=p.parse_args();run=args.run.resolve();parent=args.parent.resolve()
+    previous=json.loads((parent/'manifest.json').read_text())
+    for name,h in previous['source_hashes'].items():assert digest(ROOT/name)==h,name
+    run.mkdir(parents=True,exist_ok=False);(run/'execution').mkdir();(run/'hold_variants').mkdir()
+    for f in (parent/'execution').iterdir():
+        if f.is_file() and (f.suffix in ['.parquet','.yaml','.txt'] or f.name=='data_manifest.json'):
+            shutil.copy2(f,run/'execution'/f.name)
+    for name in ['execution_predictions.parquet','daily_close.parquet','daily_trend.parquet','daily_observable.parquet']:
+        shutil.copy2(parent/name,run/name)
+    prices,trend,observable=[pd.read_parquet(run/(n+'.parquet')) for n in ['daily_close','daily_trend','daily_observable']]
+    signals=pd.read_parquet(run/'execution/low_turnover_signals.parquet')
+    spec=yaml.safe_load((ROOT/'configs/conditional_hold_research.yaml').read_text())
+    variants,evidence=build_conditional_holds(prices,trend,observable,signals.index,spec)
+    for v in ['baseline','persist10']:
+        pd.testing.assert_frame_equal(variants[v],pd.read_parquet(parent/'hold_variants'/(v+'.parquet')),check_exact=True)
+    for name,frame in evidence.items():frame.to_parquet(run/(name+'.parquet'))
+    for name,frame in variants.items():frame.to_parquet(run/'hold_variants'/(name+'.parquet'))
+    kinds=[('cold',50000,'2024-01-01',1,False),('continued',50000,'2022-01-01',1,False),
+           ('small',20000,'2024-01-01',1,False),('large',100000,'2024-01-01',1,False),
+           ('cost2',50000,'2024-01-01',2,False),('reverse',50000,'2024-01-01',1,True)]
+    cases=[dict(name=k+'_'+v,variant=v,capital=c,start=s,cost_multiplier=f,reverse_input=r,policy='low_turnover')
+           for v in spec['variants'] for k,c,s,f,r in kinds]
+    paths=list(previous['source_hashes'])+['src/conditional_hold.py','configs/conditional_hold_research.yaml',
+                                          'scripts/prepare_conditional_hold.py']
+    hashes={}
+    for name in paths:
+        source=ROOT/name;target=run/'sources'/name;target.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(source,target);hashes[name]=digest(source)
+    protocol='''# 长期状态分治：事前协议
+
+本轮是已观察历史的开发研究，主假设hybrid，不调整候选、预测、入场或月度执行。
+原弱势定义仍为60/120日收益与MA120三个条件任一不满足。复核收盘时：长期收益>0且close>MA为long_intact；两者均不正为long_broken；其余mixed。未知单列。
+只在当前弱时调整确认：A在long_broken且完整20/20日、至少10日弱时加速；P在long_intact时将2次月度确认改3次；mixed原2次。hybrid=A+P；baseline及原persist10为冻结对照。
+状态切换不清零原连续弱计数；未知打断计数；任何连续弱最迟第3次确认退出，pending不能撤销。当前强不退出，入场恢复门不改。gap只描述，MA比较直接沿用原运算。
+
+## 评估与停止条件
+5政策×6情景=30账户：近期5万元、2022起连续账户、2万、10万、费用翻倍、真实倒序。必须复现两个原对照的全部账户CSV。
+分别报告旧/近期/全段/各年、费用本金、成交、逐股损益；固定原基线第一次转弱及原退出事件核对分类与随后价格，不把政策改变后的不同股票当同一样本。
+保留收益与回撤折中的可能；不按最高近期收益挑赢家，不根据本轮结果改阈值。单笔/单年/初始资金路径驱动的改善须披露。A/P消融区分各自与交互作用。
+核验历史截断、未知、浮点边界、状态切换、整手现金/T+1/限价/公司行动、原月度Top20和pending生命周期；测试通过不等于策略有效。本轮不实盘准入。
+'''
+    (run/'PROTOCOL.md').write_text(protocol)
+    inputs={str(f.relative_to(run)):digest(f) for f in run.rglob('*.parquet') if 'sources' not in f.parts}
+    m=dict(status='prepared',parent=str(parent),baseline_parent=previous['parent'],start=previous['start'],
+           continuation_start=previous['continuation_start'],end=previous['end'],cases=cases,parameters=spec,
+           primary_variant='hybrid',refit=False,fresh_holdout=False,no_result_driven_changes=True,
+           source_hashes=hashes,input_hashes=inputs,protocol_sha256=digest(run/'PROTOCOL.md'),
+           projection_source=previous['projection_source'],projection_sha256=previous['projection_sha256'],
+           execution_universe=previous['execution_universe'],reference_variants_exact=['baseline','persist10'])
+    (run/'manifest.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps(dict(run=str(run),cases=len(cases),codes=len(prices.columns),references_exact=True)))
+
+
+if __name__=='__main__':main()

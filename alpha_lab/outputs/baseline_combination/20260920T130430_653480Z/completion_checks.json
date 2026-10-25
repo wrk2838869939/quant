@@ -1,0 +1,14 @@
+{
+  "tests_passed": 44,
+  "inner_unique_candidates": 393,
+  "inner_account_executions_with_retry": 786,
+  "inner_endpoint_replays": 9,
+  "outer_endpoint_replays": 3,
+  "primary_accounts": 9,
+  "ablation_accounts": 3,
+  "prefix_checks": 36,
+  "additional_exact_account_pair_comparisons": 5,
+  "primary_audited_trade_records": 20977,
+  "ablation_audited_trade_records": 59,
+  "frozen_sources_and_inputs_unchanged": true
+}

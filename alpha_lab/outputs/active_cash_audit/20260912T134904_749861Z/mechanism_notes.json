@@ -1,0 +1,9 @@
+{
+  "baseline_next5_mean": 0.0017904037612135335,
+  "baseline_next5_negative_fraction": 0.4405010438413361,
+  "legacy_valid_median_min": -0.001976366393142591,
+  "legacy_valid_days_below_threshold": 0,
+  "fixed_half_control_valid_for_half_exposure_comparison": false,
+  "reason": "旧分席整手分配使资金减半后实际平均股票敞口从45.91%变8.38%，不是原敞口的一半",
+  "fee_decomposition": "账面恒等式，不是无费用重新交易的反事实；数量与资金路径仍会受费用影响"
+}

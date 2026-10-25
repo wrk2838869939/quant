@@ -1,0 +1,11 @@
+{
+  "economic_harm_reduced": true,
+  "central_screen_passed": true,
+  "robustness_passed": false,
+  "predictive_defense_proven": false,
+  "production_changed": false,
+  "live_approved": false,
+  "independent_oos": false,
+  "orders_or_emails_sent": false,
+  "note": "中央参数仅保留研究对照；恢复/风险状态工程留待小资金测试，不是本轮阻断。"
+}

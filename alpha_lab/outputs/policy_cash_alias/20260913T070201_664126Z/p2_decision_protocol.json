@@ -1,0 +1,21 @@
+{
+  "registered_at_utc": "2026-09-13T06:39:13.183403+00:00",
+  "before_policy_labels_and_models": true,
+  "no_change_to_cash_cases": true,
+  "entry_condition_for_additional_replay": "At Top5, patient120 must have positive paired cash-slot return difference and lower absolute common-target optimism than BOTH fixed60 and fixed120 on common complete dates in BOTH reused development windows. All comparisons retained. Passing is only a reason for reference CNY50000 research replay, not strategy admission.",
+  "minimum_coverage": "at least 80% of maturity-complete monthly review dates for paired comparisons",
+  "native_calibration": "entered only; known no-entry opportunities are cash0 in action evaluation",
+  "failure_consequence": "Do not change horizon/features/expert capacity to rescue C; publish no incremental support and retain all predictions.",
+  "if_pass_execution_matrix": {
+    "capital": 50000,
+    "policies": [
+      "low_turnover",
+      "fixed60",
+      "fixed120",
+      "patient120"
+    ],
+    "base_and_reverse": true,
+    "cases": 8
+  },
+  "scope": "Policy labels remain unit proxies; portfolio caps, lots, cash ledger cannot be encoded by a standalone stock label."
+}

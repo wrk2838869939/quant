@@ -1,0 +1,2 @@
+date,ts_code,close,numpy_mean,pandas_mean,numpy_trend,frozen_trend
+2025-10-15,605296.SH,41.65625,41.65625,41.65624999999999,False,True

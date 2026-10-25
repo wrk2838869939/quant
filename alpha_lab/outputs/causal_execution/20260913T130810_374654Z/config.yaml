@@ -1,0 +1,18 @@
+# 本轮只修执行与核验身份，不依据收益选择限价缓冲。
+parent: outputs/conditional_hold/20260913T123032_500204Z
+end: '2026-09-08'
+variants: [baseline, hybrid]
+causal:
+  buy_limit_buffer: 0.02
+  sell_limit_buffer: 0.10
+  st_sell_limit_buffer: 0.05
+  max_entry_attempts: 2
+  cancel_on_ex_date: true
+buffer_sensitivity: [0.0, 0.05]
+scenarios:
+  cold: {capital: 50000, start: '2024-01-01', cost_multiplier: 1, reverse_input: false}
+  continued: {capital: 50000, start: '2022-01-01', cost_multiplier: 1, reverse_input: false}
+  small: {capital: 20000, start: '2024-01-01', cost_multiplier: 1, reverse_input: false}
+  large: {capital: 100000, start: '2024-01-01', cost_multiplier: 1, reverse_input: false}
+  cost2: {capital: 50000, start: '2024-01-01', cost_multiplier: 2, reverse_input: false}
+  reverse: {capital: 50000, start: '2024-01-01', cost_multiplier: 1, reverse_input: true}

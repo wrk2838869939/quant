@@ -1,0 +1,2 @@
+strategy,total,ann,mdd,sharpe,n_days,capital,top_n,n_trades,total_fees,mean_invested,missing_limit_events,stale_warnings,delist_events,adjustment_metadata_events,rights_declined_events,n_rebalances,execution_data_sufficient
+dual_without_risk,-0.19587136740000022,-0.07055263959331659,-0.4841997446726948,-0.12308444510049456,727,100000.0,4,658,35989.50849999996,0.9197996799507454,0,0,0,7,0,154,True

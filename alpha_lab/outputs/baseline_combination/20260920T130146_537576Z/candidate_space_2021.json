@@ -1,0 +1,1952 @@
+[
+  {
+    "weights": [
+      0.8,
+      0.0,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.5,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.8,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.5,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.2,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.7,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.7,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.2,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.0,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": 2
+  },
+  {
+    "weights": [
+      0.0,
+      0.9,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.4,
+      0.6
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.1,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.3,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.4,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.0,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.1,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.6,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.0,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.8,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.1,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.1,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.7,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.2,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.1,
+      0.7
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.8,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.6,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.3,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.4,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.7,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.1,
+      0.6
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.5,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.4,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.4,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.7,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": 0
+  },
+  {
+    "weights": [
+      0.7,
+      0.1,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.9,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.0,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.1,
+      0.9
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.4,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.1,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.1,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.0,
+      0.8
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.4,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.1,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.1,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.4,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.5,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.6,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.7,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.5,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.6,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.7,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.0,
+      0.6
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.3,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.8,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.1,
+      0.9
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.7,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.1,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.5,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.9,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.2,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.1,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.3,
+      0.7
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.0,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.6,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.0,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.6,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.8,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.0,
+      0.9
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.7,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.4,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.0,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.6,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.2,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.0,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.6,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.9,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.8,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.2,
+      0.8
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.4,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.6,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.2,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.0,
+      0.7
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.2,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.4,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.0,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.6,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.8,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.7,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": 1
+  },
+  {
+    "weights": [
+      0.0,
+      0.2,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.1,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.2,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.2,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.1,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.2,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.1,
+      0.9
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.5,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.0,
+      0.9
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.4,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.5,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.1,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.5,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.0,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.0,
+      0.8
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.4,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.0,
+      0.9
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.1,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.9,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.5,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.0,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.8,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.0,
+      0.5
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.3,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.2,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.9,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.9,
+      0.1,
+      0.0
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.6,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.1,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.0,
+      0.2
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.0,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.0,
+      0.6
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.0,
+      0.6,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.1,
+      0.1,
+      0.8
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.7,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.4,
+      0.5,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.0,
+      0.4
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.0,
+      0.7
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "frequency": "monthly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.6,
+      0.1,
+      0.3
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.8,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.2,
+      0.7,
+      0.1
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.5,
+      0.1,
+      0.4
+    ],
+    "frequency": "monthly",
+    "top_n": 4,
+    "endpoint": null
+  },
+  {
+    "weights": [
+      0.7,
+      0.3,
+      0.0
+    ],
+    "frequency": "weekly",
+    "top_n": 3,
+    "endpoint": null
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "cold": {
+    "yearly_incremental_pnl": [
+      {
+        "year": 2024,
+        "incremental_pnl": -469.5069999999978,
+        "cumulative_equity_difference": -469.5069999999978
+      },
+      {
+        "year": 2025,
+        "incremental_pnl": 279.38300000000163,
+        "cumulative_equity_difference": -190.12399999999616
+      },
+      {
+        "year": 2026,
+        "incremental_pnl": 6212.671999999991,
+        "cumulative_equity_difference": 6022.547999999995
+      }
+    ],
+    "final_difference": 6022.547999999995,
+    "fraction_from_2026": 1.0315686981656262,
+    "five_bank_net_pnl": 26709.691000000003,
+    "account_net_pnl": 27768.373999999996,
+    "five_bank_fraction": 0.9618745051474749,
+    "max_drawdown_episode": {
+      "peak": "2025-11-12",
+      "trough": "2026-06-30",
+      "recovered": null
+    },
+    "trade_days": 32,
+    "buys": 20,
+    "sells": 21
+  },
+  "continued": {
+    "yearly_incremental_pnl": [
+      {
+        "year": 2022,
+        "incremental_pnl": -2957.540000000008,
+        "cumulative_equity_difference": -2957.540000000008
+      },
+      {
+        "year": 2023,
+        "incremental_pnl": 1960.145000000004,
+        "cumulative_equity_difference": -997.3950000000041
+      },
+      {
+        "year": 2024,
+        "incremental_pnl": -4067.19200000001,
+        "cumulative_equity_difference": -5064.587000000014
+      },
+      {
+        "year": 2025,
+        "incremental_pnl": -1386.9279999999708,
+        "cumulative_equity_difference": -6451.514999999985
+      },
+      {
+        "year": 2026,
+        "incremental_pnl": 11134.402999999991,
+        "cumulative_equity_difference": 4682.888000000006
+      }
+    ],
+    "final_difference": 4682.888000000006,
+    "fraction_from_2026": 2.377678688877457,
+    "five_bank_net_pnl": 27993.183,
+    "account_net_pnl": 73711.356,
+    "five_bank_fraction": 0.37976757611133893,
+    "max_drawdown_episode": {
+      "peak": "2023-06-19",
+      "trough": "2023-11-06",
+      "recovered": "2024-02-19"
+    },
+    "trade_days": 51,
+    "buys": 30,
+    "sells": 37,
+    "old_2022_2023": {
+      "baseline": {
+        "total": 0.6422357599999997,
+        "ann": 0.2841270124269668,
+        "mdd": -0.12838145494305353,
+        "sharpe": 1.4007957961062867,
+        "n_days": 484
+      },
+      "hybrid": {
+        "total": 0.6222878599999997,
+        "ann": 0.27623971825814864,
+        "mdd": -0.15970518441942672,
+        "sharpe": 1.283476120702669,
+        "n_days": 484
+      }
+    }
+  }
+}

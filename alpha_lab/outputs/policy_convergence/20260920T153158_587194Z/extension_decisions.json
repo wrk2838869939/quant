@@ -1,0 +1,662 @@
+[
+  {
+    "year": 2021,
+    "host": "B01_low_turnover",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.01609460911711591,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0004468872416005798,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.005557211517447702,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0020538745898642796,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0031422632666475714,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2021,
+    "host": "B02_low_risk",
+    "assessments": {
+      "baseline": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0018842202688419407,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 1.936626599086111e-05,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 64
+  },
+  {
+    "year": 2021,
+    "host": "B03_valuation",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.04829305397823891,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.002106726688806182,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.018979644606999857,
+            "flat": false
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.009930737208347584,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.011769593512970022,
+            "flat": false
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2021,
+    "host": "equal_weight",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.04909929793592793,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.011406450364150666,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0034542446707537255,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0012740623865088452,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2022,
+    "host": "B01_low_turnover",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.015884534744314616,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.003992508932802008,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2022,
+    "host": "B02_low_risk",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.1396926385006605,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.3586277920430532,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0006878066671340832,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.005510038862198474,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 2.3847475095761794e-05,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.001083504100273247,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2022,
+    "host": "B03_valuation",
+    "assessments": {
+      "baseline": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.002448886233036518,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 3.249372023095276e-05,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.00515564715998007,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2022,
+    "host": "equal_weight",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.006862814394170025,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.014352105181081765,
+            "flat": false
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2023,
+    "host": "B01_low_turnover",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0023229515351088637,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.008827643927643125,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.000668402770405141,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.01726048021171689,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.10559684970946237,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.005972362023550781,
+            "flat": false
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2023,
+    "host": "B02_low_risk",
+    "assessments": {
+      "baseline": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0022809435868007544,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.018898879190382134,
+            "flat": false
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2023,
+    "host": "B03_valuation",
+    "assessments": {
+      "baseline": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.012811827688503197,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.000729348815627695,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.004277962449867445,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.025154401474176913,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  },
+  {
+    "year": 2023,
+    "host": "equal_weight",
+    "assessments": {
+      "baseline": {
+        "plateau": true,
+        "reason": "three_flat_training_blocks",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      },
+      "random": {
+        "plateau": false,
+        "reason": "training_still_active_or_infeasible",
+        "windows": [
+          {
+            "start": 40,
+            "end": 48,
+            "log_wealth_gain": 0.013072538030377556,
+            "flat": false
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "log_wealth_gain": 0.031500954892271116,
+            "flat": false
+          },
+          {
+            "start": 56,
+            "end": 64,
+            "log_wealth_gain": 0.0,
+            "flat": true
+          }
+        ]
+      }
+    },
+    "target": 256
+  }
+]

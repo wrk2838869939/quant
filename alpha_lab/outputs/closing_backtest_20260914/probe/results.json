@@ -1,0 +1,58 @@
+[
+  {
+    "name": "stock30",
+    "api": "stk_mins",
+    "params": {
+      "ts_code": "600000.SH",
+      "freq": "30min",
+      "start_date": "2026-01-05 09:00:00",
+      "end_date": "2026-09-08 15:00:00"
+    },
+    "rows": 1494,
+    "columns": [
+      "ts_code",
+      "trade_time",
+      "open",
+      "close",
+      "high",
+      "low",
+      "vol",
+      "amount"
+    ],
+    "seconds": 1.4168978305533528,
+    "first": "2026-01-05 09:30:00",
+    "last": "2026-09-08 15:00:00"
+  },
+  {
+    "name": "all30",
+    "api": "stk_mins",
+    "params": {
+      "freq": "30min",
+      "start_date": "2026-08-17 14:30:00",
+      "end_date": "2026-08-17 14:30:00"
+    },
+    "error_type": "Exception",
+    "seconds": 0.3518584817647934
+  },
+  {
+    "name": "index30",
+    "api": "idx_mins",
+    "params": {
+      "ts_code": "000300.SH",
+      "freq": "30min",
+      "start_date": "2026-01-05 09:00:00",
+      "end_date": "2026-09-08 15:00:00"
+    },
+    "error_type": "Exception",
+    "seconds": 0.8146673338487744
+  },
+  {
+    "name": "auction",
+    "api": "stk_auction_c",
+    "params": {
+      "trade_date": "20260817"
+    },
+    "error_type": "Exception",
+    "seconds": 0.33814356569200754
+  }
+]

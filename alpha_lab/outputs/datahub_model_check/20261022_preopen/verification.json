@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "protected_files_unchanged": true,
+  "artifact_hashes_verified": true,
+  "no_annual_gate": true,
+  "no_legacy_random_gate": true,
+  "model_asof": "2026-10-21",
+  "model_summary": {
+    "strategy_id": "sector_stock_2026_gate_paused_v1",
+    "effective_from": "2026-10-21",
+    "asof": "2026-10-21",
+    "record_origin": "current_policy_scan",
+    "annual_sector_gate_enabled": false,
+    "annual_diagnostic_status": "not_needed_no_events",
+    "shape_confirmed_today": 1,
+    "new_first_confirmations": 0,
+    "annual_model_pass_reference": 0,
+    "sectors_entering_stock_filter": 0,
+    "stocks_scored": 0,
+    "stock_candidates": 0,
+    "earliest_entry_date": "2026-10-22",
+    "execution_certified": false,
+    "auto_orders": false,
+    "legacy_random_scores_used": false
+  }
+}

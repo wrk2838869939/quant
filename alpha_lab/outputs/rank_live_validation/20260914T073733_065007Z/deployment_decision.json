@@ -1,0 +1,19 @@
+{
+  "candidate": "rank10_confirm2",
+  "promoted": false,
+  "reason": "收益一致性与防守筛查未通过，未取得新增样本外或真实成交证据",
+  "production_changed": false,
+  "real_account_initialized": false,
+  "email_sent": false,
+  "priorities": [
+    "组合共同风险与低频主动空仓/重入",
+    "人工漏单后的有限期重算验证",
+    "个人红利税对资金路径的反馈"
+  ],
+  "research_screens": {
+    "neighborhood": true,
+    "annual_consistency": false,
+    "defense": false,
+    "cost": true
+  }
+}

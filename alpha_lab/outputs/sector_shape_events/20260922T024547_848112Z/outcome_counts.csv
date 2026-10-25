@@ -1,0 +1,7 @@
+trigger,horizon,observations,complete,positive,negative,flat,censored,median_close_return
+first_candidate,5,69,68,55,13,0,1,0.027245119315257527
+first_candidate,10,69,68,37,31,0,1,0.0028362774553432057
+first_candidate,20,69,67,32,35,0,2,-0.005252235379756498
+first_pullback,5,165,163,101,62,0,2,0.012301709140026373
+first_pullback,10,165,159,73,86,0,6,-0.004091709484876693
+first_pullback,20,165,154,73,81,0,11,-0.0017915508167151706

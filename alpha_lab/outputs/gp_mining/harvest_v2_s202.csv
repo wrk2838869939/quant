@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"sqrt(ts_delta(vol,5))",-0.0945,-0.82,-0.0784,1.2,0.469,True,50

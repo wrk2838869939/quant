@@ -1,0 +1,37 @@
+{
+  "account_id": "historical_fixture",
+  "asof": "2026-09-01",
+  "source": "frozen_backtest_fixture_not_broker",
+  "cash": 28390.901999999987,
+  "equity": 81844.90199999999,
+  "receivables": 0.0,
+  "frozen_cash": 0.0,
+  "open_orders": [],
+  "positions": {
+    "600236.SH": {
+      "shares": 700,
+      "sellable_next_day": 700,
+      "close": 9.88
+    },
+    "600350.SH": {
+      "shares": 700,
+      "sellable_next_day": 700,
+      "close": 10.25
+    },
+    "601988.SH": {
+      "shares": 2500,
+      "sellable_next_day": 2500,
+      "close": 6.67
+    },
+    "000301.SZ": {
+      "shares": 700,
+      "sellable_next_day": 700,
+      "close": 14.45
+    },
+    "601857.SH": {
+      "shares": 1100,
+      "sellable_next_day": 1100,
+      "close": 11.43
+    }
+  }
+}

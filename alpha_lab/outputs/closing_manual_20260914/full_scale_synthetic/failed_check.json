@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "check": "naive_total_shares_times_price_matches_provider_market_cap",
+  "identified_code": "688235.SH",
+  "relative_difference": 0.049688582588954464,
+  "resolution": "preserve_provider_market_cap_and_reprice_using_quote_ratio",
+  "superseded_by": "../full_scale_synthetic_v2/verification.json",
+  "synthetic_only": true
+}

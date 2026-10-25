@@ -1,0 +1,2 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"ts_delta(amt,60)",-0.061,-0.55,-0.037,1.65,0.355,True,53

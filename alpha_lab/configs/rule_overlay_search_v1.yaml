@@ -1,0 +1,72 @@
+schema_version: 1
+study: first_rule_overlays_v1
+base_run: alpha_lab/outputs/rule_strategy_search/20260920T101619_734224Z
+inner:
+- '2019-01-01'
+- '2020-12-31'
+outer:
+- '2021-01-01'
+- '2023-12-31'
+selection: single_lock_before_2021_no_outer_feedback
+capital: 100000
+max_drawdown: 0.3
+hosts:
+  momentum:
+    family: momentum
+    window: 20
+  low_turnover:
+    family: S01
+    variant: low_mean_turnover
+    window: 20
+frequencies:
+- daily
+- weekly
+- monthly
+top_n: 5
+modules:
+  O01:
+    count_required:
+    - 2
+    - 3
+    - 4
+    amount_ratio_max:
+    - 1.0
+    - 1.25
+    - 1.5
+    - 2.0
+    vol_window:
+    - 5
+    - 10
+    - 20
+    history_window: 126
+    reference_quantile: 0.5
+    amount_window: 20
+    conditions:
+    - upper_shadow_below_prior_median
+    - amount_ratio_below_threshold
+    - overnight_above_prior_median
+    - volatility_below_prior_median
+    missing_condition_policy: all_four_must_be_available
+  O02:
+    smooth_window:
+    - 1
+    - 5
+    - 10
+    - 20
+    - 40
+    band_mult:
+    - 1.0
+    - 1.5
+    - 2.0
+    rank_missing_history: zero
+    current_eligibility_required: true
+  O12:
+    cash_fraction:
+    - 0.0
+    - 0.25
+    - 0.5
+    reserve_policy: fixed_initial_cash_reserve_no_interest_full_account_ledger
+search: exhaustive_complete_joint_grid_per_host_module
+tie_band: 0.005
+paired_control: same_host_same_chosen_frequency_without_overlay
+note: 与核心逐年滚动选参分开报告；本补充一次锁参后跑完整三年，所有参数在本补充首笔回测前固定

@@ -1,0 +1,32 @@
+# 用户确认的选股研究账户；与冻结数据独立，不覆盖历史实验或实盘配置。
+schema_version: 1
+profile_id: selection_account_v1
+
+dataset:
+  # 路径相对于项目根目录 /root/autodl-tmp。
+  release: datahub/releases/selection_v1_20260920
+  snapshot_id: selection_v1_20260920
+  content_id: c606bfaf584df2d7ac5f07fc79fa66c04d480baab8720b95578a4ef50f5d8af3
+
+account:
+  currency: CNY
+  capital: 100000.0
+
+risk:
+  # 正数幅度；从含初始资金的历史净资产峰值计算，含现金与持仓市值及交易费用。
+  max_drawdown: 0.30
+  drawdown_basis: net_equity_peak_to_trough
+  include_initial_capital_in_peak: true
+  # 属于结果验收上限，不是单股止损，也不是保证成交的账户强平线。
+  limit_usage: backtest_acceptance
+
+research:
+  frequency_range: daily_to_monthly
+
+integration:
+  # 经典策略工程入口已读取资金和回撤验收值；其他旧入口不会自动采用。
+  status: classic_smoke_verified
+  entrypoint: scripts/run_classic_strategy_smoke.py
+  prepared_inputs: data/selection_execution_smoke_v1
+  validated_scope: engineering_93_stocks_2019_2023
+  # 带全期质量隔离偏差，不能当作全市场策略有效性认证。

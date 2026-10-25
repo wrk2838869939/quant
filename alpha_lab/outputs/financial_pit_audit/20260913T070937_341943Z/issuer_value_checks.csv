@@ -1,0 +1,14 @@
+ts_code,ann_date,end_date,field,cache,issuer,atol,match,source,page_one_based,comparison_kind
+601018.SH,20190330,20181231,q_ocf_to_sales,41.4797,41.479713131791115,5.1e-05,True,ningbo2018,3,quarterly_cfo_div_revenue_times100
+601018.SH,20200411,20191231,q_ocf_to_sales,9.2036,9.203597795073778,5.1e-05,True,ningbo2019,7,quarterly_cfo_div_revenue_times100
+601018.SH,20190330,20181231,eps,0.22,0.22,5e-05,True,ningbo2018,3,direct
+601018.SH,20190330,20181231,profit_dedt,2559051000.0,2559051000.0,0.5,True,ningbo2018,3,thousand_yuan_to_yuan
+601018.SH,20190330,20181231,roe_waa,7.75,7.75,5e-05,True,ningbo2018,3,direct
+601018.SH,20200411,20191231,eps,0.26,0.26,5e-05,True,ningbo2019,6,direct
+601018.SH,20200411,20191231,profit_dedt,2749971000.0,2749971000.0,0.5,True,ningbo2019,6,thousand_yuan_to_yuan
+601018.SH,20200411,20191231,ocfps,0.02,0.02,5e-05,True,ningbo2019,6,direct
+601018.SH,20200411,20191231,roe_waa,8.68,8.68,5e-05,True,ningbo2019,6,direct
+601006.SH,20200429,20191231,eps,0.92,0.92,5e-05,True,daqin2019,5,direct
+601006.SH,20200429,20191231,profit_dedt,13739687369.0,13739687369.0,0.5,True,daqin2019,5,direct
+601006.SH,20200429,20191231,roe_waa,12.55,12.55,5e-05,True,daqin2019,6,direct
+601006.SH,20200429,20191231,ocfps,1.0105,1.010476001300905,5.1e-05,True,daqin2019,5,operating_cashflow_div_year_end_shares_p2

@@ -1,0 +1,14 @@
+{
+  "prefix": [
+    {
+      "cutoff": "2022-06-30",
+      "feature_and_account_prefix": true
+    },
+    {
+      "cutoff": "2023-06-30",
+      "feature_and_account_prefix": true
+    }
+  ],
+  "original_engine_exact_four_tables": true,
+  "locked_choices_sha256": "ae9aeb45ce30954131ecbb317800798b0e5c72523529e4400258371d5d8a99df"
+}

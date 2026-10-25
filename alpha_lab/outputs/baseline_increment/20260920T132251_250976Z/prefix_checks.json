@@ -1,0 +1,422 @@
+[
+  {
+    "host": "B01_low_turnover",
+    "method": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_stable",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_stable",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "residual_stable",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_with_fallback",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_with_fallback",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B01_low_turnover",
+    "method": "direct_with_fallback",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_stable",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_stable",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "residual_stable",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_with_fallback",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_with_fallback",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B02_low_risk",
+    "method": "direct_with_fallback",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_stable",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_stable",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "residual_stable",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_with_fallback",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_with_fallback",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "B03_valuation",
+    "method": "direct_with_fallback",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "baseline",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "baseline",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "baseline",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_stable",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_stable",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "residual_stable",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_best",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_best",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_best",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_with_fallback",
+    "cutoff": "2021-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_with_fallback",
+    "cutoff": "2022-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  },
+  {
+    "host": "equal_weight",
+    "method": "direct_with_fallback",
+    "cutoff": "2023-06-30",
+    "raw_signals": true,
+    "account_tables": true
+  }
+]

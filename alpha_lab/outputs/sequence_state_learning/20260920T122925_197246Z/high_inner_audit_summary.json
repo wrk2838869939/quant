@@ -1,0 +1,9 @@
+{
+  "flagged_accounts": 135,
+  "primary": 81,
+  "paired": 54,
+  "trades_checked": 53072,
+  "cash_max_error": 3.4924596548080444e-10,
+  "all_pass": true,
+  "known_full_window_quality_selection_bias_remains": true
+}

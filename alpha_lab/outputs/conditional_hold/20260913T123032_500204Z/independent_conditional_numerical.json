@@ -1,0 +1,12 @@
+{
+  "boundaries": [],
+  "changed_hold_cells": {
+    "baseline": 0,
+    "persist10": 0,
+    "accelerated": 0,
+    "patient": 0,
+    "hybrid": 0
+  },
+  "parent_daily_boundary_sensitivity": "/root/autodl-tmp/alpha_lab/outputs/hold_sensitivity/20260913T120108_236041Z/matrix_numerical_sensitivity.json",
+  "note": "此处只审计月度长期状态的numpy/pandas边界；每日原趋势沿用已核验冻结母集"
+}

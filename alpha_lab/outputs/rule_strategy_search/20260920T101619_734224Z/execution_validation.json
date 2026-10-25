@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-09-20T11:00:05.074882+00:00",
+  "formal_core_trials": 11280,
+  "formal_overlay_trials": 324,
+  "formal_trials_total": 11604,
+  "cumulative_trials_including_engineering_pilots": 11756,
+  "complete_artifact_sets": 11604,
+  "independent_ledger_audits": 62,
+  "trades_independently_checked": 58740,
+  "max_money_error": 3.41970007866621e-10,
+  "continuous_account_prefix_checks": 32,
+  "real_signal_prefix_checks": 16,
+  "source_hashes_match": true,
+  "unit_tests_previously_passed": 34,
+  "unit_test_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m pytest alpha_lab/tests/test_rule_search.py alpha_lab/tests/test_classic_smoke.py alpha_lab/tests/test_portfolio.py -q --tb=short",
+  "baseline_parity_proof": "alpha_lab/outputs/classic_strategy_smoke/20260920T101316_167206Z/rule_search_engine_parity.json",
+  "note": "固定基准、外层评价及核验重放不计入内层选参次数；单元测试记录为正式运行前已完成的检查，未重复执行。"
+}

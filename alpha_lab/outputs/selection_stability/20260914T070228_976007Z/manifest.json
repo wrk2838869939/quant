@@ -1,0 +1,93 @@
+{
+  "config": {
+    "parent": "outputs/rolling_review/20260913T141120_325588Z",
+    "risk_parent": "outputs/risk_budget/20260913T160301_084080Z",
+    "startup_parent": "outputs/startup_timing/20260914T064444_558372Z",
+    "feature_projection": "outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet",
+    "output_root": "outputs/selection_stability",
+    "capital": 80000,
+    "max_positions": 5,
+    "start": "2022-01-01",
+    "end": "2026-09-08",
+    "calendar_days": [
+      1,
+      8,
+      15,
+      22
+    ],
+    "smoothing_windows": [
+      10,
+      20,
+      40
+    ],
+    "primary_window": 20,
+    "rank_buffer": 10,
+    "rank_confirmations": 2,
+    "policies": [
+      "baseline",
+      "smooth20",
+      "rank_buffer",
+      "combined"
+    ],
+    "neighbors": [
+      "smooth10",
+      "smooth40"
+    ],
+    "workers": 3,
+    "acceptance": {
+      "startup_median_range_ratio_max": 0.8,
+      "median_annual_return_loss_max": 0.02,
+      "median_mdd_worsening_max": 0.01,
+      "median_trade_increase_fraction_max": 0.25
+    }
+  },
+  "source_sha256": {
+    "scripts/build_selection_stability.py": "41ae017c0a79e47aad1c39e75918fef09fc7b010dec858e7c93e02a7a4c6c3a0",
+    "src/selection_stability.py": "e38e30151823ced349a2c8c96054f6b8368d4fc7a4f8284dedb784e7da0991bf",
+    "src/trend_entry.py": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+    "src/patient_trend.py": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+    "src/lifecycle_risk.py": "596491b9590b66b50e8d44c95e7096f593accebde8e1996e669eb8ac8a3fc8f6",
+    "src/risk_budget_portfolio.py": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "src/startup_timing.py": "4cc9a140717d7e9147d30543519bb1a150d3e4affb7cc62d740b697cbe384631",
+    "tests/test_selection_stability.py": "f76a76602412ecb5cc77a031f1384348a41314a5b3df26e7bc40ee21ce4c4690"
+  },
+  "input_sha256": {
+    "/root/autodl-tmp/alpha_lab/outputs/recent_low_turnover/20260913T090336_282870Z/data_repair/repaired_feature_projection.parquet": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/inputs/st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "/root/autodl-tmp/alpha_lab/outputs/risk_budget/20260913T160301_084080Z/risk/verification.json": "488b20baae7c195cb445035f6cfb69be263b72a4bdbac4f7393b9404f8feb07e",
+    "/root/autodl-tmp/alpha_lab/outputs/risk_budget/20260913T160301_084080Z/risk/annual_reference.csv": "38f217779ad64c259449e47ddf157f185a8ab987e41e548969415531363543e3",
+    "/root/autodl-tmp/alpha_lab/outputs/risk_budget/20260913T160301_084080Z/risk/discounts.parquet": "6257047d186a5e09cb5da19e9b36e7c742ef052c0a04ca429d618f2474473202",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_01/hold.parquet": "dd55b78503a4c5b46b034f095dc081c669c07dd6dc5c23d9fd46158dd88e1048",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/signals.parquet": "d5f37685ea1727b3eb0c9ded94cd58818a52dda2930d15d272af4b1b38dc7c99",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/forecasts.parquet": "ec647cd9e4a689ac1fc3f4fac71284c6ad34198465e094d3a140836aaf8cd04c",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_08/hold.parquet": "bd35f122888ad609403c544f7421873d8d32e537776d525455535f9ac5839435",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/signals.parquet": "2e476dcccfe1ac54df9297dc7b6620c3e188d43abbe622123784db827d1ba460",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/forecasts.parquet": "52fecc53294caab9d5c3cadced06f7f242976879f0ad61d7fbb494cd059be001",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_15/hold.parquet": "3953c3de7d769c54eb2c42f1b70269b4da77e7e56af96402dea4152419760018",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/signals.parquet": "d7fe991c7cecae212d8fade5669c066e888f692393cabb2ef1802cb25ba18618",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/forecasts.parquet": "e6811ed27a01ac8ceda13bb6d049dc95cf268f936875cafe056431f9008aee96",
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z/schedules/calendar_22/hold.parquet": "b61a85e5256c390a728972be57369dfeb10336b457e42b3ff1a9bf2f97632e9c"
+  },
+  "parent_verification": {
+    "/root/autodl-tmp/alpha_lab/outputs/rolling_review/20260913T141120_325588Z": {
+      "receipt_sha256": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac",
+      "artifacts": 473
+    },
+    "/root/autodl-tmp/alpha_lab/outputs/risk_budget/20260913T160301_084080Z": {
+      "receipt_sha256": "da729beb85f13f4ca1d343a7bdc239f7cea9b3ef08c3635f7fdb4fa3edd12d95",
+      "artifacts": 906
+    },
+    "/root/autodl-tmp/alpha_lab/outputs/startup_timing/20260914T064444_558372Z": {
+      "receipt_sha256": "429a094ecb1cae7c96fe284a08bf58a2e343d556cd20d408890c654353aacee6",
+      "artifacts": 1100
+    }
+  },
+  "protocol_sha256": "24ef8a3df5dffdcbe41d92a77c63d6473d0fbce4fb4063430e689a1665f70a0a",
+  "config_sha256": "1fc4b73d21e0810c1ea3e9311e46898d242e333f1c18f0b6ccba079fc93e62b5",
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

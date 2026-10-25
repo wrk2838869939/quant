@@ -1,0 +1,8 @@
+# 操作模式；策略参数仍使用shadow_execution.yaml。
+mode: email_briefing_manual_execution
+prepare_after: '21:00:00'
+execution_start: '09:15:00'
+execution_end: '09:25:00'
+corporate_actions: per_security_manual_review
+require_actual_fill: true
+email_subject_prefix: '[alpha_lab 手动执行]'

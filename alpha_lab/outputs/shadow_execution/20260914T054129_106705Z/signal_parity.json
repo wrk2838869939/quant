@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-01",
+  "ranking_exact": true,
+  "holds_exact": true,
+  "risk_tolerance": 1e-12,
+  "universe": 5814,
+  "source_panel_sha256": "62f83572401d212cc76970354036754e337db434bba7bfe3c3ee503d3bd98fc9"
+}

@@ -1,0 +1,55 @@
+{
+  "status": "evaluated",
+  "protocol_sha256": "47bd104837f05f2b5a846885ca09495123b9abd3898b85213d9375b8c6068338",
+  "checks": 4,
+  "passed": false,
+  "strategy_admission": "NOT_ADMITTED",
+  "action": "stop_no_incremental_support",
+  "extra_replay_not_run_reason": "registered_target_improvement_gate_failed",
+  "rows": [
+    {
+      "stage": "development",
+      "baseline": "fixed60",
+      "paired_dates": 31,
+      "mature_dates": 31,
+      "coverage": 1.0,
+      "patient_minus_baseline_cash_slot_return": 0.0036101903210631926,
+      "patient_absolute_mean_optimism": 0.10537443640696702,
+      "baseline_absolute_mean_optimism": 0.06492640301924017,
+      "passed": false
+    },
+    {
+      "stage": "development",
+      "baseline": "fixed120",
+      "paired_dates": 31,
+      "mature_dates": 31,
+      "coverage": 1.0,
+      "patient_minus_baseline_cash_slot_return": -0.05724259751177683,
+      "patient_absolute_mean_optimism": 0.10537443640696702,
+      "baseline_absolute_mean_optimism": 0.08517783371511861,
+      "passed": false
+    },
+    {
+      "stage": "execution",
+      "baseline": "fixed60",
+      "paired_dates": 19,
+      "mature_dates": 19,
+      "coverage": 1.0,
+      "patient_minus_baseline_cash_slot_return": 0.044565389913910666,
+      "patient_absolute_mean_optimism": 0.07996454287871133,
+      "baseline_absolute_mean_optimism": 0.09179800431502311,
+      "passed": true
+    },
+    {
+      "stage": "execution",
+      "baseline": "fixed120",
+      "paired_dates": 19,
+      "mature_dates": 19,
+      "coverage": 1.0,
+      "patient_minus_baseline_cash_slot_return": 0.017437049459009875,
+      "patient_absolute_mean_optimism": 0.07996454287871133,
+      "baseline_absolute_mean_optimism": 0.12256205081478139,
+      "passed": true
+    }
+  ]
+}

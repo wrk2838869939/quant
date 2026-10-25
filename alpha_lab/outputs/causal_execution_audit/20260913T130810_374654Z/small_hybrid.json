@@ -1,0 +1,19 @@
+{
+  "name": "small_hybrid",
+  "status": "passed",
+  "planned_orders": 42,
+  "filled_orders": 42,
+  "intraday_limit_fills": 0,
+  "supplementary_attempts": 17,
+  "bonus_events": 0,
+  "actual_days": 651,
+  "max_order_cash_difference": 0.0,
+  "missing_announcement_paths": 0,
+  "same_day_announcement_ambiguity_paths": 0,
+  "hashes": {
+    "daily.csv": "e1c75ef30e080bb69204fd58aada134ff6435cdcc09cca9e33fc1382281b2e04",
+    "trades.csv": "c6403aa5557ec1f5a22200f2d21da658df219da75f1a868bf26b5fdc9d7a5e1c",
+    "events.csv": "9d03c6aa6347f97212bb4dd8b1e0848a4a910f3bc24810664056fb80be84cd78",
+    "holdings.csv": "aa0a1e14781861ae9e9b48a5b5680e0b355c4331a8fdf46ac6a6b58e56127c43"
+  }
+}

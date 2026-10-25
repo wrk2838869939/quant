@@ -1,0 +1,9 @@
+stage,stock_days,days,stocks
+eligible,67145,727,93
+old_candidates,29,24,17
+stock_trend_and_cycle,5583,693,90
+sector_trend_and_cycle,1701,319,69
+both_trend_and_cycle,1015,262,58
+old_plus_stock,1,1,1
+old_plus_sector,0,0,0
+old_plus_both,0,0,0

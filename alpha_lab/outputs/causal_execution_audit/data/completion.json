@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "case_count": 20,
+  "total_fills": 994,
+  "total_holding_rows": 79019,
+  "total_dividend_events": 545,
+  "account_days": 15924,
+  "hashes": {
+    "verify_causal_data.py": "c72ac1c7a6393cfeefcc829b614ed0fa94d881605a846f9c4ce3f476d53358a1",
+    "verify_known_dates.py": "fa04f492292c4f8bf6902921d4b18f0be81e99dd6df57f78e527f9bb507baa1a",
+    "causal_data_verification.json": "3966a07aeb93bf1d3223b04cd3fc7bbf92d5845cafe26f54198dd82259dab52e",
+    "known_date_checks.json": "4f7969b32fa3ebbf28b8bfde4edf791260ba35f78baab5a077dcd84f967484d7",
+    "actual_fill_source_checks.csv": "577ff060680fe3cdd2429caa74150308999f00583a9bf50fab0690d7cf24f60b",
+    "holding_mark_checks.csv": "08c6ab6951bd6fe1ed95f6dd169af38b43b69923d3995d7a380c9205bc437d26",
+    "dividend_source_checks.csv": "35e617b1545815d0d3590ad0878d6e67be3b774a323f14b0e76726634f46fca0",
+    "verification.log": "697d316a9ca52f091c0cf76e7f74469a0f6b53441d6555daa68cff3e32688da8",
+    "IDENTITY_SUMMARY.md": "89b841a097b1b51da1a1b71ee71af2c30581d2ee190493c03feb5d9e0e8916f7",
+    "REPORT.md": "eb7f98dd685f9751550aaa53d03a89da8cfad6f60135b566460aa136bfa9c595"
+  }
+}

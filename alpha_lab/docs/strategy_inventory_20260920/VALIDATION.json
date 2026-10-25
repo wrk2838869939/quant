@@ -1,0 +1,396 @@
+{
+  "inventory_id": "historical_strategy_candidates_20260920",
+  "counts": {
+    "investigator_items": 66,
+    "candidates": 58,
+    "controls": 5,
+    "undeveloped_proposals": 6
+  },
+  "role_counts": {
+    "selector": 27,
+    "model": 10,
+    "overlay": 14,
+    "extension": 7
+  },
+  "batch_counts": {
+    "P1": 19,
+    "P2": 31,
+    "P3": 8
+  },
+  "unique_ids": true,
+  "all_investigator_items_mapped": true,
+  "source_reference_count": 163,
+  "source_file_count": 92,
+  "source_reference_errors": [],
+  "new_backtests_run": false,
+  "source_manifest": {
+    "FACTOR_MINING_SURVEY_20260908.md": {
+      "sha256": "c80a438e6ef1733233381ce172f03a102b73a2088c614980422b36c2af06e71a",
+      "bytes": 22265
+    },
+    "a_share_v18/configs/sector_rotation.yaml": {
+      "sha256": "9387b240e9a6c0b39dafd5b1f48b7ec5fea57f3f1d37585a29f9ffcc3b7e3fa7",
+      "bytes": 3883
+    },
+    "a_share_v18/src/rotation/sector_backtest.py": {
+      "sha256": "4b960a3d796907f19f2b10f48cd6cc00b5bffc83203bcf5de724d93187022903",
+      "bytes": 80512
+    },
+    "a_share_v18/src/rotation/sector_scorer.py": {
+      "sha256": "a161a3a32d96f09bb13314e97dffe85d1f2867370e5b7e673471c816ca9c1ad8",
+      "bytes": 13053
+    },
+    "alpha_lab/configs/active_cash_audit.yaml": {
+      "sha256": "7a38f8e76ca326f918e603a58871184928ce0bb7974036890c0df27334650e59",
+      "bytes": 812
+    },
+    "alpha_lab/configs/autonomous_value_research.yaml": {
+      "sha256": "a64ea8f5419b1569f00ead5a65093111b92af71070528ab102f6a1ee5f1c3d11",
+      "bytes": 1211
+    },
+    "alpha_lab/configs/cash_reserve_check.yaml": {
+      "sha256": "0c8533669827ab592a934784d997d7db7c6352aab13711cf486a1e834a630b9b",
+      "bytes": 209
+    },
+    "alpha_lab/configs/conditional_hold_research.yaml": {
+      "sha256": "893d254cf112c14df4996d932a7c1c2a928a1b3b6dd4808ce76001d839ee3bca",
+      "bytes": 508
+    },
+    "alpha_lab/configs/divide_selection.yaml": {
+      "sha256": "1154ba6b7493b3d9813000aa6b0e4fddba41054397da1e22ed0f806f1bf4a71d",
+      "bytes": 1155
+    },
+    "alpha_lab/configs/hold_sensitivity_research.yaml": {
+      "sha256": "3f6fd7008d39864c702794cc3b64958caa3dabc7593f967e974a966d8d3525dd",
+      "bytes": 567
+    },
+    "alpha_lab/configs/monthly_predicted_risk_candidate.yaml": {
+      "sha256": "009b3d9e10b6c92a12bc1cde3db12dea4cf12820e5e71873b5ee6a801ca7c53d",
+      "bytes": 994
+    },
+    "alpha_lab/configs/patient_trend_research.yaml": {
+      "sha256": "c20068664474a44c6b9f38c92fceff7fd984522abad411c24b02987a6ec7178d",
+      "bytes": 949
+    },
+    "alpha_lab/configs/policy_cash_research.yaml": {
+      "sha256": "3c25c298d60431f6845b01b3126022484d7d13bd90a93711fd75306fb7fc4b0f",
+      "bytes": 1976
+    },
+    "alpha_lab/configs/portfolio_improvement.yaml": {
+      "sha256": "aede4ebc4839fe6fc31d9eab16c3cde62f6e31e1317549a99e81a3fd0af85166",
+      "bytes": 784
+    },
+    "alpha_lab/configs/profit_defense_research.yaml": {
+      "sha256": "d32768005f5df804f8fc18f05f4ad56f1b43e390e052de5d80064d1172e30952",
+      "bytes": 1070
+    },
+    "alpha_lab/configs/revalidate_candidates.yaml": {
+      "sha256": "aa2a95189ea45c7dfdf258b1867c3f5be3a317f015fbaabc03dfa733b841ff10",
+      "bytes": 1262
+    },
+    "alpha_lab/configs/risk_budget_research.yaml": {
+      "sha256": "af4577d940b84c4292e58a69b486c06ab710c61f038d9fffcfcfaad3b6f007e3",
+      "bytes": 733
+    },
+    "alpha_lab/configs/risk_recovery_research.yaml": {
+      "sha256": "a82b4a19201f75c5d8fe9102f30ff73be4612802109781d7a5aa109e52913d8c",
+      "bytes": 591
+    },
+    "alpha_lab/configs/rolling_review_research.yaml": {
+      "sha256": "1e60af83563fb9e057b99e3c5c56e571d0534119a0e8e90328072651e0cd5f83",
+      "bytes": 919
+    },
+    "alpha_lab/configs/selection_stability_research.yaml": {
+      "sha256": "1fc4b73d21e0810c1ea3e9311e46898d242e333f1c18f0b6ccba079fc93e62b5",
+      "bytes": 852
+    },
+    "alpha_lab/docs/CASH_ECONOMICS_RESEARCH_20260914.md": {
+      "sha256": "02e0154fcd4f15300833816ddb1a7f36709787e68b3d9bd7ab900514383dcbf7",
+      "bytes": 10590
+    },
+    "alpha_lab/docs/FINANCIAL_EVENT_RECOVERY_20260913.md": {
+      "sha256": "c747bc20412aab13ebcdb95ea6a81589f9b8e18bc2a5b209cd9cef5271905227",
+      "bytes": 6889
+    },
+    "alpha_lab/docs/FINANCIAL_PIT_GATE_20260913.md": {
+      "sha256": "6823bef25ee22ef1c453c2e4f0467bb22506e708ecc794d7f358f71abe827951",
+      "bytes": 7210
+    },
+    "alpha_lab/docs/FORWARD_RISK_EVIDENCE_20260914.md": {
+      "sha256": "a5a18b25566947ff01243447f48d035a1fe7c7e82ed0f77c9ff808513e20f91d",
+      "bytes": 11164
+    },
+    "alpha_lab/docs/LONG_ONLY_FOLLOWUP_20260911.md": {
+      "sha256": "95b4f17f79fa155467b75712503caeb0c16666d22165833c09ae7b9196f0fbb4",
+      "bytes": 7474
+    },
+    "alpha_lab/docs/TARGETED_RESEARCH_HOLDING_20260913.md": {
+      "sha256": "0d0daf48771070ae685e2b4215e4900bbf7a2b6b2fa5303534a6597f92ef3a6d",
+      "bytes": 24210
+    },
+    "alpha_lab/docs/TARGETED_RESEARCH_SELECTION_20260913.md": {
+      "sha256": "30852e1a4395770533433254dbbddfacdbc125c8b4bfcb7588fd58a91de060dd",
+      "bytes": 21710
+    },
+    "alpha_lab/docs/TARGETED_RESTORE_VALIDATION_20260914.md": {
+      "sha256": "3b4670a3c7813dd48b19f8cd67680bba1802596ae1feb1862fa3e0e7848a2deb",
+      "bytes": 7397
+    },
+    "alpha_lab/docs/WALKFORWARD_OOS_PREREG_20260918.md": {
+      "sha256": "c9c7def53c24c08838dec7ed82f8ff695dbeb3e9f6bb93f2b92535755623200b",
+      "bytes": 4889
+    },
+    "alpha_lab/scripts/prepare_monthly_audit.py": {
+      "sha256": "2476bffba7d35f6b26b3379160f56f881093adb0de7b9b9243d8a5fea174d418",
+      "bytes": 7710
+    },
+    "alpha_lab/scripts/reproduce_feasible.py": {
+      "sha256": "1ba81619a806a42aa7e7ca2b04a44aa2765981bfc1eb01123c9404562d7cc346",
+      "bytes": 15261
+    },
+    "alpha_lab/scripts/research_risk_budget.py": {
+      "sha256": "0d099517e9a20c16903513a1db4877e01a38d5a56cae9ae48ce45e4ae6c794e6",
+      "bytes": 17960
+    },
+    "alpha_lab/scripts/run_gp_mining.py": {
+      "sha256": "edeecc6e5550f2737c33a235a8bb09134d4094abee9a2a5f75b4ecfc974676df",
+      "bytes": 8314
+    },
+    "alpha_lab/scripts/synthesis_and_test.py": {
+      "sha256": "ff4840a7f1609b13e35113f2f8a9e98d35ff8930e9008102cea986f0f284258a",
+      "bytes": 8583
+    },
+    "alpha_lab/src/conditional_hold.py": {
+      "sha256": "edb89815162d1a835845ff1b6a368a3c024b952421b0acd94faa2d36763609eb",
+      "bytes": 3745
+    },
+    "alpha_lab/src/divide_selection.py": {
+      "sha256": "0bb8d7b265d9f746a1628004be9a3d0617331c0d3b77fad92e35527d2dc2ba02",
+      "bytes": 4092
+    },
+    "alpha_lab/src/factor_blend.py": {
+      "sha256": "4e108f93e48fcb1b28ebc24204d69480f322be11660d53d5c52561b89e200ab3",
+      "bytes": 1803
+    },
+    "alpha_lab/src/lifecycle_risk.py": {
+      "sha256": "596491b9590b66b50e8d44c95e7096f593accebde8e1996e669eb8ac8a3fc8f6",
+      "bytes": 1612
+    },
+    "alpha_lab/src/patient_trend.py": {
+      "sha256": "908476740d7dd126f083a69fa2643f55b6367becc34e05eea1fa72b97dc406e0",
+      "bytes": 1514
+    },
+    "alpha_lab/src/retail_allocation.py": {
+      "sha256": "e42ee119cfed9afb2c36b6966d2d2def3f400198c809d4664ebd84b2e7fb3664",
+      "bytes": 5833
+    },
+    "alpha_lab/src/retail_rebalance.py": {
+      "sha256": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+      "bytes": 7944
+    },
+    "alpha_lab/src/risk_recovery_portfolio.py": {
+      "sha256": "a2b0e913e140bf5493e3280ebf957f0f81de9374775327e67dec4aacda4ee4e2",
+      "bytes": 45156
+    },
+    "alpha_lab/src/risk_states.py": {
+      "sha256": "f2360b755106ec8fe6998072e72d4b271979ff0740afb9893ec96b3855bec763",
+      "bytes": 3579
+    },
+    "alpha_lab/src/selection_stability.py": {
+      "sha256": "e38e30151823ced349a2c8c96054f6b8368d4fc7a4f8284dedb784e7da0991bf",
+      "bytes": 2512
+    },
+    "alpha_lab/src/trend_entry.py": {
+      "sha256": "700da0906abcce4b37c2e62c55e4bd8638c8719e8c3a263a28e9da4be5616421",
+      "bytes": 4193
+    },
+    "alpha_lab/src/value_forecast.py": {
+      "sha256": "7fc2012ab7c7f381a06e58d7b0291dc32e5c990ae7ff975feede8830feb40ffb",
+      "bytes": 12075
+    },
+    "alpha_lab_growth/configs/growth_p2b.yaml": {
+      "sha256": "18531d3c0dbe8f73a2cff9e5e22df0375d3197474ca63ec98993be17a7017d68",
+      "bytes": 2163
+    },
+    "alpha_lab_growth/docs/GROWTH_P2_SIGNALS_20260916.md": {
+      "sha256": "582c3504dc89bea5e0518c7ce59595ef58f317af65d0218502725d56ee75f19d",
+      "bytes": 12502
+    },
+    "alpha_lab_growth/docs/GROWTH_ROUTE_AD_US_20260918.md": {
+      "sha256": "7a47f29b986722ffcc6b47a15539f060d6b5a35dc0d5e687f04c4e071a8dc52f",
+      "bytes": 5836
+    },
+    "alpha_lab_growth/docs/USX_DESIGN_20260918.md": {
+      "sha256": "bae26e9de3e2366f831175eec0fe86fc4fb661de94c76006c1fd5a156bdcc2c8",
+      "bytes": 8087
+    },
+    "alpha_lab_growth/docs/USX_P0_2B_PREREG_20260918.md": {
+      "sha256": "60262bdbf4869d48b77d45d4fc6830421997330cb613fe480fcb011be934af07",
+      "bytes": 2483
+    },
+    "alpha_lab_growth/scripts/growth_fus2_sector.py": {
+      "sha256": "9e9db14a2cf1ddf4b55ea55f400cca0c5b5e413cddc98ffc5ae84027f4c2e6dd",
+      "bytes": 14202
+    },
+    "alpha_lab_growth/scripts/growth_p2b_research.py": {
+      "sha256": "1db25f093670496fba7084224e6b25dc6d4eb1a59e92a4fd71cf4584542e14a7",
+      "bytes": 13979
+    },
+    "alpha_lab_growth/scripts/growth_signal_research.py": {
+      "sha256": "6b778a6beb88c3d5337c7248e4eff77417f04b05d58b346b5a6d990bee074b31",
+      "bytes": 12319
+    },
+    "alpha_lab_growth/scripts/usx_composite.py": {
+      "sha256": "bb1792411a3cafe1e83767ea683a77e7f721eeaae70d3d4695ae30262e9a9855",
+      "bytes": 8456
+    },
+    "alpha_lab_growth/scripts/usx_p0_2_sector.py": {
+      "sha256": "23a70ceb1c1e0aa55b840dc75b1702c0ec3ff21fbb73c8c3c3df0cdbc2caefe5",
+      "bytes": 6498
+    },
+    "alpha_lab_growth/scripts/usx_p0_2b_dynamics.py": {
+      "sha256": "f8f2d57bccdf1aa8eb5b489c19cca5358336ed2cd1669c5b25c9e676eb3c88e1",
+      "bytes": 10768
+    },
+    "alpha_lab_growth/scripts/usx_p0_3_stock.py": {
+      "sha256": "5b4cd774389254a7a3ae60dba9dca9f6f7118bc6b1df02754c209bb84542cd80",
+      "bytes": 6415
+    },
+    "alpha_lab_growth/src/usx/sector_map.py": {
+      "sha256": "960c5f0c4af9fceb3c97ab076f126003d0ae707a4e8d884d1d3fd66078a6350f",
+      "bytes": 2104
+    },
+    "audit/11_differentiated_strategy.md": {
+      "sha256": "d3d07eb5458b12d8afc45d3fb7ffc5858abde8be729bbea675f4b38233815593",
+      "bytes": 4538
+    },
+    "audit/12_regime_analysis.md": {
+      "sha256": "da1e8a9d8af41f0a9dbd015a928d1682757f43da332092cb046cc69f41194895",
+      "bytes": 7237
+    },
+    "audit/13_limitup_strategy.md": {
+      "sha256": "a6125b754debf22692c19c13d4c197814627918bbe8892c81d4cd7aee0f86473",
+      "bytes": 4488
+    },
+    "audit/14_reverse_t_strategy.md": {
+      "sha256": "60981fe1eb6e13461adf743d2548e4179e495080c5bbd672ff261b94232abd09",
+      "bytes": 5558
+    },
+    "audit/15_model_tuning.md": {
+      "sha256": "1ba4c6540794677a1dd7485d216a891aacae44246eff74247e26205225a473a0",
+      "bytes": 4639
+    },
+    "audit/17_rolling_backtest.md": {
+      "sha256": "48d4e9d9b782d45ad2d744eabc8b40de7e2b3207a1d1766973968d3780039592",
+      "bytes": 2245
+    },
+    "audit/21_minute_replay.md": {
+      "sha256": "a4b9cb080cd0aed6a22391af1193135e21862ea9fad78d1c791ef134f170a4eb",
+      "bytes": 2578
+    },
+    "audit/22_honest_fixed_tpsl.md": {
+      "sha256": "ac510683b60e0b9d2ceb0230006ce8a68118a0499ac6bc78f264aeebc9e92f4f",
+      "bytes": 3821
+    },
+    "audit/24_model_stability_factors.md": {
+      "sha256": "867b979afa44244cf0c053ce68d7ef438266d204d872f8acda33b45f5ff3928f",
+      "bytes": 2274
+    },
+    "audit/26_exit_research.md": {
+      "sha256": "e260fc5032ba1a190f89675b2c88f1bb9eb094189e8b04e869fb8dbf1722c222",
+      "bytes": 2980
+    },
+    "audit/27_honest_v18.md": {
+      "sha256": "370d29bfc34135a60935297566abaa93afef25548edf73967194c9d6f5dbe64c",
+      "bytes": 9954
+    },
+    "audit/28_research_summary.md": {
+      "sha256": "b6e7a92e270c136f48309687eb752bac4b96e5f5c5fca7aa59e1574d58c2c2da",
+      "bytes": 21676
+    },
+    "audit/29_mechanism_ablation.md": {
+      "sha256": "0869cf98507ed52c9cf801592624b3cd80c038c7ad048090056371873d6558f9",
+      "bytes": 8091
+    },
+    "audit/scripts/buyback_portfolio_sim.py": {
+      "sha256": "d1c155fbfd0e4c762d3ef6e965bca6962b67903cad75f47aff2e6f187fab7764",
+      "bytes": 10901
+    },
+    "audit/scripts/dynamic_exit_test.py": {
+      "sha256": "41c6ce80da334e12e5fb2adcd90d97d73df995ecea0471953896c803e241c8d9",
+      "bytes": 10102
+    },
+    "audit/scripts/factor_momo_kf.py": {
+      "sha256": "958f0d84f5bdb4881087503f9de0f6d5e07b41261993320cca30d7073644e6ff",
+      "bytes": 6949
+    },
+    "audit/scripts/factor_momo_v3.py": {
+      "sha256": "51e1cb940179ed30b6825bd8f9703cbcaf0c52252f467892cce4d0004db21740",
+      "bytes": 6489
+    },
+    "audit/scripts/kf_denoise_test.py": {
+      "sha256": "6d8f73b41028fca903f287f06b774957d18b1559b2ccec93b0a5106d38181a7d",
+      "bytes": 5124
+    },
+    "audit/scripts/multi_label_audit.py": {
+      "sha256": "9dae0393b38bfe583ab28d285d6d062c726b2eca8a7aba259b3d42a0f5257e3a",
+      "bytes": 12565
+    },
+    "audit/scripts/multi_label_lgbm.py": {
+      "sha256": "597f7d3e1c73e8873ddda8e172dba75ae58960342a0d3de77c54df1df7b57400",
+      "bytes": 9439
+    },
+    "cb_rotator/README.md": {
+      "sha256": "ba8cf2ed457ff7fd551e07e749f1428e6c68273ff573281e28a853f9c114279d",
+      "bytes": 3072
+    },
+    "cb_rotator/scripts/backtest_dual_low.py": {
+      "sha256": "38fab7b028bdc009c1e3289fb13cda651a2e095bf6f7face06b853f2a6b2a4dd",
+      "bytes": 3681
+    },
+    "cb_rotator/scripts/build_panel.py": {
+      "sha256": "117dce1536651a3a6d6db365c01ea8e91c9d77e7a3628231f2200caf0135c917",
+      "bytes": 4703
+    },
+    "ipo_trader/README.md": {
+      "sha256": "831923a17090b998718db9c7456f7f4951a99d4ece116c2c3088f705454340af",
+      "bytes": 15990
+    },
+    "kcb_sniper_v12/README.md": {
+      "sha256": "b086a1a1747e36acce930b4f743c2f3502cd8987807a18ca970e00c2ae2cbe07",
+      "bytes": 20922
+    },
+    "kcb_sniper_v13_manual_factors/configs/v13_manual.yaml": {
+      "sha256": "b4855e35b7ba4d78b124768fd812e82600d9d137bfbd2d3803081a4d39935b9e",
+      "bytes": 3171
+    },
+    "kcb_sniper_v14/README.md": {
+      "sha256": "36edb0144d5383553dcbcc27e04640e3ad8190016b9646cfdabd1131931ce037",
+      "bytes": 3400
+    },
+    "kcb_v15/README.md": {
+      "sha256": "bda4d08bf16bafb311283ec9871c1aa212d4b0293b6c25c67dd11680535fec9a",
+      "bytes": 7778
+    },
+    "kcb_v16/README.md": {
+      "sha256": "d0b1c06f4994f8c7edb4365652d785d5db429e8c30bd5fe510fe610cdfdb6e76",
+      "bytes": 8475
+    },
+    "kcb_v18/scripts/kcb_v17_backtest.py": {
+      "sha256": "b2d6444606766f3f12057863b60a861dd442841dd524a8a80fd41f65b021c665",
+      "bytes": 46132
+    },
+    "star_market_sell_model/README.md": {
+      "sha256": "b28216bfc3f854b7de3da5f0370016a50c6e1abfc4153af2cf6cb872d7d4ec69",
+      "bytes": 11372
+    },
+    "star_market_sell_model/docs/concept_multi_policy_annealing.md": {
+      "sha256": "179a85df186b16796d4f0e8667bd6329913952087ad7c8b029fccf8be5ade91b",
+      "bytes": 14775
+    },
+    "star_market_sell_model/src/features/combined_buy_filter.py": {
+      "sha256": "3386deac4f1c0e1dc2105dc95aba56d0dd1c4c09968d5a9df77b5b4f5a8750a3",
+      "bytes": 21175
+    }
+  }
+}

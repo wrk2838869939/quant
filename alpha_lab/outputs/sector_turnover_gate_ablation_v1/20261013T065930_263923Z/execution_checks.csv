@@ -1,0 +1,7 @@
+stock_rule,entry_rule,observations,both_open_limit_checks_pass,missing_limits,blocked_at_limit,adjustment_changes
+original,same_event_today,26,14,12,0,4
+original,persistent_5d,27,15,12,0,4
+no_expansion_gate,same_event_today,269,191,78,0,34
+no_expansion_gate,persistent_5d,278,197,81,0,33
+no_turnover_gates,same_event_today,521,351,167,2,69
+no_turnover_gates,persistent_5d,536,361,172,2,69

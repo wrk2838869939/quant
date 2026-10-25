@@ -1,0 +1,28 @@
+{
+  "trials": 108,
+  "paired_trial_accounts": 108,
+  "errors": 0,
+  "successful_fit_batches": 590,
+  "hmm_fit_batches": 274,
+  "hmm_em_budget_exhausted": 26,
+  "hmm_likelihood_decreases": 54,
+  "independent_accounts": 19,
+  "trades_checked": 7307,
+  "cash_max_error": 1.5279510989785194e-10,
+  "model_roundtrip_checks": 4,
+  "prediction_prefix_checks": 2,
+  "account_prefix_checks": 4,
+  "verified_surface_points": 54,
+  "nonmonotonic_triplets": 18,
+  "source_input_model_hashes_pass": true,
+  "outer_after_all_parameter_locks": true,
+  "extra_high_inner_account_audits": {
+    "flagged_accounts": 135,
+    "primary": 81,
+    "paired": 54,
+    "trades_checked": 53072,
+    "cash_max_error": 3.4924596548080444e-10,
+    "all_pass": true,
+    "known_full_window_quality_selection_bias_remains": true
+  }
+}

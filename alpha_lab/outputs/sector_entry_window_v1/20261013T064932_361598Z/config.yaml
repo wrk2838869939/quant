@@ -1,0 +1,28 @@
+study: sector_entry_window_v1
+release: datahub/releases/selection_live_20261013
+dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261013T053143_382413Z
+scan: alpha_lab/outputs/sector_live_scan/20261013T053630_999606Z
+event_source: alpha_lab/outputs/sector_multiscale_events/20260923T080028_978085Z
+model_source: alpha_lab/outputs/sector_fuzzy_random_halves/20260923T111853_561924Z
+outcome_source: alpha_lab/outputs/sector_confirmation_returns_multiscale/20260923T081158_848823Z
+stock_rules: alpha_lab/configs/left_side_trend_v2.yaml
+output_root: alpha_lab/outputs/sector_entry_window_v1
+asof: '2026-10-12'
+signal_sessions: 5
+variants: [legacy_today, same_event_today, persistent_5d]
+chronological_model:
+  minimum_train_events: 60
+  embargo_sessions: 20
+  rules: [4, 8]
+  learning_rate: 0.003
+  epochs: 100
+  seeds: [17, 43, 101]
+  retention: 0.5
+  update: annual
+observation:
+  horizons: [3, 10, 20]
+  buy_cost: 0.001
+  sell_cost: 0.002
+  slippage_per_side: 0.0005
+  # 仅复权开盘观察的固定费用压力测试，不冒充整手账户。
+  claim_executable: false

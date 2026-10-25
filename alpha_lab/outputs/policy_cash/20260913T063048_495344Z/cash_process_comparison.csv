@@ -1,0 +1,6 @@
+case,closed_episodes,censored_episodes,closed_median_days,cumulative_turnover,fees_yuan,mean_exposure,cash_days_including_initial
+cash_execution/base_50000_none,10,5,127.5,5.23321925652277,494.209,0.9784628681054416,1
+cash_execution/base_50000_entry_only,10,5,127.5,4.948741456581453,448.26,0.9556363127596276,1
+cash_execution/base_50000_liquidate,17,5,100.0,7.483175395972058,562.336,0.6583818083224016,159
+cash_execution/fixed_half_50000_none,10,5,117.0,2.6517522783655525,213.282,0.5407700793149891,1
+cash_confirm/base_50000_entry_only,15,5,102.0,7.106304941841423,601.699,0.850322127895615,1

@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "identity_repair": "/root/autodl-tmp/alpha_lab/outputs/identity_repair/20260913T130530_010878Z",
+  "canonical_codes_existing_listing_dates_exact": true,
+  "old_alias_listing_dates_match_official_evidence": {
+    "000022.SZ": "1993-05-05",
+    "000043.SZ": "1994-09-28",
+    "300114.SZ": "2010-08-27"
+  },
+  "canonical_namechange_history_unchanged": true,
+  "canonical_projection_no_duplicate_date_security_rows": true,
+  "projection_rows": 12270565,
+  "previous_potential_mainboard_missing_rows": 32,
+  "already_present_under_canonical_id": 32,
+  "canonical_training_counts": {
+    "001872.SZ": 29,
+    "001914.SZ": 16
+  },
+  "original_training_rows": 51883,
+  "frozen_constant_refit_exact": true,
+  "constant_return": 0.031093841602849885,
+  "constant_adverse": 0.1339867270831241,
+  "interpretation": "No new securities or training samples should be added; remove old duplicate aliases with companion identity overlay. Original training constant unchanged. Full feature/eligibility re-run independently owned by data reviewer."
+}

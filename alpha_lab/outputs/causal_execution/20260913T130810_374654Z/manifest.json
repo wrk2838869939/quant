@@ -1,0 +1,251 @@
+{
+  "status": "sources_frozen",
+  "created_at_utc": "2026-09-13T13:08:11.501598+00:00",
+  "parent": "/root/autodl-tmp/alpha_lab/outputs/conditional_hold/20260913T123032_500204Z",
+  "parent_manifest_sha256": "386e407e45865ba17ba521e0f49c56346ea6aeb150598b766b8b28391a06bcca",
+  "parent_completion_sha256": "421d24c433f4849f74ad85d0b4bc3d3da907029eeab398415bcb6828470c91e8",
+  "fresh_holdout": false,
+  "end": "2026-09-08",
+  "cases": [
+    {
+      "name": "cold_baseline",
+      "variant": "baseline",
+      "scenario": "cold",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_baseline",
+      "variant": "baseline",
+      "scenario": "continued",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "small_baseline",
+      "variant": "baseline",
+      "scenario": "small",
+      "buffer": 0.02,
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "large_baseline",
+      "variant": "baseline",
+      "scenario": "large",
+      "buffer": 0.02,
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "cost2_baseline",
+      "variant": "baseline",
+      "scenario": "cost2",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false
+    },
+    {
+      "name": "reverse_baseline",
+      "variant": "baseline",
+      "scenario": "reverse",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true
+    },
+    {
+      "name": "cold_baseline_buffer00",
+      "variant": "baseline",
+      "scenario": "cold",
+      "buffer": 0.0,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_baseline_buffer00",
+      "variant": "baseline",
+      "scenario": "continued",
+      "buffer": 0.0,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "cold_baseline_buffer05",
+      "variant": "baseline",
+      "scenario": "cold",
+      "buffer": 0.05,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_baseline_buffer05",
+      "variant": "baseline",
+      "scenario": "continued",
+      "buffer": 0.05,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "cold_hybrid",
+      "variant": "hybrid",
+      "scenario": "cold",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_hybrid",
+      "variant": "hybrid",
+      "scenario": "continued",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "small_hybrid",
+      "variant": "hybrid",
+      "scenario": "small",
+      "buffer": 0.02,
+      "capital": 20000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "large_hybrid",
+      "variant": "hybrid",
+      "scenario": "large",
+      "buffer": 0.02,
+      "capital": 100000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "cost2_hybrid",
+      "variant": "hybrid",
+      "scenario": "cost2",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 2,
+      "reverse_input": false
+    },
+    {
+      "name": "reverse_hybrid",
+      "variant": "hybrid",
+      "scenario": "reverse",
+      "buffer": 0.02,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": true
+    },
+    {
+      "name": "cold_hybrid_buffer00",
+      "variant": "hybrid",
+      "scenario": "cold",
+      "buffer": 0.0,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_hybrid_buffer00",
+      "variant": "hybrid",
+      "scenario": "continued",
+      "buffer": 0.0,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "cold_hybrid_buffer05",
+      "variant": "hybrid",
+      "scenario": "cold",
+      "buffer": 0.05,
+      "capital": 50000,
+      "start": "2024-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    },
+    {
+      "name": "continued_hybrid_buffer05",
+      "variant": "hybrid",
+      "scenario": "continued",
+      "buffer": 0.05,
+      "capital": 50000,
+      "start": "2022-01-01",
+      "cost_multiplier": 1,
+      "reverse_input": false
+    }
+  ],
+  "inputs_sha256": {
+    "low_turnover_signals.parquet": "9847c2a00c674bc2b00d989f45d3d353fac88ec05088ddc0fd899ac869a1c9c3",
+    "low_turnover_point_forecasts.parquet": "c9924750e6a28dfd09180ebd472a2e4e89771763ba534c5f232c4fcf156f25d1",
+    "monthly_hold_allowed.parquet": "e97dba477328ae19f9c2dced5dde74be82e74fbacb68ece0064af6e794c59049",
+    "basics.parquet": "ac0f8854d99c2d545010db481b05d1935f2c0a31972b9a7c8b510fafba75a883",
+    "st.parquet": "1792c6b45d87a82ce72ef1778203ecc417ba4bd0a4b02b745793f3e3fb2d3d72",
+    "limits.parquet": "6ed62662f801c4946c0147377cdf98246c5d61d57e5692d5ddbaa5c53265d1b7",
+    "normalized_actions.parquet": "5715dd381a54cb85e32ba65dc8c169879684159b7f754cadd5b4ee5858761f4e",
+    "raw_actions.parquet": "bc54af3b3c24988d99c26a7e6a2fc627165e5205d94a04e6ada6a5a0bae5bc1a",
+    "hold_baseline.parquet": "ea047aea6654dfc27c612e4cc02234c1d9c84b314c0ecbb3eefb2b8b2916126c",
+    "hold_hybrid.parquet": "f95c2e38298f58cd6bb783585f8deb02d3270e2d17ad8cea3f81ebc5b5ed4fef",
+    "market.parquet": "9e5a4ba61cdf4522bba6d431838d35ed4704ec9d74f5451cdec5ef1dec2b14cf",
+    "symmetric_phase_research.yaml": "8efe64c8cb5537cb4dbf210180bae5ffaeac9bbef14c71b92845e20509acf041",
+    "corporate_action_components.yaml": "2e8c81fbd2d16be26323c9f2523fa8d89f04e3f8aa2bb3d5e7b908443b1420a5",
+    "execution_config.yaml": "24fdea794063ff756e9f27260e9fc933bd3d17f8830d41fd515372c4e4f56599"
+  },
+  "source_data_sha256": {
+    "/root/autodl-tmp/alpha_lab/data/panel/daily_panel.parquet": "04d1b49b8e6b8907bb9767be235723dc8c722567901a8cc60b0f1814d9e596ea",
+    "/root/autodl-tmp/alpha_lab/data/raw/namechange_all.parquet": "677d06173e8bdf29d5376824a68b70498fbf476da6a2abc2b93e75b0ca34bd2b"
+  },
+  "input_extension": {
+    "high_low_rows": 194987,
+    "original_open_close_exact": true,
+    "action_known_dates": 980,
+    "st_known_dates": 2830
+  },
+  "source_hashes": {
+    "src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/run_causal_execution.py": "b319c720457a2913fece2a222a8a6ce8ddf8ca620e0830912a7c058d670c2f46",
+    "scripts/summarize_causal_execution.py": "df5552d0fcd983a1ff7e43e83e787b18149bee795a892c017a7609f742888519",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29"
+  },
+  "strategy_admitted": false,
+  "execution_certified": false,
+  "protocol_sha256": "b7ab370efa389ac48d3336dda24f5189807907ce7ea6ef093579d70775db2f51",
+  "config_sha256": "140a291644969809b5b0caf6385e19a32fb4d76022a5cfb70c8ffba7be11a565"
+}

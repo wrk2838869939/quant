@@ -1,0 +1,13 @@
+{
+  "code": "000300.SH",
+  "asof": "2026-09-14",
+  "complete": false,
+  "source": "configured Tushare provider",
+  "downloaded_at": "2026-09-14T11:29:19.450028+00:00",
+  "sha256": "6e47145fa416ff2571781c63a923b003700146e1a9d5fdaaec1f870436ae91b7",
+  "historical_path": "/root/autodl-tmp/alpha_lab/data/raw/index_daily.parquet",
+  "historical_sha256": "cd6dc3b7b8cdbe3dcaeef7de1e623824f2e8fc7a23867b3e2239faf5a0f37e02",
+  "raw_sha256": "af5e98a97d64f837b62e7be66a2d1b401eba5f8fa6e5140b39be615a08df3ded",
+  "status": "quarantined",
+  "reason": "range query contains 2026-09-12 absent from trading calendar; no automatic deletion"
+}

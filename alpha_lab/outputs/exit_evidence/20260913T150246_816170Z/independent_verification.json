@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "cohort": "exit",
+      "horizon": 20,
+      "year": 2024,
+      "manual_ridge_max_error": 6.765421556309548e-17,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "exit",
+      "horizon": 20,
+      "year": 2025,
+      "manual_ridge_max_error": 6.245004513516506e-17,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "exit",
+      "horizon": 20,
+      "year": 2026,
+      "manual_ridge_max_error": 9.020562075079397e-17,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "exit",
+      "horizon": 60,
+      "year": 2024,
+      "manual_ridge_max_error": 9.71445146547012e-17,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "exit",
+      "horizon": 60,
+      "year": 2025,
+      "manual_ridge_max_error": 1.0842021724855044e-16,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "exit",
+      "horizon": 60,
+      "year": 2026,
+      "manual_ridge_max_error": 1.0928757898653885e-16,
+      "fitted": true,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 20,
+      "year": 2024,
+      "manual_ridge_max_error": 7.632783294297951e-17,
+      "fitted": false,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 20,
+      "year": 2025,
+      "manual_ridge_max_error": 0.0,
+      "fitted": false,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 20,
+      "year": 2026,
+      "manual_ridge_max_error": 3.469446951953614e-18,
+      "fitted": false,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 60,
+      "year": 2024,
+      "manual_ridge_max_error": 3.469446951953614e-17,
+      "fitted": false,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 60,
+      "year": 2025,
+      "manual_ridge_max_error": 6.245004513516506e-17,
+      "fitted": false,
+      "train_labels_mature": true
+    },
+    {
+      "cohort": "recovery",
+      "horizon": 60,
+      "year": 2026,
+      "manual_ridge_max_error": 4.5102810375396984e-17,
+      "fitted": false,
+      "train_labels_mature": true
+    }
+  ],
+  "recovery_events_verified": 86,
+  "labels_recomputed": true,
+  "nonoverlap_checked": true,
+  "source_sha256": "cb3a9c1fd16521c6eb05a9fea0135d6effa8c0a0a231ecf6827de3099682b292"
+}

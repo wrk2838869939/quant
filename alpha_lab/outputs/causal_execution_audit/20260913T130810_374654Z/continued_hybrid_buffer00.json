@@ -1,0 +1,19 @@
+{
+  "name": "continued_hybrid_buffer00",
+  "status": "passed",
+  "planned_orders": 70,
+  "filled_orders": 68,
+  "intraday_limit_fills": 9,
+  "supplementary_attempts": 30,
+  "bonus_events": 0,
+  "actual_days": 1135,
+  "max_order_cash_difference": 0.0,
+  "missing_announcement_paths": 0,
+  "same_day_announcement_ambiguity_paths": 0,
+  "hashes": {
+    "daily.csv": "3027954ab9ca651b0adb56ac2d73a06e4df61cf6e1630e8ba842898ff20b14a8",
+    "trades.csv": "71f1da2c834e90776cbe3ade8feb91241d47ade458602eff0a7179169b244477",
+    "events.csv": "51603cdd64e82d54371e3a87c5c6245c73c545b3d0d9a59a642ccfc2d2f7b52d",
+    "holdings.csv": "a776d45962476557a2bc670b727dad47a167b77e1df5675e9779549132a30539"
+  }
+}

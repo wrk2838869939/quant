@@ -1,0 +1,10 @@
+cash_max_error,shares_max_error,equity_identity_max_error,trade_cash_max_error,fees_max_error,trades_checked,t_plus_one_pass,official_limits_pass,no_negative_cash,strategy,prefix_invariant,max_abs_daily_return,extreme_return_flag
+1.3460521586239338e-10,0.0,1.4551915228366852e-11,0.0,0.0,2676,True,True,True,momentum_daily,True,0.08299333363671502,False
+1.418811734765768e-10,0.0,1.4551915228366852e-11,0.0,0.0,491,True,True,True,momentum_monthly,True,0.08523847356878289,False
+2.0372681319713593e-10,0.0,1.4551915228366852e-11,0.0,0.0,2511,True,True,True,macd_daily,True,0.07892229346843327,False
+1.3096723705530167e-10,0.0,2.9103830456733704e-11,0.0,0.0,537,True,True,True,macd_monthly,True,0.08678806235781888,False
+3.92901711165905e-10,0.0,1.4551915228366852e-11,0.0,0.0,2143,True,True,True,moving_average_daily,True,0.09384569028769219,False
+1.0186340659856796e-10,0.0,1.4551915228366852e-11,0.0,0.0,395,True,True,True,moving_average_monthly,True,0.09376899237433356,False
+3.4560798667371273e-10,0.0,7.275957614183426e-12,0.0,0.0,8753,True,True,True,random_daily,True,0.0912109432087218,False
+8.731149137020111e-11,0.0,1.4551915228366852e-11,0.0,0.0,529,True,True,True,random_monthly,True,0.0978683829401582,False
+0.0,0.0,0.0,0.0,0.0,0,True,True,True,cash_daily,True,0.0,False

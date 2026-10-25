@@ -1,0 +1,9 @@
+{
+  "status": "registered",
+  "data_correction_only": true,
+  "parent": "outputs/policy_cash/20260913T063048_495344Z",
+  "correction": "effective-date-scoped 000043.SZ to 001914.SZ official limit join only",
+  "effective_date": "2019-12-16",
+  "original_run_mutated": false,
+  "cash_cases_run": false
+}

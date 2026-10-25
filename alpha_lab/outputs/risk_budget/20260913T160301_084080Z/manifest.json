@@ -1,0 +1,787 @@
+{
+  "cases": [
+    {
+      "name": "continued_calendar_01_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_01_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_08_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_08",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_15_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_15",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_calendar_22_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_22",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_00_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_00",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_05_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_05",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_10_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_10",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_uniform",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_entry_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_rolling_15_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "rolling_15",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "continued_small_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 20000,
+      "cost_multiplier": 1,
+      "stress": "small"
+    },
+    {
+      "name": "continued_small_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 20000,
+      "cost_multiplier": 1,
+      "stress": "small"
+    },
+    {
+      "name": "continued_large_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "continued_large_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "continued_cost2_baseline",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "continued_cost2_full_risk",
+      "window": "continued",
+      "start": "2022-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_calendar_01_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_01_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_08_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_08",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_15_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_15",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_calendar_22_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_22",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_00_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_00",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_05_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_05",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_10_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_10",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_uniform",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "uniform",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_entry_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "entry_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_rolling_15_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "rolling_15",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 1,
+      "stress": "main"
+    },
+    {
+      "name": "cold_small_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 20000,
+      "cost_multiplier": 1,
+      "stress": "small"
+    },
+    {
+      "name": "cold_small_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 20000,
+      "cost_multiplier": 1,
+      "stress": "small"
+    },
+    {
+      "name": "cold_large_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "cold_large_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 100000,
+      "cost_multiplier": 1,
+      "stress": "large"
+    },
+    {
+      "name": "cold_cost2_baseline",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "baseline",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    },
+    {
+      "name": "cold_cost2_full_risk",
+      "window": "cold",
+      "start": "2024-01-01",
+      "schedule": "calendar_01",
+      "policy": "full_risk",
+      "capital": 50000,
+      "cost_multiplier": 2,
+      "stress": "cost2"
+    }
+  ],
+  "config_sha256": "af4577d940b84c4292e58a69b486c06ab710c61f038d9fffcfcfaad3b6f007e3",
+  "protocol_sha256": "7b3c1f899f04aa0174a6eafc4533bc51eef4568c4dcc130c57c2491a0646538b",
+  "source_hashes": {
+    "scripts/research_risk_budget.py": "0d099517e9a20c16903513a1db4877e01a38d5a56cae9ae48ce45e4ae6c794e6",
+    "src/risk_budget_portfolio.py": "3f60925f54054652275206941939e7600644fe1540fb335e2ab74559d09d35bf",
+    "src/causal_portfolio.py": "5ebcc40650412afda56188f95bae30e61f46bb8af1202e1ce80b7cf79c8fe23c",
+    "src/lifecycle_risk.py": "596491b9590b66b50e8d44c95e7096f593accebde8e1996e669eb8ac8a3fc8f6",
+    "src/exit_history.py": "85777fb322357bbea2e6edbcb814c26c6c1a90a8aeb3ebe9fdae224e4890d517",
+    "src/exit_evidence.py": "63b845d5e926ce95294dbd3927015086d60b1969df86fd6ccd0bcd45f9e1c350",
+    "src/portfolio.py": "17a4e87a3fe48a31c1006062d424ba095e3abf62b05e2de986edcee4a492bee1",
+    "src/selection_first.py": "5d8abac1b410ff3fb4b0cbee2f2b9608292d69897c2e6d1b06d6469e536383ec",
+    "src/retail_rebalance.py": "b81be89941d924207f50ee9afd2d8ece7a0626684ae3ece0adb5d83aba01c9fe",
+    "scripts/audit_monthly_portfolio.py": "82fdfc602b22740fce9fe25288a4b0ab87fcedb2c4cc2c1d6935889050be26f1",
+    "scripts/run_patient_value_execution.py": "7803d6ca417ff07db3a5995a5c439c2e7fe7e744999a732fe2c7ba1757e7bb29",
+    "scripts/run_risk_budget_tests.py": "67b3e8b85e882920886d5e2e59344c046c6c63897a853a2e69c4654c5f9f1e5b",
+    "tests/test_risk_budget.py": "afb8bb01ec786e49cf0b1cfbda4acaf3880763f33da988a29e00c5a6cae62909",
+    "tests/test_causal_portfolio_adversarial.py": "dca18412421f0d0b6dd8b79f52b2e4a2d11fdb48dd55b396d93df838e0e4a6d1"
+  },
+  "parent_receipts": {
+    "outputs/rolling_review/20260913T141120_325588Z": "abb5f9c9312f1716daf6fc523806a767724ebc8f8c85532147c115ca1db3aaac",
+    "outputs/exit_history/20260913T151753_889536Z": "eb4394faf80d7e693626cc2a624e7d3927f98d01c1897e9f5847915d9af6efff"
+  },
+  "root_agents_sha256": "82928cd87d095193da9adc18307823f6db6f4a425455146f8f4b45ba0c6e8ad6"
+}

@@ -1,0 +1,4 @@
+family,outer_year,selected_id,locked_at,inner_end,feasible_count,params_json,median_inner_ann,inner_mdd,neighbor_count,neighbor_q25
+S01,2021,eb8ed1b5c00cc2638c48,2026-09-20T10:13:25.981833+00:00,2020-12-31,8,"{""family"": ""S01"", ""frequency"": ""daily"", ""top_n"": 3, ""variant"": ""low_mean_turnover"", ""window"": 29}",0.024446578700126786,-0.1272733333838052,1,
+S01,2022,460d4f0fbd957654d45d,2026-09-20T10:13:36.115396+00:00,2021-12-31,8,"{""family"": ""S01"", ""frequency"": ""weekly"", ""top_n"": 5, ""variant"": ""low_mean_turnover"", ""window"": 109}",0.06450360926262899,-0.16009081420138072,1,
+S01,2023,21cbbdf338a3c957028a,2026-09-20T10:13:49.422474+00:00,2022-12-31,8,"{""family"": ""S01"", ""frequency"": ""weekly"", ""top_n"": 4, ""variant"": ""low_mean_turnover"", ""window"": 116}",0.059171775657283154,-0.16518422458075355,1,

@@ -1,0 +1,179 @@
+{
+  "origins": 165,
+  "origin_dates": 82,
+  "origin_clusters": 17,
+  "largest_cluster_events": 59,
+  "largest_cluster_start": "2019-03-25",
+  "largest_cluster_end": "2019-06-06",
+  "cohort": [
+    {
+      "landmark": 0,
+      "origin_events": 165,
+      "dates_reached": 165,
+      "available": 165,
+      "missing_segment": 0,
+      "end_of_dataset": 0,
+      "original_episode_active": 165,
+      "original_pullback_still_valid": 165,
+      "complete_candidate": 0
+    },
+    {
+      "landmark": 5,
+      "origin_events": 165,
+      "dates_reached": 165,
+      "available": 163,
+      "missing_segment": 2,
+      "end_of_dataset": 0,
+      "original_episode_active": 157,
+      "original_pullback_still_valid": 94,
+      "complete_candidate": 10
+    },
+    {
+      "landmark": 10,
+      "origin_events": 165,
+      "dates_reached": 165,
+      "available": 159,
+      "missing_segment": 6,
+      "end_of_dataset": 0,
+      "original_episode_active": 139,
+      "original_pullback_still_valid": 91,
+      "complete_candidate": 4
+    }
+  ],
+  "ranking_support": [
+    {
+      "offset": 0,
+      "complete_events": 154,
+      "complete_dates": 75,
+      "complete_clusters": 17,
+      "multi_dates": 24,
+      "triple_dates": 7
+    },
+    {
+      "offset": 5,
+      "complete_events": 152,
+      "complete_dates": 73,
+      "complete_clusters": 17,
+      "multi_dates": 24,
+      "triple_dates": 7
+    },
+    {
+      "offset": 10,
+      "complete_events": 151,
+      "complete_dates": 72,
+      "complete_clusters": 16,
+      "multi_dates": 24,
+      "triple_dates": 7
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "landmark": 0,
+      "horizon": 5,
+      "events": 1,
+      "dates": 1,
+      "clusters": 1,
+      "mean": -0.05181727570972644,
+      "median": -0.05181727570972644,
+      "positive_dates": 0,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 0,
+      "horizon": 10,
+      "events": 1,
+      "dates": 1,
+      "clusters": 1,
+      "mean": -0.0909432643743382,
+      "median": -0.0909432643743382,
+      "positive_dates": 0,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 0,
+      "horizon": 20,
+      "events": 1,
+      "dates": 1,
+      "clusters": 1,
+      "mean": -0.17514250237823314,
+      "median": -0.17514250237823314,
+      "positive_dates": 0,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 5,
+      "horizon": 5,
+      "events": 2,
+      "dates": 2,
+      "clusters": 2,
+      "mean": 0.005149064304240744,
+      "median": 0.005149064304240744,
+      "positive_dates": 2,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 5,
+      "horizon": 10,
+      "events": 2,
+      "dates": 2,
+      "clusters": 2,
+      "mean": -0.0014460816887513443,
+      "median": -0.0014460816887513443,
+      "positive_dates": 1,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 5,
+      "horizon": 20,
+      "events": 2,
+      "dates": 2,
+      "clusters": 2,
+      "mean": -0.055817344307414946,
+      "median": -0.055817344307414946,
+      "positive_dates": 0,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 10,
+      "horizon": 5,
+      "events": 2,
+      "dates": 2,
+      "clusters": 1,
+      "mean": -0.018115769542271676,
+      "median": -0.018115769542271676,
+      "positive_dates": 1,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 10,
+      "horizon": 10,
+      "events": 2,
+      "dates": 2,
+      "clusters": 1,
+      "mean": 0.03083065805741475,
+      "median": 0.03083065805741475,
+      "positive_dates": 2,
+      "ci_low": NaN,
+      "ci_high": NaN
+    },
+    {
+      "landmark": 10,
+      "horizon": 20,
+      "events": 2,
+      "dates": 2,
+      "clusters": 1,
+      "mean": 0.11124984728109066,
+      "median": 0.11124984728109066,
+      "positive_dates": 2,
+      "ci_low": NaN,
+      "ci_high": NaN
+    }
+  ]
+}

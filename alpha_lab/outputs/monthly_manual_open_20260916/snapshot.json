@@ -1,0 +1,14 @@
+{
+  "account_id": "retail_80k_20260914",
+  "asof": "2026-09-15",
+  "phase": "eod",
+  "timestamp": "2026-09-15T15:05:00+08:00",
+  "source": "user_report_in_conversation",
+  "evidence": "2026-09-16 09:1x 用户确认2026-09-15收盘状态: 可用资金80000元、空仓、无未结委托/冻结; 接续2026-09-14登记(同源同额)",
+  "cash": 80000.0,
+  "receivables": 0.0,
+  "frozen_cash": 0.0,
+  "open_orders": [],
+  "positions": {},
+  "equity": 80000.0
+}

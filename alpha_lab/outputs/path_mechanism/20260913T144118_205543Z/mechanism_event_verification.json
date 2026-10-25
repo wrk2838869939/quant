@@ -1,0 +1,486 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "continued_calendar_01_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_01_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_01_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 26,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_01_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 23,
+      "eligible_recovery_events": 3
+    },
+    {
+      "name": "continued_calendar_01_lot_buffer",
+      "lot_graces": 18,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_08_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_08_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_08_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 28,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_08_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 30,
+      "eligible_recovery_events": 5
+    },
+    {
+      "name": "continued_calendar_08_lot_buffer",
+      "lot_graces": 19,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_15_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_15_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_15_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 27,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_15_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 27,
+      "eligible_recovery_events": 6
+    },
+    {
+      "name": "continued_calendar_15_lot_buffer",
+      "lot_graces": 17,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_22_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_22_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_22_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 30,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_calendar_22_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 32,
+      "eligible_recovery_events": 9
+    },
+    {
+      "name": "continued_calendar_22_lot_buffer",
+      "lot_graces": 19,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_00_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_00_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_00_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 26,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_00_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 30,
+      "eligible_recovery_events": 8
+    },
+    {
+      "name": "continued_rolling_00_lot_buffer",
+      "lot_graces": 19,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_05_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_05_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_05_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 32,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_05_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 30,
+      "eligible_recovery_events": 5
+    },
+    {
+      "name": "continued_rolling_05_lot_buffer",
+      "lot_graces": 3,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_10_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_10_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_10_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 27,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_10_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 28,
+      "eligible_recovery_events": 3
+    },
+    {
+      "name": "continued_rolling_10_lot_buffer",
+      "lot_graces": 19,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_15_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_15_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_15_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 26,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "continued_rolling_15_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 26,
+      "eligible_recovery_events": 4
+    },
+    {
+      "name": "continued_rolling_15_lot_buffer",
+      "lot_graces": 12,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_01_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_01_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_01_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 15,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_01_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 15,
+      "eligible_recovery_events": 1
+    },
+    {
+      "name": "cold_calendar_01_lot_buffer",
+      "lot_graces": 10,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_08_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_08_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_08_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 16,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_08_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 19,
+      "eligible_recovery_events": 3
+    },
+    {
+      "name": "cold_calendar_08_lot_buffer",
+      "lot_graces": 2,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_15_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_15_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_15_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 15,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_15_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 13,
+      "eligible_recovery_events": 2
+    },
+    {
+      "name": "cold_calendar_15_lot_buffer",
+      "lot_graces": 14,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_22_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_22_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_22_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 15,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_calendar_22_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 15,
+      "eligible_recovery_events": 2
+    },
+    {
+      "name": "cold_calendar_22_lot_buffer",
+      "lot_graces": 13,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_00_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_00_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_00_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 13,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_00_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 14,
+      "eligible_recovery_events": 1
+    },
+    {
+      "name": "cold_rolling_00_lot_buffer",
+      "lot_graces": 10,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_05_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_05_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_05_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 17,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_05_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 16,
+      "eligible_recovery_events": 1
+    },
+    {
+      "name": "cold_rolling_05_lot_buffer",
+      "lot_graces": 7,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_10_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_10_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_10_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 16,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_10_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 20,
+      "eligible_recovery_events": 3
+    },
+    {
+      "name": "cold_rolling_10_lot_buffer",
+      "lot_graces": 11,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_15_baseline",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_15_duration",
+      "lot_graces": 0,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_15_wait",
+      "lot_graces": 0,
+      "filled_exits_remembered": 13,
+      "eligible_recovery_events": 0
+    },
+    {
+      "name": "cold_rolling_15_recover",
+      "lot_graces": 0,
+      "filled_exits_remembered": 13,
+      "eligible_recovery_events": 1
+    },
+    {
+      "name": "cold_rolling_15_lot_buffer",
+      "lot_graces": 12,
+      "filled_exits_remembered": 0,
+      "eligible_recovery_events": 0
+    }
+  ],
+  "source_sha256": "a3f8c96131e46096da42652baab8da249423d9207ac889395b4357f40838739e"
+}

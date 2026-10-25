@@ -1,0 +1,11 @@
+dataset: alpha_lab/data/sector_datasets/sw_l2_v1_20260921T073401_889301Z
+events: alpha_lab/outputs/sector_shape_expansion/20260922T080121_809679Z
+output_root: alpha_lab/outputs/sector_confirmation_returns
+horizons: [3, 10, 20]
+expected_events: 230
+benchmark: 000300.SH
+minimum_member_coverage: 0.80
+plot_bins: 30
+plot_seed: 20260923
+font: fonts/SimHei.ttf
+dpi: 150

@@ -1,0 +1,3 @@
+expr,train_ic,train_icir,valid_ic,decay,lib_corr,passed,n_trials
+"sqrt(ts_zscore(amt,60),20)",-0.0735,-0.87,-0.0667,1.1,0.249,True,51
+"sqrt(ts_zscore(amt,60),5)",-0.0735,-0.87,-0.0667,1.1,0.249,True,52

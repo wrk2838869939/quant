@@ -1,0 +1,16 @@
+# 细分板块数据探测；不改写冻结数据。
+timeout_seconds: 25
+workers: 2
+queries:
+  - {name: dc_index_old, api: dc_index, params: {trade_date: '20231229', idx_type: 行业板块}}
+  - {name: dc_index_recent, api: dc_index, params: {trade_date: '20260908', idx_type: 行业板块}}
+  - {name: dc_member_old, api: dc_member, params: {trade_date: '20231229', ts_code: BK0477.DC}}
+  - {name: dc_member_recent, api: dc_member, params: {trade_date: '20260908', ts_code: BK0477.DC}}
+  - {name: dc_daily_old, api: dc_daily, params: {trade_date: '20231229', idx_type: 行业板块}}
+  - {name: sw_2014_l2, api: index_classify, params: {src: SW2014, level: L2}}
+  - {name: sw_2014_l3, api: index_classify, params: {src: SW2014, level: L3}}
+  - {name: sw_2021_l2, api: index_classify, params: {src: SW2021, level: L2}}
+  - {name: sw_2021_l3, api: index_classify, params: {src: SW2021, level: L3}}
+  - {name: sw_members_old, api: index_member_all, params: {l1_code: 801050.SI, is_new: N}}
+  - {name: sw_members_current, api: index_member_all, params: {l1_code: 801050.SI, is_new: Y}}
+  - {name: sw_daily_old, api: sw_daily, params: {trade_date: '20231229'}}

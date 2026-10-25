@@ -1,0 +1,15 @@
+{
+  "REPORT.md": "43aa5f0399bb186b23c7afc848d235794fa60d09697cd477fbe10e7f56cd7f2b",
+  "all_trials.csv": "56e926ea1a99d0ae49fbfaabfa6e1f7d6b938338329830fa6acc3fcb3ac6eef6",
+  "outer_summary.csv": "1417c7e1b93757225abc541c3d9e13a46be0e98ed7271b9db310ab8a384d3ae1",
+  "paired_summary.csv": "6daeb7925e57345d205f7f19a6afb2d539ce2b3ab4d133e245eb000196141422",
+  "control_summary.csv": "3c6bebf2922c31ea43d1911522ff5f559c504317ac1b6c1a4b5e497d0c480ac1",
+  "forecast_quality.csv": "7a2062f471b6da9828e71199184edfb93c6c7f31a3776e1819c248125d490c17",
+  "fit_audit_summary.csv": "ca2e66d9628841126352bc2ef175e2a59dff26f6e9ae1ce0471ebe02fff99bf8",
+  "outer_prediction_diagnostics.csv": "6602df7d0802889992c92e77c82740cfcea5b0bee332d8e5ec046c1b497a5268",
+  "validation_summary.json": "183a2a7c843b23b37793cff7ff4bc68623f23ce8b31eb0ba709e2913f73d1307",
+  "model_roundtrip_checks.csv": "83e137f4d6116a8b5e4368a9c74fcd27c9a06632ac25ea630bb2e204647ed353",
+  "cumulative_search_ledger.csv": "73ef3fb5288a613128b1537d5d1b47cc60ff685a7b91505797ea73d3a461c224",
+  "completion_checks.json": "bcdae00f07d5ff8d8acde94914589da4cead206432090698867c69b6a48d98f3",
+  "outer_nav_drawdown.png": "c1ff408d1e2c2b12150159b085743b71ae8b45d1d36fd4be44a4e6aa4119aa57"
+}

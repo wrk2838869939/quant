@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "sources": {
+    "scripts/audit_process_states.py": "4d388134aab6d579aae80736d95757159d5afeb651538ff25dbe34109576ca6b",
+    "src/path_diagnostics.py": "8053e2b6f653d52d0da6163c202301f7fd68b96f906ba076021eaa2a3349de95",
+    "src/investable.py": "3ec699670963d2aac8ad355f89df9dff1167aa528207ef3fc19515a0586ebd20",
+    "configs/process_diagnostics.yaml": "08527bf703b3e37237c478c5bc8d68eacc345db7964d8c78d5ba77383de8d223"
+  },
+  "inputs": {
+    "outputs/long_only_followup/20260911T141208_459585Z/tail_signal_signals.parquet": "5cc58d8c5784f86acaca31c3711ee82860be71ce96f7a1cd91bd3af0d3f832b4",
+    "outputs/style_attribution/20260911T160006_201315Z/candidate_signals.parquet": "4270bf63b808b24deed46aca3f835f596f63768674a3a61ac71e727a7654322d",
+    "outputs/style_attribution/20260911T160006_201315Z/config.yaml": "926b80ffeb62901f93da881828414ee93d1e00dd4a04cb178509277f04effcc0",
+    "outputs/style_attribution/20260911T160006_201315Z/candidate_cost1_daily.csv": "5b12f5ebc9a7d293e0f6ccc751412e6815aba055b2abbf26042ac6ec90ac4edf",
+    "outputs/style_attribution/20260911T160006_201315Z/candidate_cost1_trades.csv": "019baee8594f954c3eec42a010249a8dbe0888607a51278919b6e957bd619046",
+    "outputs/style_attribution/20260911T160006_201315Z/candidate_cost1_holdings.csv": "c9d6ac643b62858b8597823dfee7ad7052f4a4b947a7963f4abe163357456f95",
+    "outputs/style_attribution/20260911T160006_201315Z/candidate_cost1_events.csv": "5986bdd8b6191c46379d15b5b6f30e7fcb736832d855a96249d17f64b3b81f93"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "continued_rolling_00_restore",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "name": "continued_rolling_00_grace",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    },
+    {
+      "name": "continued_rolling_00_combined",
+      "cutoff": "2025-06-30 00:00:00",
+      "exact": true
+    }
+  ],
+  "source_sha256": "efc0aef0d480db3d23cbdc29b797a0f70b173972313e0a27e769e1186e75bbf1"
+}

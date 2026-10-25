@@ -1,0 +1,5 @@
+control,candidate_minus_control_annual_mean,descriptive_low,descriptive_high,fresh_holdout
+candidate,0.0,0.0,0.0,False
+industry_board,0.11905128916683645,0.0578884696404495,0.17627819226251917,False
+size_matched,0.08626077941666631,0.02908047776920227,0.14192416441789155,False
+size_liquidity_matched,0.022978757219152914,-0.023740414345164846,0.07039608386459599,False

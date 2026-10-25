@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "year": 2026,
+  "events": 17,
+  "max_abs_score_difference": 7.450580596923828e-09,
+  "threshold": 0.0032892869785428047,
+  "stock_last_label": "2025-11-19 00:00:00",
+  "stock_alpha": 100.0,
+  "no_retraining": true
+}

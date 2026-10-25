@@ -1,0 +1,27 @@
+asof: '2026-10-21'
+previous_end: '2026-10-20'
+endpoint: http://jiaoch.site/api
+timeout_seconds: 25
+retries: 3
+workers: 2
+apis:
+- daily
+- adj_factor
+- daily_basic
+- moneyflow
+minimum_daily_rows: 4500
+minimum_basic_coverage: 0.95
+output_root: alpha_lab/outputs/sector_live_update
+release: datahub/releases/selection_live_20261021_eod
+old_release: datahub/releases/selection_live_20261020_eod
+old_sector_dataset: alpha_lab/data/sector_live_datasets/sw_l2_v1_20261020T113446_268600Z
+recent_signal_sessions: 5
+stock_history_sessions: 400
+stock_rule_config: alpha_lab/configs/left_side_trend_v2.yaml
+maximum_review_cases: 8
+initial_capital: 100000
+maximum_drawdown: 0.3
+font: fonts/SimHei.ttf
+dpi: 140
+requested_date: '2026-10-21'
+previous_scan: alpha_lab/outputs/sector_live_scan/20261020T113957_683276Z

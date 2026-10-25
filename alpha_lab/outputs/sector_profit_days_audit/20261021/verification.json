@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scored": 256,
+  "complete": 226,
+  "paths": 4520,
+  "terminal_returns_matched": true,
+  "completeness_unchanged": true,
+  "no_retraining": true,
+  "no_threshold_changes": true,
+  "benchmark": "confirmation_close",
+  "horizon": 20
+}

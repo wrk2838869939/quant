@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "task": [
+        2022,
+        "B02_low_risk",
+        "baseline"
+      ],
+      "generation": 64,
+      "candidates": 12,
+      "six_tables_each_exact": true,
+      "parameters_exact": true,
+      "center_champion_rng_exact": true
+    },
+    {
+      "task": [
+        2023,
+        "equal_weight",
+        "baseline"
+      ],
+      "generation": 64,
+      "candidates": 12,
+      "six_tables_each_exact": true,
+      "parameters_exact": true,
+      "center_champion_rng_exact": true
+    }
+  ],
+  "script_sha256": "b562d8cb79aaa09680be27f14187f9efbba0ef84dde2126a4192902242eae6fe",
+  "config": {
+    "candidate_workers": 8,
+    "verification_generation": 64,
+    "verification_tasks": [
+      [
+        2022,
+        "B02_low_risk",
+        "baseline"
+      ],
+      [
+        2023,
+        "equal_weight",
+        "baseline"
+      ]
+    ]
+  },
+  "candidate_workers": 8
+}

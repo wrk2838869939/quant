@@ -1,0 +1,56 @@
+[
+  {
+    "api": "index_daily",
+    "params": {
+      "ts_code": "000300.SH",
+      "trade_date": "20260912"
+    },
+    "requested_at": "2026-09-14T11:32:50.120168+00:00",
+    "rows": 0,
+    "status": "downloaded",
+    "received_at": "2026-09-14T11:32:50.807596+00:00"
+  },
+  {
+    "api": "index_daily",
+    "params": {
+      "ts_code": "000300.SH",
+      "trade_date": "20260914"
+    },
+    "requested_at": "2026-09-14T11:32:50.826099+00:00",
+    "rows": 1,
+    "status": "downloaded",
+    "received_at": "2026-09-14T11:32:51.153280+00:00"
+  },
+  {
+    "api": "index_daily",
+    "params": {
+      "ts_code": "000300.SH",
+      "trade_date": "20260911"
+    },
+    "requested_at": "2026-09-14T11:32:51.161859+00:00",
+    "rows": 1,
+    "status": "downloaded",
+    "received_at": "2026-09-14T11:32:51.318560+00:00"
+  },
+  {
+    "api": "index_dailybasic",
+    "params": {
+      "ts_code": "000300.SH",
+      "trade_date": "20260914"
+    },
+    "requested_at": "2026-09-14T11:32:51.326848+00:00",
+    "rows": 1,
+    "status": "downloaded",
+    "received_at": "2026-09-14T11:32:51.581400+00:00"
+  },
+  {
+    "api": "daily",
+    "params": {
+      "trade_date": "20260912"
+    },
+    "requested_at": "2026-09-14T11:32:51.589454+00:00",
+    "rows": 0,
+    "status": "downloaded",
+    "received_at": "2026-09-14T11:32:51.797439+00:00"
+  }
+]
